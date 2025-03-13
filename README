@@ -71,7 +71,7 @@ $ echo 'nuit lit farine feuille' | apertium -d . fra-oci_gascon
 nuèit lièit haria huelha
 ```
 
-Translation from Occitan into French with custom preferences:
+Translation from French into Occitan with custom preferences:
 
 ```sh
 $  echo 'nuit lit farine feuille' | AP_SETVAR="ue_uo" apertium -d . fra-oci
@@ -85,11 +85,23 @@ $  echo 'nuit lit farine feuille' | AP_SETVAR="ue_uo,casuda_n" apertium -d . fra
 nuòch lièch faria fuelha
 ```
 
-Translation from Occitan into French with a set of preferences and custom preferences:
+Translation from French into Occitan with a set of preferences and custom preferences:
 
 ```sh
 $  echo 'nuit lit farine feuille' | AP_SETVAR="ue_uo" apertium -d . fra-oci_gascon
 nuòch lièit haria huelha
+```
+
+Translation from Occitan into French:
+
+```sh
+$  echo 'nuèch lièch farina fuelha' | apertium -d . oci-fra
+Nuit lit farine feuille
+```
+
+```sh
+$  echo 'nuòch lièit haria huelhas' | apertium -d . oci-fra
+Nuit lit farine feuilles
 ```
 
 
