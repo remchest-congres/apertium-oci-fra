@@ -1,3 +1,9 @@
+WARNING
+===============================================================================
+Please be aware that this repository is a `WORK IN PROGRESS`. The datas, paradigms and
+gramatical rules included here are only for `TEST` purposes. The output of the translations
+are not trustworthy regarding Occitan and French languages.
+
 Occitan and French (`apertium-oci-fra`)
 ===============================================================================
 
@@ -46,46 +52,51 @@ to ./configure, make sure to give the same --prefix to ./configure here.
 Testing
 ===============================================================================
 
+Right now this language pair only includes a limited number of words for testing purposes.
+
 If you are in the source directory after running make, the following
 commands should work:
 
-Translation from French into Languedocian Occitan:
+Translation from French into Occitan (default is Languedocian):
 
 ```sh
-$ echo "Apertium est un logiciel de traduction automatique" | apertium -d . fra-oci
-Apertium es un logicial de traduccion automatica
+$ echo 'nuit lit farine feuille' | apertium -d . fra-oci
+nuèch lièch farina fuelha
 ```
 
-Translation from French into Gascon Occitan:
+Translation from French into Occitan with a set of preferences (here an example for Gascon):
 
 ```sh
-$ echo "Apertium est un logiciel de traduction automatique" | apertium -d . fra-oci_gascon
-Apertium qu'ei un logiciau de traduccion automatica
+$ echo 'nuit lit farine feuille' | apertium -d . fra-oci_gascon
+nuèit lièit haria huelha
 ```
 
-Translation from Languedocian Occitan into French:
+Translation from Occitan into French with custom preferences:
 
 ```sh
-$  echo "Apertium es un logicial de traduccion automatica" | apertium -d . oci-fra
-Apertium est un logiciel de traduction automatique
+$  echo 'nuit lit farine feuille' | AP_SETVAR="ue_uo" apertium -d . fra-oci
+nuòch lièch farina fuelha
 ```
 
-Translation from Gascon Occitan into French:
+Multiples preferences can be set in AP_SETVAR:
 
 ```sh
-$  echo "Apertium qu'ei un logiciau de traduccion automatica" | apertium -d . oci_gascon-fra
-Apertium est un logiciel de traduction automatique
+$  echo 'nuit lit farine feuille' | AP_SETVAR="ue_uo,casuda_n" apertium -d . fra-oci
+nuòch lièch faria fuelha
 ```
 
-After installing somewhere in $PATH, you should be able to do e.g.
+Translation from Occitan into French with a set of preferences and custom preferences:
 
 ```sh
-$ echo "Apertium est un logiciel de traduction automatique" | apertium fra-oci
-Apertium es un logicial de traduccion automatica
+$  echo 'nuit lit farine feuille' | AP_SETVAR="ue_uo" apertium -d . fra-oci_gascon
+nuòch lièit haria huelha
 ```
+
 
 Files and data
 ===============================================================================
+
+TODO: update this list
 
 * apertium-oci-fra.oci-fra.dix  - Bilingual dictionary
 * apertium-oci-fra.oci-fra.t1x  - Chunking rules for translating into French
