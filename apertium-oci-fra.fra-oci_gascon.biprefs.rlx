@@ -1,0 +1,9 @@
+# on hard-code des variables pour cette variété, en ignorant celles renseignées par l'utilisateur
+
+# JE CROIS QUE : celles ci servent à trier les entrées avant le transfert au dictionnaire unilingue
+# c'est à dire trier entre des ambiguités existant dans le dico bilingue
+
+DELIMITERS = ".";
+
+# IFF (v:ue_uo) ;
+

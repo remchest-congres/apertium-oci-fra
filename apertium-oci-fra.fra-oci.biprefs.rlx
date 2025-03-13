@@ -1,0 +1,10 @@
+# les tests de moi
+
+DELIMITERS = ".";
+
+# SELECT (v:ue_uo)      IF (0 (VAR:ue_uo)) ;
+# REMOVE (v:ue_uo) ;
+# 
+# SELECT (v:ch_it)      IF (0 (VAR:ch_it)) ;
+# REMOVE (v:ch_it) ;
+

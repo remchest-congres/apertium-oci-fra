@@ -21,6 +21,10 @@
       <program name="lt-proc -b">
         <file name="fra-oci.autobil.bin"/>
       </program>
+      <!-- on désambiguise avant le transfer selon les préférences de l'utilisateur (aka on fait un pré tri dans le dico bilingue)-->
+      <program name="cg-proc" debug-suff="biprefs">
+        <file name="fra-oci.biprefs.rlx.bin"/>
+      </program>
       <program name="lrx-proc -m" debug-suff="lex_np">
         <file name="fra-oci.np.autolex.bin"/>
       </program>
@@ -69,8 +73,97 @@
         <file name="fra-oci.autosep2.bin"/>
       </program>
       <program name="apertium-posttransfer" debug-suff="posttransfer"/>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b" debug-suff="dgen">
         <file name="fra-oci.autogen.bin"/>
+      </program>
+      <!-- on désambiguise les réponses du dico monoligue en fonction des règles de préférence du dico monoligue et des  variables de l'utilisateur -->
+      <program name="cg-proc -1 -n -g" debug-suff="genprefs">
+        <file name="fra-oci.genprefs.rlx.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="fra-oci.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- fra → oci_gascon -->
+
+  <mode name="fra-oci_gascon" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="fra-oci.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w" debug-suff="disamb">
+        <file name="fra-oci.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="fra-oci.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc" debug-suff="lsx1">
+        <file name="fra-oci.autosep1.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="fra-oci.autobil.bin"/>
+      </program>
+      <!-- on désambiguise avant le transfer selon les préférences de l'utilisateur (aka on fait un pré tri dans le dico bilingue)-->
+      <program name="cg-proc" debug-suff="biprefs">
+        <file name="fra-oci_gascon.biprefs.rlx.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_np">
+        <file name="fra-oci.np.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_n">
+        <file name="fra-oci.n_a_adv.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_v">
+        <file name="fra-oci.v.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex">
+        <file name="fra-oci.other.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="fra-oci.t1x"/>
+        <file name="fra-oci.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunk_ini">
+        <file name="apertium-oci-fra.fra-oci.t2x_ini"/>
+        <file name="fra-oci.t2x_ini.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="fra-oci.t2x"/>
+        <file name="fra-oci.t2x.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunk_bis">
+        <file name="fra-oci.t2x_bis"/>
+        <file name="fra-oci.t2x_bis.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunk_pas">
+        <file name="apertium-oci-fra.fra-oci.t2x_pas"/>
+        <file name="fra-oci.t2x_pas.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunk_pro">
+        <file name="apertium-oci-fra.fra-oci.t2x_pro"/>
+        <file name="fra-oci.t2x_pro.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-oci-fra.fra-oci.t3x"/>
+        <file name="fra-oci.t3x.bin"/>
+      </program>
+      <program name="apertium-transfer -n" debug-suff="t4x">
+        <file name="apertium-oci-fra.fra-oci.t4x"/>
+        <file name="fra-oci.t4x.bin"/>
+      </program>
+      <program name="lsx-proc" debug-suff="lsx2">
+        <file name="fra-oci.autosep2.bin"/>
+      </program>
+      <program name="apertium-posttransfer" debug-suff="posttransfer"/>
+      <program name="lt-proc $1 -b" debug-suff="dgen">
+        <file name="fra-oci.autogen.bin"/>
+      </program>
+      <!-- on désambiguise les réponses du dico monoligue en fonction des règles de préférence du dico monoligue et des  variables de l'utilisateur -->
+      <program name="cg-proc -1 -n -g" debug-suff="genprefs">
+        <file name="fra-oci_gascon.genprefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="fra-oci.autopgen.bin"/>
@@ -82,104 +175,6 @@
     <pipeline>
       <program name="lt-proc -w">
         <file name="fra-oci.automorf.bin"/>
-      </program>
-      <program name="cg-conv -a -l"/>
-      <program name="vislcg3 --trace --grammar">
-        <file name="fra-oci.rlx.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  
-  <!-- fra → oci@gascon -->
-
-  <mode name="fra-oci_gascon" install="yes" gendebug="yes">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="fra-oci@gascon.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w" debug-suff="disamb">
-        <file name="fra-oci.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="fra-oci.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lsx-proc" debug-suff="lsx1">
-        <file name="fra-oci@gascon.autosep1.bin"/>
-      </program>
-      <program name="lt-proc -b">
-        <file name="fra-oci@gascon.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m" debug-suff="lex_np">
-        <file name="fra-oci@gascon.np.autolex.bin"/>
-      </program>
-      <program name="lrx-proc -m" debug-suff="lex_n">
-        <file name="fra-oci@gascon.n_a_adv.autolex.bin"/>
-      </program>
-      <program name="lrx-proc -m" debug-suff="lex_v">
-        <file name="fra-oci@gascon.v.autolex.bin"/>
-      </program>
-      <program name="lrx-proc -m" debug-suff="lex">
-        <file name="fra-oci@gascon.other.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="fra-oci@gascon.t1x"/>
-        <file name="fra-oci@gascon.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunk_ini">
-        <file name="apertium-oci-fra.fra-oci.t2x_ini"/>
-        <file name="fra-oci.t2x_ini.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunk">
-        <file name="fra-oci@gascon.t2x"/>
-        <file name="fra-oci@gascon.t2x.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunk_bis">
-        <file name="fra-oci@gascon.t2x_bis"/>
-        <file name="fra-oci@gascon.t2x_bis.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunk_pas">
-        <file name="apertium-oci-fra.fra-oci.t2x_pas"/>
-        <file name="fra-oci.t2x_pas.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunk_pro">
-        <file name="apertium-oci-fra.fra-oci.t2x_pro"/>
-        <file name="fra-oci.t2x_pro.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunk_supersn">
-        <file name="apertium-oci-fra.fra-oci.t2x_supersn"/>
-        <file name="fra-oci@gascon.t2x_supersn.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunk_enon">
-        <file name="apertium-oci-fra.fra-oci.t2x_enon"/>
-        <file name="fra-oci@gascon.t2x_enon.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-oci-fra.fra-oci.t3x"/>
-        <file name="fra-oci.t3x.bin"/>
-      </program>
-      <program name="apertium-transfer -n" debug-suff="t4x">
-        <file name="apertium-oci-fra.fra-oci.t4x"/>
-        <file name="fra-oci.t4x.bin"/>
-      </program>
-      <program name="lsx-proc" debug-suff="lsx2">
-        <file name="fra-oci@gascon.autosep2.bin"/>
-      </program>
-      <program name="apertium-posttransfer" debug-suff="posttransfer"/>
-      <program name="lt-proc $1">
-        <file name="fra-oci@gascon.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="fra-oci@gascon.autopgen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="fra-oci_gascon-disam" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="fra-oci@gascon.automorf.bin"/>
       </program>
       <program name="cg-conv -a -l"/>
       <program name="vislcg3 --trace --grammar">
@@ -357,186 +352,6 @@
       </program>
       <program name="lsx-proc" debug-suff="lsx2">
         <file name="oci-fra.autosep2.bin"/>
-      </program>
-      <program name="apertium-posttransfer" debug-suff="posttransfer"/>
-      <program name="lt-proc $1">
-        <file name="oci-fra.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="oci-fra.autopgen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <!-- oci@gascon → fra -->
-
-  <mode name="oci_gascon-fra" install="yes" gendebug="yes">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="oci@gascon-fra.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w" debug-suff="disamb">
-        <file name="oci-fra.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="oci-fra.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lsx-proc" debug-suff="lsx1">
-        <file name="oci@gascon-fra.autosep1.bin"/>
-      </program>
-      <program name="lt-proc -b">
-        <file name="oci@gascon-fra.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m" debug-suff="lex_np">
-        <file name="oci@gascon-fra.np.autolex.bin"/>
-      </program>
-      <program name="lrx-proc -m" debug-suff="lex_n">
-        <file name="oci@gascon-fra.n_a_adv.autolex.bin"/>
-      </program>
-      <program name="lrx-proc -m" debug-suff="lex_v">
-        <file name="oci@gascon-fra.v.autolex.bin"/>
-      </program>
-      <program name="lrx-proc -m" debug-suff="lex">
-        <file name="oci@gascon-fra.other.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="oci@gascon-fra.t1x"/>
-        <file name="oci@gascon-fra.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunk_temps">
-        <file name="apertium-oci-fra.oci-fra.t2x_temps"/>
-        <file name="oci-fra.t2x_temps.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunka">
-        <file name="oci@gascon-fra.t2ax"/>
-        <file name="oci@gascon-fra.t2ax.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunka2">
-        <file name="oci@gascon-fra.t2ax2"/>
-        <file name="oci@gascon-fra.t2ax2.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunkb">
-        <file name="oci@gascon-fra.t2bx"/>
-        <file name="oci@gascon-fra.t2bx.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunkc">
-        <file name="oci@gascon-fra.t2cx"/>
-        <file name="oci@gascon-fra.t2cx.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunkd">
-        <file name="apertium-oci-fra.oci-fra.t2dx"/>
-        <file name="oci-fra.t2dx.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunke">
-        <file name="apertium-oci-fra.oci-fra.t2ex"/>
-        <file name="oci-fra.t2ex.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-oci-fra.oci-fra.t3x"/>
-        <file name="oci-fra.t3x.bin"/>
-      </program>
-      <program name="apertium-transfer -n" debug-suff="t4x">
-        <file name="oci@gascon-fra.t4x"/>
-        <file name="oci@gascon-fra.t4x.bin"/>
-      </program>
-      <program name="lsx-proc" debug-suff="lsx2">
-        <file name="oci@gascon-fra.autosep2.bin"/>
-      </program>
-      <program name="apertium-posttransfer" debug-suff="posttransfer"/>
-      <program name="lt-proc $1">
-        <file name="oci-fra.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="oci-fra.autopgen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="oci_gascon-fra-disam" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="oci@gascon-fra.automorf.bin"/>
-      </program>
-      <program name="cg-conv -a -l"/>
-      <program name="vislcg3 --trace --grammar">
-        <file name="oci-fra.rlx.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="oci_gascon-fra-unigram" install="no" gendebug="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="oci@gascon-fra.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w" debug-suff="disamb">
-        <file name="oci-fra.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -u 2 -g $2">
-        <file name="oci_gasc.unigram.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lsx-proc" debug-suff="lsx1">
-        <file name="oci@gascon-fra.autosep1.bin"/>
-      </program>
-      <program name="lt-proc -b">
-        <file name="oci@gascon-fra.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m" debug-suff="lex_np">
-        <file name="oci@gascon-fra.np.autolex.bin"/>
-      </program>
-      <program name="lrx-proc -m" debug-suff="lex_n">
-        <file name="oci@gascon-fra.n_a_adv.autolex.bin"/>
-      </program>
-      <program name="lrx-proc -m" debug-suff="lex_v">
-        <file name="oci@gascon-fra.v.autolex.bin"/>
-      </program>
-      <program name="lrx-proc -m" debug-suff="lex">
-        <file name="oci@gascon-fra.other.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="oci@gascon-fra.t1x"/>
-        <file name="oci@gascon-fra.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunk_temps">
-        <file name="apertium-oci-fra.oci-fra.t2x_temps"/>
-        <file name="oci-fra.t2x_temps.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunka">
-        <file name="oci@gascon-fra.t2ax"/>
-        <file name="oci@gascon-fra.t2ax.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunka2">
-        <file name="oci@gascon-fra.t2ax2"/>
-        <file name="oci@gascon-fra.t2ax2.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunkb">
-        <file name="oci@gascon-fra.t2bx"/>
-        <file name="oci@gascon-fra.t2bx.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunkc">
-        <file name="oci@gascon-fra.t2cx"/>
-        <file name="oci@gascon-fra.t2cx.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunkd">
-        <file name="apertium-oci-fra.oci-fra.t2dx"/>
-        <file name="oci-fra.t2dx.bin"/>
-      </program>
-      <program name="apertium-interchunk" debug-suff="interchunke">
-        <file name="apertium-oci-fra.oci-fra.t2ex"/>
-        <file name="oci-fra.t2ex.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-oci-fra.oci-fra.t3x"/>
-        <file name="oci-fra.t3x.bin"/>
-      </program>
-      <program name="apertium-transfer -n" debug-suff="t4x">
-        <file name="oci@gascon-fra.t4x"/>
-        <file name="oci@gascon-fra.t4x.bin"/>
-      </program>
-      <program name="lsx-proc" debug-suff="lsx2">
-        <file name="oci@gascon-fra.autosep2.bin"/>
       </program>
       <program name="apertium-posttransfer" debug-suff="posttransfer"/>
       <program name="lt-proc $1">
