@@ -5,5 +5,5 @@
 
 DELIMITERS = ".";
 
-# IFF (v:ue_uo) ;
+IFF (d:gascon);
 

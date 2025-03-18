@@ -96,10 +96,32 @@
     <sdef n="lpar"/>
     <sdef n="rpar"/>
     <sdef n="lquest"/>
+    <sdef n="d:gascon" c="mot del dialècte Gascon"/>
+    <sdef n="d:lengadocian" c="mot del dialècte Lengadocian"/>
   </sdefs>
 
   <pardefs>
+    <!-- ********** d: paradigmes de dialectes ********** -->
 
+    <pardef n="d:gascon">
+      <e r="LR"><p><l></l><r></r></p></e>
+      <e r="RL"><p><l><s n="d:gascon"/></l><r></r></p></e>
+    </pardef>
+
+    <pardef n="d:lengadocian">
+      <e r="LR"><p><l></l><r></r></p></e>
+      <e r="RL"><p><l><s n="d:lengadocian"/></l><r></r></p></e>
+    </pardef>
+
+
+    <!--  ********** t: paradigmes que fan sonque apondre de tags ********** -->
+
+    <pardef n="t:nom_masculin_feminin">
+      <e><p><l><s n="n"/><s n="f"/><s n="sg"/></l>         <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l><s n="n"/><s n="f"/><s n="pl"/></l>         <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l><s n="n"/><s n="m"/><s n="sg"/></l>         <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l><s n="n"/><s n="m"/><s n="pl"/></l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
   </pardefs>
 
   <section id="main" type="standard">
@@ -107,5 +129,10 @@
     <e><p><l>lièch<s n="n"/><s n="m"/></l>   <r>lit<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>fuelha<s n="n"/><s n="f"/></l>  <r>feuille<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>farina<s n="n"/><s n="f"/></l>  <r>farine<s n="n"/><s n="f"/></r></p></e>
+
+    <!-- test per un mot francés que correspond a dos lemmas differents per lo gascon e lo lengadocian -->
+
+    <e><p><l>masc</l>         <r>sorcier</r></p><par n="t:nom_masculin_feminin"/><par n="d:lengadocian"/></e>
+    <e><p><l>broish</l>       <r>sorcier</r></p><par n="t:nom_masculin_feminin"/><par n="d:gascon"/></e>
   </section>
 </dictionary>
