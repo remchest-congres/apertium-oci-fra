@@ -134,5 +134,24 @@
 
     <e><p><l>masc</l>         <r>sorcier</r></p><par n="t:nom_masculin_feminin"/><par n="d:lengadocian"/></e>
     <e><p><l>broish</l>       <r>sorcier</r></p><par n="t:nom_masculin_feminin"/><par n="d:gascon"/></e>
+
+    <!-- test per un grop de mot francés que se revira pas parièr en lengadocian e en gascon -->
+    
+    <e><p><l>en<b/>çò<b/>mieu<s n="adv"/></l>   <r>chez<b/>moi<s n="adv"/></r></p><par n="d:lengadocian"/></e>
+		<e><p><l>a<b/>noste<s n="adv"/></l>         <r>chez<b/>moi<s n="adv"/></r></p><par n="d:gascon"/></e>
+
+    <!-- ************ TEST POUR L'APPLICATION DES RÈGLES DE DÉSAMBIGUISATION (fichier .lrx) COTÉ DICO BILINGUE ************ -->
+
+    <e><p><l>enforcar<s n="vblex"/></l>                             <r>enfourcher<s n="vblex"/></r></p><par n="d:lengadocian"/></e>
+    <e><p><l>en·horcar<s n="vblex"/></l>                            <r>enfourcher<s n="vblex"/></r></p><par n="d:gascon"/></e>
+
+    <e><p><l>enforcar<s n="vblex"/></l>                             <r>enjamber<s n="vblex"/></r></p><par n="d:lengadocian"/></e>
+    <e><p><l>encambar<s n="vblex"/></l>                             <r>enjamber<s n="vblex"/></r></p><par n="d:lengadocian"/></e>
+
+    <e><p><l>en·horcar<s n="vblex"/></l>                            <r>enjamber<s n="vblex"/></r></p><par n="d:gascon"/></e>
+    <e><p><l>encambar<s n="vblex"/></l>                             <r>enjamber<s n="vblex"/></r></p><par n="d:gascon"/></e>
+
+    <e><p><l>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l>    <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>velo<s n="n"/><s n="m"/></l>                           <r>vélo<s n="n"/><s n="m"/></r></p></e>
   </section>
 </dictionary>
