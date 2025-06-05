@@ -153,5 +153,16 @@
 
     <e><p><l>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l>    <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>velo<s n="n"/><s n="m"/></l>                           <r>vélo<s n="n"/><s n="m"/></r></p></e>
+
+    <!-- ************ TESTS POUR LA POST GENERATION ************ -->
+
+    <e><p><l>sus<s n="pr" /></l>                            <r>sur<s n="pr" /></r></p></e>
+    <e><p><l>lo<s n="det" /><s n="def" /></l>               <r>le<s n="det" /><s n="def" /></r></p></e>
+    <e><p><l>portal<s n="n" /><s n="m" /><s n="sg" /></l>   <r>portail<s n="n" /><s n="m" /><s n="sg" /></r></p></e>
+
+    <!-- ************ TESTS POUR LES REGLES DE SEGMENTATION (.t1x) ************ -->
+
+    <!-- <e><p><l>èsser<s n="vblex" /></l>         <r>être<s n="vblex" /></r></p><par n="d:lengadocian" /></e>
+    <e><p><l>estar<s n="vblex" /></l>         <r>être<s n="vblex" /></r></p><par n="d:gascon" /></e> -->
   </section>
 </dictionary>

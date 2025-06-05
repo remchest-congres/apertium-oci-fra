@@ -134,6 +134,8 @@ $(PREFIX2).autosep2.bin: $(BASENAME).$(PREFIX2).l2x
 $(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
 	cp $< $@
 
+$(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
+	cp $< $@
 
 ###############################################################################
 ## Disambiguation rules
