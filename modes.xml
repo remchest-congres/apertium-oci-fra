@@ -123,8 +123,8 @@
         <file name="fra-oci.other.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="fra-oci.t1x"/>
-        <file name="fra-oci.t1x.bin"/>
+        <file name="fra-oci_gascon.t1x"/>
+        <file name="fra-oci_gascon.t1x.bin"/>
       </program>
       <program name="apertium-interchunk" debug-suff="interchunk_ini">
         <file name="apertium-oci-fra.fra-oci.t2x_ini"/>

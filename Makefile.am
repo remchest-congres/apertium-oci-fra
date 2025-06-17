@@ -60,6 +60,8 @@ TARGETS_COMMON =		\
 	$(PREFIX2).other.autolex.bin	\
 	$(PREFIX2).autogen.bin	\
 	$(PREFIX2).autopgen.bin	\
+	$(PREFIX2)$(VAR1).t1x.bin	\
+	$(PREFIX2)$(VAR1).t1x			\
 	$(PREFIX2).t1x.bin	\
 	$(PREFIX2).t1x			\
 	$(PREFIX2).t2x.bin	\
@@ -304,10 +306,17 @@ $(PREFIX1).t4x.bin: $(PREFIX1).t4x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
-$(PREFIX2).t1x: $(BASENAME).$(PREFIX2).t1x
-	apertium-filter-rules oci $(BASENAME).$(PREFIX2).t1x >$@
+$(PREFIX2).t1x: ./chunker/lang/$(BASENAME).$(PREFIX2).t1x
+	apertium-filter-rules oci ./chunker/lang/$(BASENAME).$(PREFIX2).t1x >$@
+
+$(PREFIX2)$(VAR1).t1x: ./chunker/gasc/$(BASENAME).$(PREFIX2).t1x
+	apertium-filter-rules oci ./chunker/gasc/$(BASENAME).$(PREFIX2).t1x >$@
 
 $(PREFIX2).t1x.bin: $(PREFIX2).t1x
+	apertium-validate-transfer $<
+	apertium-preprocess-transfer $< $@
+
+$(PREFIX2)$(VAR1).t1x.bin: $(PREFIX2)$(VAR1).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
