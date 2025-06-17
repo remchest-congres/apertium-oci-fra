@@ -438,31 +438,31 @@
       <cat-item lemma="rendre" tags="vblex.*.p1.*"/>
       <cat-item lemma="rendre" tags="vblex.*.p2.*"/>
       <cat-item lemma="rendre" tags="vblex.*.p3.*"/>
-      <cat-item lemma="accroître" tags="vblex.*.p1.*" v="oci"/>
-      <cat-item lemma="accroître" tags="vblex.*.p2.*" v="oci"/>
-      <cat-item lemma="accroître" tags="vblex.*.p3.*" v="oci"/>
-      <cat-item lemma="marrer" tags="vblex.*.p1.*" v="oci"/>
-      <cat-item lemma="marrer" tags="vblex.*.p2.*" v="oci"/>
-      <cat-item lemma="marrer" tags="vblex.*.p3.*" v="oci"/>
-      <cat-item lemma="faire# vieux" tags="vblex.*.p1.*" v="oci"/>
-      <cat-item lemma="faire# vieux" tags="vblex.*.p2.*" v="oci"/>
-      <cat-item lemma="faire# vieux" tags="vblex.*.p3.*" v="oci"/>
-      <cat-item lemma="faire# vielle" tags="vblex.*.p1.*" v="oci"/>
-      <cat-item lemma="faire# vielle" tags="vblex.*.p2.*" v="oci"/>
-      <cat-item lemma="faire# vielle" tags="vblex.*.p3.*" v="oci"/>
-      <cat-item lemma="faire# vielles" tags="vblex.*.p1.*" v="oci"/>
-      <cat-item lemma="faire# vielles" tags="vblex.*.p2.*" v="oci"/>
-      <cat-item lemma="faire# vielles" tags="vblex.*.p3.*" v="oci"/>
+      <cat-item lemma="accroître" tags="vblex.*.p1.*" />
+      <cat-item lemma="accroître" tags="vblex.*.p2.*" />
+      <cat-item lemma="accroître" tags="vblex.*.p3.*" />
+      <cat-item lemma="marrer" tags="vblex.*.p1.*" />
+      <cat-item lemma="marrer" tags="vblex.*.p2.*" />
+      <cat-item lemma="marrer" tags="vblex.*.p3.*" />
+      <cat-item lemma="faire# vieux" tags="vblex.*.p1.*" />
+      <cat-item lemma="faire# vieux" tags="vblex.*.p2.*" />
+      <cat-item lemma="faire# vieux" tags="vblex.*.p3.*" />
+      <cat-item lemma="faire# vielle" tags="vblex.*.p1.*" />
+      <cat-item lemma="faire# vielle" tags="vblex.*.p2.*" />
+      <cat-item lemma="faire# vielle" tags="vblex.*.p3.*" />
+      <cat-item lemma="faire# vielles" tags="vblex.*.p1.*" />
+      <cat-item lemma="faire# vielles" tags="vblex.*.p2.*" />
+      <cat-item lemma="faire# vielles" tags="vblex.*.p3.*" />
     </def-cat>
     <def-cat n="verb_pron-nopron_pp">
       <cat-item lemma="enfuir" tags="vblex.pp.*"/>
       <cat-item lemma="pourvoir" tags="vblex.pp.*"/>
       <cat-item lemma="rendre" tags="vblex.pp.*"/>
-      <cat-item lemma="accroître" tags="vblex.pp.*" v="oci"/>
-      <cat-item lemma="marrer" tags="vblex.pp.*" v="oci"/>
-      <cat-item lemma="faire# vieux" tags="vblex.pp.*" v="oci"/>
-      <cat-item lemma="faire# vielle" tags="vblex.pp.*" v="oci"/>
-      <cat-item lemma="faire# vielles" tags="vblex.pp.*" v="oci"/>
+      <cat-item lemma="accroître" tags="vblex.pp.*" />
+      <cat-item lemma="marrer" tags="vblex.pp.*" />
+      <cat-item lemma="faire# vieux" tags="vblex.pp.*" />
+      <cat-item lemma="faire# vielle" tags="vblex.pp.*" />
+      <cat-item lemma="faire# vielles" tags="vblex.pp.*" />
     </def-cat>
 
     <def-cat n="durant_ger">
@@ -661,10 +661,10 @@
       <cat-item lemma="monsieur" tags="n.*"/>
       <cat-item lemma="M." tags="n.*"/>
       <cat-item lemma="MM." tags="n.*"/>
-<!--
+      <!--
       <cat-item lemma="madame" tags="n.*"/>
       <cat-item lemma="mademoiselle" tags="n.*"/>
--->
+      -->
     </def-cat>
 
   </section-def-cats>
@@ -983,9 +983,9 @@
       <list-item v="tranmetre"/>
       <list-item v="televizar"/>
       <list-item v="tuar"/>
-<!--      <list-item v="utilizar"/> -->
-<!--      <list-item v="vendre"/> -->
-<!--      <list-item v="voler"/> -->
+    <!--      <list-item v="utilizar"/> -->
+    <!--      <list-item v="vendre"/> -->
+    <!--      <list-item v="voler"/> -->
     </def-list>
 
     <def-list n="gentilici">
@@ -1347,7 +1347,7 @@
       <list-item v="yanomami"/>
     </def-list>
 
-<!--
+    <!--
     <def-list n="nptop_amb_detdef">
       <list-item v="Africa subsahariana"/>
       <list-item v="America centrala"/>
@@ -1456,7 +1456,7 @@
       <list-item v="Camp Nou"/>
       <list-item v="Santiago Bernabeu"/>
     </def-list>
--->
+    -->
 
     <def-list n="pays">	<!-- toponymes de pays et régions avec déterminant en français et sans lui en occitan -->
       <list-item v="Europe"/>
@@ -1563,10 +1563,10 @@
       <list-item v="Guyenne"/>
       <list-item v="Gironde"/>
       <list-item v="Landes"/>
-<!--
+    <!--
       <list-item v="Grande-Lande"/>
       <list-item v="Haute-Lande"/>
--->
+    -->
       <list-item v="Albret"/>
       <list-item v="Labrit"/>
       <list-item v="Béarn"/>
@@ -1666,15 +1666,15 @@
       <list-item v="Bourbonnais"/>
       <list-item v="Bourgogne"/>
       <list-item v="Bresse"/>
-<!--      <list-item v="Morvan"/> -->
+    <!--      <list-item v="Morvan"/> -->
       <list-item v="Dauphiné"/>
-<!--      <list-item v="Franche-Comté"/> -->
+    <!--      <list-item v="Franche-Comté"/> -->
       <list-item v="Lyonnais"/>
       <list-item v="Marche"/>
       <list-item v="Nivernais"/>
       <list-item v="Orléanais"/>
       <list-item v="Aisne"/>
-<!--      <list-item v="Yvelines"/> -->
+    <!--      <list-item v="Yvelines"/> -->
       <list-item v="Picardie"/>
       <list-item v="Lorraine"/>
       <list-item v="Alsace"/>
@@ -1983,7 +1983,7 @@
       <list-item v="Sri Lanka"/>
       <list-item v="Maroc"/>
       <list-item v="Numidie"/>
-<!--      <list-item v="Canaries"/>  -->
+    <!--      <list-item v="Canaries"/>  -->
       <list-item v="Mauritanie"/>
       <list-item v="Algérie"/>
       <list-item v="Tunisie"/>
@@ -2053,10 +2053,10 @@
       <list-item v="Yukon"/>
       <list-item v="Ontario"/>
       <list-item v="Québec"/>
-<!--      <list-item v="Nouveau-Brunswick"/> -->
+    <!--      <list-item v="Nouveau-Brunswick"/> -->
       <list-item v="Saskatchewan"/>
       <list-item v="Nunavut"/>
-<!--      <list-item v="États-Unis"/> -->
+    <!--      <list-item v="États-Unis"/> -->
       <list-item v="Nouvelle-Orléans"/>
       <list-item v="Alabama"/>
       <list-item v="Alaska"/>
@@ -2112,7 +2112,7 @@
       <list-item v="Costa Rica"/>
       <list-item v="Panama"/>
       <list-item v="Barbade"/>
-<!--      <list-item v="Bahamas"/>  -->
+    <!--      <list-item v="Bahamas"/>  -->
       <list-item v="Colombie"/>
       <list-item v="Vénézuéla"/>
       <list-item v="Venezuela"/>
@@ -2253,61 +2253,61 @@
   </section-def-lists>
 
   <section-def-macros>
-    <def-macro n="set_vbser" npar="0" v="oci">
+    <def-macro n="set_vbser" npar="0" >
           <let>
             <var n="v_vbser"/>
             <lit v="èsser"/>
           </let>
     </def-macro>
 
-    <def-macro n="set_vbser" npar="0" v="oci@gascon">
+    <!-- <def-macro n="set_vbser" npar="0" >
           <let>
             <var n="v_vbser"/>
             <lit v="estar"/>
           </let>
-    </def-macro>
+    </def-macro> -->
 
-    <def-macro n="set_vbfar" npar="0" v="oci">
+    <def-macro n="set_vbfar" npar="0" >
           <let>
             <var n="v_vbfar"/>
             <lit v="far"/>
           </let>
     </def-macro>
 
-    <def-macro n="set_vbfar" npar="0" v="oci@gascon">
+    <!-- <def-macro n="set_vbfar" npar="0" >
           <let>
             <var n="v_vbfar"/>
             <lit v="har"/>
           </let>
-    </def-macro>
+    </def-macro> -->
 
-    <def-macro n="set_qualqun" npar="0" v="oci">
+    <def-macro n="set_qualqun" npar="0" >
           <let>
             <var n="v_qualqun"/>
             <lit v="qualqu'un"/>
           </let>
     </def-macro>
 
-    <def-macro n="set_qualqun" npar="0" v="oci@gascon">
+    <!-- <def-macro n="set_qualqun" npar="0" >
           <let>
             <var n="v_qualqun"/>
             <lit v="quauqu'un"/>
           </let>
-    </def-macro>
+    </def-macro> -->
 
-    <def-macro n="set_degun" npar="0" v="oci">
+    <def-macro n="set_degun" npar="0" >
           <let>
             <var n="v_degun"/>
             <lit v="degun"/>
           </let>
     </def-macro>
 
-    <def-macro n="set_degun" npar="0" v="oci@gascon">
+    <!-- <def-macro n="set_degun" npar="0" >
           <let>
             <var n="v_degun"/>
             <lit v="arrés"/>
           </let>
-    </def-macro>
+    </def-macro> -->
 
     <def-macro n="set_sg" npar="1">
       <choose>
@@ -2321,7 +2321,7 @@
     </def-macro>
 
     <def-macro n="f_concord_bricolatge2" npar="2">
-<!--Pedaç ad-hoc per solucionar problemes amb l'assignació del nombre a "nombreux prix" et sim. -->
+      <!--Pedaç ad-hoc per solucionar problemes amb l'assignació del nombre a "nombreux prix" et sim. -->
       <choose>
         <when>
           <test>
@@ -2430,7 +2430,7 @@
 
     <def-macro n="f_concord0" npar="1">
       <choose>
-<!--To determine value of variables of gender and
+        <!--To determine value of variables of gender and
                  number and propagate to other rules.  Variables are
                  not used again in this rule -->
         <when>
@@ -2521,7 +2521,7 @@
       <choose>
         <when>
           <test>
-<!-- If word has GD or ND, we try to assign the
+          <!-- If word has GD or ND, we try to assign the
               gender or number of the previous rule. If there is no
               value for the gender or number variable from previous
               rules, gender will be masculine and number singular.-->
@@ -2594,7 +2594,7 @@
       <choose>
         <when>
           <test>
-<!-- do the main and second parameter gender agree?-->
+            <!-- do the main and second parameter gender agree?-->
             <and>
               <or>
                 <equal>
@@ -2612,7 +2612,7 @@
               </or>
               <or>
                 <equal>
-<!-- do the main and second parameter number agree?-->
+                  <!-- do the main and second parameter number agree?-->
                   <clip pos="2" side="sl" part="nbr"/>
                   <clip pos="1" side="sl" part="nbr"/>
                 </equal>
@@ -2631,20 +2631,20 @@
             <var n="concPrimero"/>
             <lit v="true"/>
           </let>
-<!-- there is gender and number agreement-->
+          <!-- there is gender and number agreement-->
         </when>
         <otherwise>
           <let>
             <var n="concPrimero"/>
             <lit v="false"/>
           </let>
-<!-- there isn't gender and number agreement-->
+          <!-- there isn't gender and number agreement-->
         </otherwise>
       </choose>
       <choose>
         <when>
           <test>
-<!-- Propagate the main parameter gender if it has been modified during the translation  -->
+            <!-- Propagate the main parameter gender if it has been modified during the translation  -->
             <and>
               <not>
                 <equal>
@@ -2707,7 +2707,7 @@
       <choose>
         <when>
           <test>
-<!-- Propagate the main parameter number if it has been modified during the translation  -->
+            <!-- Propagate the main parameter number if it has been modified during the translation  -->
             <and>
               <not>
                 <equal>
@@ -2770,7 +2770,7 @@
       <choose>
         <when>
           <test>
-<!-- Which is the rule general gender? -->
+            <!-- Which is the rule general gender? -->
             <equal>
               <clip pos="1" side="tl" part="gen"/>
               <lit-tag v="m"/>
@@ -2866,7 +2866,7 @@
       </choose>
       <choose>
         <when>
-<!-- Which is the rule general number? -->
+          <!-- Which is the rule general number? -->
           <test>
             <equal>
               <clip pos="1" side="tl" part="nbr"/>
@@ -2984,7 +2984,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Determine gender and number value if they are undetermined -->
+        <!-- Determine gender and number value if they are undetermined -->
         <when>
           <test>
             <equal>
@@ -3044,7 +3044,7 @@
 
     <def-macro n="f_concord3" npar="3">
       <choose>
-<!-- Look whether in source language there is concordance between first and second element -->
+        <!-- Look whether in source language there is concordance between first and second element -->
         <when>
           <test>
             <and>
@@ -3091,7 +3091,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Look whether in source language there is concordance between second and third element -->
+        <!-- Look whether in source language there is concordance between second and third element -->
         <when>
           <test>
             <and>
@@ -3138,7 +3138,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Propagate the main parameter gender if it has been modified during the translation -->
+        <!-- Propagate the main parameter gender if it has been modified during the translation -->
         <when>
           <test>
             <and>
@@ -3237,7 +3237,7 @@
         </when>
       </choose>
       <choose>
-<!-- Propagate the main parameter number if it has been modified during the translation -->
+        <!-- Propagate the main parameter number if it has been modified during the translation -->
         <when>
           <test>
             <and>
@@ -3336,7 +3336,7 @@
         </when>
       </choose>
       <choose>
-<!-- Determine the rule general gender. Priority order: main, second and third element -->
+        <!-- Determine the rule general gender. Priority order: main, second and third element -->
         <when>
           <test>
             <equal>
@@ -3477,7 +3477,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Determine the rule general number. Priority order: main, second and third element -->
+        <!-- Determine the rule general number. Priority order: main, second and third element -->
         <when>
           <test>
             <equal>
@@ -3618,7 +3618,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Assign values to GD and ND -->
+        <!-- Assign values to GD and ND -->
         <when>
           <test>
             <equal>
@@ -3706,7 +3706,7 @@
 
     <def-macro n="f_concord3_sens_cambiaments_en_par3" npar="3">
       <choose>
-<!-- Look whether in source language there is concordance between first and second element -->
+      <!-- Look whether in source language there is concordance between first and second element -->
         <when>
           <test>
             <and>
@@ -3753,7 +3753,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Look whether in source language there is concordance between second and third element -->
+        <!-- Look whether in source language there is concordance between second and third element -->
         <when>
           <test>
             <and>
@@ -3800,7 +3800,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Propagate the main parameter gender if it has been modified during the translation -->
+        <!-- Propagate the main parameter gender if it has been modified during the translation -->
         <when>
           <test>
             <and>
@@ -3890,18 +3890,18 @@
                   </equal>
                 </and>
               </test>
-<!--
+              <!--
               <let>
                 <clip pos="3" side="tl" part="gen"/>
                 <clip pos="1" side="tl" part="gen"/>
               </let>
--->
+              -->
             </when>
           </choose>
         </when>
       </choose>
       <choose>
-<!-- Propagate the main parameter number if it has been modified during the translation -->
+        <!-- Propagate the main parameter number if it has been modified during the translation -->
         <when>
           <test>
             <and>
@@ -4000,7 +4000,7 @@
         </when>
       </choose>
       <choose>
-<!-- Determine the rule general gender. Priority order: main, second and third element -->
+        <!-- Determine the rule general gender. Priority order: main, second and third element -->
         <when>
           <test>
             <equal>
@@ -4141,7 +4141,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Determine the rule general number. Priority order: main, second and third element -->
+        <!-- Determine the rule general number. Priority order: main, second and third element -->
         <when>
           <test>
             <equal>
@@ -4282,7 +4282,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Assign values to GD and ND -->
+        <!-- Assign values to GD and ND -->
         <when>
           <test>
             <equal>
@@ -5225,7 +5225,7 @@
       </choose>
     </def-macro>
 
-    <def-macro n="escriure_prnpro_prnpro" npar="2" v="oci">
+    <def-macro n="escriure_prnpro_prnpro" npar="2" >
          <let><var n="caseFirstWord"/><case-of pos="1" side="tl" part="lem"/></let>
          <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
          <choose>
@@ -5308,8 +5308,8 @@
          </choose>
     </def-macro>
 
-    <def-macro n="escriure_prnpro_prnpro" npar="2" v="oci@gascon">
-         <!-- cas 'le/la/les + lui/leur' : on inverse CD et CI -->
+    <!-- <def-macro n="escriure_prnpro_prnpro" npar="2" >
+         cas 'le/la/les + lui/leur' : on inverse CD et CI 
          <choose>
            <when>
              <test>
@@ -5346,12 +5346,12 @@
            <when>
              <test>
                <or>
-                 <and> <!-- lo: prioritat 1 -->
+                 <and> lo: prioritat 1
                    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="lo"/></equal>
                    <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></equal>
                    <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
                  </and>
-                 <and> <!-- la: prioritat 2 -->
+                 <and> la: prioritat 2 
                    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="lo"/></equal>
                    <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="f"/></equal>
                    <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
@@ -5363,7 +5363,7 @@
                      </and>
                    </not>
                  </and>
-                 <and> <!-- los: prioritat 3 -->
+                 <and> los: prioritat 3 
                    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="lo"/></equal>
                    <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></equal>
                    <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
@@ -5374,7 +5374,7 @@
                      </and>
                    </not>
                  </and>
-                 <and> <!-- las: prioritat 4 -->
+                 <and>  las: prioritat 4 
                    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="lo"/></equal>
                    <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="f"/></equal>
                    <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
@@ -5382,13 +5382,13 @@
                      <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="lo"/></equal>
                    </not>
                  </and>
-                 <and> <!-- se: prioritat 5 -->
+                 <and>  se: prioritat 5 
                    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="se"/></equal>
                    <not>
                      <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="lo"/></equal>
                    </not>
                  </and>
-                 <and> <!-- te: prioritat 6 -->
+                 <and>  te: prioritat 6 
                    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="te"/></equal>
                    <not>
                      <or>
@@ -5397,7 +5397,7 @@
                      </or>
                    </not>
                  </and>
-                 <and> <!-- vos: prioritat 7 -->
+                 <and>  vos: prioritat 7 
                    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="vos"/></equal>
                    <not>
                      <or>
@@ -5407,7 +5407,7 @@
                      </or>
                    </not>
                  </and>
-                 <and> <!-- me: prioritat 8 -->
+                 <and>  me: prioritat 8 
                    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="me"/></equal>
                    <not>
                      <or>
@@ -5418,7 +5418,7 @@
                      </or>
                    </not>
                  </and>
-                 <and> <!-- nos: prioritat 9 -->
+                 <and>  nos: prioritat 9 
                    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="ne"/></equal>
                    <not>
                      <or>
@@ -5430,7 +5430,7 @@
                      </or>
                    </not>
                  </and>
-                 <and> <!-- ne: prioritat 10 -->
+                 <and>  ne: prioritat 10 
                    <or>
                      <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="ne"/></equal>
                      <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="en"/></equal>
@@ -5440,7 +5440,7 @@
                      <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="i"/></equal>
                    </or>
                  </and>
-                 <and> <!-- ac: prioritat 11 -->
+                 <and>  ac: prioritat 11 
                    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="ac"/></equal>
                    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="i"/></equal>
                  </and>
@@ -5514,34 +5514,34 @@
              </out>
            </otherwise>
          </choose>
-    </def-macro>
+    </def-macro> -->
 
     <def-macro n="f_unset_nopron" npar="1"> <!-- elimina nopron a vblex.nopron -->
       <choose>
-	<when>
-	  <test>
-	    <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.nopron"/></equal>
-	  </test>
-	  <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
-	</when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.nopron"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
+        </when>
       </choose>
     </def-macro>
 
     <def-macro n="f_unset_capletter" npar="1"> 
-          <choose>
-            <when>
-              <test>
-                <equal>
-                   <case-of pos="1" side="sl" part="lem"/>
-                   <lit v="Aa"/>
-                 </equal>
-              </test>
-              <modify-case>
-                <clip pos="1" side="tl" part="lem"/>
-                <lit v="aa"/>
-              </modify-case>
-            </when>
-          </choose>
+      <choose>
+        <when>
+          <test>
+            <equal>
+                <case-of pos="1" side="sl" part="lem"/>
+                <lit v="Aa"/>
+              </equal>
+          </test>
+          <modify-case>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit v="aa"/>
+          </modify-case>
+        </when>
+      </choose>
     </def-macro>
 
     <def-macro n="f_set_pron_pro" npar="3"> <!-- posa a la variable 'pronom' el pronom reflexiu que calgui si el verb és reflexiu. El segon paramàtre és la repetició del primer, si és una forma conjugada (personal) del verb, altrament és l'auxiliar; p3 = primièr mot per gestionar las majusculas -->
@@ -5912,8 +5912,8 @@
     </def-macro>
 
     <def-macro n="f_maj_gentilici" npar="1">
-<!-- si es tracta d'un gentilici, traiem la majúscula -->
-<!-- p1 = det, p2 = n -->
+      <!-- si es tracta d'un gentilici, traiem la majúscula -->
+      <!-- p1 = det, p2 = n -->
       <choose>
         <when>
           <test>
@@ -5958,7 +5958,7 @@
 
   <section-rules>
 
-    <!-- RÈGLAS ACÒRDI -->
+  <!-- RÈGLAS ACÒRDI -->
 
     <rule comment="RÈGLA: DET NOM">
       <pattern>
@@ -8015,7 +8015,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: TOUS LES temps (tous les jours > cada jorn)">
+    <rule comment="RÈGLA: TOUS LES temps (tous les jours > cada jorn)">
       <pattern>
         <pattern-item n="tous_predet"/>
         <pattern-item n="detdef"/>
@@ -8056,7 +8056,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: TOUS LES NUM temps (tous les trois jours > cada tres jorns)">
+    <rule comment="RÈGLA: TOUS LES NUM temps (tous les trois jours > cada tres jorns)">
       <pattern>
         <pattern-item n="tous_predet"/>
         <pattern-item n="detdef"/>
@@ -8095,7 +8095,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: TOUS LES JOUR_N PART_JOUR (tous les lundi matin > cada diluns de matin)">
+    <rule comment="RÈGLA: TOUS LES JOUR_N PART_JOUR (tous les lundi matin > cada diluns de matin)">
       <pattern>
         <pattern-item n="tous_predet"/>
         <pattern-item n="detdef"/>
@@ -8145,7 +8145,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: TOUS LES JOUR_N ET JOUR_N PART_JOUR (tous les mercredis et dimanches matin > cada dimècres e dimenge de matin)">
+    <rule comment="RÈGLA: TOUS LES JOUR_N ET JOUR_N PART_JOUR (tous les mercredis et dimanches matin > cada dimècres e dimenge de matin)">
       <pattern>
         <pattern-item n="tous_predet"/>
         <pattern-item n="detdef"/>
@@ -8214,7 +8214,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: TOUS LES temps ET temps (tous les mercredis et dimanches > cada dimècres e dimenge)">
+    <rule comment="RÈGLA: TOUS LES temps ET temps (tous les mercredis et dimanches > cada dimècres e dimenge)">
       <pattern>
         <pattern-item n="tous_predet"/>
         <pattern-item n="detdef"/>
@@ -10991,10 +10991,10 @@
       </action>
     </rule>
 
-    <!-- FIN RÈGLAS ACÒRDI -->
+  <!-- FIN RÈGLAS ACÒRDI -->
 
 
-    <!-- RÈGLAS MÊME -->
+  <!-- RÈGLAS MÊME -->
 
     <rule comment="RÈGLA: MÊME DET NOM > DET QUITE NOM">
       <pattern>
@@ -11350,10 +11350,10 @@
       </action>
     </rule>
 
-    <!-- FIN RÈGLAS MÊME -->
+  <!-- FIN RÈGLAS MÊME -->
 
 
-    <!-- RÈGLAS -CI/-LÀ -->
+  <!-- RÈGLAS -CI/-LÀ -->
 
     <rule comment="RÈGLA: CE NOM CI (cette fois-ci > aqueste còp)">
       <pattern>
@@ -11573,10 +11573,10 @@
       </action>
     </rule>
 
-    <!-- FIN RÈGLAS -CI/-LÀ -->
+  <!-- FIN RÈGLAS -CI/-LÀ -->
 
 
-    <!-- RÈGLAS TOP -->
+  <!-- RÈGLAS TOP -->
 
     <rule comment="RÈGLA: DETDEF NPTOP (la France > França, les États-Unis > los Estats Units)">
       <pattern>
@@ -11735,88 +11735,88 @@
       </action>
     </rule>
 
-<!-- calen mai d'ajustaments per empachar errors
-    <rule comment="RÈGLA: NPTOP ADJ (Alpes autrichiennes > Alps austrians)">
-      <pattern>
-        <pattern-item n="nptop"/>
-        <pattern-item n="adj"/>
-      </pattern>
-      <action>
-        <call-macro n="f_concord2">
-          <with-param pos="1"/>
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="f_chunk_tags">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <chunk name="nptop-adj">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><lit-tag v="np"/></tag>
-              <tag><clip pos="1" side="tl" part="gen"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-              <tag><var n="genero_sl"/></tag>
-              <tag><var n="numero_sl"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-            <b pos="1"/>
-            <lu>
-              <clip pos="2" side="tl" part="lemh"/>
-              <clip pos="2" side="tl" part="tags"/>
-              <clip pos="2" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
+    <!-- calen mai d'ajustaments per empachar errors
+        <rule comment="RÈGLA: NPTOP ADJ (Alpes autrichiennes > Alps austrians)">
+          <pattern>
+            <pattern-item n="nptop"/>
+            <pattern-item n="adj"/>
+          </pattern>
+          <action>
+            <call-macro n="f_concord2">
+              <with-param pos="1"/>
+              <with-param pos="2"/>
+            </call-macro>
+            <call-macro n="f_chunk_tags">
+              <with-param pos="1"/>
+            </call-macro>
+            <out>
+              <chunk name="nptop-adj">
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><lit-tag v="np"/></tag>
+                  <tag><clip pos="1" side="tl" part="gen"/></tag>
+                  <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                  <tag><var n="genero_sl"/></tag>
+                  <tag><var n="numero_sl"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="whole"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="tags"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </action>
+        </rule>
 
-    <rule comment="RÈGLA: ADJ NPTOP (Hautes Alpes > Nauts Alps)">
-      <pattern>
-        <pattern-item n="adj"/>
-        <pattern-item n="nptop"/>
-      </pattern>
-      <action>
-        <call-macro n="f_concord2">
-          <with-param pos="2"/>
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="f_chunk_tags">
-          <with-param pos="2"/>
-        </call-macro>
-        <out>
-          <chunk name="nptop-adj">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><lit-tag v="np"/></tag>
-              <tag><clip pos="2" side="tl" part="gen"/></tag>
-              <tag><clip pos="2" side="tl" part="nbr"/></tag>
-              <tag><var n="genero_sl"/></tag>
-              <tag><var n="numero_sl"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="tags"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-            <b pos="1"/>
-            <lu>
-              <clip pos="2" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
--->
+        <rule comment="RÈGLA: ADJ NPTOP (Hautes Alpes > Nauts Alps)">
+          <pattern>
+            <pattern-item n="adj"/>
+            <pattern-item n="nptop"/>
+          </pattern>
+          <action>
+            <call-macro n="f_concord2">
+              <with-param pos="2"/>
+              <with-param pos="1"/>
+            </call-macro>
+            <call-macro n="f_chunk_tags">
+              <with-param pos="2"/>
+            </call-macro>
+            <out>
+              <chunk name="nptop-adj">
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><lit-tag v="np"/></tag>
+                  <tag><clip pos="2" side="tl" part="gen"/></tag>
+                  <tag><clip pos="2" side="tl" part="nbr"/></tag>
+                  <tag><var n="genero_sl"/></tag>
+                  <tag><var n="numero_sl"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="tags"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="whole"/>
+                </lu>
+              </chunk>
+            </out>
+          </action>
+        </rule>
+    -->
 
-    <!-- FIN RÈGLAS TOP -->
+  <!-- FIN RÈGLAS TOP -->
 
 
-    <!-- RÈGLAS HORAS -->
+  <!-- RÈGLAS HORAS -->
 
-   <rule comment="RÈGLA: IL EST UNE HEURE (il est une heure > es una ora)" v="oci">
+    <rule comment="RÈGLA: IL EST UNE HEURE (il est une heure > es una ora)">
       <pattern>
         <pattern-item n="il"/>
         <pattern-item n="vbserp3sg"/>
@@ -11824,62 +11824,77 @@
         <pattern-item n="heure"/>
       </pattern>
       <action>
-        <call-macro n="f_concord2">
+        <call-macro n="f_concord2"> <!-- pas dépendant des variantes -->
           <with-param pos="4"/>
           <with-param pos="3"/>
         </call-macro>
-        <call-macro n="tipus_verb">
-         <with-param pos="2"/>
+        <call-macro n="tipus_verb"> <!-- pas dépendant des variantes -->
+          <with-param pos="2"/>
         </call-macro>
-        <call-macro n="f_bcond">
+        <call-macro n="f_bcond"> <!-- pas dépendant des variantes -->
           <with-param pos="1"/>
           <with-param pos="2"/>
         </call-macro>
-        <call-macro n="set_vbser"></call-macro>
+        <!-- <call-macro n="set_vbser"></call-macro> -->
         <out>
-           <chunk name="vbser">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-               <tag><lit-tag v="vbser"/></tag>
-               <tag><clip pos="2" side="tl" part="temps"/></tag>
-               <tag><var n="tipusverb"/></tag>
-             </tags>
-             <lu>
-               <get-case-from pos="1">
-                 <var n="v_vbser"/>
-               </get-case-from>
-               <lit-tag v="vbser"/>
-               <clip pos="2" side="tl" part="temps"/>
-               <lit-tag v="p3"/>
-               <lit-tag v="sg"/>
-             </lu>
-           </chunk>
-           <b pos="2"/>
-           <chunk name="num_n">
-             <tags>
-               <tag><lit-tag v="SN"/></tag>
-               <tag><clip pos="4" side="tl" part="gen"/></tag>
-               <tag><clip pos="4" side="tl" part="nbr"/></tag>
-               <tag><var n="genero_sl"/></tag>
-               <tag><var n="numero_sl"/></tag>
-             </tags>
-             <lu>
-               <clip pos="3" side="tl" part="lemh"/>
-               <clip pos="3" side="tl" part="tags"/>
-               <clip pos="3" side="tl" part="lemq"/>
-             </lu>
-             <b pos="3"/>
-             <lu>
-               <clip pos="4" side="tl" part="lemh"/>
-               <clip pos="4" side="tl" part="tags"/>
-               <clip pos="4" side="tl" part="lemq"/>
-             </lu>
+          <!-- définit un chunk avec le verbe etre -->
+          <chunk name="vbser">
+            <!-- on lui met les tags qu'il faut (au chunk) -->
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="vbser"/></tag>
+              <!-- dont le temps qui viens de la langue source -->
+              <tag><clip pos="2" side="tl" part="temps"/></tag>
+              <!-- ça je sais pas encore -->
+              <tag><var n="tipusverb"/></tag>
+            </tags>
+            <!-- ça ça sert surement à définir le contenu du chunk -->
+            <lu>
+              <!-- sert certainement à récupérer le lemme retourné par la marcro set_vbser (à étudier)-->
+              <!-- <get-case-from pos="1">
+                <var n="v_vbser"/>
+              </get-case-from> -->
+              <!-- puis les symboles associés -->
+              <lit-tag v="vbser"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <lit-tag v="p3"/>
+              <lit-tag v="sg"/>
+            </lu>
+          </chunk>
+          <!-- certainement pour définir un break ? -->
+          <b pos="2"/>
+          <!-- définit un chunk pour "une heure" -->
+          <chunk name="num_n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="4" side="tl" part="gen"/></tag>
+              <tag><clip pos="4" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <!-- la faudrait mettre ce bloc avec un marquage pour le gascon : -->
+            <lu>
+              <lit v="lo"/>
+              <lit-tag v="det.def.f.sg"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
           </chunk>
         </out>
       </action>
     </rule>
 
-   <rule comment="RÈGLA: IL EST UNE HEURE (il est une heure > ei l'ua òra)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: IL EST UNE HEURE (il est une heure > ei l'ua òra)" >
       <pattern>
         <pattern-item n="il"/>
         <pattern-item n="vbserp3sg"/>
@@ -11945,9 +11960,9 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
-   <rule comment="RÈGLA: IL EST NUM HEURE (il est deux heures > son doas oras)">
+    <rule comment="RÈGLA: IL EST NUM HEURE (il est deux heures > son doas oras)">
       <pattern>
         <pattern-item n="il"/>
         <pattern-item n="vbserp3sg"/>
@@ -12010,12 +12025,12 @@
       </action>
     </rule>
 
-    <!-- FIN RÈGLAS HORAS -->
+  <!-- FIN RÈGLAS HORAS -->
 
 
-    <!-- RÈGLAS DATAS -->
+  <!-- RÈGLAS DATAS -->
 
-   <rule comment="RÈGLA: NUMERAL MOIS NUM (20 novembre 1998: 20 de novembre de 1998)">
+    <rule comment="RÈGLA: NUMERAL MOIS NUM (20 novembre 1998: 20 de novembre de 1998)">
       <pattern>
         <pattern-item n="num_premier"/>
         <pattern-item n="nom_mois"/>
@@ -12069,7 +12084,7 @@
     </rule>
 
 
-   <rule comment="RÈGLA: DET NUMERAL MOIS NUM (le 20 novembre 1998: lo 20 de novembre de 1998)">
+    <rule comment="RÈGLA: DET NUMERAL MOIS NUM (le 20 novembre 1998: lo 20 de novembre de 1998)">
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="num_premier"/>
@@ -12128,7 +12143,7 @@
     </rule>
 
 
-   <rule comment="RÈGLA: MOIS NUM (en novembre 1998: en novembre de 1998)">
+    <rule comment="RÈGLA: MOIS NUM (en novembre 1998: en novembre de 1998)">
       <pattern>
         <pattern-item n="nom_mois"/>
         <pattern-item n="num"/>
@@ -12165,7 +12180,7 @@
     </rule>
 
 
-   <rule comment="RÈGLA: DET MOIS NUM (le novembre 1998: lo novembre de 1998)">
+    <rule comment="RÈGLA: DET MOIS NUM (le novembre 1998: lo novembre de 1998)">
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="nom_mois"/>
@@ -12207,7 +12222,7 @@
     </rule>
 
 
-   <rule comment="RÈGLA: EN MOIS NUM (en novembre 1998: en novembre de 1998)">
+    <rule comment="RÈGLA: EN MOIS NUM (en novembre 1998: en novembre de 1998)">
       <pattern>
         <pattern-item n="enprep"/>
         <pattern-item n="nom_mois"/>
@@ -12245,7 +12260,7 @@
     </rule>
 
 
-    <rule comment="RÈGLA: il y a NUM temps > fa NUM temps" v="oci">
+    <rule comment="RÈGLA: il y a NUM temps > fa NUM temps" >
       <pattern>
         <pattern-item n="il"/>
         <pattern-item n="y"/>
@@ -12301,7 +12316,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: il y a DETIND temps > fa DETIND temps" v="oci">
+    <rule comment="RÈGLA: il y a DETIND temps > fa DETIND temps" >
       <pattern>
         <pattern-item n="il"/>
         <pattern-item n="y"/>
@@ -12357,12 +12372,12 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: il y a COMPADV DE NUM temps > fa COMPADV DE NUM temps (il y a plus d'un an > fa mai d'un an)" v="oci">
+    <rule comment="RÈGLA: il y a COMPADV DE NUM temps > fa COMPADV DE NUM temps (il y a plus d'un an > fa mai d'un an)" >
       <pattern>
         <pattern-item n="il"/>
         <pattern-item n="y"/>
         <pattern-item n="vbhaver"/>
-		<pattern-item n="compadv"/>
+		    <pattern-item n="compadv"/>
         <pattern-item n="deprep"/>
         <pattern-item n="un_num"/>
         <pattern-item n="unite_temps"/>
@@ -12427,7 +12442,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: il y a longtemps > fa temps" v="oci">
+    <rule comment="RÈGLA: il y a longtemps > fa temps" >
       <pattern>
         <pattern-item n="il"/>
         <pattern-item n="y"/>
@@ -12473,7 +12488,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: il y a NUM temps > NUM temps a" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: il y a NUM temps > NUM temps a" >
       <pattern>
         <pattern-item n="il"/>
         <pattern-item n="y"/>
@@ -12524,9 +12539,9 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
-    <rule comment="RÈGLA: il y a DETIND temps > DETIND temps a" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: il y a DETIND temps > DETIND temps a" >
       <pattern>
         <pattern-item n="il"/>
         <pattern-item n="y"/>
@@ -12577,14 +12592,14 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
-    <rule comment="RÈGLA: il y a COMPADV DE NUM temps > COMPADV DE NUM temps a (il y a plus d'un a > mei d'un an a)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: il y a COMPADV DE NUM temps > COMPADV DE NUM temps a (il y a plus d'un a > mei d'un an a)" >
       <pattern>
         <pattern-item n="il"/>
         <pattern-item n="y"/>
         <pattern-item n="vbhaver"/>
-		<pattern-item n="compadv"/>
+		    <pattern-item n="compadv"/>
         <pattern-item n="deprep"/>
         <pattern-item n="un_num"/>
         <pattern-item n="unite_temps"/>
@@ -12644,9 +12659,9 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
-    <rule comment="RÈGLA: il y a NUM temps QUE > har NUM temps QUI (il y a un a que > hè un an qui)" v="oci@gascon">
+    <rule comment="RÈGLA: il y a NUM temps QUE > har NUM temps QUI (il y a un a que > hè un an qui)" >
       <pattern>
         <pattern-item n="il"/>
         <pattern-item n="y"/>
@@ -12725,12 +12740,12 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: il y a COMPADV DE NUM temps QUE > har COMPADV DE NUM temps QUI (il y a plus d'un a que > hè mei d'un an qui)" v="oci@gascon">
+    <rule comment="RÈGLA: il y a COMPADV DE NUM temps QUE > har COMPADV DE NUM temps QUI (il y a plus d'un a que > hè mei d'un an qui)" >
       <pattern>
         <pattern-item n="il"/>
         <pattern-item n="y"/>
         <pattern-item n="vbhaver"/>
-		<pattern-item n="compadv"/>
+		    <pattern-item n="compadv"/>
         <pattern-item n="deprep"/>
         <pattern-item n="un_num"/>
         <pattern-item n="unite_temps"/>
@@ -12818,7 +12833,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: il y a longtemps > bèth temps a" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: il y a longtemps > bèth temps a" >
       <pattern>
         <pattern-item n="il"/>
         <pattern-item n="y"/>
@@ -12861,7 +12876,7 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
     <rule comment="RÈGLA: NUM temps durant > pendent NUM temps">
       <pattern>
@@ -13042,7 +13057,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: début MOIS (début janvier > a la debuta de genièr)" v="oci">
+    <rule comment="RÈGLA: début MOIS (début janvier > a la debuta de genièr)" >
       <pattern>
         <pattern-item n="debut_n"/>
         <pattern-item n="nom_mois_an"/>
@@ -13087,7 +13102,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: début MOIS (début janvier > au començar de genèr)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: début MOIS (début janvier > au començar de genèr)" >
       <pattern>
         <pattern-item n="debut_n"/>
         <pattern-item n="nom_mois_an"/>
@@ -13130,9 +13145,9 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
-   <rule comment="RÈGLA: PREP début MOIS (PREP début janvier > PREP la debuta de genièr)" v="oci">
+    <rule comment="RÈGLA: PREP début MOIS (PREP début janvier > PREP la debuta de genièr)" >
       <pattern>
         <pattern-item n="pr"/>
         <pattern-item n="debut_n"/>
@@ -13175,7 +13190,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: PREP début MOIS (PREP début janvier > PREP lo començar de genèr)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: PREP début MOIS (PREP début janvier > PREP lo començar de genèr)" >
       <pattern>
         <pattern-item n="pr"/>
         <pattern-item n="debut_n"/>
@@ -13216,9 +13231,9 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
-   <rule comment="RÈGLA: fin MOIS (fin janvier > a la fin de genièr)">
+    <rule comment="RÈGLA: fin MOIS (fin janvier > a la fin de genièr)">
       <pattern>
         <pattern-item n="fin_n"/>
         <pattern-item n="nom_mois_an"/>
@@ -13263,7 +13278,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: PREP fin MOIS (PREP fin janvier > PREP la fin de genièr)">
+    <rule comment="RÈGLA: PREP fin MOIS (PREP fin janvier > PREP la fin de genièr)">
       <pattern>
         <pattern-item n="pr"/>
         <pattern-item n="fin_n"/>
@@ -13306,7 +13321,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: début MOIS NUM (début janvier 2022 > a la debuta de genièr de 2022)" v="oci">
+    <rule comment="RÈGLA: début MOIS NUM (début janvier 2022 > a la debuta de genièr de 2022)" >
       <pattern>
         <pattern-item n="debut_n"/>
         <pattern-item n="nom_mois"/>
@@ -13361,7 +13376,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: début MOIS NUM (début janvier 2022 > au començar de genèr de 2022)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: début MOIS NUM (début janvier 2022 > au començar de genèr de 2022)" >
       <pattern>
         <pattern-item n="debut_n"/>
         <pattern-item n="nom_mois"/>
@@ -13414,9 +13429,9 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
-   <rule comment="RÈGLA: PREP début MOIS NUM (PREP début janvier 2022 > PREP la debuta de genièr 2022)" v="oci">
+    <rule comment="RÈGLA: PREP début MOIS NUM (PREP début janvier 2022 > PREP la debuta de genièr 2022)" >
       <pattern>
         <pattern-item n="pr"/>
         <pattern-item n="debut_n"/>
@@ -13469,7 +13484,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: PREP début MOIS NUM (PREP début janvier 2022 > PREP lo començar de genèr e 2022)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: PREP début MOIS NUM (PREP début janvier 2022 > PREP lo començar de genèr e 2022)" >
       <pattern>
         <pattern-item n="pr"/>
         <pattern-item n="debut_n"/>
@@ -13520,9 +13535,9 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
-   <rule comment="RÈGLA: fin MOIS NUM (fin janvier 2020 > a la fin de genièr de 2020)">
+    <rule comment="RÈGLA: fin MOIS NUM (fin janvier 2020 > a la fin de genièr de 2020)">
       <pattern>
         <pattern-item n="fin_n"/>
         <pattern-item n="nom_mois"/>
@@ -13577,7 +13592,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: PREP fin MOIS NUM (PREP fin janvier 2022 > PREP la fin de genièr de 2022)">
+    <rule comment="RÈGLA: PREP fin MOIS NUM (PREP fin janvier 2022 > PREP la fin de genièr de 2022)">
       <pattern>
         <pattern-item n="pr"/>
         <pattern-item n="fin_n"/>
@@ -13630,7 +13645,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: MI-MOIS (mi-janvier > a la mitat de genièr)" v="oci">
+    <rule comment="RÈGLA: MI-MOIS (mi-janvier > a la mitat de genièr)" >
       <pattern>
         <pattern-item n="mi-mois"/>
       </pattern>
@@ -13671,7 +13686,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: MI-MOIS (mi-janvier > a la mieitat de genèr)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: MI-MOIS (mi-janvier > a la mieitat de genèr)" >
       <pattern>
         <pattern-item n="mi-mois"/>
       </pattern>
@@ -13710,9 +13725,9 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
-   <rule comment="RÈGLA: PREP MI-MOIS (PREP mi-janvier > PREP a la mitat de genièr)" v="oci">
+    <rule comment="RÈGLA: PREP MI-MOIS (PREP mi-janvier > PREP a la mitat de genièr)" >
       <pattern>
         <pattern-item n="pr"/>
         <pattern-item n="mi-mois"/>
@@ -13751,7 +13766,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: PREP MI-MOIS (PREP mi-janvier > PREP lo mieitat de genèr)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: PREP MI-MOIS (PREP mi-janvier > PREP lo mieitat de genèr)" >
       <pattern>
         <pattern-item n="pr"/>
         <pattern-item n="mi-mois"/>
@@ -13788,9 +13803,9 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
-   <rule comment="RÈGLA: DETDEF MI-MOIS (la mi-janvier > a la mitat de genièr)" v="oci">
+    <rule comment="RÈGLA: DETDEF MI-MOIS (la mi-janvier > a la mitat de genièr)" >
       <pattern>
         <pattern-item n="detdef"/>
         <pattern-item n="mi-mois"/>
@@ -13832,7 +13847,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: DETDEF MI-MOIS (la mi-janvier > a la mieitat de genèr)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: DETDEF MI-MOIS (la mi-janvier > a la mieitat de genèr)" >
       <pattern>
         <pattern-item n="detdef"/>
         <pattern-item n="mi-mois"/>
@@ -13872,9 +13887,9 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
-   <rule comment="RÈGLA: PREP DETDEF MI-MOIS (PREP la mi-janvier > PREP a la mitat de genièr)" v="oci">
+    <rule comment="RÈGLA: PREP DETDEF MI-MOIS (PREP la mi-janvier > PREP a la mitat de genièr)" >
       <pattern>
         <pattern-item n="pr"/>
         <pattern-item n="detdef"/>
@@ -13914,7 +13929,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: PREP DETDEF MI-MOIS (PREP la mi-janvier > PREP lo mieitat de genèr)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: PREP DETDEF MI-MOIS (PREP la mi-janvier > PREP lo mieitat de genèr)" >
       <pattern>
         <pattern-item n="pr"/>
         <pattern-item n="detdef"/>
@@ -13952,9 +13967,9 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
-   <rule comment="RÈGLA: JOUR_N PART_JOUR (lundi matin > diluns de matin)" v="oci">
+    <rule comment="RÈGLA: JOUR_N PART_JOUR (lundi matin > diluns de matin)" >
       <pattern>
         <pattern-item n="jour_n"/>
         <pattern-item n="part_jour"/>
@@ -13988,7 +14003,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: JOUR_N NUM PART_JOUR (lundi 13 matin > diluns 13 de matin)" v="oci">
+    <rule comment="RÈGLA: JOUR_N NUM PART_JOUR (lundi 13 matin > diluns 13 de matin)" >
       <pattern>
         <pattern-item n="jour_n"/>
         <pattern-item n="num"/>
@@ -14027,7 +14042,7 @@
       </action>
     </rule>
 
-   <rule comment="RÈGLA: JOUR_ADV PART_JOUR (hier matin > ièr de matin)" v="oci">
+    <rule comment="RÈGLA: JOUR_ADV PART_JOUR (hier matin > ièr de matin)" >
       <pattern>
         <pattern-item n="jour_adv"/>
         <pattern-item n="part_jour"/>
@@ -14058,10 +14073,10 @@
       </action>
     </rule>
 
-    <!-- FIN RÈGLAS DATAS -->
+  <!-- FIN RÈGLAS DATAS -->
 
 
-    <!-- RÈGLAS CAMBI AUXILIAR -->
+  <!-- RÈGLAS CAMBI AUXILIAR -->
 
     <rule comment="RÈGLA: HAVER SER_PP > SER + SER_PP: ai été > ei estat">
        <pattern>
@@ -16251,7 +16266,7 @@
        </action>
     </rule>
 
-<!-- xxxx -->
+    <!-- xxxx -->
     <rule comment="RÈGLA: NE PRNPRO HAVER PAS SER_PP > PRNPRO SER PAS SER_PP: ne lui ai pas été > li ei pas estat">
        <pattern>
          <pattern-item n="ne"/>
@@ -18027,10 +18042,10 @@
        </action>
     </rule>
 
-    <!-- FIN RÈGLAS CAMBI AUXILIAR -->
+  <!-- FIN RÈGLAS CAMBI AUXILIAR -->
 
 
-    <!-- RÈGLAS VÈRBS NON-PRON -->
+  <!-- RÈGLAS VÈRBS NON-PRON -->
 
     <rule comment="RÈGLA: PRNPRO VBPRON-NOPRON > VBPRON-NOPRON: Jean se rend chez lui > Jean va a casa">
        <pattern>
@@ -19360,12 +19375,12 @@
        </action>
     </rule>
 
-    <!-- FIN RÈGLAS VÈRBS NON-PRON -->
+  <!-- FIN RÈGLAS VÈRBS NON-PRON -->
 
 
-    <!-- RÈGLAS ELISION NE -->
+  <!-- RÈGLAS ELISION NE -->
 
-    <rule comment="RÈGLA: NE PAS INF > INF PAS: ne pas manger > manjar pas" v="oci">
+    <rule comment="RÈGLA: NE PAS INF > INF PAS: ne pas manger > manjar pas" >
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="pas"/>
@@ -19403,7 +19418,7 @@
        </action>
     </rule>
 
-    <rule comment="RÈGLA: NE PAS INF > NON PAS INF: ne pas manger > non pas manjar" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: NE PAS INF > NON PAS INF: ne pas manger > non pas manjar" >
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="pas"/>
@@ -19440,9 +19455,9 @@
            </chunk>
          </out>
        </action>
-    </rule>
+    </rule> -->
 
-    <rule comment="RÈGLA: NE PAS PRNPRO INF > PRNPRO INF PAS: ne pas te dire > te dire pas" v="oci">
+    <rule comment="RÈGLA: NE PAS PRNPRO INF > PRNPRO INF PAS: ne pas te dire > te dire pas" >
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="pas"/>
@@ -19499,7 +19514,7 @@
        </action>
     </rule>
 
-    <rule comment="RÈGLA: NE PAS PRNPRO PRNPRO INF > PRNPRO PRNPRO INF PAS: ne pas te le dire > te lo dire pas" v="oci">
+    <rule comment="RÈGLA: NE PAS PRNPRO PRNPRO INF > PRNPRO PRNPRO INF PAS: ne pas te le dire > te lo dire pas" >
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="pas"/>
@@ -19569,7 +19584,7 @@
        </action>
     </rule>
 
-    <rule comment="RÈGLA: NE ADV_PRNTN INF > INF PAS ADV_PRNTN: ne jamais manger > manjar pas jamai ; ne rien écouter > escotar pas res" v="oci">
+    <rule comment="RÈGLA: NE ADV_PRNTN INF > INF PAS ADV_PRNTN: ne jamais manger > manjar pas jamai ; ne rien écouter > escotar pas res" >
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="adv_prntn"/>
@@ -19612,7 +19627,7 @@
        </action>
     </rule>
 
-    <rule comment="RÈGLA: NE ADV_PRNTN INF > NON PAS ADV_PRNTN INF: ne jamais manger > non pas jamei manjar ; ne rien écouter > non pas arren enténer" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: NE ADV_PRNTN INF > NON PAS ADV_PRNTN INF: ne jamais manger > non pas jamei manjar ; ne rien écouter > non pas arren enténer" >
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="adv_prntn"/>
@@ -19658,9 +19673,9 @@
            </chunk>
          </out>
        </action>
-    </rule>
+    </rule> -->
 
-    <rule comment="RÈGLA: NE ADV_PRNTN PRNPRO INF > PRNPRO INF PAS ADV_PRNTN: ne jamais te dire > te dire pas jamai" v="oci">
+    <rule comment="RÈGLA: NE ADV_PRNTN PRNPRO INF > PRNPRO INF PAS ADV_PRNTN: ne jamais te dire > te dire pas jamai" >
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="adv_prntn"/>
@@ -19722,7 +19737,7 @@
        </action>
     </rule>
 
-    <rule comment="RÈGLA: NE ADV_PRNTN PRNPRO INF > NON PAS ADV_PRNTN PRNPRO INF: ne pas te dire > non pas jamei te dire" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: NE ADV_PRNTN PRNPRO INF > NON PAS ADV_PRNTN PRNPRO INF: ne pas te dire > non pas jamei te dire" >
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="adv_prntn"/>
@@ -19789,9 +19804,9 @@
            </chunk>
          </out>
        </action>
-    </rule>
+    </rule> -->
 
-    <rule comment="RÈGLA: NE ADV_PRNTN PRNPRO PRNPRO INF > PRNPRO PRNPRO INF PAS ADV_PRNTN: ne jamais te le dire > te lo dire pas jamai" v="oci">
+    <rule comment="RÈGLA: NE ADV_PRNTN PRNPRO PRNPRO INF > PRNPRO PRNPRO INF PAS ADV_PRNTN: ne jamais te le dire > te lo dire pas jamai" >
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="adv_prntn"/>
@@ -19867,7 +19882,7 @@
     </rule>
 
 
-    <rule comment="RÈGLA: NE ADV_PRNTN PRNPRO PRNPRO INF > NON PAS ADV_PRNTN PRNPRO PRNPRO INF: ne pas te le dire > non pas jamei t'ac dire" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: NE ADV_PRNTN PRNPRO PRNPRO INF > NON PAS ADV_PRNTN PRNPRO PRNPRO INF: ne pas te le dire > non pas jamei t'ac dire" >
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="adv_prntn"/>
@@ -19930,7 +19945,7 @@
            </chunk>
          </out>
        </action>
-    </rule>
+    </rule> -->
 
     <rule comment="RÈGLA: NE VBSER > VBSER: Jean n'est pas > Jean es pas">
        <pattern>
@@ -20336,7 +20351,7 @@
        </action>
     </rule>
 
-    <rule comment="RÈGLA: NE PRNPRO PRNPRO VBNOSER > PRNPRO PRNPRO VBNOSER: Jean ne lui en donne pas > Jean li ne donne pas" v="oci">
+    <rule comment="RÈGLA: NE PRNPRO PRNPRO VBNOSER > PRNPRO PRNPRO VBNOSER: Jean ne lui en donne pas > Jean li ne donne pas" >
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="prnpro"/>
@@ -20423,7 +20438,7 @@
        </action>
     </rule>
 
-    <rule comment="RÈGLA: NE PRNPRO PRNPRO VERB (n'y en a pas: n'i a pas; Jean ne le lui dit pas: Jean l'ac diguèt pas)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: NE PRNPRO PRNPRO VERB (n'y en a pas: n'i a pas; Jean ne le lui dit pas: Jean l'ac diguèt pas)" >
       <pattern>
         <pattern-item n="ne"/>
         <pattern-item n="prnpro"/>
@@ -20485,7 +20500,7 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
   <!-- FIN RÈGLAS ELISION NE -->
 
@@ -20746,38 +20761,38 @@
     </rule>
 
 
-<!--
-    <rule comment="RÈGLA: Y EN (il y en a: n'i a">
-      <pattern>
-        <pattern-item n="y"/>
-        <pattern-item n="enprn"/>
-      </pattern>
-      <action>
-         <let><var n="caseFirstWord"/><case-of pos="1" side="sl" part="lemh"/></let>
-         <out>
-           <chunk name="pro-pro" case="caseFirstWord">
-             <tags>
-               <tag><lit-tag v="SPron"/></tag>
-               <tag><lit-tag v="normal"/></tag>
-             </tags>
-             <lu>
-               <clip pos="2" side="tl" part="lemh"/>
-               <clip pos="2" side="tl" part="tags"/>
-               <clip pos="2" side="tl" part="lemq"/>
-             </lu>
-             <b pos="2"/>
-             <lu>
-               <get-case-from pos="2">
-                 <clip pos="1" side="tl" part="lemh"/>
-               </get-case-from>
-               <clip pos="1" side="tl" part="tags"/>
-               <clip pos="1" side="tl" part="lemq"/>
-             </lu>
-           </chunk>
-         </out>
-      </action>
-    </rule>
--->
+    <!--
+        <rule comment="RÈGLA: Y EN (il y en a: n'i a">
+          <pattern>
+            <pattern-item n="y"/>
+            <pattern-item n="enprn"/>
+          </pattern>
+          <action>
+            <let><var n="caseFirstWord"/><case-of pos="1" side="sl" part="lemh"/></let>
+            <out>
+              <chunk name="pro-pro" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SPron"/></tag>
+                  <tag><lit-tag v="normal"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="tags"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+                <b pos="2"/>
+                <lu>
+                  <get-case-from pos="2">
+                    <clip pos="1" side="tl" part="lemh"/>
+                  </get-case-from>
+                  <clip pos="1" side="tl" part="tags"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </action>
+        </rule>
+    -->
 
 
     <rule comment="RÈGLA: PRNPRO PRNPRO (y en > n'i; le lui > o li / l'ac)">
@@ -20800,7 +20815,7 @@
     </rule>
 
 
-    <rule comment="RÈGLA: PRNSUBJ PRNPRO PRNPRO VERB (il y en a: n'i a; il le lui dit: o li ditz)" v="oci">
+    <rule comment="RÈGLA: PRNSUBJ PRNPRO PRNPRO VERB (il y en a: n'i a; il le lui dit: o li ditz)" >
       <pattern>
         <pattern-item n="prnsubj"/>
         <pattern-item n="prnpro"/>
@@ -20928,7 +20943,7 @@
     </rule>
 
 
-    <rule comment="RÈGLA: PRNSUBJ PRNPRO PRNPRO VERB (il y en a: n'i a; il le lui dit: l'ac ditz)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: PRNSUBJ PRNPRO PRNPRO VERB (il y en a: n'i a; il le lui dit: l'ac ditz)" >
       <pattern>
         <pattern-item n="prnsubj"/>
         <pattern-item n="prnpro"/>
@@ -20987,7 +21002,7 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
 
     <rule comment="RÈGLA: EST-CE QUE PRNPRO PRNSUBJ VERB (est-ce qu'il lui dit: li ditz)">
@@ -21288,7 +21303,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: PRNSUBJ NE PRNPRO PRNPRO VERB (il n'y en a pas: n'i a pas; il ne le lui dit pas: o li diguèt pas)" v="oci">
+    <rule comment="RÈGLA: PRNSUBJ NE PRNPRO PRNPRO VERB (il n'y en a pas: n'i a pas; il ne le lui dit pas: o li diguèt pas)" >
       <pattern>
         <pattern-item n="prnsubj"/>
         <pattern-item n="ne"/>
@@ -21398,7 +21413,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: PRNSUBJ NE PRNPRO PRNPRO VERB (il n'y en a pas: n'i a pas; il ne le lui dit pas: l'ac diguèt pas)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: PRNSUBJ NE PRNPRO PRNPRO VERB (il n'y en a pas: n'i a pas; il ne le lui dit pas: l'ac diguèt pas)" >
       <pattern>
         <pattern-item n="prnsubj"/>
         <pattern-item n="ne"/>
@@ -21460,7 +21475,7 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
     <rule comment="RÈGLA: NE VBSER > VBSER: N'est-il pas > Es pas">
        <pattern>
@@ -21658,7 +21673,7 @@
        </action>
     </rule>
 
-    <rule comment="RÈGLA: NE PRNPRO PRNPRO VBNOSER > PRNPRO PRNPRO VBNOSER: Ne lui en donne-t-il pas > Li en donne pas" v="oci">
+    <rule comment="RÈGLA: NE PRNPRO PRNPRO VBNOSER > PRNPRO PRNPRO VBNOSER: Ne lui en donne-t-il pas > Li en donne pas" >
        <pattern>
          <pattern-item n="ne"/>
          <pattern-item n="prnpro"/>
@@ -21709,7 +21724,7 @@
        </action>
     </rule>
 
-    <rule comment="RÈGLA: NE PRNPRO PRNPRO VERB (Ne le lui dit-il pas: L'ac digó pas)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: NE PRNPRO PRNPRO VERB (Ne le lui dit-il pas: L'ac digó pas)" >
       <pattern>
         <pattern-item n="ne"/>
         <pattern-item n="prnpro"/>
@@ -21767,7 +21782,7 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
   <!-- FIN RÈGLAS ELISION SUBJECTE -->
 
@@ -21897,7 +21912,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: ON PRNPRO VERBP3 (on lui dit > se li diguèt ; on me dit > qualqu'un me diguèt)" v="oci">
+    <rule comment="RÈGLA: ON PRNPRO VERBP3 (on lui dit > se li diguèt ; on me dit > qualqu'un me diguèt)" >
       <pattern>
         <pattern-item n="on"/>
         <pattern-item n="prnpro"/>
@@ -21975,7 +21990,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: ON PRNPRO VERBP3 (on en dit > se'n diguó ; on lui dit > lo's diguó ; on me dit > quauqu'un me diguó)" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: ON PRNPRO VERBP3 (on en dit > se'n diguó ; on lui dit > lo's diguó ; on me dit > quauqu'un me diguó)" >
       <pattern>
         <pattern-item n="on"/>
         <pattern-item n="prnpro"/>
@@ -22103,7 +22118,7 @@
           </otherwise>
         </choose>
       </action>
-    </rule>
+    </rule> -->
 
     <rule comment="RÈGLA: ON PRNPRO PRNPRO VERBP3 (on le lui dit: se o li diguèt)">
       <pattern>
@@ -24884,7 +24899,7 @@
        </action>
     </rule>
 
-    <rule comment="RÈGLA: IMP PRNENC PRNENC" v="oci">
+    <rule comment="RÈGLA: IMP PRNENC PRNENC" >
        <pattern>
          <pattern-item n="verb"/>
          <pattern-item n="prnenc"/>
@@ -24971,7 +24986,7 @@
        </action>
     </rule>
 
-    <rule comment="RÈGLA: IMP PRNENC PRNENC" v="oci@gascon">
+    <!-- <rule comment="RÈGLA: IMP PRNENC PRNENC" >
        <pattern>
          <pattern-item n="verb"/>
          <pattern-item n="prnenc"/>
@@ -24982,8 +24997,8 @@
           <with-param pos="1"/>
          </call-macro>
 
-         <!-- quasi còpia de la macro escriure_prnpro_prnpro (v=gascon) -->
-         <!-- cas 'le/la/les + lui/leur' : on inverse CD et CI -->
+          quasi còpia de la macro escriure_prnpro_prnpro (v=gascon) 
+          cas 'le/la/les + lui/leur' : on inverse CD et CI 
          <choose>
            <when>
              <test>
@@ -25020,12 +25035,12 @@
            <when>
              <test>
                <or>
-                 <and> <!-- lo: prioritat 1 -->
+                 <and>  lo: prioritat 1 
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="lo"/></equal>
                    <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></equal>
                    <equal><clip pos="3" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
                  </and>
-                 <and> <!-- la: prioritat 2 -->
+                 <and>  la: prioritat 2 
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="lo"/></equal>
                    <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="f"/></equal>
                    <equal><clip pos="3" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
@@ -25037,7 +25052,7 @@
                      </and>
                    </not>
                  </and>
-                 <and> <!-- los: prioritat 3 -->
+                 <and>  los: prioritat 3 
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="lo"/></equal>
                    <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></equal>
                    <equal><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
@@ -25048,7 +25063,7 @@
                      </and>
                    </not>
                  </and>
-                 <and> <!-- las: prioritat 4 -->
+                 <and>  las: prioritat 4 
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="lo"/></equal>
                    <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="f"/></equal>
                    <equal><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
@@ -25056,13 +25071,13 @@
                      <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="lo"/></equal>
                    </not>
                  </and>
-                 <and> <!-- se: prioritat 5 -->
+                 <and>  se: prioritat 5 
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="se"/></equal>
                    <not>
                      <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="lo"/></equal>
                    </not>
                  </and>
-                 <and> <!-- te: prioritat 6 -->
+                 <and>  te: prioritat 6 
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="te"/></equal>
                    <not>
                      <or>
@@ -25071,7 +25086,7 @@
                      </or>
                    </not>
                  </and>
-                 <and> <!-- vos: prioritat 7 -->
+                 <and>  vos: prioritat 7 
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="vos"/></equal>
                    <not>
                      <or>
@@ -25081,7 +25096,7 @@
                      </or>
                    </not>
                  </and>
-                 <and> <!-- me: prioritat 8 -->
+                 <and>  me: prioritat 8 
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="me"/></equal>
                    <not>
                      <or>
@@ -25092,7 +25107,7 @@
                      </or>
                    </not>
                  </and>
-                 <and> <!-- nos: prioritat 9 -->
+                 <and>  nos: prioritat 9 
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="ne"/></equal>
                    <not>
                      <or>
@@ -25104,7 +25119,7 @@
                      </or>
                    </not>
                  </and>
-                 <and> <!-- ne: prioritat 10 -->
+                 <and>  ne: prioritat 10 
                    <or>
                      <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="ne"/></equal>
                      <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="en"/></equal>
@@ -25114,7 +25129,7 @@
                      <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="i"/></equal>
                    </or>
                  </and>
-                 <and> <!-- ac: prioritat 11 -->
+                 <and>  ac: prioritat 11 
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="ac"/></equal>
                    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="i"/></equal>
                  </and>
@@ -25181,7 +25196,7 @@
            </otherwise>
          </choose>
        </action>
-    </rule>
+    </rule> -->
 
     <rule comment="RÈGLA: TOUT EN VBGER > EN VBGER (tout en décollant > en s'enlairant)">
        <pattern>
@@ -26480,7 +26495,7 @@
   <!-- FIN RÈGLAS ON DOIT + INF > CAL + INF -->
 
 
-    <!-- RÈGLAS CAPÇALERA CHUNK + LEMH/LEMQ -->
+  <!-- RÈGLAS CAPÇALERA CHUNK + LEMH/LEMQ -->
 
     <rule comment="RÈGLA: DET">
        <pattern>
@@ -27184,7 +27199,7 @@
       </action>
     </rule>
 
-    <!-- FIN RÈGLAS CAPÇALERA CHUNK + LEMH/LEMQ -->
+  <!-- FIN RÈGLAS CAPÇALERA CHUNK + LEMH/LEMQ -->
 
 
   <!-- AUTRAS RÈGLAS -->
@@ -27524,24 +27539,24 @@
          <with-param pos="1"/>
        </call-macro>
          <let><var n="caseFirstWord"/><case-of pos="1" side="sl" part="lemh"/></let>
-<!--
-       <choose>
-         <when>
-           <test>
-             <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></equal>
-           </test>
-           <let><clip pos="1" side="tl" part="gen"/><clip pos="1" side="sl" part="gen"/></let>
-         </when>
-       </choose>
-       <choose>
-         <when>
-           <test>
-             <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></equal>
-           </test>
-           <let><clip pos="1" side="tl" part="gen"/><var n="genero"/></let>
-         </when>
-       </choose>
--->
+    <!--
+          <choose>
+            <when>
+              <test>
+                <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></equal>
+              </test>
+              <let><clip pos="1" side="tl" part="gen"/><clip pos="1" side="sl" part="gen"/></let>
+            </when>
+          </choose>
+          <choose>
+            <when>
+              <test>
+                <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></equal>
+              </test>
+              <let><clip pos="1" side="tl" part="gen"/><var n="genero"/></let>
+            </when>
+          </choose>
+    -->
        <out>
          <chunk name="det" case="caseFirstWord">
            <tags>

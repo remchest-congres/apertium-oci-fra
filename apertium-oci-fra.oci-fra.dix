@@ -151,7 +151,7 @@
     <e><p><l>en·horcar<s n="vblex"/></l>                            <r>enjamber<s n="vblex"/></r></p><par n="d:gascon"/></e>
     <e><p><l>encambar<s n="vblex"/></l>                             <r>enjamber<s n="vblex"/></r></p><par n="d:gascon"/></e>
 
-    <e><p><l>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l>    <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>un<s n="det"/><s n="ind"/></l>                         <r>un<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>velo<s n="n"/><s n="m"/></l>                           <r>vélo<s n="n"/><s n="m"/></r></p></e>
 
     <!-- ************ TESTS POUR LA POST GENERATION ************ -->
@@ -162,7 +162,9 @@
 
     <!-- ************ TESTS POUR LES REGLES DE SEGMENTATION (.t1x) ************ -->
 
-    <!-- <e><p><l>èsser<s n="vblex" /></l>         <r>être<s n="vblex" /></r></p><par n="d:lengadocian" /></e>
-    <e><p><l>estar<s n="vblex" /></l>         <r>être<s n="vblex" /></r></p><par n="d:gascon" /></e> -->
+    <e><p><l>èsser<s n="vbser" /></l>         <r>être<s n="vbser" /></r></p><par n="d:lengadocian" /></e>
+    <e><p><l>estar<s n="vbser" /></l>         <r>être<s n="vbser" /></r></p><par n="d:gascon" /></e>
+    <e><p><l>ora<s n="n"/><s n="f"/></l>      <r>heure<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>el<s n="prn"/><s n="tn"/></l>    <r>il<s n="prn"/><s n="tn"/></r></p></e>
   </section>
 </dictionary>
