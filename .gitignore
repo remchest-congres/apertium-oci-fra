@@ -23,6 +23,7 @@
 /.DS_Store
 /test/*-output.txt
 /fra-oci.t1x
+/fra-oci_gascon.t1x
 /fra-oci.t2x
 /fra-oci.t2x_bis
 /oci-fra.t1x
