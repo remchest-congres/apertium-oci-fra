@@ -8,6 +8,7 @@ PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 
 VAR1=_gascon
+VAR2=_lang
 
 BASENAME=apertium-$(PREFIX1)
 
@@ -27,6 +28,8 @@ TARGETS_COMMON =		\
 	$(PREFIX1).autosep1.bin \
 	$(PREFIX1).autosep2.bin \
 	$(PREFIX2).autosep1.bin \
+	$(PREFIX2).autosep1$(VAR1).bin \
+	$(PREFIX2).autosep1$(VAR2).bin \
 	$(PREFIX2).autosep2.bin \
 	$(PREFIX1).autogen.bin	\
 	$(PREFIX1).autopgen.bin	\
@@ -123,6 +126,12 @@ $(PREFIX1).autosep2.bin: $(BASENAME).$(PREFIX1).l2x
 	lsx-comp -v "oci" lr $< $@
 
 $(PREFIX2).autosep1.bin: $(BASENAME).$(PREFIX2).l1x
+	lsx-comp -v "oci" lr $< $@
+
+$(PREFIX2).autosep1$(VAR1).bin: $(BASENAME).$(PREFIX2)$(VAR1).l1x
+	lsx-comp -v "oci" lr $< $@
+
+$(PREFIX2).autosep1$(VAR2).bin: $(BASENAME).$(PREFIX2)$(VAR2).l1x
 	lsx-comp -v "oci" lr $< $@
 
 $(PREFIX2).autosep2.bin: $(BASENAME).$(PREFIX2).l2x

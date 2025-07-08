@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary type="separable">
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="vblex"/>
+    <sdef n="vbhaver"/>
+    <sdef n="vbser"/>
+    <sdef n="vbmod"/>
+    <sdef n="cnjadv"/>
+    <sdef n="cnjsub"/>
+    <sdef n="adv"/>
+    <sdef n="det"/>
+    <sdef n="pr"/>
+    <sdef n="prn"/>
+    <sdef n="def"/>
+    <sdef n="pos"/>
+    <sdef n="n"/>
+    <sdef n="adj"/>
+    <sdef n="m"/>
+    <sdef n="f"/>
+    <sdef n="mf"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="sp"/>
+    <sdef n="inf"/>
+    <sdef n="ger"/>
+    <sdef n="imp"/>
+    <sdef n="pp"/>
+    <sdef n="pro"/>
+    <sdef n="enc"/>
+  </sdefs>
+  <pardefs>
+    <pardef n="adv">
+      <e><i><w/><s n="adv"/><d/></i></e>
+      <e><i><w/><s n="adv"/><d/><w/><s n="adv"/><d/></i></e>
+      <e><i><w/><s n="adv"/><d/><w/><s n="adv"/><t/><d/></i></e>
+    </pardef>
+    <pardef n="verb">
+      <e><i><w/><s n="vblex"/><t/><d/></i></e>
+      <e><i><w/><s n="vbhaver"/><t/><d/></i></e>
+      <e><i><w/><s n="vbser"/><t/><d/></i></e>
+      <e><i><w/><s n="vbmod"/><t/><d/></i></e>
+    </pardef>
+    <pardef n="prnpro_verb">
+      <e><i><w/><s n="prn"/><s n="pro"/><t/><d/><w/><s n="vblex"/><t/><d/></i></e>
+      <e><i><w/><s n="prn"/><s n="pro"/><t/><d/><w/><s n="vbhaver"/><t/><d/></i></e>
+      <e><i><w/><s n="prn"/><s n="pro"/><t/><d/><w/><s n="vbser"/><t/><d/></i></e>
+      <e><i><w/><s n="prn"/><s n="pro"/><t/><d/><w/><s n="vbmod"/><t/><d/></i></e>
+    </pardef>
+    <pardef n="adj_pp">
+      <e><i><w/><s n="adj"/><t/><d/></i></e>
+      <e><i><w/><s n="vblex"/><s n="pp"/><t/><d/></i></e>
+    </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+    <e lm="faire barrage">
+      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>barrage</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>barrage<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="faire barrage">
+      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>barrage</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>barrage<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
+    </e>
+
+    <e lm="porter atteinte">
+      <p><l>porter<s n="vblex"/></l><r>porter<g><b/>atteinte</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>atteinte<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="porter atteinte">
+      <p><l>porter<s n="vblex"/></l><r>porter<g><b/>atteinte</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>atteinte<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="tenir compte">
+      <p><l>tenir<s n="vblex"/></l><r>tenir<g><b/>compte</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>compte<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="tenir compte">
+      <p><l>tenir<s n="vblex"/></l><r>tenir<g><b/>compte</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>compte<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="jouer de">
+      <p><l>jouer<s n="vblex"/></l><r>jouer<g><b/>de</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>de<s n="pr"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="mettre la table">
+      <p><l>mettre<s n="vblex"/></l><r>mettre<g><b/>la<b/>table</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>le<s n="det"/><s n="def"/><t/><d/>table<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="mettre la table">
+      <p><l>mettre<s n="vblex"/></l><r>mettre<g><b/>la<b/>table</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>le<s n="det"/><s n="def"/><t/><d/>table<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+
+    <e lm="réparer la chasse">
+      <p><l>réparer<s n="vblex"/></l><r>réparer<g><b/>la<b/>chasse</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>le<s n="det"/><s n="def"/><t/><d/>chasse<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="réparer la chasse">
+      <p><l>réparer<s n="vblex"/></l><r>réparer<g><b/>la<b/>chasse</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>le<s n="det"/><s n="def"/><t/><d/>chasse<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+
+    <e lm="mettre à bout">
+      <p><l>mettre<s n="vblex"/></l><r>mettre<g><b/>à<b/>bout</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>à<s n="pr"/><d/>bout<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="mettre à bout">
+      <p><l>mettre<s n="vblex"/></l><r>mettre<g><b/>à<b/>bout</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>à<s n="pr"/><d/>bout<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <!--
+      <e lm="tenir compte de">
+        <p><l>tenir<s n="vblex"/></l><r>tenir<g><b/>compte<b/>de</g><s n="vblex"/></r></p>
+        <i><t/><d/></i>
+        <p><l>compte<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+        <p><l>de<s n="pr"/><d/></l><r></r></p>
+      </e>
+      <e lm="tenir compte de">
+        <p><l>tenir<s n="vblex"/></l><r>tenir<g><b/>compte<b/>de</g><s n="vblex"/></r></p>
+        <i><t/><d/></i>
+        <par n="adv"/>
+        <p><l>compte<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+        <p><l>de<s n="pr"/><d/></l><r></r></p>
+      </e>
+    -->
+
+    <!--
+      <e lm="jouer de">
+        <p><l>jouer<s n="vblex"/></l><r>jouer<g><b/>de</g><s n="vblex"/></r></p>
+        <i><t/><d/></i>
+        <p><l>de<s n="pr"/><d/></l><r></r></p>
+      </e>
+    -->
+  </section>
+</dictionary>
