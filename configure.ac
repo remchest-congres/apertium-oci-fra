@@ -23,4 +23,6 @@ PKG_CHECK_MODULES(REGTEST, apertium-regtest >= 0.0.1, [],
 
 AP_MKINCLUDE
 
+AC_CONFIG_COMMANDS([mkdir], [$MKDIR_P build bin])
+
 AC_OUTPUT([Makefile])
