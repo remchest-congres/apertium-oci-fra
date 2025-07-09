@@ -1,37 +1,34 @@
-WARNING
-===============================================================================
+# WARNING
+
 Please be aware that this repository is a `WORK IN PROGRESS`. The datas, paradigms and
 gramatical rules included here are only for `TEST` purposes. The output of the translations
 are not trustworthy regarding Occitan and French languages.
 
-Occitan and French (`apertium-oci-fra`)
-===============================================================================
+# Occitan and French (`apertium-oci-fra`)
 
 This is an Apertium language pair for translating between (Languedocian and Gascon)
 Occitan and French. What you can use this language package for:
 
-* Translating between (Languedocian and Gascon) Occitan and French
-* Morphological analysis of (Languedocian and Gascon) Occitan and French
-* Part-of-speech tagging of (Languedocian and Gascon) Occitan and French
+- Translating between (Languedocian and Gascon) Occitan and French
+- Morphological analysis of (Languedocian and Gascon) Occitan and French
+- Part-of-speech tagging of (Languedocian and Gascon) Occitan and French
 
 For information on the latter two points, see subheading "For more
 information" below
 
-Requirements
-===============================================================================
+# Requirements
 
 You will need the following software installed:
 
-* lttoolbox (>= 3.3.0)
-* apertium (>= 3.3.0)
-* vislcg3 (>= 0.9.9.10297)
-* apertium-oci
-* apertium-fra
+- lttoolbox (>= 3.3.0)
+- apertium (>= 3.3.0)
+- vislcg3 (>= 0.9.9.10297)
+- apertium-oci
+- apertium-fra
 
 If this does not make any sense, we recommend you look at: apertium.org
 
-Compiling
-===============================================================================
+# Compiling
 
 Given the requirements being installed, you should be able to just run:
 
@@ -49,8 +46,7 @@ You can use ./autogen.sh instead of ./configure you're compiling from
 SVN. If you installed any prerequisite language packages using a --prefix
 to ./configure, make sure to give the same --prefix to ./configure here.
 
-Testing
-===============================================================================
+# Testing
 
 Right now this language pair only includes a limited number of words for testing purposes.
 
@@ -104,54 +100,96 @@ $  echo 'nuòch lièit haria huelhas' | apertium -d . oci-fra
 Nuit lit farine feuilles
 ```
 
+# Files and data
 
-Files and data
-===============================================================================
+```
+.
+├─ .deps/          -> Temporary build files
+├─ bin/            -> Binary files
+├─ build/          -> Files built by `apertium-filter-rules`
+├─ modes.xml       -> Translation modes
+└─ src/
+    ├─ dictionaries/
+    │   └─ apertium-oci-fra.oci-fra.dix            -> Bilingual dictionary
+    │
+    ├─ lexical-selection/
+    │   ├─ apertium-oci-fra.oci-fra.n_a_adv.lrx    -> Lexical selection rules for noun and adverbs
+    │   │                                              translation into French
+    │   ├─ apertium-oci-fra.oci-fra.np.lrx         -> Lexical selection rules for proper noun translation into French
+    │   ├─ apertium-oci-fra.oci-fra.v.lrx          -> Lexical selection rules for verbs translation into French
+    │   ├─ apertium-oci-fra.oci-fra.other.lrx      -> Lexical selection rules translating into French
+    │   ├─ apertium-oci-fra.fra-oci.n_a_adv.lrx    -> Lexical selection rules for noun and adverbs
+    │   │                                              translation into Occitan
+    │   ├─ apertium-oci-fra.fra-oci.np.lrx         -> Lexical selection rules for proper noun translation into Occitan
+    │   ├─ apertium-oci-fra.fra-oci.v.lrx          -> Lexical selection rules for verbs translation into Occitan
+    │   └─ apertium-oci-fra.fra-oci.other.lrx      -> Lexical selection rules translating into Occitan
+    │
+    ├─ multiwords/
+    │   ├─ apertium-oci-fra.oci-fra.l1x            -> Rules for recognising expressions with
+    │   │                                              discontiguous words for translating into French
+    │   ├─ apertium-oci-fra.oci-fra.l2x            -> Rules for reordering words in discontiguous
+    │   │                                              expressions for translating into French
+    │   ├─ apertium-oci-fra.fra-oci_gascon.l1x     -> Rules for recognising expressions with discontiguous
+    │   │                                              words for translating into Occitan, specific to the Gascon variant
+    │   ├─ apertium-oci-fra.fra-oci_lang.l1x       -> Rules for recognising expressions with discontiguous words for
+    │   │                                              translating into Occitan, specific to the Lengadocian variant
+    │   ├─ apertium-oci-fra.fra-oci.l1x            -> Rules for recognising expressions with discontiguous words for
+    │   │                                              translating into Occitan, common rule for all variants
+    │   └─ apertium-oci-fra.fra-oci.l2x            -> Rules for reordering words in discontiguous expressions for
+    │                                                  translating into Occitan
+    │
+    ├─ preferences/
+    │   ├─ apertium-oci-fra.fra-oci_gascon.biprefs.rlx   -> Disambiguation rules for the Gascon variant
+    │   └─ apertium-oci-fra.fra-oci.biprefs.rlx          -> Disambiguation rules for the Lengadocian variant
+    │
+    └─ transfer/
+        ├─ chunkers/
+        │   ├─ apertium-oci-fra.oci-fra.t1x        -> Chunking rules for translating into French
+        │   ├─ apertium-oci-fra.fra-oci.t1x        -> Chunking rules for translating into Occitan Gascon
+        │   └─ apertium-oci-fra.fra-oci.t1x        -> Chunking rules for translating into Occitan Lengadocian
+        │
+        ├─ final-rules/
+        │   ├─ apertium-oci-fra.oci-fra.t4x        -> Final transfer rules for translating into French
+        │   └─ apertium-oci-fra.fra-oci.t4x        -> Final transfer rules for translating into Occitan
+        │
+        ├─ interchunks/
+        │   ├─ apertium-oci-fra.oci-fra.t2x_temps      -> Interchunk rules for translating into Occitan dealing with
+        │   │                                              changing verbal tenses (step 1)
+        │   ├─ apertium-oci-fra.oci-fra.t2ax           -> Interchunk rules for translating into French (steps 2 and 3)
+        │   ├─ apertium-oci-fra.oci-fra.t2bx           -> Interchunk rules for translating into French (step 4)
+        │   ├─ apertium-oci-fra.oci-fra.t2cx           -> Interchunk rules for translating into French (step 5)
+        │   ├─ apertium-oci-fra.oci-fra.t2dx           -> Interchunk rules for translating into French (step 6)
+        │   ├─ apertium-oci-fra.oci-fra.t2ex           -> Interchunk rules for translating into French (step 7)
+        │   ├─ apertium-oci-fra.fra-oci.t2x_ini        -> Interchunk rules for translating into Occitan dealing with
+        │   │                                              subject-verb agreement (step 1)
+        │   ├─ apertium-oci-fra.fra-oci.t2x            -> Interchunk rules for translating into Occitan (step 2)
+        │   ├─ apertium-oci-fra.fra-oci.t2x_bis        -> Interchunk rules for translating into Occitan (step 3)
+        │   ├─ apertium-oci-fra.fra-oci.t2x_pas        -> Interchunk rules for translating into Occitan dealing with
+        │   │                                              verbal negative forms (step 4)
+        │   ├─ apertium-oci-fra.fra-oci.t2x_pro        -> Interchunk rules for translating into Occitan dealing with
+        │   │                                              the order of proclitic pronouns (step 5)
+        │   ├─ apertium-oci-fra.fra-oci.t2x_supersn    -> Interchunk rules for translating into Occitan dealing with
+        │   │                                              the grouping of noun phrases (step 6)
+        │   └─ apertium-oci-fra.fra-oci.t2x_enon       -> Interchunk rules for translating into Occitan dealing with
+        │                                                  Gascon enonciatives (step 7)
+        │
+        └─ postchunks/
+            ├─ apertium-oci-fra.oci-fra.t3x        -> Postchunk rules for translating into French
+            └─ apertium-oci-fra.fra-oci.t3x        -> Postchunk rules for translating into Occitan
+```
 
-TODO: update this list
+# For more information
 
-* apertium-oci-fra.oci-fra.dix  - Bilingual dictionary
-* apertium-oci-fra.oci-fra.t1x  - Chunking rules for translating into French
-* apertium-oci-fra.fra-oci.t1x  - Chunking rules for translating into Occitan
-* apertium-oci-fra.oci-fra.t2x_temps - Interchunk rules for translating into Occitan dealing with changing verbal tenses (step 1)
-* apertium-oci-fra.oci-fra.t2ax  - Interchunk rules for translating into French (steps 2 and 3)
-* apertium-oci-fra.oci-fra.t2bx  - Interchunk rules for translating into French (step 4)
-* apertium-oci-fra.oci-fra.t2cx  - Interchunk rules for translating into French (step 5)
-* apertium-oci-fra.oci-fra.t2dx  - Interchunk rules for translating into French (step 6)
-* apertium-oci-fra.oci-fra.t2ex  - Interchunk rules for translating into French (step 7)
-* apertium-oci-fra.fra-oci.t2x_ini - Interchunk rules for translating into Occitan dealing with subject-verb agreement (step 1)
-* apertium-oci-fra.fra-oci.t2x  - Interchunk rules for translating into Occitan (step 2)
-* apertium-oci-fra.fra-oci.t2x_bis - Interchunk rules for translating into Occitan (step 3)
-* apertium-oci-fra.fra-oci.t2x_pas - Interchunk rules for translating into Occitan dealing with verbal negative forms (step 4)
-* apertium-oci-fra.fra-oci.t2x_pro - Interchunk rules for translating into Occitan dealing with the order of proclitic pronouns (step 5)
-* apertium-oci-fra.fra-oci.t2x_supersn  - Interchunk rules for translating into Occitan dealing with the grouping of noun phrases (step 6)
-* apertium-oci-fra.fra-oci.t2x_enon - Interchunk rules for translating into Occitan dealing with Gascon enonciatives (step 7)
-* apertium-oci-fra.oci-fra.t3x  - Postchunk rules for translating into French
-* apertium-oci-fra.fra-oci.t3x  - Postchunk rules for translating into Occitan
-* apertium-oci-fra.oci-fra.t4x  - Final transfer rules for translating into French
-* apertium-oci-fra.fra-oci.t4x  - Final transfer rules for translating into Occitan
-* apertium-oci-fra.oci-fra.lrx  - Lexical selection rules for translating into French
-* apertium-oci-fra.fra-oci.lrx  - Lexical selection rules for translating into Occitan
-* apertium-oci-fra.oci-fra.l1x  - Rules for recognising expressions with discontiguous words for translating into French
-* apertium-oci-fra.oci-fra.l2x  - Rules for reordering words in discontiguous expressions for translating into French
-* apertium-oci-fra.fra-oci.l1x  - Rules for recognising expressions with discontiguous words for translating into Occitan
-* apertium-oci-fra.fra-oci.l2x  - Rules for reordering words in discontiguous expressions for translating into Occitan
-* modes.xml                     - Translation modes
+- https://wiki.apertium.org/wiki/Installation
+- https://wiki.apertium.org/wiki/apertium-oci-fra
+- https://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+- https://wiki.apertium.org/wiki/Paire_Occitan-Fran%C3%A7ais - Overall presentation of the architecture (in French)
 
-For more information
-===============================================================================
-
-* https://wiki.apertium.org/wiki/Installation
-* https://wiki.apertium.org/wiki/apertium-oci-fra
-* https://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
-* https://wiki.apertium.org/wiki/Paire_Occitan-Fran%C3%A7ais - Overall presentation of the architecture (in French)
-
-Help and support
-===============================================================================
+# Help and support
 
 If you need help using this language pair or data, you can contact:
 
-* Mailing list: apertium-stuff@lists.sourceforge.net
-* IRC: #apertium on irc.oftc.net
+- Mailing list: apertium-stuff@lists.sourceforge.net
+- IRC: #apertium on irc.oftc.net
 
 See also the file AUTHORS included in this distribution.
