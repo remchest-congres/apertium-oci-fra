@@ -28,8 +28,6 @@ TARGETS_COMMON =		\
 	bin/$(PREFIX1).autosep1.bin \
 	bin/$(PREFIX1).autosep2.bin \
 	bin/$(PREFIX2).autosep1.bin \
-	bin/$(PREFIX2).autosep1$(VAR1).bin \
-	bin/$(PREFIX2).autosep1$(VAR2).bin \
 	bin/$(PREFIX2).autosep2.bin \
 	bin/$(PREFIX1).autogen.bin	\
 	bin/$(PREFIX1).autopgen.bin	\
@@ -63,8 +61,6 @@ TARGETS_COMMON =		\
 	bin/$(PREFIX2).other.autolex.bin	\
 	bin/$(PREFIX2).autogen.bin	\
 	bin/$(PREFIX2).autopgen.bin	\
-	bin/$(PREFIX2)$(VAR1).t1x.bin	\
-	build/$(PREFIX2)$(VAR1).t1x			\
 	bin/$(PREFIX2).t1x.bin	\
 	build/$(PREFIX2).t1x			\
 	bin/$(PREFIX2).t2x.bin	\
@@ -126,14 +122,14 @@ bin/$(PREFIX1).autosep2.bin: src/multiwords/$(BASENAME).$(PREFIX1).l2x
 bin/$(PREFIX2).autosep1.bin: src/multiwords/$(BASENAME).$(PREFIX2).l1x
 	lsx-comp -v "oci" lr $< $@
 
-bin/$(PREFIX2).autosep1$(VAR1).bin: src/multiwords/$(BASENAME).$(PREFIX2)$(VAR1).l1x
-	lsx-comp -v "oci" lr $< $@
+# bin/$(PREFIX2).autosep1$(VAR1).bin: src/multiwords/$(BASENAME).$(PREFIX2)$(VAR1).l1x
+# 	lsx-comp -v "oci" lr $< $@
 
-bin/$(PREFIX2).autosep1$(VAR2).bin: src/multiwords/$(BASENAME).$(PREFIX2)$(VAR2).l1x
-	lsx-comp -v "oci" lr $< $@
+# bin/$(PREFIX2).autosep1$(VAR2).bin: src/multiwords/$(BASENAME).$(PREFIX2)$(VAR2).l1x
+# 	lsx-comp -v "oci" lr $< $@
 
-bin/$(PREFIX2).autosep2.bin: src/multiwords/$(BASENAME).$(PREFIX2).l2x
-	lsx-comp -v "oci" lr $< $@
+# bin/$(PREFIX2).autosep2.bin: src/multiwords/$(BASENAME).$(PREFIX2).l2x
+# 	lsx-comp -v "oci" lr $< $@
 
 
 ###############################################################################
@@ -320,12 +316,12 @@ bin/$(PREFIX2).t1x.bin: build/$(PREFIX2).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
-build/$(PREFIX2)$(VAR1).t1x: src/transfer/chunkers/$(BASENAME).$(PREFIX2)$(VAR1).t1x
-	apertium-filter-rules oci src/transfer/chunkers/$(BASENAME).$(PREFIX2)$(VAR1).t1x >$@
+# build/$(PREFIX2)$(VAR1).t1x: src/transfer/chunkers/$(BASENAME).$(PREFIX2)$(VAR1).t1x
+# 	apertium-filter-rules oci src/transfer/chunkers/$(BASENAME).$(PREFIX2)$(VAR1).t1x >$@
 
-bin/$(PREFIX2)$(VAR1).t1x.bin: build/$(PREFIX2)$(VAR1).t1x
-	apertium-validate-transfer $<
-	apertium-preprocess-transfer $< $@
+# bin/$(PREFIX2)$(VAR1).t1x.bin: build/$(PREFIX2)$(VAR1).t1x
+# 	apertium-validate-transfer $<
+# 	apertium-preprocess-transfer $< $@
 
 build/$(PREFIX2).t2x: src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x
 	apertium-filter-rules oci src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x >$@
@@ -400,7 +396,6 @@ EXTRA_DIST=					\
 		src/transfer/postchunks/$(BASENAME).$(PREFIX1).t3x	\
 		src/transfer/final-rules/$(BASENAME).$(PREFIX1).t4x	\
 		src/transfer/chunkers/$(BASENAME).$(PREFIX2).t1x	\
-		src/transfer/chunkers/$(BASENAME).$(PREFIX2)$(VAR1).t1x \
 		src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x_ini	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x_bis	\
@@ -433,7 +428,6 @@ apertium_oci_fra_DATA=	\
 	src/transfer/postchunks/$(BASENAME).$(PREFIX1).t3x			\
 	src/transfer/final-rules/$(BASENAME).$(PREFIX1).t4x			\
 	src/transfer/chunkers/$(BASENAME).$(PREFIX2).t1x			\
-	src/transfer/chunkers/$(BASENAME).$(PREFIX2)$(VAR1).t1x \
 	src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x_ini			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x_bis			\

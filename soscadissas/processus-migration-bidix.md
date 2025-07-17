@@ -2,7 +2,7 @@
 
 - [ ] mise en place des tests de non régression
 - [x] setup d'une branche de migration
-- [ ] sur la branche de migration, restaurer l'ensemble des fichiers à leurs états précédents (état du répo courrant d'apertium)
+- [x] sur la branche de migration, restaurer l'ensemble des fichiers à leurs états précédents (état du répo courrant d'apertium)
 - [ ] vérifier la pertinance de travailler sur les fichiers `apertium-oci-fra.fra-oci.t2x_supersn` et `apertium-oci-fra.fra-oci.t2x_enon`
 
 # modifications sur la structure des fichiers
