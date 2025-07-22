@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interchunk>
+  <section-def-cats>
+    <def-cat n="SN">
+      <cat-item tags="SN"/>
+      <cat-item tags="SN.*"/>
+    </def-cat>
+    <def-cat n="SA">
+      <cat-item tags="SA"/>
+      <cat-item tags="SA.*"/>
+      <cat-item tags="SAcomp.*"/>
+    </def-cat>
+    <def-cat n="PP">
+      <cat-item lemma="pp" tags="SA.*"/>
+      <cat-item tags="SA.pp.*"/>
+    </def-cat>
+    <def-cat n="SAcomp">
+      <cat-item tags="SAcomp.*"/>
+    </def-cat>
+    <def-cat n="SN_SA">
+      <cat-item tags="SN"/>
+      <cat-item tags="SN.*"/>
+      <cat-item tags="SA"/>
+      <cat-item tags="SA.*"/>
+      <cat-item tags="SAcomp.*"/>
+    </def-cat>
+    <def-cat n="SAdv">
+      <cat-item tags="SAdv"/>
+      <cat-item tags="SAdv.*"/>
+    </def-cat>
+    <def-cat n="pas">
+      <cat-item lemma="pas" tags="SAdv"/>
+      <cat-item lemma="pas" tags="SAdv.*"/>
+    </def-cat>
+    <def-cat n="SPron">
+      <cat-item tags="SPron"/>
+      <cat-item tags="SPron.*"/>
+    </def-cat>
+    <def-cat n="SPron_cco">
+      <cat-item lemma="çò" tags="SPron.*"/>
+    </def-cat>
+    <def-cat n="SV">
+      <cat-item tags="SV"/>
+      <cat-item tags="SV.*"/>
+    </def-cat>
+    <def-cat n="SV_desir_a_cco_pii_ifi_cni">
+      <cat-item tags="SV.*.pii.*"/>
+      <cat-item lemma="demandar" tags="SV.*.pii.*"/>
+      <cat-item lemma="far# atencion" tags="SV.*.pii.*"/>
+      <cat-item lemma="har# atencion" tags="SV.*.pii.*"/>
+      <cat-item lemma="hèr# atencion" tags="SV.*.pii.*"/>
+      <cat-item lemma="prene# garda" tags="SV.*.pii.*"/>
+      <cat-item lemma="préner# garda" tags="SV.*.pii.*"/>
+      <cat-item lemma="tenir" tags="SV.*.pii.*"/>
+      <cat-item lemma="tiéner" tags="SV.*.pii.*"/>
+      <cat-item lemma="demandar" tags="SV.*.ifi.*"/>
+      <cat-item lemma="far# atencion" tags="SV.*.ifi.*"/>
+      <cat-item lemma="har# atencion" tags="SV.*.ifi.*"/>
+      <cat-item lemma="hèr# atencion" tags="SV.*.ifi.*"/>
+      <cat-item lemma="prene# garda" tags="SV.*.ifi.*"/>
+      <cat-item lemma="préner# garda" tags="SV.*.ifi.*"/>
+      <cat-item lemma="tenir" tags="SV.*.ifi.*"/>
+      <cat-item lemma="tiéner" tags="SV.*.ifi.*"/>
+      <cat-item lemma="demandar" tags="SV.*.cni.*"/>
+      <cat-item lemma="far# atencion" tags="SV.*.cni.*"/>
+      <cat-item lemma="har# atencion" tags="SV.*.cni.*"/>
+      <cat-item lemma="hèr# atencion" tags="SV.*.cni.*"/>
+      <cat-item lemma="prene# garda" tags="SV.*.cni.*"/>
+      <cat-item lemma="préner# garda" tags="SV.*.cni.*"/>
+      <cat-item lemma="tenir" tags="SV.*.cni.*"/>
+      <cat-item lemma="tiéner" tags="SV.*.cni.*"/>
+    </def-cat>
+    <def-cat n="SV_prs">
+      <cat-item tags="SV.*.prs.*"/>
+    </def-cat>
+    <def-cat n="PREP">
+      <cat-item tags="PREP"/>
+      <cat-item tags="PREP.*"/>
+    </def-cat>
+    <def-cat n="PREP_a">
+      <cat-item lemma="a" tags="PREP"/>
+    </def-cat>
+    <def-cat n="DET">
+      <cat-item tags="Det"/>
+      <cat-item tags="Det.*"/>
+    </def-cat>
+    <def-cat n="REL_que">
+      <cat-item lemma="que" tags="rel"/>
+    </def-cat>
+
+    <def-cat n="UNK">
+      <cat-item tags="unknown"/>
+    </def-cat>
+    <def-cat n="DET_SN_SAdv_SPron_PREP_UNK">
+      <cat-item tags="Det.*"/>
+      <cat-item tags="SN"/>
+      <cat-item tags="SN.*"/>
+      <cat-item tags="SAdv"/>
+      <cat-item tags="SAdv.*"/>
+      <cat-item tags="SPron"/>
+      <cat-item tags="SPron.*"/>
+      <cat-item tags="PREP"/>
+      <cat-item tags="unknown"/>
+    </def-cat>
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="chunk">
+      <attr-item tags="SN"/>
+      <attr-item tags="SV"/>
+    </def-attr>
+
+    <def-attr n="temps">
+      <attr-item tags="inf"/>
+      <attr-item tags="ger"/>
+      <attr-item tags="pp"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="pii"/>
+      <attr-item tags="fti"/>
+      <attr-item tags="cni"/>
+      <attr-item tags="prs"/>
+      <attr-item tags="pis"/>
+      <attr-item tags="fts"/>
+      <attr-item tags="imp"/>
+    </def-attr>
+
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="v_det_pron_neg" v="false"/>
+  </section-def-vars>
+
+  <section-rules>
+
+    <!-- RÈGLAS SV_desir + QUE + PRS  > SV_desir + QUE + PIS -->
+
+    <rule comment="RÈGLA: SV_desir_a_cco_pii_ifi_cni PREP_a SPron_cco REL_que SV_prs > SV_desir_a_cco_pii_ifi_cni PREP_a SPron_cco REL_que SV_pis: je demandais à ce que tu chantes > demandavi a çò que cantèsses">
+      <pattern>
+        <pattern-item n="SV_desir_a_cco_pii_ifi_cni"/>
+        <pattern-item n="PREP_a"/>
+        <pattern-item n="SPron_cco"/>
+        <pattern-item n="REL_que"/>
+        <pattern-item n="SV_prs"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="5" part="temps"/><lit-tag v="prs"/></equal>
+            </test>
+            <let><clip pos="5" part="temps"/><lit-tag v="pis"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RÈGLA: SV_desir_a_cco_pii_ifi_cni ADV PREP_a SPron_cco REL_que SV_prs > SV_desir_a_cco_pii_ifi_cni ADV PREP_a SPron_cco REL_que SV_pis: je ne demandais pas à ce que tu chantes > demandavi pas a çò que cantèsses">
+      <pattern>
+        <pattern-item n="SV_desir_a_cco_pii_ifi_cni"/>
+        <pattern-item n="SAdv"/>
+        <pattern-item n="PREP_a"/>
+        <pattern-item n="SPron_cco"/>
+        <pattern-item n="REL_que"/>
+        <pattern-item n="SV_prs"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="6" part="temps"/><lit-tag v="prs"/></equal>
+            </test>
+            <let><clip pos="6" part="temps"/><lit-tag v="pis"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+          <b pos="5"/>
+          <chunk>
+            <clip pos="6" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RÈGLA: SV_desir_a_cco_pii_ifi_cni PREP_a SPron_cco REL_que DET_SN_SAdv_SPron_PREP_UNK SV_prs > SV_desir_a_cco_pii_ifi_cni PREP_a SPron_cco REL_que DET_SN_SAdv_SPron_PREP_UNK SV_pis: je demandais à ce que Jean chante > demandavi a çò que cantèsse">
+      <pattern>
+        <pattern-item n="SV_desir_a_cco_pii_ifi_cni"/>
+        <pattern-item n="PREP_a"/>
+        <pattern-item n="SPron_cco"/>
+        <pattern-item n="REL_que"/>
+        <pattern-item n="DET_SN_SAdv_SPron_PREP_UNK"/>
+        <pattern-item n="SV_prs"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="6" part="temps"/><lit-tag v="prs"/></equal>
+            </test>
+            <let><clip pos="6" part="temps"/><lit-tag v="pis"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+          <b pos="5"/>
+          <chunk>
+            <clip pos="6" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RÈGLA: SV_desir_a_cco_pii_ifi_cni ADV PREP_a SPron_cco REL_que DET_SN_SAdv_SPron_PREP_UNK SV_prs > SV_desir_a_cco_pii_ifi_cni ADV PREP_a SPron_cco REL_que DET_SN_SAdv_SPron_PREP_UNK SV_pis: je ne demandais pas à ce que Jean chante > demandavi pas a çò que Jean cantèsse">
+      <pattern>
+        <pattern-item n="SV_desir_a_cco_pii_ifi_cni"/>
+        <pattern-item n="SAdv"/>
+        <pattern-item n="PREP_a"/>
+        <pattern-item n="SPron_cco"/>
+        <pattern-item n="REL_que"/>
+        <pattern-item n="DET_SN_SAdv_SPron_PREP_UNK"/>
+        <pattern-item n="SV_prs"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="7" part="temps"/><lit-tag v="prs"/></equal>
+            </test>
+            <let><clip pos="7" part="temps"/><lit-tag v="pis"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+          <b pos="5"/>
+          <chunk>
+            <clip pos="6" part="whole"/>
+          </chunk>
+          <b pos="6"/>
+          <chunk>
+            <clip pos="7" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RÈGLA: SV_desir_a_cco_pii_ifi_cni PREP_a SPron_cco REL_que DET_SN_SAdv_SPron_PREP_UNK^2 SV_prs > SV_desir_a_cco_pii_ifi_cni PREP_a SPron_cco REL_que DET_SN_SAdv_SPron_PREP_UNK^2 SV_pis: je demandais à ce que mon ami chante > demandavi a çò que mon amic cantèsse">
+      <pattern>
+        <pattern-item n="SV_desir_a_cco_pii_ifi_cni"/>
+        <pattern-item n="PREP_a"/>
+        <pattern-item n="SPron_cco"/>
+        <pattern-item n="REL_que"/>
+        <pattern-item n="DET_SN_SAdv_SPron_PREP_UNK"/>
+        <pattern-item n="DET_SN_SAdv_SPron_PREP_UNK"/>
+        <pattern-item n="SV_prs"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="7" part="temps"/><lit-tag v="prs"/></equal>
+            </test>
+            <let><clip pos="7" part="temps"/><lit-tag v="pis"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+          <b pos="5"/>
+          <chunk>
+            <clip pos="6" part="whole"/>
+          </chunk>
+          <b pos="6"/>
+          <chunk>
+            <clip pos="7" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- FIN RÈGLAS SV_desir + QUE + PRS  > SV_desir + QUE + PIS -->
+
+  </section-rules>
+</interchunk>
+
+<!--
+Resources:
+    https://wiki.apertium.org/wiki/Chunking:_A_full_example
+    https://wiki.apertium.org/wiki/Chunking
+    https://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Transfer_rules
+    https://wiki.apertium.org/wiki/A_long_introduction_to_transfer_rules
+    https://wiki.apertium.org/wiki/Transfer#Adding_structural_transfer_.28grammar.29_rules
+-->
