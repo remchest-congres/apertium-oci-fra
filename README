@@ -144,8 +144,9 @@ Nuit lit farine feuilles
     │
     └─ transfer/
         ├─ chunkers/
-        │   ├─ apertium-oci-fra.oci-fra.t1x        -> Chunking rules for translating into French
-        │   ├─ apertium-oci-fra.fra-oci.t1x        -> Chunking rules for translating into Occitan Gascon
+        │   ├─ apertium-oci-fra.oci_gascon-fra.t1x        -> Chunking rules for translating Occitan Gascon into French
+        │   ├─ apertium-oci-fra.oci-fra.t1x        -> Chunking rules for translating Occitan Lengadocian into French
+        │   ├─ apertium-oci-fra.fra-oci_gascon.t1x        -> Chunking rules for translating into Occitan Gascon
         │   └─ apertium-oci-fra.fra-oci.t1x        -> Chunking rules for translating into Occitan Lengadocian
         │
         ├─ final-rules/
