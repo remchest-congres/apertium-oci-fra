@@ -1,9 +1,10 @@
 # prérequis
 
-- [ ] mise en place des tests de non régression
+- [x] mise en place des tests de non régression (en local)
 - [x] setup d'une branche de migration
 - [x] sur la branche de migration, restaurer l'ensemble des fichiers à leurs états précédents (état du répo courrant d'apertium)
-- [ ] vérifier la pertinance de travailler sur les fichiers `apertium-oci-fra.fra-oci.t2x_supersn` et `apertium-oci-fra.fra-oci.t2x_enon`
+- [x] vérifier la pertinance de travailler sur les fichiers `apertium-oci-fra.fra-oci.t2x_supersn` et `apertium-oci-fra.fra-oci.t2x_enon`
+  - ces fichiers sont du WIP abandonné (donc dépréciés)
 
 # modifications sur la structure des fichiers
 
@@ -17,8 +18,8 @@ mettre à jour les modes
 
 ### files
 
-- [ ] apertium-oci-fra.fra-oci.t1x
-- [ ] apertium-oci-fra.oci-fra.t1x
+- [x] apertium-oci-fra.fra-oci.t1x
+- [x] apertium-oci-fra.oci-fra.t1x
 
 ## interchunks
 
@@ -112,4 +113,4 @@ TODO
 
 ## post génération
 
-TODO
+TODO (eeuuh c'est pas que du monolingue ça ?)

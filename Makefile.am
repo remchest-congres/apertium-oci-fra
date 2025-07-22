@@ -3,12 +3,17 @@
 ###############################################################################
 
 LANG1=oci
+LANG1G=oci_gascon
+LANG1L=oci_lang
 LANG2=fra
-PREFIX1=$(LANG1)-$(LANG2)
-PREFIX2=$(LANG2)-$(LANG1)
 
-VAR1=_gascon
-VAR2=_lang
+PREFIX1=$(LANG1)-$(LANG2)
+PREFIX1G=$(LANG1G)-$(LANG2)
+PREFIX1L=$(LANG1L)-$(LANG2)
+
+PREFIX2=$(LANG2)-$(LANG1)
+PREFIX2G=$(LANG2)-$(LANG1G)
+PREFIX2L=$(LANG2)-$(LANG1L)
 
 BASENAME=apertium-$(PREFIX1)
 
@@ -33,6 +38,8 @@ TARGETS_COMMON =		\
 	bin/$(PREFIX1).autopgen.bin	\
 	bin/$(PREFIX1).t1x.bin	\
 	build/$(PREFIX1).t1x			\
+	bin/$(PREFIX1G).t1x.bin	\
+	build/$(PREFIX1G).t1x			\
 	bin/$(PREFIX1).t2x_temps.bin	\
 	bin/$(PREFIX1).t2ax.bin	\
 	bin/$(PREFIX1).t2ax2.bin	\
@@ -52,8 +59,8 @@ TARGETS_COMMON =		\
 	bin/$(PREFIX2).rlx.bin	\
 	bin/$(PREFIX2).genprefs.rlx.bin	\
 	bin/$(PREFIX2).biprefs.rlx.bin	\
-	bin/$(PREFIX2)$(VAR1).genprefs.rlx.bin	\
-	bin/$(PREFIX2)$(VAR1).biprefs.rlx.bin	\
+	bin/$(PREFIX2G).genprefs.rlx.bin	\
+	bin/$(PREFIX2G).biprefs.rlx.bin	\
 	bin/$(PREFIX2).autobil.bin	\
 	bin/$(PREFIX2).n_a_adv.autolex.bin	\
 	bin/$(PREFIX2).np.autolex.bin	\
@@ -63,6 +70,8 @@ TARGETS_COMMON =		\
 	bin/$(PREFIX2).autopgen.bin	\
 	bin/$(PREFIX2).t1x.bin	\
 	build/$(PREFIX2).t1x			\
+	bin/$(PREFIX2G).t1x.bin	\
+	build/$(PREFIX2G).t1x			\
 	bin/$(PREFIX2).t2x.bin	\
 	build/$(PREFIX2).t2x	\
 	bin/$(PREFIX2).t2x_ini.bin	\
@@ -122,14 +131,14 @@ bin/$(PREFIX1).autosep2.bin: src/multiwords/$(BASENAME).$(PREFIX1).l2x
 bin/$(PREFIX2).autosep1.bin: src/multiwords/$(BASENAME).$(PREFIX2).l1x
 	lsx-comp -v "oci" lr $< $@
 
-# bin/$(PREFIX2).autosep1$(VAR1).bin: src/multiwords/$(BASENAME).$(PREFIX2)$(VAR1).l1x
+# bin/$(PREFIX2G).autosep1.bin: src/multiwords/$(BASENAME).$(PREFIX2)$(VAR1G).l1x
 # 	lsx-comp -v "oci" lr $< $@
 
-# bin/$(PREFIX2).autosep1$(VAR2).bin: src/multiwords/$(BASENAME).$(PREFIX2)$(VAR2).l1x
+# bin/$(PREFIX2L).autosep1.bin: src/multiwords/$(BASENAME).$(PREFIX2L).l1x
 # 	lsx-comp -v "oci" lr $< $@
 
-# bin/$(PREFIX2).autosep2.bin: src/multiwords/$(BASENAME).$(PREFIX2).l2x
-# 	lsx-comp -v "oci" lr $< $@
+bin/$(PREFIX2).autosep2.bin: src/multiwords/$(BASENAME).$(PREFIX2).l2x
+	lsx-comp -v "oci" lr $< $@
 
 
 ###############################################################################
@@ -176,7 +185,7 @@ bin/$(PREFIX2).autobil.bin: .deps/$(PREFIX2).dix .deps/.d
 bin/$(PREFIX2).biprefs.rlx.bin: src/preferences/$(BASENAME).$(PREFIX2).biprefs.rlx
 	cg-comp $< $@
 
-bin/$(PREFIX2)$(VAR1).biprefs.rlx.bin: src/preferences/$(BASENAME).$(PREFIX2)$(VAR1).biprefs.rlx
+bin/$(PREFIX2G).biprefs.rlx.bin: src/preferences/$(BASENAME).$(PREFIX2G).biprefs.rlx
 	cg-comp $< $@
 
 # CHANGES : on compile le fichier de règles de préférences du  dico monolingue
@@ -184,7 +193,7 @@ bin/$(PREFIX2)$(VAR1).biprefs.rlx.bin: src/preferences/$(BASENAME).$(PREFIX2)$(V
 bin/$(PREFIX2).genprefs.rlx.bin: $(AP_SRC1)/$(LANG1).prefs.rlx.bin
 	cp $< $@
 
-bin/$(PREFIX2)$(VAR1).genprefs.rlx.bin: $(AP_SRC1)/$(LANG1)$(VAR1).prefs.rlx.bin
+bin/$(PREFIX2G).genprefs.rlx.bin: $(AP_SRC1)/$(LANG1G).prefs.rlx.bin
 	cp $< $@
 
 ###############################################################################
@@ -258,6 +267,13 @@ bin/$(PREFIX1).t1x.bin: build/$(PREFIX1).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
+build/$(PREFIX1G).t1x: src/transfer/chunkers/$(BASENAME).$(PREFIX1G).t1x
+	apertium-filter-rules oci src/transfer/chunkers/$(BASENAME).$(PREFIX1G).t1x >$@
+
+bin/$(PREFIX1G).t1x.bin: build/$(PREFIX1G).t1x
+	apertium-validate-transfer $<
+	apertium-preprocess-transfer $< $@
+
 bin/$(PREFIX1).t2x_temps.bin: src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2x_temps
 	apertium-validate-interchunk $<
 	apertium-preprocess-transfer $< $@
@@ -316,12 +332,12 @@ bin/$(PREFIX2).t1x.bin: build/$(PREFIX2).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
-# build/$(PREFIX2)$(VAR1).t1x: src/transfer/chunkers/$(BASENAME).$(PREFIX2)$(VAR1).t1x
-# 	apertium-filter-rules oci src/transfer/chunkers/$(BASENAME).$(PREFIX2)$(VAR1).t1x >$@
+build/$(PREFIX2G).t1x: src/transfer/chunkers/$(BASENAME).$(PREFIX2G).t1x
+	apertium-filter-rules oci src/transfer/chunkers/$(BASENAME).$(PREFIX2G).t1x >$@
 
-# bin/$(PREFIX2)$(VAR1).t1x.bin: build/$(PREFIX2)$(VAR1).t1x
-# 	apertium-validate-transfer $<
-# 	apertium-preprocess-transfer $< $@
+bin/$(PREFIX2G).t1x.bin: build/$(PREFIX2G).t1x
+	apertium-validate-transfer $<
+	apertium-preprocess-transfer $< $@
 
 build/$(PREFIX2).t2x: src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x
 	apertium-filter-rules oci src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x >$@
@@ -386,6 +402,7 @@ EXTRA_DIST=					\
 		src/lexical-selection/$(BASENAME).$(PREFIX2).other.lrx	\
 		src/lexical-selection/$(BASENAME).$(PREFIX2).v.lrx	\
 		src/transfer/chunkers/$(BASENAME).$(PREFIX1).t1x	\
+		src/transfer/chunkers/$(BASENAME).$(PREFIX1G).t1x	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2x_temps	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2ax	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2ax2	\
@@ -396,6 +413,7 @@ EXTRA_DIST=					\
 		src/transfer/postchunks/$(BASENAME).$(PREFIX1).t3x	\
 		src/transfer/final-rules/$(BASENAME).$(PREFIX1).t4x	\
 		src/transfer/chunkers/$(BASENAME).$(PREFIX2).t1x	\
+		src/transfer/chunkers/$(BASENAME).$(PREFIX2G).t1x	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x_ini	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x_bis	\
@@ -418,6 +436,7 @@ apertium_oci_fradir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_oci_fra_DATA=	\
 	$(TARGETS_COMMON)				\
 	src/transfer/chunkers/$(BASENAME).$(PREFIX1).t1x			\
+	src/transfer/chunkers/$(BASENAME).$(PREFIX1G).t1x			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2x_temps			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2ax			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2ax2			\
@@ -428,6 +447,7 @@ apertium_oci_fra_DATA=	\
 	src/transfer/postchunks/$(BASENAME).$(PREFIX1).t3x			\
 	src/transfer/final-rules/$(BASENAME).$(PREFIX1).t4x			\
 	src/transfer/chunkers/$(BASENAME).$(PREFIX2).t1x			\
+	src/transfer/chunkers/$(BASENAME).$(PREFIX2G).t1x			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x_ini			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x_bis			\

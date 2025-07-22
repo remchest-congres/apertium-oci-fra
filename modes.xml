@@ -90,6 +90,18 @@
     </pipeline>
   </mode>
 
+  <mode name="fra-oci-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="bin/fra-oci.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a -l"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="bin/fra-oci.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <!-- fra → oci_gascon -->
 
   <mode name="fra-oci_gascon" install="yes" gendebug="yes">
@@ -179,14 +191,14 @@
     </pipeline>
   </mode>
 
-  <mode name="fra-oci-disam" install="no">
+  <mode name="fra-oci_gascon-disam" install="no">
     <pipeline>
       <program name="lt-proc -w">
         <file name="bin/fra-oci.automorf.bin"/>
       </program>
       <program name="cg-conv -a -l"/>
       <program name="vislcg3 --trace --grammar">
-        <file name="bin/fra-oci.rlx.bin"/>
+        <file name="bin/fra-oci_gascon.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -321,6 +333,187 @@
       <program name="apertium-transfer -b">
         <file name="build/oci-fra.t1x"/>
         <file name="bin/oci-fra.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunk_temps">
+        <file name="src/transfer/interchunks/apertium-oci-fra.oci-fra.t2x_temps"/>
+        <file name="bin/oci-fra.t2x_temps.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunka">
+        <file name="build/oci-fra.t2ax"/>
+        <file name="bin/oci-fra.t2ax.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunka2">
+        <file name="build/oci-fra.t2ax2"/>
+        <file name="bin/oci-fra.t2ax2.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunkb">
+        <file name="build/oci-fra.t2bx"/>
+        <file name="bin/oci-fra.t2bx.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunkc">
+        <file name="build/oci-fra.t2cx"/>
+        <file name="bin/oci-fra.t2cx.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunkd">
+        <file name="src/transfer/interchunks/apertium-oci-fra.oci-fra.t2dx"/>
+        <file name="bin/oci-fra.t2dx.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunke">
+        <file name="src/transfer/interchunks/apertium-oci-fra.oci-fra.t2ex"/>
+        <file name="bin/oci-fra.t2ex.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="src/transfer/postchunks/apertium-oci-fra.oci-fra.t3x"/>
+        <file name="bin/oci-fra.t3x.bin"/>
+      </program>
+      <program name="apertium-transfer -n" debug-suff="t4x">
+        <file name="build/oci-fra.t4x"/>
+        <file name="bin/oci-fra.t4x.bin"/>
+      </program>
+      <program name="lsx-proc" debug-suff="lsx2">
+        <file name="bin/oci-fra.autosep2.bin"/>
+      </program>
+      <program name="apertium-posttransfer" debug-suff="posttransfer"/>
+      <program name="lt-proc $1">
+        <file name="bin/oci-fra.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="bin/oci-fra.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  
+  <!-- oci_gascon → fra -->
+
+  <mode name="oci_gascon-fra" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="bin/oci-fra.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w" debug-suff="disamb">
+        <file name="bin/oci-fra.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="bin/oci-fra.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc" debug-suff="lsx1">
+        <file name="bin/oci-fra.autosep1.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="bin/oci-fra.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_np">
+        <file name="bin/oci-fra.np.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_n">
+        <file name="bin/oci-fra.n_a_adv.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_v">
+        <file name="bin/oci-fra.v.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex">
+        <file name="bin/oci-fra.other.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="build/oci_gascon-fra.t1x"/>
+        <file name="bin/oci_gascon-fra.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunk_temps">
+        <file name="src/transfer/interchunks/apertium-oci-fra.oci-fra.t2x_temps"/>
+        <file name="bin/oci-fra.t2x_temps.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunka">
+        <file name="build/oci-fra.t2ax"/>
+        <file name="bin/oci-fra.t2ax.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunka2">
+        <file name="build/oci-fra.t2ax2"/>
+        <file name="bin/oci-fra.t2ax2.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunkb">
+        <file name="build/oci-fra.t2bx"/>
+        <file name="bin/oci-fra.t2bx.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunkc">
+        <file name="build/oci-fra.t2cx"/>
+        <file name="bin/oci-fra.t2cx.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunkd">
+        <file name="src/transfer/interchunks/apertium-oci-fra.oci-fra.t2dx"/>
+        <file name="bin/oci-fra.t2dx.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunke">
+        <file name="src/transfer/interchunks/apertium-oci-fra.oci-fra.t2ex"/>
+        <file name="bin/oci-fra.t2ex.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="src/transfer/postchunks/apertium-oci-fra.oci-fra.t3x"/>
+        <file name="bin/oci-fra.t3x.bin"/>
+      </program>
+      <program name="apertium-transfer -n" debug-suff="t4x">
+        <file name="build/oci-fra.t4x"/>
+        <file name="bin/oci-fra.t4x.bin"/>
+      </program>
+      <program name="lsx-proc" debug-suff="lsx2">
+        <file name="bin/oci-fra.autosep2.bin"/>
+      </program>
+      <program name="apertium-posttransfer" debug-suff="posttransfer"/>
+      <program name="lt-proc $1">
+        <file name="bin/oci-fra.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="bin/oci-fra.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="oci_gascon-fra-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="bin/oci-fra.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a -l"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="bin/oci-fra.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="oci_gascon-fra-unigram" install="no" gendebug="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="bin/oci-fra.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w" debug-suff="disamb">
+        <file name="bin/oci-fra.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -u 2 -g $2">
+        <file name="bin/oci_leng.unigram.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc" debug-suff="lsx1">
+        <file name="bin/oci-fra.autosep1.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="bin/oci-fra.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_np">
+        <file name="bin/oci-fra.np.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_n">
+        <file name="bin/oci-fra.n_a_adv.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_v">
+        <file name="bin/oci-fra.v.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex">
+        <file name="bin/oci-fra.other.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="build/oci_gascon-fra.t1x"/>
+        <file name="bin/oci_gascon-fra.t1x.bin"/>
       </program>
       <program name="apertium-interchunk" debug-suff="interchunk_temps">
         <file name="src/transfer/interchunks/apertium-oci-fra.oci-fra.t2x_temps"/>
