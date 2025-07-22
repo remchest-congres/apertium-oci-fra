@@ -43,13 +43,13 @@ mettre à jour les modes
 - [ ] apertium-oci-fra.oci-fra.t2cx
 - [ ] apertium-oci-fra.oci-fra.t2dx
 - [ ] apertium-oci-fra.oci-fra.t2ex
-- [ ] apertium-oci-fra.fra-oci.t2x_ini
-- [ ] apertium-oci-fra.fra-oci.t2x
+- [x] apertium-oci-fra.fra-oci.t2x_ini
+- [x] apertium-oci-fra.fra-oci.t2x
 - [ ] apertium-oci-fra.fra-oci.t2x_bis
 - [ ] apertium-oci-fra.fra-oci.t2x_pas
 - [ ] apertium-oci-fra.fra-oci.t2x_pro
-- [ ] (apertium-oci-fra.fra-oci.t2x_supersn)
-- [ ] (apertium-oci-fra.fra-oci.t2x_enon)
+- [ ] ~~(apertium-oci-fra.fra-oci.t2x_supersn)~~
+- [ ] ~~(apertium-oci-fra.fra-oci.t2x_enon)~~
 
 ## postchunks
 

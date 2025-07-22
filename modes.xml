@@ -50,6 +50,10 @@
         <file name="bin/fra-oci.t2x_ini.bin"/>
       </program>
       <program name="apertium-interchunk">
+        <file name="build/fra-oci_lang.t2x"/>
+        <file name="bin/fra-oci_lang.t2x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
         <file name="build/fra-oci.t2x"/>
         <file name="bin/fra-oci.t2x.bin"/>
       </program>
@@ -149,6 +153,10 @@
       <program name="apertium-interchunk" debug-suff="interchunk_ini">
         <file name="src/transfer/interchunks/apertium-oci-fra.fra-oci.t2x_ini"/>
         <file name="bin/fra-oci.t2x_ini.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="build/fra-oci_gascon.t2x"/>
+        <file name="bin/fra-oci_gascon.t2x.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="build/fra-oci.t2x"/>
