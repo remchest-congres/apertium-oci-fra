@@ -259,6 +259,10 @@
         <file name="src/transfer/interchunks/apertium-oci-fra.oci-fra.t2x_temps"/>
         <file name="bin/oci-fra.t2x_temps.bin"/>
       </program>
+      <program name="apertium-interchunk" debug-suff="interchunka_lang">
+        <file name="build/oci_lang-fra.t2ax"/>
+        <file name="bin/oci_lang-fra.t2ax.bin"/>
+      </program>
       <program name="apertium-interchunk" debug-suff="interchunka">
         <file name="build/oci-fra.t2ax"/>
         <file name="bin/oci-fra.t2ax.bin"/>
@@ -354,6 +358,10 @@
         <file name="src/transfer/interchunks/apertium-oci-fra.oci-fra.t2x_temps"/>
         <file name="bin/oci-fra.t2x_temps.bin"/>
       </program>
+      <program name="apertium-interchunk" debug-suff="interchunka_lang">
+        <file name="build/oci_lang-fra.t2ax"/>
+        <file name="bin/oci_lang-fra.t2ax.bin"/>
+      </program>
       <program name="apertium-interchunk" debug-suff="interchunka">
         <file name="build/oci-fra.t2ax"/>
         <file name="bin/oci-fra.t2ax.bin"/>
@@ -439,6 +447,10 @@
       <program name="apertium-interchunk" debug-suff="interchunk_temps">
         <file name="src/transfer/interchunks/apertium-oci-fra.oci-fra.t2x_temps"/>
         <file name="bin/oci-fra.t2x_temps.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunka_gascon">
+        <file name="build/oci_gascon-fra.t2ax"/>
+        <file name="bin/oci_gascon-fra.t2ax.bin"/>
       </program>
       <program name="apertium-interchunk" debug-suff="interchunka">
         <file name="build/oci-fra.t2ax"/>
@@ -534,6 +546,10 @@
       <program name="apertium-interchunk" debug-suff="interchunk_temps">
         <file name="src/transfer/interchunks/apertium-oci-fra.oci-fra.t2x_temps"/>
         <file name="bin/oci-fra.t2x_temps.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunka_gascon">
+        <file name="build/oci_gascon-fra.t2ax"/>
+        <file name="bin/oci_gascon-fra.t2ax.bin"/>
       </program>
       <program name="apertium-interchunk" debug-suff="interchunka">
         <file name="build/oci-fra.t2ax"/>

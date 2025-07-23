@@ -156,7 +156,9 @@ Nuit lit farine feuilles
         ├─ interchunks/
         │   ├─ apertium-oci-fra.oci-fra.t2x_temps      -> Interchunk rules for translating into Occitan dealing with
         │   │                                              changing verbal tenses (step 1)
-        │   ├─ apertium-oci-fra.oci-fra.t2ax           -> Interchunk rules for translating into French (steps 2 and 3)
+        │   ├─ apertium-oci-fra.oci-fra.t2ax           -> Interchunk gloabl rules for translating into French (steps 2 and 3)
+        │   ├─ apertium-oci-fra.oci_gascon-fra.t2ax    -> Interchunk rules for translating Gascon into French (steps 2 and 3)
+        │   ├─ apertium-oci-fra.oci_lang-fra.t2ax      -> Interchunk rules for translating Lengadocian into French (steps 2 and 3)
         │   ├─ apertium-oci-fra.oci-fra.t2bx           -> Interchunk rules for translating into French (step 4)
         │   ├─ apertium-oci-fra.oci-fra.t2cx           -> Interchunk rules for translating into French (step 5)
         │   ├─ apertium-oci-fra.oci-fra.t2dx           -> Interchunk rules for translating into French (step 6)
