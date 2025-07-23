@@ -37,17 +37,17 @@ mettre à jour les modes
 
 ### files
 
-- [ ] apertium-oci-fra.oci-fra.t2x_temps
+- [x] ~~apertium-oci-fra.oci-fra.t2x_temps~~ ne dépend pas des variétés
 - [ ] apertium-oci-fra.oci-fra.t2ax
 - [ ] apertium-oci-fra.oci-fra.t2bx
 - [ ] apertium-oci-fra.oci-fra.t2cx
 - [ ] apertium-oci-fra.oci-fra.t2dx
 - [ ] apertium-oci-fra.oci-fra.t2ex
-- [x] apertium-oci-fra.fra-oci.t2x_ini
+- [x] ~~apertium-oci-fra.fra-oci.t2x_ini~~ ne dépend pas des variétés
 - [x] apertium-oci-fra.fra-oci.t2x
-- [ ] apertium-oci-fra.fra-oci.t2x_bis
-- [ ] apertium-oci-fra.fra-oci.t2x_pas
-- [ ] apertium-oci-fra.fra-oci.t2x_pro
+- [x] apertium-oci-fra.fra-oci.t2x_bis
+- [x] ~~apertium-oci-fra.fra-oci.t2x_pas~~ ne dépend pas des variétés
+- [x] ~~apertium-oci-fra.fra-oci.t2x_pro~~ ne dépend pas des variétés
 - [ ] ~~(apertium-oci-fra.fra-oci.t2x_supersn)~~
 - [ ] ~~(apertium-oci-fra.fra-oci.t2x_enon)~~
 
