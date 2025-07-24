@@ -51,6 +51,10 @@ TARGETS_COMMON =		\
 	build/$(PREFIX1).t2ax2			\
 	bin/$(PREFIX1).t2bx.bin	\
 	build/$(PREFIX1).t2bx			\
+	bin/$(PREFIX1G).t2bx.bin	\
+	build/$(PREFIX1G).t2bx			\
+	bin/$(PREFIX1L).t2bx.bin	\
+	build/$(PREFIX1L).t2bx			\
 	bin/$(PREFIX1).t2cx.bin	\
 	build/$(PREFIX1).t2cx			\
 	bin/$(PREFIX1).t2dx.bin	\
@@ -325,6 +329,20 @@ bin/$(PREFIX1).t2bx.bin: build/$(PREFIX1).t2bx
 	apertium-validate-interchunk $<
 	apertium-preprocess-transfer $< $@
 
+build/$(PREFIX1G).t2bx: src/transfer/interchunks/$(BASENAME).$(PREFIX1G).t2bx
+	apertium-filter-rules oci src/transfer/interchunks/$(BASENAME).$(PREFIX1G).t2bx >$@
+
+bin/$(PREFIX1G).t2bx.bin: build/$(PREFIX1G).t2bx
+	apertium-validate-interchunk $<
+	apertium-preprocess-transfer $< $@
+
+build/$(PREFIX1L).t2bx: src/transfer/interchunks/$(BASENAME).$(PREFIX1L).t2bx
+	apertium-filter-rules oci src/transfer/interchunks/$(BASENAME).$(PREFIX1L).t2bx >$@
+
+bin/$(PREFIX1L).t2bx.bin: build/$(PREFIX1L).t2bx
+	apertium-validate-interchunk $<
+	apertium-preprocess-transfer $< $@
+
 build/$(PREFIX1).t2cx: src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2cx
 	apertium-filter-rules oci src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2cx >$@
 
@@ -463,6 +481,8 @@ EXTRA_DIST=					\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX1L).t2ax	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2ax2	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2bx	\
+		src/transfer/interchunks/$(BASENAME).$(PREFIX1G).t2bx	\
+		src/transfer/interchunks/$(BASENAME).$(PREFIX1L).t2bx	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2cx	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2dx	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2ex	\
@@ -503,6 +523,8 @@ apertium_oci_fra_DATA=	\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX1L).t2ax			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2ax2			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2bx			\
+	src/transfer/interchunks/$(BASENAME).$(PREFIX1G).t2bx			\
+	src/transfer/interchunks/$(BASENAME).$(PREFIX1L).t2bx			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2cx			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2dx			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2ex			\
