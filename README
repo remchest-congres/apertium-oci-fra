@@ -162,7 +162,9 @@ Nuit lit farine feuilles
         │   ├─ apertium-oci-fra.oci-fra.t2bx           -> Interchunk global rules for translating into French (step 4)
         │   ├─ apertium-oci-fra.oci_gascon-fra.t2bx    -> Interchunk rules for translating Gascon into French (step 4)
         │   ├─ apertium-oci-fra.oci_lang-fra.t2bx      -> Interchunk rules for translating Lengadocian into French (step 4)
-        │   ├─ apertium-oci-fra.oci-fra.t2cx           -> Interchunk rules for translating into French (step 5)
+        │   ├─ apertium-oci-fra.oci-fra.t2cx           -> Interchunk global rules for translating into French (step 5)
+        │   ├─ apertium-oci-fra.oci_gascon-fra.t2cx    -> Interchunk rules for translating Gascon into French (step 5)
+        │   ├─ apertium-oci-fra.oci_lang-fra.t2cx      -> Interchunk rules for translating Lengadocian into French (step 5)
         │   ├─ apertium-oci-fra.oci-fra.t2dx           -> Interchunk rules for translating into French (step 6)
         │   ├─ apertium-oci-fra.oci-fra.t2ex           -> Interchunk rules for translating into French (step 7)
         │   ├─ apertium-oci-fra.fra-oci.t2x_ini        -> Interchunk rules for translating into Occitan dealing with

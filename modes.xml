@@ -279,6 +279,10 @@
         <file name="build/oci-fra.t2bx"/>
         <file name="bin/oci-fra.t2bx.bin"/>
       </program>
+      <program name="apertium-interchunk" debug-suff="interchunkc_lang">
+        <file name="build/oci_lang-fra.t2cx"/>
+        <file name="bin/oci_lang-fra.t2cx.bin"/>
+      </program>
       <program name="apertium-interchunk" debug-suff="interchunkc">
         <file name="build/oci-fra.t2cx"/>
         <file name="bin/oci-fra.t2cx.bin"/>
@@ -382,6 +386,10 @@
         <file name="build/oci-fra.t2bx"/>
         <file name="bin/oci-fra.t2bx.bin"/>
       </program>
+      <program name="apertium-interchunk" debug-suff="interchunkc_lang">
+        <file name="build/oci_lang-fra.t2cx"/>
+        <file name="bin/oci_lang-fra.t2cx.bin"/>
+      </program>
       <program name="apertium-interchunk" debug-suff="interchunkc">
         <file name="build/oci-fra.t2cx"/>
         <file name="bin/oci-fra.t2cx.bin"/>
@@ -475,6 +483,10 @@
       <program name="apertium-interchunk" debug-suff="interchunkb">
         <file name="build/oci-fra.t2bx"/>
         <file name="bin/oci-fra.t2bx.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunkc_gascon">
+        <file name="build/oci_gascon-fra.t2cx"/>
+        <file name="bin/oci_gascon-fra.t2cx.bin"/>
       </program>
       <program name="apertium-interchunk" debug-suff="interchunkc">
         <file name="build/oci-fra.t2cx"/>
@@ -578,6 +590,10 @@
       <program name="apertium-interchunk" debug-suff="interchunkb">
         <file name="build/oci-fra.t2bx"/>
         <file name="bin/oci-fra.t2bx.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunkc_gascon">
+        <file name="build/oci_gascon-fra.t2cx"/>
+        <file name="bin/oci_gascon-fra.t2cx.bin"/>
       </program>
       <program name="apertium-interchunk" debug-suff="interchunkc">
         <file name="build/oci-fra.t2cx"/>

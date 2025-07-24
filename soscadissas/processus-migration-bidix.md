@@ -40,7 +40,7 @@ mettre à jour les modes
 - [x] ~~apertium-oci-fra.oci-fra.t2x_temps~~ ne dépend pas des variétés
 - [x] apertium-oci-fra.oci-fra.t2ax
 - [x] apertium-oci-fra.oci-fra.t2bx
-- [ ] apertium-oci-fra.oci-fra.t2cx
+- [x] apertium-oci-fra.oci-fra.t2cx
 - [ ] apertium-oci-fra.oci-fra.t2dx
 - [ ] apertium-oci-fra.oci-fra.t2ex
 - [x] ~~apertium-oci-fra.fra-oci.t2x_ini~~ ne dépend pas des variétés
