@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary type="separable">
   <alphabet></alphabet>
+
   <sdefs>
     <sdef n="vblex"/>
     <sdef n="vbser"/>
@@ -29,6 +30,7 @@
     <sdef n="p2"/>
     <sdef n="p3"/>
   </sdefs>
+
   <pardefs>
     <pardef n="adv">
       <e><i><w/><s n="adv"/><d/></i></e>
@@ -49,6 +51,7 @@
       <e><i><w/><s n="vblex"/><s n="pp"/><t/><d/></i></e>
     </pardef>
   </pardefs>
+
   <section id="main" type="standard">
 
     <!-- vbhaver pp -->
@@ -327,16 +330,6 @@
       <par n="adv"/>
       <p><l></l><r>vertat<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
-
-    <!-- vbser pp -->
-
-<!--
-    <e lm="étre arrètâ">
-      <p><l>étre<s n="vblex"/><t/><g><b/>arrètâ</g><d/></l><r>étre<s n="vbser"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>arrètar<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/><d/></r></p>
-    </e>
--->
 
     <!-- vbser pp pr -->
 
@@ -1195,17 +1188,6 @@
       <p><l></l><r>de<s n="pr"/><d/></r></p>
     </e>
 
-    <!-- vblex adj n -->
-
-<!--
-    <e lm="betar bôna fin">
-      <p><l>betar<s n="vblex"/><t/><g><b/>bôna<b/>fin</g><d/></l><r>betar<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>bon<s n="adj"/><s n="f"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>fin<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
-    </e>
--->
-
     <!-- vblex det adj -->
 
     <e lm="aver un sadol" v="oci">
@@ -1617,18 +1599,6 @@
       <p><l></l><r>prneth<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/><d/></r></p>
     </e>
 
-    <!-- vblex adj n pr -->
-
-<!--
-    <e lm="betar bôna fin a">
-      <p><l>betar<s n="vblex"/><t/><g><b/>bôna<b/>fin<b/>a</g><d/></l><r>betar<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>bon<s n="adj"/><s n="f"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>fin<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>a<s n="pr"/><d/></r></p>
-    </e>
--->
-
     <!-- vblex det n pr -->
 
     <e lm="aver l'escasença de" v="oci">
@@ -1646,44 +1616,5 @@
       <p><l></l><r>parat<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
       <p><l></l><r>de<s n="pr"/><d/></r></p>
     </e>
-
-    <!-- vblex n pr n -->
-
-<!--
-    <e lm="vivre couta a couta">
-      <p><l>vivre<s n="vblex"/><t/><g><b/>couta<b/>a<b/>couta</g><d/></l><r>vivre<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>couta<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>a<s n="pr"/><d/></r></p>
-      <p><l></l><r>couta<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
-    </e>
--->
-
-    <!-- vblex pr det n -->
-
-<!--
-    <e lm="betar dens lo duely">
-      <p><l>betar<s n="vblex"/><t/><g><b/>dens<b/>lo<b/>duely</g><d/></l><r>betar<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>dens<s n="pr"/><d/></r></p>
-      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>duely<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
-    </e>
--->
-
-    <!-- vblex det prn pr det n -->
-
-<!--
-    <e lm="èluegnér de l'ôtro">
-      <p><l>èluegnér<s n="vblex"/><t/><g><b/>l'un<b/>de<b/>l'ôtro</g><d/></l><r>èluegnér<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>un<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>de<s n="pr"/><d/></r></p>
-      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>ôtro<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
-    </e>
--->
-
-</section>
+  </section>
 </dictionary>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary type="separable">
   <alphabet></alphabet>
+
   <sdefs>
     <sdef n="vblex"/>
     <sdef n="vbser"/>
@@ -40,6 +41,7 @@
     <sdef n="p2"/>
     <sdef n="p3"/>
   </sdefs>
+
   <pardefs>
     <pardef n="adv">
       <e><i><w/><s n="adv"/><d/></i></e>
@@ -67,6 +69,7 @@
       <e><i><s n="p3"/></i></e>
     </pardef>
   </pardefs>
+
   <section id="main" type="standard">
 
     <!-- vblex -->
@@ -142,14 +145,6 @@
       <par n="adv"/>
       <p><l></l><r>envie<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
-
-<!--
-    <e lm="avoir honte">
-      <p><l>avoir<s n="vblex"/><t/><g><b/>honte</g><d/></l><r>avoir<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>honte<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
-    </e>
--->
 
     <e lm="faire attention">
       <p><l>faire<s n="vblex"/><t/><g><b/>attention</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
@@ -299,16 +294,6 @@
       <p><l></l><r>casaque<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
-    <!-- vblex inf -->
-
-<!--
-    <e lm="faire mal">
-      <p><l>faire<s n="vblex"/><t/><g><b/>mal</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>mal<s n="vblex"/><s n="inf"/><d/></r></p>
-    </e>
--->
-
     <!-- vblex det n -->
 
     <e lm="avoir l'habitude">
@@ -402,16 +387,6 @@
       <p><l></l><r>de<s n="pr"/><d/></r></p>
     </e>
 
-<!--
-    <e lm="faire l'objet de">
-      <p><l>faire<s n="vblex"/><t/><g><b/>l'objet<b/>de</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>objet<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>de<s n="pr"/><d/></r></p>
-    </e>
--->
-
     <!-- vblex n pr -->
 
     <e lm="avoir besoin de">
@@ -428,15 +403,6 @@
       <p><l></l><r>de<s n="pr"/><d/></r></p>
     </e>
 
-<!--
-    <e lm="tenir lieu de">
-      <p><l>tenir<s n="vblex"/><t/><g><b/>lieu<b/>de</g><d/></l><r>tenir<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>lieu<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>de<s n="pr"/><d/></r></p>
-    </e>
--->
-
     <!-- vblex pr -->
 
     <e lm="renouer avec">
@@ -444,14 +410,6 @@
       <par n="adv"/>
       <p><l></l><r>avec<s n="pr"/><d/></r></p>
     </e>
-
-<!--
-    <e lm="jouer de" v="oci@gascon">
-      <p><l>jouer<s n="vblex"/><t/><g><b/>de</g><d/></l><r>jouer<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>de<s n="pr"/><d/></r></p>
-    </e>
--->
 
     <!-- vblex pr n -->
 
@@ -468,24 +426,6 @@
       <p><l></l><r>en<s n="pr"/><d/></r></p>
       <p><l></l><r>retard<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
     </e>
-
-<!--
-    <e lm="fermer à clé">
-      <p><l>fermer<s n="vblex"/><t/><g><b/>à<b/>clé</g><d/></l><r>fermer<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>à<s n="pr"/><d/></r></p>
-      <p><l></l><r>clé<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
-    </e>
--->
-
-<!--
-    <e lm="fermer à clef">
-      <p><l>fermer<s n="vblex"/><t/><g><b/>à<b/>clef</g><d/></l><r>fermer<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>à<s n="pr"/><d/></r></p>
-      <p><l></l><r>clef<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
-    </e>
--->
 
     <e lm="mettre à bout">
       <p><l>mettre<s n="vblex"/><t/><g><b/>à<b/>bout</g><d/></l><r>mettre<s n="vblex"/><t/><d/></r></p>
@@ -514,15 +454,6 @@
       <p><l></l><r>en<s n="pr"/><d/></r></p>
       <p><l></l><r>touche<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
-
-<!--
-    <e lm="mettre sur pied">
-      <p><l>mettre<s n="vblex"/><t/><g><b/>sur<b/>pied</g><d/></l><r>mettre<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>sur<s n="pr"/><d/></r></p>
-      <p><l></l><r>pied<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
-    </e>
--->
 
     <e lm="pousser à bout">
       <p><l>pousser<s n="vblex"/><t/><g><b/>à<b/>bout</g><d/></l><r>pousser<s n="vblex"/><t/><d/></r></p>
@@ -604,16 +535,6 @@
       <p><l></l><r>violon<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
     </e>
 
-<!--
-    <e lm="rire aux éclats">
-      <p><l>rire<s n="vblex"/><t/><g><b/>aux<b/>éclats</g><d/></l><r>rire<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>à<s n="pr"/><d/></r></p>
-      <p><l></l><r>le<s n="det"/><s n="def"/><s n="m"/><s n="pl"/><d/></r></p>
-      <p><l></l><r>éclat<s n="n"/><s n="m"/><s n="pl"/><d/></r></p>
-    </e>
--->
-
     <e lm="tirer de la chasse">
       <p><l>tirer<s n="vblex"/><t/><g><b/>de<b/>la<b/>chasse</g><d/></l><r>tirer<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
@@ -639,5 +560,5 @@
       <i><t/><d/></i>
     </e>
 
-</section>
+  </section>
 </dictionary>

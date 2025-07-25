@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary type="separable">
   <alphabet></alphabet>
+
   <sdefs>
     <sdef n="vblex"/>
     <sdef n="vbhaver"/>
@@ -28,6 +29,7 @@
     <sdef n="pro"/>
     <sdef n="enc"/>
   </sdefs>
+
   <pardefs>
     <pardef n="adv">
       <e><i>pas<s n="adv"/><d/></i></e>
@@ -255,20 +257,6 @@
       <p><l>balançar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
     </e>
 
-<!--
-    <e lm="tornar balhar">
-      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>balhar</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>balhar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
-    <e lm="tornar balhar">
-      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>balhar</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>balhar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
--->
-
     <e lm="tornar barrar">
       <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>barrar</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -389,20 +377,6 @@
       <p><l>calibrar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
     </e>
 
-<!--
-    <e lm="tornar cambiar">
-      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>cambiar</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>cambiar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
-    <e lm="tornar cambiar">
-      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>cambiar</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>cambiar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
--->
-
     <e lm="tornar capitalizar">
       <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>capitalizar</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -438,20 +412,6 @@
       <par n="adv"/>
       <p><l>centralizar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
     </e>
-
-<!--
-    <e lm="tornar clavar">
-      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>clavar</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>clavar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
-    <e lm="tornar clavar">
-      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>clavar</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>clavar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
--->
 
     <e lm="tornar classificar">
       <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>classificar</g><s n="vblex"/></r></p>
@@ -500,32 +460,6 @@
       <par n="adv"/>
       <p><l>conflar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
     </e>
-
-<!--
-    <e lm="tornar créisher">
-      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>créisher</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>créisher<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
-    <e lm="tornar créisher">
-      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>créisher</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>créisher<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
-
-    <e lm="tornar créisser">
-      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>créisser</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>créisser<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
-    <e lm="tornar créisser">
-      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>créisser</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>créisser<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
--->
 
     <e lm="tornar daubrir">
       <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>daubrir</g><s n="vblex"/></r></p>
@@ -2499,22 +2433,6 @@
       <p><l>vertat<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
     </e>
 
-    <!-- vblex adj -->
-
-<!--
-    <e lm="rendre oficièl">
-      <p><l>rendre<s n="vblex"/></l><r>rendre<g><b/>oficièl</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>oficièl<s n="adj"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="rendre oficièl">
-      <p><l>rendre<s n="vblex"/></l><r>rendre<g><b/>oficièl</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>oficièl<s n="adj"/><t/><d/></l><r></r></p>
-    </e>
--->
-
     <!-- vbser adj -->
 
     <e lm="estar tardièr">
@@ -2849,22 +2767,6 @@
       <p><l>lo<s n="det"/><s n="def"/><t/><d/>monde<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
     </e>
 
-    <!-- vblex adj n -->
-
-<!--
-    <e lm="betar bôna fin">
-      <p><l>betar<s n="vblex"/></l><r>betar<g><b/>bôna<b/>fin</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>bon<s n="adj"/><s n="f"/><s n="sg"/><d/>fin<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-    <e lm="betar bôna fin">
-      <p><l>betar<s n="vblex"/></l><r>betar<g><b/>bôna<b/>fin</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>bon<s n="adj"/><s n="f"/><s n="sg"/><d/>fin<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
--->
-
     <!-- vbser pp pr -->
 
     <e lm="èsser abituat a" v="oci">
@@ -3043,37 +2945,7 @@
       <p><l>a<s n="pr"/><d/>besonh<s n="n"/><s n="m"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
     </e>
 
-    <!-- vblex adj n pr -->
-
-<!--
-    <e lm="betar bôna fin a">
-      <p><l>betar<s n="vblex"/></l><r>betar<g><b/>bôna<b/>fin<b/>a</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>bon<s n="adj"/><s n="f"/><s n="sg"/><d/>fin<s n="n"/><s n="f"/><s n="sg"/><d/>a<s n="pr"/><d/></l><r></r></p>
-    </e>
-    <e lm="betar bôna fin a">
-      <p><l>betar<s n="vblex"/></l><r>betar<g><b/>bôna<b/>fin<b/>a</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>bon<s n="adj"/><s n="f"/><s n="sg"/><d/>fin<s n="n"/><s n="f"/><s n="sg"/><d/>a<s n="pr"/><d/></l><r></r></p>
-    </e>
--->
-
     <!-- vblex det n pr -->
-
-<!--
-    <e lm="aver l'escasença de" v="oci">
-      <p><l>aver<s n="vblex"/></l><r>aver<g><b/>l'escasença<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>lo<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/><d/>escasença<s n="n"/><s n="f"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
-    <e lm="aver l'escasença de">
-      <p><l>aver<s n="vblex"/></l><r>aver<g><b/>l'escasença<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>lo<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/><d/>escasença<s n="n"/><s n="f"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
--->
 
     <e lm="aver lo parat de" v="oci@gascon">
       <p><l>aver<s n="vblex"/></l><r>aver<g><b/>lo<b/>parat<b/>de</g><s n="vblex"/></r></p>
@@ -3148,22 +3020,6 @@
       <par n="adv"/>
       <p><l>pròva<s n="n"/><s n="f"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
     </e>
-
-    <!-- vblex n pr n -->
-
-<!--
-    <e lm="vivre couta a couta">
-      <p><l>vivre<s n="vblex"/></l><r>vivre<g><b/>couta<b/>a<b/>couta</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>couta<s n="n"/><s n="f"/><s n="sg"/><d/>a<s n="pr"/><d/>couta<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-    <e lm="vivre couta a couta">
-      <p><l>vivre<s n="vblex"/></l><r>vivre<g><b/>couta<b/>a<b/>couta</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>couta<s n="n"/><s n="f"/><s n="sg"/><d/>a<s n="pr"/><d/>couta<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
--->
 
     <!-- vblex pr det n -->
 
@@ -3301,20 +3157,6 @@
 
     <!-- vbser det n pr -->
 
-<!--
-    <e lm="aver l'escasença de">
-      <p><l>aver<s n="vblex"/></l><r>aver<g><b/>l'escasença<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>lo<s n="det"/><s n="def"/><t/><d/>escasença<s n="n"/><s n="f"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
-    <e lm="aver l'escasença de">
-      <p><l>aver<s n="vblex"/></l><r>aver<g><b/>l'escasença<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>lo<s n="det"/><s n="def"/><t/><d/>escasença<s n="n"/><s n="f"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
--->
-
     <e lm="aver lo parat de">
       <p><l>aver<s n="vblex"/></l><r>aver<g><b/>lo<b/>parat<b/>de</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -3360,22 +3202,6 @@
       <p><l>escàder<s n="vblex"/><s n="pp"/></l><r>i<b/>escàder<s n="vblex"/><s n="pp"/></r></p>
       <i><t/><d/></i>
     </e>
-<!--
-    <e lm="i escàder" v="oci@gascon">
-      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>estar<s n="vbser"/></l><r>estar<s n="vbser"/></r></p>
-      <i><t/><d/></i>
-      <i><w/><s n="preadv"/><d/></i>
-      <p><l>escàder<s n="vblex"/><s n="pp"/></l><r>i<b/>escàder<s n="vblex"/><s n="pp"/></r></p>
-      <i><t/><d/></i>
-    </e>
-    <e lm="i escàder" v="oci@gascon">
-      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>èsser<s n="vbser"/></l><r>èsser<s n="vbser"/></r></p>
-      <i><t/><d/></i>
-      <i><w/><s n="preadv"/><d/></i>
-      <p><l>escàder<s n="vblex"/><s n="pp"/></l><r>i<b/>escàder<s n="vblex"/><s n="pp"/></r></p>
-      <i><t/><d/></i>
-    </e>
--->
 
     <e lm="i mauescàder" v="oci@gascon">
       <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>mauescàder<s n="vblex"/></l><r>i<b/>mauescàder<s n="vblex"/></r></p>
@@ -3407,22 +3233,6 @@
       <p><l>mauescàder<s n="vblex"/><s n="pp"/></l><r>i<b/>mauescàder<s n="vblex"/><s n="pp"/></r></p>
       <i><t/><d/></i>
     </e>
-<!--
-    <e lm="i mauescàder" v="oci@gascon">
-      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>estar<s n="vbser"/></l><r>estar<s n="vbser"/></r></p>
-      <i><t/><d/></i>
-      <i><w/><s n="preadv"/><d/></i>
-      <p><l>mauescàder<s n="vblex"/><s n="pp"/></l><r>i<b/>mauescàder<s n="vblex"/><s n="pp"/></r></p>
-      <i><t/><d/></i>
-    </e>
-    <e lm="i mauescàder" v="oci@gascon">
-      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>èsser<s n="vbser"/></l><r>èsser<s n="vbser"/></r></p>
-      <i><t/><d/></i>
-      <i><w/><s n="preadv"/><d/></i>
-      <p><l>mauescàder<s n="vblex"/><s n="pp"/></l><r>i<b/>mauescàder<s n="vblex"/><s n="pp"/></r></p>
-      <i><t/><d/></i>
-    </e>
--->
 
     <!-- s'èsser enanat -->
     <e lm="èsser enanat">
@@ -3535,5 +3345,5 @@
       <p><l>mal<s n="adv"/><d/></l><r></r></p>
     </e>
 
-</section>
+  </section>
 </dictionary>

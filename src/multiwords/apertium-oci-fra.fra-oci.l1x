@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary type="separable">
   <alphabet></alphabet>
+
   <sdefs>
     <sdef n="vblex"/>
     <sdef n="vbhaver"/>
@@ -29,6 +30,7 @@
     <sdef n="pro"/>
     <sdef n="enc"/>
   </sdefs>
+
   <pardefs>
     <pardef n="adv">
       <e><i><w/><s n="adv"/><d/></i></e>
@@ -133,20 +135,6 @@
       <p><l>envie<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
     </e>
 
-<!--
-    <e lm="avoir honte">
-      <p><l>avoir<s n="vblex"/></l><r>avoir<g><b/>honte</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>honte<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="avoir honte">
-      <p><l>avoir<s n="vblex"/></l><r>avoir<g><b/>honte</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>honte<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
--->
-
     <e lm="être bidon">
       <p><l>être<s n="vbser"/></l><r>être<g><b/>bidon</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -195,20 +183,6 @@
       <p><l>barrage<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
     </e>
 
-<!--
-    <e lm="faire bombance">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>bombance</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>bombance<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="faire bombance">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>bombance</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>bombance<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
--->
-
     <e lm="faire connaissance">
       <p><l>faire<s n="vblex"/></l><r>faire<g><b/>connaissance</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -220,68 +194,6 @@
       <par n="adv"/>
       <p><l>connaissance<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
     </e>
-
-<!--
-    <e lm="faire faillite">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>faillite</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>faillite<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="faire faillite">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>faillite</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>faillite<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
-
-    <e lm="faire face">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>face</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>face<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="faire face">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>face</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>face<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
-
-    <e lm="faire grâce">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>grâce</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>grâce<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="faire grâce">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>grâce</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>grâce<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
-
-    <e lm="faire grief">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>grief</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>grief<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="faire grief">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>grief</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>grief<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
-    </e>
-
-    <e lm="faire honte">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>honte</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>honte<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="faire honte">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>honte</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>honte<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
--->
 
     <e lm="faire irruption">
       <p><l>faire<s n="vblex"/></l><r>faire<g><b/>irruption</g><s n="vblex"/></r></p>
@@ -414,36 +326,8 @@
       <par n="adv"/>
       <p><l>compte<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
     </e>
-
-<!--
-    <e lm="tourner casaque">
-      <p><l>tourner<s n="vblex"/></l><r>tourner<g><b/>casaque</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>casaque<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="tourner casaque">
-      <p><l>tourner<s n="vblex"/></l><r>tourner<g><b/>casaque</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>casaque<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
--->
 
     <!-- vblex inf -->
-
-<!--
-    <e lm="aller chercher">
-      <p><l>aller<s n="vblex"/></l><r>aller<g><b/>chercher</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>chercher<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
-    <e lm="aller chercher">
-      <p><l>aller<s n="vblex"/></l><r>aller<g><b/>chercher</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>chercher<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
--->
 
     <e lm="faire endosser">
       <p><l>faire<s n="vblex"/></l><r>faire<g><b/>endosser</g><s n="vblex"/></r></p>
@@ -549,22 +433,6 @@
       <p><l>de<s n="pr"/><d/></l><r></r></p>
     </e>
 
-<!--
-    <e lm="tenir compte de" v="oci@gascon">
-      <p><l>tenir<s n="vblex"/></l><r>tenir<g><b/>compte<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>compte<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
-      <p><l>de<s n="pr"/><d/></l><r></r></p>
-    </e>
-    <e lm="tenir compte de" v="oci@gascon">
-      <p><l>tenir<s n="vblex"/></l><r>tenir<g><b/>compte<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>compte<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
-      <p><l>de<s n="pr"/><d/></l><r></r></p>
-    </e>
--->
-
     <e lm="tenir lieu de">
       <p><l>tenir<s n="vblex"/></l><r>tenir<g><b/>lieu<b/>de</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -579,20 +447,6 @@
     </e>
 
     <!-- vblex adv -->
-
-<!--
-    <e lm="avoir beau">
-      <p><l>avoir<s n="vblex"/></l><r>avoir<g><b/>beau</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>beau<s n="adv"/><d/></l><r></r></p>
-    </e>
-    <e lm="avoir beau">
-      <p><l>avoir<s n="vblex"/></l><r>avoir<g><b/>beau</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>beau<s n="adv"/><d/></l><r></r></p>
-    </e>
--->
 
     <e lm="avoir marre">
       <p><l>avoir<s n="vblex"/></l><r>avoir<g><b/>marre</g><s n="vblex"/></r></p>
@@ -620,27 +474,6 @@
 
     <!-- vblex pr -->
 
-<!--
-    <e lm="induire en">
-      <p><l>induire<s n="vblex"/></l><r>induire<g><b/>en</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>en<s n="pr"/><d/></l><r></r></p>
-    </e>
-    <e lm="induire en">
-      <p><l>induire<s n="vblex"/></l><r>induire<g><b/>en</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>en<s n="pr"/><d/></l><r></r></p>
-    </e>
--->
-
-<!--
-    <e lm="jouer de" v="oci@gascon">
-      <p><l>jouer<s n="vblex"/></l><r>jouer<g><b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>de<s n="pr"/><d/></l><r></r></p>
-    </e>
--->
     <e lm="jouer de" v="oci">
       <p><l>jouer<g><b/>de</g><s n="vblex"/></l><r>jouer<s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -653,32 +486,6 @@
       <par n="adv"/>
       <p><l>de<s n="pr"/><d/></l><r></r></p>
     </e>
-
-<!--
-    <e lm="projeter de">
-      <p><l>projeter<s n="vblex"/></l><r>projeter<g><b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>de<s n="pr"/><d/></l><r></r></p>
-    </e>
-    <e lm="projeter de">
-      <p><l>projeter<s n="vblex"/></l><r>projeter<g><b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>de<s n="pr"/><d/></l><r></r></p>
-    </e>
-
-    <e lm="recourir à">
-      <p><l>recourir<s n="vblex"/></l><r>recourir<g><b/>à</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>à<s n="pr"/><d/></l><r></r></p>
-    </e>
-    <e lm="recourir à">
-      <p><l>recourir<s n="vblex"/></l><r>recourir<g><b/>à</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>à<s n="pr"/><d/></l><r></r></p>
-    </e>
--->
 
     <e lm="témoigner de">
       <p><l>témoigner<s n="vblex"/></l><r>témoigner<g><b/>de</g><s n="vblex"/></r></p>
@@ -706,32 +513,6 @@
       <p><l>le<s n="det"/><s n="def"/><t/><d/>temps<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
     </e>
 
-<!--
-    <e lm="battre leur plein">
-      <p><l>battre<s n="vblex"/></l><r>battre<g><b/>leur<b/>plein</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>leur<s n="det"/><s n="pos"/><t/><d/>plein<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="battre leur plein">
-      <p><l>battre<s n="vblex"/></l><r>battre<g><b/>leur<b/>plein</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>leur<s n="det"/><s n="pos"/><t/><d/>plein<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
-    </e>
-
-    <e lm="battre son plein">
-      <p><l>battre<s n="vblex"/></l><r>battre<g><b/>son<b/>plein</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>son<s n="det"/><s n="pos"/><t/><d/>plein<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="battre son plein">
-      <p><l>battre<s n="vblex"/></l><r>battre<g><b/>son<b/>plein</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>son<s n="det"/><s n="pos"/><t/><d/>plein<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
-    </e>
--->
-
     <e lm="débarrasser la table">
       <p><l>débarrasser<s n="vblex"/></l><r>débarrasser<g><b/>la<b/>table</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -779,20 +560,6 @@
       <par n="adv"/>
       <p><l>le<s n="det"/><s n="def"/><t/><d/>lessive<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
     </e>
-
-<!--
-    <e lm="faire la sieste">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>la<b/>sieste</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>le<s n="det"/><s n="def"/><t/><d/>sieste<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="faire la sieste">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>la<b/>sieste</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>le<s n="det"/><s n="def"/><t/><d/>sieste<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
-    </e>
--->
 
     <e lm="faire le ménage">
       <p><l>faire<s n="vblex"/></l><r>faire<g><b/>le<b/>ménage</g><s n="vblex"/></r></p>
@@ -842,20 +609,6 @@
       <p><l>le<s n="det"/><s n="def"/><t/><d/>oreille<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
     </e>
 
-<!--
-    <e lm="relever le gant">
-      <p><l>relever<s n="vblex"/></l><r>relever<g><b/>le<b/>gant</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>le<s n="det"/><s n="def"/><t/><d/>gant<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="relever le gant">
-      <p><l>relever<s n="vblex"/></l><r>relever<g><b/>le<b/>gant</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>le<s n="det"/><s n="def"/><t/><d/>gant<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
-    </e>
--->
-
     <e lm="réparer la chasse" v="oci@gascon">
       <p><l>réparer<s n="vblex"/></l><r>réparer<g><b/>la<b/>chasse</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -867,20 +620,6 @@
       <par n="adv"/>
       <p><l>le<s n="det"/><s n="def"/><t/><d/>chasse<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
     </e>
-
-<!--
-    <e lm="sécher les cours">
-      <p><l>sécher<s n="vblex"/></l><r>sécher<g><b/>les<b/>cours</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/><d/>cours<s n="n"/><s n="m"/><s n="sp"/><d/></l><r></r></p>
-    </e>
-    <e lm="sécher les cours">
-      <p><l>sécher<s n="vblex"/></l><r>sécher<g><b/>les<b/>cours</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/><d/>cours<s n="n"/><s n="m"/><s n="sp"/><d/></l><r></r></p>
-    </e>
--->
 
     <!-- vbser det n -->
 
@@ -984,56 +723,6 @@
 
     <!-- vbser adj pr -->
 
-<!--
-    <e lm="être originaire de">
-      <p><l>être<s n="vbser"/></l><r>être<g><b/>originaire<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>originaire<s n="adj"/><s n="mf"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
-    <e lm="être originaire de">
-      <p><l>être<s n="vbser"/></l><r>être<g><b/>originaire<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>originaire<s n="adj"/><s n="mf"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
-
-    <e lm="être originaires de">
-      <p><l>être<s n="vbser"/></l><r>être<g><b/>originaires<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>originaire<s n="adj"/><s n="mf"/><s n="pl"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
-    <e lm="être originaires de">
-      <p><l>être<s n="vbser"/></l><r>être<g><b/>originaires<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>originaire<s n="adj"/><s n="mf"/><s n="pl"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
-
-    <e lm="être redevable de">
-      <p><l>être<s n="vbser"/></l><r>être<g><b/>redevable<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>redevable<s n="adj"/><s n="mf"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
-    <e lm="être redevable de">
-      <p><l>être<s n="vbser"/></l><r>être<g><b/>redevable<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>redevable<s n="adj"/><s n="mf"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
-
-    <e lm="être redevables de">
-      <p><l>être<s n="vbser"/></l><r>être<g><b/>redevables<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>redevable<s n="adj"/><s n="mf"/><s n="pl"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
-    <e lm="être redevables de">
-      <p><l>être<s n="vbser"/></l><r>être<g><b/>redevables<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>redevable<s n="adj"/><s n="mf"/><s n="pl"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
--->
-
     <e lm="faire allusion à">
       <p><l>faire<s n="vblex"/></l><r>faire<g><b/>allusion<b/>à</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -1072,44 +761,6 @@
       <p><l>à<s n="pr"/><d/>bout<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
     </e>
 
-<!--
-    <e lm="fermer à clé">
-      <p><l>fermer<s n="vblex"/></l><r>fermer<g><b/>à<b/>clé</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>à<s n="pr"/><d/>clé<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-    <e lm="fermer à clé">
-      <p><l>fermer<s n="vblex"/></l><r>fermer<g><b/>à<b/>clé</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>à<s n="pr"/><d/>clé<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-
-    <e lm="fermer à clef">
-      <p><l>fermer<s n="vblex"/></l><r>fermer<g><b/>à<b/>clef</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>à<s n="pr"/><d/>clef<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-    <e lm="fermer à clef">
-      <p><l>fermer<s n="vblex"/></l><r>fermer<g><b/>à<b/>clef</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>à<s n="pr"/><d/>clef<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-
-    <e lm="mettre en cause">
-      <p><l>mettre<s n="vblex"/></l><r>mettre<g><b/>en<b/>cause</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>en<s n="pr"/><d/>cause<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-    <e lm="mettre en cause">
-      <p><l>mettre<s n="vblex"/></l><r>mettre<g><b/>en<b/>cause</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>en<s n="pr"/><d/>cause<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
--->
-
     <e lm="mettre à bout" v="oci@gascon">
       <p><l>mettre<s n="vblex"/></l><r>mettre<g><b/>à<b/>bout</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -1182,44 +833,6 @@
       <p><l>en<s n="pr"/><d/>touche<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
     </e>
 
-<!--
-    <e lm="mettre en œuvre">
-      <p><l>mettre<s n="vblex"/></l><r>mettre<g><b/>en<b/>œuvre</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>en<s n="pr"/><d/>œuvre<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-    <e lm="mettre en œuvre">
-      <p><l>mettre<s n="vblex"/></l><r>mettre<g><b/>en<b/>œuvre</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>en<s n="pr"/><d/>œuvre<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-
-    <e lm="mettre en place">
-      <p><l>mettre<s n="vblex"/></l><r>mettre<g><b/>en<b/>place</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>en<s n="pr"/><d/>place<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-    <e lm="mettre en place">
-      <p><l>mettre<s n="vblex"/></l><r>mettre<g><b/>en<b/>place</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>en<s n="pr"/><d/>place<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-
-    <e lm="mettre sur pied">
-      <p><l>mettre<s n="vblex"/></l><r>mettre<g><b/>sur<b/>pied</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>sur<s n="pr"/><d/>pied<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-    <e lm="mettre sur pied">
-      <p><l>mettre<s n="vblex"/></l><r>mettre<g><b/>sur<b/>pied</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>sur<s n="pr"/><d/>pied<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
-    </e>
--->
-
     <e lm="pousser à bout" v="oci">
       <p><l>pousser<s n="vblex"/></l><r>pousser<g><b/>à<b/>bout</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -1231,44 +844,6 @@
       <par n="adv"/>
       <p><l>à<s n="pr"/><d/>bout<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
     </e>
-
-<!--
-    <e lm="remettre en cause">
-      <p><l>remettre<s n="vblex"/></l><r>remettre<g><b/>en<b/>cause</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>en<s n="pr"/><d/>cause<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-    <e lm="remettre en cause">
-      <p><l>remettre<s n="vblex"/></l><r>remettre<g><b/>en<b/>cause</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>en<s n="pr"/><d/>cause<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-
-    <e lm="remettre en œuvre">
-      <p><l>remettre<s n="vblex"/></l><r>remettre<g><b/>en<b/>œuvre</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>en<s n="pr"/><d/>œuvre<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-    <e lm="remettre en œuvre">
-      <p><l>remettre<s n="vblex"/></l><r>remettre<g><b/>en<b/>œuvre</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>en<s n="pr"/><d/>œuvre<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-
-    <e lm="remettre en place">
-      <p><l>remettre<s n="vblex"/></l><r>remettre<g><b/>en<b/>place</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>en<s n="pr"/><d/>place<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-    <e lm="remettre en place">
-      <p><l>remettre<s n="vblex"/></l><r>remettre<g><b/>en<b/>place</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>en<s n="pr"/><d/>place<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
-    </e>
--->
 
     <e lm="tomber en lambeaux">
       <p><l>tomber<s n="vblex"/></l><r>tomber<g><b/>en<b/>lambeaux</g><s n="vblex"/></r></p>
@@ -1310,20 +885,6 @@
 
     <!-- vblex det n adj -->
 
-<!--
-    <e lm="faire l'école buissonnière">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>l'école<b/>buissonnière</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>le<s n="det"/><s n="def"/><t/><d/>école<s n="n"/><s n="f"/><t/><d/>buissonnière<s n="adj"/><t/><d/></l><r></r></p>
-    </e>
-    <e lm="faire l'école buissonnière">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>l'école<b/>buissonnière</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>le<s n="det"/><s n="def"/><t/><d/>école<s n="n"/><s n="f"/><t/><d/>buissonnière<s n="adj"/><t/><d/></l><r></r></p>
-    </e>
--->
-
     <e lm="jouer le rôle principal">
       <p><l>jouer<s n="vblex"/></l><r>jouer<g><b/>le<b/>rôle<b/>principal</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -1361,20 +922,6 @@
       <par n="adv"/>
       <p><l>le<s n="det"/><s n="def"/><t/><d/>occasion<s n="n"/><s n="f"/><t/><d/>de<s n="pr"/><d/></l><r></r></p>
     </e>
-
-<!--
-    <e lm="faire l'objet de">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>l'objet<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>le<s n="det"/><s n="def"/><t/><d/>objet<s n="n"/><s n="m"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
-    <e lm="faire l'objet de">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>l'objet<b/>de</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>le<s n="det"/><s n="def"/><t/><d/>objet<s n="n"/><s n="m"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
-    </e>
--->
 
     <!-- vblex pr det n -->
 
@@ -1474,20 +1021,6 @@
       <p><l>de<s n="pr"/><d/>le<s n="det"/><s n="def"/><t/><d/>violon<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
     </e>
 
-<!--
-    <e lm="rire aux éclats">
-      <p><l>rire<s n="vblex"/></l><r>rire<g><b/>aux<b/>éclats</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>à<s n="pr"/><d/>le<s n="det"/><s n="def"/><t/><d/>éclat<s n="n"/><s n="m"/><s n="pl"/><d/></l><r></r></p>
-    </e>
-    <e lm="rire aux éclats">
-      <p><l>rire<s n="vblex"/></l><r>rire<g><b/>aux<b/>éclats</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>à<s n="pr"/><d/>le<s n="det"/><s n="def"/><t/><d/>éclat<s n="n"/><s n="m"/><s n="pl"/><d/></l><r></r></p>
-    </e>
--->
-
     <e lm="tirer de la chasse">
       <p><l>tirer<s n="vblex"/></l><r>tirer<g><b/>de<b/>la<b/>chasse</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
@@ -1501,32 +1034,6 @@
     </e>
 
     <!-- vbser pr det n -->
-
-<!--
-    <e lm="être à l'arrêt">
-      <p><l>être<s n="vbser"/></l><r>être<g><b/>à<b/>l'arrêt</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>à<s n="pr"/><d/>le<s n="det"/><s n="def"/><t/><d/>arrêt<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-    <e lm="être à l'arrêt">
-      <p><l>être<s n="vbser"/></l><r>être<g><b/>à<b/>l'arrêt</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>à<s n="pr"/><d/>le<s n="det"/><s n="def"/><t/><d/>arrêt<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
-    </e>
-
-    <e lm="être aux arrêts">
-      <p><l>être<s n="vbser"/></l><r>être<g><b/>aux<b/>arrêts</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>à<s n="pr"/><d/>le<s n="det"/><s n="def"/><t/><d/>arrêt<s n="n"/><s n="m"/><s n="pl"/><d/></l><r></r></p>
-    </e>
-    <e lm="être aux arrêts">
-      <p><l>être<s n="vbser"/></l><r>être<g><b/>aux<b/>arrêts</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>à<s n="pr"/><d/>le<s n="det"/><s n="def"/><t/><d/>arrêt<s n="n"/><s n="m"/><s n="pl"/><d/></l><r></r></p>
-    </e>
--->
 
     <!-- CASES ESPECIALS -->
 
@@ -1566,5 +1073,5 @@
       <p><l>que<s n="cnjsub"/></l><r></r></p>
     </e>
 
-</section>
+  </section>
 </dictionary>
