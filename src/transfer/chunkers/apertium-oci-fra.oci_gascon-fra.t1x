@@ -15931,39 +15931,6 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: DE NP ENLÀ > À PARTIR DE NP (de Tolosa enlà > à partir de Toulouse)">
-      <pattern>
-        <pattern-item n="depr"/>
-        <pattern-item n="np"/>
-        <pattern-item n="enla"/>
-      </pattern>
-      <action>
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="f_concord1">
-          <with-param pos="2"/>
-        </call-macro>
-        <out>
-          <chunk name="pr_np" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SAdv"/></tag>
-            </tags>
-            <lu>
-               <lit v="à partir de"/>
-               <lit-tag v="pr"/>
-            </lu>
-            <b pos="1"/>
-            <lu>
-              <clip pos="2" side="tl" part="lemh"/>
-              <clip pos="2" side="tl" part="tags"/>
-              <clip pos="2" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
     <rule comment="RÈGLA: DE NP ENÇÀ > DEPUIS NP (de Tolosa ençà > depuis Toulouse)">
       <pattern>
         <pattern-item n="depr"/>
