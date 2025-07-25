@@ -181,12 +181,11 @@
   </section-def-vars>
 
   <section-def-macros>
-
     <def-macro n="f_concord0" npar="1">
       <choose>
-<!--To determine value of variables of gender and
-                 number and propagate to other rules.  Variables are
-                 not used again in this rule -->
+        <!--To determine value of variables of gender and
+          number and propagate to other rules.  Variables are
+          not used again in this rule -->
         <when>
           <test>
             <equal>
@@ -245,7 +244,7 @@
       <choose>
         <when>
           <test>
-<!-- If word has GD or ND, we try to assign the
+            <!-- If word has GD or ND, we try to assign the
               gender or number of the previous rule. If there is no
               value for the gender or number variable from previous
               rules, gender will be masculine and number singular.-->

@@ -134,12 +134,6 @@
       <cat-item tags="Num.*"/>
       <cat-item tags="SAdv"/>
       <cat-item tags="SAdv.*"/>
-<!--
-
-      <cat-item tags="SV"/>
-      <cat-item tags="SV.*"/>
--->
-
       <cat-item tags="PREP"/>
       <cat-item tags="PREP.*"/>
       <cat-item tags="cnjsub"/>
@@ -778,18 +772,18 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -825,18 +819,18 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -878,18 +872,18 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -932,18 +926,18 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -992,18 +986,18 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -1087,18 +1081,18 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -1141,18 +1135,18 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -1201,18 +1195,18 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -1262,18 +1256,18 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -1329,36 +1323,36 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
             <clip pos="2" part="chcontent"/>
           </chunk>
           <b pos="2"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
@@ -1408,18 +1402,18 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -1462,18 +1456,18 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -1523,36 +1517,36 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
             <clip pos="2" part="chcontent"/>
           </chunk>
           <b pos="2"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
@@ -1602,36 +1596,36 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
             <clip pos="2" part="chcontent"/>
           </chunk>
           <b pos="2"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
@@ -1682,18 +1676,18 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -1756,36 +1750,36 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
             <clip pos="2" part="chcontent"/>
           </chunk>
           <b pos="2"/>
-  </out>	<!-- extra blank: workaround space bug -->
-<choose>
-  <when>
-    <test>
-      <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
-    </test>
-  <out>
-    <b/>
-  </out>
-  </when>
-</choose>
-  <out>
+        </out>	<!-- extra blank: workaround space bug -->
+        <choose>
+          <when>
+            <test>
+              <equal><var n="set_enonciatiu"/><lit v="oc"/></equal>
+            </test>
+          <out>
+            <b/>
+          </out>
+          </when>
+        </choose>
+        <out>
           <chunk>
             <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>

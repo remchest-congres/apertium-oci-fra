@@ -119,7 +119,7 @@
     <def-var n="b4"/>
   </section-def-vars>
 
-<section-def-macros>
+  <section-def-macros>
 
     <def-macro n="coordinacion_nbr" npar="2">
        <choose>
@@ -137,7 +137,7 @@
               </and>
             </test>
             <let><clip pos="2" part="nbr"/><clip pos="1" part="nbr"/></let>
-	  </when>
+	        </when>
        </choose>
        <choose>
           <when>
@@ -154,7 +154,7 @@
               </and>
             </test>
             <let><clip pos="1" part="nbr"/><clip pos="2" part="nbr"/></let>
-	  </when>
+	        </when>
       </choose>
     </def-macro>
 
@@ -174,7 +174,7 @@
               </and>
             </test>
             <let><clip pos="2" part="gen"/><clip pos="1" part="gen"/></let>
-	  </when>
+	        </when>
        </choose>
        <choose>
           <when>
@@ -191,537 +191,26 @@
               </and>
             </test>
             <let><clip pos="1" part="gen"/><clip pos="2" part="gen"/></let>
-	  </when>
+	        </when>
       </choose>
     </def-macro>
 
-  <def-macro n="f_bcond" npar="2"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
-     	<choose>
-     	  <when>
-     	    <test><not><equal><b pos="1"/><lit v=" "/></equal></not></test>
-            <out>
-              <b pos="1"/>
-            </out>
-          </when>     	
-     	</choose>
-  </def-macro>
+    <def-macro n="f_bcond" npar="2"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
+        <choose>
+          <when>
+            <test><not><equal><b pos="1"/><lit v=" "/></equal></not></test>
+              <out>
+                <b pos="1"/>
+              </out>
+            </when>     	
+        </choose>
+    </def-macro>
 
-</section-def-macros>
+  </section-def-macros>
 
   <section-rules>
 
-<!-- Règlas de SAdj -->
-
-<!--
-    <rule comment="RÈGLA: DET SA   -   SA ">
-      <pattern>
-        <pattern-item n="DET"/>
-        <pattern-item n="SAnodet"/>
-      </pattern>
-      <action>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="1"/>
-          <with-param pos="2"/>
-        </call-macro>
-        <choose>
-          <when>
-            <test>
-              <equal caseless="yes"><clip pos="1" part="lem"/><lit v="un"/></equal>
-            </test>
-            <out>
-              <chunk>
-                <get-case-from pos="1"><lit v="det_adj1"/></get-case-from>
-                <clip pos="2" part="tags"/>
-                <lit v="{"/>
-                <clip pos="2" part="content"/>
-                <lit v="}"/>
-              </chunk>
-            </out>
-            <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
-          </when>
-          <otherwise>
-            <out>
-              <chunk>
-                <get-case-from pos="1"><lit v="det_adj2"/></get-case-from>
-                <clip pos="2" part="tags"/>
-                <lit v="{"/>
-                <clip pos="1" part="content"/>
-                    <b pos="1"/>
-                <clip pos="2" part="content"/>
-                 <lit v="}"/>
-              </chunk>
-            </out>
-          </otherwise>
-        </choose>
-      </action>
-    </rule>
-
-
-    <rule comment="RÈGLA: ADV SAdj   -   SAdj ">
-      <pattern>
-        <pattern-item n="SAdv"/>
-        <pattern-item n="SAdj"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk>
-            <get-case-from pos="1"><clip pos="2" part="lem"/></get-case-from>
-            <clip pos="2" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="RÈGLA: ADV ADV SAdj   -   SAdj ">
-      <pattern>
-        <pattern-item n="SAdv"/>
-        <pattern-item n="SAdv"/>
-        <pattern-item n="SAdj"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk>
-            <get-case-from pos="1"><clip pos="3" part="lem"/></get-case-from>
-            <clip pos="3" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-                <b pos="2"/>
-            <clip pos="3" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="RÈGLA: SAdj and/or SAdj   -   SAdj ">
-      <pattern>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="and_or"/>
-        <pattern-item n="SAdj"/>
-      </pattern>
-      <action>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="1"/>
-          <with-param pos="3"/>
-        </call-macro>
-        <out>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-                <b pos="2"/>
-            <clip pos="3" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="RÈGLA: ADV SAdj and/or SAdj   -   SAdj ">
-      <pattern>
-        <pattern-item n="SAdv"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="and_or"/>
-        <pattern-item n="SAdj"/>
-      </pattern>
-      <action>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="2"/>
-          <with-param pos="4"/>
-        </call-macro>
-        <out>
-          <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-                <b pos="2"/>
-            <clip pos="3" part="content"/>
-                <b pos="3"/>
-            <clip pos="4" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="RÈGLA: ADV SAdj and/or ADV SAdj   -   SAdj ">
-      <pattern>
-        <pattern-item n="SAdv"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="and_or"/>
-        <pattern-item n="SAdv"/>
-        <pattern-item n="SAdj"/>
-      </pattern>
-      <action>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="2"/>
-          <with-param pos="5"/>
-        </call-macro>
-        <out>
-          <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-                <b pos="2"/>
-            <clip pos="3" part="content"/>
-                <b pos="3"/>
-            <clip pos="4" part="content"/>
-                <b pos="4"/>
-            <clip pos="5" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="RÈGLA: SAdj, SAdj and/or SAdj   -   SAdj ">
-      <pattern>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="CM"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="and_or"/>
-        <pattern-item n="SAdj"/>
-      </pattern>
-      <action>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="1"/>
-          <with-param pos="3"/>
-        </call-macro>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="1"/>
-          <with-param pos="5"/>
-        </call-macro>
-        <out>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-                <b pos="2"/>
-            <clip pos="3" part="content"/>
-                <b pos="3"/>
-            <clip pos="4" part="content"/>
-                <b pos="4"/>
-            <clip pos="5" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="RÈGLA: ADV SAdj, SAdj and/or SAdj   -   SAdj ">
-      <pattern>
-        <pattern-item n="SAdv"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="CM"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="and_or"/>
-        <pattern-item n="SAdj"/>
-      </pattern>
-      <action>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="2"/>
-          <with-param pos="4"/>
-        </call-macro>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="2"/>
-          <with-param pos="6"/>
-        </call-macro>
-        <out>
-          <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-                <b pos="2"/>
-            <clip pos="3" part="content"/>
-                <b pos="3"/>
-            <clip pos="4" part="content"/>
-                <b pos="4"/>
-            <clip pos="5" part="content"/>
-                <b pos="5"/>
-            <clip pos="6" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="RÈGLA: SAdj, SAdj, SAdj and/or SAdj   -   SAdj ">
-      <pattern>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="CM"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="CM"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="and_or"/>
-        <pattern-item n="SAdj"/>
-      </pattern>
-      <action>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="1"/>
-          <with-param pos="3"/>
-        </call-macro>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="1"/>
-          <with-param pos="5"/>
-        </call-macro>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="1"/>
-          <with-param pos="7"/>
-        </call-macro>
-        <out>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-                <b pos="2"/>
-            <clip pos="3" part="content"/>
-                <b pos="3"/>
-            <clip pos="4" part="content"/>
-                <b pos="4"/>
-            <clip pos="5" part="content"/>
-                <b pos="5"/>
-            <clip pos="6" part="content"/>
-                <b pos="6"/>
-            <clip pos="7" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="RÈGLA: ADV SAdj, SAdj and/or SAdj   -   SAdj ">
-      <pattern>
-        <pattern-item n="SAdv"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="CM"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="CM"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="and_or"/>
-        <pattern-item n="SAdj"/>
-      </pattern>
-      <action>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="2"/>
-          <with-param pos="4"/>
-        </call-macro>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="2"/>
-          <with-param pos="6"/>
-        </call-macro>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="2"/>
-          <with-param pos="8"/>
-        </call-macro>
-        <out>
-          <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-                <b pos="2"/>
-            <clip pos="3" part="content"/>
-                <b pos="3"/>
-            <clip pos="4" part="content"/>
-                <b pos="4"/>
-            <clip pos="5" part="content"/>
-                <b pos="5"/>
-            <clip pos="6" part="content"/>
-                <b pos="6"/>
-            <clip pos="7" part="content"/>
-                <b pos="7"/>
-            <clip pos="8" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="RÈGLA: SAdj, SAdj, SAdj, SAdj and/or SAdj   -   SAdj ">
-      <pattern>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="CM"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="CM"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="CM"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="and_or"/>
-        <pattern-item n="SAdj"/>
-      </pattern>
-      <action>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="1"/>
-          <with-param pos="3"/>
-        </call-macro>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="1"/>
-          <with-param pos="5"/>
-        </call-macro>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="1"/>
-          <with-param pos="7"/>
-        </call-macro>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="1"/>
-          <with-param pos="9"/>
-        </call-macro>
-        <out>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-                <b pos="2"/>
-            <clip pos="3" part="content"/>
-                <b pos="3"/>
-            <clip pos="4" part="content"/>
-                <b pos="4"/>
-            <clip pos="5" part="content"/>
-                <b pos="5"/>
-            <clip pos="6" part="content"/>
-                <b pos="6"/>
-            <clip pos="7" part="content"/>
-                <b pos="7"/>
-            <clip pos="8" part="content"/>
-                <b pos="6"/>
-            <clip pos="9" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="RÈGLA: ADV SAdj, SAdj, SAdj and/or SAdj   -   SAdj ">
-      <pattern>
-        <pattern-item n="SAdv"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="CM"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="CM"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="CM"/>
-        <pattern-item n="SAdj"/>
-        <pattern-item n="and_or"/>
-        <pattern-item n="SAdj"/>
-      </pattern>
-      <action>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="2"/>
-          <with-param pos="4"/>
-        </call-macro>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="2"/>
-          <with-param pos="6"/>
-        </call-macro>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="2"/>
-          <with-param pos="8"/>
-        </call-macro>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="2"/>
-          <with-param pos="10"/>
-        </call-macro>
-        <out>
-          <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-                <b pos="2"/>
-            <clip pos="3" part="content"/>
-                <b pos="3"/>
-            <clip pos="4" part="content"/>
-                <b pos="4"/>
-            <clip pos="5" part="content"/>
-                <b pos="5"/>
-            <clip pos="6" part="content"/>
-                <b pos="6"/>
-            <clip pos="7" part="content"/>
-                <b pos="7"/>
-            <clip pos="8" part="content"/>
-                <b pos="8"/>
-            <clip pos="9" part="content"/>
-                <b pos="9"/>
-            <clip pos="10" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="RÈGLA: DET ADV SAdj   -   SAdj ">
-      <pattern>
-        <pattern-item n="DET"/>
-        <pattern-item n="SAdv"/>
-        <pattern-item n="SAdj"/>
-      </pattern>
-      <action>
-        <call-macro n="coordinacion_nbr">
-          <with-param pos="1"/>
-          <with-param pos="3"/>
-        </call-macro>
-        <out>
-          <chunk>
-            <get-case-from pos="1"><clip pos="3" part="lem"/></get-case-from>
-            <clip pos="3" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-                <b pos="2"/>
-            <clip pos="3" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
--->
-
-
-<!-- Règlas de SN -->
+    <!-- Règlas de SN -->
 
     <rule comment="RÈGLA: DET SN   -   SN ">
       <pattern>
@@ -938,7 +427,7 @@
     </rule>
 
 
-<!-- Règlas de SPrep -->
+    <!-- Règlas de SPrep -->
 
     <rule comment="RÈGLA: PREP SN   -   SPrep ">
       <pattern>
@@ -994,7 +483,7 @@
     </rule>
 
 
-<!-- Règlas de SV -->
+    <!-- Règlas de SV -->
 
     <rule comment="RÈGLA: SV, ADVCNJ,   -   SV ">
       <pattern>
@@ -1022,58 +511,7 @@
       </action>
     </rule>
 
-
-<!--
-    <rule comment="RÈGLA: SV ADV  -   SV ">
-      <pattern>
-        <pattern-item n="SV"/>
-        <pattern-item n="SAdv"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk>
-            <get-case-from pos="1"><clip pos="1" part="lem"/></get-case-from>
-            <clip pos="1" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="RÈGLA: SV ADV and/or ADV  -   SV ">
-      <pattern>
-        <pattern-item n="SV"/>
-        <pattern-item n="SAdv"/>
-        <pattern-item n="and_or"/>
-        <pattern-item n="SAdv"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk>
-            <get-case-from pos="1"><clip pos="1" part="lem"/></get-case-from>
-            <clip pos="1" part="tags"/>
-            <lit v="{"/>
-            <clip pos="1" part="content"/>
-                <b pos="1"/>
-            <clip pos="2" part="content"/>
-                <b pos="2"/>
-            <clip pos="3" part="content"/>
-                <b pos="3"/>
-            <clip pos="4" part="content"/>
-             <lit v="}"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
--->
-
-
-<!-- advèrbis -->
+    <!-- advèrbis -->
 
     <rule comment="RÈGLA: ADV ADV   -   ADV ">
       <pattern>
@@ -1195,56 +633,5 @@
         </out>
       </action>
     </rule>
-
-
-    <!-- UNKNOWN -->
-
-<!--
-    <rule comment="RÈGLA: DET UNK   -   UNK ">
-      <pattern>
-        <pattern-item n="DET"/>
-        <pattern-item n="unknown"/>
-      </pattern>
-      <action>
-        <choose>
-          <when>
-            <test>
-              <equal caseless="yes"><clip pos="1" part="lem"/><lit v="un"/></equal>
-            </test>
-            <out>
-              <chunk>
-                <get-case-from pos="1"><lit v="det_unk1"/></get-case-from>
-                <lit-tag v="SN"/>
-                <clip pos="1" part="gen"/>
-                <clip pos="1" part="nbr"/>
-                <lit-tag v="nom.nom"/>
-                <lit v="{"/>
-                <clip pos="2" part="content"/>
-                <lit v="}"/>
-              </chunk>
-            </out>
-            <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
-          </when>
-          <otherwise>
-            <out>
-              <chunk>
-                <get-case-from pos="1"><lit v="det_unk2"/></get-case-from>
-                <lit-tag v="SN"/>
-                <clip pos="1" part="gen"/>
-                <clip pos="1" part="nbr"/>
-                <lit-tag v="nom.nom"/>
-                <lit v="{"/>
-                <clip pos="1" part="content"/>
-                    <b pos="1"/>
-                <clip pos="2" part="content"/>
-                 <lit v="}"/>
-              </chunk>
-            </out>
-          </otherwise>
-        </choose>
-      </action>
-    </rule>
--->
-
   </section-rules>
 </interchunk>

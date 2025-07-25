@@ -44,11 +44,6 @@
       <cat-item tags="SV.vbmod.*"/>
       <cat-item lemma="voler" tags="SV.vblex.*"/>
       <cat-item lemma="anar" tags="SV.vblex.*"/>
-<!--
-      <cat-item lemma="semblar" tags="SV.vblex.*"/>
-      <cat-item lemma="paréisser" tags="SV.vblex.*"/>
-      <cat-item lemma="paréisher" tags="SV.vblex.*"/>
--->
       <cat-item lemma="saber" tags="SV.vblex.*"/>
       <cat-item lemma="venir" tags="SV.vblex.*"/>
       <cat-item lemma="viéner" tags="SV.vblex.*"/>
@@ -61,11 +56,6 @@
       <cat-item lemma="poder" tags="SA.pp.*"/>
       <cat-item lemma="voler" tags="SA.pp.*"/>
       <cat-item lemma="anar" tags="SA.pp.*"/>
-<!--
-      <cat-item lemma="semblar" tags="SA.pp.*"/>
-      <cat-item lemma="paréisser" tags="SA.pp.*"/>
-      <cat-item lemma="paréisher" tags="SA.pp.*"/>
--->
       <cat-item lemma="saber" tags="SA.pp.*"/>
       <cat-item lemma="venir" tags="SA.pp.*"/>
       <cat-item lemma="viéner" tags="SA.pp.*"/>

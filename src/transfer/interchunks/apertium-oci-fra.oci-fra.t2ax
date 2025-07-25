@@ -7347,7 +7347,7 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-<!-- ^avoir<SV><vbhaver><normal><pri><p3><sg>{^avoir<vbhaver><4><p3><sg>$}$ -->
+          <!-- ^avoir<SV><vbhaver><normal><pri><p3><sg>{^avoir<vbhaver><4><p3><sg>$}$ -->
           <chunk>
             <get-case-from pos="2">
               <lit v="avoir"/>
@@ -7394,7 +7394,7 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-<!-- ^avoir<SV><vbhaver><normal><pri><p3><sg>{^avoir<vbhaver><4><p3><sg>$}$ -->
+          <!-- ^avoir<SV><vbhaver><normal><pri><p3><sg>{^avoir<vbhaver><4><p3><sg>$}$ -->
           <chunk>
             <get-case-from pos="2">
               <lit v="avoir"/>
@@ -7448,7 +7448,7 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
-<!-- ^avoir<SV><vbhaver><normal><pri><p3><sg>{^avoir<vbhaver><4><p3><sg>$}$ -->
+          <!-- ^avoir<SV><vbhaver><normal><pri><p3><sg>{^avoir<vbhaver><4><p3><sg>$}$ -->
           <chunk>
             <get-case-from pos="2">
               <lit v="avoir"/>
