@@ -661,12 +661,7 @@
       <cat-item lemma="monsieur" tags="n.*"/>
       <cat-item lemma="M." tags="n.*"/>
       <cat-item lemma="MM." tags="n.*"/>
-<!--
-      <cat-item lemma="madame" tags="n.*"/>
-      <cat-item lemma="mademoiselle" tags="n.*"/>
--->
     </def-cat>
-
   </section-def-cats>
 
   <section-def-attrs>
@@ -983,9 +978,6 @@
       <list-item v="tranmetre"/>
       <list-item v="televizar"/>
       <list-item v="tuar"/>
-<!--      <list-item v="utilizar"/> -->
-<!--      <list-item v="vendre"/> -->
-<!--      <list-item v="voler"/> -->
     </def-list>
 
     <def-list n="gentilici">
@@ -1347,117 +1339,6 @@
       <list-item v="yanomami"/>
     </def-list>
 
-<!--
-    <def-list n="nptop_amb_detdef">
-      <list-item v="Africa subsahariana"/>
-      <list-item v="America centrala"/>
-      <list-item v="America del Nòrd"/>
-      <list-item v="America del Sud"/>
-      <list-item v="America latina"/>
-      <list-item v="Bassa Normandia"/>
-      <list-item v="Comtat Venaicin"/>
-      <list-item v="Còsta d'Azur"/>
-      <list-item v="Estats Units"/>
-      <list-item v="Gran Bretanha"/>
-      <list-item v="Guaiana"/>
-      <list-item v="Güaiana"/>
-      <list-item v="Illa de França"/>
-      <list-item v="Ilha de França"/>
-      <list-item v="Isla de França"/>
-      <list-item v="Lanas"/>
-      <list-item v="Léger Atlàntic"/>
-      <list-item v="Naut Ren"/>
-      <list-item v="Nauta Normandia"/>
-      <list-item v="Nauta Savòia"/>
-      <list-item v="Nauta Vinhana"/>
-      <list-item v="Nauts de França"/>
-      <list-item v="Nòu Brunswick"/>
-      <list-item v="Nòu Hampshire"/>
-      <list-item v="Nòu Mexic"/>
-      <list-item v="Nòva Aquitània"/>
-      <list-item v="Nòva Caledònia"/>
-      <list-item v="Nòva Jersey"/>
-      <list-item v="Nòva Zelanda"/>
-      <list-item v="Païses Basses"/>
-      <list-item v="País de Galas"/>
-      <list-item v="Païses de Léger"/>
-      <list-item v="Pas de Calais"/>
-      <list-item v="Reialme Unit"/>
-      <list-item v="Republica Chèca"/>
-      <list-item v="Republica Dominicana"/>
-      <list-item v="Territòri de Belfort"/>
-      <list-item v="Union Europèa"/>
-      <list-item v="UE"/>
-      <list-item v="Union Sovietica"/>
-      <list-item v="URSS"/>
-      <list-item v="Val d'Aran"/>
-      <list-item v="Val d'Oise"/>
-      <list-item v="Val de Marna"/>
-
-      <list-item v="Alps"/>
-      <list-item v="Aups"/>
-      <list-item v="Auts Aups"/>
-      <list-item v="Aups Maritims"/>
-      <list-item v="Aups d'Auta Provença"/>
-      <list-item v="Andes"/>
-      <list-item v="Ardenas"/>
-      <list-item v="Carpats"/>
-      <list-item v="Massís Central"/>
-      <list-item v="Orals"/>
-      <list-item v="Pirenèu"/>
-      <list-item v="Pirenèus"/>
-      <list-item v="Hauts Pirenèus"/>
-      <list-item v="Pirenèus Atlantics"/>
-      <list-item v="Pirenèus Orientals"/>
-      <list-item v="Sèlva Negra"/>
-      <list-item v="Termopilas"/>
-      <list-item v="Vòges"/>
-      <list-item v="Mont Blanc"/>
-
-      <list-item v="Mediterrànea"/>
-      <list-item v="mar Baltica"/>
-      <list-item v="mar Mòrta"/>
-      <list-item v="mar d'Aral"/>
-      <list-item v="mar de Japon"/>
-      <list-item v="mar de las Antilhas"/>
-      <list-item v="mar del Nôrd"/>
-      <list-item v="mar del Coralh"/>
-
-      <list-item v="Antilhas"/>
-      <list-item v="Antilhes"/>
-      <list-item v="Balearas"/>
-      <list-item v="Baleares"/>
-      <list-item v="Canàrias"/>
-      <list-item v="Canàries"/>
-      <list-item v="Filipinas"/>
-      <list-item v="Filipines"/>
-      <list-item v="illa de Clipperton"/>
-      <list-item v="Illa de França"/>
-      <list-item v="Illa de Man"/>
-      <list-item v="Illa de Pascas"/>
-      <list-item v="illas Australas"/>
-      <list-item v="illas Caiman"/>
-      <list-item v="illas Chatham"/>
-      <list-item v="illas de Pitcairn"/>
-      <list-item v="illas Malvinas"/>
-      <list-item v="illas Marquesas"/>
-      <list-item v="illas Marshall"/>
-      <list-item v="illas Midway"/>
-      <list-item v="illas Tokelau"/>
-      <list-item v="illas Tuamotu"/>
-      <list-item v="illas Turcas e Caïcas"/>
-      <list-item v="Illas Verges Americanas"/>
-      <list-item v="Illas Verges Britanicas"/>
-      <list-item v="Illas Verges"/>
-      <list-item v="illas Toquelau"/>
-
-
-      <list-item v="Acropòli"/>
-      <list-item v="Camp Nou"/>
-      <list-item v="Santiago Bernabeu"/>
-    </def-list>
--->
-
     <def-list n="pays">	<!-- toponymes de pays et régions avec déterminant en français et sans lui en occitan -->
       <list-item v="Europe"/>
       <list-item v="Asie"/>
@@ -1563,10 +1444,6 @@
       <list-item v="Guyenne"/>
       <list-item v="Gironde"/>
       <list-item v="Landes"/>
-<!--
-      <list-item v="Grande-Lande"/>
-      <list-item v="Haute-Lande"/>
--->
       <list-item v="Albret"/>
       <list-item v="Labrit"/>
       <list-item v="Béarn"/>
@@ -1666,15 +1543,12 @@
       <list-item v="Bourbonnais"/>
       <list-item v="Bourgogne"/>
       <list-item v="Bresse"/>
-<!--      <list-item v="Morvan"/> -->
       <list-item v="Dauphiné"/>
-<!--      <list-item v="Franche-Comté"/> -->
       <list-item v="Lyonnais"/>
       <list-item v="Marche"/>
       <list-item v="Nivernais"/>
       <list-item v="Orléanais"/>
       <list-item v="Aisne"/>
-<!--      <list-item v="Yvelines"/> -->
       <list-item v="Picardie"/>
       <list-item v="Lorraine"/>
       <list-item v="Alsace"/>
@@ -1983,7 +1857,6 @@
       <list-item v="Sri Lanka"/>
       <list-item v="Maroc"/>
       <list-item v="Numidie"/>
-<!--      <list-item v="Canaries"/>  -->
       <list-item v="Mauritanie"/>
       <list-item v="Algérie"/>
       <list-item v="Tunisie"/>
@@ -2053,10 +1926,8 @@
       <list-item v="Yukon"/>
       <list-item v="Ontario"/>
       <list-item v="Québec"/>
-<!--      <list-item v="Nouveau-Brunswick"/> -->
       <list-item v="Saskatchewan"/>
       <list-item v="Nunavut"/>
-<!--      <list-item v="États-Unis"/> -->
       <list-item v="Nouvelle-Orléans"/>
       <list-item v="Alabama"/>
       <list-item v="Alaska"/>
@@ -2112,7 +1983,6 @@
       <list-item v="Costa Rica"/>
       <list-item v="Panama"/>
       <list-item v="Barbade"/>
-<!--      <list-item v="Bahamas"/>  -->
       <list-item v="Colombie"/>
       <list-item v="Vénézuéla"/>
       <list-item v="Venezuela"/>
@@ -2293,7 +2163,7 @@
     </def-macro>
 
     <def-macro n="f_concord_bricolatge2" npar="2">
-<!--Pedaç ad-hoc per solucionar problemes amb l'assignació del nombre a "nombreux prix" et sim. -->
+    <!--Pedaç ad-hoc per solucionar problemes amb l'assignació del nombre a "nombreux prix" et sim. -->
       <choose>
         <when>
           <test>
@@ -2402,7 +2272,7 @@
 
     <def-macro n="f_concord0" npar="1">
       <choose>
-<!--To determine value of variables of gender and
+      <!--To determine value of variables of gender and
                  number and propagate to other rules.  Variables are
                  not used again in this rule -->
         <when>
@@ -2493,7 +2363,7 @@
       <choose>
         <when>
           <test>
-<!-- If word has GD or ND, we try to assign the
+            <!-- If word has GD or ND, we try to assign the
               gender or number of the previous rule. If there is no
               value for the gender or number variable from previous
               rules, gender will be masculine and number singular.-->
@@ -2566,7 +2436,7 @@
       <choose>
         <when>
           <test>
-<!-- do the main and second parameter gender agree?-->
+            <!-- do the main and second parameter gender agree?-->
             <and>
               <or>
                 <equal>
@@ -2584,7 +2454,7 @@
               </or>
               <or>
                 <equal>
-<!-- do the main and second parameter number agree?-->
+                  <!-- do the main and second parameter number agree?-->
                   <clip pos="2" side="sl" part="nbr"/>
                   <clip pos="1" side="sl" part="nbr"/>
                 </equal>
@@ -2603,20 +2473,20 @@
             <var n="concPrimero"/>
             <lit v="true"/>
           </let>
-<!-- there is gender and number agreement-->
+          <!-- there is gender and number agreement-->
         </when>
         <otherwise>
           <let>
             <var n="concPrimero"/>
             <lit v="false"/>
           </let>
-<!-- there isn't gender and number agreement-->
+          <!-- there isn't gender and number agreement-->
         </otherwise>
       </choose>
       <choose>
         <when>
           <test>
-<!-- Propagate the main parameter gender if it has been modified during the translation  -->
+            <!-- Propagate the main parameter gender if it has been modified during the translation  -->
             <and>
               <not>
                 <equal>
@@ -2679,7 +2549,7 @@
       <choose>
         <when>
           <test>
-<!-- Propagate the main parameter number if it has been modified during the translation  -->
+            <!-- Propagate the main parameter number if it has been modified during the translation  -->
             <and>
               <not>
                 <equal>
@@ -2742,7 +2612,7 @@
       <choose>
         <when>
           <test>
-<!-- Which is the rule general gender? -->
+            <!-- Which is the rule general gender? -->
             <equal>
               <clip pos="1" side="tl" part="gen"/>
               <lit-tag v="m"/>
@@ -2838,7 +2708,7 @@
       </choose>
       <choose>
         <when>
-<!-- Which is the rule general number? -->
+          <!-- Which is the rule general number? -->
           <test>
             <equal>
               <clip pos="1" side="tl" part="nbr"/>
@@ -2956,7 +2826,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Determine gender and number value if they are undetermined -->
+        <!-- Determine gender and number value if they are undetermined -->
         <when>
           <test>
             <equal>
@@ -3016,7 +2886,7 @@
 
     <def-macro n="f_concord3" npar="3">
       <choose>
-<!-- Look whether in source language there is concordance between first and second element -->
+        <!-- Look whether in source language there is concordance between first and second element -->
         <when>
           <test>
             <and>
@@ -3063,7 +2933,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Look whether in source language there is concordance between second and third element -->
+        <!-- Look whether in source language there is concordance between second and third element -->
         <when>
           <test>
             <and>
@@ -3110,7 +2980,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Propagate the main parameter gender if it has been modified during the translation -->
+        <!-- Propagate the main parameter gender if it has been modified during the translation -->
         <when>
           <test>
             <and>
@@ -3209,7 +3079,7 @@
         </when>
       </choose>
       <choose>
-<!-- Propagate the main parameter number if it has been modified during the translation -->
+        <!-- Propagate the main parameter number if it has been modified during the translation -->
         <when>
           <test>
             <and>
@@ -3308,7 +3178,7 @@
         </when>
       </choose>
       <choose>
-<!-- Determine the rule general gender. Priority order: main, second and third element -->
+        <!-- Determine the rule general gender. Priority order: main, second and third element -->
         <when>
           <test>
             <equal>
@@ -3449,7 +3319,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Determine the rule general number. Priority order: main, second and third element -->
+        <!-- Determine the rule general number. Priority order: main, second and third element -->
         <when>
           <test>
             <equal>
@@ -3590,7 +3460,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Assign values to GD and ND -->
+        <!-- Assign values to GD and ND -->
         <when>
           <test>
             <equal>
@@ -3678,7 +3548,7 @@
 
     <def-macro n="f_concord3_sens_cambiaments_en_par3" npar="3">
       <choose>
-<!-- Look whether in source language there is concordance between first and second element -->
+        <!-- Look whether in source language there is concordance between first and second element -->
         <when>
           <test>
             <and>
@@ -3725,7 +3595,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Look whether in source language there is concordance between second and third element -->
+        <!-- Look whether in source language there is concordance between second and third element -->
         <when>
           <test>
             <and>
@@ -3772,7 +3642,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Propagate the main parameter gender if it has been modified during the translation -->
+        <!-- Propagate the main parameter gender if it has been modified during the translation -->
         <when>
           <test>
             <and>
@@ -3862,18 +3732,12 @@
                   </equal>
                 </and>
               </test>
-<!--
-              <let>
-                <clip pos="3" side="tl" part="gen"/>
-                <clip pos="1" side="tl" part="gen"/>
-              </let>
--->
             </when>
           </choose>
         </when>
       </choose>
       <choose>
-<!-- Propagate the main parameter number if it has been modified during the translation -->
+        <!-- Propagate the main parameter number if it has been modified during the translation -->
         <when>
           <test>
             <and>
@@ -3972,7 +3836,7 @@
         </when>
       </choose>
       <choose>
-<!-- Determine the rule general gender. Priority order: main, second and third element -->
+        <!-- Determine the rule general gender. Priority order: main, second and third element -->
         <when>
           <test>
             <equal>
@@ -4113,7 +3977,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Determine the rule general number. Priority order: main, second and third element -->
+        <!-- Determine the rule general number. Priority order: main, second and third element -->
         <when>
           <test>
             <equal>
@@ -4254,7 +4118,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Assign values to GD and ND -->
+        <!-- Assign values to GD and ND -->
         <when>
           <test>
             <equal>
@@ -5282,12 +5146,12 @@
 
     <def-macro n="f_unset_nopron" npar="1"> <!-- elimina nopron a vblex.nopron -->
       <choose>
-	<when>
-	  <test>
-	    <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.nopron"/></equal>
-	  </test>
-	  <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
-	</when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.nopron"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
+        </when>
       </choose>
     </def-macro>
 
@@ -5676,8 +5540,8 @@
     </def-macro>
 
     <def-macro n="f_maj_gentilici" npar="1">
-<!-- si es tracta d'un gentilici, traiem la majúscula -->
-<!-- p1 = det, p2 = n -->
+      <!-- si es tracta d'un gentilici, traiem la majúscula -->
+      <!-- p1 = det, p2 = n -->
       <choose>
         <when>
           <test>
@@ -11499,82 +11363,6 @@
       </action>
     </rule>
 
-<!-- calen mai d'ajustaments per empachar errors
-    <rule comment="RÈGLA: NPTOP ADJ (Alpes autrichiennes > Alps austrians)">
-      <pattern>
-        <pattern-item n="nptop"/>
-        <pattern-item n="adj"/>
-      </pattern>
-      <action>
-        <call-macro n="f_concord2">
-          <with-param pos="1"/>
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="f_chunk_tags">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <chunk name="nptop-adj">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><lit-tag v="np"/></tag>
-              <tag><clip pos="1" side="tl" part="gen"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-              <tag><var n="genero_sl"/></tag>
-              <tag><var n="numero_sl"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-            <b pos="1"/>
-            <lu>
-              <clip pos="2" side="tl" part="lemh"/>
-              <clip pos="2" side="tl" part="tags"/>
-              <clip pos="2" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="RÈGLA: ADJ NPTOP (Hautes Alpes > Nauts Alps)">
-      <pattern>
-        <pattern-item n="adj"/>
-        <pattern-item n="nptop"/>
-      </pattern>
-      <action>
-        <call-macro n="f_concord2">
-          <with-param pos="2"/>
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="f_chunk_tags">
-          <with-param pos="2"/>
-        </call-macro>
-        <out>
-          <chunk name="nptop-adj">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><lit-tag v="np"/></tag>
-              <tag><clip pos="2" side="tl" part="gen"/></tag>
-              <tag><clip pos="2" side="tl" part="nbr"/></tag>
-              <tag><var n="genero_sl"/></tag>
-              <tag><var n="numero_sl"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="tags"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-            <b pos="1"/>
-            <lu>
-              <clip pos="2" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
--->
-
     <!-- FIN RÈGLAS TOP -->
 
 
@@ -15199,7 +14987,6 @@
        </action>
     </rule>
 
-<!-- xxxx -->
     <rule comment="RÈGLA: NE PRNPRO HAVER PAS SER_PP > PRNPRO SER PAS SER_PP: ne lui ai pas été > li ei pas estat">
        <pattern>
          <pattern-item n="ne"/>
@@ -19149,10 +18936,10 @@
        </action>
     </rule>
 
-  <!-- FIN RÈGLAS ELISION NE -->
+    <!-- FIN RÈGLAS ELISION NE -->
 
 
-  <!-- RÈGLAS ELISION SUBJECTE -->
+    <!-- RÈGLAS ELISION SUBJECTE -->
 
     <rule comment="RÈGLA: PRNSUBJ VERB (il arrive > arriba ; il décolle > s'enlaira)">
       <pattern>
@@ -19406,41 +19193,6 @@
          </out>
       </action>
     </rule>
-
-
-<!--
-    <rule comment="RÈGLA: Y EN (il y en a: n'i a">
-      <pattern>
-        <pattern-item n="y"/>
-        <pattern-item n="enprn"/>
-      </pattern>
-      <action>
-         <let><var n="caseFirstWord"/><case-of pos="1" side="sl" part="lemh"/></let>
-         <out>
-           <chunk name="pro-pro" case="caseFirstWord">
-             <tags>
-               <tag><lit-tag v="SPron"/></tag>
-               <tag><lit-tag v="normal"/></tag>
-             </tags>
-             <lu>
-               <clip pos="2" side="tl" part="lemh"/>
-               <clip pos="2" side="tl" part="tags"/>
-               <clip pos="2" side="tl" part="lemq"/>
-             </lu>
-             <b pos="2"/>
-             <lu>
-               <get-case-from pos="2">
-                 <clip pos="1" side="tl" part="lemh"/>
-               </get-case-from>
-               <clip pos="1" side="tl" part="tags"/>
-               <clip pos="1" side="tl" part="lemq"/>
-             </lu>
-           </chunk>
-         </out>
-      </action>
-    </rule>
--->
-
 
     <rule comment="RÈGLA: PRNPRO PRNPRO (y en > n'i; le lui > o li / l'ac)">
       <pattern>
@@ -20244,10 +19996,10 @@
        </action>
     </rule>
 
-  <!-- FIN RÈGLAS ELISION SUBJECTE -->
+    <!-- FIN RÈGLAS ELISION SUBJECTE -->
 
 
-  <!-- RÈGLAS ON -->
+    <!-- RÈGLAS ON -->
 
     <rule comment="RÈGLA: ON VERBP3 (on peut: se pòt)">
       <pattern>
@@ -20727,10 +20479,10 @@
       </action>
     </rule>
 
-  <!-- FIN RÈGLAS ON -->
+    <!-- FIN RÈGLAS ON -->
 
 
-  <!-- RÈGLAS REORDENACION PRONOMS -->
+    <!-- RÈGLAS REORDENACION PRONOMS -->
 
     <rule comment="RÈGLA: HAVER PP PRNPRO INF (auraient pu l'imaginer: l’aurián pogut imaginar)">
        <pattern>
@@ -20986,10 +20738,10 @@
       </action>
     </rule>
 
-  <!-- FIN RÈGLAS REORDENACION PRONOMS -->
+    <!-- FIN RÈGLAS REORDENACION PRONOMS -->
 
 
-  <!-- RÈGLAS EN TRAIN DE -->
+    <!-- RÈGLAS EN TRAIN DE -->
 
     <rule comment="RÈGLA: être en train de inf = verb-conj: Jean est en train de dormir > Jean dòrm">
       <pattern>
@@ -21573,10 +21325,10 @@
       </action>
     </rule>
 
-  <!-- FIN RÈGLAS EN TRAIN DE -->
+    <!-- FIN RÈGLAS EN TRAIN DE -->
 
 
-  <!-- RÈGLAS NE... QUE -->
+    <!-- RÈGLAS NE... QUE -->
 
     <!-- sens prnpro -->
 
@@ -23152,10 +22904,10 @@
        </action>
     </rule>
 
-  <!-- FIN RÈGLAS NE... QUE -->
+    <!-- FIN RÈGLAS NE... QUE -->
 
 
-  <!-- AUTRAS RÈGLAS VERBALAS -->
+    <!-- AUTRAS RÈGLAS VERBALAS -->
 
     <rule comment="RÈGLA: IMP PRNENC">
        <pattern>
@@ -23431,10 +23183,10 @@
        </action>
     </rule>
 
-  <!-- FIN AUTRAS RÈGLAS VERBALAS -->
+    <!-- FIN AUTRAS RÈGLAS VERBALAS -->
 
 
-  <!-- RÈGLAS C'EST -->
+    <!-- RÈGLAS C'EST -->
 
     <rule comment="RÈGLA: CE VBSER > VBSER: ce fut > foguèt">
        <pattern>
@@ -24387,10 +24139,10 @@
        </action>
     </rule>
 
-  <!-- FIN RÈGLAS C'EST -->
+    <!-- FIN RÈGLAS C'EST -->
 
 
-  <!-- RÈGLAS ON DOIT + INF > CAL + INF -->
+    <!-- RÈGLAS ON DOIT + INF > CAL + INF -->
 
     <rule comment="RÈGLA: ON DOIT INF (on doit manger > cal manjar)">
       <pattern>
@@ -24610,7 +24362,7 @@
       </action>
     </rule>
 
-  <!-- FIN RÈGLAS ON DOIT + INF > CAL + INF -->
+    <!-- FIN RÈGLAS ON DOIT + INF > CAL + INF -->
 
 
     <!-- RÈGLAS CAPÇALERA CHUNK + LEMH/LEMQ -->
@@ -25320,7 +25072,7 @@
     <!-- FIN RÈGLAS CAPÇALERA CHUNK + LEMH/LEMQ -->
 
 
-  <!-- AUTRAS RÈGLAS -->
+    <!-- AUTRAS RÈGLAS -->
 
     <rule comment="RÈGLA: aussi ADJ SER_PRS_P3 IL > per mai ADJ que SER_PRS_P3">
       <pattern>
@@ -25657,24 +25409,6 @@
          <with-param pos="1"/>
        </call-macro>
          <let><var n="caseFirstWord"/><case-of pos="1" side="sl" part="lemh"/></let>
-<!--
-       <choose>
-         <when>
-           <test>
-             <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></equal>
-           </test>
-           <let><clip pos="1" side="tl" part="gen"/><clip pos="1" side="sl" part="gen"/></let>
-         </when>
-       </choose>
-       <choose>
-         <when>
-           <test>
-             <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></equal>
-           </test>
-           <let><clip pos="1" side="tl" part="gen"/><var n="genero"/></let>
-         </when>
-       </choose>
--->
        <out>
          <chunk name="det" case="caseFirstWord">
            <tags>
@@ -27095,7 +26829,7 @@
       </action>
     </rule>
 
-  <!-- FIN AUTRAS RÈGLAS -->
+    <!-- FIN AUTRAS RÈGLAS -->
 
   </section-rules>
 </transfer>

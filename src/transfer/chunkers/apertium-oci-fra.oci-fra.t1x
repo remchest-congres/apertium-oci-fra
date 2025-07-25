@@ -792,20 +792,6 @@
       <cat-item lemma="glèisa" tags="n.*"/>
       <cat-item lemma="catedrala" tags="n.*"/>
       <cat-item lemma="catedrau" tags="n.*"/>
-<!--
-      <cat-item lemma="monastèri" tags="n.*"/>
-      <cat-item lemma="monastièr" tags="n.*"/>
-      <cat-item lemma="mostièr" tags="n.*"/>
-      <cat-item lemma="mongia" tags="n.*"/>
-      <cat-item lemma="abadiá" tags="n.*"/>
-      <cat-item lemma="abadia" tags="n.*"/>
-      <cat-item lemma="capèla" tags="n.*"/>
-      <cat-item lemma="capèra" tags="n.*"/>
-      <cat-item lemma="priorat" tags="n.*"/>
-      <cat-item lemma="chartrosa" tags="n.*"/>
-      <cat-item lemma="parròquia" tags="n.*"/>
-      <cat-item lemma="parròpia" tags="n.*"/>
--->
     </def-cat>
 
     <def-cat n="illa_n">
@@ -1358,9 +1344,9 @@
       <attr-item tags="dat2nom"/>
     </def-attr>
 
-	<def-attr n="pron">
-	  <attr-item tags="pron"/>
-	</def-attr>
+    <def-attr n="pron">
+      <attr-item tags="pron"/>
+    </def-attr>
 
     <def-attr n="a_non-pron">
       <attr-item tags="non-pron"/>
@@ -1823,7 +1809,6 @@
       <list-item v="lithuanien"/>
       <list-item v="balte"/>
       <list-item v="polonais"/>
-<!--      <list-item v="juif"/> -->
       <list-item v="sorabe"/>
       <list-item v="cachoube"/>
       <list-item v="tchèque"/>
@@ -1909,7 +1894,6 @@
       <list-item v="évenk"/>
       <list-item v="ouïghour"/>
       <list-item v="ouïgour"/>
-<!--      <list-item v="samoyède"/> -->
       <list-item v="cachemiri"/>
       <list-item v="cachemirien"/>
       <list-item v="baloutche"/>
@@ -2023,7 +2007,6 @@
       <list-item v="sabin"/>
       <list-item v="ombrien"/>
       <list-item v="osque"/>
-<!--      <list-item v="vandale"/> -->
       <list-item v="thrace"/>
       <list-item v="dace"/>
       <list-item v="illyrien"/>
@@ -2085,7 +2068,6 @@
       <list-item v="Timor"/>
       <list-item v="Timor oriental"/>
       <list-item v="Tuvalu"/>
-<!--      <list-item v="Vanuatu"/>  -->
       <list-item v="Tonga"/>
       <list-item v="Kiribati"/>
       <list-item v="Papouasie"/>
@@ -2164,10 +2146,6 @@
       <list-item v="Guyenne"/>
       <list-item v="Gironde"/>
       <list-item v="Landes"/>
-<!--
-      <list-item v="Grande-Lande"/>
-      <list-item v="Haute-Lande"/>
--->
       <list-item v="Albret"/>
       <list-item v="Labrit"/>
       <list-item v="Béarn"/>
@@ -2771,7 +2749,6 @@
       <list-item v="Stura di Demonte"/>
       <list-item v="Tanaro"/>
       <list-item v="Tarn"/>
-<!--      <list-item v="Vernon"/> -->
       <list-item v="Vézère"/>
 
       <list-item v="Loiret"/>
@@ -2918,12 +2895,12 @@
 
     <def-macro n="f_unset_nopron" npar="1"> <!-- elimina nopron a vblex.nopron -->
       <choose>
-	<when>
-	  <test>
-	    <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.nopron"/></equal>
-	  </test>
-	  <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
-	</when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex.nopron"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_verb_pron"/><lit-tag v="vblex"/></let>
+        </when>
       </choose>
     </def-macro>
 
@@ -3073,7 +3050,7 @@
     </def-macro>
 
     <def-macro n="f_concord_bricolatge2" npar="2">
-<!--Pedaç totalment ad-hoc per solucionar problemes amb l'assignació del gènere i nombre a divers -->
+      <!--Pedaç totalment ad-hoc per solucionar problemes amb l'assignació del gènere i nombre a divers -->
       <choose>
         <when>
           <test>
@@ -3117,9 +3094,9 @@
 
     <def-macro n="f_concord0" npar="1">
       <choose>
-<!--To determine value of variables of gender and
-                 number and propagate to other rules.  Variables are
-                 not used again in this rule -->
+        <!--To determine value of variables of gender and
+          number and propagate to other rules.  Variables are
+          not used again in this rule -->
         <when>
           <test>
             <or>
@@ -3169,7 +3146,7 @@
       <choose>
         <when>
           <test>
-<!-- If word has GD or ND, we try to assign the
+            <!-- If word has GD or ND, we try to assign the
               gender or number of the previous rule. If there is no
               value for the gender or number variable from previous
               rules, gender will be masculine and number singular.-->
@@ -3245,7 +3222,7 @@
       <choose>
         <when>
           <test>
-<!-- do the main and second parameter gender agree?-->
+            <!-- do the main and second parameter gender agree?-->
             <and>
               <or>
                 <equal>
@@ -3263,7 +3240,7 @@
               </or>
               <or>
                 <equal>
-<!-- do the main and second parameter number agree?-->
+                  <!-- do the main and second parameter number agree?-->
                   <clip pos="2" side="sl" part="nbr"/>
                   <clip pos="1" side="sl" part="nbr"/>
                 </equal>
@@ -3282,20 +3259,20 @@
             <var n="concPrimero"/>
             <lit v="true"/>
           </let>
-<!-- there is gender and number agreement-->
+          <!-- there is gender and number agreement-->
         </when>
         <otherwise>
           <let>
             <var n="concPrimero"/>
             <lit v="false"/>
           </let>
-<!-- there isn't gender and number agreement-->
+          <!-- there isn't gender and number agreement-->
         </otherwise>
       </choose>
       <choose>
         <when>
           <test>
-<!-- Propagate the main parameter gender if it has been modified during the translation  -->
+            <!-- Propagate the main parameter gender if it has been modified during the translation  -->
             <and>
               <not>
                 <equal>
@@ -3358,7 +3335,7 @@
       <choose>
         <when>
           <test>
-<!-- Propagate the main parameter number if it has been modified during the translation  -->
+            <!-- Propagate the main parameter number if it has been modified during the translation  -->
             <and>
               <not>
                 <equal>
@@ -3421,7 +3398,7 @@
       <choose>
         <when>
           <test>
-<!-- Which is the rule general gender? -->
+            <!-- Which is the rule general gender? -->
             <equal>
               <clip pos="1" side="tl" part="gen"/>
               <lit-tag v="m"/>
@@ -3517,7 +3494,7 @@
       </choose>
       <choose>
         <when>
-<!-- Which is the rule general number? -->
+          <!-- Which is the rule general number? -->
           <test>
             <equal>
               <clip pos="1" side="tl" part="nbr"/>
@@ -3635,7 +3612,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Determine gender and number value if they are undetermined -->
+        <!-- Determine gender and number value if they are undetermined -->
         <when>
           <test>
             <equal>
@@ -3696,7 +3673,7 @@
 
     <def-macro n="f_concord3" npar="3">
       <choose>
-<!-- Look whether in source language there is concordance between first and second element -->
+        <!-- Look whether in source language there is concordance between first and second element -->
         <when>
           <test>
             <and>
@@ -3743,7 +3720,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Look whether in source language there is concordance between second and third element -->
+        <!-- Look whether in source language there is concordance between second and third element -->
         <when>
           <test>
             <and>
@@ -3790,7 +3767,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Propagate the main parameter gender if it has been modified during the translation -->
+        <!-- Propagate the main parameter gender if it has been modified during the translation -->
         <when>
           <test>
             <and>
@@ -3889,7 +3866,7 @@
         </when>
       </choose>
       <choose>
-<!-- Propagate the main parameter number if it has been modified during the translation -->
+        <!-- Propagate the main parameter number if it has been modified during the translation -->
         <when>
           <test>
             <and>
@@ -3988,7 +3965,7 @@
         </when>
       </choose>
       <choose>
-<!-- Determine the rule general gender. Priority order: main, second and third element -->
+        <!-- Determine the rule general gender. Priority order: main, second and third element -->
         <when>
           <test>
             <equal>
@@ -4129,7 +4106,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Determine the rule general number. Priority order: main, second and third element -->
+        <!-- Determine the rule general number. Priority order: main, second and third element -->
         <when>
           <test>
             <equal>
@@ -4270,7 +4247,7 @@
         </otherwise>
       </choose>
       <choose>
-<!-- Assign values to GD and ND -->
+        <!-- Assign values to GD and ND -->
         <when>
           <test>
             <equal>
@@ -5220,7 +5197,7 @@
       </choose>
     </def-macro>
 
-  <def-macro n="firstWord" npar="1">
+    <def-macro n="firstWord" npar="1">
       <choose>
         <when>
           <test>
@@ -5269,7 +5246,7 @@
     </def-macro>
 
     <def-macro n="f_maj_gentilici1" npar="1">
-<!-- si es tracta d'un gentilici, posem la majúscula si està en plural-->
+      <!-- si es tracta d'un gentilici, posem la majúscula si està en plural-->
       <choose>
         <when>
           <test>
@@ -5299,8 +5276,8 @@
     </def-macro>
 
     <def-macro n="f_maj_gentilici2" npar="2">
-<!-- si es tracta d'un gentilici, posem la majúscula -->
-<!-- p1 = det, p2 = n -->
+      <!-- si es tracta d'un gentilici, posem la majúscula -->
+      <!-- p1 = det, p2 = n -->
       <choose>
         <when>
           <test>
@@ -6036,26 +6013,6 @@
         <out>
           <b pos="3"/>
         </out>
-<!--
-        <out>
-          <chunk name="nptop" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><lit-tag v="np"/></tag>
-              <tag><clip pos="3" side="tl" part="gen"/></tag>
-              <tag><clip pos="3" side="tl" part="nbr"/></tag>
-              <tag><var n="genero_sl"/></tag>
-              <tag><var n="numero_sl"/></tag>
-            </tags>
-            <lu>
-              <clip pos="3" side="tl" part="lemh"/>
-              <clip pos="3" side="tl" part="tags"/>
-              <clip pos="3" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-          <b pos="3"/>
-        </out>
--->
         <call-macro n="firstWord">
           <with-param pos="4"/>
         </call-macro>
@@ -16727,7 +16684,7 @@
        </action>
     </rule>
 
-	<!-- cambi d'auxiliar si lo vèrb francés es "pron" -->
+	  <!-- cambi d'auxiliar si lo vèrb francés es "pron" -->
 
     <rule comment="RÈGLA: AVER PP > AVOIR PP / S'ÊTRE PP">
        <pattern>
@@ -20350,7 +20307,7 @@
           </otherwise>
         </choose>
       </action>
-  </rule>
+    </rule>
 
     <rule comment="INF/GER + ENCLITIC + ENCLITIC (cantar-li-o > le lui chanter)">
       <pattern>
@@ -20470,9 +20427,9 @@
           </otherwise>
         </choose>
       </action>
-  </rule>
+    </rule>
 
-  <!-- FIN AUTRAS RÈGLAS VERBALAS -->
+    <!-- FIN AUTRAS RÈGLAS VERBALAS -->
 
 
     <!-- RÈGLAS CAPÇALERA CHUNK + LEMH/LEMQ -->
