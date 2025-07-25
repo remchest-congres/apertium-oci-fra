@@ -42,15 +42,16 @@ mettre à jour les modes
 - [x] apertium-oci-fra.oci-fra.t2ax2
 - [x] apertium-oci-fra.oci-fra.t2bx
 - [x] apertium-oci-fra.oci-fra.t2cx
-- [ ] apertium-oci-fra.oci-fra.t2dx
-- [ ] apertium-oci-fra.oci-fra.t2ex
+- [x] ~~apertium-oci-fra.oci-fra.t2dx~~ ne dépend pas des variétés
+- [x] ~~apertium-oci-fra.oci-fra.t2ex~~ ne dépend pas des variétés
+- [x] ~~apertium-oci-fra.oci-fra.t2x_temps~~ ne dépend pas des variétés
 - [x] ~~apertium-oci-fra.fra-oci.t2x_ini~~ ne dépend pas des variétés
 - [x] apertium-oci-fra.fra-oci.t2x
 - [x] apertium-oci-fra.fra-oci.t2x_bis
 - [x] ~~apertium-oci-fra.fra-oci.t2x_pas~~ ne dépend pas des variétés
 - [x] ~~apertium-oci-fra.fra-oci.t2x_pro~~ ne dépend pas des variétés
-- [ ] ~~(apertium-oci-fra.fra-oci.t2x_supersn)~~
-- [ ] ~~(apertium-oci-fra.fra-oci.t2x_enon)~~
+- [-] ~~(apertium-oci-fra.fra-oci.t2x_supersn)~~
+- [-] ~~(apertium-oci-fra.fra-oci.t2x_enon)~~
 
 ## postchunks
 
