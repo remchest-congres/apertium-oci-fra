@@ -33,6 +33,8 @@ TARGETS_COMMON =		\
 	bin/$(PREFIX1).autosep1.bin \
 	bin/$(PREFIX1).autosep2.bin \
 	bin/$(PREFIX2).autosep1.bin \
+	bin/$(PREFIX2G).autosep1.bin \
+	bin/$(PREFIX2L).autosep1.bin \
 	bin/$(PREFIX2).autosep2.bin \
 	bin/$(PREFIX1).autogen.bin	\
 	bin/$(PREFIX1).autopgen.bin	\
@@ -155,11 +157,11 @@ bin/$(PREFIX1).autosep2.bin: src/multiwords/$(BASENAME).$(PREFIX1).l2x
 bin/$(PREFIX2).autosep1.bin: src/multiwords/$(BASENAME).$(PREFIX2).l1x
 	lsx-comp -v "oci" lr $< $@
 
-# bin/$(PREFIX2G).autosep1.bin: src/multiwords/$(BASENAME).$(PREFIX2)$(VAR1G).l1x
-# 	lsx-comp -v "oci" lr $< $@
+bin/$(PREFIX2G).autosep1.bin: src/multiwords/$(BASENAME).$(PREFIX2G).l1x
+	lsx-comp -v "oci" lr $< $@
 
-# bin/$(PREFIX2L).autosep1.bin: src/multiwords/$(BASENAME).$(PREFIX2L).l1x
-# 	lsx-comp -v "oci" lr $< $@
+bin/$(PREFIX2L).autosep1.bin: src/multiwords/$(BASENAME).$(PREFIX2L).l1x
+	lsx-comp -v "oci" lr $< $@
 
 bin/$(PREFIX2).autosep2.bin: src/multiwords/$(BASENAME).$(PREFIX2).l2x
 	lsx-comp -v "oci" lr $< $@
@@ -500,6 +502,8 @@ EXTRA_DIST=					\
 		src/multiwords/$(BASENAME).$(PREFIX1).l1x	\
 		src/multiwords/$(BASENAME).$(PREFIX1).l2x	\
 		src/multiwords/$(BASENAME).$(PREFIX2).l1x	\
+		src/multiwords/$(BASENAME).$(PREFIX2G).l1x	\
+		src/multiwords/$(BASENAME).$(PREFIX2L).l1x	\
 		src/multiwords/$(BASENAME).$(PREFIX2).l2x	\
 		src/lexical-selection/$(BASENAME).$(PREFIX1).n_a_adv.lrx	\
 		src/lexical-selection/$(BASENAME).$(PREFIX1).np.lrx	\

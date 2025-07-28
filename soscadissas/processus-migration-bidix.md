@@ -77,7 +77,7 @@ mettre à jour les modes
 
 ### files
 
-- [ ] apertium-oci-fra.fra-oci.l1x
+- [x] apertium-oci-fra.fra-oci.l1x
 - [ ] apertium-oci-fra.fra-oci.l2x
 - [ ] apertium-oci-fra.oci-fra.l1x
 - [ ] apertium-oci-fra.oci-fra.l2x

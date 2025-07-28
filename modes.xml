@@ -16,11 +16,12 @@
       </program>
       <program name="apertium-pretransfer"/>
       <!-- fichier spécifique à la variété courrante -->
-      <!-- <program name="lsx-proc" debug-suff="lsx1_lang">
-        <file name="bin/fra-oci.autosep1_lang.bin"/>
-      </program> -->
+      <program name="lsx-proc" debug-suff="lsx1_lang">
+        <file name="bin/fra-oci_lang.autosep1.bin"/>
+      </program>
+      <!-- fichier commun à toutes les variétés -->
       <program name="lsx-proc" debug-suff="lsx1_common">
-        <file name="bin/fra-oci.autosep1.bin"/> <!-- fichier commun à toutes les variétés -->
+        <file name="bin/fra-oci.autosep1.bin"/>
       </program>
       <program name="lt-proc -b">
         <file name="bin/fra-oci.autobil.bin"/>
@@ -125,11 +126,12 @@
       </program>
       <program name="apertium-pretransfer"/>
       <!-- fichier spécifique à la variété courrante -->
-      <!-- <program name="lsx-proc" debug-suff="lsx1_gasc">
-        <file name="bin/fra-oci.autosep1_gascon.bin"/>
-      </program> -->
+      <program name="lsx-proc" debug-suff="lsx1_gasc">
+        <file name="bin/fra-oci_gascon.autosep1.bin"/>
+      </program>
+      <!-- fichier commun à toutes les variétés -->
       <program name="lsx-proc" debug-suff="lsx1_common">
-        <file name="bin/fra-oci.autosep1.bin"/> <!-- fichier commun à toutes les variétés -->
+        <file name="bin/fra-oci.autosep1.bin"/>
       </program>
       <program name="lt-proc -b">
         <file name="bin/fra-oci.autobil.bin"/>
