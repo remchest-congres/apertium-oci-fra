@@ -31,6 +31,8 @@ TARGETS_COMMON =		\
 	bin/$(PREFIX1).v.autolex.bin	\
 	bin/$(PREFIX1).other.autolex.bin	\
 	bin/$(PREFIX1).autosep1.bin \
+	bin/$(PREFIX1G).autosep1.bin \
+	bin/$(PREFIX1L).autosep1.bin \
 	bin/$(PREFIX1).autosep2.bin \
 	bin/$(PREFIX2).autosep1.bin \
 	bin/$(PREFIX2G).autosep1.bin \
@@ -151,6 +153,12 @@ bin/$(PREFIX1).autogen.bin: $(AP_SRC2)/$(LANG2).autogen.bin
 ###############################################################################
 
 bin/$(PREFIX1).autosep1.bin: src/multiwords/$(BASENAME).$(PREFIX1).l1x
+	lsx-comp -v "oci" lr $< $@
+
+bin/$(PREFIX1G).autosep1.bin: src/multiwords/$(BASENAME).$(PREFIX1G).l1x
+	lsx-comp -v "oci" lr $< $@
+
+bin/$(PREFIX1L).autosep1.bin: src/multiwords/$(BASENAME).$(PREFIX1L).l1x
 	lsx-comp -v "oci" lr $< $@
 
 bin/$(PREFIX1).autosep2.bin: src/multiwords/$(BASENAME).$(PREFIX1).l2x
@@ -508,6 +516,8 @@ bin/$(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
 EXTRA_DIST=					\
 		src/dictionaries/$(BASENAME).$(PREFIX1).dix	\
 		src/multiwords/$(BASENAME).$(PREFIX1).l1x	\
+		src/multiwords/$(BASENAME).$(PREFIX1G).l1x	\
+		src/multiwords/$(BASENAME).$(PREFIX1L).l1x	\
 		src/multiwords/$(BASENAME).$(PREFIX1).l2x	\
 		src/multiwords/$(BASENAME).$(PREFIX2).l1x	\
 		src/multiwords/$(BASENAME).$(PREFIX2G).l1x	\

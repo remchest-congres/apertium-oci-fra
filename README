@@ -125,8 +125,12 @@ Nuit lit farine feuilles
     │   └─ apertium-oci-fra.fra-oci.other.lrx      -> Lexical selection rules translating into Occitan
     │
     ├─ multiwords/
-    │   ├─ apertium-oci-fra.oci-fra.l1x            -> Rules for recognising expressions with
-    │   │                                              discontiguous words for translating into French
+    │   ├─ apertium-oci-fra.oci_gascon-fra.l1x     -> Rules for recognising expressions with discontiguous
+    │   │                                              words for translating into French, specific to the Gascon variant
+    │   ├─ apertium-oci-fra.oci_lang-fra.l1x       -> Rules for recognising expressions with discontiguous
+    │   │                                              words for translating into French, specific to the Lengadocian variant
+    │   ├─ apertium-oci-fra.oci-fra.l1x            -> Rules for recognising expressions with discontiguous
+    │   │                                              words for translating into French, common rule for all variants
     │   ├─ apertium-oci-fra.oci-fra.l2x            -> Rules for reordering words in discontiguous
     │   │                                              expressions for translating into French
     │   ├─ apertium-oci-fra.fra-oci_gascon.l1x     -> Rules for recognising expressions with discontiguous

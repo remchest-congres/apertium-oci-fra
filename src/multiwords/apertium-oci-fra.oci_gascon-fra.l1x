@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary type="separable">
+  <alphabet></alphabet>
+
+  <sdefs>
+    <sdef n="vblex"/>
+    <sdef n="vbhaver"/>
+    <sdef n="vbser"/>
+    <sdef n="vbmod"/>
+    <sdef n="preadv"/>
+    <sdef n="adv"/>
+    <sdef n="det"/>
+    <sdef n="pr"/>
+    <sdef n="prn"/>
+    <sdef n="def"/>
+    <sdef n="ind"/>
+    <sdef n="pos"/>
+    <sdef n="n"/>
+    <sdef n="adj"/>
+    <sdef n="m"/>
+    <sdef n="f"/>
+    <sdef n="mf"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="sp"/>
+    <sdef n="inf"/>
+    <sdef n="ger"/>
+    <sdef n="pp"/>
+    <sdef n="pro"/>
+    <sdef n="enc"/>
+  </sdefs>
+
+  <pardefs>
+    <pardef n="adv">
+      <e><i>pas<s n="adv"/><d/></i></e>
+      <e><i><w/><s n="adv"/><d/></i></e>
+      <e><i><w/><s n="adv"/><d/><w/><s n="adv"/><d/></i></e>
+      <e><i><w/><s n="adv"/><d/><w/><s n="adv"/><t/><d/></i></e>
+    </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+    <!-- vblex inf -->
+
+    <e lm="har amainadar">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>amainadar</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>amainadar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+    <e lm="har amainadar">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>amainadar</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>amainadar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har trantalhar">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>trantalhar</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>trantalhar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+    <e lm="har trantalhar">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>trantalhar</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>trantalhar<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har véder">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>véder</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>véder<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+    <e lm="har véder">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>véder</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>véder<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har véger">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>véger</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>véger<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+    <e lm="har véger">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>véger</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>véger<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr véder">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>véder</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>véder<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr véder">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>véder</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>véder<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr véger">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>véger</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>véger<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr véger">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>véger</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>véger<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="tornar fóter">
+      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>fóter</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>fóter<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+    <e lm="tornar fóter">
+      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>fóter</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>fóter<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="tornar léger">
+      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>léger</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>léger<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+    <e lm="tornar léger">
+      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>léger</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>léger<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="tornar méter">
+      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>méter</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>méter<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+    <e lm="tornar méter">
+      <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>méter</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>méter<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="dar hasti">
+      <p><l>dar<s n="vblex"/></l><r>dar<g><b/>hasti</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>hasti<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="dar hasti">
+      <p><l>dar<s n="vblex"/></l><r>dar<g><b/>hasti</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>hasti<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="dar narri">
+      <p><l>dar<s n="vblex"/></l><r>dar<g><b/>narri</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>narri<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="dar narri">
+      <p><l>dar<s n="vblex"/></l><r>dar<g><b/>narri</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>narri<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="far hasti">
+      <p><l>far<s n="vblex"/></l><r>far<g><b/>hasti</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>hasti<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="far hasti">
+      <p><l>far<s n="vblex"/></l><r>far<g><b/>hasti</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>hasti<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="far narri">
+      <p><l>far<s n="vblex"/></l><r>far<g><b/>narri</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>narri<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="far narri">
+      <p><l>far<s n="vblex"/></l><r>far<g><b/>narri</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>narri<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har atencion">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>atencion</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>atencion<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har atencion">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>atencion</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>atencion<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har aumenatge">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>aumenatge</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>aumenatge<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har aumenatge">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>aumenatge</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>aumenatge<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har batalha">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>batalha</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>batalha<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har batalha">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>batalha</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>batalha<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har besonh">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>besonh</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>besonh<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har besonh">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>besonh</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>besonh<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har compte">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>compte</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>compte<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har compte">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>compte</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>compte<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har coneishenças">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>coneishenças</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>coneishença<s n="n"/><s n="f"/><s n="pl"/><d/></l><r></r></p>
+    </e>
+    <e lm="har coneishenças">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>coneishenças</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>coneishença<s n="n"/><s n="f"/><s n="pl"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har dòu">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>dòu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>dòl<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har dòu">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>dòu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>dòl<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har empach">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>empach</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>empach<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har empach">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>empach</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>empach<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har fàstic">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>fàstic</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>fàstic<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har fàstic">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>fàstic</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>fàstic<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har gòi">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>gòi</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>gòi<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har gòi">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>gòi</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>gòi<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har hasti">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>hasti</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>hasti<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har hasti">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>hasti</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>hasti<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har hrèita">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>hrèita</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>hrèita<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har hrèita">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>hrèita</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>hrèita<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har narri">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>narri</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>narri<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har narri">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>narri</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>narri<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har pena">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>pena</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>pena<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har pena">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>pena</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>pena<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har plaser">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>plaser</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>plaser<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har plaser">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>plaser</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>plaser<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har poishiu">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>poishiu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>poishiu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har poishiu">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>poishiu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>poishiu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har puisheu">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>puisheu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>puisheu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har puisheu">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>puisheu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>puisheu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har puishèu">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>puishèu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>puishèu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="har puishèu">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>puishèu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>puishèu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr atencion">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>atencion</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>atencion<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr atencion">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>atencion</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>atencion<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr batalha">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>batalha</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>batalha<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr batalha">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>batalha</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>batalha<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr besonh">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>besonh</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>besonh<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr besonh">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>besonh</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>besonh<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr compte">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>compte</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>compte<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr compte">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>compte</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>compte<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr coneishenças">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>coneishenças</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>coneishença<s n="n"/><s n="f"/><s n="pl"/><d/></l><r></r></p>
+    </e>
+    <e lm="har coneishenças">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>coneishenças</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>coneishença<s n="n"/><s n="f"/><s n="pl"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr dòu">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>dòu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>dòl<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr dòu">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>dòu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>dòl<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr empach">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>empach</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>empach<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr empach">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>empach</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>empach<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr gòi">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>gòi</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>gòi<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr gòi">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>gòi</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>gòi<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr hasti">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>hasti</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>hasti<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr hasti">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>hasti</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>hasti<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr narri">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>narri</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>narri<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr narri">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>narri</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>narri<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr poishiu">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>poishiu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>poishiu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr poishiu">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>poishiu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>poishiu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr puisheu">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>puisheu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>puisheu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr puisheu">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>puisheu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>puisheu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr puishèu">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>puishèu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>puishèu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr puishèu">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>puishèu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>puishèu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="véner dròga">
+      <p><l>véner<s n="vblex"/></l><r>véner<g><b/>dròga</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>dròga<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="véner dròga">
+      <p><l>véner<s n="vblex"/></l><r>véner<g><b/>dròga</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>dròga<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <!-- vblex adv -->
+
+    <e lm="har enlà">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>enlà</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>enlà<s n="adv"/><d/></l><r></r></p>
+    </e>
+    <e lm="har enlà">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>enlà</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>enlà<s n="adv"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr enlà">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>enlà</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>enlà<s n="adv"/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr enlà">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>enlà</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>enlà<s n="adv"/><d/></l><r></r></p>
+    </e>
+
+    <!-- vblex det adj -->
+
+    <e lm="aver un sadoth">
+      <p><l>aver<s n="vblex"/></l><r>aver<g><b/>un<b/>sadoth</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>un<s n="det"/><s n="ind"/><t/><d/>sadoth<s n="adj"/><s n="m"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="aver un sadoth">
+      <p><l>aver<s n="vblex"/></l><r>aver<g><b/>un<b/>sadoth</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>un<s n="det"/><s n="ind"/><t/><d/>sadoth<s n="adj"/><s n="m"/><t/><d/></l><r></r></p>
+    </e>
+
+    <!-- vblex det n -->
+
+    <e lm="adobar la chorrada">
+      <p><l>adobar<s n="vblex"/></l><r>adobar<g><b/>la<b/>chorrada</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>chorrada<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="adobar la chorrada">
+      <p><l>adobar<s n="vblex"/></l><r>adobar<g><b/>la<b/>chorrada</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>chorrada<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har la bugada">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>la<b/>bugada</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>bugada<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="har la bugada">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>la<b/>bugada</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>bugada<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har la chorrada">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>la<b/>chorrada</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>chorrada<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="har la chorrada">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>la<b/>chorrada</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>chorrada<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har lo dehens">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>lo<b/>dehens</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>dehens<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="har lo dehens">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>lo<b/>dehens</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>dehens<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
+    </e>
+
+    <e lm="har lo morre">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>lo<b/>morre</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>morre<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="har lo morre">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>lo<b/>morre</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>morre<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hèr la bugada">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>la<b/>bugada</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>bugada<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="hèr la bugada">
+      <p><l>hèr<s n="vblex"/></l><r>hèr<g><b/>la<b/>bugada</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>bugada<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hicar la taula">
+      <p><l>hicar<s n="vblex"/></l><r>hicar<g><b/>la<b/>taula</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>taula<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="hicar la taula">
+      <p><l>hicar<s n="vblex"/></l><r>hicar<g><b/>la<b/>taula</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>taula<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+
+    <e lm="hicar lo cobèrt">
+      <p><l>hicar<s n="vblex"/></l><r>hicar<g><b/>lo<b/>cobèrt</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>cobèrt<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="hicar lo cobèrt">
+      <p><l>hicar<s n="vblex"/></l><r>hicar<g><b/>lo<b/>cobèrt</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>cobèrt<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
+    </e>
+
+    <e lm="lhevar la taula">
+      <p><l>lhevar<s n="vblex"/></l><r>lhevar<g><b/>la<b/>taula</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>taula<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="lhevar la taula">
+      <p><l>lhevar<s n="vblex"/></l><r>lhevar<g><b/>la<b/>taula</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>taula<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+
+    <e lm="passejar la pèth">
+      <p><l>passejar<s n="vblex"/></l><r>passejar<g><b/>la<b/>pèth</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>pèth<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="passejar la pèth">
+      <p><l>passejar<s n="vblex"/></l><r>passejar<g><b/>la<b/>pèth</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>pèth<s n="n"/><s n="f"/><t/><d/></l><r></r></p>
+    </e>
+
+    <e lm="rostir lo monde">
+      <p><l>rostir<s n="vblex"/></l><r>rostir<g><b/>lo<b/>monde</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>monde<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
+    </e>
+    <e lm="rostir lo monde">
+      <p><l>rostir<s n="vblex"/></l><r>rostir<g><b/>lo<b/>monde</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>lo<s n="det"/><s n="def"/><t/><d/>monde<s n="n"/><s n="m"/><t/><d/></l><r></r></p>
+    </e>
+
+    <!-- vblex det n pr -->
+
+    <e lm="aver lo parat de">
+      <p><l>aver<s n="vblex"/></l><r>aver<g><b/>lo<b/>parat<b/>de</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>lo<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/>parat<s n="n"/><s n="m"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
+    </e>
+
+    <!-- vblex n pr -->
+
+    <e lm="har pròva de">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>pròva<b/>de</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>pròva<s n="n"/><s n="f"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
+    </e>
+    <e lm="har pròva de">
+      <p><l>har<s n="vblex"/></l><r>har<g><b/>pròva<b/>de</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>pròva<s n="n"/><s n="f"/><s n="sg"/><d/>de<s n="pr"/><d/></l><r></r></p>
+    </e>
+
+    <!-- vblex pr det n -->
+
+    <e lm="tirar de l'empach">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>l'empach</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>de<s n="pr"/><d/>eth<s n="det"/><s n="def"/><t/><d/>empach<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="tirar de l'empach">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>l'empach</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>de<s n="pr"/><d/>lo<s n="det"/><s n="def"/><t/><d/>empach<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="tirar de la halha">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>la<b/>halha</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>de<s n="pr"/><d/>lo<s n="det"/><s n="def"/><t/><d/>halha<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="tirar de la halha">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>la<b/>halha</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>de<s n="pr"/><d/>lo<s n="det"/><s n="def"/><t/><d/>halha<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="tirar deth poishiu">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>eth<b/>poishiu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>de<s n="pr"/><d/>eth<s n="det"/><s n="def"/><t/><d/>poishiu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="tirar deth poishiu">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>eth<b/>poishiu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>de<s n="pr"/><d/>eth<s n="det"/><s n="def"/><t/><d/>poishiu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="tirar deth puisheu">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>eth<b/>puisheu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>de<s n="pr"/><d/>eth<s n="det"/><s n="def"/><t/><d/>puisheu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="tirar deth puisheu">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>eth<b/>puisheu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>de<s n="pr"/><d/>eth<s n="det"/><s n="def"/><t/><d/>puisheu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="tirar deth puishèu">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>eth<b/>puishèu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>de<s n="pr"/><d/>eth<s n="det"/><s n="def"/><t/><d/>puishèu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="tirar deth puishèu">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>eth<b/>puishèu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>de<s n="pr"/><d/>eth<s n="det"/><s n="def"/><t/><d/>puishèu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="tirar deth torn">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>eth<b/>torn</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>de<s n="pr"/><d/>eth<s n="det"/><s n="def"/><t/><d/>torn<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="tirar deth torn">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>eth<b/>torn</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>de<s n="pr"/><d/>eth<s n="det"/><s n="def"/><t/><d/>torn<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="tirar deu poishiu">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>lo<b/>poishiu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>de<s n="pr"/><d/>lo<s n="det"/><s n="def"/><t/><d/>poishiu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="tirar deu poishiu">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>lo<b/>poishiu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>de<s n="pr"/><d/>lo<s n="det"/><s n="def"/><t/><d/>poishiu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="tirar deu puisheu">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>lo<b/>puisheu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>de<s n="pr"/><d/>lo<s n="det"/><s n="def"/><t/><d/>puisheu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="tirar deu puisheu">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>lo<b/>puisheu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>de<s n="pr"/><d/>lo<s n="det"/><s n="def"/><t/><d/>puisheu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="tirar deu puishèu">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>lo<b/>puishèu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>de<s n="pr"/><d/>lo<s n="det"/><s n="def"/><t/><d/>puishèu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="tirar deu puishèu">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>lo<b/>puishèu</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>de<s n="pr"/><d/>lo<s n="det"/><s n="def"/><t/><d/>puishèu<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <e lm="tirar deu torn">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>lo<b/>torn</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>de<s n="pr"/><d/>lo<s n="det"/><s n="def"/><t/><d/>torn<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="tirar deu torn">
+      <p><l>tirar<s n="vblex"/></l><r>tirar<g><b/>de<b/>lo<b/>torn</g><s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>de<s n="pr"/><d/>lo<s n="det"/><s n="def"/><t/><d/>torn<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+
+    <!-- s'i (mau)escàder -->
+
+    <e lm="i escàder">
+      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>escàder<s n="vblex"/></l><r>i<b/>escàder<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+    </e>
+    <e lm="i escàder">
+      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>estar<s n="vbser"/></l><r>estar<s n="vbser"/></r></p>
+      <i><t/><d/></i>
+      <p><l>escàder<s n="vblex"/><s n="pp"/></l><r>i<b/>escàder<s n="vblex"/><s n="pp"/></r></p>
+      <i><t/><d/></i>
+    </e>
+    <e lm="i escàder">
+      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>èsser<s n="vbser"/></l><r>èsser<s n="vbser"/></r></p>
+      <i><t/><d/></i>
+      <p><l>escàder<s n="vblex"/><s n="pp"/></l><r>i<b/>escàder<s n="vblex"/><s n="pp"/></r></p>
+      <i><t/><d/></i>
+    </e>
+    <e lm="i escàder">
+      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>estar<s n="vbser"/></l><r>estar<s n="vbser"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>escàder<s n="vblex"/><s n="pp"/></l><r>i<b/>escàder<s n="vblex"/><s n="pp"/></r></p>
+      <i><t/><d/></i>
+    </e>
+    <e lm="i escàder">
+      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>èsser<s n="vbser"/></l><r>èsser<s n="vbser"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>escàder<s n="vblex"/><s n="pp"/></l><r>i<b/>escàder<s n="vblex"/><s n="pp"/></r></p>
+      <i><t/><d/></i>
+    </e>
+
+    <e lm="i mauescàder">
+      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>mauescàder<s n="vblex"/></l><r>i<b/>mauescàder<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+    </e>
+    <e lm="i mauescàder">
+      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>estar<s n="vbser"/></l><r>estar<s n="vbser"/></r></p>
+      <i><t/><d/></i>
+      <p><l>mauescàder<s n="vblex"/><s n="pp"/></l><r>i<b/>mauescàder<s n="vblex"/><s n="pp"/></r></p>
+      <i><t/><d/></i>
+    </e>
+    <e lm="i mauescàder">
+      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>èsser<s n="vbser"/></l><r>èsser<s n="vbser"/></r></p>
+      <i><t/><d/></i>
+      <p><l>mauescàder<s n="vblex"/><s n="pp"/></l><r>i<b/>mauescàder<s n="vblex"/><s n="pp"/></r></p>
+      <i><t/><d/></i>
+    </e>
+    <e lm="i mauescàder">
+      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>estar<s n="vbser"/></l><r>estar<s n="vbser"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>mauescàder<s n="vblex"/><s n="pp"/></l><r>i<b/>mauescàder<s n="vblex"/><s n="pp"/></r></p>
+      <i><t/><d/></i>
+    </e>
+    <e lm="i mauescàder">
+      <p><l>i<s n="prn"/><s n="pro"/><s n="adv"/><d/>èsser<s n="vbser"/></l><r>èsser<s n="vbser"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>mauescàder<s n="vblex"/><s n="pp"/></l><r>i<b/>mauescàder<s n="vblex"/><s n="pp"/></r></p>
+      <i><t/><d/></i>
+    </e>
+
+    <!-- se'n saber mau -->
+
+    <e lm="en saber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>saber<s n="vblex"/></l><r>en<b/>saber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>mal<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="en saber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>saber<s n="vblex"/></l><r>en<b/>saber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>mal<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="en saber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>saber<s n="vblex"/></l><r>en<b/>saber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>mal<s n="adv"/><d/></l><r></r></p>
+    </e>
+    <e lm="en saber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>saber<s n="vblex"/></l><r>en<b/>saber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>mal<s n="adv"/><d/></l><r></r></p>
+    </e>
+
+    <!-- se'n sàber mau -->
+
+    <e lm="en sàber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>sàber<s n="vblex"/></l><r>en<b/>sàber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>mal<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="en sàber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>sàber<s n="vblex"/></l><r>en<b/>sàber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>mal<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="en sàber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>sàber<s n="vblex"/></l><r>en<b/>sàber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>mal<s n="adv"/><d/></l><r></r></p>
+    </e>
+    <e lm="en sàber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>sàber<s n="vblex"/></l><r>en<b/>sàber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>mal<s n="adv"/><d/></l><r></r></p>
+    </e>
+
+    <!-- se'n assaber mau -->
+
+    <e lm="en assaber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>assaber<s n="vblex"/></l><r>en<b/>assaber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>mal<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="en assaber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>assaber<s n="vblex"/></l><r>en<b/>assaber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>mal<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="en assaber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>assaber<s n="vblex"/></l><r>en<b/>assaber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>mal<s n="adv"/><d/></l><r></r></p>
+    </e>
+    <e lm="en assaber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>assaber<s n="vblex"/></l><r>en<b/>assaber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>mal<s n="adv"/><d/></l><r></r></p>
+    </e>
+
+    <!-- se'n assàber mau -->
+
+    <e lm="en assàber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>assàber<s n="vblex"/></l><r>en<b/>assàber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>mal<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="en assàber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>assàber<s n="vblex"/></l><r>en<b/>assàber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>mal<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
+    </e>
+    <e lm="en assàber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>assàber<s n="vblex"/></l><r>en<b/>assàber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <p><l>mal<s n="adv"/><d/></l><r></r></p>
+    </e>
+    <e lm="en assàber mau">
+      <p><l>en<s n="prn"/><s n="pro"/><s n="adv"/><d/>assàber<s n="vblex"/></l><r>en<b/>assàber# mau<s n="vblex"/></r></p>
+      <i><t/><d/></i>
+      <par n="adv"/>
+      <p><l>mal<s n="adv"/><d/></l><r></r></p>
+    </e>
+  </section>
+</dictionary>

@@ -245,6 +245,9 @@
         <file name="bin/oci-fra.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="lsx-proc" debug-suff="lsx1_lang">
+        <file name="bin/oci_lang-fra.autosep1.bin"/>
+      </program>
       <program name="lsx-proc" debug-suff="lsx1">
         <file name="bin/oci-fra.autosep1.bin"/>
       </program>
@@ -356,6 +359,9 @@
         <file name="bin/oci_leng.unigram.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="lsx-proc" debug-suff="lsx1_lang">
+        <file name="bin/oci_lang-fra.autosep1.bin"/>
+      </program>
       <program name="lsx-proc" debug-suff="lsx1">
         <file name="bin/oci-fra.autosep1.bin"/>
       </program>
@@ -458,6 +464,9 @@
         <file name="bin/oci-fra.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="lsx-proc" debug-suff="lsx1_gascon">
+        <file name="bin/oci_gascon-fra.autosep1.bin"/>
+      </program>
       <program name="lsx-proc" debug-suff="lsx1">
         <file name="bin/oci-fra.autosep1.bin"/>
       </program>
@@ -569,6 +578,9 @@
         <file name="bin/oci_leng.unigram.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="lsx-proc" debug-suff="lsx1_gascon">
+        <file name="bin/oci_gascon-fra.autosep1.bin"/>
+      </program>
       <program name="lsx-proc" debug-suff="lsx1">
         <file name="bin/oci-fra.autosep1.bin"/>
       </program>

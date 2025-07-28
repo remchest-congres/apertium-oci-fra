@@ -50,8 +50,8 @@ mettre à jour les modes
 - [x] apertium-oci-fra.fra-oci.t2x_bis
 - [x] ~~apertium-oci-fra.fra-oci.t2x_pas~~ ne dépend pas des variétés
 - [x] ~~apertium-oci-fra.fra-oci.t2x_pro~~ ne dépend pas des variétés
-- [-] ~~(apertium-oci-fra.fra-oci.t2x_supersn)~~
-- [-] ~~(apertium-oci-fra.fra-oci.t2x_enon)~~
+- [ ] ~~(apertium-oci-fra.fra-oci.t2x_supersn)~~
+- [ ] ~~(apertium-oci-fra.fra-oci.t2x_enon)~~
 
 ## postchunks
 
@@ -79,7 +79,7 @@ mettre à jour les modes
 
 - [x] apertium-oci-fra.fra-oci.l1x
 - [x] apertium-oci-fra.fra-oci.l2x
-- [ ] apertium-oci-fra.oci-fra.l1x
+- [x] apertium-oci-fra.oci-fra.l1x
 - [ ] apertium-oci-fra.oci-fra.l2x
 
 # modifications sur le contenu des fichiers
