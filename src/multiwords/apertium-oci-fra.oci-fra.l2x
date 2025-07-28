@@ -48,10 +48,6 @@
       <e><i><w/><s n="adv"/><d/><w/><s n="adv"/><d/></i></e>
       <e><i><w/><s n="adv"/><d/><w/><s n="adv"/><t/><d/></i></e>
     </pardef>
-    <pardef n="adj_pp">
-      <e><i><w/><s n="adj"/><t/><d/></i></e>
-      <e><i><w/><s n="vblex"/><s n="pp"/><t/><d/></i></e>
-    </pardef>
     <pardef n="temps">
       <e><i><s n="pri"/></i></e>
       <e><i><s n="ifi"/></i></e>
@@ -71,7 +67,6 @@
   </pardefs>
 
   <section id="main" type="standard">
-
     <!-- vblex -->
 
     <e lm="être nécessaire">
@@ -126,12 +121,6 @@
       <p><l></l><r>marre<s n="adv"/><d/></r></p>
     </e>
 
-    <e lm="crier à tue-tête" v="oci@gascon">
-      <p><l>crier<s n="vblex"/><t/><g><b/>à<b/>tue-tête</g><d/></l><r>crier<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>à<b/>tue-tête<s n="adv"/><d/></r></p>
-    </e>
-
     <!-- vblex n -->
 
     <e lm="avoir besoin">
@@ -152,22 +141,10 @@
       <p><l></l><r>attention<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
-    <e lm="faire barrage" v="oci@gascon">
-      <p><l>faire<s n="vblex"/><t/><g><b/>barrage</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>barrage<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
-    </e>
-
     <e lm="faire bombance">
       <p><l>faire<s n="vblex"/><t/><g><b/>bombance</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>bombance<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
-    </e>
-
-    <e lm="faire connaissance" v="oci@gascon">
-      <p><l>faire<s n="vblex"/><t/><g><b/>connaissance</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>connaissance<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
     <e lm="faire grâce">
@@ -324,27 +301,6 @@
       <p><l></l><r>lessive<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
-    <e lm="mettre la table" v="oci@gascon">
-      <p><l>mettre<s n="vblex"/><t/><g><b/>la<b/>table</g><d/></l><r>mettre<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>table<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
-    </e>
-
-    <e lm="mettre le feu" v="oci">
-      <p><l>mettre<s n="vblex"/><t/><g><b/>le<b/>feu</g><d/></l><r>mettre<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>feu<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
-    </e>
-
-    <e lm="passer les vacances" v="oci@gascon">
-      <p><l>passer<s n="vblex"/><t/><g><b/>les<b/>vacances</g><d/></l><r>passer<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/><d/></r></p>
-      <p><l></l><r>vacance<s n="n"/><s n="f"/><s n="pl"/><d/></r></p>
-    </e>
-
     <e lm="prêter l'oreille">
       <p><l>prêter<s n="vblex"/><t/><g><b/>l'oreille</g><d/></l><r>prêter<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
@@ -420,13 +376,6 @@
       <p><l></l><r>bout<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
     </e>
 
-    <e lm="être en retard" v="oci@gascon">
-      <p><l>être<s n="vblex"/><t/><g><b/>en<b/>retard</g><d/></l><r>être<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>en<s n="pr"/><d/></r></p>
-      <p><l></l><r>retard<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
-    </e>
-
     <e lm="mettre à bout">
       <p><l>mettre<s n="vblex"/><t/><g><b/>à<b/>bout</g><d/></l><r>mettre<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
@@ -448,25 +397,11 @@
       <p><l></l><r>colère<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
-    <e lm="mettre en touche" v="oci">
-      <p><l>mettre<s n="vblex"/><t/><g><b/>en<b/>touche</g><d/></l><r>mettre<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>en<s n="pr"/><d/></r></p>
-      <p><l></l><r>touche<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
-    </e>
-
     <e lm="pousser à bout">
       <p><l>pousser<s n="vblex"/><t/><g><b/>à<b/>bout</g><d/></l><r>pousser<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>à<s n="pr"/><d/></r></p>
       <p><l></l><r>bout<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
-    </e>
-
-    <e lm="tomber en lambeaux" v="oci@gascon">
-      <p><l>tomber<s n="vblex"/><t/><g><b/>en<b/>lambeaux</g><d/></l><r>tomber<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>en<s n="pr"/><d/></r></p>
-      <p><l></l><r>lambeau<s n="n"/><s n="m"/><s n="pl"/><d/></r></p>
     </e>
 
     <!-- vblex pr det n -->
@@ -495,44 +430,12 @@
       <p><l></l><r>souci<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
     </e>
 
-    <e lm="jouer de la cornemuse" v="oci">
-      <p><l>jouer<s n="vblex"/><t/><g><b/>de<b/>la<b/>cornemuse</g><d/></l><r>jouer<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>de<s n="pr"/><d/></r></p>
-      <p><l></l><r>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>cornemuse<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
-    </e>
-
     <e lm="jouer de la flûte">
       <p><l>jouer<s n="vblex"/><t/><g><b/>de<b/>la<b/>flûte</g><d/></l><r>jouer<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>de<s n="pr"/><d/></r></p>
       <p><l></l><r>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><d/></r></p>
       <p><l></l><r>flûte<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
-    </e>
-
-    <e lm="jouer du tambour" v="oci">
-      <p><l>jouer<s n="vblex"/><t/><g><b/>du<b/>tambour</g><d/></l><r>jouer<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>de<s n="pr"/><d/></r></p>
-      <p><l></l><r>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>tambour<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
-    </e>
-
-    <e lm="jouer de la trompette" v="oci">
-      <p><l>jouer<s n="vblex"/><t/><g><b/>de<b/>la<b/>trompette</g><d/></l><r>jouer<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>de<s n="pr"/><d/></r></p>
-      <p><l></l><r>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>trompette<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
-    </e>
-
-    <e lm="jouer du violon" v="oci">
-      <p><l>jouer<s n="vblex"/><t/><g><b/>du<b/>violon</g><d/></l><r>jouer<s n="vblex"/><t/><d/></r></p>
-      <par n="adv"/>
-      <p><l></l><r>de<s n="pr"/><d/></r></p>
-      <p><l></l><r>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/></r></p>
-      <p><l></l><r>violon<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
     </e>
 
     <e lm="tirer de la chasse">
@@ -559,6 +462,5 @@
       <p><l>en<b/>aller<s n="vblex"/><s n="pp"/></l><r>aller<s n="vblex"/><s n="pp"/></r></p>
       <i><t/><d/></i>
     </e>
-
   </section>
 </dictionary>

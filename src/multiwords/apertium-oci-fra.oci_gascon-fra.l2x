@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary type="separable">
+  <alphabet></alphabet>
+
+  <sdefs>
+    <sdef n="vblex"/>
+    <sdef n="vbser"/>
+    <sdef n="adv"/>
+    <sdef n="det"/>
+    <sdef n="pr"/>
+    <sdef n="prn"/>
+    <sdef n="pro"/>
+    <sdef n="tn"/>
+    <sdef n="def"/>
+    <sdef n="ind"/>
+    <sdef n="pos"/>
+    <sdef n="n"/>
+    <sdef n="adj"/>
+    <sdef n="m"/>
+    <sdef n="f"/>
+    <sdef n="mf"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="sp"/>
+    <sdef n="inf"/>
+    <sdef n="ger"/>
+    <sdef n="pp"/>
+    <sdef n="pri"/>
+    <sdef n="pii"/>
+    <sdef n="prs"/>
+    <sdef n="pri"/>
+    <sdef n="ifi"/>
+    <sdef n="pii"/>
+    <sdef n="fti"/>
+    <sdef n="cni"/>
+    <sdef n="prs"/>
+    <sdef n="pis"/>
+    <sdef n="fts"/>
+    <sdef n="imp"/>
+    <sdef n="p1"/>
+    <sdef n="p2"/>
+    <sdef n="p3"/>
+  </sdefs>
+
+  <pardefs>
+    <pardef n="adv">
+      <e><i><w/><s n="adv"/><d/></i></e>
+      <e><i><w/><s n="adv"/><d/><w/><s n="adv"/><d/></i></e>
+      <e><i><w/><s n="adv"/><d/><w/><s n="adv"/><t/><d/></i></e>
+    </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+    <!-- vblex adv -->
+
+    <e lm="crier à tue-tête">
+      <p><l>crier<s n="vblex"/><t/><g><b/>à<b/>tue-tête</g><d/></l><r>crier<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>à<b/>tue-tête<s n="adv"/><d/></r></p>
+    </e>
+
+    <!-- vblex n -->
+
+    <e lm="faire barrage">
+      <p><l>faire<s n="vblex"/><t/><g><b/>barrage</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>barrage<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
+    </e>
+
+    <e lm="faire connaissance">
+      <p><l>faire<s n="vblex"/><t/><g><b/>connaissance</g><d/></l><r>faire<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>connaissance<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
+    </e>
+
+    <!-- vblex det n -->
+
+    <e lm="mettre la table">
+      <p><l>mettre<s n="vblex"/><t/><g><b/>la<b/>table</g><d/></l><r>mettre<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><d/></r></p>
+      <p><l></l><r>table<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
+    </e>
+
+    <e lm="passer les vacances">
+      <p><l>passer<s n="vblex"/><t/><g><b/>les<b/>vacances</g><d/></l><r>passer<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/><d/></r></p>
+      <p><l></l><r>vacance<s n="n"/><s n="f"/><s n="pl"/><d/></r></p>
+    </e>
+
+    <!-- vblex pr n -->
+
+    <e lm="être en retard">
+      <p><l>être<s n="vblex"/><t/><g><b/>en<b/>retard</g><d/></l><r>être<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>en<s n="pr"/><d/></r></p>
+      <p><l></l><r>retard<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
+    </e>
+
+    <e lm="tomber en lambeaux">
+      <p><l>tomber<s n="vblex"/><t/><g><b/>en<b/>lambeaux</g><d/></l><r>tomber<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>en<s n="pr"/><d/></r></p>
+      <p><l></l><r>lambeau<s n="n"/><s n="m"/><s n="pl"/><d/></r></p>
+    </e>
+  </section>
+</dictionary>

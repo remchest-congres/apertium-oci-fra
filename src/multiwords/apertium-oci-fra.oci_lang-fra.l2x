@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary type="separable">
+  <alphabet></alphabet>
+
+  <sdefs>
+    <sdef n="vblex"/>
+    <sdef n="vbser"/>
+    <sdef n="adv"/>
+    <sdef n="det"/>
+    <sdef n="pr"/>
+    <sdef n="prn"/>
+    <sdef n="pro"/>
+    <sdef n="tn"/>
+    <sdef n="def"/>
+    <sdef n="ind"/>
+    <sdef n="pos"/>
+    <sdef n="n"/>
+    <sdef n="adj"/>
+    <sdef n="m"/>
+    <sdef n="f"/>
+    <sdef n="mf"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="sp"/>
+    <sdef n="inf"/>
+    <sdef n="ger"/>
+    <sdef n="pp"/>
+    <sdef n="pri"/>
+    <sdef n="pii"/>
+    <sdef n="prs"/>
+    <sdef n="pri"/>
+    <sdef n="ifi"/>
+    <sdef n="pii"/>
+    <sdef n="fti"/>
+    <sdef n="cni"/>
+    <sdef n="prs"/>
+    <sdef n="pis"/>
+    <sdef n="fts"/>
+    <sdef n="imp"/>
+    <sdef n="p1"/>
+    <sdef n="p2"/>
+    <sdef n="p3"/>
+  </sdefs>
+
+  <pardefs>
+    <pardef n="adv">
+      <e><i><w/><s n="adv"/><d/></i></e>
+      <e><i><w/><s n="adv"/><d/><w/><s n="adv"/><d/></i></e>
+      <e><i><w/><s n="adv"/><d/><w/><s n="adv"/><t/><d/></i></e>
+    </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+    <!-- vblex det n -->
+
+    <e lm="mettre le feu">
+      <p><l>mettre<s n="vblex"/><t/><g><b/>le<b/>feu</g><d/></l><r>mettre<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/></r></p>
+      <p><l></l><r>feu<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
+    </e>
+
+    <!-- vblex pr n -->
+
+    <e lm="mettre en touche">
+      <p><l>mettre<s n="vblex"/><t/><g><b/>en<b/>touche</g><d/></l><r>mettre<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>en<s n="pr"/><d/></r></p>
+      <p><l></l><r>touche<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
+    </e>
+
+    <!-- vblex pr det n -->
+
+    <e lm="jouer de la cornemuse">
+      <p><l>jouer<s n="vblex"/><t/><g><b/>de<b/>la<b/>cornemuse</g><d/></l><r>jouer<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>de<s n="pr"/><d/></r></p>
+      <p><l></l><r>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><d/></r></p>
+      <p><l></l><r>cornemuse<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
+    </e>
+
+    <e lm="jouer du tambour">
+      <p><l>jouer<s n="vblex"/><t/><g><b/>du<b/>tambour</g><d/></l><r>jouer<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>de<s n="pr"/><d/></r></p>
+      <p><l></l><r>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/></r></p>
+      <p><l></l><r>tambour<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
+    </e>
+
+    <e lm="jouer de la trompette">
+      <p><l>jouer<s n="vblex"/><t/><g><b/>de<b/>la<b/>trompette</g><d/></l><r>jouer<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>de<s n="pr"/><d/></r></p>
+      <p><l></l><r>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><d/></r></p>
+      <p><l></l><r>trompette<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
+    </e>
+
+    <e lm="jouer du violon">
+      <p><l>jouer<s n="vblex"/><t/><g><b/>du<b/>violon</g><d/></l><r>jouer<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>de<s n="pr"/><d/></r></p>
+      <p><l></l><r>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/></r></p>
+      <p><l></l><r>violon<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
+    </e>
+  </section>
+</dictionary>

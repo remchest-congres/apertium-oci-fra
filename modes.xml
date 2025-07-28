@@ -322,6 +322,11 @@
         <file name="build/oci-fra.t4x"/>
         <file name="bin/oci-fra.t4x.bin"/>
       </program>
+      <!-- fichier spécifique à la variété courrante -->
+      <program name="lsx-proc" debug-suff="lsx2_lang">
+        <file name="bin/oci_lang-fra.autosep2.bin"/>
+      </program>
+      <!-- fichier commun à toutes les variétés -->
       <program name="lsx-proc" debug-suff="lsx2">
         <file name="bin/oci-fra.autosep2.bin"/>
       </program>
@@ -436,6 +441,11 @@
         <file name="build/oci-fra.t4x"/>
         <file name="bin/oci-fra.t4x.bin"/>
       </program>
+      <!-- fichier spécifique à la variété courrante -->
+      <program name="lsx-proc" debug-suff="lsx2_lang">
+        <file name="bin/oci_lang-fra.autosep2.bin"/>
+      </program>
+      <!-- fichier commun à toutes les variétés -->
       <program name="lsx-proc" debug-suff="lsx2">
         <file name="bin/oci-fra.autosep2.bin"/>
       </program>
@@ -541,6 +551,11 @@
         <file name="build/oci-fra.t4x"/>
         <file name="bin/oci-fra.t4x.bin"/>
       </program>
+      <!-- fichier spécifique à la variété courrante -->
+      <program name="lsx-proc" debug-suff="lsx2_gascon">
+        <file name="bin/oci_gascon-fra.autosep2.bin"/>
+      </program>
+      <!-- fichier commun à toutes les variétés -->
       <program name="lsx-proc" debug-suff="lsx2">
         <file name="bin/oci-fra.autosep2.bin"/>
       </program>
@@ -655,6 +670,11 @@
         <file name="build/oci-fra.t4x"/>
         <file name="bin/oci-fra.t4x.bin"/>
       </program>
+      <!-- fichier spécifique à la variété courrante -->
+      <program name="lsx-proc" debug-suff="lsx2_gascon">
+        <file name="bin/oci_gascon-fra.autosep2.bin"/>
+      </program>
+      <!-- fichier commun à toutes les variétés -->
       <program name="lsx-proc" debug-suff="lsx2">
         <file name="bin/oci-fra.autosep2.bin"/>
       </program>
