@@ -82,6 +82,11 @@
         <file name="src/transfer/final-rules/apertium-oci-fra.fra-oci.t4x"/>
         <file name="bin/fra-oci.t4x.bin"/>
       </program>
+      <!-- fichier spécifique à la variété courrante -->
+      <program name="lsx-proc" debug-suff="lsx2_lang">
+        <file name="bin/fra-oci_lang.autosep2.bin"/>
+      </program>
+      <!-- fichier commun à toutes les variétés -->
       <program name="lsx-proc" debug-suff="lsx2">
         <file name="bin/fra-oci.autosep2.bin"/>
       </program>
@@ -192,6 +197,11 @@
         <file name="src/transfer/final-rules/apertium-oci-fra.fra-oci.t4x"/>
         <file name="bin/fra-oci.t4x.bin"/>
       </program>
+      <!-- fichier spécifique à la variété courrante -->
+      <program name="lsx-proc" debug-suff="lsx2_gascon">
+        <file name="bin/fra-oci_gascon.autosep2.bin"/>
+      </program>
+      <!-- fichier commun à toutes les variétés -->
       <program name="lsx-proc" debug-suff="lsx2">
         <file name="bin/fra-oci.autosep2.bin"/>
       </program>

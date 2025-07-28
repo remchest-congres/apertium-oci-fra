@@ -135,8 +135,12 @@ Nuit lit farine feuilles
     │   │                                              translating into Occitan, specific to the Lengadocian variant
     │   ├─ apertium-oci-fra.fra-oci.l1x            -> Rules for recognising expressions with discontiguous words for
     │   │                                              translating into Occitan, common rule for all variants
+    │   ├─ apertium-oci-fra.fra-oci_gascon.l2x     -> Rules for reordering words in discontiguous expressions for
+    │   │                                              words for translating into Occitan, specific to the Gascon variant
+    │   ├─ apertium-oci-fra.fra-oci_lang.l2x       -> Rules for reordering words in discontiguous expressions for
+    │   │                                              translating into Occitan, specific to the Lengadocian variant
     │   └─ apertium-oci-fra.fra-oci.l2x            -> Rules for reordering words in discontiguous expressions for
-    │                                                  translating into Occitan
+    │                                                  translating into Occitan, common rule for all variants
     │
     ├─ preferences/
     │   ├─ apertium-oci-fra.fra-oci_gascon.biprefs.rlx   -> Disambiguation rules for the Gascon variant
