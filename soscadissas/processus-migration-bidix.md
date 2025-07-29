@@ -111,8 +111,4 @@ remplacer les occurences de `v="oci"`, `v="oci@gascon"` (`v="oci@aran` ?) par le
 
 ## règles de sélection lexicale
 
-TODO
-
-## post génération
-
-TODO (eeuuh c'est pas que du monolingue ça ?)
+voir [ici](./reglas-de-seleccion-lexicala.md)
