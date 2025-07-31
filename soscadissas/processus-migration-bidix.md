@@ -112,3 +112,12 @@ remplacer les occurences de `v="oci"`, `v="oci@gascon"` (`v="oci@aran` ?) par le
 ## règles de sélection lexicale
 
 voir [ici](./reglas-de-seleccion-lexicala.md)
+
+- [x] apertium-oci-fra.fra-oci.n_a_adv.lrx
+- [ ] apertium-oci-fra.fra-oci.np.lrx
+- [ ] apertium-oci-fra.fra-oci.other.lrx
+- [ ] apertium-oci-fra.fra-oci.v.lrx
+- [ ] apertium-oci-fra.oci-fra.n_a_adv.lrx
+- [ ] apertium-oci-fra.oci-fra.np.lrx
+- [ ] apertium-oci-fra.oci-fra.other.lrx
+- [ ] apertium-oci-fra.oci-fra.v.lrx
