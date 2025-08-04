@@ -33,6 +33,9 @@
       <program name="lrx-proc -m" debug-suff="lex_np">
         <file name="bin/fra-oci.np.autolex.bin"/>
       </program>
+      <program name="lrx-proc -m" debug-suff="lex_np_lang">
+        <file name="bin/fra-oci_lang.np.autolex.bin"/>
+      </program>
       <program name="lrx-proc -m" debug-suff="lex_n">
         <file name="bin/fra-oci.n_a_adv.autolex.bin"/>
       </program>
@@ -150,6 +153,9 @@
       </program>
       <program name="lrx-proc -m" debug-suff="lex_np">
         <file name="bin/fra-oci.np.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_np_gascon">
+        <file name="bin/fra-oci_gascon.np.autolex.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex_n">
         <file name="bin/fra-oci.n_a_adv.autolex.bin"/>
