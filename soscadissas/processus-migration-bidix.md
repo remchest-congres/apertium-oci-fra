@@ -111,4 +111,26 @@ remplacer les occurences de `v="oci"`, `v="oci@gascon"` (`v="oci@aran` ?) par le
 
 ## règles de sélection lexicale
 
-voir [ici](./reglas-de-seleccion-lexicala.md)
+~~voir [ici](./reglas-de-seleccion-lexicala.md)~~
+
+pour chaque fichier lrx créer 4 fichiers distincts :
+
+- l'un concernant les règles du gascon
+- l'un concernant les règles du lengadocian
+- l'un concernant les règles de l'aranes
+- le dernier concernant les règles communes
+
+puis dans chaque mode on appelle le fichier commun SUIVIT du fichier de la variété
+
+mettre à jour le Makefile.am
+
+mettre à jour les modes
+
+- [x] apertium-oci-fra.fra-oci.n_a_adv.lrx
+- [ ] apertium-oci-fra.fra-oci.np.lrx
+- [ ] apertium-oci-fra.fra-oci.other.lrx
+- [ ] apertium-oci-fra.fra-oci.v.lrx
+- [ ] apertium-oci-fra.oci-fra.n_a_adv.lrx
+- [ ] apertium-oci-fra.oci-fra.np.lrx
+- [ ] apertium-oci-fra.oci-fra.other.lrx
+- [ ] apertium-oci-fra.oci-fra.v.lrx

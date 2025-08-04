@@ -87,6 +87,8 @@ TARGETS_COMMON =		\
 	bin/$(PREFIX2G).biprefs.rlx.bin	\
 	bin/$(PREFIX2).autobil.bin	\
 	bin/$(PREFIX2).n_a_adv.autolex.bin	\
+	bin/$(PREFIX2G).n_a_adv.autolex.bin	\
+	bin/$(PREFIX2L).n_a_adv.autolex.bin	\
 	bin/$(PREFIX2).np.autolex.bin	\
 	bin/$(PREFIX2).v.autolex.bin	\
 	bin/$(PREFIX2).other.autolex.bin	\
@@ -265,6 +267,12 @@ bin/$(PREFIX2G).genprefs.rlx.bin: $(AP_SRC1)/$(LANG1G).prefs.rlx.bin
 .deps/$(PREFIX2).n_a_adv.lrx: src/lexical-selection/$(BASENAME).$(PREFIX2).n_a_adv.lrx .deps/.d
 	apertium-filter-rules oci $< >$@
 
+.deps/$(PREFIX2G).n_a_adv.lrx: src/lexical-selection/gascon/$(BASENAME).$(PREFIX2G).n_a_adv.lrx .deps/.d
+	apertium-filter-rules oci $< >$@
+
+.deps/$(PREFIX2L).n_a_adv.lrx: src/lexical-selection/lengadocian/$(BASENAME).$(PREFIX2L).n_a_adv.lrx .deps/.d
+	apertium-filter-rules oci $< >$@
+
 .deps/$(PREFIX2).np.lrx: src/lexical-selection/$(BASENAME).$(PREFIX2).np.lrx .deps/.d
 	apertium-filter-rules oci $< >$@
 
@@ -291,6 +299,14 @@ bin/$(PREFIX1).other.autolex.bin: .deps/$(PREFIX1).other.lrx
 	lrx-comp $< $@
 
 bin/$(PREFIX2).n_a_adv.autolex.bin: .deps/$(PREFIX2).n_a_adv.lrx
+	apertium-validate-lrx $<
+	lrx-comp $< $@
+
+bin/$(PREFIX2G).n_a_adv.autolex.bin: .deps/$(PREFIX2G).n_a_adv.lrx
+	apertium-validate-lrx $<
+	lrx-comp $< $@
+
+bin/$(PREFIX2L).n_a_adv.autolex.bin: .deps/$(PREFIX2L).n_a_adv.lrx
 	apertium-validate-lrx $<
 	lrx-comp $< $@
 
@@ -540,6 +556,8 @@ EXTRA_DIST=					\
 		src/lexical-selection/$(BASENAME).$(PREFIX1).other.lrx	\
 		src/lexical-selection/$(BASENAME).$(PREFIX1).v.lrx	\
 		src/lexical-selection/$(BASENAME).$(PREFIX2).n_a_adv.lrx	\
+		src/lexical-selection/gascon/$(BASENAME).$(PREFIX2G).n_a_adv.lrx	\
+		src/lexical-selection/lengadocian/$(BASENAME).$(PREFIX2L).n_a_adv.lrx	\
 		src/lexical-selection/$(BASENAME).$(PREFIX2).np.lrx	\
 		src/lexical-selection/$(BASENAME).$(PREFIX2).other.lrx	\
 		src/lexical-selection/$(BASENAME).$(PREFIX2).v.lrx	\
