@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lrx>
+  <rules>
+    <!-- rester >> restar, demorar -->
+    <rule weight="0.8">
+      <match lemma="rester" tags="vblex.*"><select lemma="restar"/></match>
+    </rule>
+    <rule weight="0.9">
+      <match lemma="rester" tags="vblex.*"><select lemma="demorar"/></match>
+      <repeat from="0" upto="2">
+        <match tags="adv"/>
+      </repeat>
+      <or>
+        <match lemma="à" tags="pr"/>
+        <match lemma="chez" tags="pr"/>
+        <match lemma="ici" tags="adv"/>
+        <match lemma="là" tags="adv"/>
+        <match lemma="là-bas" tags="adv"/>
+      </or>
+    </rule>
+    <rule weight="0.9">
+      <match lemma="rester" tags="vblex.*"><select lemma="demorar"/></match>
+      <repeat from="0" upto="2">
+        <match tags="adv"/>
+      </repeat>
+      <match lemma="en" tags="pr"/>
+      <or>
+        <match tags="np.top.*"/>
+        <match tags="" case="Aa"/>
+      </or>
+    </rule>
+  </rules>
+</lrx>
+
+<!--
+Resources:
+    https://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    https://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    https://wiki.apertium.org/wiki/Lexical_selection
+    https://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
+-->
