@@ -128,7 +128,7 @@ mettre à jour les modes
 
 - [x] apertium-oci-fra.fra-oci.n_a_adv.lrx
 - [x] apertium-oci-fra.fra-oci.np.lrx
-- [ ] apertium-oci-fra.fra-oci.other.lrx
+- [x] apertium-oci-fra.fra-oci.other.lrx
 - [ ] apertium-oci-fra.fra-oci.v.lrx
 - [ ] apertium-oci-fra.oci-fra.n_a_adv.lrx
 - [ ] apertium-oci-fra.oci-fra.np.lrx

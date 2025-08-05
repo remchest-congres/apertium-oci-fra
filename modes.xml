@@ -48,6 +48,9 @@
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="bin/fra-oci.other.autolex.bin"/>
       </program>
+      <program name="lrx-proc -m" debug-suff="lex_lang">
+        <file name="bin/fra-oci_lang.other.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="build/fra-oci.t1x"/>
         <file name="bin/fra-oci.t1x.bin"/>
@@ -168,6 +171,9 @@
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="bin/fra-oci.other.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_gascon">
+        <file name="bin/fra-oci_gascon.other.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="build/fra-oci_gascon.t1x"/>
