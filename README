@@ -127,8 +127,9 @@ Nuit lit farine feuilles
     │   │   ├─ apertium-oci-fra.fra-oci_gascon.other.lrx        -> Lexical selection rules translating into Occitan
     │   │   ├─ apertium-oci-fra.fra-oci_gascon.v.lrx            -> Lexical selection rules for verbs translation 
     │   │   │                                                       into Occitan
-    │   │   └─ apertium-oci-fra.oci_gascon-fra.n_a_adv.lrx      -> Lexical selection rules for noun and adverbs
-    │   │                                                           translation into French
+    │   │   ├─ apertium-oci-fra.oci_gascon-fra.n_a_adv.lrx      -> Lexical selection rules for noun and adverbs
+    │   │   │                                                       translation into French
+    │   │   └─ apertium-oci-fra.oci_gascon-fra.other.lrx        -> Lexical selection rules translating into French
     │   │
     │   ├─ lengadocian/
     │   │   ├─ apertium-oci-fra.fra-oci_lang.n_a_adv.lrx        -> Lexical selection rules for noun and adverbs
@@ -138,19 +139,20 @@ Nuit lit farine feuilles
     │   │   ├─ apertium-oci-fra.fra-oci_lang.other.lrx          -> Lexical selection rules translating into Occitan
     │   │   ├─ apertium-oci-fra.fra-oci_lang.v.lrx              -> Lexical selection rules for verbs translation 
     │   │   │                                                       into Occitan
-    │   │   └─ apertium-oci-fra.oci_lang-fra.n_a_adv.lrx        -> Lexical selection rules for noun and adverbs
-    │   │                                                           translation into French
+    │   │   ├─ apertium-oci-fra.oci_lang-fra.n_a_adv.lrx        -> Lexical selection rules for noun and adverbs
+    │   │   │                                                       translation into French
+    │   │   └─ apertium-oci-fra.oci_lang-fra.other.lrx          -> Lexical selection rules translating into French
     │   │
-    │   ├─ apertium-oci-fra.oci-fra.n_a_adv.lrx    -> Lexical selection rules for noun and adverbs
-    │   │                                              translation into French
-    │   ├─ apertium-oci-fra.oci-fra.np.lrx         -> Lexical selection rules for proper noun translation into French
-    │   ├─ apertium-oci-fra.oci-fra.v.lrx          -> Lexical selection rules for verbs translation into French
-    │   ├─ apertium-oci-fra.oci-fra.other.lrx      -> Lexical selection rules translating into French
     │   ├─ apertium-oci-fra.fra-oci.n_a_adv.lrx    -> Lexical selection rules for noun and adverbs
     │   │                                              translation into Occitan
     │   ├─ apertium-oci-fra.fra-oci.np.lrx         -> Lexical selection rules for proper noun translation into Occitan
     │   ├─ apertium-oci-fra.fra-oci.v.lrx          -> Lexical selection rules for verbs translation into Occitan
-    │   └─ apertium-oci-fra.fra-oci.other.lrx      -> Lexical selection rules translating into Occitan
+    │   ├─ apertium-oci-fra.fra-oci.other.lrx      -> Lexical selection rules translating into Occitan
+    │   ├─ apertium-oci-fra.oci-fra.n_a_adv.lrx    -> Lexical selection rules for noun and adverbs
+    │   │                                              translation into French
+    │   ├─ apertium-oci-fra.oci-fra.np.lrx         -> Lexical selection rules for proper noun translation into French
+    │   ├─ apertium-oci-fra.oci-fra.v.lrx          -> Lexical selection rules for verbs translation into French
+    │   └─ apertium-oci-fra.oci-fra.other.lrx      -> Lexical selection rules translating into French
     │
     ├─ multiwords/
     │   ├─ apertium-oci-fra.oci_gascon-fra.l1x     -> Rules for recognising expressions with discontiguous

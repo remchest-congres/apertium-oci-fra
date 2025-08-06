@@ -293,6 +293,9 @@
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="bin/oci-fra.other.autolex.bin"/>
       </program>
+      <program name="lrx-proc -m" debug-suff="lex_lang">
+        <file name="bin/oci_lang-fra.other.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="build/oci-fra.t1x"/>
         <file name="bin/oci-fra.t1x.bin"/>
@@ -415,6 +418,9 @@
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="bin/oci-fra.other.autolex.bin"/>
       </program>
+      <program name="lrx-proc -m" debug-suff="lex_lang">
+        <file name="bin/oci_lang-fra.other.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="build/oci-fra.t1x"/>
         <file name="bin/oci-fra.t1x.bin"/>
@@ -527,6 +533,9 @@
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="bin/oci-fra.other.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_gascon">
+        <file name="bin/oci_gascon-fra.other.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="build/oci_gascon-fra.t1x"/>
@@ -649,6 +658,9 @@
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="bin/oci-fra.other.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_gascon">
+        <file name="bin/oci_gascon-fra.other.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="build/oci_gascon-fra.t1x"/>
