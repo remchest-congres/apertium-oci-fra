@@ -233,29 +233,6 @@
       <match lemma="ivèrn" tags="n.*"/>
 	  </or></def-seq>
 
-	  <def-seq n="parts_jorn"><or>
-      <match lemma="matin" tags="n.*"/>
-      <match lemma="maitin" tags="n.*"/>
-      <match lemma="matinada" tags="n.*"/>
-      <match lemma="matiada" tags="n.*"/>
-      <match lemma="aprèp-miègjorn" tags="n.*"/>
-      <match lemma="aprèp-dinnada" tags="n.*"/>
-      <match lemma="après-miègjorn" tags="n.*"/>
-      <match lemma="après-dinnada" tags="n.*"/>
-      <match lemma="vèspre" tags="n.*"/>
-      <match lemma="vrèspe" tags="n.*"/>
-      <match lemma="vesprada" tags="n.*"/>
-      <match lemma="ser" tags="n.*"/>
-      <match lemma="sera" tags="n.*"/>
-      <match lemma="nuèch" tags="n.*"/>
-      <match lemma="nuech" tags="n.*"/>
-      <match lemma="nuòch" tags="n.*"/>
-      <match lemma="nueit" tags="n.*"/>
-      <match lemma="nuèit" tags="n.*"/>
-      <match lemma="neit" tags="n.*"/>
-      <match lemma="net" tags="n.*"/>
-	  </or></def-seq>
-
 	  <def-seq n="instruments_musicals"><or>
 	   <match lemma="piano" tags="n.*"/>
 	   <match lemma="violon" tags="n.*"/>
@@ -358,7 +335,6 @@
 	   <match lemma="arpa" tags="n.*"/>
 	   <match lemma="onglon" tags="n.*"/>
 	   <match lemma="bata" tags="n.*"/>
-	   <match lemma="esclòp" tags="n.*" v="oci@gascon"/>
 	  </or></def-seq>
 
 	  <def-seq n="color"><or>
@@ -444,177 +420,6 @@
       <match lemma="milen" tags="adj.*"/>
 	  </or></def-seq>
 
-	  <def-seq n="vestit"><or>
-	  <match lemma="vestit" tags="n.*"/>
-	  <match lemma="vestidura" tags="n.*"/>
-	  <match lemma="sotavestit" tags="n.*"/>
-	  <match lemma="rauba" tags="n.*"/>
-	  <match lemma="combinason" tags="n.*"/>
-	  <match lemma="combinadon" tags="n.*"/>
-	  <match lemma="costum" tags="n.*"/>
-	  <match lemma="camisòt" tags="n.*"/>
-	  <match lemma="quessòt" tags="n.*"/>
-	  <match lemma="camisa" tags="n.*"/>
-	  <match lemma="blosa" tags="n.*"/>
-	  <match lemma="blodon" tags="n.*"/>
-	  <match lemma="descoletat" tags="n.*"/>
-	  <match lemma="mantèl" tags="n.*"/>
-	  <match lemma="mantèth" tags="n.*"/>
-	  <match lemma="impermeable" tags="n.*"/>
-	  <match lemma="levita" tags="n.*"/>
-	  <match lemma="requimpeta" tags="n.*"/>
-	  <match lemma="redingòta" tags="n.*"/>
-	  <match lemma="repimpeta" tags="n.*"/>
-	  <match lemma="requimpeta" tags="n.*"/>
-	  <match lemma="frac" tags="n.*"/>
-	  <match lemma="braga" tags="n.*"/>
-	  <match lemma="pantalon" tags="n.*"/>
-	  <match lemma="jupa" tags="n.*"/>
-	  <match lemma="jupeta" tags="n.*"/>
-	  <match lemma="naut" tags="n.*"/>
-	  <match lemma="haut" tags="n.*"/>
-	  <match lemma="tricòt" tags="n.*"/>
-	  <match lemma="sweater" tags="n.*"/>
-	  <match lemma="suetèr" tags="n.*"/>
-	  <match lemma="sweatshirt" tags="n.*"/>
-	  <match lemma="sweat-shirt" tags="n.*"/>
-	  <match lemma="sudadera" tags="n.*"/>
-	  <match lemma="susadera" tags="n.*"/>
-	  <match lemma="cravata" tags="n.*"/>
-	  <match lemma="sartre" tags="n.*"/>
-	  <match lemma="unifòrm" tags="n.*"/>
-	  <match lemma="uniforme" tags="n.*"/>
-	  <match lemma="gilet" tags="n.*"/>
-	  <match lemma="cardigan" tags="n.*"/>
-	  <match lemma="eslip" tags="n.*"/>
-	  <match lemma="calçon" tags="n.*"/>
-	  <match lemma="sosten" tags="n.*"/>
-	  <match lemma="sostien" tags="n.*"/>
-	  <match lemma="pòrtapopas" tags="n.*"/>
-	  <match lemma="shòrt" tags="n.*"/>
-	  <match lemma="pegós" tags="n.*"/>
-	  <match lemma="bas" tags="n.*"/>
-	  <match lemma="baish" tags="n.*"/>
-	  <match lemma="capèl" tags="n.*"/>
-	  <match lemma="capèth" tags="n.*"/>
-	  <match lemma="casqueta" tags="n.*"/>
-	  <match lemma="bonet" tags="n.*"/>
-	  <match lemma="eissarpa" tags="n.*"/>
-	  <match lemma="eisharpa" tags="n.*"/>
-	  <match lemma="gant" tags="n.*"/>
-	  <match lemma="cauceta" tags="n.*"/>
-	  <match lemma="cauçadura" tags="n.*"/>
-	  <match lemma="tenís" tags="n.f.*"/>
-	  <match lemma="basquet" tags="n.f.*"/>
-	  <match lemma="bòta" tags="n.*"/>
-	  <match lemma="sandala" tags="n.*"/>
-	  <match lemma="pendent" tags="n.*"/>
-	  <match lemma="baga" tags="n.*"/>
-	  <match lemma="anèl" tags="n.*"/>
-	  <match lemma="anèth" tags="n.*"/>
-	  <match lemma="braçalet" tags="n.*"/>
-	  <match lemma="luneta" tags="n.f.pl"/>
-	  <match lemma="cencha" tags="n.f.pl"/>
-	  <match lemma="centura" tags="n.f.pl"/>
-	  <match lemma="cinta" tags="n.f.pl"/>
-	  <match lemma="talhòla" tags="n.f.pl"/>
-	  <match lemma="legging" tags="n.*"/>
-	  <match lemma="malhòt" tags="n.*"/>
-	  <match lemma="malhòl" tags="n.*"/>
-	  <match lemma="shamarreta" tags="n.*"/>
-	  <match lemma="camiseta" tags="n.*"/>
-	  <match lemma="borrassa" tags="n.*"/>
-	  <match lemma="malhòt# de banh" tags="n.*"/>
-	  <match lemma="vestit# de banh" tags="n.*"/>
-	  <match lemma="biquini" tags="n.*"/>
-	  <match lemma="bikini" tags="n.*"/>
-	  <match lemma="monokini" tags="n.*"/>
-	  <match lemma="monoquini" tags="n.*"/>
-	  <match lemma="camison" tags="n.*"/>
-	  <match lemma="bracièra" tags="n.*"/>
-	  <match lemma="davantal" tags="n.*"/>
-	  <match lemma="capucha" tags="n.*"/>
-	  </or></def-seq>
-
-    <def-seq n="bestiar"><or>
-      <match lemma="pol" tags="n.*"/>
-      <match lemma="pret" tags="n.*"/>
-      <match lemma="poleton" tags="n.*"/>
-      <match lemma="poric" tags="n.*"/>
-      <match lemma="gal" tags="n.*"/>
-      <match lemma="galina" tags="n.*"/>
-      <match lemma="garia" tags="n.*"/>
-      <match lemma="piòta" tags="n.*"/>
-      <match lemma="polòja" tags="n.*"/>
-      <match lemma="rit" tags="n.*"/>
-      <match lemma="guit" tags="n.*"/>
-      <match lemma="polalha" tags="n.*"/>
-      <match lemma="poralha" tags="n.*"/>
-      <match lemma="feda" tags="n.*"/>
-      <match lemma="aulha" tags="n.*"/>
-      <match lemma="cabra" tags="n.*"/>
-      <match lemma="craba" tags="n.*"/>
-      <match lemma="moton" tags="n.*"/>
-      <match lemma="vaca" tags="n.*"/>
-      <match lemma="buòu" tags="n.*"/>
-      <match lemma="bueu" tags="n.*"/>
-      <match lemma="vedèl" tags="n.*"/>
-      <match lemma="vedèth" tags="n.*"/>
-      <match lemma="taur" tags="n.*"/>
-      <match lemma="caval" tags="n.*"/>
-      <match lemma="chivau" tags="n.*"/>
-      <match lemma="cavala" tags="n.*"/>
-      <match lemma="polin" tags="n.*"/>
-      <match lemma="porin" tags="n.*"/>
-      <match lemma="ase" tags="n.*"/>
-      <match lemma="bestiar" tags="n.*"/>
-    </or></def-seq>
-    
-    <def-seq n="animals_non_bestiar"><or>
-      <match lemma="animal" tags="n.*"/>
-      <match lemma="bèstia" tags="n.*"/>
-      <match lemma="peis" tags="n.*"/>
-      <match lemma="peish" tags="n.*"/>
-      <match lemma="can" tags="n.*"/>
-      <match lemma="gat" tags="n.*"/>
-      <match lemma="conilh" tags="n.*"/>
-      <match lemma="lèbre" tags="n.*"/>
-      <match lemma="lèbe" tags="n.*"/>
-      <match lemma="cèrvi" tags="n.*"/>
-      <match lemma="mirga" tags="n.*"/>
-      <match lemma="soritz" tags="n.*"/>
-      <match lemma="rat" tags="n.*"/>
-      <match lemma="arrat" tags="n.*"/>
-      <match lemma="rainal" tags="n.*"/>
-      <match lemma="vop" tags="n.*"/>
-      <match lemma="lop" tags="n.*"/>
-      <match lemma="ors" tags="n.*"/>
-      <match lemma="os" tags="n.*"/>
-      <match lemma="panda" tags="n.*"/>
-      <match lemma="grizzly" tags="n.*"/>
-      <match lemma="leon" tags="n.*"/>
-      <match lemma="tigre" tags="n.*"/>
-      <match lemma="pantèra" tags="n.*"/>
-      <match lemma="guepard" tags="n.*"/>
-      <match lemma="elefant" tags="n.*"/>
-      <match lemma="girafa" tags="n.*"/>
-      <match lemma="gazèle" tags="n.*"/>
-      <match lemma="zèbre" tags="n.*"/>
-      <match lemma="zebú" tags="n.*"/>
-      <match lemma="colomba" tags="n.*"/>
-      <match lemma="coloma" tags="n.*"/>
-      <match lemma="passerat" tags="n.*"/>
-      <match lemma="passeron" tags="n.*"/>
-      <match lemma="parrat" tags="n.*"/>
-      <match lemma="papagai" tags="n.*"/>
-      <match lemma="agla" tags="n.*"/>
-      <match lemma="falcon" tags="n.*"/>
-      <match lemma="faucon" tags="n.*"/>
-      <match lemma="voltor" tags="n.*"/>
-      <match lemma="votre" tags="n.*"/>
-      <match lemma="condòr" tags="n.*"/>
-    </or></def-seq>
-
     <def-seq n="material"><or>
        <match lemma="coton" tags="n.*.sg"/>
        <match lemma="lana" tags="n.*.sg"/>
@@ -689,579 +494,6 @@
        <match lemma="noguièr" tags="n.*.sg"/>
        <match lemma="noguèr" tags="n.*.sg"/>
        <match lemma="ebèn" tags="n.*.sg"/>
-    </or></def-seq>
-
-    <def-seq n="gentilicis_n"><or>
-      <match lemma="abbassida" tags="n.*"/>
-      <match lemma="abcaz" tags="n.*"/>
-      <match lemma="acadian" tags="n.*"/>
-      <match lemma="afganés" tags="n.*"/>
-      <match lemma="afgan" tags="n.*"/>
-      <match lemma="african" tags="n.*"/>
-      <match lemma="afrikaans" tags="n.*"/>
-      <match lemma="afrikaner" tags="n.*"/>
-      <match lemma="afroamerican" tags="n.*"/>
-      <match lemma="agenés" tags="n.*"/>
-      <match lemma="aimara" tags="n.*"/>
-      <match lemma="aino" tags="n.*"/>
-      <match lemma="akkadian" tags="n.*"/>
-      <match lemma="alaman" tags="n.*"/>
-      <match lemma="alan" tags="n.*"/>
-      <match lemma="albanés" tags="n.*"/>
-      <match lemma="albigés" tags="n.*"/>
-      <match lemma="alemand oriental" tags="n.*"/>
-      <match lemma="alemand" tags="n.*"/>
-      <match lemma="algerian" tags="n.*"/>
-      <match lemma="algonquin" tags="n.*"/>
-      <match lemma="alguerés" tags="n.*"/>
-      <match lemma="almoade" tags="n.*"/>
-      <match lemma="almohade" tags="n.*"/>
-      <match lemma="almoravit" tags="n.*"/>
-      <match lemma="alsacian" tags="n.*"/>
-      <match lemma="altaian" tags="n.*"/>
-      <match lemma="amazigh" tags="n.*"/>
-      <match lemma="american" tags="n.*"/>
-      <match lemma="amerindian" tags="n.*"/>
-      <match lemma="andalós" tags="n.*"/>
-      <match lemma="andorran" tags="n.*"/>
-      <match lemma="angevin" tags="n.*"/>
-      <match lemma="anglés" tags="n.*"/>
-      <match lemma="anglo-saxon" tags="n.*"/>
-      <match lemma="anglosaxon" tags="n.*"/>
-      <match lemma="angolés" tags="n.*"/>
-      <match lemma="antigués" tags="n.*"/>
-      <match lemma="apache" tags="n.*"/>
-      <match lemma="aquemenida" tags="n.*"/>
-      <match lemma="aquèu" tags="n.*"/>
-      <match lemma="arab" tags="n.*"/>
-      <match lemma="aragonés" tags="n.*"/>
-      <match lemma="aramèu" tags="n.*"/>
-      <match lemma="aranés" tags="n.*"/>
-      <match lemma="argentin" tags="n.*"/>
-      <match lemma="argerian" tags="n.*"/>
-      <match lemma="ariegenc" tags="n.*"/>
-      <match lemma="ariegés" tags="n.*"/>
-      <match lemma="arlesian" tags="n.*"/>
-      <match lemma="armanhaqués" tags="n.*"/>
-      <match lemma="armenian" tags="n.*"/>
-      <match lemma="armorican" tags="n.*"/>
-      <match lemma="asiatic" tags="n.*"/>
-      <match lemma="assirian" tags="n.*"/>
-      <match lemma="astèca" tags="n.*"/>
-      <match lemma="astèc" tags="n.*"/>
-      <match lemma="asturian" tags="n.*"/>
-      <match lemma="atabascan" tags="n.*"/>
-      <match lemma="atenenc" tags="n.*"/>
-      <match lemma="atenian" tags="n.*"/>
-      <match lemma="audenc" tags="n.*"/>
-      <match lemma="auscitan" tags="n.*"/>
-      <match lemma="australian" tags="n.*"/>
-      <match lemma="austriac" tags="n.*"/>
-      <match lemma="austrian" tags="n.*"/>
-      <match lemma="auvernhat" tags="n.*"/>
-      <match lemma="avaironés" tags="n.*"/>
-      <match lemma="avar" tags="n.*"/>
-      <match lemma="avinhonenc" tags="n.*"/>
-      <match lemma="azèri" tags="n.*"/>
-      <match lemma="babilonenc" tags="n.*"/>
-      <match lemma="babilonian" tags="n.*"/>
-      <match lemma="bactrian" tags="n.*"/>
-      <match lemma="bahamean" tags="n.*"/>
-      <match lemma="bahraini" tags="n.*"/>
-      <match lemma="baionés" tags="n.*"/>
-      <match lemma="balear" tags="n.*"/>
-      <match lemma="balinés" tags="n.*"/>
-      <match lemma="balkar" tags="n.*"/>
-      <match lemma="baloch" tags="n.*"/>
-      <match lemma="baltic" tags="n.*"/>
-      <match lemma="bangladeshi" tags="n.*"/>
-      <match lemma="bangladèshi" tags="n.*"/>
-      <match lemma="banto" tags="n.*"/>
-      <match lemma="barbadian" tags="n.*"/>
-      <match lemma="barcelonés" tags="n.*"/>
-      <match lemma="barcelonin" tags="n.*"/>
-      <match lemma="basc" tags="n.*"/>
-      <match lemma="basco" tags="n.*"/>
-      <match lemma="bashquir" tags="n.*"/>
-      <match lemma="basuto" tags="n.*"/>
-      <match lemma="bavarés" tags="n.*"/>
-      <match lemma="bearnés" tags="n.*"/>
-      <match lemma="belauan" tags="n.*"/>
-      <match lemma="bèlga" tags="n.*"/>
-      <match lemma="belizian" tags="n.*"/>
-      <match lemma="bengalin" tags="n.*"/>
-      <match lemma="bengalí" tags="n.*"/>
-      <match lemma="beninés" tags="n.*"/>
-      <match lemma="beocian" tags="n.*"/>
-      <match lemma="berbèr" tags="n.*"/>
-      <match lemma="bermudian" tags="n.*"/>
-      <match lemma="bernés" tags="n.*"/>
-      <match lemma="besierenc" tags="n.*"/>
-      <match lemma="bielorús" tags="n.*"/>
-      <match lemma="bigordan" tags="n.*"/>
-      <match lemma="birman" tags="n.*"/>
-      <match lemma="bissauguinean" tags="n.*"/>
-      <match lemma="bizantin" tags="n.*"/>
-      <match lemma="boèmi" tags="n.*"/>
-      <match lemma="boer" tags="n.*"/>
-      <match lemma="bohèmi" tags="n.*"/>
-      <match lemma="bolivian" tags="n.*"/>
-      <match lemma="bordalés" tags="n.*"/>
-      <match lemma="borgonhon" tags="n.*"/>
-      <match lemma="boriat" tags="n.*"/>
-      <match lemma="bosniac" tags="n.*"/>
-      <match lemma="bosnian" tags="n.*"/>
-      <match lemma="botanés" tags="n.*"/>
-      <match lemma="botswanés" tags="n.*"/>
-      <match lemma="brasilenc" tags="n.*"/>
-      <match lemma="brasilian" tags="n.*"/>
-      <match lemma="brasilièr" tags="n.*"/>
-      <match lemma="breton" tags="n.*"/>
-      <match lemma="britanic" tags="n.*"/>
-      <match lemma="brusselés" tags="n.*"/>
-      <match lemma="bulgar" tags="n.*"/>
-      <match lemma="burgonde" tags="n.*"/>
-      <match lemma="burkinabe" tags="n.*"/>
-      <match lemma="burundés" tags="n.*"/>
-      <match lemma="cabard" tags="n.*"/>
-      <match lemma="cabile" tags="n.*"/>
-      <match lemma="calabrés" tags="n.*"/>
-      <match lemma="caldèu" tags="n.*"/>
-      <match lemma="caledonian" tags="n.*"/>
-      <match lemma="californian" tags="n.*"/>
-      <match lemma="calmoc" tags="n.*"/>
-      <match lemma="camarguenc" tags="n.*"/>
-      <match lemma="cambotjan" tags="n.*"/>
-      <match lemma="cameronés" tags="n.*"/>
-      <match lemma="camiset" tags="n.*"/>
-      <match lemma="camisòt" tags="n.*"/>
-      <match lemma="canac" tags="n.*"/>
-      <match lemma="canadenc" tags="n.*"/>
-      <match lemma="canadian" tags="n.*"/>
-      <match lemma="cananèu" tags="n.*"/>
-      <match lemma="cantalés" tags="n.*"/>
-      <match lemma="cantalós" tags="n.*"/>
-      <match lemma="cantonés" tags="n.*"/>
-      <match lemma="capverdian" tags="n.*"/>
-      <match lemma="caracalpac" tags="n.*"/>
-      <match lemma="carcassonés" tags="n.*"/>
-      <match lemma="carcinòl" tags="n.*"/>
-      <match lemma="carcinòu" tags="n.*"/>
-      <match lemma="carelian" tags="n.*"/>
-      <match lemma="cartaginés" tags="n.*"/>
-      <match lemma="cashmiri" tags="n.*"/>
-      <match lemma="cashob" tags="n.*"/>
-      <match lemma="castelhan" tags="n.*"/>
-      <match lemma="catalan" tags="n.*"/>
-      <match lemma="caucasian" tags="n.*"/>
-      <match lemma="cèlta" tags="n.*"/>
-      <match lemma="centrafrican" tags="n.*"/>
-      <match lemma="cevenòl" tags="n.*"/>
-      <match lemma="chadian" tags="n.*"/>
-      <match lemma="champanhés" tags="n.*"/>
-      <match lemma="chechèn" tags="n.*"/>
-      <match lemma="checoslovac" tags="n.*"/>
-      <match lemma="chèc" tags="n.*"/>
-      <match lemma="cherokee" tags="n.*"/>
-      <match lemma="chilenc" tags="n.*"/>
-      <match lemma="chilen" tags="n.*"/>
-      <match lemma="chilian" tags="n.*"/>
-      <match lemma="chinés" tags="n.*"/>
-      <match lemma="chipriòta" tags="n.*"/>
-      <match lemma="chovash" tags="n.*"/>
-      <match lemma="cingalés" tags="n.*"/>
-      <match lemma="cipriòta" tags="n.*"/>
-      <match lemma="circassian" tags="n.*"/>
-      <match lemma="colombian" tags="n.*"/>
-      <match lemma="coman" tags="n.*"/>
-      <match lemma="comengés" tags="n.*"/>
-      <match lemma="còmi" tags="n.*"/>
-      <match lemma="comorian" tags="n.*"/>
-      <match lemma="comtés" tags="n.*"/>
-      <match lemma="congolés" tags="n.*"/>
-      <match lemma="còpte" tags="n.*"/>
-      <match lemma="corean" tags="n.*"/>
-      <match lemma="cornic" tags="n.*"/>
-      <match lemma="còrs" tags="n.*"/>
-      <match lemma="coseranés" tags="n.*"/>
-      <match lemma="còstarican" tags="n.*"/>
-      <match lemma="cree" tags="n.*"/>
-      <match lemma="cretenc" tags="n.*"/>
-      <match lemma="croat" tags="n.*"/>
-      <match lemma="cuban" tags="n.*"/>
-      <match lemma="curd" tags="n.*"/>
-      <match lemma="daci" tags="n.*"/>
-      <match lemma="dalmata" tags="n.*"/>
-      <match lemma="danés" tags="n.*"/>
-      <match lemma="dominiqués" tags="n.*"/>
-      <match lemma="dorian" tags="n.*"/>
-      <match lemma="ebrèu" tags="n.*"/>
-      <match lemma="egipcian" tags="n.*"/>
-      <match lemma="elamita" tags="n.*"/>
-      <match lemma="elvetic" tags="n.*"/>
-      <match lemma="emilian" tags="n.*"/>
-      <match lemma="emirati" tags="n.*"/>
-      <match lemma="equatoguinean" tags="n.*"/>
-      <match lemma="eqüatorian" tags="n.*"/>
-      <match lemma="eritrèu" tags="n.*"/>
-      <match lemma="escocés" tags="n.*"/>
-      <match lemma="eslau" tags="n.*"/>
-      <match lemma="eslovac" tags="n.*"/>
-      <match lemma="eslovèn" tags="n.*"/>
-      <match lemma="espanhòl" tags="n.*"/>
-      <match lemma="espartenc" tags="n.*"/>
-      <match lemma="esquimau" tags="n.*"/>
-      <match lemma="estatsunian" tags="n.*"/>
-      <match lemma="estatsunidenc" tags="n.*"/>
-      <match lemma="estonian" tags="n.*"/>
-      <match lemma="etiopian" tags="n.*"/>
-      <match lemma="etolian" tags="n.*"/>
-      <match lemma="etrusc" tags="n.*"/>
-      <match lemma="europenc" tags="n.*"/>
-      <match lemma="europèu" tags="n.*"/>
-      <match lemma="evenc" tags="n.*"/>
-      <match lemma="evorian" tags="n.*"/>
-      <match lemma="fenician" tags="n.*"/>
-      <match lemma="fijian" tags="n.*"/>
-      <match lemma="filipin" tags="n.*"/>
-      <match lemma="finés" tags="n.*"/>
-      <match lemma="finlandés" tags="n.*"/>
-      <match lemma="flamenc" tags="n.*"/>
-      <match lemma="florentin" tags="n.*"/>
-      <match lemma="focean" tags="n.*"/>
-      <match lemma="francés" tags="n.*"/>
-      <match lemma="francilian" tags="n.*"/>
-      <match lemma="franco-canadian" tags="n.*"/>
-      <match lemma="francocanadian" tags="n.*"/>
-      <match lemma="francomtés" tags="n.*"/>
-      <match lemma="franc" tags="n.*"/>
-      <match lemma="frigian" tags="n.*"/>
-      <match lemma="friolan" tags="n.*"/>
-      <match lemma="frison" tags="n.*"/>
-      <match lemma="gabonés" tags="n.*"/>
-      <match lemma="galés" tags="n.*"/>
-      <match lemma="gallés" tags="n.*"/>
-      <match lemma="gambian" tags="n.*"/>
-      <match lemma="gascon" tags="n.*"/>
-      <match lemma="genovés" tags="n.*"/>
-      <match lemma="georgian" tags="n.*"/>
-      <match lemma="german" tags="n.*"/>
-      <match lemma="gersés" tags="n.*"/>
-      <match lemma="ghanés" tags="n.*"/>
-      <match lemma="gitano" tags="n.*"/>
-      <match lemma="gitan" tags="n.*"/>
-      <match lemma="gòt" tags="n.*"/>
-      <match lemma="grèc" tags="n.*"/>
-      <match lemma="guadalopenc" tags="n.*"/>
-      <match lemma="guaianés" tags="n.*"/>
-      <match lemma="guarani" tags="n.*"/>
-      <match lemma="guaraní" tags="n.*"/>
-      <match lemma="guatemalenc" tags="n.*"/>
-      <match lemma="guatemaltèc" tags="n.*"/>
-      <match lemma="guinean" tags="n.*"/>
-      <match lemma="gujarati" tags="n.*"/>
-      <match lemma="haician" tags="n.*"/>
-      <match lemma="haussà" tags="n.*"/>
-      <match lemma="hawaiian" tags="n.*"/>
-      <match lemma="huron" tags="n.*"/>
-      <match lemma="hutu" tags="n.*"/>
-      <match lemma="iacut" tags="n.*"/>
-      <match lemma="iazidita" tags="n.*"/>
-      <match lemma="ibèr" tags="n.*"/>
-      <match lemma="iemenita" tags="n.*"/>
-      <match lemma="igbo" tags="n.*"/>
-      <match lemma="illirian" tags="n.*"/>
-      <match lemma="inca" tags="n.*"/>
-      <match lemma="indian" tags="n.*"/>
-      <match lemma="indochinés" tags="n.*"/>
-      <match lemma="indonesian" tags="n.*"/>
-      <match lemma="ingosh" tags="n.*"/>
-      <match lemma="iogoslau" tags="n.*"/>
-      <match lemma="ionian" tags="n.*"/>
-      <match lemma="ioroba" tags="n.*"/>
-      <match lemma="iranian" tags="n.*"/>
-      <match lemma="iraquian" tags="n.*"/>
-      <match lemma="irlandés" tags="n.*"/>
-      <match lemma="iroqués" tags="n.*"/>
-      <match lemma="islandés" tags="n.*"/>
-      <match lemma="israelian" tags="n.*"/>
-      <match lemma="israelita" tags="n.*"/>
-      <match lemma="istriòta" tags="n.*"/>
-      <match lemma="italian" tags="n.*"/>
-      <match lemma="itita" tags="n.*"/>
-      <match lemma="ivorian" tags="n.*"/>
-      <match lemma="jamaïcan" tags="n.*"/>
-      <match lemma="japonés" tags="n.*"/>
-      <match lemma="javanés" tags="n.*"/>
-      <match lemma="jibotian" tags="n.*"/>
-      <match lemma="jordanian" tags="n.*"/>
-      <match lemma="josieu" tags="n.*"/>
-      <match lemma="karachai" tags="n.*"/>
-      <match lemma="kazakh" tags="n.*"/>
-      <match lemma="kenyan" tags="n.*"/>
-      <match lemma="khakàs" tags="n.*"/>
-      <match lemma="khmer" tags="n.*"/>
-      <match lemma="kiribatian" tags="n.*"/>
-      <match lemma="kosovar" tags="n.*"/>
-      <match lemma="kowaitian" tags="n.*"/>
-      <match lemma="lacedemonian" tags="n.*"/>
-      <match lemma="landés" tags="n.*"/>
-      <match lemma="laossian" tags="n.*"/>
-      <match lemma="latin" tags="n.*"/>
-      <match lemma="lemosin" tags="n.*"/>
-      <match lemma="lengadocian" tags="n.*"/>
-      <match lemma="leonés" tags="n.*"/>
-      <match lemma="leton" tags="n.*"/>
-      <match lemma="libanés" tags="n.*"/>
-      <match lemma="liberian" tags="n.*"/>
-      <match lemma="libian" tags="n.*"/>
-      <match lemma="licien" tags="n.*"/>
-      <match lemma="lidien" tags="n.*"/>
-      <match lemma="ligur" tags="n.*"/>
-      <match lemma="limborgés" tags="n.*"/>
-      <match lemma="lionés" tags="n.*"/>
-      <match lemma="*lithuanien" tags="n.*"/>
-      <match lemma="lomanhòl" tags="n.*"/>
-      <match lemma="lombard" tags="n.*"/>
-      <match lemma="londinenc" tags="n.*"/>
-      <match lemma="londonenc" tags="n.*"/>
-      <match lemma="lorenc" tags="n.*"/>
-      <match lemma="loseròt" tags="n.*"/>
-      <match lemma="luxemborgés" tags="n.*"/>
-      <match lemma="macedonian" tags="n.*"/>
-      <match lemma="madridenc" tags="n.*"/>
-      <match lemma="madrilenc" tags="n.*"/>
-      <match lemma="maia" tags="n.*"/>
-      <match lemma="malai" tags="n.*"/>
-      <match lemma="malawian" tags="n.*"/>
-      <match lemma="maldivian" tags="n.*"/>
-      <match lemma="malés" tags="n.*"/>
-      <match lemma="malgach" tags="n.*"/>
-      <match lemma="malhorquin" tags="n.*"/>
-      <match lemma="malian" tags="n.*"/>
-      <match lemma="maltés" tags="n.*"/>
-      <match lemma="mameloc" tags="n.*"/>
-      <match lemma="manchó" tags="n.*"/>
-      <match lemma="manés" tags="n.*"/>
-      <match lemma="mansi" tags="n.*"/>
-      <match lemma="maori" tags="n.*"/>
-      <match lemma="mapuche" tags="n.*"/>
-      <match lemma="marata" tags="n.*"/>
-      <match lemma="marate" tags="n.*"/>
-      <match lemma="marcian" tags="n.*"/>
-      <match lemma="marquesian" tags="n.*"/>
-      <match lemma="marroquin" tags="n.*"/>
-      <match lemma="marselhés" tags="n.*"/>
-      <match lemma="marshallés" tags="n.*"/>
-      <match lemma="martiniqués" tags="n.*"/>
-      <match lemma="maurician" tags="n.*"/>
-      <match lemma="mauritan" tags="n.*"/>
-      <match lemma="medoquin" tags="n.*"/>
-      <match lemma="melanesian" tags="n.*"/>
-      <match lemma="menorquin" tags="n.*"/>
-      <match lemma="mesopotamian" tags="n.*"/>
-      <match lemma="mexican" tags="n.*"/>
-      <match lemma="micenian" tags="n.*"/>
-      <match lemma="micronesian" tags="n.*"/>
-      <match lemma="milanés" tags="n.*"/>
-      <match lemma="mingrelian" tags="n.*"/>
-      <match lemma="minoïc" tags="n.*"/>
-      <match lemma="mirandés" tags="n.*"/>
-      <match lemma="moabita" tags="n.*"/>
-      <match lemma="moçambiqués" tags="n.*"/>
-      <match lemma="mogòl" tags="n.*"/>
-      <match lemma="moldau" tags="n.*"/>
-      <match lemma="monegasc" tags="n.*"/>
-      <match lemma="mongòl" tags="n.*"/>
-      <match lemma="montenegrin" tags="n.*"/>
-      <match lemma="montpelhierenc" tags="n.*"/>
-      <match lemma="mordovian" tags="n.*"/>
-      <match lemma="moscovita" tags="n.*"/>
-      <match lemma="mossarabe" tags="n.*"/>
-      <match lemma="mozarabe" tags="n.*"/>
-      <match lemma="muniqués" tags="n.*"/>
-      <match lemma="muretin" tags="n.*"/>
-      <match lemma="nabatèu" tags="n.*"/>
-      <match lemma="namibian" tags="n.*"/>
-      <match lemma="nantés" tags="n.*"/>
-      <match lemma="napolitan" tags="n.*"/>
-      <match lemma="narbonés" tags="n.*"/>
-      <match lemma="nauruan" tags="n.*"/>
-      <match lemma="navaho" tags="n.*"/>
-      <match lemma="navarrés" tags="n.*"/>
-      <match lemma="neerlandés" tags="n.*"/>
-      <match lemma="neozelandés" tags="n.*"/>
-      <match lemma="nepalés" tags="n.*"/>
-      <match lemma="nicaragüenc" tags="n.*"/>
-      <match lemma="niçard" tags="n.*"/>
-      <match lemma="nigerian" tags="n.*"/>
-      <match lemma="nigerin" tags="n.*"/>
-      <match lemma="nimesenc" tags="n.*"/>
-      <match lemma="nogai" tags="n.*"/>
-      <match lemma="nòrd-american" tags="n.*"/>
-      <match lemma="nòrdamerican" tags="n.*"/>
-      <match lemma="nòrd-corean" tags="n.*"/>
-      <match lemma="normand" tags="n.*"/>
-      <match lemma="norvegian" tags="n.*"/>
-      <match lemma="nòvayorkés" tags="n.*"/>
-      <match lemma="nubian" tags="n.*"/>
-      <match lemma="numide" tags="n.*"/>
-      <match lemma="occitan" tags="n.*"/>
-      <match lemma="oceanian" tags="n.*"/>
-      <match lemma="odmort" tags="n.*"/>
-      <match lemma="oganés" tags="n.*"/>
-      <match lemma="oigor" tags="n.*"/>
-      <match lemma="olandés" tags="n.*"/>
-      <match lemma="omanés" tags="n.*"/>
-      <match lemma="omanita" tags="n.*"/>
-      <match lemma="ombrian" tags="n.*"/>
-      <match lemma="omeia" tags="n.*"/>
-      <match lemma="ondurenc" tags="n.*"/>
-      <match lemma="ongrés" tags="n.*"/>
-      <match lemma="òsc" tags="n.*"/>
-      <match lemma="ossèt" tags="n.*"/>
-      <match lemma="ostrogòt" tags="n.*"/>
-      <match lemma="otoman" tags="n.*"/>
-      <match lemma="ozbèc" tags="n.*"/>
-      <match lemma="palestinian" tags="n.*"/>
-      <match lemma="panamenc" tags="n.*"/>
-      <match lemma="pandjabi" tags="n.*"/>
-      <match lemma="papó" tags="n.*"/>
-      <match lemma="paquistanés" tags="n.*"/>
-      <match lemma="paraguaian" tags="n.*"/>
-      <match lemma="parisenc" tags="n.*"/>
-      <match lemma="parisian" tags="n.*"/>
-      <match lemma="paulin" tags="n.*"/>
-      <match lemma="pechenèg" tags="n.*"/>
-      <match lemma="peiregordin" tags="n.*"/>
-      <match lemma="peirigòrd" tags="n.*"/>
-      <match lemma="peitavin" tags="n.*"/>
-      <match lemma="perovian" tags="n.*"/>
-      <match lemma="perpinhanés" tags="n.*"/>
-      <match lemma="persan" tags="n.*"/>
-      <match lemma="pèrse" tags="n.*"/>
-      <match lemma="peruvian" tags="n.*"/>
-      <match lemma="picard" tags="n.*"/>
-      <match lemma="piemontés" tags="n.*"/>
-      <match lemma="pigmèu" tags="n.*"/>
-      <match lemma="polinesian" tags="n.*"/>
-      <match lemma="polonés" tags="n.*"/>
-      <match lemma="portugués" tags="n.*"/>
-      <match lemma="provençal" tags="n.*"/>
-      <match lemma="prussian" tags="n.*"/>
-      <match lemma="qatarian" tags="n.*"/>
-      <match lemma="quebequés" tags="n.*"/>
-      <match lemma="quéchoa" tags="n.*"/>
-      <match lemma="quessòt" tags="n.*"/>
-      <match lemma="quipchac" tags="n.*"/>
-      <match lemma="quirguiz" tags="n.*"/>
-      <match lemma="reünionés" tags="n.*"/>
-      <match lemma="rodanenc" tags="n.*"/>
-      <match lemma="rohingya" tags="n.*"/>
-      <match lemma="romanés" tags="n.*"/>
-      <match lemma="romanhòl" tags="n.*"/>
-      <match lemma="roman" tags="n.*"/>
-      <match lemma="ròm" tags="n.*"/>
-      <match lemma="rosselhonés" tags="n.*"/>
-      <match lemma="rossilhonés" tags="n.*"/>
-      <match lemma="rus" tags="n.*"/>
-      <match lemma="rutèn" tags="n.*"/>
-      <match lemma="rwandés" tags="n.*"/>
-      <match lemma="sabin" tags="n.*"/>
-      <match lemma="samoan" tags="n.*"/>
-      <match lemma="samoiède" tags="n.*"/>
-      <match lemma="santongés" tags="n.*"/>
-      <match lemma="sard" tags="n.*"/>
-      <match lemma="sarrasin" tags="n.*"/>
-      <match lemma="sassanida" tags="n.*"/>
-      <match lemma="saudian" tags="n.*"/>
-      <match lemma="savafida" tags="n.*"/>
-      <match lemma="savoiard" tags="n.*"/>
-      <match lemma="saxon" tags="n.*"/>
-      <match lemma="seichelés" tags="n.*"/>
-      <match lemma="seichelian" tags="n.*"/>
-      <match lemma="seldjokida" tags="n.*"/>
-      <match lemma="seleucida" tags="n.*"/>
-      <match lemma="senegalés" tags="n.*"/>
-      <match lemma="sèrbi" tags="n.*"/>
-      <match lemma="sicilian" tags="n.*"/>
-      <match lemma="sierraleonés" tags="n.*"/>
-      <match lemma="sindi" tags="n.*"/>
-      <match lemma="singaporian" tags="n.*"/>
-      <match lemma="sioux" tags="n.*"/>
-      <match lemma="sirian" tags="n.*"/>
-      <match lemma="soabe" tags="n.*"/>
-      <match lemma="soahili" tags="n.*"/>
-      <match lemma="sodanés" tags="n.*"/>
-      <match lemma="sogdian" tags="n.*"/>
-      <match lemma="soís" tags="n.*"/>
-      <match lemma="somalian" tags="n.*"/>
-      <match lemma="songhai" tags="n.*"/>
-      <match lemma="sorabe" tags="n.*"/>
-      <match lemma="sovietic" tags="n.*"/>
-      <match lemma="srilankés" tags="n.*"/>
-      <match lemma="sud-african" tags="n.*"/>
-      <match lemma="sudafrican" tags="n.*"/>
-      <match lemma="sud-american" tags="n.*"/>
-      <match lemma="sudamerican" tags="n.*"/>
-      <match lemma="sud-corean" tags="n.*"/>
-      <match lemma="sud-sodanés" tags="n.*"/>
-      <match lemma="suedés" tags="n.*"/>
-      <match lemma="sumerian" tags="n.*"/>
-      <match lemma="swazi" tags="n.*"/>
-      <match lemma="tahician" tags="n.*"/>
-      <match lemma="tailandés" tags="n.*"/>
-      <match lemma="taiwanés" tags="n.*"/>
-      <match lemma="tamil" tags="n.*"/>
-      <match lemma="tanzanian" tags="n.*"/>
-      <match lemma="tarbés" tags="n.*"/>
-      <match lemma="tatar" tags="n.*"/>
-      <match lemma="tatgic" tags="n.*"/>
-      <match lemma="teban" tags="n.*"/>
-      <match lemma="telogo" tags="n.*"/>
-      <match lemma="texan" tags="n.*"/>
-      <match lemma="thssalian" tags="n.*"/>
-      <match lemma="tibetan" tags="n.*"/>
-      <match lemma="timorés" tags="n.*"/>
-      <match lemma="toareg" tags="n.*"/>
-      <match lemma="togolés" tags="n.*"/>
-      <match lemma="tolosan" tags="n.*"/>
-      <match lemma="toltèca" tags="n.*"/>
-      <match lemma="toltèc" tags="n.*"/>
-      <match lemma="tolzan" tags="n.*"/>
-      <match lemma="tongalés" tags="n.*"/>
-      <match lemma="tongan" tags="n.*"/>
-      <match lemma="tongian" tags="n.*"/>
-      <match lemma="tongosic" tags="n.*"/>
-      <match lemma="toquelauenc" tags="n.*"/>
-      <match lemma="toscan" tags="n.*"/>
-      <match lemma="tovinian" tags="n.*"/>
-      <match lemma="traci" tags="n.*"/>
-      <match lemma="troian" tags="n.*"/>
-      <match lemma="tsigane" tags="n.*"/>
-      <match lemma="tunisian" tags="n.*"/>
-      <match lemma="turcmèn" tags="n.*"/>
-      <match lemma="turc" tags="n.*"/>
-      <match lemma="tutsi" tags="n.*"/>
-      <match lemma="tuvaluan" tags="n.*"/>
-      <match lemma="ucraïnian" tags="n.*"/>
-      <match lemma="valencian" tags="n.*"/>
-      <match lemma="valon" tags="n.*"/>
-      <match lemma="vanuatuenc" tags="n.*"/>
-      <match lemma="vauclusenc" tags="n.*"/>
-      <match lemma="vendean" tags="n.*"/>
-      <match lemma="veneçolan" tags="n.*"/>
-      <match lemma="veneçola" tags="n.*"/>
-      <match lemma="venician" tags="n.*"/>
-      <match lemma="vianés" tags="n.*"/>
-      <match lemma="vienés" tags="n.*"/>
-      <match lemma="vietnamian" tags="n.*"/>
-      <match lemma="viking" tags="n.*"/>
-      <match lemma="visigòt" tags="n.*"/>
-      <match lemma="zambian" tags="n.*"/>
-      <match lemma="zimbabwean" tags="n.*"/>
-      <match lemma="zimbabwés" tags="n.*"/>
-      <match lemma="zolo" tags="n.*"/>
     </or></def-seq>
 
     <def-seq n="gentilicis_adj"><or>
@@ -1842,39 +1074,6 @@
       <match lemma="vàder" tags="vblex.*"/>
       <match lemma="vier" tags="vblex.*"/>
       <match lemma="viéner" tags="vblex.*"/>
-    </or></def-seq>
-
-    <def-seq n="segle_rom"><or>
-      <match lemma="I" tags="num.*"/>
-      <match lemma="II" tags="num.*"/>
-      <match lemma="III" tags="num.*"/>
-      <match lemma="IV" tags="num.*"/>
-      <match lemma="V" tags="num.*"/>
-      <match lemma="VI" tags="num.*"/>
-      <match lemma="VII" tags="num.*"/>
-      <match lemma="VIII" tags="num.*"/>
-      <match lemma="IX" tags="num.*"/>
-      <match lemma="X" tags="num.*"/>
-      <match lemma="XI" tags="num.*"/>
-      <match lemma="XII" tags="num.*"/>
-      <match lemma="XIII" tags="num.*"/>
-      <match lemma="XIV" tags="num.*"/>
-      <match lemma="XV" tags="num.*"/>
-      <match lemma="XVI" tags="num.*"/>
-      <match lemma="XVII" tags="num.*"/>
-      <match lemma="XVIII" tags="num.*"/>
-      <match lemma="XIX" tags="num.*"/>
-      <match lemma="XX" tags="num.*"/>
-      <match lemma="XXI" tags="num.*"/>
-      <match lemma="XXII" tags="num.*"/>
-      <match lemma="XXIII" tags="num.*"/>
-      <match lemma="XXIV" tags="num.*"/>
-      <match lemma="XXV" tags="num.*"/>
-      <match lemma="XXVI" tags="num.*"/>
-      <match lemma="XXVII" tags="num.*"/>
-      <match lemma="XXVIII" tags="num.*"/>
-      <match lemma="XXIX" tags="num.*"/>
-      <match lemma="XXX" tags="num.*"/>
     </or></def-seq>
 
     <def-seq n="vaissels"><or>
@@ -3152,346 +2351,6 @@
         <match lemma="urològue" tags="n.*"/>
         <match lemma="virològue" tags="n.*"/>
         <match lemma="vulcanològue" tags="n.*"/>
-      </or></def-seq>
-
-      <def-seq n="v-non-pron"><or>
-        <match lemma="dòler# de" tags="vblex.*"/>
-        <match lemma="enlairar" tags="vblex.*"/>
-      </or></def-seq>
-
-      <def-seq n="locucion_ini_a"><or>
-        <match lemma="a la mitat de genièr" tags="adv"/>
-        <match lemma="a la mieitat de genèr" tags="adv"/>
-        <match lemma="a la mitat de febrièr" tags="adv"/>
-        <match lemma="a la mieitat de heurèr" tags="adv"/>
-        <match lemma="a la mitat de març" tags="adv"/>
-        <match lemma="a la mieitat de març" tags="adv"/>
-        <match lemma="a la mitat d'abril" tags="adv"/>
-        <match lemma="a la mitat d'abrial" tags="adv"/>
-        <match lemma="a la mieitat d'abriu" tags="adv"/>
-        <match lemma="a la mitat de mai" tags="adv"/>
-        <match lemma="a la mieitat de mai" tags="adv"/>
-        <match lemma="a la mitat de junh" tags="adv"/>
-        <match lemma="a la mieitat de junh" tags="adv"/>
-        <match lemma="a la mitat de julhet" tags="adv"/>
-        <match lemma="a la mieitat de julhet" tags="adv"/>
-        <match lemma="a la mitat de julh" tags="adv"/>
-        <match lemma="a la mieitat d'agost" tags="adv"/>
-        <match lemma="a la mitat de setembre" tags="adv"/>
-        <match lemma="a la mieitat de seteme" tags="adv"/>
-        <match lemma="a la mitat d'octobre" tags="adv"/>
-        <match lemma="a la mieitat d'octobre" tags="adv"/>
-        <match lemma="a la mitat de novembre" tags="adv"/>
-        <match lemma="a la mieitat de noveme" tags="adv"/>
-        <match lemma="a la mitat de decembre" tags="adv"/>
-        <match lemma="a la mieitat de deceme" tags="adv"/>
-      </or></def-seq>
-
-    <def-seq n="pr_lieu"><or>
-          <match lemma="a capvath de" tags="pr"/>
-          <match lemma="a costat de" tags="pr"/>
-          <match lemma="a destinacion de" tags="pr"/>
-          <match lemma="a flor de" tags="pr"/>
-          <match lemma="a l'abric de" tags="pr"/>
-          <match lemma="a l'amagat de" tags="pr"/>
-          <match lemma="a l'endarrèr de" tags="pr"/>
-          <match lemma="a l'endarrièr de" tags="pr"/>
-          <match lemma="a l'endavant de" tags="pr"/>
-          <match lemma="a l'endehens de" tags="pr"/>
-          <match lemma="a l'endehòra de" tags="pr"/>
-          <match lemma="a l'endemiei de" tags="pr"/>
-          <match lemma="a l'endrech de" tags="pr"/>
-          <match lemma="a l'endret de" tags="pr"/>
-          <match lemma="a l'enta de" tags="pr"/>
-          <match lemma="a l'entorn de" tags="pr"/>
-          <match lemma="a l'interior de" tags="pr"/>
-          <match lemma="a l'ombra de" tags="pr"/>
-          <match lemma="a l'ombrèra de" tags="pr"/>
-          <match lemma="a l'opausat de" tags="pr"/>
-          <match lemma="a l'òr de" tags="pr"/>
-          <match lemma="a la cima de" tags="pr"/>
-          <match lemma="au començar de" tags="pr"/>
-          <match lemma="a la fin de" tags="pr"/>
-          <match lemma="a la hautor de" tags="pr"/>
-          <match lemma="a la sortida de" tags="pr"/>
-          <match lemma="a las pòrtas de" tags="pr"/>
-          <match lemma="a las termièras de" tags="pr"/>
-          <match lemma="a partir de" tags="pr"/>
-          <match lemma="a proximitat de" tags="pr"/>
-          <match lemma="a raïtz de" tags="pr"/>
-          <match lemma="a ran de" tags="pr"/>
-          <match lemma="a rasèr de" tags="pr"/>
-          <match lemma="a rasís de" tags="pr"/>
-          <match lemma="a tot lo torn de" tags="pr"/>
-          <match lemma="a tot torn de" tags="pr"/>
-          <match lemma="a trauèrs de" tags="pr"/>
-          <match lemma="a trauès de" tags="pr"/>
-          <match lemma="a travèrs" tags="pr"/>
-          <match lemma="a travèrs de" tags="pr"/>
-          <match lemma="abans" tags="pr"/>
-          <match lemma="al bòrd de" tags="pr"/>
-          <match lemma="al cap de" tags="pr"/>
-          <match lemma="al costat de" tags="pr"/>
-          <match lemma="al darrièr de" tags="pr"/>
-          <match lemma="al davant de" tags="pr"/>
-          <match lemma="al dedins de" tags="pr"/>
-          <match lemma="al defòra de" tags="pr"/>
-          <match lemma="al dejós de" tags="pr"/>
-          <match lemma="al delà de" tags="pr"/>
-          <match lemma="al delai de" tags="pr"/>
-          <match lemma="al dessús de" tags="pr"/>
-          <match lemma="al dintre de" tags="pr"/>
-          <match lemma="al larg de" tags="pr"/>
-          <match lemma="al long de" tags="pr"/>
-          <match lemma="al marge de" tags="pr"/>
-          <match lemma="al mièg de" tags="pr"/>
-          <match lemma="al mitan de" tags="pr"/>
-          <match lemma="al nivèl de" tags="pr"/>
-          <match lemma="al pè de" tags="pr"/>
-          <match lemma="al prèp de" tags="pr"/>
-          <match lemma="al près de" tags="pr"/>
-          <match lemma="abans" tags="pr"/>
-          <match lemma="al pròp de" tags="pr"/>
-          <match lemma="al ran de" tags="pr"/>
-          <match lemma="al ras de" tags="pr"/>
-          <match lemma="al rèire de" tags="pr"/>
-          <match lemma="al sortent de" tags="pr"/>
-          <match lemma="al torn de" tags="pr"/>
-          <match lemma="al travèrs de" tags="pr"/>
-          <match lemma="amont de" tags="pr"/>
-          <match lemma="après" tags="pr"/>
-          <match lemma="aprèp" tags="pr"/>
-          <match lemma="aprop" tags="pr"/>
-          <match lemma="arron" tags="pr"/>
-          <match lemma="arron de" tags="pr"/>
-          <match lemma="ath arràs de" tags="pr"/>
-          <match lemma="ath bèth mei de" tags="pr"/>
-          <match lemma="ath bèth miei de" tags="pr"/>
-          <match lemma="ath costat de" tags="pr"/>
-          <match lemma="ath delà de" tags="pr"/>
-          <match lemma="ath long de" tags="pr"/>
-          <match lemma="ath mei de" tags="pr"/>
-          <match lemma="ath miei de" tags="pr"/>
-          <match lemma="ath près de" tags="pr"/>
-          <match lemma="au bèth mei de" tags="pr"/>
-          <match lemma="au bèth miei de" tags="pr"/>
-          <match lemma="au bèth mièi de" tags="pr"/>
-          <match lemma="au bòrd de" tags="pr"/>
-          <match lemma="au cap de" tags="pr"/>
-          <match lemma="au començament de" tags="pr"/>
-          <match lemma="au còr de" tags="pr"/>
-          <match lemma="au darrèr de" tags="pr"/>
-          <match lemma="au dedens de" tags="pr"/>
-          <match lemma="au dedins de" tags="pr"/>
-          <match lemma="au deguens de" tags="pr"/>
-          <match lemma="au dehens de" tags="pr"/>
-          <match lemma="au dehòra de" tags="pr"/>
-          <match lemma="au dejós de" tags="pr"/>
-          <match lemma="au delà de" tags="pr"/>
-          <match lemma="au demiei de" tags="pr"/>
-          <match lemma="au dessús de" tags="pr"/>
-          <match lemma="au devath de" tags="pr"/>
-          <match lemma="au dret de" tags="pr"/>
-          <match lemma="au long de" tags="pr"/>
-          <match lemma="au marge de" tags="pr"/>
-          <match lemma="au mei de" tags="pr"/>
-          <match lemma="au mei hons de" tags="pr"/>
-          <match lemma="au miei de" tags="pr"/>
-          <match lemma="au mièi de" tags="pr"/>
-          <match lemma="au nivèu de" tags="pr"/>
-          <match lemma="au perhons de" tags="pr"/>
-          <match lemma="au près de" tags="pr"/>
-          <match lemma="au ras de" tags="pr"/>
-          <match lemma="au rasèr de" tags="pr"/>
-          <match lemma="au sortir de" tags="pr"/>
-          <match lemma="au torn de" tags="pr"/>
-          <match lemma="au-delà de" tags="pr"/>
-          <match lemma="aus entorns de" tags="pr"/>
-          <match lemma="autorn de" tags="pr"/>
-          <match lemma="avant" tags="pr"/>
-          <match lemma="cap" tags="pr"/>
-          <match lemma="cap tà" tags="pr"/>
-          <match lemma="cap a" tags="pr"/>
-          <match lemma="capsús de" tags="pr"/>
-          <match lemma="capvath" tags="pr"/>
-          <match lemma="cara a" tags="pr"/>
-          <match lemma="contra" tags="pr"/>
-          <match lemma="cossent a" tags="pr"/>
-          <match lemma="cossent damb" tags="pr"/>
-          <match lemma="cossent tamb" tags="pr"/>
-          <match lemma="còsta" tags="pr"/>
-          <match lemma="còsta a" tags="pr"/>
-          <match lemma="còsta de" tags="pr"/>
-          <match lemma="d'ací a" tags="pr"/>
-          <match lemma="d'aicí a" tags="pr"/>
-          <match lemma="d'aquí" tags="pr"/>
-          <match lemma="d'aquí a" tags="pr"/>
-          <match lemma="darrèir" tags="pr"/>
-          <match lemma="darrèr" tags="pr"/>
-          <match lemma="darrèr de" tags="pr"/>
-          <match lemma="darrièr" tags="pr"/>
-          <match lemma="dauant" tags="pr"/>
-          <match lemma="davant" tags="pr"/>
-          <match lemma="davant de" tags="pr"/>
-          <match lemma="davath" tags="pr"/>
-          <match lemma="de cap" tags="pr"/>
-          <match lemma="de cap a" tags="pr"/>
-          <match lemma="de cap entà" tags="pr"/>
-          <match lemma="de cap tà" tags="pr"/>
-          <match lemma="de caps a" tags="pr"/>
-          <match lemma="de cara a" tags="pr"/>
-          <match lemma="de deçà" tags="pr"/>
-          <match lemma="de delà" tags="pr"/>
-          <match lemma="de l'auta part de" tags="pr"/>
-          <match lemma="de l'autre costat de" tags="pr"/>
-          <match lemma="deçà" tags="pr"/>
-          <match lemma="deçà de" tags="pr"/>
-          <match lemma="deçai" tags="pr"/>
-          <match lemma="defòra" tags="pr"/>
-          <match lemma="dejós" tags="pr"/>
-          <match lemma="dejós de" tags="pr"/>
-          <match lemma="del costat de" tags="pr"/>
-          <match lemma="del costat opausat a" tags="pr"/>
-          <match lemma="del naut de" tags="pr"/>
-          <match lemma="delà" tags="pr"/>
-          <match lemma="delà de" tags="pr"/>
-          <match lemma="delai" tags="pr"/>
-          <match lemma="demont de" tags="pr"/>
-          <match lemma="denquia" tags="pr"/>
-          <match lemma="dens" tags="pr"/>
-          <match lemma="dens l'aròu de" tags="pr"/>
-          <match lemma="dessobre" tags="pr"/>
-          <match lemma="abans" tags="pr"/>
-          <match lemma="dessota" tags="pr"/>
-          <match lemma="dessubre" tags="pr"/>
-          <match lemma="dessús" tags="pr"/>
-          <match lemma="dessús de" tags="pr"/>
-          <match lemma="deth costat de" tags="pr"/>
-          <match lemma="detràs" tags="pr"/>
-          <match lemma="detràs de" tags="pr"/>
-          <match lemma="deu costat de" tags="pr"/>
-          <match lemma="deuant" tags="pr"/>
-          <match lemma="devant" tags="pr"/>
-          <match lemma="devath" tags="pr"/>
-          <match lemma="dinc" tags="pr"/>
-          <match lemma="dinc a" tags="pr"/>
-          <match lemma="dinc au cap de" tags="pr"/>
-          <match lemma="dinca" tags="pr"/>
-          <match lemma="dins" tags="pr"/>
-          <match lemma="dins de" tags="pr"/>
-          <match lemma="dins l'entorn de" tags="pr"/>
-          <match lemma="dintre" tags="pr"/>
-          <match lemma="drech" tags="pr"/>
-          <match lemma="drin abans" tags="pr"/>
-          <match lemma="drin après" tags="pr"/>
-          <match lemma="dusca" tags="pr"/>
-          <match lemma="dusca a" tags="pr"/>
-          <match lemma="duscas" tags="pr"/>
-          <match lemma="e après" tags="pr"/>
-          <match lemma="emper" tags="pr"/>
-          <match lemma="en" tags="pr"/>
-          <match lemma="en amont de" tags="pr"/>
-          <match lemma="en aval de" tags="pr"/>
-          <match lemma="en deçà de" tags="pr"/>
-          <match lemma="en dedins de" tags="pr"/>
-          <match lemma="en defòra de" tags="pr"/>
-          <match lemma="en dehòra de" tags="pr"/>
-          <match lemma="en delà de" tags="pr"/>
-          <match lemma="en dessús de" tags="pr"/>
-          <match lemma="en devath de" tags="pr"/>
-          <match lemma="en direccion cap" tags="pr"/>
-          <match lemma="en direccion entà" tags="pr"/>
-          <match lemma="en drech de" tags="pr"/>
-          <match lemma="en fàcia de" tags="pr"/>
-          <match lemma="en fòra de" tags="pr"/>
-          <match lemma="en hòra" tags="pr"/>
-          <match lemma="enlà de" tags="pr"/>
-          <match lemma="en per" tags="pr"/>
-          <match lemma="en perlongament de" tags="pr"/>
-          <match lemma="en véder" tags="pr"/>
-          <match lemma="en vista de" tags="pr"/>
-          <match lemma="ençà de" tags="pr"/>
-          <match lemma="endarrièr de" tags="pr"/>
-          <match lemma="endefòra de" tags="pr"/>
-          <match lemma="endejós de" tags="pr"/>
-          <match lemma="endessús de" tags="pr"/>
-          <match lemma="endins de" tags="pr"/>
-          <match lemma="enfòra de" tags="pr"/>
-          <match lemma="enjusca" tags="pr"/>
-          <match lemma="enlà" tags="pr"/>
-          <match lemma="enqui a" tags="pr"/>
-          <match lemma="enquia" tags="pr"/>
-          <match lemma="enquiò" tags="pr"/>
-          <match lemma="enter" tags="pr"/>
-          <match lemma="entre" tags="pr"/>
-          <match lemma="entre sortir de" tags="pr"/>
-          <match lemma="entremei" tags="pr"/>
-          <match lemma="entremei de" tags="pr"/>
-          <match lemma="entremièg" tags="pr"/>
-          <match lemma="entremiei de" tags="pr"/>
-          <match lemma="entremitan" tags="pr"/>
-          <match lemma="entrò" tags="pr"/>
-          <match lemma="entrò a" tags="pr"/>
-          <match lemma="fàcia a" tags="pr"/>
-          <match lemma="fins" tags="pr"/>
-          <match lemma="fins a" tags="pr"/>
-          <match lemma="flor de" tags="pr"/>
-          <match lemma="fòra" tags="pr"/>
-          <match lemma="fòra de" tags="pr"/>
-          <match lemma="hens" tags="pr"/>
-          <match lemma="hòra" tags="pr"/>
-          <match lemma="hòra de" tags="pr"/>
-          <match lemma="hòrs" tags="pr"/>
-          <match lemma="jol cobèrt de" tags="pr"/>
-          <match lemma="jos" tags="pr"/>
-          <match lemma="jusca" tags="pr"/>
-          <match lemma="juscas" tags="pr"/>
-          <match lemma="laguens" tags="pr"/>
-          <match lemma="laguens de" tags="pr"/>
-          <match lemma="long de" tags="pr"/>
-          <match lemma="luènh de" tags="pr"/>
-          <match lemma="luònh de" tags="pr"/>
-          <match lemma="pauc abans" tags="pr"/>
-          <match lemma="pauc aprèp" tags="pr"/>
-          <match lemma="pauc après" tags="pr"/>
-          <match lemma="per" tags="pr"/>
-          <match lemma="per davant" tags="pr"/>
-          <match lemma="per dejós" tags="pr"/>
-          <match lemma="per delà" tags="pr"/>
-          <match lemma="per dessús" tags="pr"/>
-          <match lemma="per sus" tags="pr"/>
-          <match lemma="peu torn de" tags="pr"/>
-          <match lemma="prèp de" tags="pr"/>
-          <match lemma="prèp" tags="pr"/>
-          <match lemma="près" tags="pr"/>
-          <match lemma="près de" tags="pr"/>
-          <match lemma="prop" tags="pr"/>
-          <match lemma="abans" tags="pr"/>
-          <match lemma="ran" tags="pr"/>
-          <match lemma="ran de" tags="pr"/>
-          <match lemma="rand de" tags="pr"/>
-          <match lemma="sober" tags="pr"/>
-          <match lemma="sobre" tags="pr"/>
-          <match lemma="sota" tags="pr"/>
-          <match lemma="suber" tags="pr"/>
-          <match lemma="subre" tags="pr"/>
-          <match lemma="sur" tags="pr"/>
-          <match lemma="sus" tags="pr"/>
-          <match lemma="tirant a" tags="pr"/>
-          <match lemma="tòc a" tags="pr"/>
-          <match lemma="tocant" tags="pr"/>
-          <match lemma="tocant a" tags="pr"/>
-          <match lemma="tot lo long de" tags="pr"/>
-          <match lemma="tras" tags="pr"/>
-          <match lemma="un chic abans" tags="pr"/>
-          <match lemma="un chic aprèp" tags="pr"/>
-          <match lemma="un chic après" tags="pr"/>
-          <match lemma="drin après" tags="pr"/>
-          <match lemma="un pauc abans" tags="pr"/>
-          <match lemma="un pauc aprèp" tags="pr"/>
-          <match lemma="un pauc après" tags="pr"/>
-          <match lemma="vèrs" tags="pr"/>
-          <match lemma="via" tags="pr"/>
     </or></def-seq>
   </def-seqs>
 
@@ -3506,16 +2365,6 @@
     <!-- miei >> demi, moyen -->
     <rule weight="0.8">
       <match lemma="miei" tags="adj.*"><select lemma="demi"/></match>
-    </rule>
-    <rule weight="1.0" v="oci">
-      <or>
-        <match tags="n.*"/>
-        <match tags="np.top.*"/>
-      </or>
-      <repeat from="0" upto="2">
-        <match tags="adj.*"/>
-      </repeat>
-      <match lemma="miei" tags="adj.*"><select lemma="moyen"/></match>
     </rule>
 
     <!-- viradís >> versatile, tournant -->
@@ -3572,11 +2421,6 @@
     <!-- brave >> gentil, bon/gros -->
     <rule weight="0.8">
       <match lemma="brave" tags="adj.*"><select lemma="gentil"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="brave" tags="adj.*" v="oci"><select lemma="bon"/></match>
-      <match lemma="brave" tags="adj.*" v="oci@gascon"><select lemma="gros"/></match>
-      <match tags="n.*"/>
     </rule>
     <rule weight="1.2">
       <match lemma="brave" tags="adj.*"><select lemma="gentil"/></match>
@@ -3635,13 +2479,6 @@
       <match lemma="cortés" tags="adj.*"><select lemma="courtois"/></match>
     </rule>
 
-    <!-- vertadièr >> vrai, véritable -->
-    <!-- vertadèr >> vrai, véritable -->
-    <rule weight="0.8">
-      <match lemma="vertadièr" tags="adj.*" v="oci"><select lemma="vrai"/></match>
-      <match lemma="vertadèr" tags="adj.*" v="oci@gascon"><select lemma="vrai"/></match>
-    </rule>
-
     <!-- màger >> plus grand, majeur, important -->
     <rule weight="0.8">
       <match lemma="màger" tags="adj.*"><select lemma="majeur"/></match>
@@ -3694,42 +2531,6 @@
         <match lemma="palai" tags="n.*"/>
       </or>
       <match lemma="franc" tags="adj.*"><select lemma="franc_peuple"/></match>
-    </rule>
-
-    <!-- nòu >> nouveau, neuf -->
-    <rule weight="0.8" v="oci">
-      <match lemma="nòu" tags="adj.*"><select lemma="nouveau"/></match>
-    </rule>
-    <rule weight="1.0" v="oci">
-      <or>
-        <seq n="vestit"/>
-        <match lemma="ostal" tags="n.*"/>
-        <match lemma="apartament" tags="n.*"/>
-        <match lemma="immòble" tags="n.*"/>
-        <match lemma="bastiment" tags="n.*"/>
-        <match lemma="infraestructura" tags="n.*"/>
-        <match lemma="cambra" tags="n.*"/>
-        <match lemma="veitura" tags="n.*"/>
-        <match lemma="autò" tags="n.*"/>
-        <match lemma="auto" tags="n.*"/>
-        <match lemma="automobila" tags="n.*"/>
-        <match lemma="bicicleta" tags="n.*"/>
-        <match lemma="moto" tags="n.*"/>
-        <match lemma="motò" tags="n.*"/>
-        <match lemma="mobileta" tags="n.*"/>
-        <match lemma="batèl" tags="n.*"/>
-        <match lemma="ordenador" tags="n.*"/>
-        <match lemma="telefòne" tags="n.*"/>
-        <match lemma="esmartfòne" tags="n.*"/>
-        <match lemma="mantèl" tags="n.*"/>
-        <match lemma="vèsta" tags="n.*"/>
-        <match lemma="tunica" tags="n.*"/>
-        <match lemma="castèl" tags="n.*"/>
-        <match lemma="vila" tags="n.*"/>
-        <match lemma="pòrta" tags="n.*"/>
-        <match lemma="material" tags="n.*"/>
-      </or>
-      <match lemma="nòu" tags="adj.*"><select lemma="neuf"/></match>
     </rule>
 
     <!-- viu >> vivant, vif -->
@@ -4000,18 +2801,6 @@
       <match lemma="acostumat" tags="adj.*"><select lemma="habituel"/></match>
     </rule>
 
-    <!-- pebrat >> poivré, grivois -->
-    <rule weight="0.8" v="oci">
-      <match lemma="pebrat" tags="adj.*"><select lemma="poivré"/></match>
-    </rule>
-    <rule weight="1.0" v="oci">
-      <or>
-        <match lemma="cançon" tags="n.*"/>
-        <match lemma="istòria" tags="n.*"/>
-      </or>
-      <match lemma="pebrat" tags="adj.*"><select lemma="grivois"/></match>
-    </rule>
-
     <!-- espandit >> étendu, répandu -->
     <rule weight="0.8">
       <match lemma="espandit" tags="adj.*"><select lemma="répandu"/></match>
@@ -4020,12 +2809,6 @@
     <!-- parcial >> partial, partiel -->
     <rule weight="0.8">
       <match lemma="parcial" tags="adj.*"><select lemma="partiel"/></match>
-    </rule>
-
-    <!-- sadol/hart >> repu, saoûl -->
-    <rule weight="0.8">
-      <match lemma="sadol" tags="adj.*" v="oci"><select lemma="repu"/></match>
-      <match lemma="hart" tags="adj.*" v="oci@gascon"><select lemma="repu"/></match>
     </rule>
 
 
@@ -4063,14 +2846,6 @@
       </or>
       <match lemma="coma" tags="cnjadv"><select lemma="que"/></match>
     </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <match lemma="tant" tags="preadv"><select lemma="aussi"/></match>
-      <or>
-        <match tags="adj.*"/>
-        <match tags="vblex.pp.*"/>
-      </or>
-      <match tags="n.*"/>
-    </rule>
     <rule weight="1.0">
       <or>
         <match tags="vbser.*"/>
@@ -4101,15 +2876,6 @@
       <match tags="vblex.pp.*"/>
       <match lemma="de" tags="pr"/>
     </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <match lemma="autant" tags="preadv"><select lemma="aussi"/></match>
-      <or>
-        <match tags="adj.*"/>
-        <match tags="vblex.pp.*"/>
-        <match tags="adv"/>
-      </or>
-      <match lemma="com" tags="cnjadv"><select lemma="que"/></match>
-    </rule>
     <rule weight="1.0">
       <match lemma="autant" tags="preadv"><select lemma="aussi"/></match>
       <or>
@@ -4124,14 +2890,6 @@
         <match tags="adv"/>
       </or>
       <match lemma="com" tags="cnjadv"><select lemma="que"/></match>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <match lemma="autant" tags="preadv"><select lemma="aussi"/></match>
-      <or>
-        <match tags="adj.*"/>
-        <match tags="vblex.pp.*"/>
-      </or>
-      <match tags="n.*"/>
     </rule>
     <rule weight="1.0">
       <or>
@@ -5397,11 +4155,6 @@
       <match lemma="andada" tags="n.*"><select lemma="promenade"/></match>
     </rule>
 
-    <!-- premuda >> hésitation, pression -->
-    <rule weight="0.8" v="oci@gascon">
-      <match lemma="premuda" tags="n.*"><select lemma="hésitation"/></match>
-    </rule>
-
     <!-- mic >> ami, baiser -->
     <rule weight="0.8">
       <match lemma="mic" tags="n.*"><select lemma="ami"/></match>
@@ -5479,7 +4232,6 @@
           <match tags="adj.*"/>
           <match tags="adv"/>
           <match tags="preadv"/>
-          <match lemma="de" tags="pr" v="oci"/>
         </or>
       </repeat>
       <match lemma="glacet" tags="n.*"><select lemma="glace"/></match>
@@ -5634,10 +4386,6 @@
     </rule>
 
     <!-- batent >> battant, volet -->
-    <rule weight="0.8">
-      <match lemma="batent" tags="n.*" v="oci"><select lemma="battant"/></match>
-      <match lemma="batent" tags="n.*" v="oci@gascon"><select lemma="volet"/></match>
-    </rule>
     <rule weight="1.0">
       <match lemma="batent" tags="n.*"><select lemma="volet"/></match>
       <or>
@@ -5820,10 +4568,6 @@
     </rule>
 
     <!-- sòu >> sou, argent, sol, salaire -->
-    <rule weight="0.8">
-      <match lemma="sòu" tags="n.*" v="oci"><select lemma="sou"/></match>
-      <match lemma="sòu" tags="n.*" v="oci@gascon"><select lemma="sol"/></match>
-    </rule>
     <rule weight="1.0">
       <match lemma="sòu" tags="n.m.pl"><select lemma="argent"/></match>
     </rule>
@@ -5831,33 +4575,15 @@
       <or><match tags="num"/><match tags="num.*"/></or>
       <match lemma="sòu" tags="n.*"><select lemma="sou"/></match>
     </rule>
-    <rule weight="1.2" v="oci@gascon">
-      <match lemma="un" tags="det.ind.*"/>
-      <match lemma="sòu" tags="n.*"><select lemma="sou"/></match>
-    </rule>
-    <rule weight="1.2" v="oci@gascon">
-      <match lemma="sòu" tags="n.*"><select lemma="sou"/></match>
-      <match lemma="per" tags="pr"></match>
-      <match lemma="sòu" tags="n.*"><select lemma="sou"/></match>
-    </rule>
 
     <!-- mairia >> mairie, marraine -->
     <rule weight="0.8">
-      <match lemma="mairia" tags="n.*"><select lemma="mairie"/></match>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <match tags="det.pos.*"/>
       <match lemma="mairia" tags="n.*"><select lemma="mairie"/></match>
     </rule>
 
     <!-- parladís >> causerie, discours -->
     <rule weight="0.8">
       <match lemma="parladís" tags="n.*"><select lemma="causerie"/></match>
-    </rule>
-
-    <!-- charradissa >> causerie, discours -->
-    <rule weight="0.8" v="oci">
-      <match lemma="charradissa" tags="n.*"><select lemma="causerie"/></match>
     </rule>
 
     <!-- cara >> visage, mine -->
@@ -6178,26 +4904,6 @@
       <match lemma="crompa" tags="n.f.pl"><select lemma="course"/></match>
     </rule>
 
-    <!-- òsca >> entaille, course -->
-    <rule weight="0.8" v="oci@gascon">
-      <match lemma="òsca" tags="n.*"><select lemma="entaille"/></match>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <or>
-        <match lemma="har" tags="vblex.*"/>
-        <match lemma="hèr" tags="vblex.*"/>
-        <match lemma="far" tags="vblex.*"/>
-      </or>
-      <repeat from="0" upto="2">
-        <match tags="adv"/>
-      </repeat>
-      <or>
-        <match tags="det.def.*"/>
-        <match tags="det.pos.*"/>
-      </or>
-      <match lemma="òsca" tags="n.f.sg"><select lemma="course"/></match>
-    </rule>
-
     <!-- dauneta >> dame, maître -->
     <rule weight="0.8">
       <match lemma="dauneta" tags="n.*"><select lemma="dame"/></match>
@@ -6296,56 +5002,6 @@
       <match lemma="part" tags="n.*"><select lemma="partie"/></match>
       <match lemma="de" tags="pr"/>
     </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <or>
-        <match lemma="far" tags="vblex.*"/>
-        <match lemma="har" tags="vblex.*"/>
-        <match lemma="hèr" tags="vblex.*"/>
-      </or>
-      <repeat from="0" upto="2">
-        <match tags="adv"/>
-      </repeat>
-      <match lemma="part" tags="n.*"><select lemma="partie"/></match>
-    </rule>
-    <rule weight="1.2" v="oci@gascon">
-      <or>
-        <match lemma="far" tags="vblex.*"/>
-        <match lemma="har" tags="vblex.*"/>
-        <match lemma="hèr" tags="vblex.*"/>
-      </or>
-      <repeat from="0" upto="2">
-        <match tags="adv"/>
-      </repeat>
-      <match lemma="part" tags="n.*"><select lemma="part"/></match>
-      <match lemma="a" tags="pr"/>
-    </rule>
-    <rule weight="1.2" v="oci@gascon">
-      <or>
-        <match lemma="me" tags="prn.pro.*"/>
-        <match lemma="te" tags="prn.pro.*"/>
-        <match lemma="li" tags="prn.pro.*"/>
-        <match lemma="nos" tags="prn.pro.*"/>
-        <match lemma="mos" tags="prn.pro.*"/>
-        <match lemma="vos" tags="prn.pro.*"/>
-        <match lemma="lor" tags="prn.pro.*"/>
-        <match lemma="ac" tags="prn.pro.*" v="oci@gascon"/>
-        <match lemma="lo" tags="prn.pro.*" v="oci@gascon"/>
-      </or>
-      <or>
-        <match lemma="far" tags="vblex.*"/>
-        <match lemma="har" tags="vblex.*"/>
-        <match lemma="hèr" tags="vblex.*"/>
-      </or>
-      <repeat from="0" upto="2">
-        <match tags="adv"/>
-      </repeat>
-      <match lemma="part" tags="n.*"><select lemma="part"/></match>
-    </rule>
-
-    <!-- barde >> barde, argile -->
-    <rule weight="0.8" v="oci@gascon">
-      <match lemma="barde" tags="n.*"><select lemma="barde"/></match>
-    </rule>
 
     <!-- sansònha >> rengaine, cornemuse -->
     <rule weight="0.8">
@@ -6376,104 +5032,9 @@
       <match lemma="sansònha" tags="n.*"><select lemma="cornemuse"/></match>
     </rule>
 
-    <!-- dintrada >> entrée, rentrée -->
-    <rule weight="0.8" v="oci">
-      <match lemma="dintrada" tags="n.*"><select lemma="entrée"/></match>
-    </rule>
-    <rule weight="1.1" v="oci">
-      <match lemma="dintrada" tags="n.m.*"><select lemma="rentrée"/></match>
-      <repeat from="0" upto="5">
-        <or>
-          <match tags="*"/>
-          <match tags=""/>
-        </or>
-      </repeat>
-      <or>
-        <match lemma="escòla" tags="n.*"/>
-        <match lemma="collègi" tags="n.*"/>
-        <match lemma="licèu" tags="n.*"/>
-        <match lemma="pedagogia" tags="n.*"/>
-        <match lemma="escolan" tags="n.*"/>
-        <match lemma="ensenhar" tags="vblex.*"/>
-        <match lemma="apréner" tags="vblex.*"/>
-        <match lemma="aprene" tags="vblex.*"/>
-        <match lemma="ensenhaire" tags="n.*"/>
-        <match lemma="primari" tags="n.*"/>
-        <match lemma="primària" tags="n.*"/>
-        <match lemma="mairala" tags="n.*"/>
-        <match lemma="mairau" tags="n.*"/>
-        <match lemma="calandreta" tags="n.*"/>
-        <match lemma="Calandreta" tags="np.*"/>
-        <match lemma="bilingüe" tags="n.*"/>
-        <match lemma="monoligüe" tags="n.*"/>
-        <match lemma="occitan" tags="n.*"/>
-        <match lemma="classa" tags="n.*"/>
-        <match lemma="cors" tags="n.*"/>
-        <match lemma="eslhève" tags="n.*"/>
-        <match lemma="pòste" tags="n.*"/>
-        <match lemma="primari" tags="adj.*"/>
-        <match lemma="mairal" tags="adj.*"/>
-        <match lemma="regent" tags="n.*"/>
-        <match lemma="ensenhaire" tags="n.*"/>
-        <match lemma="institutor" tags="n.*"/>
-        <match lemma="professor" tags="n.*"/>
-        <match lemma="mèstre" tags="n.*"/>
-      </or>
-    </rule>
-    <rule weight="1.1" v="oci">
-      <or>
-        <match lemma="escòla" tags="n.*"/>
-        <match lemma="collègi" tags="n.*"/>
-        <match lemma="licèu" tags="n.*"/>
-        <match lemma="pedagogia" tags="n.*"/>
-        <match lemma="escolan" tags="n.*"/>
-        <match lemma="ensenhar" tags="vblex.*"/>
-        <match lemma="apréner" tags="vblex.*"/>
-        <match lemma="aprene" tags="vblex.*"/>
-        <match lemma="ensenhaire" tags="n.*"/>
-        <match lemma="primari" tags="n.*"/>
-        <match lemma="primària" tags="n.*"/>
-        <match lemma="mairala" tags="n.*"/>
-        <match lemma="mairau" tags="n.*"/>
-        <match lemma="calandreta" tags="n.*"/>
-        <match lemma="Calandreta" tags="np.*"/>
-        <match lemma="bilingüe" tags="n.*"/>
-        <match lemma="monoligüe" tags="n.*"/>
-        <match lemma="occitan" tags="n.*"/>
-        <match lemma="classa" tags="n.*"/>
-        <match lemma="cors" tags="n.*"/>
-        <match lemma="eslhève" tags="n.*"/>
-        <match lemma="pòste" tags="n.*"/>
-        <match lemma="primari" tags="adj.*"/>
-        <match lemma="mairal" tags="adj.*"/>
-        <match lemma="regent" tags="n.*"/>
-        <match lemma="ensenhaire" tags="n.*"/>
-        <match lemma="institutor" tags="n.*"/>
-        <match lemma="professor" tags="n.*"/>
-        <match lemma="mèstre" tags="n.*"/>
-      </or>
-      <repeat from="0" upto="5">
-        <or>
-          <match tags="*"/>
-          <match tags=""/>
-        </or>
-      </repeat>
-      <match lemma="dintrada" tags="n.m.*"><select lemma="rentrée"/></match>
-    </rule>
-
     <!-- grop >> groupe, poule -->
     <rule weight="0.8">
       <match lemma="grop" tags="n.*"><select lemma="groupe"/></match>
-    </rule>
-
-    <!-- rondalejaire >> rôdeur, randonneur -->
-    <rule weight="0.8">
-      <match lemma="rondalejaire" tags="n.*" v="oci@gascon"><select lemma="rôdeur"/></match>
-    </rule>
-
-    <!-- fonduda >> fonte, fondue -->
-    <rule weight="0.8">
-      <match lemma="fonduda" tags="n.*" v="oci"><select lemma="fonte"/></match>
     </rule>
 
     <!-- fons >> fond, fonds -->
@@ -6769,75 +5330,6 @@
       <match lemma="frineston" tags="n.*"><select lemma="guichet"/></match>
     </rule>
 
-    <!-- casa >> maison, case -->
-    <rule weight="0.8">
-      <match lemma="casa" tags="n.*" v="oci"><select lemma="maison"/></match>
-      <match lemma="casa" tags="n.*" v="oci@gascon"><select lemma="case"/></match>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <or>
-        <match lemma="a" tags="pr"/>
-        <match lemma="per" tags="pr"/>
-        <match lemma="dens" tags="pr"/>
-        <match lemma="hens" tags="pr"/>
-        <match lemma="davant" tags="pr"/>
-        <match lemma="devant" tags="pr"/>
-        <match lemma="tà" tags="pr"/>
-        <match lemma="entà" tags="pr"/>
-        <match lemma="enta" tags="pr"/>
-        <match lemma="delà" tags="pr"/>
-        <match lemma="delà de" tags="pr"/>
-        <match lemma="au delà de" tags="pr"/>
-        <match lemma="enlà de" tags="pr"/>
-        <match lemma="ençà de" tags="pr"/>
-        <match lemma="en deçà de" tags="pr"/>
-      </or>
-      <repeat from="0" upto="3">
-        <or>
-          <match tags="det.*"/>
-          <match tags="adj.*"/>
-          <match tags="preadv"/>
-        </or>
-      </repeat>
-      <match lemma="casa" tags="n.*"><select lemma="maison"/></match>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <match lemma="de" tags="pr"/>
-      <match lemma="casa" tags="n.*"><select lemma="maison"/></match>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <match lemma="de" tags="pr"/>
-      <repeat from="0" upto="3">
-        <or>
-          <match tags="det.*"/>
-          <match tags="adj.*"/>
-          <match tags="preadv"/>
-        </or>
-      </repeat>
-      <match lemma="casa" tags="n.*"><select lemma="maison"/></match>
-      <or>
-        <match lemma="enlà" tags="adv"/>
-        <match lemma="estar" tags="vbser.ger"/>
-      </or>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <match lemma="casa" tags="n.*"><select lemma="maison"/></match>
-      <match tags="adj.pos.*"/>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <match lemma="casa" tags="n.*"><select lemma="maison"/></match>
-      <match lemma="de" tags="pr"/>
-    </rule>
-    <rule weight="1.2" v="oci@gascon">
-      <match lemma="casa" tags="n.*"><select lemma="case"/></match>
-      <match lemma="de" tags="pr"/>
-      <or>
-        <match lemma="partença" tags="n.*"/>
-        <match lemma="sortida" tags="n.*"/>
-        <match lemma="arribada" tags="n.*"/>
-      </or>
-    </rule>
-
     <!-- estatjant >> habitant, locataire -->
     <rule weight="0.8">
       <match lemma="estatjant" tags="n.*"><select lemma="habitant"/></match>
@@ -6910,7 +5402,6 @@
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
-      <match lemma="de" tags="pr" v="oci"/>
       <match lemma="monde" tags="n.*"><select lemma="gens"/></match>
       <repeat from="0" upto="1">
         <match tags="adv"/>
@@ -6938,7 +5429,6 @@
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
-      <match lemma="de" tags="pr" v="oci"/>
       <match lemma="monde" tags="n.*"><select lemma="monde"/></match>
       <repeat from="0" upto="1">
         <match tags="adv"/>
@@ -8740,43 +7230,6 @@
     <rule weight="0.8">
       <match lemma="traca" tags="n.*"><select lemma="traque"/></match>
     </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <match lemma="de" tags="pr"/>
-      <match lemma="tot" tags="adj.*"/>
-      <match lemma="traca" tags="n.*"><select lemma="sorte"/></match>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <or>
-        <match lemma="un" tags="det.*"/>
-        <match tags="det.dem.*"/>
-      </or>
-      <match lemma="traca" tags="n.*"><select lemma="sorte"/></match>
-      <match lemma="de" tags="pr"/>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <match tags="det.*"/>
-      <match lemma="traca" tags="n.*"><select lemma="sorte"/></match>
-      <match lemma="de" tags="pr"/>
-      <repeat from="0" upto="3">
-        <or>
-          <match tags="adv"/>
-          <match tags="adj.*"/>
-        </or>
-      </repeat>
-      <match tags="n.*"/>
-      <repeat from="0" upto="3">
-        <or>
-          <match tags="adv"/>
-          <match tags="adj.*"/>
-        </or>
-      </repeat>
-      <or>
-          <match lemma="qui" tags="rel.*"/>
-          <match lemma="que" tags="rel.*"/>
-      </or>
-    </rule>
-
-
 
     <!-- pastenaga >> pastenague, carotte -->
     <rule weight="0.8">
@@ -9066,57 +7519,6 @@
       <match lemma="pòt" tags="n.*"><select lemma="bise"/></match>
     </rule>
 
-    <!-- halha >> feu, crête, faille -->
-    <rule weight="0.8" v="oci@gascon">
-      <match lemma="halha" tags="n.*"><select lemma="feu"/></match>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <match lemma="halha" tags="n.*"><select lemma="faille"/></match>
-      <repeat from="0" upto="3">
-        <or>
-          <match tags="*"/>
-          <match tags=""/>
-        </or>
-      </repeat>
-      <or>
-        <match lemma="hasan" tags="n.*"/>
-        <match lemma="gal" tags="n.*"/>
-        <match lemma="pol" tags="n.*"/>
-        <match lemma="poth" tags="n.*"/>
-        <match lemma="galh" tags="n.*"/>
-        <match lemma="veguèir" tags="n.*"/>
-        <match lemma="pèrro" tags="n.*"/>
-        <match lemma="pavés" tags="n.*"/>
-      </or>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-      <or>
-        <match lemma="hasan" tags="n.*"/>
-        <match lemma="gal" tags="n.*"/>
-        <match lemma="pol" tags="n.*"/>
-        <match lemma="poth" tags="n.*"/>
-        <match lemma="galh" tags="n.*"/>
-        <match lemma="veguèir" tags="n.*"/>
-        <match lemma="pèrro" tags="n.*"/>
-        <match lemma="pavés" tags="n.*"/>
-      </or>
-      <repeat from="0" upto="3">
-        <or>
-          <match tags="*"/>
-          <match tags=""/>
-        </or>
-      </repeat>
-      <match lemma="halha" tags="n.*"><select lemma="faille"/></match>
-    </rule>
-
-
-    <!-- darr(i)èr >> dernier, derrière -->
-    <rule weight="0.8">
-      <match lemma="darrièr" tags="n.*" v="oci"><select lemma="derrière"/></match>
-      <match lemma="darrèr" tags="n.*" v="oci@gascon"><select lemma="derrière"/></match>
-    </rule>
-
-
     <!-- estanh >> étang, étain -->
     <rule weight="0.8">
       <match lemma="estanh" tags="n.*"><select lemma="étang"/></match>
@@ -9148,21 +7550,6 @@
     <rule weight="0.8">
       <match lemma="génie" tags="n.*"><select lemma="engèni"/></match>
     </rule>
-
-    <!-- pòst >> poste, planche -->
-    <rule weight="0.8">
-      <match lemma="pòst" tags="n.*" v="oci"><select lemma="poste"/></match>
-    </rule>
-
-    <!-- hèita >> événement, acte -->
-    <rule weight="0.8">
-      <match lemma="hèita" tags="n.*" v="oci@gascon"><select lemma="événement"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="hèita" tags="n.*" v="oci@gascon"><select lemma="acte"/></match>
-      <match tags="num.*"/>
-    </rule>
-
 
     <!-- biaish >> biais, manière -->
     <rule weight="0.8">
@@ -10745,51 +9132,6 @@
         </or>
     </rule>
 
-    <!-- gras >> gras, degré -->
-    <rule weight="0.8" v="oci">
-        <match lemma="gras" tags="n.*"><select lemma="degré"/></match>
-    </rule>
-    <rule weight="1.0" v="oci">
-        <match lemma="en" tags="pr"/>
-        <match lemma="gras" tags="n.*"><select lemma="degré"/></match>
-    </rule>
-
-    <!-- lana >> laine, lande -->
-    <rule weight="0.8" v="oci@gascon">
-        <match lemma="lana" tags="n.*"><select lemma="laine"/></match>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-        <or>
-            <seq n="pr_lieu"/>
-            <match lemma="traversar" tags="vblex.*"/>
-        </or>
-        <match tags="det.def.*"/>
-      <repeat from="0" upto="3">
-          <or>
-            <match tags="adv"/>
-            <match tags="preadv"/>
-            <match tags="adj.*"/>
-          </or>
-      </repeat>
-        <match lemma="lana" tags="n.*"><select lemma="lande"/></match>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-        <match lemma="lana" tags="n.f.pl"><select lemma="lande"/></match>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-        <match lemma="lana" tags="n.*"><select lemma="lande"/></match>
-        <match lemma="de" tags="pr"/>
-        <or>
-              <match tags="np.*"/>
-              <match tags=""/>
-        </or>
-    </rule>
-
-    <!-- lira >> lire, lyre -->
-    <rule weight="0.8" v="oci@gascon">
-        <match lemma="lira" tags="n.*"><select lemma="lire"/></match>
-    </rule>
-
     <!-- material >> matériel, matériau -->
     <rule weight="0.8">
         <match lemma="material" tags="n.*"><select lemma="matériel"/></match>
@@ -10837,86 +9179,6 @@
         </or>
     </rule>
 
-    <!-- mèca >> morve, mèche -->
-    <rule weight="0.8" v="oci">
-        <match lemma="mèca" tags="n.*"><select lemma="morve"/></match>
-    </rule>
-    <rule weight="1.0" v="oci">
-        <match lemma="mèca" tags="n.*"><select lemma="mèche"/></match>
-        <match lemma="de" tags="pr"/>
-    </rule>
-
-    <!-- mèl >> e-mail, miel -->
-    <rule weight="0.8" v="oci">
-        <match lemma="mèl" tags="n.*"><select lemma="miel"/></match>
-    </rule>
-    <rule weight="1.0" v="oci">
-        <or>
-            <match lemma="mandar" tags="vblex.*"/>
-            <match lemma="enviar" tags="vblex.*"/>
-            <match lemma="escriure" tags="vblex.*"/>
-            <match lemma="redigir" tags="vblex.*"/>
-            <match lemma="transferir" tags="vblex.*"/>
-            <match lemma="legir" tags="vblex.*"/>
-            <match lemma="mandar" tags="vblex.*"/>
-            <match lemma="mandar" tags="vblex.*"/>
-            <match lemma="recebre" tags="vblex.*"/>
-            <match lemma="corregir" tags="vblex.*"/>
-            <match lemma="dobrir" tags="vblex.*"/>
-            <match lemma="obrir" tags="vblex.*"/>
-            <match lemma="aviar" tags="vblex.*"/>
-            <match lemma="postar" tags="vblex.*"/>
-            <match lemma="adreçar" tags="vblex.*"/>
-            <match lemma="piratar" tags="vblex.*"/>
-        </or>
-        <repeat from="0" upto="3">
-          <or>
-            <match tags="adv"/>
-            <match tags="det.*"/>
-            <match tags="num"/>
-            <match tags="num.*"/>
-            <match lemma="de" tags="pr"/>
-          </or>
-        </repeat>
-        <repeat from="0" upto="3">
-            <or>
-              <match tags="adv"/>
-              <match tags="preadv"/>
-              <match tags="adj.*"/>
-            </or>
-        </repeat>
-        <match lemma="mèl" tags="n.*"><select lemma="e-mail"/></match>
-    </rule>
-    <rule weight="1.0" v="oci">
-        <or>
-          <match lemma="respondre" tags="vblex.*"/>
-        </or>
-        <repeat from="0" upto="2">
-          <match tags="adv"/>
-        </repeat>
-        <match lemma="a" tags="pr"/>
-        <repeat from="0" upto="3">
-          <or>
-            <match tags="det.*"/>
-            <match tags="num"/>
-            <match tags="num.*"/>
-            <match lemma="de" tags="pr"/>
-            <match tags="adv"/>
-            <match tags="preadv"/>
-            <match tags="adj.*"/>
-          </or>
-        </repeat>
-        <match lemma="mèl" tags="n.*"><select lemma="e-mail"/></match>
-    </rule>
-
-    <!-- niu >> nid, nuage -->
-    <rule weight="0.8" v="oci">
-        <match lemma="niu" tags="n.*"><select lemma="nid"/></match>
-    </rule>
-    <rule weight="1.0" v="oci">
-        <match lemma="niu" tags="n.m.pl"><select lemma="nuage"/></match>
-    </rule>
-
     <!-- obrador >> atelier, chantier -->
     <rule weight="0.8">
         <match lemma="obrador" tags="n.*"><select lemma="chantier"/></match>
@@ -10928,38 +9190,6 @@
     <rule weight="1.0">
         <match tags="det.pos.*"/>
         <match lemma="obrador" tags="n.*"><select lemma="atelier"/></match>
-    </rule>
-
-    <!-- ostaleria >> hôtel, hôtellerie -->
-    <rule weight="0.8" v="oci@gascon">
-        <match lemma="ostaleria" tags="n.*"><select lemma="hôtel"/></match>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-        <or>
-            <match lemma="domeni" tags="n.*"/>
-            <match lemma="sector" tags="n.*"/>
-            <match lemma="maine" tags="n.*"/>
-            <match lemma="bac" tags="n.*"/>
-            <match lemma="BTS" tags="n.*"/>
-            <match lemma="diplòme" tags="n.*"/>
-            <match lemma="estudi" tags="n.*"/>
-            <match lemma="mestièr" tags="n.*"/>
-            <match lemma="tribalh" tags="n.*"/>
-            <match lemma="trabalh" tags="n.*"/>
-            <match lemma="empleg" tags="n.*"/>
-            <match lemma="trabalhar" tags="n.*"/>
-            <match lemma="tribalhar" tags="n.*"/>
-            <match lemma="restauracion" tags="n.*"/>
-            <match lemma="activitat" tags="n.*"/>
-            <match lemma="licéncia" tags="n.*"/>
-        </or>
-        <repeat from="0" upto="3">
-            <or>
-              <match tags=""/>
-              <match tags="*"/>
-            </or>
-        </repeat>
-        <match lemma="ostaleria" tags="n.*"><select lemma="hôtellerie"/></match>
     </rule>
 
     <!-- pel >> cheveu, poil -->
@@ -11018,24 +9248,6 @@
     <!-- roman >> roman, romain -->
     <rule weight="0.8">
         <match lemma="roman" tags="n.m.*"><select lemma="roman"/></match>
-    </rule>
-
-    <!-- rondalejaire >> randonneur, rôdeur -->
-    <rule weight="0.8" v="oci@gascon">
-        <match lemma="rondalejaire" tags="n.*"><select lemma="rôdeur"/></match>
-    </rule>
-
-    <!-- som >> sommet, sommeil -->
-    <rule weight="0.8" v="oci@gascon">
-        <match lemma="som" tags="n.*"><select lemma="sommet"/></match>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-        <match lemma="som" tags="n.*"><select lemma="sommeil"/></match>
-        <match lemma="som" tags="n.*"/>
-    </rule>
-    <rule weight="1.0" v="oci@gascon">
-        <match lemma="som" tags="n.*"/>
-        <match lemma="som" tags="n.*"><select lemma="sommeil"/></match>
     </rule>
 
     <!-- valon >> vallon, wallon -->
@@ -11149,7 +9361,6 @@
       <match lemma="davalada" tags="n.f.*"><select lemma="automne"/></match>
       <or><match tags="num"/><match tags="num.*"/></or>
     </rule>
-
   </rules>
 </lrx>
 
