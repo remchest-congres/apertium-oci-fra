@@ -129,6 +129,7 @@ Nuit lit farine feuilles
     │   │   │                                                       into Occitan
     │   │   ├─ apertium-oci-fra.oci_gascon-fra.n_a_adv.lrx      -> Lexical selection rules for noun and adverbs
     │   │   │                                                       translation into French
+    │   |   ├─ apertium-oci-fra.oci_gascon-fra.v.lrx            -> Lexical selection rules for verbs translation into French
     │   │   └─ apertium-oci-fra.oci_gascon-fra.other.lrx        -> Lexical selection rules translating into French
     │   │
     │   ├─ lengadocian/
@@ -141,6 +142,7 @@ Nuit lit farine feuilles
     │   │   │                                                       into Occitan
     │   │   ├─ apertium-oci-fra.oci_lang-fra.n_a_adv.lrx        -> Lexical selection rules for noun and adverbs
     │   │   │                                                       translation into French
+    │   |   ├─ apertium-oci-fra.oci_lang-fra.v.lrx              -> Lexical selection rules for verbs translation into French
     │   │   └─ apertium-oci-fra.oci_lang-fra.other.lrx          -> Lexical selection rules translating into French
     │   │
     │   ├─ apertium-oci-fra.fra-oci.n_a_adv.lrx    -> Lexical selection rules for noun and adverbs

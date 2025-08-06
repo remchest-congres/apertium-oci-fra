@@ -290,6 +290,9 @@
       <program name="lrx-proc -m" debug-suff="lex_v">
         <file name="bin/oci-fra.v.autolex.bin"/>
       </program>
+      <program name="lrx-proc -m" debug-suff="lex_v_lang">
+        <file name="bin/oci_lang-fra.v.autolex.bin"/>
+      </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="bin/oci-fra.other.autolex.bin"/>
       </program>
@@ -415,6 +418,9 @@
       <program name="lrx-proc -m" debug-suff="lex_v">
         <file name="bin/oci-fra.v.autolex.bin"/>
       </program>
+      <program name="lrx-proc -m" debug-suff="lex_v_lang">
+        <file name="bin/oci_lang-fra.v.autolex.bin"/>
+      </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="bin/oci-fra.other.autolex.bin"/>
       </program>
@@ -530,6 +536,9 @@
       </program>
       <program name="lrx-proc -m" debug-suff="lex_v">
         <file name="bin/oci-fra.v.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_v_gascon">
+        <file name="bin/oci_gascon-fra.v.autolex.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="bin/oci-fra.other.autolex.bin"/>
@@ -655,6 +664,9 @@
       </program>
       <program name="lrx-proc -m" debug-suff="lex_v">
         <file name="bin/oci-fra.v.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex_v_gascon">
+        <file name="bin/oci_gascon-fra.v.autolex.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="bin/oci-fra.other.autolex.bin"/>

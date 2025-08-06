@@ -133,4 +133,4 @@ mettre à jour les modes
 - [x] apertium-oci-fra.oci-fra.n_a_adv.lrx
 - [x] ~~apertium-oci-fra.oci-fra.np.lrx~~ ne dépend pas des variétés
 - [x] apertium-oci-fra.oci-fra.other.lrx
-- [ ] apertium-oci-fra.oci-fra.v.lrx
+- [x] apertium-oci-fra.oci-fra.v.lrx
