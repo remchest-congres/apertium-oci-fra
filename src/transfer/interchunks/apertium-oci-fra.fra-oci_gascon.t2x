@@ -87,6 +87,7 @@
       <cat-item lemma="paréisher" tags="SV.*"/>
       <cat-item lemma="semblar" tags="SV.*"/>
       <cat-item lemma="venir" tags="SV.*"/>
+      <cat-item lemma="viéner" tags="SV.*"/>
     </def-cat>
     <def-cat n="SPron">
       <cat-item tags="SPron"/>

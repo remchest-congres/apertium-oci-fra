@@ -3005,6 +3005,31 @@
       </or>
     </rule>
 
+    <!-- har# vàser >> faire# apparaître, rendre -->
+    <rule weight="0.8">
+      <match lemma="har# vàser" tags="vblex.*"><select lemma="faire# apparaître"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="har# vàser" tags="vblex.*"><select lemma="rendre"/></match>
+      <repeat from="0" upto="1">
+        <or>
+        <match lemma="mei" tags="adv"/>
+        <match lemma="mai" tags="adv"/>
+        <match lemma="mes" tags="adv"/>
+        <match lemma="mens" tags="adv"/>
+        <match lemma="mensh" tags="adv"/>
+        <match lemma="tant" tags="adv"/>
+        <match lemma="tan" tags="adv"/>
+        <match lemma="autant" tags="adv"/>
+        <match lemma="autan" tags="adv"/>
+        <match tags="preadv"/>
+        </or>
+      </repeat>
+      <or>
+        <match tags="adj.*"/>
+      </or>
+    </rule>
+
     <!-- har# dòu >> faire# de la peine, regretter -->
     <macro n="verb_nopron_pronci"><with-param v="har# dòu"/><with-param v="faire# de la peine"/><with-param v="regretter"/></macro>
 
@@ -3079,10 +3104,10 @@
 
     <!-- vàder >> devenir, naître -->
     <rule weight="0.8">
-      <match lemma="vàder" tags="vblex.*"><select lemma="devenir"/></match>
+      <match lemma="vàser" tags="vblex.*"><select lemma="devenir"/></match>
     </rule>
     <rule weight="1.0">
-      <match lemma="vàder" tags="vblex.*"><select lemma="naître"/></match>
+      <match lemma="vàser" tags="vblex.*"><select lemma="naître"/></match>
         <or>
         <match lemma="a" tags="pr"/>
         <match lemma="en" tags="pr"/>

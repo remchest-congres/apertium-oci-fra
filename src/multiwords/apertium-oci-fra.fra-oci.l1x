@@ -276,19 +276,7 @@
       <par n="adv"/>
       <p><l>endosser<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
     </e>
-
-    <e lm="faire valoir">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>valoir</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <p><l>valoir<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
-    <e lm="faire valoir">
-      <p><l>faire<s n="vblex"/></l><r>faire<g><b/>valoir</g><s n="vblex"/></r></p>
-      <i><t/><d/></i>
-      <par n="adv"/>
-      <p><l>valoir<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
-    </e>
-
+    
     <e lm="faire venir">
       <p><l>faire<s n="vblex"/></l><r>faire<g><b/>venir</g><s n="vblex"/></r></p>
       <i><t/><d/></i>

@@ -2339,11 +2339,13 @@
     <rule weight="0.8">
       <or>
         <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
+        <match lemma="viéner" tags="vblex.*"><select lemma="venir"/></match>
       </or>
     </rule>
     <rule weight="1.0">
       <or>
         <match lemma="venir" tags="vblex.*"><select lemma="devenir"/></match>
+        <match lemma="viéner" tags="vblex.*"><select lemma="devenir"/></match>
       </or>
       <repeat from="0" upto="2">
         <or>
@@ -2357,7 +2359,10 @@
       </or>
     </rule>
     <rule weight="1.0">
-      <match lemma="venir" tags="vblex.*.pl"><select lemma="devenir"/></match>
+      <or>
+        <match lemma="venir" tags="vblex.*.pl"><select lemma="devenir"/></match>
+        <match lemma="viéner" tags="vblex.*.pl"><select lemma="devenir"/></match>
+      </or>
       <match lemma="de" tags="pr"/>
       <or>
         <match tags="n.*.pl"/>
@@ -2365,7 +2370,10 @@
       </or>
     </rule>
     <rule weight="1.0">
-      <match lemma="venir" tags="vblex.*.pl"><select lemma="venir"/></match>
+      <or>
+        <match lemma="venir" tags="vblex.*.pl"><select lemma="venir"/></match>
+        <match lemma="viéner" tags="vblex.*.pl"><select lemma="venir"/></match>
+      </or>
       <match lemma="de" tags="pr"/>
       <or>
         <match lemma="vila" tags="n.*.pl"/>
@@ -2386,6 +2394,7 @@
     <rule weight="1.2">
       <or>
         <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
+        <match lemma="viéner" tags="vblex.*"><select lemma="venir"/></match>
       </or>
       <repeat from="0" upto="2">
         <or>
@@ -2411,6 +2420,7 @@
       </repeat>
       <or>
         <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
+        <match lemma="viéner" tags="vblex.*"><select lemma="venir"/></match>
       </or>
       <repeat from="0" upto="2">
         <or>
@@ -2445,6 +2455,7 @@
       </repeat>
       <or>
         <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
+        <match lemma="viéner" tags="vblex.*"><select lemma="venir"/></match>
       </or>
       <repeat from="0" upto="2">
         <or>
@@ -2466,6 +2477,7 @@
     <rule weight="1.2">
       <or>
         <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
+        <match lemma="viéner" tags="vblex.*"><select lemma="venir"/></match>
       </or>
       <repeat from="0" upto="2">
         <or>
@@ -2526,6 +2538,7 @@
       </or>
       <or>
         <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
+        <match lemma="viéner" tags="vblex.*"><select lemma="venir"/></match>
       </or>
     </rule>
 
@@ -2553,12 +2566,14 @@
       </repeat>
       <or>
         <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
+        <match lemma="viéner" tags="vblex.*"><select lemma="venir"/></match>
       </or>
     </rule>
 
     <rule weight="1.2">
       <or>
         <match lemma="venir" tags="vblex.*"><select lemma="venir"/></match>
+        <match lemma="viéner" tags="vblex.*"><select lemma="venir"/></match>
       </or>
       <repeat from="0" upto="3">
         <or>
@@ -2585,6 +2600,7 @@
     <rule weight="1.2">
       <or>
         <match lemma="Venir" tags="vblex.*"><select lemma="venir"/></match>
+        <match lemma="Viéner" tags="vblex.*"><select lemma="venir"/></match>
       </or>
       <or>
         <match tags="det.*"/>
@@ -2610,6 +2626,7 @@
       </repeat>
       <or>
         <match lemma="venir" tags="vblex.ifi.p3.*"><select lemma="venir"/></match>
+        <match lemma="viéner" tags="vblex.ifi.p3.*"><select lemma="venir"/></match>
       </or>
       <or>
         <match tags="det.*"/>
@@ -2800,16 +2817,23 @@
 
     <!-- sèire >> asseoir, siéger -->
     <macro n="verb_nopron_pron"><with-param v="sèire"/><with-param v="siéger"/><with-param v="asseoir"/></macro>
+    <macro n="verb_nopron_pron"><with-param v="sèser"/><with-param v="siéger"/><with-param v="asseoir"/></macro>
 
     <!-- rebàter/rebatre >> rebattre, refléter -->
-    <macro n="verb_nopron_pron"><with-param v="rebatre"/><with-param v="rebattre"/><with-param v="refléter"/></macro>
+    <macro n="verb_nopron_pron"><with-param v="rebàter"/><with-param v="rebattre"/><with-param v="refléter"/></macro>
 
     <!-- far# venir >> faire# venir, rendre -->
     <rule weight="0.8">
-      <match lemma="far# venir" tags="vblex.*"><select lemma="faire# venir"/></match>
+      <or>
+        <match lemma="far# venir" tags="vblex.*"><select lemma="faire# venir"/></match>
+        <match lemma="far# viéner" tags="vblex.*"><select lemma="faire# venir"/></match>
+      </or>
     </rule>
     <rule weight="1.0">
-      <match lemma="far# venir" tags="vblex.*"><select lemma="rendre"/></match>
+      <or>
+        <match lemma="far# venir" tags="vblex.*"><select lemma="rendre"/></match>
+        <match lemma="far# viéner" tags="vblex.*"><select lemma="rendre"/></match>
+      </or>
       <repeat from="0" upto="1">
         <or>
         <match lemma="plus" tags="adv"/>

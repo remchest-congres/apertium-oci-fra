@@ -45,13 +45,13 @@
     <e lm="tornar fotre">
       <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>fotre</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
-      <p><l>fotre<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+      <p><l>fóter<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
     </e>
     <e lm="tornar fotre">
       <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>fotre</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
       <par n="adv"/>
-      <p><l>fotre<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+      <p><l>fóter<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
     </e>
 
     <e lm="tornar legir">
@@ -69,13 +69,13 @@
     <e lm="tornar metre">
       <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>metre</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
-      <p><l>metre<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+      <p><l>méter<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
     </e>
     <e lm="tornar metre">
       <p><l>tornar<s n="vblex"/></l><r>tornar<g><b/>metre</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
       <par n="adv"/>
-      <p><l>metre<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
+      <p><l>méter<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
     </e>
 
     <!-- vblex n -->
@@ -444,12 +444,12 @@
     </e>
 
     <e lm="vendre de dròga">
-      <p><l>vendre<s n="vblex"/></l><r>vendre<g><b/>de<b/>dròga</g><s n="vblex"/></r></p>
+      <p><l>vénder<s n="vblex"/></l><r>vénder<g><b/>de<b/>dròga</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
       <p><l>de<s n="pr"/><d/>dròga<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
     </e>
     <e lm="vendre de dròga">
-      <p><l>vendre<s n="vblex"/></l><r>vendre<g><b/>de<b/>dròga</g><s n="vblex"/></r></p>
+      <p><l>vénder<s n="vblex"/></l><r>vénder<g><b/>de<b/>dròga</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
       <par n="adv"/>
       <p><l>de<s n="pr"/><d/>dròga<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
@@ -457,13 +457,13 @@
 
     <!-- vblex pr det n -->
 
-    <e lm="metre pel cap">
-      <p><l>metre<s n="vblex"/></l><r>metre<g><b/>per<b/>lo<b/>cap</g><s n="vblex"/></r></p>
+    <e lm="méter pel cap">
+      <p><l>méter<s n="vblex"/></l><r>méter<g><b/>per<b/>lo<b/>cap</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
       <p><l>per<s n="pr"/><d/>lo<s n="det"/><s n="def"/><t/><d/>cap<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
     </e>
-    <e lm="metre pel cap">
-      <p><l>metre<s n="vblex"/></l><r>metre<g><b/>per<b/>lo<b/>cap</g><s n="vblex"/></r></p>
+    <e lm="méter pel cap">
+      <p><l>méter<s n="vblex"/></l><r>méter<g><b/>per<b/>lo<b/>cap</g><s n="vblex"/></r></p>
       <i><t/><d/></i>
       <par n="adv"/>
       <p><l>per<s n="pr"/><d/>lo<s n="det"/><s n="def"/><t/><d/>cap<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>

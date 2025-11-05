@@ -1702,7 +1702,7 @@
     </rule>
 
     <rule weight="1.0">
-      <match lemma="enfiler" tags="vblex.*"><select lemma="prene"/></match>
+      <match lemma="enfiler" tags="vblex.*"><select lemma="préner"/></match>
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
@@ -1727,7 +1727,7 @@
       </or>
     </rule>
     <rule weight="1.0">
-      <match lemma="enfiler" tags="vblex.*"><select lemma="prene"/></match>
+      <match lemma="enfiler" tags="vblex.*"><select lemma="préner"/></match>
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
@@ -1768,7 +1768,7 @@
 
     <!-- produire >> produire/produsir, mostrar/amushar -->
     <rule weight="0.8">
-      <match lemma="produire" tags="vblex.*"><select lemma="produire"/></match>
+      <match lemma="produire" tags="vblex.*"><select lemma="prodúser"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="se" tags="prn.pro.*"/>
@@ -1926,7 +1926,7 @@
       <match lemma="épingler" tags="vblex.*"><select lemma="espillar"/></match>
     </rule>
     <rule weight="1.0">
-      <match lemma="épingler" tags="vblex.*"><select lemma="prene"/></match>
+      <match lemma="épingler" tags="vblex.*"><select lemma="préner"/></match>
       <repeat from="0" upto="4">
         <or>
           <match tags="adv"/>
@@ -1942,12 +1942,12 @@
     </rule>
     <rule weight="1.0">
       <seq n="prn_cd"/>
-      <match lemma="épingler" tags="vblex.*"><select lemma="prene"/></match>
+      <match lemma="épingler" tags="vblex.*"><select lemma="préner"/></match>
     </rule>
 
     <!-- apprendre >> aprene/apréner, assabentar, ensenhar -->
     <rule weight="0.8">
-      <match lemma="apprendre" tags="vblex.*"><select lemma="aprene"/></match>
+      <match lemma="apprendre" tags="vblex.*"><select lemma="apréner"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="apprendre" tags="vblex.*"><select lemma="assabentar"/></match>
@@ -2043,7 +2043,7 @@
       <match lemma="relever" tags="vblex.*"><select lemma="relevar"/></match>
     </rule>
     <rule weight="1.0">
-      <match lemma="relever" tags="vblex.*.p3.*"><select lemma="dependre"/></match>
+      <match lemma="relever" tags="vblex.*.p3.*"><select lemma="depénder"/></match>
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
@@ -2052,7 +2052,7 @@
     </rule>
     <rule weight="1.0">
       <match tags="prn.pro.*"/>
-      <match lemma="relever" tags="vblex.*"><select lemma="remetre"/></match>
+      <match lemma="relever" tags="vblex.*"><select lemma="reméter"/></match>
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
@@ -2076,7 +2076,7 @@
       <match lemma="refouler" tags="vblex.*"><select lemma="alunhar"/></match>
     </rule>
     <rule weight="1.0">
-      <match lemma="refouler" tags="vblex.*"><select lemma="reténer"/></match>
+      <match lemma="refouler" tags="vblex.*"><select lemma="retiéner"/></match>
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
@@ -2262,7 +2262,7 @@
 
     <!-- mettre >> metre/méter, (se) cargar/passar, hicar -->
     <rule weight="0.8">
-      <match lemma="mettre" tags="vblex.*"><select lemma="metre"/></match>
+      <match lemma="mettre" tags="vblex.*"><select lemma="méter"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="mettre" tags="vblex.*"><select lemma="cargar"/></match>
@@ -2835,13 +2835,13 @@
 
     <!-- démettre >> desmetre/desméter, deslogar -->
     <rule weight="0.8">
-      <match lemma="démettre" tags="vblex.*"><select lemma="desmetre"/></match>
+      <match lemma="démettre" tags="vblex.*"><select lemma="desméter"/></match>
     </rule>
 
     <!-- entendre >> ausir/audir, entendre/enténer -->
-    <macro n="verb_nopron_pron"><with-param v="entendre"/><with-param v="ausir"/><with-param v="entendre"/></macro>
+    <macro n="verb_nopron_pron"><with-param v="entendre"/><with-param v="ausir"/><with-param v="enténder"/></macro>
     <rule weight="1.2">
-      <match lemma="entendre" tags="vblex.*"><select lemma="entendre"/></match>
+      <match lemma="entendre" tags="vblex.*"><select lemma="enténder"/></match>
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
@@ -2855,10 +2855,10 @@
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
-      <match lemma="entendre" tags="vblex.inf"><select lemma="entendre"/></match>
+      <match lemma="entendre" tags="vblex.inf"><select lemma="enténder"/></match>
     </rule>
     <rule weight="1.2">
-      <match lemma="entendre" tags="vblex.inf"><select lemma="entendre"/></match>
+      <match lemma="entendre" tags="vblex.inf"><select lemma="enténder"/></match>
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
@@ -3028,7 +3028,7 @@
     <macro n="verb_nopron_pron"><with-param v="affaler"/><with-param v="afalar"/><with-param v="espatarrar"/></macro>
 
     <!-- dessaisir -> despossedir, desprene/despréner -->
-    <macro n="verb_nopron_pron"><with-param v="dessaisir"/><with-param v="despossedir"/><with-param v="desprene"/></macro>
+    <macro n="verb_nopron_pron"><with-param v="dessaisir"/><with-param v="despossedir"/><with-param v="despréner"/></macro>
 
     <!-- engouffrer -> engolir/englotir, entraucar -->
     <macro n="verb_nopron_pron"><with-param v="engouffrer"/><with-param v="engolir"/><with-param v="entraucar"/></macro>
@@ -3224,11 +3224,11 @@
     <macro n="verb_nopron_pron"><with-param v="rappeler"/><with-param v="rampelar"/><with-param v="remembrar"/></macro>
 
     <!-- refléter >> rebatre/rebàter, miralhar -->
-    <macro n="verb_nopron_pron"><with-param v="refléter"/><with-param v="rebatre"/><with-param v="miralhar"/></macro>
+    <macro n="verb_nopron_pron"><with-param v="refléter"/><with-param v="rebàter"/><with-param v="miralhar"/></macro>
 
     <!-- suspendre >> penjar, suspendre/suspéner -->
     <rule weight="0.8">
-      <match lemma="suspendre" tags="vblex.*"><select lemma="suspendre"/></match>
+      <match lemma="suspendre" tags="vblex.*"><select lemma="suspénder"/></match>
     </rule>
 
     <!-- truquer >> falsar/faussar, trucar... -->
@@ -3271,7 +3271,7 @@
 
     <!-- accoucher >> ajaire, levar -->
     <!-- accoucher >> amainadar, har# amainadar -->
-    <macro n="verb_intrans_trans"><with-param v="accoucher"/><with-param v="ajaire"/><with-param v="levar"/></macro>
+    <macro n="verb_intrans_trans"><with-param v="accoucher"/><with-param v="ajàser"/><with-param v="levar"/></macro>
 
     <!-- enrager >> s'enrabiar, enrabiar -->
     <!-- enrager >> estar emmalit/ida/its/idas, embriscar -->
@@ -3284,7 +3284,7 @@
     <macro n="verb_nopron_pron_prep"><with-param v="mêler"/><with-param v="mesclar"/><with-param v="mainar"/><with-param v="de"/></macro>
 
     <!-- échouer >> mal escaire/(s'i) mauescàder, encalar/encalhar -->
-    <macro n="verb_nopron_pron"><with-param v="échouer"/><with-param v="mal escaire"/><with-param v="encalar"/></macro>
+    <macro n="verb_nopron_pron"><with-param v="échouer"/><with-param v="mal escàser"/><with-param v="encalar"/></macro>
 
     <!-- ébranler >> brandir, abranlir / susmàver, trebolar -->
     <rule weight="0.8">
@@ -3317,6 +3317,7 @@
           <match lemma="certesa" tags="n.*"/>
           <match lemma="credença" tags="n.*"/>
           <match lemma="cresença" tags="n.*"/>
+          <match lemma="créser" tags="n.*"/>
           <match lemma="créder" tags="n.*"/>
           <match lemma="fe" tags="n.*"/>
           <match lemma="he" tags="n.*"/>
@@ -3340,7 +3341,7 @@
     <!-- rendre >> tornar, aller, far venir/har vàder, venir/vàder -->
 
     <rule weight="1.2">
-      <match lemma="rendre" tags="vblex.*"><select lemma="rendre"/></match>
+      <match lemma="rendre" tags="vblex.*"><select lemma="rénder"/></match>
       <repeat from="0" upto="2">
         <or>
           <match lemma="plus" tags="adv"/>
@@ -3357,7 +3358,7 @@
 
     <rule weight="1.0">
       <match tags="prn.pro.*"/>
-      <match lemma="rendre" tags="vblex.*"><select lemma="venir"/></match>
+      <match lemma="rendre" tags="vblex.*"><select lemma="viéner"/></match>
       <repeat from="0" upto="2">
         <or>
           <match tags="adv"/>
@@ -3372,7 +3373,7 @@
 
     <!-- rendre# compte >> rendre# compte, mainar -->
     <!-- rendre# compte >> rénder# compte, avisar -->
-    <macro n="verb_nopron_pron"><with-param v="rendre# compte"/><with-param v="rendre# compte"/><with-param v="mainar"/></macro>
+    <macro n="verb_nopron_pron"><with-param v="rendre# compte"/><with-param v="rénder# compte"/><with-param v="mainar"/></macro>
 
     <!-- dépêcher, se dépêcher -->
     <macro n="verb_nopron_pron"><with-param v="dépêcher"/><with-param v="despachar"/><with-param v="trigar"/></macro>

@@ -140,60 +140,60 @@
 
     <!-- vbser adj -->
 
-    <e lm="estar faus">
-      <p><l>estar<s n="vbser"/><t/><g><b/>faus</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser faus">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>faus</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>faus<s n="adj"/><s n="m"/><s n="sg"/><d/></r></p>
     </e>
 
-    <e lm="estar faus">
-      <p><l>estar<s n="vbser"/><t/><g><b/>faus</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser faus">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>faus</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>faus<s n="adj"/><s n="m"/><s n="pl"/><d/></r></p>
     </e>
 
-    <e lm="estar faussa">
-      <p><l>estar<s n="vbser"/><t/><g><b/>faussa</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser faussa">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>faussa</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>faus<s n="adj"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
-    <e lm="estar faussas">
-      <p><l>estar<s n="vbser"/><t/><g><b/>faussas</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser faussas">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>faussas</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>faus<s n="adj"/><s n="f"/><s n="pl"/><d/></r></p>
     </e>
 
     <!-- vbser n -->
 
-    <e lm="estar hòu">
-      <p><l>estar<s n="vbser"/><t/><g><b/>hòu</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser hòu">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>hòu</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>hòl<s n="adj"/><s n="m"/><s n="sg"/><d/></r></p>
     </e>
 
-    <e lm="estar hòla">
-      <p><l>estar<s n="vbser"/><t/><g><b/>hòla</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser hòla">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>hòla</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>hòl<s n="adj"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
-    <e lm="estar hòus">
-      <p><l>estar<s n="vbser"/><t/><g><b/>hòus</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser hòus">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>hòus</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>hòl<s n="adj"/><s n="m"/><s n="pl"/><d/></r></p>
     </e>
 
-    <e lm="estar hòlas">
-      <p><l>estar<s n="vbser"/><t/><g><b/>hòlas</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser hòlas">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>hòlas</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>hòl<s n="adj"/><s n="f"/><s n="pl"/><d/></r></p>
     </e>
 
     <!-- vbser n -->
 
-    <e lm="estar vertat">
-      <p><l>estar<s n="vbser"/><t/><g><b/>vertat</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser vertat">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>vertat</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>vertat<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
@@ -229,7 +229,7 @@
     <e lm="har acréder">
       <p><l>har<s n="vblex"/><t/><g><b/>acréder</g><d/></l><r>har<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>acréder<s n="vblex"/><s n="inf"/><d/></r></p>
+      <p><l></l><r>acréser<s n="vblex"/><s n="inf"/><d/></r></p>
     </e>
 
     <e lm="har trantalhar">
@@ -372,71 +372,71 @@
 
     <!-- vbser pr prn -->
 
-    <e lm="estar entà jo">
-      <p><l>estar<s n="vbser"/><t/><g><b/>entà<b/>jo</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser entà jo">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>entà<b/>jo</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>entà<s n="pr"/><d/></r></p>
       <p><l></l><r>jo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/><d/></r></p>
     </e>
 
-    <e lm="estar entà tu">
-      <p><l>estar<s n="vbser"/><t/><g><b/>entà<b/>tu</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser entà tu">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>entà<b/>tu</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>entà<s n="pr"/><d/></r></p>
       <p><l></l><r>tu<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/><d/></r></p>
     </e>
 
-    <e lm="estar entad eth">
-      <p><l>estar<s n="vbser"/><t/><g><b/>entad<b/>eth</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser entad eth">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>entad<b/>eth</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>entà<s n="pr"/><d/></r></p>
       <p><l></l><r>prneth<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/><d/></r></p>
     </e>
 
-    <e lm="estar entad era">
-      <p><l>estar<s n="vbser"/><t/><g><b/>entad<b/>era</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser entad era">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>entad<b/>era</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>entà<s n="pr"/><d/></r></p>
       <p><l></l><r>prneth<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
-    <e lm="estar entà nosauts">
-      <p><l>estar<s n="vbser"/><t/><g><b/>entà<b/>nosauts</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser entà nosauts">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>entà<b/>nosauts</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>entà<s n="pr"/><d/></r></p>
       <p><l></l><r>nosauts<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/><d/></r></p>
     </e>
 
-    <e lm="estar entà nosautas">
-      <p><l>estar<s n="vbser"/><t/><g><b/>entà<b/>nosautas</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser entà nosautas">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>entà<b/>nosautas</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>entà<s n="pr"/><d/></r></p>
       <p><l></l><r>nosauts<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/><d/></r></p>
     </e>
 
-    <e lm="estar entà vosauts">
-      <p><l>estar<s n="vbser"/><t/><g><b/>entà<b/>vosauts</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser entà vosauts">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>entà<b/>vosauts</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>entà<s n="pr"/><d/></r></p>
       <p><l></l><r>vosauts<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/><d/></r></p>
     </e>
 
-    <e lm="estar entà vosautas">
-      <p><l>estar<s n="vbser"/><t/><g><b/>entà<b/>vosautas</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser entà vosautas">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>entà<b/>vosautas</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>entà<s n="pr"/><d/></r></p>
       <p><l></l><r>vosauts<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/><d/></r></p>
     </e>
 
-    <e lm="estar entad eths">
-      <p><l>estar<s n="vbser"/><t/><g><b/>entad<b/>eths</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser entad eths">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>entad<b/>eths</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>entà<s n="pr"/><d/></r></p>
       <p><l></l><r>prneth<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/><d/></r></p>
     </e>
 
-    <e lm="estar entad eras">
-      <p><l>estar<s n="vbser"/><t/><g><b/>entad<b/>eras</g><d/></l><r>estar<s n="vbser"/><t/><d/></r></p>
+    <e lm="èsser entad eras">
+      <p><l>èsser<s n="vbser"/><t/><g><b/>entad<b/>eras</g><d/></l><r>èsser<s n="vbser"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>entà<s n="pr"/><d/></r></p>
       <p><l></l><r>prneth<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/><d/></r></p>

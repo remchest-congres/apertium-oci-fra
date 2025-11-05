@@ -1399,6 +1399,7 @@
       <match lemma="en per" tags="pr"/>
       <match lemma="en perlongament de" tags="pr"/>
       <match lemma="en véder" tags="pr"/>
+      <match lemma="en véser" tags="pr"/>
       <match lemma="en vista de" tags="pr"/>
       <match lemma="ençà de" tags="pr"/>
       <match lemma="endarrièr de" tags="pr"/>
@@ -1565,6 +1566,7 @@
         <match lemma="pareisher" tags="vblex.*"/>
         <match lemma="paréisher" tags="vblex.*"/>
         <match lemma="devenir" tags="vblex.*"/>
+        <match lemma="deviéner" tags="vblex.*"/>
       </or>
       <repeat from="0" upto="2">
         <match tags="adv.*"/>

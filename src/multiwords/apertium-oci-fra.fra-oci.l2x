@@ -244,7 +244,7 @@
     <e lm="tornar créisher">
       <p><l>tornar<s n="vblex"/><t/><g><b/>créisher</g><d/></l><r>tornar<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>créisher<s n="vblex"/><s n="inf"/><d/></r></p>
+      <p><l></l><r>créisser<s n="vblex"/><s n="inf"/><d/></r></p>
     </e>
 
     <e lm="tornar créisser">
@@ -334,7 +334,7 @@
     <e lm="tornar dire">
       <p><l>tornar<s n="vblex"/><t/><g><b/>dire</g><d/></l><r>tornar<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>dire<s n="vblex"/><s n="inf"/><d/></r></p>
+      <p><l></l><r>díser<s n="vblex"/><s n="inf"/><d/></r></p>
     </e>
 
     <e lm="tornar emergir">
@@ -370,7 +370,7 @@
     <e lm="tornar escriure">
       <p><l>tornar<s n="vblex"/><t/><g><b/>escriure</g><d/></l><r>tornar<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>escriure<s n="vblex"/><s n="inf"/><d/></r></p>
+      <p><l></l><r>escríver<s n="vblex"/><s n="inf"/><d/></r></p>
     </e>
 
     <e lm="tornar escríver">
@@ -604,7 +604,7 @@
     <e lm="tornar paréisher">
       <p><l>tornar<s n="vblex"/><t/><g><b/>paréisher</g><d/></l><r>tornar<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
-      <p><l></l><r>paréisher<s n="vblex"/><s n="inf"/><d/></r></p>
+      <p><l></l><r>paréisser<s n="vblex"/><s n="inf"/><d/></r></p>
     </e>
 
     <e lm="tornar paréisser">

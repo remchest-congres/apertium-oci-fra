@@ -213,6 +213,12 @@
       <p><l></l><r>d'acòrdi<s n="adv"/><d/></r></p>
     </e>
 
+    <e lm="méter d'acòrdi">
+      <p><l>méter<s n="vblex"/><t/><g><b/>d'acòrdi</g><d/></l><r>méter<s n="vblex"/><t/><d/></r></p>
+      <par n="pas"/>
+      <p><l></l><r>d'acòrdi<s n="adv"/><d/></r></p>
+    </e>
+
     <!-- vblex inf -->
 
     <e lm="far creire" alt="oci">
@@ -267,6 +273,13 @@
 
     <e lm="metre la taula">
       <p><l>metre<s n="vblex"/><t/><g><b/>la<b/>taula</g><d/></l><r>metre<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>lo<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><d/></r></p>
+      <p><l></l><r>taula<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
+    </e>
+
+    <e lm="méter la taula">
+      <p><l>méter<s n="vblex"/><t/><g><b/>la<b/>taula</g><d/></l><r>méter<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>lo<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><d/></r></p>
       <p><l></l><r>taula<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
@@ -327,6 +340,13 @@
 
     <e lm="vendre de dròga">
       <p><l>vendre<s n="vblex"/><t/><g><b/>de<b/>dròga</g><d/></l><r>vendre<s n="vblex"/><t/><d/></r></p>
+      <par n="adv"/>
+      <p><l></l><r>de<s n="pr"/><d/></r></p>
+      <p><l></l><r>dròga<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
+    </e>
+
+    <e lm="vendre de dròga">
+      <p><l>vénder<s n="vblex"/><t/><g><b/>de<b/>dròga</g><d/></l><r>vénder<s n="vblex"/><t/><d/></r></p>
       <par n="adv"/>
       <p><l></l><r>de<s n="pr"/><d/></r></p>
       <p><l></l><r>dròga<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>

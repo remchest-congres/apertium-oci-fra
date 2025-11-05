@@ -2031,7 +2031,7 @@
 
     <!-- traduire >> traduire/tradusir, revirar -->
     <rule weight="0.8">
-      <match lemma="traduire" tags="vblex.*"><select lemma="traduire"/></match>
+      <match lemma="traduire" tags="vblex.*"><select lemma="tradúser"/></match>
     </rule>
     <rule weight="0.8">
       <match lemma="traduire" tags="vblex.*"><select lemma="tradusir"/></match>
@@ -2044,7 +2044,7 @@
 
     <!-- conduire >> conduire/condusir, menar/miar -->
     <rule weight="0.8">
-      <match lemma="conduire" tags="vblex.*"><select lemma="conduire"/></match>
+      <match lemma="conduire" tags="vblex.*"><select lemma="condúser"/></match>
     </rule>
     <rule weight="0.8">
       <match lemma="conduire" tags="vblex.*"><select lemma="condusir"/></match>

@@ -1072,6 +1072,7 @@
       <match lemma="venir" tags="vblex.*"/>
       <match lemma="vénguer" tags="vblex.*"/>
       <match lemma="vàder" tags="vblex.*"/>
+      <match lemma="vàser" tags="vblex.*"/>
       <match lemma="vier" tags="vblex.*"/>
       <match lemma="viéner" tags="vblex.*"/>
     </or></def-seq>
@@ -2854,6 +2855,7 @@
         <match lemma="pareisher" tags="vblex.*"/>
         <match lemma="paréisher" tags="vblex.*"/>
         <match lemma="devenir" tags="vblex.*"/>
+        <match lemma="deviéner" tags="vblex.*"/>
       </or>
       <repeat from="0" upto="2">
         <match tags="adv.*"/>
@@ -2931,24 +2933,25 @@
     <rule weight="1.0">
       <or>
         <match lemma="anar" tags="vblex.*.p1.sg"/>
-      <match lemma="venir" tags="vblex.*.p1.sg"/>
-      <match lemma="vénguer" tags="vblex.*.p1.sg"/>
-      <match lemma="vàder" tags="vblex.*.p1.sg"/>
-      <match lemma="vier" tags="vblex.*.p1.sg"/>
-      <match lemma="viéner" tags="vblex.*.p1.sg"/>
-      <match lemma="arribar" tags="vblex.*.p1.sg"/>
+        <match lemma="venir" tags="vblex.*.p1.sg"/>
+        <match lemma="vénguer" tags="vblex.*.p1.sg"/>
+        <match lemma="vàder" tags="vblex.*.p1.sg"/>
+        <match lemma="vàser" tags="vblex.*.p1.sg"/>
+        <match lemma="vier" tags="vblex.*.p1.sg"/>
+        <match lemma="viéner" tags="vblex.*.p1.sg"/>
+        <match lemma="arribar" tags="vblex.*.p1.sg"/>
         <match lemma="viatjar" tags="vblex.*.p1.sg"/>
         <match lemma="bracar" tags="vblex.*.p1.sg"/>
         <match lemma="sortir" tags="vblex.*.p1.sg"/>
         <match lemma="gésser" tags="vblex.*.p1.sg"/>
-      <match lemma="dintrar" tags="vblex.*.p1.sg"/>
-      <match lemma="entrar" tags="vblex.*.p1.sg"/>
-      <match lemma="intrar" tags="vblex.*.p1.sg"/>
+        <match lemma="dintrar" tags="vblex.*.p1.sg"/>
+        <match lemma="entrar" tags="vblex.*.p1.sg"/>
+        <match lemma="intrar" tags="vblex.*.p1.sg"/>
         <match lemma="arribar" tags="vblex.*.p1.sg"/>
         <match lemma="tornar" tags="vblex.*.p1.sg"/>
         <match lemma="partir" tags="vblex.*.p1.sg"/>
         <match lemma="tornar# partir" tags="vblex.*.p1.sg"/>
-      <match lemma="passar" tags="vblex.*.p1.sg"/>
+        <match lemma="passar" tags="vblex.*.p1.sg"/>
       </or>
       <repeat from="0" upto="2">
         <match tags="adv"/>
@@ -2965,24 +2968,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.pp.*"/>
-      <match lemma="venir" tags="vblex.pp.*"/>
-      <match lemma="vénguer" tags="vblex.pp.*"/>
-      <match lemma="vàder" tags="vblex.pp.*"/>
-      <match lemma="vier" tags="vblex.pp.*"/>
-      <match lemma="viéner" tags="vblex.pp.*"/>
-      <match lemma="arribar" tags="vblex.pp.*"/>
+        <match lemma="venir" tags="vblex.pp.*"/>
+        <match lemma="vénguer" tags="vblex.pp.*"/>
+        <match lemma="vàder" tags="vblex.pp.*"/>
+        <match lemma="vàser" tags="vblex.pp.*"/>
+        <match lemma="vier" tags="vblex.pp.*"/>
+        <match lemma="viéner" tags="vblex.pp.*"/>
+        <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="viatjar" tags="vblex.pp.*"/>
         <match lemma="bracar" tags="vblex.pp.*"/>
         <match lemma="sortir" tags="vblex.pp.*"/>
         <match lemma="gésser" tags="vblex.pp.*"/>
-      <match lemma="dintrar" tags="vblex.pp.*"/>
-      <match lemma="entrar" tags="vblex.pp.*"/>
-      <match lemma="intrar" tags="vblex.pp.*"/>
+        <match lemma="dintrar" tags="vblex.pp.*"/>
+        <match lemma="entrar" tags="vblex.pp.*"/>
+        <match lemma="intrar" tags="vblex.pp.*"/>
         <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="tornar" tags="vblex.pp.*"/>
         <match lemma="partir" tags="vblex.pp.*"/>
         <match lemma="tornar# partir" tags="vblex.pp.*"/>
-      <match lemma="passar" tags="vblex.pp.*"/>
+        <match lemma="passar" tags="vblex.pp.*"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez moi"/></match>
     </rule>
@@ -2993,19 +2997,20 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.inf"/>
-      <match lemma="venir" tags="vblex.inf"/>
-      <match lemma="vénguer" tags="vblex.inf"/>
-      <match lemma="vàder" tags="vblex.inf"/>
-      <match lemma="vier" tags="vblex.inf"/>
-      <match lemma="viéner" tags="vblex.inf"/>
-      <match lemma="arribar" tags="vblex.inf"/>
+        <match lemma="venir" tags="vblex.inf"/>
+        <match lemma="vénguer" tags="vblex.inf"/>
+        <match lemma="vàder" tags="vblex.inf"/>
+        <match lemma="vàser" tags="vblex.inf"/>
+        <match lemma="vier" tags="vblex.inf"/>
+        <match lemma="viéner" tags="vblex.inf"/>
+        <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="viatjar" tags="vblex.inf"/>
         <match lemma="bracar" tags="vblex.inf"/>
         <match lemma="sortir" tags="vblex.inf"/>
         <match lemma="gésser" tags="vblex.inf"/>
-      <match lemma="dintrar" tags="vblex.inf"/>
-      <match lemma="entrar" tags="vblex.inf"/>
-      <match lemma="intrar" tags="vblex.inf"/>
+        <match lemma="dintrar" tags="vblex.inf"/>
+        <match lemma="entrar" tags="vblex.inf"/>
+        <match lemma="intrar" tags="vblex.inf"/>
         <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="tornar" tags="vblex.inf"/>
         <match lemma="partir" tags="vblex.inf"/>
@@ -3018,24 +3023,25 @@
     <rule weight="1.0">
       <or>
         <match lemma="anar" tags="vblex.*.p2.sg"/>
-      <match lemma="venir" tags="vblex.*.p2.sg"/>
-      <match lemma="vénguer" tags="vblex.*.p2.sg"/>
-      <match lemma="vàder" tags="vblex.*.p2.sg"/>
-      <match lemma="vier" tags="vblex.*.p2.sg"/>
-      <match lemma="viéner" tags="vblex.*.p2.sg"/>
-      <match lemma="arribar" tags="vblex.*.p2.sg"/>
+        <match lemma="venir" tags="vblex.*.p2.sg"/>
+        <match lemma="vénguer" tags="vblex.*.p2.sg"/>
+        <match lemma="vàder" tags="vblex.*.p2.sg"/>
+        <match lemma="vàser" tags="vblex.*.p2.sg"/>
+        <match lemma="vier" tags="vblex.*.p2.sg"/>
+        <match lemma="viéner" tags="vblex.*.p2.sg"/>
+        <match lemma="arribar" tags="vblex.*.p2.sg"/>
         <match lemma="viatjar" tags="vblex.*.p2.sg"/>
         <match lemma="bracar" tags="vblex.*.p2.sg"/>
         <match lemma="sortir" tags="vblex.*.p2.sg"/>
         <match lemma="gésser" tags="vblex.*.p2.sg"/>
-      <match lemma="dintrar" tags="vblex.*.p2.sg"/>
-      <match lemma="entrar" tags="vblex.*.p2.sg"/>
-      <match lemma="intrar" tags="vblex.*.p2.sg"/>
+        <match lemma="dintrar" tags="vblex.*.p2.sg"/>
+        <match lemma="entrar" tags="vblex.*.p2.sg"/>
+        <match lemma="intrar" tags="vblex.*.p2.sg"/>
         <match lemma="arribar" tags="vblex.*.p2.sg"/>
         <match lemma="tornar" tags="vblex.*.p2.sg"/>
         <match lemma="partir" tags="vblex.*.p2.sg"/>
         <match lemma="tornar# partir" tags="vblex.*.p2.sg"/>
-      <match lemma="passar" tags="vblex.*.p2.sg"/>
+        <match lemma="passar" tags="vblex.*.p2.sg"/>
       </or>
       <repeat from="0" upto="2">
         <match tags="adv"/>
@@ -3052,24 +3058,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.pp.*"/>
-      <match lemma="venir" tags="vblex.pp.*"/>
-      <match lemma="vénguer" tags="vblex.pp.*"/>
-      <match lemma="vàder" tags="vblex.pp.*"/>
-      <match lemma="vier" tags="vblex.pp.*"/>
-      <match lemma="viéner" tags="vblex.pp.*"/>
-      <match lemma="arribar" tags="vblex.pp.*"/>
+        <match lemma="venir" tags="vblex.pp.*"/>
+        <match lemma="vénguer" tags="vblex.pp.*"/>
+        <match lemma="vàder" tags="vblex.pp.*"/>
+        <match lemma="vàser" tags="vblex.pp.*"/>
+        <match lemma="vier" tags="vblex.pp.*"/>
+        <match lemma="viéner" tags="vblex.pp.*"/>
+        <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="viatjar" tags="vblex.pp.*"/>
         <match lemma="bracar" tags="vblex.pp.*"/>
         <match lemma="sortir" tags="vblex.pp.*"/>
         <match lemma="gésser" tags="vblex.pp.*"/>
-      <match lemma="dintrar" tags="vblex.pp.*"/>
-      <match lemma="entrar" tags="vblex.pp.*"/>
-      <match lemma="intrar" tags="vblex.pp.*"/>
+        <match lemma="dintrar" tags="vblex.pp.*"/>
+        <match lemma="entrar" tags="vblex.pp.*"/>
+        <match lemma="intrar" tags="vblex.pp.*"/>
         <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="tornar" tags="vblex.pp.*"/>
         <match lemma="partir" tags="vblex.pp.*"/>
         <match lemma="tornar# partir" tags="vblex.pp.*"/>
-      <match lemma="passar" tags="vblex.pp.*"/>
+        <match lemma="passar" tags="vblex.pp.*"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez toi"/></match>
     </rule>
@@ -3080,24 +3087,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.inf"/>
-      <match lemma="venir" tags="vblex.inf"/>
-      <match lemma="vénguer" tags="vblex.inf"/>
-      <match lemma="vàder" tags="vblex.inf"/>
-      <match lemma="vier" tags="vblex.inf"/>
-      <match lemma="viéner" tags="vblex.inf"/>
-      <match lemma="arribar" tags="vblex.inf"/>
+        <match lemma="venir" tags="vblex.inf"/>
+        <match lemma="vénguer" tags="vblex.inf"/>
+        <match lemma="vàder" tags="vblex.inf"/>
+        <match lemma="vàser" tags="vblex.inf"/>
+        <match lemma="vier" tags="vblex.inf"/>
+        <match lemma="viéner" tags="vblex.inf"/>
+        <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="viatjar" tags="vblex.inf"/>
         <match lemma="bracar" tags="vblex.inf"/>
         <match lemma="sortir" tags="vblex.inf"/>
         <match lemma="gésser" tags="vblex.inf"/>
-      <match lemma="dintrar" tags="vblex.inf"/>
-      <match lemma="entrar" tags="vblex.inf"/>
-      <match lemma="intrar" tags="vblex.inf"/>
+        <match lemma="dintrar" tags="vblex.inf"/>
+        <match lemma="entrar" tags="vblex.inf"/>
+        <match lemma="intrar" tags="vblex.inf"/>
         <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="tornar" tags="vblex.inf"/>
         <match lemma="partir" tags="vblex.inf"/>
         <match lemma="tornar# partir" tags="vblex.inf"/>
-      <match lemma="passar" tags="vblex.inf"/>
+        <match lemma="passar" tags="vblex.inf"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez toi"/></match>
     </rule>
@@ -3105,24 +3113,25 @@
     <rule weight="1.0">
       <or>
         <match lemma="anar" tags="vblex.*.p1.pl"/>
-      <match lemma="venir" tags="vblex.*.p1.pl"/>
-      <match lemma="vénguer" tags="vblex.*.p1.pl"/>
-      <match lemma="vàder" tags="vblex.*.p1.pl"/>
-      <match lemma="vier" tags="vblex.*.p1.pl"/>
-      <match lemma="viéner" tags="vblex.*.p1.pl"/>
-      <match lemma="arribar" tags="vblex.*.p1.pl"/>
+        <match lemma="venir" tags="vblex.*.p1.pl"/>
+        <match lemma="vénguer" tags="vblex.*.p1.pl"/>
+        <match lemma="vàder" tags="vblex.*.p1.pl"/>
+        <match lemma="vàser" tags="vblex.*.p1.pl"/>
+        <match lemma="vier" tags="vblex.*.p1.pl"/>
+        <match lemma="viéner" tags="vblex.*.p1.pl"/>
+        <match lemma="arribar" tags="vblex.*.p1.pl"/>
         <match lemma="viatjar" tags="vblex.*.p1.pl"/>
         <match lemma="bracar" tags="vblex.*.p1.pl"/>
         <match lemma="sortir" tags="vblex.*.p1.pl"/>
         <match lemma="gésser" tags="vblex.*.p1.pl"/>
-      <match lemma="dintrar" tags="vblex.*.p1.pl"/>
-      <match lemma="entrar" tags="vblex.*.p1.pl"/>
-      <match lemma="intrar" tags="vblex.*.p1.pl"/>
+        <match lemma="dintrar" tags="vblex.*.p1.pl"/>
+        <match lemma="entrar" tags="vblex.*.p1.pl"/>
+        <match lemma="intrar" tags="vblex.*.p1.pl"/>
         <match lemma="arribar" tags="vblex.*.p1.pl"/>
         <match lemma="tornar" tags="vblex.*.p1.pl"/>
         <match lemma="partir" tags="vblex.*.p1.pl"/>
         <match lemma="tornar# partir" tags="vblex.*.p1.pl"/>
-      <match lemma="passar" tags="vblex.*.p1.pl"/>
+        <match lemma="passar" tags="vblex.*.p1.pl"/>
       </or>
       <repeat from="0" upto="2">
         <match tags="adv"/>
@@ -3139,24 +3148,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.pp.*"/>
-      <match lemma="venir" tags="vblex.pp.*"/>
-      <match lemma="vénguer" tags="vblex.pp.*"/>
-      <match lemma="vàder" tags="vblex.pp.*"/>
-      <match lemma="vier" tags="vblex.pp.*"/>
-      <match lemma="viéner" tags="vblex.pp.*"/>
-      <match lemma="arribar" tags="vblex.pp.*"/>
+        <match lemma="venir" tags="vblex.pp.*"/>
+        <match lemma="vénguer" tags="vblex.pp.*"/>
+        <match lemma="vàder" tags="vblex.pp.*"/>
+        <match lemma="vàser" tags="vblex.pp.*"/>
+        <match lemma="vier" tags="vblex.pp.*"/>
+        <match lemma="viéner" tags="vblex.pp.*"/>
+        <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="viatjar" tags="vblex.pp.*"/>
         <match lemma="bracar" tags="vblex.pp.*"/>
         <match lemma="sortir" tags="vblex.pp.*"/>
         <match lemma="gésser" tags="vblex.pp.*"/>
-      <match lemma="dintrar" tags="vblex.pp.*"/>
-      <match lemma="entrar" tags="vblex.pp.*"/>
-      <match lemma="intrar" tags="vblex.pp.*"/>
+        <match lemma="dintrar" tags="vblex.pp.*"/>
+        <match lemma="entrar" tags="vblex.pp.*"/>
+        <match lemma="intrar" tags="vblex.pp.*"/>
         <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="tornar" tags="vblex.pp.*"/>
         <match lemma="partir" tags="vblex.pp.*"/>
         <match lemma="tornar# partir" tags="vblex.pp.*"/>
-      <match lemma="passar" tags="vblex.pp.*"/>
+        <match lemma="passar" tags="vblex.pp.*"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez nous"/></match>
     </rule>
@@ -3167,24 +3177,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.inf"/>
-      <match lemma="venir" tags="vblex.inf"/>
-      <match lemma="vénguer" tags="vblex.inf"/>
-      <match lemma="vàder" tags="vblex.inf"/>
-      <match lemma="vier" tags="vblex.inf"/>
-      <match lemma="viéner" tags="vblex.inf"/>
-      <match lemma="arribar" tags="vblex.inf"/>
+        <match lemma="venir" tags="vblex.inf"/>
+        <match lemma="vénguer" tags="vblex.inf"/>
+        <match lemma="vàder" tags="vblex.inf"/>
+        <match lemma="vàser" tags="vblex.inf"/>
+        <match lemma="vier" tags="vblex.inf"/>
+        <match lemma="viéner" tags="vblex.inf"/>
+        <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="viatjar" tags="vblex.inf"/>
         <match lemma="bracar" tags="vblex.inf"/>
         <match lemma="sortir" tags="vblex.inf"/>
         <match lemma="gésser" tags="vblex.inf"/>
-      <match lemma="dintrar" tags="vblex.inf"/>
-      <match lemma="entrar" tags="vblex.inf"/>
-      <match lemma="intrar" tags="vblex.inf"/>
+        <match lemma="dintrar" tags="vblex.inf"/>
+        <match lemma="entrar" tags="vblex.inf"/>
+        <match lemma="intrar" tags="vblex.inf"/>
         <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="tornar" tags="vblex.inf"/>
         <match lemma="partir" tags="vblex.inf"/>
         <match lemma="tornar# partir" tags="vblex.inf"/>
-      <match lemma="passar" tags="vblex.inf"/>
+        <match lemma="passar" tags="vblex.inf"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez nous"/></match>
     </rule>
@@ -3192,24 +3203,25 @@
     <rule weight="1.0">
       <or>
         <match lemma="anar" tags="vblex.*.p2.pl"/>
-      <match lemma="venir" tags="vblex.*.p2.pl"/>
-      <match lemma="vénguer" tags="vblex.*.p2.pl"/>
-      <match lemma="vàder" tags="vblex.*.p2.pl"/>
-      <match lemma="vier" tags="vblex.*.p2.pl"/>
-      <match lemma="viéner" tags="vblex.*.p2.pl"/>
-      <match lemma="arribar" tags="vblex.*.p2.pl"/>
+        <match lemma="venir" tags="vblex.*.p2.pl"/>
+        <match lemma="vénguer" tags="vblex.*.p2.pl"/>
+        <match lemma="vàder" tags="vblex.*.p2.pl"/>
+        <match lemma="vàser" tags="vblex.*.p2.pl"/>
+        <match lemma="vier" tags="vblex.*.p2.pl"/>
+        <match lemma="viéner" tags="vblex.*.p2.pl"/>
+        <match lemma="arribar" tags="vblex.*.p2.pl"/>
         <match lemma="viatjar" tags="vblex.*.p2.pl"/>
         <match lemma="bracar" tags="vblex.*.p2.pl"/>
         <match lemma="sortir" tags="vblex.*.p2.pl"/>
         <match lemma="gésser" tags="vblex.*.p2.pl"/>
-      <match lemma="dintrar" tags="vblex.*.p2.pl"/>
-      <match lemma="entrar" tags="vblex.*.p2.pl"/>
-      <match lemma="intrar" tags="vblex.*.p2.pl"/>
+        <match lemma="dintrar" tags="vblex.*.p2.pl"/>
+        <match lemma="entrar" tags="vblex.*.p2.pl"/>
+        <match lemma="intrar" tags="vblex.*.p2.pl"/>
         <match lemma="arribar" tags="vblex.*.p2.pl"/>
         <match lemma="tornar" tags="vblex.*.p2.pl"/>
         <match lemma="partir" tags="vblex.*.p2.pl"/>
         <match lemma="tornar# partir" tags="vblex.*.p2.pl"/>
-      <match lemma="passar" tags="vblex.*.p2.pl"/>
+        <match lemma="passar" tags="vblex.*.p2.pl"/>
       </or>
       <repeat from="0" upto="2">
         <match tags="adv"/>
@@ -3226,24 +3238,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.pp.*"/>
-      <match lemma="venir" tags="vblex.pp.*"/>
-      <match lemma="vénguer" tags="vblex.pp.*"/>
-      <match lemma="vàder" tags="vblex.pp.*"/>
-      <match lemma="vier" tags="vblex.pp.*"/>
-      <match lemma="viéner" tags="vblex.pp.*"/>
-      <match lemma="arribar" tags="vblex.pp.*"/>
+        <match lemma="venir" tags="vblex.pp.*"/>
+        <match lemma="vénguer" tags="vblex.pp.*"/>
+        <match lemma="vàder" tags="vblex.pp.*"/>
+        <match lemma="vàser" tags="vblex.pp.*"/>
+        <match lemma="vier" tags="vblex.pp.*"/>
+        <match lemma="viéner" tags="vblex.pp.*"/>
+        <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="viatjar" tags="vblex.pp.*"/>
         <match lemma="bracar" tags="vblex.pp.*"/>
         <match lemma="sortir" tags="vblex.pp.*"/>
         <match lemma="gésser" tags="vblex.pp.*"/>
-      <match lemma="dintrar" tags="vblex.pp.*"/>
-      <match lemma="entrar" tags="vblex.pp.*"/>
-      <match lemma="intrar" tags="vblex.pp.*"/>
+        <match lemma="dintrar" tags="vblex.pp.*"/>
+        <match lemma="entrar" tags="vblex.pp.*"/>
+        <match lemma="intrar" tags="vblex.pp.*"/>
         <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="tornar" tags="vblex.pp.*"/>
         <match lemma="partir" tags="vblex.pp.*"/>
         <match lemma="tornar# partir" tags="vblex.pp.*"/>
-      <match lemma="passar" tags="vblex.pp.*"/>
+        <match lemma="passar" tags="vblex.pp.*"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez vous"/></match>
     </rule>
@@ -3254,24 +3267,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.inf"/>
-      <match lemma="venir" tags="vblex.inf"/>
-      <match lemma="vénguer" tags="vblex.inf"/>
-      <match lemma="vàder" tags="vblex.inf"/>
-      <match lemma="vier" tags="vblex.inf"/>
-      <match lemma="viéner" tags="vblex.inf"/>
-      <match lemma="arribar" tags="vblex.inf"/>
+        <match lemma="venir" tags="vblex.inf"/>
+        <match lemma="vénguer" tags="vblex.inf"/>
+        <match lemma="vàder" tags="vblex.inf"/>
+        <match lemma="vàser" tags="vblex.inf"/>
+        <match lemma="vier" tags="vblex.inf"/>
+        <match lemma="viéner" tags="vblex.inf"/>
+        <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="viatjar" tags="vblex.inf"/>
         <match lemma="bracar" tags="vblex.inf"/>
         <match lemma="sortir" tags="vblex.inf"/>
         <match lemma="gésser" tags="vblex.inf"/>
-      <match lemma="dintrar" tags="vblex.inf"/>
-      <match lemma="entrar" tags="vblex.inf"/>
-      <match lemma="intrar" tags="vblex.inf"/>
+        <match lemma="dintrar" tags="vblex.inf"/>
+        <match lemma="entrar" tags="vblex.inf"/>
+        <match lemma="intrar" tags="vblex.inf"/>
         <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="tornar" tags="vblex.inf"/>
         <match lemma="partir" tags="vblex.inf"/>
         <match lemma="tornar# partir" tags="vblex.inf"/>
-      <match lemma="passar" tags="vblex.inf"/>
+        <match lemma="passar" tags="vblex.inf"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez vous"/></match>
     </rule>
@@ -3284,24 +3298,25 @@
       </or>
       <or>
         <match lemma="anar" tags="vblex.*.p3.sg"/>
-      <match lemma="venir" tags="vblex.*.p3.sg"/>
-      <match lemma="vénguer" tags="vblex.*.p3.sg"/>
-      <match lemma="vàder" tags="vblex.*.p3.sg"/>
-      <match lemma="vier" tags="vblex.*.p3.sg"/>
-      <match lemma="viéner" tags="vblex.*.p3.sg"/>
-      <match lemma="arribar" tags="vblex.*.p3.sg"/>
+        <match lemma="venir" tags="vblex.*.p3.sg"/>
+        <match lemma="vénguer" tags="vblex.*.p3.sg"/>
+        <match lemma="vàder" tags="vblex.*.p3.sg"/>
+        <match lemma="vàser" tags="vblex.*.p3.sg"/>
+        <match lemma="vier" tags="vblex.*.p3.sg"/>
+        <match lemma="viéner" tags="vblex.*.p3.sg"/>
+        <match lemma="arribar" tags="vblex.*.p3.sg"/>
         <match lemma="viatjar" tags="vblex.*.p3.sg"/>
         <match lemma="bracar" tags="vblex.*.p3.sg"/>
         <match lemma="sortir" tags="vblex.*.p3.sg"/>
         <match lemma="gésser" tags="vblex.*.p3.sg"/>
-      <match lemma="dintrar" tags="vblex.*.p3.sg"/>
-      <match lemma="entrar" tags="vblex.*.p3.sg"/>
-      <match lemma="intrar" tags="vblex.*.p3.sg"/>
+        <match lemma="dintrar" tags="vblex.*.p3.sg"/>
+        <match lemma="entrar" tags="vblex.*.p3.sg"/>
+        <match lemma="intrar" tags="vblex.*.p3.sg"/>
         <match lemma="arribar" tags="vblex.*.p3.sg"/>
         <match lemma="tornar" tags="vblex.*.p3.sg"/>
         <match lemma="partir" tags="vblex.*.p3.sg"/>
         <match lemma="tornar# partir" tags="vblex.*.p3.sg"/>
-      <match lemma="passar" tags="vblex.*.p3.sg"/>
+        <match lemma="passar" tags="vblex.*.p3.sg"/>
       </or>
       <repeat from="0" upto="2">
         <match tags="adv"/>
@@ -3323,24 +3338,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.pp.*"/>
-      <match lemma="venir" tags="vblex.pp.*"/>
-      <match lemma="vénguer" tags="vblex.pp.*"/>
-      <match lemma="vàder" tags="vblex.pp.*"/>
-      <match lemma="vier" tags="vblex.pp.*"/>
-      <match lemma="viéner" tags="vblex.pp.*"/>
-      <match lemma="arribar" tags="vblex.pp.*"/>
+        <match lemma="venir" tags="vblex.pp.*"/>
+        <match lemma="vénguer" tags="vblex.pp.*"/>
+        <match lemma="vàder" tags="vblex.pp.*"/>
+        <match lemma="vàser" tags="vblex.pp.*"/>
+        <match lemma="vier" tags="vblex.pp.*"/>
+        <match lemma="viéner" tags="vblex.pp.*"/>
+        <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="viatjar" tags="vblex.pp.*"/>
         <match lemma="bracar" tags="vblex.pp.*"/>
         <match lemma="sortir" tags="vblex.pp.*"/>
         <match lemma="gésser" tags="vblex.pp.*"/>
-      <match lemma="dintrar" tags="vblex.pp.*"/>
-      <match lemma="entrar" tags="vblex.pp.*"/>
-      <match lemma="intrar" tags="vblex.pp.*"/>
+        <match lemma="dintrar" tags="vblex.pp.*"/>
+        <match lemma="entrar" tags="vblex.pp.*"/>
+        <match lemma="intrar" tags="vblex.pp.*"/>
         <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="tornar" tags="vblex.pp.*"/>
         <match lemma="partir" tags="vblex.pp.*"/>
         <match lemma="tornar# partir" tags="vblex.pp.*"/>
-      <match lemma="passar" tags="vblex.pp.*"/>
+        <match lemma="passar" tags="vblex.pp.*"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez lui"/></match>
     </rule>
@@ -3356,24 +3372,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.inf"/>
-      <match lemma="venir" tags="vblex.inf"/>
-      <match lemma="vénguer" tags="vblex.inf"/>
-      <match lemma="vàder" tags="vblex.inf"/>
-      <match lemma="vier" tags="vblex.inf"/>
-      <match lemma="viéner" tags="vblex.inf"/>
-      <match lemma="arribar" tags="vblex.inf"/>
+        <match lemma="venir" tags="vblex.inf"/>
+        <match lemma="vénguer" tags="vblex.inf"/>
+        <match lemma="vàder" tags="vblex.inf"/>
+        <match lemma="vàser" tags="vblex.inf"/>
+        <match lemma="vier" tags="vblex.inf"/>
+        <match lemma="viéner" tags="vblex.inf"/>
+        <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="viatjar" tags="vblex.inf"/>
         <match lemma="bracar" tags="vblex.inf"/>
         <match lemma="sortir" tags="vblex.inf"/>
         <match lemma="gésser" tags="vblex.inf"/>
-      <match lemma="dintrar" tags="vblex.inf"/>
-      <match lemma="entrar" tags="vblex.inf"/>
-      <match lemma="intrar" tags="vblex.inf"/>
+        <match lemma="dintrar" tags="vblex.inf"/>
+        <match lemma="entrar" tags="vblex.inf"/>
+        <match lemma="intrar" tags="vblex.inf"/>
         <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="tornar" tags="vblex.inf"/>
         <match lemma="partir" tags="vblex.inf"/>
         <match lemma="tornar# partir" tags="vblex.inf"/>
-      <match lemma="passar" tags="vblex.inf"/>
+        <match lemma="passar" tags="vblex.inf"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez lui"/></match>
     </rule>
@@ -3386,24 +3403,25 @@
       </or>
       <or>
         <match lemma="anar" tags="vblex.*.p3.sg"/>
-      <match lemma="venir" tags="vblex.*.p3.sg"/>
-      <match lemma="vénguer" tags="vblex.*.p3.sg"/>
-      <match lemma="vàder" tags="vblex.*.p3.sg"/>
-      <match lemma="vier" tags="vblex.*.p3.sg"/>
-      <match lemma="viéner" tags="vblex.*.p3.sg"/>
-      <match lemma="arribar" tags="vblex.*.p3.sg"/>
+        <match lemma="venir" tags="vblex.*.p3.sg"/>
+        <match lemma="vénguer" tags="vblex.*.p3.sg"/>
+        <match lemma="vàder" tags="vblex.*.p3.sg"/>
+        <match lemma="vàser" tags="vblex.*.p3.sg"/>
+        <match lemma="vier" tags="vblex.*.p3.sg"/>
+        <match lemma="viéner" tags="vblex.*.p3.sg"/>
+        <match lemma="arribar" tags="vblex.*.p3.sg"/>
         <match lemma="viatjar" tags="vblex.*.p3.sg"/>
         <match lemma="bracar" tags="vblex.*.p3.sg"/>
         <match lemma="sortir" tags="vblex.*.p3.sg"/>
         <match lemma="gésser" tags="vblex.*.p3.sg"/>
-      <match lemma="dintrar" tags="vblex.*.p3.sg"/>
-      <match lemma="entrar" tags="vblex.*.p3.sg"/>
-      <match lemma="intrar" tags="vblex.*.p3.sg"/>
+        <match lemma="dintrar" tags="vblex.*.p3.sg"/>
+        <match lemma="entrar" tags="vblex.*.p3.sg"/>
+        <match lemma="intrar" tags="vblex.*.p3.sg"/>
         <match lemma="arribar" tags="vblex.*.p3.sg"/>
         <match lemma="tornar" tags="vblex.*.p3.sg"/>
         <match lemma="partir" tags="vblex.*.p3.sg"/>
         <match lemma="tornar# partir" tags="vblex.*.p3.sg"/>
-      <match lemma="passar" tags="vblex.*.p3.sg"/>
+        <match lemma="passar" tags="vblex.*.p3.sg"/>
       </or>
       <repeat from="0" upto="2">
         <match tags="adv"/>
@@ -3425,24 +3443,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.pp.*"/>
-      <match lemma="venir" tags="vblex.pp.*"/>
-      <match lemma="vénguer" tags="vblex.pp.*"/>
-      <match lemma="vàder" tags="vblex.pp.*"/>
-      <match lemma="vier" tags="vblex.pp.*"/>
-      <match lemma="viéner" tags="vblex.pp.*"/>
-      <match lemma="arribar" tags="vblex.pp.*"/>
+        <match lemma="venir" tags="vblex.pp.*"/>
+        <match lemma="vénguer" tags="vblex.pp.*"/>
+        <match lemma="vàder" tags="vblex.pp.*"/>
+        <match lemma="vàser" tags="vblex.pp.*"/>
+        <match lemma="vier" tags="vblex.pp.*"/>
+        <match lemma="viéner" tags="vblex.pp.*"/>
+        <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="viatjar" tags="vblex.pp.*"/>
         <match lemma="bracar" tags="vblex.pp.*"/>
         <match lemma="sortir" tags="vblex.pp.*"/>
         <match lemma="gésser" tags="vblex.pp.*"/>
-      <match lemma="dintrar" tags="vblex.pp.*"/>
-      <match lemma="entrar" tags="vblex.pp.*"/>
-      <match lemma="intrar" tags="vblex.pp.*"/>
+        <match lemma="dintrar" tags="vblex.pp.*"/>
+        <match lemma="entrar" tags="vblex.pp.*"/>
+        <match lemma="intrar" tags="vblex.pp.*"/>
         <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="tornar" tags="vblex.pp.*"/>
         <match lemma="partir" tags="vblex.pp.*"/>
         <match lemma="tornar# partir" tags="vblex.pp.*"/>
-      <match lemma="passar" tags="vblex.pp.*"/>
+        <match lemma="passar" tags="vblex.pp.*"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez elle"/></match>
     </rule>
@@ -3458,24 +3477,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.inf"/>
-      <match lemma="venir" tags="vblex.inf"/>
-      <match lemma="vénguer" tags="vblex.inf"/>
-      <match lemma="vàder" tags="vblex.inf"/>
-      <match lemma="vier" tags="vblex.inf"/>
-      <match lemma="viéner" tags="vblex.inf"/>
-      <match lemma="arribar" tags="vblex.inf"/>
+        <match lemma="venir" tags="vblex.inf"/>
+        <match lemma="vénguer" tags="vblex.inf"/>
+        <match lemma="vàder" tags="vblex.inf"/>
+        <match lemma="vàser" tags="vblex.inf"/>
+        <match lemma="vier" tags="vblex.inf"/>
+        <match lemma="viéner" tags="vblex.inf"/>
+        <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="viatjar" tags="vblex.inf"/>
         <match lemma="bracar" tags="vblex.inf"/>
         <match lemma="sortir" tags="vblex.inf"/>
         <match lemma="gésser" tags="vblex.inf"/>
-      <match lemma="dintrar" tags="vblex.inf"/>
-      <match lemma="entrar" tags="vblex.inf"/>
-      <match lemma="intrar" tags="vblex.inf"/>
+        <match lemma="dintrar" tags="vblex.inf"/>
+        <match lemma="entrar" tags="vblex.inf"/>
+        <match lemma="intrar" tags="vblex.inf"/>
         <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="tornar" tags="vblex.inf"/>
         <match lemma="partir" tags="vblex.inf"/>
         <match lemma="tornar# partir" tags="vblex.inf"/>
-      <match lemma="passar" tags="vblex.inf"/>
+        <match lemma="passar" tags="vblex.inf"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez elle"/></match>
     </rule>
@@ -3487,24 +3507,25 @@
       </or>
       <or>
         <match lemma="anar" tags="vblex.*.p3.pl"/>
-      <match lemma="venir" tags="vblex.*.p3.pl"/>
-      <match lemma="vénguer" tags="vblex.*.p3.pl"/>
-      <match lemma="vàder" tags="vblex.*.p3.pl"/>
-      <match lemma="vier" tags="vblex.*.p3.pl"/>
-      <match lemma="viéner" tags="vblex.*.p3.pl"/>
-      <match lemma="arribar" tags="vblex.*.p3.pl"/>
+        <match lemma="venir" tags="vblex.*.p3.pl"/>
+        <match lemma="vénguer" tags="vblex.*.p3.pl"/>
+        <match lemma="vàder" tags="vblex.*.p3.pl"/>
+        <match lemma="vàser" tags="vblex.*.p3.pl"/>
+        <match lemma="vier" tags="vblex.*.p3.pl"/>
+        <match lemma="viéner" tags="vblex.*.p3.pl"/>
+        <match lemma="arribar" tags="vblex.*.p3.pl"/>
         <match lemma="viatjar" tags="vblex.*.p3.pl"/>
         <match lemma="bracar" tags="vblex.*.p3.pl"/>
         <match lemma="sortir" tags="vblex.*.p3.pl"/>
         <match lemma="gésser" tags="vblex.*.p3.pl"/>
-      <match lemma="dintrar" tags="vblex.*.p3.pl"/>
-      <match lemma="entrar" tags="vblex.*.p3.pl"/>
-      <match lemma="intrar" tags="vblex.*.p3.pl"/>
+        <match lemma="dintrar" tags="vblex.*.p3.pl"/>
+        <match lemma="entrar" tags="vblex.*.p3.pl"/>
+        <match lemma="intrar" tags="vblex.*.p3.pl"/>
         <match lemma="arribar" tags="vblex.*.p3.pl"/>
         <match lemma="tornar" tags="vblex.*.p3.pl"/>
         <match lemma="partir" tags="vblex.*.p3.pl"/>
         <match lemma="tornar# partir" tags="vblex.*.p3.pl"/>
-      <match lemma="passar" tags="vblex.*.p3.pl"/>
+        <match lemma="passar" tags="vblex.*.p3.pl"/>
       </or>
       <repeat from="0" upto="2">
         <match tags="adv"/>
@@ -3525,24 +3546,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.pp.*"/>
-      <match lemma="venir" tags="vblex.pp.*"/>
-      <match lemma="vénguer" tags="vblex.pp.*"/>
-      <match lemma="vàder" tags="vblex.pp.*"/>
-      <match lemma="vier" tags="vblex.pp.*"/>
-      <match lemma="viéner" tags="vblex.pp.*"/>
-      <match lemma="arribar" tags="vblex.pp.*"/>
+        <match lemma="venir" tags="vblex.pp.*"/>
+        <match lemma="vénguer" tags="vblex.pp.*"/>
+        <match lemma="vàder" tags="vblex.pp.*"/>
+        <match lemma="vàser" tags="vblex.pp.*"/>
+        <match lemma="vier" tags="vblex.pp.*"/>
+        <match lemma="viéner" tags="vblex.pp.*"/>
+        <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="viatjar" tags="vblex.pp.*"/>
         <match lemma="bracar" tags="vblex.pp.*"/>
         <match lemma="sortir" tags="vblex.pp.*"/>
         <match lemma="gésser" tags="vblex.pp.*"/>
-      <match lemma="dintrar" tags="vblex.pp.*"/>
-      <match lemma="entrar" tags="vblex.pp.*"/>
-      <match lemma="intrar" tags="vblex.pp.*"/>
+        <match lemma="dintrar" tags="vblex.pp.*"/>
+        <match lemma="entrar" tags="vblex.pp.*"/>
+        <match lemma="intrar" tags="vblex.pp.*"/>
         <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="tornar" tags="vblex.pp.*"/>
         <match lemma="partir" tags="vblex.pp.*"/>
         <match lemma="tornar# partir" tags="vblex.pp.*"/>
-      <match lemma="passar" tags="vblex.pp.*"/>
+        <match lemma="passar" tags="vblex.pp.*"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez eux"/></match>
     </rule>
@@ -3557,24 +3579,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.inf"/>
-      <match lemma="venir" tags="vblex.inf"/>
-      <match lemma="vénguer" tags="vblex.inf"/>
-      <match lemma="vàder" tags="vblex.inf"/>
-      <match lemma="vier" tags="vblex.inf"/>
-      <match lemma="viéner" tags="vblex.inf"/>
-      <match lemma="arribar" tags="vblex.inf"/>
+        <match lemma="venir" tags="vblex.inf"/>
+        <match lemma="vénguer" tags="vblex.inf"/>
+        <match lemma="vàder" tags="vblex.inf"/>
+        <match lemma="vàser" tags="vblex.inf"/>
+        <match lemma="vier" tags="vblex.inf"/>
+        <match lemma="viéner" tags="vblex.inf"/>
+        <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="viatjar" tags="vblex.inf"/>
         <match lemma="bracar" tags="vblex.inf"/>
         <match lemma="sortir" tags="vblex.inf"/>
         <match lemma="gésser" tags="vblex.inf"/>
-      <match lemma="dintrar" tags="vblex.inf"/>
-      <match lemma="entrar" tags="vblex.inf"/>
-      <match lemma="intrar" tags="vblex.inf"/>
+        <match lemma="dintrar" tags="vblex.inf"/>
+        <match lemma="entrar" tags="vblex.inf"/>
+        <match lemma="intrar" tags="vblex.inf"/>
         <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="tornar" tags="vblex.inf"/>
         <match lemma="partir" tags="vblex.inf"/>
         <match lemma="tornar# partir" tags="vblex.inf"/>
-      <match lemma="passar" tags="vblex.inf"/>
+        <match lemma="passar" tags="vblex.inf"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez eux"/></match>
     </rule>
@@ -3586,24 +3609,25 @@
       </or>
       <or>
         <match lemma="anar" tags="vblex.*.p3.pl"/>
-      <match lemma="venir" tags="vblex.*.p3.pl"/>
-      <match lemma="vénguer" tags="vblex.*.p3.pl"/>
-      <match lemma="vàder" tags="vblex.*.p3.pl"/>
-      <match lemma="vier" tags="vblex.*.p3.pl"/>
-      <match lemma="viéner" tags="vblex.*.p3.pl"/>
-      <match lemma="arribar" tags="vblex.*.p3.pl"/>
+        <match lemma="venir" tags="vblex.*.p3.pl"/>
+        <match lemma="vénguer" tags="vblex.*.p3.pl"/>
+        <match lemma="vàder" tags="vblex.*.p3.pl"/>
+        <match lemma="vàser" tags="vblex.*.p3.pl"/>
+        <match lemma="vier" tags="vblex.*.p3.pl"/>
+        <match lemma="viéner" tags="vblex.*.p3.pl"/>
+        <match lemma="arribar" tags="vblex.*.p3.pl"/>
         <match lemma="viatjar" tags="vblex.*.p3.pl"/>
         <match lemma="bracar" tags="vblex.*.p3.pl"/>
         <match lemma="sortir" tags="vblex.*.p3.pl"/>
         <match lemma="gésser" tags="vblex.*.p3.pl"/>
-      <match lemma="dintrar" tags="vblex.*.p3.pl"/>
-      <match lemma="entrar" tags="vblex.*.p3.pl"/>
-      <match lemma="intrar" tags="vblex.*.p3.pl"/>
+        <match lemma="dintrar" tags="vblex.*.p3.pl"/>
+        <match lemma="entrar" tags="vblex.*.p3.pl"/>
+        <match lemma="intrar" tags="vblex.*.p3.pl"/>
         <match lemma="arribar" tags="vblex.*.p3.pl"/>
         <match lemma="tornar" tags="vblex.*.p3.pl"/>
         <match lemma="partir" tags="vblex.*.p3.pl"/>
         <match lemma="tornar# partir" tags="vblex.*.p3.pl"/>
-      <match lemma="passar" tags="vblex.*.p3.pl"/>
+        <match lemma="passar" tags="vblex.*.p3.pl"/>
       </or>
       <repeat from="0" upto="2">
         <match tags="adv"/>
@@ -3624,24 +3648,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.pp.*"/>
-      <match lemma="venir" tags="vblex.pp.*"/>
-      <match lemma="vénguer" tags="vblex.pp.*"/>
-      <match lemma="vàder" tags="vblex.pp.*"/>
-      <match lemma="vier" tags="vblex.pp.*"/>
-      <match lemma="viéner" tags="vblex.pp.*"/>
-      <match lemma="arribar" tags="vblex.pp.*"/>
+        <match lemma="venir" tags="vblex.pp.*"/>
+        <match lemma="vénguer" tags="vblex.pp.*"/>
+        <match lemma="vàder" tags="vblex.pp.*"/>
+        <match lemma="vàser" tags="vblex.pp.*"/>
+        <match lemma="vier" tags="vblex.pp.*"/>
+        <match lemma="viéner" tags="vblex.pp.*"/>
+        <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="viatjar" tags="vblex.pp.*"/>
         <match lemma="bracar" tags="vblex.pp.*"/>
         <match lemma="sortir" tags="vblex.pp.*"/>
         <match lemma="gésser" tags="vblex.pp.*"/>
-      <match lemma="dintrar" tags="vblex.pp.*"/>
-      <match lemma="entrar" tags="vblex.pp.*"/>
-      <match lemma="intrar" tags="vblex.pp.*"/>
+        <match lemma="dintrar" tags="vblex.pp.*"/>
+        <match lemma="entrar" tags="vblex.pp.*"/>
+        <match lemma="intrar" tags="vblex.pp.*"/>
         <match lemma="arribar" tags="vblex.pp.*"/>
         <match lemma="tornar" tags="vblex.pp.*"/>
         <match lemma="partir" tags="vblex.pp.*"/>
         <match lemma="tornar# partir" tags="vblex.pp.*"/>
-      <match lemma="passar" tags="vblex.pp.*"/>
+        <match lemma="passar" tags="vblex.pp.*"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez elles"/></match>
     </rule>
@@ -3656,24 +3681,25 @@
       </repeat>
       <or>
         <match lemma="anar" tags="vblex.inf"/>
-      <match lemma="venir" tags="vblex.inf"/>
-      <match lemma="vénguer" tags="vblex.inf"/>
-      <match lemma="vàder" tags="vblex.inf"/>
-      <match lemma="vier" tags="vblex.inf"/>
-      <match lemma="viéner" tags="vblex.inf"/>
-      <match lemma="arribar" tags="vblex.inf"/>
+        <match lemma="venir" tags="vblex.inf"/>
+        <match lemma="vénguer" tags="vblex.inf"/>
+        <match lemma="vàder" tags="vblex.inf"/>
+        <match lemma="vàser" tags="vblex.inf"/>
+        <match lemma="vier" tags="vblex.inf"/>
+        <match lemma="viéner" tags="vblex.inf"/>
+        <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="viatjar" tags="vblex.inf"/>
         <match lemma="bracar" tags="vblex.inf"/>
         <match lemma="sortir" tags="vblex.inf"/>
         <match lemma="gésser" tags="vblex.inf"/>
-      <match lemma="dintrar" tags="vblex.inf"/>
-      <match lemma="entrar" tags="vblex.inf"/>
-      <match lemma="intrar" tags="vblex.inf"/>
+        <match lemma="dintrar" tags="vblex.inf"/>
+        <match lemma="entrar" tags="vblex.inf"/>
+        <match lemma="intrar" tags="vblex.inf"/>
         <match lemma="arribar" tags="vblex.inf"/>
         <match lemma="tornar" tags="vblex.inf"/>
         <match lemma="partir" tags="vblex.inf"/>
         <match lemma="tornar# partir" tags="vblex.inf"/>
-      <match lemma="passar" tags="vblex.inf"/>
+        <match lemma="passar" tags="vblex.inf"/>
       </or>
       <match lemma="de casa" tags="adv"><select lemma="de chez elles"/></match>
     </rule>
@@ -4367,6 +4393,7 @@
       <or>
         <match lemma="causar" tags="vblex.*"/>
         <match lemma="produire" tags="vblex.*"/>
+        <match lemma="prodúser" tags="vblex.*"/>
         <match lemma="produsir" tags="vblex.*"/>
       </or>
       <match lemma="per" tags="pr"/>
@@ -6918,6 +6945,7 @@
           <match lemma="devedor"/>
           <match lemma="deveire"/>
           <match lemma="dever"/>
+          <match lemma="déver"/>
           <match lemma="passible"/>
       </or>
       <match lemma="de"/>
@@ -7755,8 +7783,10 @@
           <match lemma="tancar" tags="vblex.*"/>
           <match lemma="embarrar" tags="vblex.*"/>
           <match lemma="claure" tags="vblex.*"/>
+          <match lemma="clàuser" tags="vblex.*"/>
           <match lemma="internar" tags="vblex.*"/>
           <match lemma="reclaure" tags="vblex.*"/>
+          <match lemma="reclàuser" tags="vblex.*"/>
           <match lemma="apitar" tags="vblex.*"/>
           <match lemma="bastir" tags="vblex.*"/>
           <match lemma="montar" tags="vblex.*"/>
@@ -7764,6 +7794,7 @@
           <match lemma="cambiar" tags="vblex.*"/>
           <match lemma="defendre" tags="vblex.*"/>
           <match lemma="deféner" tags="vblex.*"/>
+          <match lemma="defénder" tags="vblex.*"/>
           <match lemma="exterminar" tags="vblex.*"/>
           <match lemma="intèrnament" tags="n.*"/>
           <match lemma="internament" tags="n.*"/>
@@ -7783,8 +7814,10 @@
           <match lemma="tancar" tags="vblex.*"/>
           <match lemma="embarrar" tags="vblex.*"/>
           <match lemma="claure" tags="vblex.*"/>
+          <match lemma="clàuser" tags="vblex.*"/>
           <match lemma="internar" tags="vblex.*"/>
           <match lemma="reclaure" tags="vblex.*"/>
+          <match lemma="reclàuser" tags="vblex.*"/>
           <match lemma="apitar" tags="vblex.*"/>
           <match lemma="bastir" tags="vblex.*"/>
           <match lemma="montar" tags="vblex.*"/>
@@ -7796,6 +7829,7 @@
           <match lemma="cambiar" tags="vblex.*"/>
           <match lemma="defendre" tags="vblex.*"/>
           <match lemma="deféner" tags="vblex.*"/>
+          <match lemma="defénder" tags="vblex.*"/>
           <match lemma="exterminar" tags="vblex.*"/>
           <match lemma="intèrnament" tags="n.*"/>
           <match lemma="internament" tags="n.*"/>
@@ -8269,6 +8303,7 @@
           <match lemma="noirir" tags="v.*"/>
           <match lemma="neurir" tags="v.*"/>
           <match lemma="pèisher" tags="v.*"/>
+          <match lemma="pèisser" tags="v.*"/>
           <match lemma="avitar" tags="v.*"/>
           <match lemma="alimentar" tags="v.*"/>
           <match lemma="apitançar" tags="v.*"/>
@@ -8551,6 +8586,7 @@
           <match lemma="noirir" tags="v.*"/>
           <match lemma="neurir" tags="v.*"/>
           <match lemma="pèisher" tags="v.*"/>
+          <match lemma="pèisser" tags="v.*"/>
           <match lemma="avitar" tags="v.*"/>
           <match lemma="alimentar" tags="v.*"/>
           <match lemma="apitançar" tags="v.*"/>
@@ -9300,6 +9336,7 @@
       <or>
           <match lemma="arribar" tags="vblex.*"/>
           <match lemma="venir" tags="vblex.*"/>
+          <match lemma="viéner" tags="vblex.*"/>
           <match lemma="ponhar" tags="vblex.*"/>
           <match lemma="trigar" tags="vblex.*"/>
           <match lemma="tornar" tags="vblex.*"/>
@@ -9316,6 +9353,7 @@
       <or>
           <match lemma="arribar" tags="vblex.*"/>
           <match lemma="venir" tags="vblex.*"/>
+          <match lemma="viéner" tags="vblex.*"/>
           <match lemma="ponhar" tags="vblex.*"/>
           <match lemma="trigar" tags="vblex.*"/>
           <match lemma="tornar" tags="vblex.*"/>

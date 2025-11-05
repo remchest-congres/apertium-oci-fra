@@ -1715,12 +1715,14 @@
         <match lemma="mandar" tags="vblex.*"/>
         <match lemma="enviar" tags="vblex.*"/>
         <match lemma="escriure" tags="vblex.*"/>
+        <match lemma="escríver" tags="vblex.*"/>
         <match lemma="redigir" tags="vblex.*"/>
         <match lemma="transferir" tags="vblex.*"/>
         <match lemma="legir" tags="vblex.*"/>
         <match lemma="mandar" tags="vblex.*"/>
         <match lemma="mandar" tags="vblex.*"/>
         <match lemma="recebre" tags="vblex.*"/>
+        <match lemma="recéber" tags="vblex.*"/>
         <match lemma="corregir" tags="vblex.*"/>
         <match lemma="dobrir" tags="vblex.*"/>
         <match lemma="obrir" tags="vblex.*"/>
@@ -1750,6 +1752,8 @@
     <rule weight="1.0">
       <or>
         <match lemma="respondre" tags="vblex.*"/>
+        <match lemma="respónder" tags="vblex.*"/>
+        <match lemma="respóner" tags="vblex.*"/>
       </or>
       <repeat from="0" upto="2">
         <match tags="adv"/>
