@@ -18775,8 +18775,8 @@
     <e a="hector" r="LR"><p><l>capvirament<s n="n"/><s n="m"/></l><r>bouleversement<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector" r="LR"><p><l>capvirament<s n="n"/><s n="m"/></l><r>bouleversement<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
     <e a="wiktionnaire" r="LR"><p><l>capvirar<s n="vblex"/></l><r>renverser<s n="vblex"/></r></p></e>
-    <e a="hector" alt="gascon" r="RL"><p><l>capvirar<s n="vblex"/></l><r>chambarder<s n="vblex"/></r></p></e>
-    <e a="hector" alt="gascon" r="RL"><p><l>capvirar<s n="vblex"/></l><r>chambouler<s n="vblex"/></r></p></e>
+    <e a="hector" r="RL"><p><l>capvirar<s n="vblex"/></l><r>chambarder<s n="vblex"/></r></p><par n="d:gascon"/></e>
+    <e a="hector" r="RL"><p><l>capvirar<s n="vblex"/></l><r>chambouler<s n="vblex"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès" r="RL"><p><l>capvirar<s n="vblex"/></l><r>chavirer<s n="vblex"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>capviroleta<s n="n"/><s n="f"/></l><r>cabriole<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>çaquelà<s n="adv"/></l><r>pour<b/>autant<s n="adv"/></r></p><par n="d:lengadocian"/></e>
@@ -33159,7 +33159,7 @@
     <e a="capsot"><p><l>Drèsda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Dresde<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>dret<s n="adj"/></l> <r>droit<s n="adj"/></r></p><par n="d:gascon"/></e>
     <e r="LR"><p><l>dret<s n="adj"/></l> <r>droit<s n="adj"/></r></p></e>
-    <e a="hector" alt="gascon"><p><l>dret<s n="adv"/></l><r>droit<s n="adv"/></r></p></e>
+    <e a="hector"><p><l>dret<s n="adv"/></l><r>droit<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e a="hector" r="LR"><p><l>dret<s n="adv"/></l> <r>droit<s n="adv"/></r></p></e>
     <e a="capsot"><p><l>dret<s n="n"/><s n="m"/></l><r>droit<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
     <e a="capsot" r="LR"><p><l>dret<s n="n"/><s n="m"/></l><r>droit<s n="n"/><s n="m"/></r></p></e>
@@ -36638,7 +36638,7 @@
     <e a="hector" r="RL"><p><l>entrebescar<s n="vblex"/></l><r>entrelacer<s n="vblex"/></r></p><par n="d:lengadocian"/></e>
     <e a="wiktionnaire" r="LR"><p><l>entrebescat<s n="adj"/></l><r>abscons<s n="adj"/></r></p><par n="anglés_anglais"/></e>
     <e r="LR"><p><l>entrebolir<s n="vblex"/></l> <r>troubler<s n="vblex"/></r></p></e>
-    <e a="hector" alt="oci@ggascon"><p><l>entrecamas<s n="n"/><s n="f"/></l><r>entre-jambe<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+    <e a="hector"><p><l>entrecamas<s n="n"/><s n="f"/></l><r>entre-jambe<s n="n"/><s n="m"/></r></p><par n="sp_ND"/><par n="d:gascon"/></e>
     <e a="hector" r="RL"><p><l>entrecamba<s n="n"/><s n="f"/></l><r>entre-jambe<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
     <e a="capsot"><p><l>entrecopar<s n="vblex"/></l><r>entrecouper<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:lengadocian"/></e>
     <e a="capsot" r="LR"><p><l>entrecopar<s n="vblex"/></l><r>entrecouper<s n="vblex"/></r></p><par n="v-v_tv"/></e>
@@ -84284,7 +84284,7 @@
     <e a="wiktionnaire"><p><l>revelh<s n="n"/><s n="m"/></l><r>réveil<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
     <e a="wiktionnaire" r="LR"><p><l>revelh<s n="n"/><s n="m"/></l><r>réveil<s n="n"/><s n="m"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>revelhar<s n="vblex"/></l><r>réveiller<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:lengadocian"/></e>
-    <e a="oci@gascon" alt="hector" r="LR"><p><l>revelhar<s n="vblex"/></l><r>réveiller<s n="vblex"/></r></p><par n="v-v_tv"/></e>
+    <e a="hector" r="LR"><p><l>revelhar<s n="vblex"/></l><r>réveiller<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:gascon"/></e>
     <e a="wiktionnaire" r="LR"><p><l>revelhat<s n="adj"/></l><r>réveillé<s n="adj"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>revelhum<s n="n"/><s n="m"/></l><r>insomnie<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
     <e> <p><l>Revelles<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Revelles<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -106486,7 +106486,7 @@
     <e a="Congrès" r="RL"><p><l>pujar<g><b/>dret</g><s n="vblex"/></l><r>monter<g><b/>en<b/>flèche</g><s n="vblex"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès" r="RL"><p><l>pujar<g><b/>dreit</g><s n="vblex"/></l><r>monter<g><b/>en<b/>flèche</g><s n="vblex"/></r></p><par n="d:lengadocian"/></e>
     <e a="Congrès" r="LR"><p><l>creissentin<s n="adj"/></l><r>croissantin<s n="adj"/></r></p><par n="d:lengadocian"/></e>
-    <e a="Congrès" alt="oci_gascon" r="LR"><p><l>creishentin<s n="adj"/></l><r>croissantin<s n="adj"/></r></p></e>
+    <e a="Congrès" r="LR"><p><l>creishentin<s n="adj"/></l><r>croissantin<s n="adj"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès" r="RL"><p><l>gabarra<s n="n"/><s n="f"/></l> <r>gabarre<s n="n"/><s n="f"/></r></p></e>
     <e a="Congrès"><p><l>gabarra<s n="n"/><s n="f"/></l> <r>péniche<s n="n"/><s n="f"/></r></p></e>
     <e a="Congrès"><p><l>vanilhat<s n="adj"/></l> <r>vanillé<s n="adj"/></r></p></e>

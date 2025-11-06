@@ -3340,7 +3340,6 @@
     <def-seq n="prn_ci"><or>
       <match lemma="me" tags="prn.pro.*"/>
       <match lemma="te" tags="prn.pro.*"/>
-      <match lemma="lo" tags="prn.pro.*" v="oci@gascon"/>
       <match lemma="li" tags="prn.pro.*"/>
       <match lemma="nos" tags="prn.pro.*"/>
       <match lemma="vos" tags="prn.pro.*"/>
