@@ -1,13 +1,3 @@
-# les tests de moi
-
 DELIMITERS = ".";
 
-SELECT (d:gascon)      IF (0 (VAR:gascon)) ;
-REMOVE (d:gascon) ;
-
-SELECT (d:aranes)      IF (0 (VAR:aranes)) ;
-REMOVE (d:aranes) ;
-
-SELECT (d:lengadocian)      IF (0 (VAR:lengadocian)) ;
-REMOVE (d:lengadocian) ;
-
+IFF (d:lengadocian);
