@@ -26,6 +26,104 @@
   <xsl:apply-templates select="*|text()"/>
 </xsl:template>
 
+<xsl:template match="e">
+  <xsl:if test="not(count(./@alt)=1) or ./@alt=$alt">
+    <xsl:variable name="parent" select="."/>
+    <xsl:variable name="pars" select="par[@n[starts-with(., 'd:')]]"/>
+    <xsl:choose>
+      <xsl:when test="count($pars) &gt; 0">
+        <xsl:for-each select="par[@n[starts-with(., 'd:')]]">
+          <xsl:variable name="currentpar" select="."/>
+          <xsl:if test="not(local-name($parent)=string('group'))">
+            <xsl:text>&#10;</xsl:text>
+            <xsl:value-of select="string('&lt;')"/>
+            <xsl:value-of select="local-name($parent)"/>
+            <xsl:for-each select="$parent/@*">
+              <xsl:if test="not(local-name(.)=string('alt'))">
+                <xsl:value-of select="string(' ')"/>
+                <xsl:value-of select="local-name(.)"/>
+                <xsl:value-of select="string('=&quot;')"/>
+                <xsl:value-of select="string(.)"/>
+                <xsl:value-of select="string('&quot;')"/>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:if>
+          <xsl:choose>
+            <xsl:when test="count($parent/text()[normalize-space(.)] | $parent/*)=0">
+              <xsl:if test="not(local-name($parent)=string('group'))">
+                <xsl:value-of select="string('/&gt;')"/>
+              </xsl:if>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:if test="not(local-name($parent)=string('group'))"> 
+                <xsl:value-of select="string('&gt;')"/>
+              </xsl:if>
+              <xsl:apply-templates select="../node()[not(self::par[@n[starts-with(., 'd:')]])]"/>
+
+              <xsl:value-of select="string('&lt;')"/>
+              <xsl:value-of select="local-name(.)"/>
+              <xsl:for-each select="./@*">
+                <xsl:if test="not(local-name(.)=string('alt'))">
+                  <xsl:value-of select="string(' ')"/>
+                  <xsl:value-of select="local-name(.)"/>
+                  <xsl:value-of select="string('=&quot;')"/>
+                  <xsl:value-of select="string(.)"/>
+                  <xsl:value-of select="string('&quot;')"/>
+                </xsl:if>
+              </xsl:for-each>
+              <xsl:value-of select="string('/&gt;')"/>
+
+              <xsl:if test="not(local-name($parent)=string('group'))">           
+                <xsl:value-of select="string('&lt;/')"/>
+                <xsl:value-of select="local-name($parent)"/>
+                <xsl:value-of select="string('&gt;')"/>
+              </xsl:if>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:for-each>
+      </xsl:when>
+      
+      <xsl:otherwise>
+        <xsl:if test="not(local-name(.)=string('group'))">
+          <xsl:value-of select="string('&lt;')"/>
+          <xsl:value-of select="local-name(.)"/>
+          <xsl:for-each select="./@*">
+            <xsl:if test="not(local-name(.)=string('alt'))">
+              <xsl:value-of select="string(' ')"/>
+              <xsl:value-of select="local-name(.)"/>
+              <xsl:value-of select="string('=&quot;')"/>
+              <xsl:value-of select="string(.)"/>
+              <xsl:value-of select="string('&quot;')"/>
+            </xsl:if>
+          </xsl:for-each>
+        </xsl:if>
+        <xsl:choose>
+          <xsl:when test="count(text()[normalize-space(.)] | *)=0">
+            <xsl:if test="not(local-name(.)=string('group'))">
+              <xsl:value-of select="string('/&gt;')"/>
+            </xsl:if>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:if test="not(local-name(.)=string('group'))"> 
+              <xsl:value-of select="string('&gt;')"/>
+            </xsl:if>
+            <xsl:apply-templates/>
+            <xsl:if test="not(local-name(.)=string('group'))">           
+              <xsl:value-of select="string('&lt;/')"/>
+              <xsl:value-of select="local-name(.)"/>
+              <xsl:value-of select="string('&gt;')"/>
+            </xsl:if>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:otherwise>
+    </xsl:choose>
+
+
+
+  </xsl:if>
+</xsl:template>
+
+
 <xsl:template match="*">
   <xsl:if test="not(count(./@alt)=1) or ./@alt=$alt">
     <xsl:if test="not(local-name(.)=string('group'))">
