@@ -2075,6 +2075,20 @@
       </repeat>
       <match lemma="tà çò de" tags="pr"><select lemma="chez"/></match>
     </rule>
+
+    <!-- dans >> dins/dens, en -->
+    <rule weight="0.6">
+      <match lemma="dans" tags="pr"><select lemma="dins"/></match>
+    </rule>
+    <rule weight="0.8">
+      <match lemma="dans" tags="pr"><select lemma="dens"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="dans" tags="pr"><select lemma="en"/></match>
+      <match lemma="tout" tags="predet.*"/>
+      <match lemma="le" tags="det.*"/>
+      <match tags="np.top.*"/>
+    </rule>
   </rules>
 </lrx>
 
