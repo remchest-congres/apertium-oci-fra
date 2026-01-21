@@ -57,6 +57,10 @@
       <program name="cg-proc" debug-suff="biprefs">
         <file name="bin/fra-oci.biprefs.rlx.bin"/>
       </program>
+      <program name="apertium-transfer -b" debug-suff="varclean"> <!-- add this -->
+        <file name="src/transfer/chunkers/apertium-oci-fra.fra-oci.variety.t1x"/> <!-- your new file -->
+        <file name="bin/fra-oci.variety.t1x.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="build/fra-oci.t1x"/>
         <file name="bin/fra-oci.t1x.bin"/>
@@ -186,6 +190,10 @@
       </program>
       <program name="cg-proc" debug-suff="biprefs">
         <file name="bin/fra-oci_gascon.biprefs.rlx.bin"/>
+      </program>
+      <program name="apertium-transfer -b" debug-suff="varclean"> <!-- add this -->
+        <file name="src/transfer/chunkers/apertium-oci-fra.fra-oci.variety.t1x"/> <!-- your new file -->
+        <file name="bin/fra-oci.variety.t1x.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="build/fra-oci_gascon.t1x"/>
