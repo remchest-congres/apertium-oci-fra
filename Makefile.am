@@ -106,6 +106,7 @@ TARGETS_COMMON =		\
 	bin/$(PREFIX2L).other.autolex.bin	\
 	bin/$(PREFIX2).autogen.bin	\
 	bin/$(PREFIX2).autopgen.bin	\
+	bin/$(PREFIX2).variety.t1x.bin \
 	bin/$(PREFIX2).t1x.bin	\
 	build/$(PREFIX2).t1x			\
 	bin/$(PREFIX2G).t1x.bin	\
@@ -543,6 +544,9 @@ bin/$(PREFIX1).t4x.bin: build/$(PREFIX1).t4x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
+bin/$(PREFIX2).variety.t1x.bin: src/transfer/chunkers/$(BASENAME).$(PREFIX2).variety.t1x
+	apertium-preprocess-transfer $< $@
+
 build/$(PREFIX2).t1x: src/transfer/chunkers/$(BASENAME).$(PREFIX2).t1x
 	apertium-filter-rules oci src/transfer/chunkers/$(BASENAME).$(PREFIX2).t1x >$@
 
@@ -688,6 +692,7 @@ EXTRA_DIST=					\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2ex	\
 		src/transfer/postchunks/$(BASENAME).$(PREFIX1).t3x	\
 		src/transfer/final-rules/$(BASENAME).$(PREFIX1).t4x	\
+		src/transfer/chunkers/$(BASENAME).$(PREFIX2).variety.t1x \
 		src/transfer/chunkers/$(BASENAME).$(PREFIX2).t1x	\
 		src/transfer/chunkers/$(BASENAME).$(PREFIX2G).t1x	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x	\
@@ -734,6 +739,7 @@ apertium_oci_fra_DATA=	\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2ex			\
 	src/transfer/postchunks/$(BASENAME).$(PREFIX1).t3x			\
 	src/transfer/final-rules/$(BASENAME).$(PREFIX1).t4x			\
+	src/transfer/chunkers/$(BASENAME).$(PREFIX2).variety.t1x \
 	src/transfer/chunkers/$(BASENAME).$(PREFIX2).t1x			\
 	src/transfer/chunkers/$(BASENAME).$(PREFIX2G).t1x			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x			\

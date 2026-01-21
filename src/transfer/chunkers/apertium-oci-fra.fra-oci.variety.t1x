@@ -12,7 +12,7 @@
       <attr-item tags="d:aranese"/>
     </def-attr>
   </section-def-attrs>
-   <!-- … other required sections … -->
+
   <section-rules>
     <rule c="variant cleanup">
       <pattern>

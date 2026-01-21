@@ -26,10 +26,6 @@
       <program name="lt-proc -b">
         <file name="bin/fra-oci.autobil.bin"/>
       </program>
-      <!-- on désambiguise avant le transfer selon les préférences de l'utilisateur (aka on fait un pré tri dans le dico bilingue)-->
-      <!-- <program name="cg-proc" debug-suff="biprefs">
-        <file name="bin/fra-oci.biprefs.rlx.bin"/>
-      </program> -->
       <program name="lrx-proc -m" debug-suff="lex_np">
         <file name="bin/fra-oci.np.autolex.bin"/>
       </program>
@@ -54,11 +50,12 @@
       <program name="lrx-proc -m" debug-suff="lex_lang">
         <file name="bin/fra-oci_lang.other.autolex.bin"/>
       </program>
+      <!-- on désambiguise avant le transfer selon les préférences de l'utilisateur (aka on fait un pré tri dans le dico bilingue)-->
       <program name="cg-proc" debug-suff="biprefs">
         <file name="bin/fra-oci.biprefs.rlx.bin"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="varclean"> <!-- add this -->
-        <file name="src/transfer/chunkers/apertium-oci-fra.fra-oci.variety.t1x"/> <!-- your new file -->
+      <program name="apertium-transfer -b" debug-suff="varclean">
+        <file name="src/transfer/chunkers/apertium-oci-fra.fra-oci.variety.t1x"/>
         <file name="bin/fra-oci.variety.t1x.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -160,10 +157,6 @@
       <program name="lt-proc -b">
         <file name="bin/fra-oci.autobil.bin"/>
       </program>
-      <!-- on désambiguise avant le transfer selon les préférences de l'utilisateur (aka on fait un pré tri dans le dico bilingue)-->
-      <!-- <program name="cg-proc" debug-suff="biprefs">
-        <file name="bin/fra-oci_gascon.biprefs.rlx.bin"/>
-      </program> -->
       <program name="lrx-proc -m" debug-suff="lex_np">
         <file name="bin/fra-oci.np.autolex.bin"/>
       </program>
@@ -188,11 +181,12 @@
       <program name="lrx-proc -m" debug-suff="lex_gascon">
         <file name="bin/fra-oci_gascon.other.autolex.bin"/>
       </program>
+      <!-- on désambiguise avant le transfer selon les préférences de l'utilisateur (aka on fait un pré tri dans le dico bilingue)-->
       <program name="cg-proc" debug-suff="biprefs">
         <file name="bin/fra-oci_gascon.biprefs.rlx.bin"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="varclean"> <!-- add this -->
-        <file name="src/transfer/chunkers/apertium-oci-fra.fra-oci.variety.t1x"/> <!-- your new file -->
+      <program name="apertium-transfer -b" debug-suff="varclean">
+        <file name="src/transfer/chunkers/apertium-oci-fra.fra-oci.variety.t1x"/>
         <file name="bin/fra-oci.variety.t1x.bin"/>
       </program>
       <program name="apertium-transfer -b">
