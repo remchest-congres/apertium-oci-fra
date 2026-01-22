@@ -58,7 +58,7 @@
         <file name="src/transfer/chunkers/apertium-oci-fra.fra-oci.variety.t1x"/>
         <file name="bin/fra-oci.variety.t1x.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -b" debug-suff="chunker">
         <file name="build/fra-oci.t1x"/>
         <file name="bin/fra-oci.t1x.bin"/>
       </program>
@@ -189,7 +189,7 @@
         <file name="src/transfer/chunkers/apertium-oci-fra.fra-oci.variety.t1x"/>
         <file name="bin/fra-oci.variety.t1x.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -b" debug-suff="chunker">
         <file name="build/fra-oci_gascon.t1x"/>
         <file name="bin/fra-oci_gascon.t1x.bin"/>
       </program>
