@@ -4,7 +4,11 @@
     <def-cat n="any">
       <cat-item tags="*"/>
     </def-cat>
-   </section-def-cats>
+    <def-cat n="unknown">
+      <cat-item lemma="*" tags=""/>
+    </def-cat>
+  </section-def-cats>
+
   <section-def-attrs>
     <def-attr n="variety_tags">
       <attr-item tags="d:gascon"/>
@@ -20,6 +24,21 @@
       </pattern>
       <action>
         <let><clip pos="1" side="tl" part="variety_tags"/><lit v=""/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="sl" part="whole"/>
+            <lit v="/"/>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule c="unknown words">
+      <pattern>
+        <pattern-item n="unknown"/>
+      </pattern>
+      <action>
         <out>
           <lu>
             <clip pos="1" side="sl" part="whole"/>
