@@ -1254,14 +1254,6 @@
       <match lemma="majeur" tags="adj.*"><select lemma="major"/></match>
     </rule>
 
-    <!-- même >> meteis/madeish, etc. -->
-    <rule weight="0.8">
-      <match lemma="même" tags="adj.*"><select lemma="meteis"/></match>
-    </rule>
-    <rule weight="0.8">
-      <match lemma="même" tags="adj.*"><select lemma="medish"/></match>
-    </rule>
-
     <!-- mauvais >> mal/mau, etc. -->
     <rule weight="0.8">
       <match lemma="mauvais" tags="adj.*"><select lemma="mal"/></match>

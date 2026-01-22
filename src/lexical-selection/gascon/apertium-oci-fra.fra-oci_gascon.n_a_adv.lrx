@@ -1145,6 +1145,11 @@
     <rule weight="0.8">
       <match lemma="louable" tags="adj.*"><select lemma="laudable"/></match>
     </rule>
+    
+    <!-- même >> madeish, etc. -->
+    <rule weight="0.8">
+      <match lemma="même" tags="adj.*"><select lemma="medish"/></match>
+    </rule>
 
     <!-- **************** N **************** -->
 
