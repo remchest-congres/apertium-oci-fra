@@ -26,29 +26,29 @@
       <program name="lt-proc -b">
         <file name="bin/fra-oci.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="lex_np">
-        <file name="bin/fra-oci.np.autolex.bin"/>
-      </program>
       <program name="lrx-proc -m" debug-suff="lex_np_lang">
         <file name="bin/fra-oci_lang.np.autolex.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="lex_n">
-        <file name="bin/fra-oci.n_a_adv.autolex.bin"/>
+      <program name="lrx-proc -m" debug-suff="lex_np">
+        <file name="bin/fra-oci.np.autolex.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex_n_lang">
         <file name="bin/fra-oci_lang.n_a_adv.autolex.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="lex_v">
-        <file name="bin/fra-oci.v.autolex.bin"/>
+      <program name="lrx-proc -m" debug-suff="lex_n">
+        <file name="bin/fra-oci.n_a_adv.autolex.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex_v_lang">
         <file name="bin/fra-oci_lang.v.autolex.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="lex">
-        <file name="bin/fra-oci.other.autolex.bin"/>
+      <program name="lrx-proc -m" debug-suff="lex_v">
+        <file name="bin/fra-oci.v.autolex.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex_lang">
         <file name="bin/fra-oci_lang.other.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex">
+        <file name="bin/fra-oci.other.autolex.bin"/>
       </program>
       <!-- on désambiguise avant le transfer selon les préférences de l'utilisateur (aka on fait un pré tri dans le dico bilingue)-->
       <program name="cg-proc" debug-suff="biprefs">
@@ -157,29 +157,29 @@
       <program name="lt-proc -b">
         <file name="bin/fra-oci.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="lex_np">
-        <file name="bin/fra-oci.np.autolex.bin"/>
-      </program>
       <program name="lrx-proc -m" debug-suff="lex_np_gascon">
         <file name="bin/fra-oci_gascon.np.autolex.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="lex_n">
-        <file name="bin/fra-oci.n_a_adv.autolex.bin"/>
+      <program name="lrx-proc -m" debug-suff="lex_np">
+        <file name="bin/fra-oci.np.autolex.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex_n_gascon">
         <file name="bin/fra-oci_gascon.n_a_adv.autolex.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="lex_v">
-        <file name="bin/fra-oci.v.autolex.bin"/>
+      <program name="lrx-proc -m" debug-suff="lex_n">
+        <file name="bin/fra-oci.n_a_adv.autolex.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex_v_gascon">
         <file name="bin/fra-oci_gascon.v.autolex.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="lex">
-        <file name="bin/fra-oci.other.autolex.bin"/>
+      <program name="lrx-proc -m" debug-suff="lex_v">
+        <file name="bin/fra-oci.v.autolex.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex_gascon">
         <file name="bin/fra-oci_gascon.other.autolex.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex">
+        <file name="bin/fra-oci.other.autolex.bin"/>
       </program>
       <!-- on désambiguise avant le transfer selon les préférences de l'utilisateur (aka on fait un pré tri dans le dico bilingue)-->
       <program name="cg-proc" debug-suff="biprefs">
