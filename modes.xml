@@ -221,6 +221,14 @@
         <file name="src/transfer/interchunks/apertium-oci-fra.fra-oci.t2x_pro"/>
         <file name="bin/fra-oci.t2x_pro.bin"/>
       </program>
+      <program name="apertium-interchunk" debug-suff="interchunk_supersn">
+        <file name="src/transfer/interchunks/apertium-oci-fra.fra-oci.t2x_supersn"/>
+        <file name="bin/fra-oci_gascon.t2x_supersn.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunk_enon">
+        <file name="src/transfer/interchunks/apertium-oci-fra.fra-oci.t2x_enon"/>
+        <file name="bin/fra-oci_gascon.t2x_enon.bin"/>
+      </program>
       <program name="apertium-postchunk">
         <file name="src/transfer/postchunks/apertium-oci-fra.fra-oci.t3x"/>
         <file name="bin/fra-oci.t3x.bin"/>
@@ -246,7 +254,7 @@
         <file name="bin/fra-oci_gascon.genprefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="bin/fra-oci.autopgen.bin"/>
+        <file name="bin/fra-oci_gascon.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>

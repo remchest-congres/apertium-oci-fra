@@ -106,6 +106,7 @@ TARGETS_COMMON =		\
 	bin/$(PREFIX2L).other.autolex.bin	\
 	bin/$(PREFIX2).autogen.bin	\
 	bin/$(PREFIX2).autopgen.bin	\
+	bin/$(PREFIX2G).autopgen.bin	\
 	bin/$(PREFIX2).variety.t1x.bin \
 	bin/$(PREFIX2).t1x.bin	\
 	build/$(PREFIX2).t1x			\
@@ -126,6 +127,8 @@ TARGETS_COMMON =		\
 	build/$(PREFIX2L).t2x_bis	\
 	bin/$(PREFIX2).t2x_pas.bin	\
 	bin/$(PREFIX2).t2x_pro.bin	\
+	bin/$(PREFIX2G).t2x_supersn.bin	\
+	bin/$(PREFIX2G).t2x_enon.bin	\
 	bin/$(PREFIX2).t3x.bin	\
 	bin/$(PREFIX2).t4x.bin
 
@@ -615,6 +618,14 @@ bin/$(PREFIX2).t2x_pro.bin: src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x_
 	apertium-validate-interchunk $<
 	apertium-preprocess-transfer $< $@
 
+bin/$(PREFIX2G).t2x_supersn.bin: src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x_supersn
+	apertium-validate-interchunk $<
+	apertium-preprocess-transfer $< $@
+
+bin/$(PREFIX2G).t2x_enon.bin: src/transfer/interchunks/$(BASENAME).$(PREFIX2).t2x_enon
+	apertium-validate-interchunk $<
+	apertium-preprocess-transfer $< $@
+
 bin/$(PREFIX2).t3x.bin: src/transfer/postchunks/$(BASENAME).$(PREFIX2).t3x
 	apertium-validate-postchunk $<
 	apertium-preprocess-transfer $< $@
@@ -631,6 +642,9 @@ bin/$(PREFIX1).autopgen.bin: $(AP_SRC2)/$(LANG2).autopgen.bin
 	cp $< $@
 
 bin/$(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
+	cp $< $@
+
+bin/$(PREFIX2G).autopgen.bin: $(AP_SRC1)/$(LANG1G).autopgen.bin
 	cp $< $@
 
 ###############################################################################
