@@ -2346,33 +2346,6 @@
       <match lemma="de"/>
       <match tags="det.*"/>
       <match lemma="assemblée" tags="n.*"><select lemma="assemblada"/></match>
-    </rule>
-
-    <!-- fruit >> fruch/hrut, frucha/hruta -->
-    <rule weight="0.8">
-      <match lemma="fruit" tags="n.*"><select lemma="fruch"/></match>
-    </rule>
-    <rule weight="0.9">
-      <match lemma="fruit" tags="n.*"><select lemma="hrut"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match tags="det.def.mf.pl"/>
-      <match lemma="fruit" tags="n.*"><select lemma="frucha" tags="n.f.sg"/></match>
-    </rule>
-    <rule weight="1.1">
-      <match tags="det.def.mf.pl"/>
-      <match lemma="fruit" tags="n.*"><select lemma="hruta" tags="n.f.sg"/></match>
-    </rule>
-    <rule weight="1.2">
-      <match tags="det.def.mf.pl"/>
-      <match lemma="fruit" tags="n.*"><select lemma="fruch"/></match>
-      <match lemma="de" tags="pr"/>
-    </rule>
-    <rule weight="1.3">
-      <match tags="det.def.mf.pl"/>
-      <match lemma="fruit" tags="n.*"><select lemma="hrut"/></match>
-      <match lemma="de" tags="pr"/>
-    </rule>
 
     <!-- char >> carri, carro -->
     <rule weight="0.8">
