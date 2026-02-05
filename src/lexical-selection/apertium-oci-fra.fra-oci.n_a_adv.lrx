@@ -2346,6 +2346,7 @@
       <match lemma="de"/>
       <match tags="det.*"/>
       <match lemma="assemblée" tags="n.*"><select lemma="assemblada"/></match>
+    </rule>
 
     <!-- char >> carri, carro -->
     <rule weight="0.8">
