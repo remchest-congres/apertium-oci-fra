@@ -25,6 +25,8 @@ TARGETS_COMMON =		\
 	bin/$(PREFIX1).automorf.bin	\
 	bin/$(PREFIX1).prob		\
 	bin/$(PREFIX1).rlx.bin	\
+	bin/$(PREFIX1G).rlx.bin	\
+	bin/$(PREFIX1L).rlx.bin	\
 	bin/$(PREFIX1).autobil.bin	\
 	bin/$(PREFIX1).n_a_adv.autolex.bin	\
 	bin/$(PREFIX1G).n_a_adv.autolex.bin	\
@@ -224,6 +226,12 @@ bin/$(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
 ###############################################################################
 
 bin/$(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx
+	cg-comp $< $@
+
+bin/$(PREFIX1G).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1G).rlx
+	cg-comp $< $@
+
+bin/$(PREFIX1L).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1L).rlx
 	cg-comp $< $@
 
 bin/$(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx

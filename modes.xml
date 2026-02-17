@@ -278,6 +278,9 @@
       <program name="lt-proc -w">
         <file name="bin/oci-fra.automorf.bin"/>
       </program>
+      <program name="cg-proc -w" debug-suff="disamb_lang">
+        <file name="bin/oci_lang-fra.rlx.bin"/>
+      </program>
       <program name="cg-proc -w" debug-suff="disamb">
         <file name="bin/oci-fra.rlx.bin"/>
       </program>
@@ -406,6 +409,9 @@
       <program name="lt-proc -w">
         <file name="bin/oci-fra.automorf.bin"/>
       </program>
+      <program name="cg-proc -w" debug-suff="disamb_lang">
+        <file name="bin/oci_lang-fra.rlx.bin"/>
+      </program>
       <program name="cg-proc -w" debug-suff="disamb">
         <file name="bin/oci-fra.rlx.bin"/>
       </program>
@@ -524,6 +530,9 @@
     <pipeline>
       <program name="lt-proc -w">
         <file name="bin/oci-fra.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w" debug-suff="disamb_gascon">
+        <file name="bin/oci_gascon-fra.rlx.bin"/>
       </program>
       <program name="cg-proc -w" debug-suff="disamb">
         <file name="bin/oci-fra.rlx.bin"/>
@@ -652,6 +661,9 @@
     <pipeline>
       <program name="lt-proc -w">
         <file name="bin/oci-fra.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w" debug-suff="disamb_gascon">
+        <file name="bin/oci_gascon-fra.rlx.bin"/>
       </program>
       <program name="cg-proc -w" debug-suff="disamb">
         <file name="bin/oci-fra.rlx.bin"/>
