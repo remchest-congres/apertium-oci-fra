@@ -237,9 +237,6 @@
     </rule>
 
     <!-- dans >> dins/dens, en -->
-    <rule weight="0.6">
-      <match lemma="dans" tags="pr"><select lemma="dins"/></match>
-    </rule>
     <rule weight="1.0">
       <match lemma="dans" tags="pr"><select lemma="en"/></match>
       <match lemma="tout" tags="predet.*"/>
