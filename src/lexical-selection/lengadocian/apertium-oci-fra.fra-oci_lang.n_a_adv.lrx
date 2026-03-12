@@ -2509,11 +2509,6 @@
       <match lemma="plainte" tags="n.*"><select lemma="planh"/></match>
     </rule>
 
-    <!-- bois >> fusta/husta, lenha, bòsc, bana/arram -->
-    <rule weight="0.8">
-      <match lemma="bois" tags="n.*"><select lemma="fusta"/></match>
-    </rule>
-
     <rule weight="1.3">
       <match lemma="bois" tags="n.*"><select lemma="bana"/></match>
       <repeat from="0" upto="3">
