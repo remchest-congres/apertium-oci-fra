@@ -2292,14 +2292,6 @@
       <match lemma="cinquantaine" tags="n.*"><select lemma="cinquantena"/></match>
     </rule>
 
-    <!-- soixantaine >> seissantena/seishantena, seissanten/seishantau -->
-    <rule weight="0.8">
-      <match lemma="soixantaine" tags="n.*"><select lemma="seissantena"/></match>
-    </rule>
-    <rule weight="0.9">
-      <match lemma="soixantaine" tags="n.*"><select lemma="seishantena"/></match>
-    </rule>
-
     <!-- boucle >> bocla, pendent -->
     <rule weight="0.8">
       <match lemma="boucle" tags="n.*"><select lemma="bocla"/></match>
