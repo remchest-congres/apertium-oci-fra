@@ -266,7 +266,7 @@
       </program>
       <program name="cg-conv -a -l"/>
       <program name="vislcg3 --trace --grammar">
-        <file name="bin/fra-oci_gascon.rlx.bin"/>
+        <file name="bin/fra-oci.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
