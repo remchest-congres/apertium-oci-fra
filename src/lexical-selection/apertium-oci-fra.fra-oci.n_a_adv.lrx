@@ -2267,14 +2267,6 @@
       <match lemma="manière" tags="n.*"><select lemma="manièra"/></match>
     </rule>
 
-    <!-- dizaine >> desenat, detzenat -->
-    <rule weight="0.8">
-      <match lemma="dizaine" tags="n.*"><select lemma="desenat"/></match>
-    </rule>
-    <rule weight="0.9">
-      <match lemma="dizaine" tags="n.*"><select lemma="detzenat"/></match>
-    </rule>
-
     <!-- douzaine >> dotzena, dotzenat -->
     <rule weight="0.8">
       <match lemma="douzaine" tags="n.*"><select lemma="dotzena"/></match>
