@@ -2,60 +2,60 @@
 <lrx>
   <def-seqs>
     <def-seq n="materiel"><or>
-       <match lemma="coton" tags="n.*"/>
-       <match lemma="laine" tags="n.*"/>
-       <match lemma="soie" tags="n.*"/>
-       <match lemma="cuir" tags="n.*"/>
-       <match lemma="velours" tags="n.*"/>
-       <match lemma="sparte" tags="n.*"/>
-       <match lemma="spart" tags="n.*"/>
-       <match lemma="fil" tags="n.*"/>
-       <match lemma="papier" tags="n.*"/>
-       <match lemma="drap" tags="n.*"/>
-       <match lemma="robe" tags="n.*"/>
-       <match lemma="plastique" tags="n.*"/>
-       <match lemma="polyester" tags="n.*"/>
-       <match lemma="nylon" tags="n.*"/>
-       <match lemma="céramique" tags="n.*"/>
-       <match lemma="porcelaine" tags="n.*"/>
-       <match lemma="bambou" tags="n.*"/>
-       <match lemma="boue" tags="n.*"/>
-       <match lemma="paille" tags="n.*"/>
-       <match lemma="argile" tags="n.*"/>
-       <match lemma="brique" tags="n.*"/>
-       <match lemma="mortier" tags="n.*"/>
-       <match lemma="stuc" tags="n.*"/>
-       <match lemma="ciment" tags="n.*"/>
-       <match lemma="béton" tags="n.*"/>
-       <match lemma="pierre" tags="n.*"/>
-       <match lemma="marbre" tags="n.*"/>
-       <match lemma="ardoise" tags="n.*"/>
-       <match lemma="plâtre" tags="n.*"/>
-       <match lemma="gypse" tags="n.*"/>
+      <match lemma="coton" tags="n.*"/>
+      <match lemma="laine" tags="n.*"/>
+      <match lemma="soie" tags="n.*"/>
+      <match lemma="cuir" tags="n.*"/>
+      <match lemma="velours" tags="n.*"/>
+      <match lemma="sparte" tags="n.*"/>
+      <match lemma="spart" tags="n.*"/>
+      <match lemma="fil" tags="n.*"/>
+      <match lemma="papier" tags="n.*"/>
+      <match lemma="drap" tags="n.*"/>
+      <match lemma="robe" tags="n.*"/>
+      <match lemma="plastique" tags="n.*"/>
+      <match lemma="polyester" tags="n.*"/>
+      <match lemma="nylon" tags="n.*"/>
+      <match lemma="céramique" tags="n.*"/>
+      <match lemma="porcelaine" tags="n.*"/>
+      <match lemma="bambou" tags="n.*"/>
+      <match lemma="boue" tags="n.*"/>
+      <match lemma="paille" tags="n.*"/>
+      <match lemma="argile" tags="n.*"/>
+      <match lemma="brique" tags="n.*"/>
+      <match lemma="mortier" tags="n.*"/>
+      <match lemma="stuc" tags="n.*"/>
+      <match lemma="ciment" tags="n.*"/>
+      <match lemma="béton" tags="n.*"/>
+      <match lemma="pierre" tags="n.*"/>
+      <match lemma="marbre" tags="n.*"/>
+      <match lemma="ardoise" tags="n.*"/>
+      <match lemma="plâtre" tags="n.*"/>
+      <match lemma="gypse" tags="n.*"/>
 
-       <match lemma="métal" tags="n.*"/>
-       <match lemma="fer" tags="n.*"/>
-       <match lemma="acier" tags="n.*"/>
-       <match lemma="nickel" tags="n.*"/>
-       <match lemma="zinc" tags="n.*"/>
-       <match lemma="plomb" tags="n.*"/>
-       <match lemma="aluminium" tags="n.*"/>
-       <match lemma="or" tags="n.*"/>
-       <match lemma="argent" tags="n.*"/>
-       <match lemma="bronze" tags="n.*"/>
-       <match lemma="diamant" tags="n.*"/>
-       <match lemma="rubis" tags="n.*"/>
-       <match lemma="émeraude" tags="n.*"/>
-       <match lemma="ivoire" tags="n.*"/>
+      <match lemma="métal" tags="n.*"/>
+      <match lemma="fer" tags="n.*"/>
+      <match lemma="acier" tags="n.*"/>
+      <match lemma="nickel" tags="n.*"/>
+      <match lemma="zinc" tags="n.*"/>
+      <match lemma="plomb" tags="n.*"/>
+      <match lemma="aluminium" tags="n.*"/>
+      <match lemma="or" tags="n.*"/>
+      <match lemma="argent" tags="n.*"/>
+      <match lemma="bronze" tags="n.*"/>
+      <match lemma="diamant" tags="n.*"/>
+      <match lemma="rubis" tags="n.*"/>
+      <match lemma="émeraude" tags="n.*"/>
+      <match lemma="ivoire" tags="n.*"/>
 
-       <match lemma="bois" tags="n.*"/>
-       <match lemma="chêne" tags="n.*"/>
-       <match lemma="hêtre" tags="n.*"/>
-       <match lemma="pin" tags="n.*"/>
-       <match lemma="bouleau" tags="n.*"/>
-       <match lemma="châtaignier" tags="n.*"/>
-       <match lemma="noyer" tags="n.*"/>
-       <match lemma="ébène" tags="n.*"/>
+      <match lemma="bois" tags="n.*"/>
+      <match lemma="chêne" tags="n.*"/>
+      <match lemma="hêtre" tags="n.*"/>
+      <match lemma="pin" tags="n.*"/>
+      <match lemma="bouleau" tags="n.*"/>
+      <match lemma="châtaignier" tags="n.*"/>
+      <match lemma="noyer" tags="n.*"/>
+      <match lemma="ébène" tags="n.*"/>
     </or></def-seq>
   </def-seqs>
 
@@ -234,14 +234,6 @@
         <match lemma="bicyclette" tags="n.*"/>
         <match lemma="vélo" tags="n.*"/>
       </or>
-    </rule>
-
-    <!-- dans >> dins/dens, en -->
-    <rule weight="1.0">
-      <match lemma="dans" tags="pr"><select lemma="en"/></match>
-      <match lemma="tout" tags="predet.*"/>
-      <match lemma="le" tags="det.*"/>
-      <match tags="np.top.*"/>
     </rule>
 
     <!-- en >> en, de -->
