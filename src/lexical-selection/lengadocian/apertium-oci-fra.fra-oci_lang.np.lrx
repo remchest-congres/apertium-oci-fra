@@ -192,7 +192,6 @@
 
   <rules>
     <!-- **************** NP **************** -->
-
     <macro n="ant_antcog"><with-param v="Hannibal"/><with-param v="Anibal"/></macro>
     <macro n="ant_antcog"><with-param v="Juvénal"/><with-param v="Juvenal"/></macro>
 

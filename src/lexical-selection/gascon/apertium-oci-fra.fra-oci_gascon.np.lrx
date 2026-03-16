@@ -194,7 +194,7 @@
     <!-- **************** NP **************** -->
     <macro n="ant_antcog"><with-param v="Hannibal"/><with-param v="Anibau"/></macro>
     <macro n="ant_antcog"><with-param v="Juvénal"/><with-param v="Juvenau"/></macro>
-    
+
     <macro n="noms_propres"><with-param v="Benoît"/><with-param v="Beneset"/></macro>
     <macro n="noms_propres"><with-param v="Joseph"/><with-param v="Jausèp"/></macro>
     <macro n="noms_propres"><with-param v="Marcel"/><with-param v="Marcèu"/></macro>
