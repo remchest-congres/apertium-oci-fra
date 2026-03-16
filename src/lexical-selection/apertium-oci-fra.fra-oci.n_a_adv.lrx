@@ -796,38 +796,6 @@
       <match lemma="tamarinier" tags="n.*"/>
     </or></def-seq>
 
-    <def-seq n="temps"><or>
-      <match lemma="seconde" tags="n.*"/>
-      <match lemma="minute" tags="n.*"/>
-      <match lemma="heure" tags="n.*"/>
-      <match lemma="jour" tags="n.*"/>
-      <match lemma="journée" tags="n.*"/>
-      <match lemma="weekend" tags="n.*"/>
-      <match lemma="week-end" tags="n.*"/>
-      <match lemma="semaine" tags="n.*"/>
-      <match lemma="mois" tags="n.*"/>
-      <match lemma="trimestre" tags="n.*"/>
-      <match lemma="semestre" tags="n.*"/>
-      <match lemma="an" tags="n.*"/>
-      <match lemma="année" tags="n.*"/>
-      <match lemma="lustre" tags="n.*"/>
-      <match lemma="quinquennat" tags="n.*"/>
-      <match lemma="septennat" tags="n.*"/>
-      <match lemma="décennie" tags="n.*"/>
-      <match lemma="siècle" tags="n.*"/>
-      <match lemma="millénaire" tags="n.*"/>
-    </or></def-seq>
-
-    <def-seq n="jours"><or>
-      <match lemma="lundi" tags="n.*"/>
-      <match lemma="mardi" tags="n.*"/>
-      <match lemma="mercredi" tags="n.*"/>
-      <match lemma="jeudi" tags="n.*"/>
-      <match lemma="vendredi" tags="n.*"/>
-      <match lemma="samedi" tags="n.*"/>
-      <match lemma="lundi" tags="n.*"/>
-    </or></def-seq>
-
     <def-seq n="mois"><or>
       <match lemma="janvier" tags="n.*"/>
       <match lemma="février" tags="n.*"/>
@@ -841,30 +809,6 @@
       <match lemma="octobre" tags="n.*"/>
       <match lemma="novembre" tags="n.*"/>
       <match lemma="décembre" tags="n.*"/>
-    </or></def-seq>
-
-    <def-seq n="saisons"><or>
-      <match lemma="printemps" tags="n.*"/>
-      <match lemma="été" tags="n.*"/>
-      <match lemma="automne" tags="n.*"/>
-      <match lemma="hiver" tags="n.*"/>
-    </or></def-seq>
-
-    <def-seq n="navire"><or>
-      <match lemma="navire" tags="n.*"/>
-      <match lemma="bateau" tags="n.*"/>
-      <match lemma="vaisseau" tags="n.*"/>
-      <match lemma="porte-avions" tags="n.*"/>
-      <match lemma="destroyer" tags="n.*"/>
-      <match lemma="cuirassé" tags="n.*"/>
-      <match lemma="démineur" tags="n.*"/>
-      <match lemma="patrouilleur" tags="n.*"/>
-      <match lemma="garde-côte" tags="n.*"/>
-      <match lemma="caravelle" tags="n.*"/>
-      <match lemma="frégate" tags="n.*"/>
-      <match lemma="navire# de ligne" tags="n.*"/>
-      <match lemma="barque" tags="n.*"/>
-      <match lemma="Titanic" tags="np.*"/>
     </or></def-seq>
 
     <def-seq n="adj_ord"><or>
@@ -887,39 +831,62 @@
   </def-seqs>
 
   <rules>
-
     <!-- **************** ADV **************** -->
-
-    <!-- pas >> pas -->
+    
+    <!-- pas >> pas, mai/shens -->
     <rule weight="0.8">
       <match lemma="pas" tags="adv"><select lemma="pas"/></match>
     </rule>
+    <rule weight="1.0">
+      <match lemma="pas" tags="adv"><select lemma="mai"/></match>
+      <repeat from="0" upto="2">
+        <or>
+          <match tags="*.pp.*"/>
+          <match tags="adv"/>
+        </or>
+      </repeat>
+      <match lemma="que" tags="cnjsub"/>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="pas" tags="adv"><select lemma="shens"/></match>
+      <repeat from="0" upto="2">
+        <or>
+          <match tags="*.pp.*"/>
+          <match tags="adv"/>
+        </or>
+      </repeat>
+      <match lemma="que" tags="cnjsub"/>
+    </rule>
+    <rule weight="1.2">
+      <match lemma="pas" tags="adv"><select lemma="pas"/></match>
+      <match tags="*.pp.*"/>
+      <match lemma="que" tags="cnjsub"/>
+      <repeat from="0" upto="10">
+        <or>
+          <match tags="prn.tn.*"/>
+          <match tags="prn.pro.*"/>
+          <match tags="det.*"/>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="pr"/>
+          <match tags="preadv"/>
+          <match tags="adv"/>
+        </or>
+      </repeat>
+      <or>
+        <match tags="*.prs.*"/>
+        <match tags="*.pis.*"/>
+      </or>
+    </rule>
 
-    <!-- bouche bée >> bocabadat, bocabadada, bocabadats, bocabadades -->
-
-    <!-- lourdement >> pesugament, de bèth tròç -->
+    <!-- lourdement >> pesugament -->
     <rule weight="0.8">
       <match lemma="lourdement" tags="adv"><select lemma="pesugament"/></match>
     </rule>
 
-    <!-- grossièrement >> grossièrament, gròssament, de bèth tròç -->
+    <!-- grossièrement >> grossièrament -->
     <rule weight="0.8">
       <match lemma="grossièrement" tags="adv"><select lemma="grossièrament"/></match>
-    </rule>
-
-    <!-- il fait beau >> que hè beròi temps, hè beròi temps -->
-    <rule weight="0.8">
-      <match lemma="il fait beau" tags="adv"><select lemma="que hè beròi temps"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match tags="cnjsub"/>
-      <repeat from="0" upto="3">
-        <or>
-          <match tags="adv"/>
-          <match tags="cm"/>
-        </or>
-      </repeat>
-      <match lemma="il fait beau" tags="adv"><select lemma="hè beròi temps"/></match>
     </rule>
 
     <!-- quelque >> environ, per tant -->
@@ -946,53 +913,6 @@
       <match lemma="pas" tags="adv"/>
     </rule>
 
-    <!-- pas >> pas, mai/shens -->
-    <rule weight="0.8">
-      <match lemma="pas" tags="adv"><select lemma="pas"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="pas" tags="adv"><select lemma="mai"/></match>
-      <repeat from="0" upto="2">
-        <or>
-          <match tags="*.pp.*"/>
-          <match tags="adv"/>
-        </or>
-      </repeat>
-      <match lemma="que" tags="cnjsub"/>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="pas" tags="adv"><select lemma="shens"/></match>
-      <repeat from="0" upto="2">
-        <or>
-          <match tags="*.pp.*"/>
-          <match tags="adv"/>
-        </or>
-      </repeat>
-      <match lemma="que" tags="cnjsub"/>
-    </rule>
-
-    <rule weight="1.2">
-      <match lemma="pas" tags="adv"><select lemma="pas"/></match>
-      <match tags="*.pp.*"/>
-      <match lemma="que" tags="cnjsub"/>
-      <repeat from="0" upto="10">
-        <or>
-          <match tags="prn.tn.*"/>
-          <match tags="prn.pro.*"/>
-          <match tags="det.*"/>
-          <match tags="n.*"/>
-          <match tags="adj.*"/>
-          <match tags="pr"/>
-          <match tags="preadv"/>
-          <match tags="adv"/>
-        </or>
-      </repeat>
-      <or>
-        <match tags="*.prs.*"/>
-        <match tags="*.pis.*"/>
-      </or>
-    </rule>
-
     <!-- seulement >> solament, sonque -->
     <!-- Acòrds II.21.3.10.2 -->
     <rule weight="0.8">
@@ -1014,7 +934,7 @@
       <match lemma="seulement" tags="adv"><select lemma="sonque"/></match>
     </rule>
 
-    <!-- aussi >> tanben, tant, per mai/per tant -->
+    <!-- aussi >> tanben, tant -->
     <rule weight="0.8">
       <match lemma="aussi" tags="adv"><select lemma="tanben"/></match>
     </rule>
@@ -1030,30 +950,7 @@
       <match lemma="aussi" tags="preadv"><select lemma="tant"/></match>
     </rule>
 
-    <!-- proprement >> pròp(r)iament/netament -->
-    <rule weight="0.8">
-      <match lemma="proprement" tags="adv"><select lemma="netament"/></match>
-    </rule>
-
-    <!-- tantôt >> totara/un còp, quora -->
-    <rule weight="0.8">
-      <match lemma="tantôt" tags="adv"><select lemma="totara"/></match>
-    </rule>
-
     <!-- **************** ADJ **************** -->
-
-    <!-- épris >> passionat/atalentat, enamorat -->
-    <rule weight="1.0">
-      <match lemma="épris" tags="adj.*"><select lemma="enamorat"/></match>
-      <match lemma="de" tags="pr"/>
-      <or>
-        <match lemma="lui" tags="prn.tn.*"/>
-        <match lemma="eux" tags="prn.tn.*"/>
-        <match lemma="il" tags="prn.tn.f.*"/>
-        <match tags="np.*"/>
-        <match tags="" case="Aa"/>
-      </or>
-    </rule>
 
     <!-- parlant >> parlant, sonòr -->
     <rule weight="0.8">
@@ -1065,42 +962,6 @@
         <match lemma="cinéma" tags="n.*"/>
       </or>
       <match lemma="parlant" tags="adj.*"><select lemma="sonòr"/></match>
-    </rule>
-
-    <!-- prenant >> esmovent/esmavent, beneficiari -->
-    <rule weight="1.0">
-      <match lemma="partie" tags="n.*"/>
-      <match lemma="prenant" tags="adj.*"><select lemma="beneficiari"/></match>
-    </rule>
-
-    <!-- dernier >> darrièr/darrèr, passat -->
-    <rule weight="1.0">
-      <or>
-        <seq n="jours"/>
-        <seq n="mois"/>
-        <seq n="saisons"/>
-        <match lemma="jour" tags="n.*"/>
-        <match lemma="journée" tags="n.*"/>
-        <match lemma="veille" tags="n.*"/>
-        <match lemma="veille" tags="n.*"/>
-        <match lemma="nuit" tags="n.*"/>
-        <match lemma="matin" tags="n.*"/>
-        <match lemma="matinée" tags="n.*"/>
-        <match lemma="après-midi" tags="n.*"/>
-        <match lemma="soir" tags="n.*"/>
-        <match lemma="soirée" tags="n.*"/>
-        <match lemma="week-end" tags="n.*"/>
-        <match lemma="weekend" tags="n.*"/>
-        <match lemma="semaine" tags="n.*"/>
-        <match lemma="mois" tags="n.*"/>
-        <match lemma="année" tags="n.*"/>
-        <match lemma="lustre" tags="n.*"/>
-        <match lemma="décennie" tags="n.*"/>
-        <match lemma="siècle" tags="n.*"/>
-        <match lemma="vacances" tags="n.*"/>
-        <match lemma="fois" tags="n.*"/>
-      </or>
-      <match lemma="dernier" tags="adj.*"><select lemma="passat"/></match>
     </rule>
 
     <!-- pressant >> insistent, urgent -->
@@ -1218,19 +1079,14 @@
       <match lemma="tigré" tags="adj.*"><select lemma="tigrinha"/></match>
     </rule>
 
-    <!-- large >> large, gran -->
+    <!-- large >> large -->
     <rule weight="0.8">
       <match lemma="large" tags="adj.*"><select lemma="large"/></match>
     </rule>
 
-    <!-- rampant >> reptant, rabalaire -->
+    <!-- rampant >> reptant -->
     <rule weight="0.8">
       <match lemma="rampant" tags="adj.*"><select lemma="reptant"/></match>
-    </rule>
-
-    <!-- poussé >> intense, aprigondit/apregondit -->
-    <rule weight="0.8">
-      <match lemma="poussé" tags="adj.*"><select lemma="intense"/></match>
     </rule>
 
     <!-- majeur >> màger, major -->
@@ -1253,13 +1109,11 @@
       </repeat>
       <match lemma="majeur" tags="adj.*"><select lemma="major"/></match>
     </rule>
-
-    <!-- mauvais >> mal/mau, etc. -->
-    <rule weight="0.8">
-      <match lemma="mauvais" tags="adj.*"><select lemma="mal"/></match>
-    </rule>
-    <rule weight="0.8">
-      <match lemma="mauvais" tags="adj.*"><select lemma="mau"/></match>
+    <rule weight="1.0">
+      <or>
+        <seq n="personne"/>
+      </or>
+      <match lemma="majeur" tags="adj.*"><select lemma="major"/></match>
     </rule>
 
     <!-- chic >> elegant/brave -->
@@ -1289,11 +1143,6 @@
       <match lemma="éveillé" tags="adj.*"><select lemma="desvelhat"/></match>
     </rule>
 
-    <!-- laborieux >> penós/valent -->
-    <rule weight="0.8">
-      <match lemma="laborieux" tags="adj.*"><select lemma="penós"/></match>
-    </rule>
-
     <!-- portable >> portable/mobile -->
     <rule weight="0.8">
       <match lemma="portable" tags="adj.*"><select lemma="portable"/></match>
@@ -1303,12 +1152,6 @@
         <match lemma="téléphone" tags="n.*"/>
       </or>
       <match lemma="portable" tags="adj.*"><select lemma="mobile"/></match>
-    </rule>
-
-
-    <!-- propre >> pròp(r)i/net -->
-    <rule weight="0.8">
-      <match lemma="propre" tags="adj.*"><select lemma="net"/></match>
     </rule>
 
     <!-- vague >> imprecís/vacant -->
@@ -1322,17 +1165,10 @@
       <match lemma="vague" tags="adj.*"><select lemma="vacant"/></match>
     </rule>
 
-
-    <!-- voyant >> viu/vedent, vesent -->
-    <rule weight="0.8">
-      <match lemma="voyant" tags="adj.*"><select lemma="viu"/></match>
-    </rule>
-
     <!-- moelleux -> mofle, doux -->
     <rule weight="0.8">
       <match lemma="moelleux" tags="adj.*"><select lemma="mofle"/></match>
     </rule>
-
     <rule weight="1.0">
       <or>
         <match lemma="vin" tags="n.*"/>
@@ -1353,7 +1189,6 @@
       </repeat>
       <match lemma="moelleux" tags="adj.*"><select lemma="doç"/></match>
     </rule>
-
     <rule weight="1.0">
       <match lemma="sec" tags="adj.*"/>
       <or>
@@ -1364,14 +1199,6 @@
     </rule>
 
     <!-- **************** N **************** -->
-
-    <!-- échec >> malescaduda/mauescaduda, escac -->
-    <rule weight="1.0">
-      <match lemma="échec" tags="n.*"><select lemma="escac"/></match>
-      <match lemma="à" tags="pr"/>
-      <match tags="det.def.*"/>
-      <match lemma="roi" tags="n.*"/>
-    </rule>
 
     <!-- bande >> benda, banda -->
     <rule weight="0.8">
@@ -1446,17 +1273,6 @@
       <match lemma="bol" tags="n.*"><select lemma="astre"/></match>
     </rule>
 
-    <!-- rattrapage >> ajustament, sosten/sostien-->
-    <rule weight="0.8">
-      <match lemma="rattrapage" tags="n.*"><select lemma="ajustament"/></match>
-    </rule>
-
-    <!-- élite >> elèit/eleit, flor, tria -->
-    <rule weight="1.0">
-      <match tags="det.def.*"/>
-      <match lemma="élite" tags="n.*"><select lemma="flor"/></match>
-    </rule>
-
     <!-- grille >> grasilha, cledat -->
     <rule weight="0.8">
       <match lemma="grille" tags="n.*"><select lemma="grasilha"/></match>
@@ -1474,31 +1290,9 @@
       </or>
     </rule>
 
-    <!-- chaire >> cadièra, presicadoira/predicadera  -->
-    <rule weight="0.8">
-      <match lemma="chaire" tags="n.*"><select lemma="cadièra"/></match>
-    </rule>
-
-    <!-- égard >> esgard, atencion, cas -->
+    <!-- égard >> esgard -->
     <rule weight="0.8">
       <match lemma="égard" tags="n.*"><select lemma="esgard"/></match>
-    </rule>
-
-    <!-- truc >> truc, daquòs/dequerò -->
-    <rule weight="0.8">
-      <match lemma="truc" tags="n.*"><select lemma="truc"/></match>
-    </rule>
-
-    <!-- marche >> marcha, grasa/gradèr, camin -->
-    <rule weight="0.8">
-      <match lemma="marche" tags="n.*"><select lemma="marcha"/></match>
-    </rule>
-    <rule weight="1.0">
-      <or>
-        <seq n="temps"/>
-      </or>
-      <match lemma="de" tags="pr"/>
-      <match lemma="marche" tags="n.*"><select lemma="camin"/></match>
     </rule>
 
     <!-- campagne >> campanha, campèstre -->
@@ -1648,124 +1442,6 @@
       <match lemma="sur" tags="pr"/>
       <match tags="det.def.*"/>
       <match lemma="campagne" tags="n.*"><select lemma="campèstre"/></match>
-    </rule>
-
-    <!-- glace >> glaça, glaç, miralh, veire/vitra -->
-    <rule weight="0.8">
-      <match lemma="glace" tags="n.*"><select lemma="glaça"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="de" tags="pr"/>
-      <match lemma="glace" tags="n.*"><select lemma="glaç"/></match>
-    </rule>
-    <rule weight="1.0">
-      <or>
-        <match lemma="dans" tags="pr"/>
-        <match lemma="devant" tags="pr"/>
-      </or>
-      <match tags="det.*"/>
-      <match lemma="glace" tags="n.*"><select lemma="miralh"/></match>
-    </rule>
-    <rule weight="1.0">
-      <or>
-        <match lemma="regarder" tags="vblex.*"/>
-      </or>
-      <repeat from="0" upto="2">
-        <match tags="adv"/>
-      </repeat>
-      <match tags="det.*"/>
-      <match lemma="glace" tags="n.*"><select lemma="miralh"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="glace" tags="n.*"><select lemma="miralh"/></match>
-      <repeat from="0" upto="4">
-        <or>
-          <match tags="*"/>
-          <match tags=""/>
-        </or>
-      </repeat>
-      <or>
-        <match lemma="armoire" tags="n.*"/>
-      </or>
-    </rule>
-    <rule weight="1.0">
-      <or>
-        <match lemma="armoire" tags="n.*"/>
-      </or>
-      <repeat from="0" upto="4">
-        <or>
-          <match tags="*"/>
-          <match tags=""/>
-        </or>
-      </repeat>
-      <match lemma="glace" tags="n.*"><select lemma="miralh"/></match>
-    </rule>
-
-    <!-- parquet >> postam/taulat, ministèri public -->
-    <rule weight="1.0">
-      <match lemma="Parquet" tags="n.m.sg"><select lemma="ministèri public"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="parquet" tags="n.m.sg"><select lemma="ministèri public"/></match>
-      <repeat from="0" upto="4">
-        <or>
-          <match tags="adv"/>
-          <match tags="prn.pro.*"/>
-          <match tags="vbhaver.*"/>
-          <match tags="vbser.*"/>
-        </or>
-      </repeat>
-      <or>
-        <match lemma="annoncer" tags="vblex.*"/>
-        <match lemma="déclarer" tags="vblex.*"/>
-        <match lemma="présenter" tags="vblex.*"/>
-        <match lemma="faire# appel" tags="vblex.*"/>
-        <match lemma="pourvoir" tags="vblex.*"/>
-      </or>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="parquet" tags="n.m.sg"><select lemma="ministèri public"/></match>
-      <or>
-        <match lemma="national" tags="adj.*"/>
-        <match lemma="antiterroriste" tags="adj.*"/>
-        <match lemma="anti-terroriste" tags="adj.*"/>
-      </or>
-    </rule>
-
-    <!-- milieu >> mièg/miei, ambient -->
-    <rule weight="1.0">
-      <match lemma="milieu" tags="n.*"><select lemma="ambient"/></match>
-      <repeat from="0" upto="2">
-        <or>
-          <match tags="adv"/>
-          <match tags="preadv"/>
-        </or>
-      </repeat>
-      <or>
-        <match tags="adj.*"/>
-      </or>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="milieu" tags="n.*"><select lemma="ambient"/></match>
-      <match lemma="de" tags="pr"/>
-      <match tags="det.def.*"/>
-      <repeat from="0" upto="2">
-        <match tags="adj.*"/>
-      </repeat>
-      <or>
-        <match lemma="droite" tags="n.*"/>
-        <match lemma="gauche" tags="n.*"/>
-        <match lemma="gouvernement" tags="n.*"/>
-        <match lemma="opposition" tags="n.*"/>
-        <match lemma="patron" tags="n.*"/>
-        <match lemma="travailleur" tags="n.*"/>
-        <match lemma="gréviste" tags="n.*"/>
-        <match lemma="curie" tags="n.*"/>
-        <match lemma="parti" tags="n.*"/>
-        <match lemma="affaire" tags="n.*"/>
-        <match lemma="assalarié" tags="n.*"/>
-        <match lemma="étudiant" tags="n.*"/>
-      </or>
     </rule>
 
     <!-- bout >> cap, fin, tròç -->
@@ -1920,26 +1596,6 @@
       <match lemma="poids lourd" tags="n.*"><select lemma="pes pesant"/></match>
     </rule>
 
-    <!-- hôtel >> ostalariá/ostaleria, ostal -->
-    <rule weight="1.0">
-      <match lemma="hôtel" tags="n.*"><select lemma="ostal"/></match>
-      <match lemma="particulier" tags="adj.*"/>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="hôtel" tags="n.*"><select lemma="ostal"/></match>
-      <match lemma="de" tags="pr"/>
-      <match lemma="police" tags="n.*"/>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="hôtel" tags="n.*"><select lemma="ostal"/></match>
-      <match tags="np.cog.*"/>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="hôtel" tags="n.*"><select lemma="ostal"/></match>
-      <match lemma="de" tags="pr"/>
-      <match lemma="Évreux" tags="np.top.*"/>
-    </rule>
-
     <!-- carte >> carta, mapa -->
     <rule weight="0.8">
       <match lemma="carte" tags="n.*"><select lemma="carta"/></match>
@@ -2000,52 +1656,9 @@
       <match lemma="grenade" tags="n.*"><select lemma="miugrana"/></match>
     </rule>
 
-    <!-- pige >> linha, an/candela -->
-    <rule weight="0.8">
-      <match lemma="pige" tags="n.*"><select lemma="linha"/></match>
-    </rule>
-
-    <!-- mine >> mina, cara, semblant, morre/mus -->
-    <rule weight="0.8">
-      <match lemma="mine" tags="n.*"><select lemma="mina"/></match>
-    </rule>
-    <rule weight="1.0">
-      <or>
-        <match lemma="bon" tags="adj.*"/>
-        <match lemma="mauvais" tags="adj.*"/>
-      </or>
-      <match lemma="mine" tags="n.*"><select lemma="cara"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="faire" tags="vblex.*"/>
-      <repeat from="0" upto="2">
-        <or>
-          <match tags="adv"/>
-          <match tags="cnjadv"/>
-        </or>
-      </repeat>
-      <match lemma="mine" tags="n.*"><select lemma="semblant"/></match>
-    </rule>
-
-    <!-- économie >> economia, estalvi/estauvi -->
-    <rule weight="0.8">
-      <match lemma="économie" tags="n.*"><select lemma="economia"/></match>
-    </rule>
-
     <!-- arrondissement >> arrondiment, arredondiment -->
     <rule weight="0.8">
       <match lemma="arrondissement" tags="n.*"><select lemma="arrondiment"/></match>
-    </rule>
-
-    <!-- sarrasin >> blat negre/blat moro, sarrasin -->
-    <rule weight="1.0">
-      <match lemma="sarrasin" tags="n.f.*"><select lemma="sarrasin"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="sarrasin" tags="n.*.pl"><select lemma="sarrasin"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="Sarrasin" tags="n.*"><select lemma="sarrasin"/></match>
     </rule>
 
     <!-- course >> corsa, crompa -->
@@ -2129,15 +1742,6 @@
       </or>
     </rule>
 
-    <!-- atteinte >> atac/ataca, prejudici -->
-    <rule weight="1.0">
-      <match lemma="porter" tags="vblex.*"/>
-      <repeat from="0" upto="2">
-        <match tags="adv"/>
-      </repeat>
-      <match lemma="atteinte" tags="n.*"><select lemma="prejudici"/></match>
-    </rule>
-
     <!-- reprise >> represa, còp -->
     <rule weight="0.8">
       <match lemma="reprise" tags="n.*"><select lemma="represa"/></match>
@@ -2150,14 +1754,6 @@
         <match tags="det.ind.*"/>
       </or>
       <match lemma="reprise" tags="n.*"><select lemma="còp"/></match>
-    </rule>
-
-    <!-- palier >> pompidor/estància, repaus -->
-    <rule weight="1.0">
-      <match lemma="palier" tags="n.*"><select lemma="repaus"/></match>
-      <match lemma="de" tags="pr"/>
-      <match tags="det.*"/>
-      <match lemma="escalier" tags="n.*"/>
     </rule>
 
     <!-- rattachement >> restacament, incorporacion -->
@@ -2192,104 +1788,6 @@
     <!-- plongeur >> cabussaire, vaisselaire -->
     <rule weight="0.8">
       <match lemma="plongeur" tags="n.*"><select lemma="cabussaire"/></match>
-    </rule>
-
-    <!-- but >> tòca/mira, ponch/punt, gàbia, barras -->
-    <rule weight="1.0">
-      <match lemma="poteau" tags="n.*"/>
-      <match lemma="de" tags="pr"/>
-      <match lemma="but" tags="n.*"><select lemma="gàbia"/></match>
-    </rule>
-    <rule weight="1.0">
-      <or>
-        <match lemma="tir" tags="n.*"/>
-        <match lemma="lancement" tags="n.*"/>
-      </or>
-      <match lemma="à" tags="pr"/>
-      <match tags="det.def.*"/>
-      <match lemma="but" tags="n.*"><select lemma="gàbia"/></match>
-    </rule>
-    <rule weight="1.0">
-      <or>
-        <match lemma="garder" tags="vblex.*"/>
-        <match lemma="protéger" tags="vblex.*"/>
-        <match lemma="défendre" tags="vblex.*"/>
-      </or>
-      <repeat from="0" upto="2">
-        <match tags="adv"/>
-      </repeat>
-      <or>
-        <match tags="det.def.*"/>
-        <match tags="det.pos.*"/>
-      </or>
-      <match lemma="but" tags="n.*"><select lemma="gàbia"/></match>
-    </rule>
-    <rule weight="1.0">
-      <or>
-        <match lemma="lancer" tags="vblex.*"/>
-        <match lemma="tirer" tags="vblex.*"/>
-      </or>
-      <repeat from="0" upto="2">
-        <match tags="adv"/>
-      </repeat>
-      <repeat from="0" upto="4">
-        <or>
-          <match tags="det.*"/>
-          <match tags="num.*"/>
-          <match tags="num"/>
-          <match tags="num.*"/>
-          <match tags="adj.*"/>
-          <match lemma="de" tags="pr"/>
-        </or>
-      </repeat>
-      <or>
-        <match lemma="sur" tags="pr"/>
-        <match lemma="dans" tags="pr"/>
-        <match lemma="vers" tags="pr"/>
-        <match lemma="au-dessus de" tags="pr"/>
-        <match lemma="en dessus de" tags="pr"/>
-        <match lemma="à côté de" tags="pr"/>
-      </or>
-      <or>
-        <match tags="det.def.*"/>
-        <match tags="det.pos.*"/>
-      </or>
-      <match lemma="but" tags="n.*"><select lemma="gàbia"/></match>
-    </rule>
-
-    <!-- entretien >> entreten, etc. -->
-    <rule weight="0.8">
-      <match lemma="entretien" tags="n.*"><select lemma="entreten"/></match>
-    </rule>
-
-    <!-- manière >> manièra, faiçon, bias(h) -->
-    <rule weight="0.8">
-      <match lemma="manière" tags="n.*"><select lemma="manièra"/></match>
-    </rule>
-
-    <!-- douzaine >> dotzena, dotzenat -->
-    <rule weight="0.8">
-      <match lemma="douzaine" tags="n.*"><select lemma="dotzena"/></match>
-    </rule>
-
-    <!-- vingtaine >> vintenat, vinten/vintau -->
-    <rule weight="0.8">
-      <match lemma="vingtaine" tags="n.*"><select lemma="vintenat"/></match>
-    </rule>
-
-    <!-- trentaine >> trentenat, trenten/trentau -->
-    <rule weight="0.8">
-      <match lemma="trentaine" tags="n.*"><select lemma="trentenat"/></match>
-    </rule>
-
-    <!-- quarantaine >> quarantena, quarantenat, quaranten/quarantau -->
-    <rule weight="0.8">
-      <match lemma="quarantaine" tags="n.*"><select lemma="quarantena"/></match>
-    </rule>
-
-    <!-- cinquantaine >> cinquantena, cinquanten/cinquantau -->
-    <rule weight="0.8">
-      <match lemma="cinquantaine" tags="n.*"><select lemma="cinquantena"/></match>
     </rule>
 
     <!-- boucle >> bocla, pendent -->
@@ -2340,30 +1838,6 @@
     <!-- langue >> lenga, lengua, etc. -->
     <rule weight="0.8">
       <match lemma="langue" tags="n.*"><select lemma="lenga"/></match>
-    </rule>
-
-    <!-- police >> polícia/policia, polissa -->
-    <rule weight="1.0">
-      <match lemma="police" tags="n.*"><select lemma="polissa"/></match>
-      <repeat from="0" upto="6">
-        <or>
-          <match tags="*"/>
-          <match tags=""/>
-        </or>
-      </repeat>
-      <or>
-        <match lemma="assurance" tags="n.*"/>
-        <match lemma="écriture" tags="n.*"/>
-        <match lemma="caractère" tags="n.*"/>
-      </or>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="police" tags="n.*"><select lemma="polissa"/></match>
-      <or>
-        <match lemma="gras" tags="adj.*"/>
-        <match lemma="italique" tags="adj.*"/>
-        <match lemma="souligné" tags="adj.*"/>
-      </or>
     </rule>
 
     <!-- mairie >> maison comuna, comuna -->
@@ -2452,30 +1926,6 @@
     <!-- soir >> vèspre, ser -->
     <rule weight="0.8">
       <match lemma="soir" tags="n.*"><select lemma="vèspre"/></match>
-    </rule>
-
-    <!-- femme >> femna/hemna, mòlher -->
-    <rule weight="0.8">
-      <or>
-        <match lemma="femme" tags="n.*"><select lemma="femna"/></match>
-        <match lemma="femme" tags="n.*"><select lemma="hemna"/></match>
-      </or>
-    </rule>
-    <rule weight="1.0">
-      <match tags="det.pos.*"/>
-      <repeat from="0" upto="2">
-        <or>
-          <match tags="adj.*"/>
-          <match tags="num.*"/>
-          <match tags="num"/>
-        </or>
-      </repeat>
-      <match lemma="femme" tags="n.*"><select lemma="mòlher"/></match>
-    </rule>
-
-    <!-- pêche >> pesca, persèc/pershec -->
-    <rule weight="0.8">
-      <match lemma="pêche" tags="n.*"><select lemma="pesca"/></match>
     </rule>
 
     <!-- vol >> panatòri, vòl -->
@@ -2865,11 +2315,6 @@
       <match lemma="vol" tags="n.*"><select lemma="vòl"/></match>
     </rule>
 
-    <!-- fille >> dròlle, filh -->
-    <rule weight="0.8">
-      <match lemma="fille" tags="n.*"><select lemma="dròlle"/></match>
-    </rule>
-
     <!-- vague >> èrsa, ondada -->
     <rule weight="0.8">
       <match lemma="vague" tags="n.*"><select lemma="èrsa"/></match>
@@ -3173,7 +2618,6 @@
         <match lemma="rabaisse" tags="n.*"/>
       </or>
     </rule>
-
     <rule weight="1.2">
       <match lemma="juste" tags="adj.*"/>
       <match lemma="prix" tags="n.*"><select lemma="prètz"/></match>
@@ -3189,7 +2633,6 @@
     <rule weight="0.8">
       <match lemma="siège" tags="n.*"><select lemma="sèti"/></match>
     </rule>
-
     <rule weight="1.2">
       <match lemma="siège" tags="n.*"><select lemma="sedença"/></match>
       <or>
@@ -3197,7 +2640,6 @@
         <match lemma="mondial" tags="adj.*"/>
       </or>
     </rule>
-    
     <rule weight="1.2">
       <match lemma="avoir" tags="vblex.*"/>
       <repeat from="0" upto="2">
@@ -3223,30 +2665,6 @@
       <match lemma="à" tags="pr"/>
       <match tags="det.def.*"/>
       <match lemma="broche" tags="n.*"><select lemma="ast"/></match>
-    </rule>
-
-    <!-- bulle >> bulla, botiòla/boishòrla -->
-    <rule weight="1.0">
-      <match lemma="bulle" tags="n.*"><select lemma="ast"/></match>
-      <match lemma="papal" tags="adj.*"/>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="bulle" tags="n.*"><select lemma="ast"/></match>
-      <match lemma="de" tags="pr"/>
-      <match lemma="le" tags="det.*"/>
-      <repeat from="0" upto="2">
-        <or>
-          <match tags="adv"/>
-          <match tags="adj.*"/>
-        </or>
-      </repeat>
-      <match lemma="pape" tags="n.*"/>
-    </rule>
-
-    <!-- fonte >> fonuda/honuda, fonta -->
-    <rule weight="1.0">
-      <match lemma="en" tags="pr"/>
-      <match lemma="fonte" tags="n.*"><select lemma="fonta"/></match>
     </rule>
 
     <!-- fouille >> perquisition, cavament -->
@@ -3367,11 +2785,6 @@
       <match lemma="accolade" tags="n.*"><select lemma="abraçada"/></match>
     </rule>
 
-    <!-- barrage >> barratge, paissièra/paishèra -->
-    <rule weight="0.8">
-      <match lemma="barrage" tags="n.*"><select lemma="barratge"/></match>
-    </rule>
-
     <!-- mie >> mica, amiga -->
     <rule weight="0.8">
       <match lemma="mie" tags="n.*"><select lemma="mica"/></match>
@@ -3412,180 +2825,39 @@
       <match lemma="mie" tags="n.*"><select lemma="mica"/></match>
     </rule>
 
-    <!-- bois >> fusta/husta, lenha, bòsc, bana/arram -->
+    <!-- plainte >> clam, planh -->
+    <rule weight="0.8">
+      <match lemma="plainte" tags="n.*"><select lemma="clam"/></match>
+    </rule>
     <rule weight="1.0">
       <or>
-        <match lemma="feu" tags="n.*"/>
-        <match lemma="flamme" tags="n.*"/>
-        <match lemma="foyer" tags="n.*"/>
-        <match lemma="bûcher" tags="n.*"/>
-        <match lemma="âtre" tags="n.*"/>
-        <match lemma="cheminée" tags="n.*"/>
-        <match lemma="braise" tags="n.*"/>
-        <match lemma="cendre" tags="n.*"/>
-        <match lemma="allumette" tags="n.*"/>
-        <match lemma="charbon" tags="n.*"/>
-        <match lemma="bûche" tags="n.*"/>
-        <match lemma="poêle" tags="n.m.*"/>
-        <match lemma="poele" tags="n.m.*"/>
-        <match lemma="chauffage" tags="n.m.*"/>
+        <match lemma="déposer" tags="vblex.*"/>
+        <match lemma="porter" tags="vblex.*"/>
+        <match lemma="adresser" tags="vblex.*"/>
+        <match lemma="classer" tags="vblex.*"/>
+        <match lemma="déposer" tags="vblex.*"/>
+        <match lemma="engager" tags="vblex.*"/>
+        <match lemma="examiner" tags="vblex.*"/>
+        <match lemma="déposer" tags="vblex.*"/>
+        <match lemma="recevoir" tags="vblex.*"/>
+        <match lemma="retirer" tags="vblex.*"/>
+        <match lemma="transmettre" tags="vblex.*"/>
+        <match lemma="renoncer" tags="vblex.*"/>
+        <match lemma="débouter" tags="vblex.*"/>
       </or>
-      <repeat from="0" upto="4">
+      <repeat from="0" upto="5">
         <or>
-          <match tags="*"/>
-          <match tags=""/>
-        </or>
-      </repeat>
-      <match lemma="bois" tags="n.*"><select lemma="lenha"/></match>
-    </rule>
-
-    <rule weight="1.0">
-      <match lemma="bois" tags="n.*"><select lemma="lenha"/></match>
-      <repeat from="0" upto="4">
-        <or>
-          <match tags="*"/>
-          <match tags=""/>
-        </or>
-      </repeat>
-      <or>
-        <match lemma="feu" tags="n.*"/>
-        <match lemma="flamme" tags="n.*"/>
-        <match lemma="foyer" tags="n.*"/>
-        <match lemma="bûcher" tags="n.*"/>
-        <match lemma="âtre" tags="n.*"/>
-        <match lemma="cheminée" tags="n.*"/>
-        <match lemma="braise" tags="n.*"/>
-        <match lemma="cendre" tags="n.*"/>
-        <match lemma="allumette" tags="n.*"/>
-        <match lemma="charbon" tags="n.*"/>
-        <match lemma="bûche" tags="n.*"/>
-        <match lemma="poêle" tags="n.m.*"/>
-        <match lemma="poele" tags="n.m.*"/>
-        <match lemma="chauffage" tags="n.m.*"/>
-      </or>
-    </rule>
-
-    <rule weight="1.1">
-      <or>
-        <match tags="det.*.pl"/>
-        <match tags="adj.*.pl"/>
-      </or>
-      <match lemma="bois" tags="n.*"><select lemma="bòsc"/></match>
-    </rule>
-    <rule weight="1.1">
-      <match lemma="bois" tags="n.*"><select lemma="bòsc"/></match>
-      <or>
-        <match tags="adj.*.pl"/>
-        <match tags="vblex.pp.*.pl"/>
-      </or>
-    </rule>
-
-    <rule weight="1.1">
-      <match lemma="bois" tags="n.*"><select lemma="bòsc"/></match>
-      <repeat from="0" upto="1">
-          <match lemma="de" tags="pr"/>
-      </repeat>
-      <repeat from="0" upto="1">
-        <match tags="det.*"/>
-      </repeat>
-      <or>
-        <match tags="np.*"/>
-        <match tags="" case="Aa"/>
-      </or>
-    </rule>
-
-    <rule weight="1.1">
-      <or>
-        <match lemma="à" tags="pr"/>
-        <match lemma="à l'arrière de" tags="pr"/>
-        <match lemma="à l'extérieur deà" tags="pr"/>
-        <match lemma="à l'intérieur de" tags="pr"/>
-        <match lemma="à l'ombre de" tags="pr"/>
-        <match lemma="à côté de" tags="pr"/>
-        <match lemma="à destination de" tags="pr"/>
-        <match lemma="à proximité de" tags="pr"/>
-        <match lemma="à partir de" tags="pr"/>
-        <match lemma="à ras de" tags="pr"/>
-        <match lemma="au ras de" tags="pr"/>
-        <match lemma="à travers de" tags="pr"/>
-        <match lemma="à travers" tags="pr"/>
-        <match lemma="alentour de" tags="pr"/>
-        <match lemma="au-dedans de" tags="pr"/>
-        <match lemma="au-dehors de" tags="pr"/>
-        <match lemma="après" tags="pr"/>
-        <match lemma="avant" tags="pr"/>
-        <match lemma="au-delà de" tags="pr"/>
-        <match lemma="au bout de" tags="pr"/>
-        <match lemma="au delà de" tags="pr"/>
-        <match lemma="au commencement de" tags="pr"/>
-        <match lemma="au début de" tags="pr"/>
-        <match lemma="au long de" tags="pr"/>
-        <match lemma="au sein de" tags="pr"/>
-        <match lemma="au travers de" tags="pr"/>
-        <match lemma="aux portes de" tags="pr"/>
-        <match lemma="bien avant" tags="pr"/>
-        <match lemma="dans" tags="pr"/>
-        <match lemma="dans l'entourage de" tags="pr"/>
-        <match lemma="dans le fin fond de" tags="pr"/>
-        <match lemma="au fin fond de" tags="pr"/>
-        <match lemma="depuis" tags="pr"/>
-        <match lemma="jusqu'au début de" tags="pr"/>
-        <match lemma="jusqu'en début de" tags="pr"/>
-        <match lemma="jusqu'en fin de" tags="pr"/>
-        <match lemma="dos à" tags="pr"/>
-        <match lemma="du côté de" tags="pr"/>
-        <match lemma="en marge de" tags="pr"/>
-        <match lemma="en dehors de" tags="pr"/>
-        <match lemma="en delà de" tags="pr"/>
-        <match lemma="en deçà de" tags="pr"/>
-        <match lemma="en face de" tags="pr"/>
-        <match lemma="face à" tags="pr"/>
-        <match lemma="hors de" tags="pr"/>
-        <match lemma="hors" tags="pr"/>
-        <match lemma="le long de" tags="pr"/>
-        <match lemma="long de" tags="pr"/>
-        <match lemma="longtemps avant" tags="pr"/>
-        <match lemma="par" tags="pr"/>
-        <match lemma="par-delà" tags="pr"/>
-        <match lemma="proche de" tags="pr"/>
-        <match lemma="près de" tags="pr"/>
-        <match lemma="tout près de" tags="pr"/>
-        <match lemma="tout au long de" tags="pr"/>
-        <match lemma="un peu après" tags="pr"/>
-        <match lemma="un peu avant" tags="pr"/>
-        <match lemma="vers" tags="pr"/>
-        <match lemma="vers la moitié de" tags="pr"/>
-        <match lemma="à l'opposé de" tags="pr"/>
-        <match lemma="à l'entour de" tags="pr"/>
-        <match lemma="au sortir de" tags="pr"/>
-        <match lemma="attenant" tags="pr"/>
-        <match lemma="orée" tags="n.*"/>
-        <match lemma="lisière" tags="n.*"/>
-        <match lemma="bordure" tags="n.*"/>
-        <match lemma="ombre" tags="n.*"/>
-      </or>
-      <match tags="det.*"/>
-      <repeat from="0" upto="4">
-        <or>
+          <match lemma="à" tags="pr"/>
+          <match tags="det.pos.*"/>
           <match tags="preadv"/>
           <match tags="adv"/>
           <match tags="adj.*"/>
         </or>
       </repeat>
-      <match lemma="bois" tags="n.*"><select lemma="bòsc"/></match>
+      <match lemma="plainte" tags="n.*"><select lemma="planh"/></match>
     </rule>
 
-    <rule weight="1.4">
-      <match lemma="charbon" tags="n.*"/>
-      <match lemma="de" tags="pr"/>
-      <match lemma="bois" tags="n.*"><select lemma="lenha"/></match>
-    </rule>
-
-    <rule weight="2.0">
-      <match lemma="Bois" tags="n.*"><select lemma="bòsc"/></match>
-    </rule>
-
-    <!-- cachet >> cachet, retribucion, sagèl/sagèth -->
+    <!-- cachet >> cachet, retribucion, sagèl -->
     <rule weight="0.8">
       <match lemma="cachet" tags="n.*"><select lemma="cachet"/></match>
     </rule>
@@ -3660,7 +2932,6 @@
         <match lemma="technicien" tags="n.*"/>
       </or>
     </rule>
-
     <rule weight="1.0">
       <or>
         <match lemma="porter" tags="vblex.*"/>
@@ -3682,7 +2953,6 @@
       </repeat>
       <match lemma="cachet" tags="n.*"><select lemma="sagèl"/></match>
     </rule>
-
     <rule weight="1.0">
       <match lemma="cachet" tags="n.*"><select lemma="sagèl"/></match>
       <repeat from="0" upto="2">
@@ -3695,7 +2965,6 @@
         <match lemma="personnel" tags="adj.*"/>
       </or>
     </rule>
-
     <rule weight="1.0">
       <match lemma="cachet" tags="n.*"><select lemma="sagèl"/></match>
       <repeat from="0" upto="4">
@@ -3713,7 +2982,6 @@
         <match lemma="signature" tags="n.*"/>
       </or>
     </rule>
-
     <rule weight="1.0">
       <or>
         <match lemma="poste" tags="n.*"/>
@@ -3736,7 +3004,6 @@
     <rule weight="0.8">
       <match lemma="défaut" tags="n.*"><select lemma="defaut"/></match>
     </rule>
-
     <rule weight="1.0">
       <match lemma="défaut" tags="n.*"><select lemma="manca"/></match>
       <repeat from="0" upto="4">
@@ -3753,7 +3020,6 @@
     <rule weight="0.8">
       <match lemma="embouteillage" tags="n.*"><select lemma="encombrament"/></match>
     </rule>
-
     <rule weight="1.0">
       <or>
         <match lemma="chaîne" tags="n.*"/>
@@ -3773,16 +3039,10 @@
       <match lemma="portable" tags="n.*"><select lemma="portable"/></match>
     </rule>
 
-    <!-- appât >> esca, atrach/atrèit -->
-    <rule weight="0.8">
-      <match lemma="appât" tags="n.*"><select lemma="esca"/></match>
-    </rule>
-
     <!-- tampon >> sagèl, tampon, tap -->
     <rule weight="0.8">
       <match lemma="tampon" tags="n.*"><select lemma="sagèl"/></match>
     </rule>
-
     <rule weight="1.0">
       <match lemma="tampon" tags="n.*"><select lemma="tampon"/></match>
       <or>
@@ -3792,7 +3052,6 @@
         <match lemma="réutilisable" tags="adj.*"/>
       </or>
     </rule>
-
     <rule weight="1.0">
       <or>
         <match lemma="introduire" tags="vblex.*"/>
@@ -3800,7 +3059,6 @@
       <match tags="det.*"/>
       <match lemma="tampon" tags="n.*"><select lemma="tampon"/></match>
     </rule>
-
     <rule weight="1.0">
       <or>
         <match lemma="distributeur" tags="n.*"/>
@@ -3808,7 +3066,6 @@
       <match lemma="de" tags="pr"/>
       <match lemma="tampon" tags="n.*"><select lemma="tampon"/></match>
     </rule>
-
     <rule weight="1.0">
       <match lemma="tampon" tags="n.*"><select lemma="tampon"/></match>
       <or>
@@ -3822,7 +3079,6 @@
     <rule weight="0.8">
       <match lemma="toast" tags="n.*"><select lemma="tòsta"/></match>
     </rule>
-
     <rule weight="1.0">
       <or>
         <match lemma="porter" tags="vblex.*"/>
@@ -3834,65 +3090,6 @@
     <!-- touffe -> mata, tufa/tuha -->
     <rule weight="0.8">
       <match lemma="touffe" tags="n.*"><select lemma="mata"/></match>
-    </rule>
-
-    <!-- poule -> galina/garia, grop -->
-    <rule weight="1.0">
-      <match lemma="poule" tags="n.*"><select lemma="grop"/></match>
-      <or><match tags="num"/><match tags="num.*"/></or>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="poule" tags="n.*"><select lemma="grop"/></match>
-      <match lemma="de" tags="pr"/>
-      <or><match tags="num"/><match tags="num.*"/></or>
-    </rule>
-    <rule weight="1.0">
-      <or>
-        <match lemma="équipe" tags="n.*"/>
-        <match lemma="club" tags="n.*"/>
-        <match lemma="ligue" tags="n.*"/>
-        <match lemma="football" tags="n.*"/>
-        <match lemma="foot" tags="n.*"/>
-        <match lemma="rubgy" tags="n.*"/>
-        <match lemma="basket-ball" tags="n.*"/>
-        <match lemma="basket" tags="n.*"/>
-        <match lemma="OM" tags="np.*"/>
-        <match lemma="PSG" tags="np.*"/>
-        <match lemma="Paris Saint-Germain" tags="np.*"/>
-        <match lemma="FIFA" tags="n.acr.*"/>
-        <match lemma="UEA" tags="n.acr.*"/>
-        <match lemma="Champions League" tags="np.*"/>
-        <match lemma="Euroligue" tags="np.*"/>
-      </or>
-      <repeat from="0" upto="5">
-          <match tags="*"/>
-          <match tags=""/>
-      </repeat>
-      <match lemma="poule" tags="n.*"><select lemma="grop"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="poule" tags="n.*"><select lemma="grop"/></match>
-      <repeat from="0" upto="5">
-          <match tags="*"/>
-          <match tags=""/>
-      </repeat>
-      <or>
-        <match lemma="équipe" tags="n.*"/>
-        <match lemma="club" tags="n.*"/>
-        <match lemma="ligue" tags="n.*"/>
-        <match lemma="football" tags="n.*"/>
-        <match lemma="foot" tags="n.*"/>
-        <match lemma="rubgy" tags="n.*"/>
-        <match lemma="basket-ball" tags="n.*"/>
-        <match lemma="basket" tags="n.*"/>
-        <match lemma="OM" tags="np.*"/>
-        <match lemma="PSG" tags="np.*"/>
-        <match lemma="Paris Saint-Germain" tags="np.*"/>
-        <match lemma="FIFA" tags="n.acr.*"/>
-        <match lemma="UEA" tags="n.acr.*"/>
-        <match lemma="Champions League" tags="np.*"/>
-        <match lemma="Euroligue" tags="np.*"/>
-      </or>
     </rule>
 
     <!-- boulette -> boleta/cagada -->
@@ -3949,7 +3146,6 @@
       <match lemma="de" tags="pr"/>
     </rule>
 
-
     <!-- aileron -> aleta, aleron -->
     <rule weight="0.8">
       <match lemma="aileron" tags="n.*"><select lemma="aleta"/></match>
@@ -3986,23 +3182,23 @@
       <match lemma="baie" tags="n.*"><select lemma="grana"/></match>
       <match lemma="de" tags="pr"/>
       <or>
-          <match lemma="goji" tags="n.*"/>
-          <match lemma="génévrier" tags="n.*"/>
-          <match lemma="sureau" tags="n.*"/>
-          <match lemma="genièvre" tags="n.*"/>
-          <match lemma="sureau" tags="n.*"/>
-          <match lemma="houx" tags="n.*"/>
-          <match lemma="gui" tags="n.*"/>
-          <match lemma="sureau" tags="n.*"/>
-          <match lemma="sureau" tags="n.*"/>
+        <match lemma="goji" tags="n.*"/>
+        <match lemma="génévrier" tags="n.*"/>
+        <match lemma="sureau" tags="n.*"/>
+        <match lemma="genièvre" tags="n.*"/>
+        <match lemma="sureau" tags="n.*"/>
+        <match lemma="houx" tags="n.*"/>
+        <match lemma="gui" tags="n.*"/>
+        <match lemma="sureau" tags="n.*"/>
+        <match lemma="sureau" tags="n.*"/>
       </or>
     </rule>
     <rule weight="1.2">
       <match lemma="baie" tags="n.*"><select lemma="baia"/></match>
       <match lemma="de" tags="pr"/>
       <or>
-          <match tags="np.*"/>
-          <match tags=""/>
+        <match tags="np.*"/>
+        <match tags=""/>
       </or>
     </rule>
     <rule weight="1.2">
@@ -4014,15 +3210,15 @@
         </or>
       </repeat>
       <or>
-          <match lemma="mer" tags="n.*"/>
-          <match lemma="océan" tags="n.*"/>
-          <match lemma="bateau" tags="n.*"/>
-          <match lemma="plage" tags="n.*"/>
-          <match lemma="falaise" tags="n.*"/>
-          <match lemma="calanque" tags="n.*"/>
-          <match lemma="accoster" tags="vblex.*"/>
-          <match lemma="mouiller" tags="vblex.*"/>
-          <match lemma="débarquer" tags="vblex.*"/>
+        <match lemma="mer" tags="n.*"/>
+        <match lemma="océan" tags="n.*"/>
+        <match lemma="bateau" tags="n.*"/>
+        <match lemma="plage" tags="n.*"/>
+        <match lemma="falaise" tags="n.*"/>
+        <match lemma="calanque" tags="n.*"/>
+        <match lemma="accoster" tags="vblex.*"/>
+        <match lemma="mouiller" tags="vblex.*"/>
+        <match lemma="débarquer" tags="vblex.*"/>
       </or>
     </rule>
     <rule weight="1.4">
@@ -4034,9 +3230,9 @@
     </rule>
     <rule weight="1.4">
       <or>
-          <match lemma="ouvrir" tags="vblex.*"/>
-          <match lemma="fermer" tags="vblex.*"/>
-          <match lemma="passer" tags="vblex.*"/>
+        <match lemma="ouvrir" tags="vblex.*"/>
+        <match lemma="fermer" tags="vblex.*"/>
+        <match lemma="passer" tags="vblex.*"/>
       </or>
       <repeat from="0" upto="4">
         <or>
@@ -4222,21 +3418,6 @@
       <match lemma="dans" tags="pr"/>
       <match tags="det.dem.*"/>
       <match lemma="cadre" tags="n.*"><select lemma="encastre"/></match>
-    </rule>
-
-    <!-- rayon >> rai, taulièr/taulèr -->
-    <rule weight="0.8">
-      <match lemma="rayon" tags="n.*"><select lemma="rai"/></match>
-    </rule>
-
-    <!-- travail >> trabalh/tribalh, travaux >> òbras -->
-    <rule weight="1.0">
-      <match lemma="travail" tags="n.m.pl"><select lemma="òbra"/></match>
-    </rule>
-    
-    <!-- performance >> proes(s)a, performances >> résultats -->    
-    <rule weight="1.0">
-      <match lemma="performance" tags="n.f.pl"><select lemma="resultat"/></match>
     </rule>
   </rules>
 </lrx>

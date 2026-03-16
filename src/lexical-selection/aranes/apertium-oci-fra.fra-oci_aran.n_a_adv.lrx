@@ -4,9 +4,42 @@
   </def-seqs>
 
   <rules>
+    <!-- **************** N **************** -->
+    
     <!-- police >> polícia/policia, polissa -->
     <rule weight="0.8">
       <match lemma="police" tags="n.*"><select lemma="policia"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="police" tags="n.*"><select lemma="polissa"/></match>
+      <repeat from="0" upto="6">
+        <or>
+          <match tags="*"/>
+          <match tags=""/>
+        </or>
+      </repeat>
+      <or>
+        <match lemma="assurance" tags="n.*"/>
+        <match lemma="écriture" tags="n.*"/>
+        <match lemma="caractère" tags="n.*"/>
+      </or>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="police" tags="n.*"><select lemma="polissa"/></match>
+      <or>
+        <match lemma="gras" tags="adj.*"/>
+        <match lemma="italique" tags="adj.*"/>
+        <match lemma="souligné" tags="adj.*"/>
+      </or>
+    </rule>
+
+    <!-- père >> paire, mossen -->
+    <rule weight="0.8">
+      <match lemma="père" tags="n.*"><select lemma="paire"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="père" tags="n.*"><select lemma="mossen"/></match>
+      <match tags="np.ant.*"/>
     </rule>
   </rules>
 </lrx>
