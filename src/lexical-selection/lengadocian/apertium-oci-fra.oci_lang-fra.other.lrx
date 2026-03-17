@@ -4315,6 +4315,7 @@
   </def-seqs>
 
   <rules>
+    <!-- **************** PRN **************** -->
 
     <!-- se prn.pro >> se prn.pro, on, [remove] -->
     <rule weight="0.8">
@@ -4720,7 +4721,7 @@
       <match lemma="se" tags="prn.pro.*"><select lemma="on"/></match>
     </rule>
 
-    <!-- aquel/aqueth >> celui, celui-là -->
+    <!-- aquel >> celui, celui-là -->
     <rule weight="0.8">
       <match lemma="aquel" tags="prn.*"><select lemma="celui-là"/></match>
     </rule>
@@ -5162,6 +5163,17 @@
       <match tags="num.*"/>
     </rule>
 
+    <!-- dans >> dins, en -->
+    <rule weight="0.8">
+      <match lemma="dans" tags="pr"><select lemma="dins"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="dans" tags="pr"><select lemma="en"/></match>
+      <match lemma="tout" tags="predet.*"/>
+      <match lemma="le" tags="det.*"/>
+      <match tags="np.top.*"/>
+    </rule>
+
 
     <!-- **************** REL **************** -->
 
@@ -5180,13 +5192,9 @@
     <macro n="gen_lo_que_qui"><with-param v="lo que"/><with-param v="celui que"/><with-param v="celui qui"/></macro>
     <macro n="gen_lo_que_qui"><with-param v="los e las que"/><with-param v="ceux et celles que"/><with-param v="ceux et celles qui"/></macro>
     <macro n="gen_lo_que_qui"><with-param v="las e los que"/><with-param v="celles et ceux que"/><with-param v="celles et ceux qui"/></macro>
-    <macro n="gen_lo_que_qui"><with-param v="eths e eras que"/><with-param v="ceux et celles que"/><with-param v="ceux et celles qui"/></macro>
-    <macro n="gen_lo_que_qui"><with-param v="eras e eths que"/><with-param v="celles et ceux que"/><with-param v="celles et ceux qui"/></macro>
     <macro n="gen_lo_que_qui"><with-param v="lo qui"/><with-param v="celui que"/><with-param v="celui qui"/></macro>
     <macro n="gen_lo_que_qui"><with-param v="aquel que"/><with-param v="celui que"/><with-param v="celui qui"/></macro>
     <macro n="gen_lo_que_qui"><with-param v="aquel qui"/><with-param v="celui que"/><with-param v="celui qui"/></macro>
-    <macro n="gen_lo_que_qui"><with-param v="aqueth que"/><with-param v="celui que"/><with-param v="celui qui"/></macro>
-    <macro n="gen_lo_que_qui"><with-param v="aqueth qui"/><with-param v="celui que"/><with-param v="celui qui"/></macro>
   </rules>
 </lrx>
 

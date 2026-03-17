@@ -2099,15 +2099,6 @@
         <match plemma="1" tags="num.*"><select plemma="2" tags="adj.*"/></match>
       </rule>
     </def-macro>
-
-    <!-- entà >> à, pour, vers, de, [remove] -->
-    <!-- tà >> à, pour, vers, de, [remove] -->
-    <!-- enta >> à, pour, vers, de, [remove] -->
-    <def-macro n="enta_et_sim" npar="5">
-      <rule weight="0.6">
-        <match plemma="1" tags="pr"><select plemma="2"/></match>
-      </rule>
-    </def-macro>
   </def-macros>
 
   <def-seqs>
@@ -4470,18 +4461,18 @@
     <!-- aucun, aucun de -->
     <rule weight="0.8">
       <or>
-            <match lemma="cap de" tags="det.*"><select lemma="aucun"/></match>
-            <match lemma="briga de" tags="det.*"><select lemma="aucun"/></match>
-            <match lemma="brica de" tags="det.*"><select lemma="aucun"/></match>
-            <match lemma="ges de" tags="det.*"><select lemma="aucun"/></match>
+        <match lemma="cap de" tags="det.*"><select lemma="aucun"/></match>
+        <match lemma="briga de" tags="det.*"><select lemma="aucun"/></match>
+        <match lemma="brica de" tags="det.*"><select lemma="aucun"/></match>
+        <match lemma="ges de" tags="det.*"><select lemma="aucun"/></match>
       </or>
     </rule>
     <rule weight="1.0">
       <or>
-            <match lemma="cap de" tags="det.*"><select lemma="aucun de"/></match>
-            <match lemma="briga de" tags="det.*"><select lemma="aucun de"/></match>
-            <match lemma="brica de" tags="det.*"><select lemma="aucun de"/></match>
-            <match lemma="ges de" tags="det.*"><select lemma="aucun de"/></match>
+        <match lemma="cap de" tags="det.*"><select lemma="aucun de"/></match>
+        <match lemma="briga de" tags="det.*"><select lemma="aucun de"/></match>
+        <match lemma="brica de" tags="det.*"><select lemma="aucun de"/></match>
+        <match lemma="ges de" tags="det.*"><select lemma="aucun de"/></match>
       </or>
       <match tags="det.*"/>
     </rule>
@@ -5784,13 +5775,6 @@
       <match tags="det.*"/>
     </rule>
 
-    <!-- entà >> à, pour, vers, de, [remove] -->
-    <!-- tà >> à, pour, vers, de, [remove] -->
-    <!-- enta >> à, pour, vers, de, [remove] -->
-    <macro n="enta_et_sim"><with-param v="entà"/><with-param v="à"/><with-param v="pour"/><with-param v="vers"/><with-param v="de"/></macro>
-    <macro n="enta_et_sim"><with-param v="tà"/><with-param v="à"/><with-param v="pour"/><with-param v="vers"/><with-param v="de"/></macro>
-    <macro n="enta_et_sim"><with-param v="enta"/><with-param v="à"/><with-param v="pour"/><with-param v="vers"/><with-param v="de"/></macro>
-
     <!-- pendent >> pendant, lors de -->
     <rule weight="0.8">
       <match lemma="pendent" tags="pr"><select lemma="pendant"/></match>
@@ -6581,7 +6565,6 @@
     <macro n="gen_lo_que_qui"><with-param v="aquel qui"/><with-param v="celui que"/><with-param v="celui qui"/></macro>
     <macro n="gen_lo_que_qui"><with-param v="aqueth que"/><with-param v="celui que"/><with-param v="celui qui"/></macro>
     <macro n="gen_lo_que_qui"><with-param v="aqueth qui"/><with-param v="celui que"/><with-param v="celui qui"/></macro>
-
 
     <!-- **************** NUM **************** -->
 
