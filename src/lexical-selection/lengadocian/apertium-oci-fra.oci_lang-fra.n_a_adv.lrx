@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lrx>
   <def-seqs>
-	  <def-seq n="vestit"><or>
+    <def-seq n="vestit"><or>
       <match lemma="vestit" tags="n.*"/>
       <match lemma="vestidura" tags="n.*"/>
       <match lemma="sotavestit" tags="n.*"/>
@@ -91,7 +91,7 @@
       <match lemma="bracièra" tags="n.*"/>
       <match lemma="davantal" tags="n.*"/>
       <match lemma="capucha" tags="n.*"/>
-	  </or></def-seq>
+    </or></def-seq>
 
     <def-seq n="personas"><or>
       <match lemma="persona" tags="n.*"/>
@@ -1304,7 +1304,6 @@
     </rule>
 
     <!-- vertadièr >> vrai, véritable -->
-    <!-- vertadèr >> vrai, véritable -->
     <rule weight="0.8">
       <match lemma="vertadièr" tags="adj.*"><select lemma="vrai"/></match>
     </rule>
@@ -1357,7 +1356,7 @@
       <match lemma="pebrat" tags="adj.*"><select lemma="grivois"/></match>
     </rule>
 
-    <!-- sadol/hart >> repu, saoûl -->
+    <!-- sadol >> repu, saoûl -->
     <rule weight="0.8">
       <match lemma="sadol" tags="adj.*"><select lemma="repu"/></match>
     </rule>
@@ -1412,6 +1411,18 @@
         <match lemma="judicial" tags="adj.*"/>
         <match lemma="penal" tags="adj.*"/>
       </or>
+    </rule>
+
+    <!-- sòu >> sou, argent -->
+    <rule weight="0.8">
+      <match lemma="sòu" tags="n.*"><select lemma="sou"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="sòu" tags="n.m.pl"><select lemma="argent"/></match>
+    </rule>
+    <rule weight="1.2">
+      <or><match tags="num"/><match tags="num.*"/></or>
+      <match lemma="sòu" tags="n.*"><select lemma="sou"/></match>
     </rule>
 
     <!-- charradissa >> causerie, discours -->
@@ -1671,11 +1682,6 @@
         <match tags="adj.*"/>
       </repeat>
       <match lemma="monde" tags="n.*"><select lemma="monde"/></match>
-    </rule>
-
-    <!-- traca >> traque/sorte -->
-    <rule weight="0.8">
-      <match lemma="traca" tags="n.*"><select lemma="traque"/></match>
     </rule>
 
     <!-- darr(i)èr >> dernier, derrière -->

@@ -1489,7 +1489,7 @@
   <rules>
     <!-- **************** ADJ **************** -->
 
-    <!-- brave >> gentil, bon/gros -->
+    <!-- brave >> gentil, gros -->
     <rule weight="0.8">
       <match lemma="brave" tags="adj.*"><select lemma="gentil"/></match>
     </rule>
@@ -1504,17 +1504,15 @@
       </or>
     </rule>
 
-    <!-- vertadièr >> vrai, véritable -->
     <!-- vertadèr >> vrai, véritable -->
     <rule weight="0.8">
       <match lemma="vertadèr" tags="adj.*"><select lemma="vrai"/></match>
     </rule>
 
-    <!-- sadol/hart >> repu, saoûl -->
+    <!-- hart >> repu, saoûl -->
     <rule weight="0.8">
       <match lemma="hart" tags="adj.*"><select lemma="repu"/></match>
     </rule>
-
 
     <!-- **************** PREADV **************** -->
 
@@ -1629,6 +1627,7 @@
         <match lemma="pareisher" tags="vblex.*"/>
         <match lemma="paréisher" tags="vblex.*"/>
         <match lemma="devenir" tags="vblex.*"/>
+        <match lemma="deviéner" tags="vblex.*"/>
       </or>
       <repeat from="0" upto="2">
         <match tags="adv.*"/>
@@ -1642,94 +1641,14 @@
       <match lemma="que" tags="cnjsub"/>
     </rule>
 
-    <!-- **************** ADV **************** -->
-
-    <!-- GASCON: IDEM PRECEDENT -->
-    <!-- autant >> autant, tant -->
-    <rule weight="0.8">
-      <match lemma="autant" tags="adv"><select lemma="autant"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="autant" tags="adv"><select lemma="tant"/></match>
-      <or>
-        <match tags="prn.*"/>
-        <match tags="n.acr.*"/>
-        <match tags="np.*"/>
-      </or>
-      <match lemma="com" tags="adv"/>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="autant" tags="adv"><select lemma="tant"/></match>
-      <match tags="det.*"/>
-      <repeat from="0" upto="2">
-        <match tags="adj.*"/>
-      </repeat>
-      <or>
-        <match tags="n.*"/>
-        <match tags="np.*"/>
-      </or>
-      <match lemma="com" tags="adv"/>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="autant" tags="adv"><select lemma="tant"/></match>
-      <match tags="det.*"/>
-      <or>
-        <match tags="n.*"/>
-        <match tags="np.*"/>
-      </or>
-      <repeat from="0" upto="3">
-        <match tags="adj.*"/>
-      </repeat>
-      <match lemma="com" tags="adv"/>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="autant" tags="adv"><select lemma="tant"/></match>
-      <match tags="det.*"/>
-      <match tags="preadv"/>
-      <match tags="adj.*"/>
-      <match tags="n.*"/>
-      <match lemma="com" tags="adv"/>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="autant" tags="adv"><select lemma="tant"/></match>
-      <match tags="det.*"/>
-      <match tags="n.*"/>
-      <match tags="preadv"/>
-      <match tags="adj.*"/>
-      <repeat from="0" upto="2">
-        <match tags="adj.*"/>
-      </repeat>
-      <match lemma="com" tags="adv"/>
-    </rule>
+    <!-- **************** N **************** -->
 
     <!-- premuda >> hésitation, pression -->
     <rule weight="0.8">
       <match lemma="premuda" tags="n.*"><select lemma="hésitation"/></match>
     </rule>
 
-    <!-- batent >> battant, volet -->
-    <rule weight="0.8">
-      <match lemma="batent" tags="n.*"><select lemma="volet"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="batent" tags="n.*"><select lemma="volet"/></match>
-      <or>
-        <match lemma="economic" tags="adj.*"/>
-        <match lemma="politic" tags="adj.*"/>
-        <match lemma="social" tags="adj.*"/>
-        <match lemma="cultural" tags="adj.*"/>
-        <match lemma="sindical" tags="adj.*"/>
-        <match lemma="administratiu" tags="adj.*"/>
-        <match lemma="diplomatic" tags="adj.*"/>
-        <match lemma="militar" tags="adj.*"/>
-        <match lemma="militari" tags="adj.*"/>
-        <match lemma="religiós" tags="adj.*"/>
-        <match lemma="judicial" tags="adj.*"/>
-        <match lemma="penal" tags="adj.*"/>
-      </or>
-    </rule>
-
-    <!-- sòu >> sou, argent, sol, salaire -->
+    <!-- sòu >> sou, argent, sol -->
     <rule weight="0.8">
       <match lemma="sòu" tags="n.*"><select lemma="sol"/></match>
     </rule>
@@ -2009,72 +1928,813 @@
       <match tags="num.*"/>
     </rule>
 
+    <!-- lèit > lit, lait -->
+    <rule weight="0.6">
+      <match lemma="lèit" tags="n.*"><select lemma="lit"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="lèit" tags="n.*"><select lemma="lait"/></match>
+      <match lemma="de" tags="pr"/>
+      <or>
+        <match lemma="vaca" tags="n.*"/>
+        <match lemma="vacha" tags="n.*"/>
+        <match lemma="cocòt" tags="n.*"/>
+        <match lemma="cocò" tags="n.*"/>
+        <match lemma="coco" tags="n.*"/>
+        <match lemma="còco" tags="n.*"/>
+        <match lemma="amètla" tags="n.*"/>
+        <match lemma="ametla" tags="n.*"/>
+        <match lemma="mètla" tags="n.*"/>
+        <match lemma="cabra" tags="n.*"/>
+        <match lemma="craba" tags="n.*"/>
+        <match lemma="feda" tags="n.*"/>
+        <match lemma="aulha" tags="n.*"/>
+        <match lemma="oelha" tags="n.*"/>
+        <match lemma="avelha" tags="n.*"/>
+        <match lemma="òlha" tags="n.*"/>
+        <match lemma="auelha" tags="n.*"/>
+        <match lemma="goelha" tags="n.*"/>
+        <match lemma="agoelha" tags="n.*"/>
+        <match lemma="sauma" tags="n.*"/>
+        <match lemma="borrica" tags="n.*"/>
+        <match lemma="arruca" tags="n.*"/>
+        <match lemma="borra" tags="n.*"/>
+        <match lemma="aina" tags="n.*"/>
+        <match lemma="cavala" tags="n.*"/>
+        <match lemma="èga" tags="n.*"/>
+        <match lemma="euga" tags="n.*"/>
+        <match lemma="geuga" tags="n.*"/>
+        <match lemma="gèga" tags="n.*"/>
+        <match lemma="gègua" tags="n.*"/>
+        <match lemma="camèla" tags="n.*"/>
+        <match lemma="chamèla" tags="n.*"/>
+        <match lemma="pola" tags="n.*"/>
+        <match lemma="pora" tags="n.*"/>
+        <match lemma="galina" tags="n.*"/>
+        <match lemma="garia" tags="n.*"/>
+        <match lemma="calç" tags="n.*"/>
+        <match lemma="cauç" tags="n.*"/>
+        <match lemma="caucina" tags="n.*"/>
+        <match lemma="caucia" tags="n.*"/>
+        <match lemma="caucea" tags="n.*"/>
+        <match lemma="causena" tags="n.*"/>
+        <match lemma="causea" tags="n.*"/>
+        <match lemma="causia" tags="n.*"/>
+      </or>
+    </rule>
+    <rule weight="1.0">
+      <or>
+        <match lemma="sòr" tags="n.*"/>
+        <match lemma="seror" tags="n.*"/>
+        <match lemma="sorina" tags="n.*"/>
+        <match lemma="sòrre" tags="n.*"/>
+        <match lemma="fraire" tags="n.*"/>
+        <match lemma="frair" tags="n.*"/>
+        <match lemma="hrair" tags="n.*"/>
+        <match lemma="porcelon" tags="n.*"/>
+        <match lemma="tesson" tags="n.*"/>
+        <match lemma="pòrc" tags="n.*"/>
+      </or>
+      <match lemma="de" tags="pr"/>
+      <match lemma="lèit" tags="n.*"><select lemma="lait"/></match>
+    </rule>
+    <rule weight="1.0">
+      <or>
+        <match lemma="pauc de" tags="det*"/>
+        <match lemma="chic de" tags="det*"/>
+        <match lemma="drin de" tags="det*"/>
+        <match lemma="un pauc de" tags="det*"/>
+        <match lemma="un chic de" tags="det*"/>
+        <match lemma="un drin de" tags="det*"/>
+        <match lemma="un chiquet de" tags="det*"/>
+        <match lemma="un escag de" tags="det*"/>
+        <match lemma="una brica de" tags="det*"/>
+        <match lemma="una brina de" tags="det*"/>
+        <match lemma="una idèa de" tags="det*"/>
+        <match lemma="ua idèa de" tags="det*"/>
+        <match lemma="hèra de" tags="det*"/>
+        <match lemma="hèra" tags="det*"/>
+        <match lemma="fòrça" tags="det*"/>
+        <match lemma="bravament de" tags="det*"/>
+        <match lemma="plan de" tags="det*"/>
+      </or>
+      <match lemma="lèit" tags="n.*"><select lemma="lait"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="lèit" tags="n.*"><select lemma="lait"/></match>
+      <or>
+        <match lemma="sucrat" tags="adj.*"/>
+        <match lemma="caud" tags="adj.*"/>
+        <match lemma="fresc" tags="adj.*"/>
+        <match lemma="fred" tags="adj.*"/>
+        <match lemma="freg" tags="adj.*"/>
+        <match lemma="hred" tags="adj.*"/>
+        <match lemma="hered" tags="adj.*"/>
+        <match lemma="UHT" tags="adj.*"/>
+        <match lemma="U.H.T." tags="adj.*"/>
+        <match lemma="mairal" tags="adj.*"/>
+        <match lemma="esburriat" tags="adj.*"/>
+        <match lemma="esboderat" tags="adj.*"/>
+        <match lemma="escrestat" tags="adj.*"/>
+        <match lemma="desburrat" tags="adj.*"/>
+        <match lemma="esburriat" tags="adj.*"/>
+        <match lemma="espintat" tags="adj.*"/>
+        <match lemma="espintrat" tags="adj.*"/>
+        <match lemma="descrostat" tags="adj.*"/>
+        <match lemma="escremat" tags="adj.*"/>
+        <match lemma="descremat" tags="adj.*"/>
+        <match lemma="esburriar" tags="vblex.*"/>
+        <match lemma="esboderar" tags="vblex.*"/>
+        <match lemma="escrestar" tags="vblex.*"/>
+        <match lemma="desburrar" tags="vblex.*"/>
+        <match lemma="esburriar" tags="vblex.*"/>
+        <match lemma="espintar" tags="vblex.*"/>
+        <match lemma="espintrar" tags="vblex.*"/>
+        <match lemma="descrostar" tags="vblex.*"/>
+        <match lemma="escremar" tags="vblex.*"/>
+        <match lemma="descremar" tags="vblex.*"/>
+      </or>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="lèit" tags="n.*"><select lemma="lait"/></match>
+        <repeat from="0" upto="1">
+          <match lemma="a" tags="pr"/>
+        </repeat>
+      <or>
+        <match lemma="miei" tags="adv"/>
+        <match lemma="mièg" tags="adv"/>
+        <match lemma="mitat" tags="adv"/>
+      </or>
+      <or>
+        <match lemma="esburriat" tags="adj.*"/>
+        <match lemma="esboderat" tags="adj.*"/>
+        <match lemma="escrestat" tags="adj.*"/>
+        <match lemma="desburrat" tags="adj.*"/>
+        <match lemma="esburriat" tags="adj.*"/>
+        <match lemma="espintat" tags="adj.*"/>
+        <match lemma="espintrat" tags="adj.*"/>
+        <match lemma="descrostat" tags="adj.*"/>
+        <match lemma="escremat" tags="adj.*"/>
+        <match lemma="descremat" tags="adj.*"/>
+        <match lemma="esburriar" tags="vblex.*"/>
+        <match lemma="esboderar" tags="vblex.*"/>
+        <match lemma="escrestar" tags="vblex.*"/>
+        <match lemma="desburrar" tags="vblex.*"/>
+        <match lemma="esburriar" tags="vblex.*"/>
+        <match lemma="espintar" tags="vblex.*"/>
+        <match lemma="espintrar" tags="vblex.*"/>
+        <match lemma="descrostar" tags="vblex.*"/>
+        <match lemma="escremar" tags="vblex.*"/>
+        <match lemma="descremar" tags="vblex.*"/>
+      </or>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="lèit" tags="n.*"><select lemma="lait"/></match>
+        <repeat from="0" upto="3">
+          <or>
+            <match tags="*"/>
+            <match tags=""/>
+          </or>
+        </repeat>
+        <or>
+          <match lemma="blanc" tags="adj.*"/>
+          <match lemma="productor" tags="adj.*"/>
+          <match lemma="formatgièr" tags="adj.*"/>
+          <match lemma="hormatgèr" tags="adj.*"/>
+          <match lemma="plen" tags="adj.*"/>
+          <match lemma="vaca" tags="n.*"/>
+          <match lemma="vacha" tags="n.*"/>
+          <match lemma="cabra" tags="n.*"/>
+          <match lemma="craba" tags="n.*"/>
+          <match lemma="feda" tags="n.*"/>
+          <match lemma="aulha" tags="n.*"/>
+          <match lemma="oelha" tags="n.*"/>
+          <match lemma="avelha" tags="n.*"/>
+          <match lemma="òlha" tags="n.*"/>
+          <match lemma="auelha" tags="n.*"/>
+          <match lemma="goelha" tags="n.*"/>
+          <match lemma="agoelha" tags="n.*"/>
+          <match lemma="blancor" tags="n.*"/>
+          <match lemma="noiriça" tags="n.*"/>
+          <match lemma="neuriça" tags="n.*"/>
+          <match lemma="noiriguièra" tags="n.*"/>
+          <match lemma="comair" tags="n.*"/>
+          <match lemma="comairona" tags="n.*"/>
+          <match lemma="cafè" tags="n.*"/>
+          <match lemma="chocolat" tags="n.*"/>
+          <match lemma="tè" tags="n.*"/>
+          <match lemma="gota" tags="n.*"/>
+          <match lemma="glop" tags="n.*"/>
+          <match lemma="chòt" tags="n.*"/>
+          <match lemma="gotada" tags="n.*"/>
+          <match lemma="goteta" tags="n.*"/>
+          <match lemma="culhièr" tags="n.*"/>
+          <match lemma="culhèr" tags="n.*"/>
+          <match lemma="culhieron" tags="n.*"/>
+          <match lemma="culheron" tags="n.*"/>
+          <match lemma="culhèra" tags="n.*"/>
+          <match lemma="culhera" tags="n.*"/>
+          <match lemma="culher" tags="n.*"/>
+          <match lemma="culhereta" tags="n.*"/>
+          <match lemma="culheret" tags="n.*"/>
+          <match lemma="culhera-cafè" tags="n.*"/>
+          <match lemma="culhera-tè" tags="n.*"/>
+          <match lemma="culherat" tags="n.*"/>
+          <match lemma="culhierat" tags="n.*"/>
+          <match lemma="culherada" tags="n.*"/>
+          <match lemma="litre" tags="n.*"/>
+          <match lemma="L" tags="n.*"/>
+          <match lemma="produccion" tags="n.*"/>
+          <match lemma="productor" tags="n.*"/>
+          <match lemma="pan" tags="n.*"/>
+          <match lemma="chocolatina" tags="n.*"/>
+          <match lemma="banut" tags="n.*"/>
+          <match lemma="cornut" tags="n.*"/>
+          <match lemma="cornudet" tags="n.*"/>
+          <match lemma="copa" tags="n.*"/>
+          <match lemma="barricòt" tags="n.*"/>
+          <match lemma="barril" tags="n.*"/>
+          <match lemma="barral" tags="n.*"/>
+          <match lemma="pipòt" tags="n.*"/>
+          <match lemma="botelha" tags="n.*"/>
+          <match lemma="cabeta" tags="n.*"/>
+          <match lemma="cantina" tags="n.*"/>
+          <match lemma="tassa" tags="n.*"/>
+          <match lemma="ranquilh" tags="n.*"/>
+          <match lemma="pichièr" tags="n.*"/>
+          <match lemma="pegal" tags="n.*"/>
+          <match lemma="pichèr" tags="n.*"/>
+          <match lemma="pishèr" tags="n.*"/>
+          <match lemma="toca" tags="n.*"/>
+          <match lemma="terràç" tags="n.*"/>
+          <match lemma="chonca" tags="n.*"/>
+          <match lemma="petjo" tags="n.*"/>
+          <match lemma="berda" tags="n.*"/>
+          <match lemma="topin" tags="n.*"/>
+          <match lemma="pòt" tags="n.*"/>
+          <match lemma="bonha" tags="n.*"/>
+          <match lemma="topiat" tags="n.*"/>
+          <match lemma="topiada" tags="n.*"/>
+          <match lemma="ola" tags="n.*"/>
+          <match lemma="bidon" tags="n.*"/>
+          <match lemma="bana" tags="n.*"/>
+          <match lemma="barralet" tags="n.*"/>
+          <match lemma="banet" tags="n.*"/>
+          <match lemma="brica" tags="n.*"/>
+          <match lemma="carton" tags="n.*"/>
+          <match lemma="bòl" tags="n.*"/>
+          <match lemma="escudèla" tags="n.*"/>
+          <match lemma="bolat" tags="n.*"/>
+          <match lemma="bòlo" tags="n.*"/>
+          <match lemma="coish" tags="n.*"/>
+          <match lemma="tassa" tags="n.*"/>
+          <match lemma="taça" tags="n.*"/>
+          <match lemma="veire" tags="n.*"/>
+          <match lemma="veirat" tags="n.*"/>
+          <match lemma="gòt" tags="n.*"/>
+          <match lemma="veirolet" tags="n.*"/>
+          <match lemma="veirolòt" tags="n.*"/>
+          <match lemma="veirolon" tags="n.*"/>
+          <match lemma="veirolin |" tags="n.*"/>
+          <match lemma="veiregòt" tags="n.*"/>
+          <match lemma="veiràs" tags="n.*"/>
+          <match lemma="veirolàs" tags="n.*"/>
+          <match lemma="veiregàs" tags="n.*"/>
+          <match lemma="gotet" tags="n.*"/>
+          <match lemma="vasso" tags="n.*"/>
+          <match lemma="grasala" tags="n.*"/>
+          <match lemma="gauda" tags="n.*"/>
+          <match lemma="gradala" tags="n.*"/>
+          <match lemma="dorga" tags="n.*"/>
+          <match lemma="gèrla" tags="n.*"/>
+          <match lemma="pegarra" tags="n.*"/>
+          <match lemma="charra" tags="n.*"/>
+          <match lemma="pinga" tags="n.*"/>
+          <match lemma="jarra" tags="n.*"/>
+          <match lemma="dorg" tags="n.*"/>
+          <match lemma="tetarèla" tags="n.*"/>
+          <match lemma="poparèla" tags="n.*"/>
+          <match lemma="tiralèit" tags="n.*"/>
+          <match lemma="popader" tags="n.*"/>
+          <match lemma="chuquet" tags="n.*"/>
+          <match lemma="tetina" tags="n.*"/>
+          <match lemma="popadera" tags="n.*"/>
+          <match lemma="shucadera" tags="n.*"/>
+          <match lemma="popilh" tags="n.*"/>
+          <match lemma="chucon" tags="n.*"/>
+          <match lemma="chuqueta" tags="n.*"/>
+          <match lemma="beveron" tags="n.*"/>
+          <match lemma="shuqueron" tags="n.*"/>
+          <match lemma="tetarèl" tags="n.*"/>
+          <match lemma="beveiron" tags="n.*"/>
+          <match lemma="pipamost" tags="n.*"/>
+          <match lemma="popalet" tags="n.*"/>
+          <match lemma="fromatge" tags="n.*"/>
+          <match lemma="formatge" tags="n.*"/>
+          <match lemma="hromatge" tags="n.*"/>
+          <match lemma="hormatge" tags="n.*"/>
+          <match lemma="moishana" tags="n.*"/>
+          <match lemma="cabecon" tags="n.*"/>
+          <match lemma="peralh" tags="n.*"/>
+          <match lemma="toma" tags="n.*"/>
+          <match lemma="brossa" tags="n.*"/>
+          <match lemma="formatjon" tags="n.*"/>
+          <match lemma="chabichon" tags="n.*"/>
+          <match lemma="seron" tags="n.*"/>
+          <match lemma="gurròp" tags="n.*"/>
+          <match lemma="hromatjon" tags="n.*"/>
+          <match lemma="fromatjon" tags="n.*"/>
+          <match lemma="uelhut" tags="n.*"/>
+          <match lemma="uelherut" tags="n.*"/>
+          <match lemma="formatjon" tags="n.*"/>
+          <match lemma="formatjariá" tags="n.*"/>
+          <match lemma="masuc" tags="n.*"/>
+          <match lemma="hromatgèr" tags="n.*"/>
+          <match lemma="formatgièr, -èra" tags="n.*"/>
+          <match lemma="hromatgèra" tags="n.*"/>
+          <match lemma="hormatgèr" tags="n.*"/>
+          <match lemma="chanja" tags="n.*"/>
+          <match lemma="çanja" tags="n.*"/>
+          <match lemma="mamèla" tags="n.*"/>
+          <match lemma="somesa" tags="n.*"/>
+          <match lemma="tita" tags="n.*"/>
+          <match lemma="popassa" tags="n.*"/>
+          <match lemma="popeta" tags="n.*"/>
+          <match lemma="popina" tags="n.*"/>
+          <match lemma="braguèr" tags="n.*"/>
+          <match lemma="neuriç" tags="n.*"/>
+          <match lemma="popet" tags="n.*"/>
+          <match lemma="possa" tags="n.*"/>
+          <match lemma="somés" tags="n.*"/>
+          <match lemma="teta" tags="n.*"/>
+          <match lemma="pièch" tags="n.*"/>
+          <match lemma="pièit" tags="n.*"/>
+          <match lemma="pechada" tags="n.*"/>
+          <match lemma="sen" tags="n.*"/>
+          <match lemma="pocha" tags="n.*"/>
+          <match lemma="chichí" tags="n.*"/>
+          <match lemma="chichina" tags="n.*"/>
+          <match lemma="popon" tags="n.*"/>
+          <match lemma="titeta" tags="n.*"/>
+          <match lemma="titòta" tags="n.*"/>
+          <match lemma="popeton" tags="n.*"/>
+          <match lemma="popetòta" tags="n.*"/>
+          <match lemma="popòta" tags="n.*"/>
+          <match lemma="pepelon" tags="n.*"/>
+          <match lemma="popèl" tags="n.*"/>
+          <match lemma="bèc" tags="n.*"/>
+          <match lemma="mugron" tags="n.*"/>
+          <match lemma="becon" tags="n.*"/>
+          <match lemma="becotin" tags="n.*"/>
+          <match lemma="gotejar" tags="v.*"/>
+          <match lemma="embotelhar" tags="v.*"/>
+          <match lemma="escampar" tags="v.*"/>
+          <match lemma="barrejar" tags="v.*"/>
+          <match lemma="getar" tags="v.*"/>
+          <match lemma="versar" tags="v.*"/>
+          <match lemma="voidar" tags="v.*"/>
+          <match lemma="vojar" tags="v.*"/>
+          <match lemma="mèisser" tags="v.*"/>
+          <match lemma="barrejar" tags="v.*"/>
+          <match lemma="emplenar" tags="v.*"/>
+          <match lemma="emplir" tags="v.*"/>
+          <match lemma="emplear" tags="v.*"/>
+          <match lemma="plear" tags="v.*"/>
+          <match lemma="plenhar" tags="v.*"/>
+          <match lemma="plenar" tags="v.*"/>
+          <match lemma="olhar" tags="v.*"/>
+          <match lemma="asolhar" tags="v.*"/>
+          <match lemma="rajar" tags="v.*"/>
+          <match lemma="colar" tags="v.*"/>
+          <match lemma="escórrer" tags="v.*"/>
+          <match lemma="pishar" tags="v.*"/>
+          <match lemma="gotar" tags="v.*"/>
+          <match lemma="chorrar" tags="v.*"/>
+          <match lemma="chucar" tags="v.*"/>
+          <match lemma="shucar" tags="v.*"/>
+          <match lemma="popar" tags="v.*"/>
+          <match lemma="suçar" tags="v.*"/>
+          <match lemma="sucar" tags="v.*"/>
+          <match lemma="tetar" tags="v.*"/>
+          <match lemma="mamar" tags="v.*"/>
+          <match lemma="titar" tags="v.*"/>
+          <match lemma="pochar" tags="v.*"/>
+          <match lemma="pochinar" tags="v.*"/>
+          <match lemma="laminar" tags="v.*"/>
+          <match lemma="limar" tags="v.*"/>
+          <match lemma="popinar" tags="v.*"/>
+          <match lemma="pintar" tags="v.*"/>
+          <match lemma="beure" tags="v.*"/>
+          <match lemma="béver" tags="v.*"/>
+          <match lemma="búver" tags="v.*"/>
+          <match lemma="agalar" tags="v.*"/>
+          <match lemma="abeurar" tags="v.*"/>
+          <match lemma="agotar" tags="v.*"/>
+          <match lemma="estarir" tags="v.*"/>
+          <match lemma="estincoar" tags="v.*"/>
+          <match lemma="estorrir" tags="v.*"/>
+          <match lemma="estarir" tags="v.*"/>
+          <match lemma="tornejar" tags="v.*"/>
+          <match lemma="guastar" tags="v.*"/>
+          <match lemma="picar" tags="v.*"/>
+          <match lemma="virar" tags="v.*"/>
+          <match lemma="brossar" tags="v.*"/>
+          <match lemma="hromatjar" tags="v.*"/>
+          <match lemma="hormatjar" tags="v.*"/>
+          <match lemma="formatjar" tags="v.*"/>
+          <match lemma="fromatjar" tags="v.*"/>
+          <match lemma="calhar" tags="v.*"/>
+          <match lemma="noirir" tags="v.*"/>
+          <match lemma="neurir" tags="v.*"/>
+          <match lemma="pèisher" tags="v.*"/>
+          <match lemma="pèisser" tags="v.*"/>
+          <match lemma="avitar" tags="v.*"/>
+          <match lemma="alimentar" tags="v.*"/>
+          <match lemma="apitançar" tags="v.*"/>
+          <match lemma="mólzer" tags="v.*"/>
+          <match lemma="mólher" tags="v.*"/>
+          <match lemma="tirar" tags="v.*"/>
+          <match lemma="mousir" tags="v.*"/>
+          <match lemma="ahrontar" tags="v.*"/>
+          <match lemma="apoperar" tags="v.*"/>
+          <match lemma="espopar" tags="v.*"/>
+          <match lemma="despopar" tags="v.*"/>
+          <match lemma="empopinar" tags="v.*"/>
+          <match lemma="estitar" tags="v.*"/>
+          <match lemma="entitar" tags="v.*"/>
+          <match lemma="apopar" tags="v.*"/>
+          <match lemma="apoperar" tags="v.*"/>
+          <match lemma="apoparir" tags="v.*"/>
+          <match lemma="popinar" tags="v.*"/>
+          <match lemma="esburriar" tags="vblex.*"/>
+          <match lemma="esboderar" tags="vblex.*"/>
+          <match lemma="escrestar" tags="vblex.*"/>
+          <match lemma="desburrar" tags="vblex.*"/>
+          <match lemma="esburriar" tags="vblex.*"/>
+          <match lemma="espintar" tags="vblex.*"/>
+          <match lemma="espintrar" tags="vblex.*"/>
+          <match lemma="descrostar" tags="vblex.*"/>
+          <match lemma="escremar" tags="vblex.*"/>
+          <match lemma="descremar" tags="vblex.*"/>
+        </or>
+    </rule>
+    <rule weight="1.0">
+        <or>
+          <match lemma="blanc" tags="adj.*"/>
+          <match lemma="productor" tags="adj.*"/>
+          <match lemma="formatgièr" tags="adj.*"/>
+          <match lemma="hormatgèr" tags="adj.*"/>
+          <match lemma="plen" tags="adj.*"/>
+          <match lemma="vaca" tags="n.*"/>
+          <match lemma="vacha" tags="n.*"/>
+          <match lemma="cabra" tags="n.*"/>
+          <match lemma="craba" tags="n.*"/>
+          <match lemma="feda" tags="n.*"/>
+          <match lemma="aulha" tags="n.*"/>
+          <match lemma="oelha" tags="n.*"/>
+          <match lemma="avelha" tags="n.*"/>
+          <match lemma="òlha" tags="n.*"/>
+          <match lemma="auelha" tags="n.*"/>
+          <match lemma="goelha" tags="n.*"/>
+          <match lemma="agoelha" tags="n.*"/>
+          <match lemma="blancor" tags="n.*"/>
+          <match lemma="noiriça" tags="n.*"/>
+          <match lemma="neuriça" tags="n.*"/>
+          <match lemma="noiriguièra" tags="n.*"/>
+          <match lemma="comair" tags="n.*"/>
+          <match lemma="comairona" tags="n.*"/>
+          <match lemma="cafè" tags="n.*"/>
+          <match lemma="chocolat" tags="n.*"/>
+          <match lemma="tè" tags="n.*"/>
+          <match lemma="gota" tags="n.*"/>
+          <match lemma="glop" tags="n.*"/>
+          <match lemma="chòt" tags="n.*"/>
+          <match lemma="gotada" tags="n.*"/>
+          <match lemma="goteta" tags="n.*"/>
+          <match lemma="culhièr" tags="n.*"/>
+          <match lemma="culhèr" tags="n.*"/>
+          <match lemma="culhieron" tags="n.*"/>
+          <match lemma="culheron" tags="n.*"/>
+          <match lemma="culhèra" tags="n.*"/>
+          <match lemma="culhera" tags="n.*"/>
+          <match lemma="culher" tags="n.*"/>
+          <match lemma="culhereta" tags="n.*"/>
+          <match lemma="culheret" tags="n.*"/>
+          <match lemma="culhera-cafè" tags="n.*"/>
+          <match lemma="culhera-tè" tags="n.*"/>
+          <match lemma="culherat" tags="n.*"/>
+          <match lemma="culhierat" tags="n.*"/>
+          <match lemma="culherada" tags="n.*"/>
+          <match lemma="litre" tags="n.*"/>
+          <match lemma="L" tags="n.*"/>
+          <match lemma="produccion" tags="n.*"/>
+          <match lemma="productor" tags="n.*"/>
+          <match lemma="pan" tags="n.*"/>
+          <match lemma="chocolatina" tags="n.*"/>
+          <match lemma="banut" tags="n.*"/>
+          <match lemma="cornut" tags="n.*"/>
+          <match lemma="cornudet" tags="n.*"/>
+          <match lemma="copa" tags="n.*"/>
+          <match lemma="barricòt" tags="n.*"/>
+          <match lemma="barril" tags="n.*"/>
+          <match lemma="barral" tags="n.*"/>
+          <match lemma="pipòt" tags="n.*"/>
+          <match lemma="botelha" tags="n.*"/>
+          <match lemma="cabeta" tags="n.*"/>
+          <match lemma="cantina" tags="n.*"/>
+          <match lemma="tassa" tags="n.*"/>
+          <match lemma="ranquilh" tags="n.*"/>
+          <match lemma="pichièr" tags="n.*"/>
+          <match lemma="pegal" tags="n.*"/>
+          <match lemma="pichèr" tags="n.*"/>
+          <match lemma="pishèr" tags="n.*"/>
+          <match lemma="toca" tags="n.*"/>
+          <match lemma="terràç" tags="n.*"/>
+          <match lemma="chonca" tags="n.*"/>
+          <match lemma="petjo" tags="n.*"/>
+          <match lemma="berda" tags="n.*"/>
+          <match lemma="topin" tags="n.*"/>
+          <match lemma="pòt" tags="n.*"/>
+          <match lemma="bonha" tags="n.*"/>
+          <match lemma="topiat" tags="n.*"/>
+          <match lemma="topiada" tags="n.*"/>
+          <match lemma="ola" tags="n.*"/>
+          <match lemma="bidon" tags="n.*"/>
+          <match lemma="bana" tags="n.*"/>
+          <match lemma="barralet" tags="n.*"/>
+          <match lemma="banet" tags="n.*"/>
+          <match lemma="brica" tags="n.*"/>
+          <match lemma="carton" tags="n.*"/>
+          <match lemma="bòl" tags="n.*"/>
+          <match lemma="escudèla" tags="n.*"/>
+          <match lemma="bolat" tags="n.*"/>
+          <match lemma="bòlo" tags="n.*"/>
+          <match lemma="coish" tags="n.*"/>
+          <match lemma="tassa" tags="n.*"/>
+          <match lemma="taça" tags="n.*"/>
+          <match lemma="veire" tags="n.*"/>
+          <match lemma="veirat" tags="n.*"/>
+          <match lemma="gòt" tags="n.*"/>
+          <match lemma="veirolet" tags="n.*"/>
+          <match lemma="veirolòt" tags="n.*"/>
+          <match lemma="veirolon" tags="n.*"/>
+          <match lemma="veirolin |" tags="n.*"/>
+          <match lemma="veiregòt" tags="n.*"/>
+          <match lemma="veiràs" tags="n.*"/>
+          <match lemma="veirolàs" tags="n.*"/>
+          <match lemma="veiregàs" tags="n.*"/>
+          <match lemma="gotet" tags="n.*"/>
+          <match lemma="vasso" tags="n.*"/>
+          <match lemma="grasala" tags="n.*"/>
+          <match lemma="gauda" tags="n.*"/>
+          <match lemma="gradala" tags="n.*"/>
+          <match lemma="dorga" tags="n.*"/>
+          <match lemma="gèrla" tags="n.*"/>
+          <match lemma="pegarra" tags="n.*"/>
+          <match lemma="charra" tags="n.*"/>
+          <match lemma="pinga" tags="n.*"/>
+          <match lemma="jarra" tags="n.*"/>
+          <match lemma="dorg" tags="n.*"/>
+          <match lemma="tetarèla" tags="n.*"/>
+          <match lemma="poparèla" tags="n.*"/>
+          <match lemma="tiralèit" tags="n.*"/>
+          <match lemma="popader" tags="n.*"/>
+          <match lemma="chuquet" tags="n.*"/>
+          <match lemma="tetina" tags="n.*"/>
+          <match lemma="popadera" tags="n.*"/>
+          <match lemma="shucadera" tags="n.*"/>
+          <match lemma="popilh" tags="n.*"/>
+          <match lemma="chucon" tags="n.*"/>
+          <match lemma="chuqueta" tags="n.*"/>
+          <match lemma="beveron" tags="n.*"/>
+          <match lemma="shuqueron" tags="n.*"/>
+          <match lemma="tetarèl" tags="n.*"/>
+          <match lemma="beveiron" tags="n.*"/>
+          <match lemma="pipamost" tags="n.*"/>
+          <match lemma="popalet" tags="n.*"/>
+          <match lemma="fromatge" tags="n.*"/>
+          <match lemma="formatge" tags="n.*"/>
+          <match lemma="hromatge" tags="n.*"/>
+          <match lemma="hormatge" tags="n.*"/>
+          <match lemma="moishana" tags="n.*"/>
+          <match lemma="cabecon" tags="n.*"/>
+          <match lemma="peralh" tags="n.*"/>
+          <match lemma="toma" tags="n.*"/>
+          <match lemma="brossa" tags="n.*"/>
+          <match lemma="formatjon" tags="n.*"/>
+          <match lemma="chabichon" tags="n.*"/>
+          <match lemma="seron" tags="n.*"/>
+          <match lemma="gurròp" tags="n.*"/>
+          <match lemma="hromatjon" tags="n.*"/>
+          <match lemma="fromatjon" tags="n.*"/>
+          <match lemma="uelhut" tags="n.*"/>
+          <match lemma="uelherut" tags="n.*"/>
+          <match lemma="formatjon" tags="n.*"/>
+          <match lemma="formatjariá" tags="n.*"/>
+          <match lemma="masuc" tags="n.*"/>
+          <match lemma="hromatgèr" tags="n.*"/>
+          <match lemma="formatgièr, -èra" tags="n.*"/>
+          <match lemma="hromatgèra" tags="n.*"/>
+          <match lemma="hormatgèr" tags="n.*"/>
+          <match lemma="chanja" tags="n.*"/>
+          <match lemma="çanja" tags="n.*"/>
+          <match lemma="mamèla" tags="n.*"/>
+          <match lemma="somesa" tags="n.*"/>
+          <match lemma="tita" tags="n.*"/>
+          <match lemma="popassa" tags="n.*"/>
+          <match lemma="popeta" tags="n.*"/>
+          <match lemma="popina" tags="n.*"/>
+          <match lemma="braguèr" tags="n.*"/>
+          <match lemma="neuriç" tags="n.*"/>
+          <match lemma="popet" tags="n.*"/>
+          <match lemma="possa" tags="n.*"/>
+          <match lemma="somés" tags="n.*"/>
+          <match lemma="teta" tags="n.*"/>
+          <match lemma="pièch" tags="n.*"/>
+          <match lemma="pièit" tags="n.*"/>
+          <match lemma="pechada" tags="n.*"/>
+          <match lemma="sen" tags="n.*"/>
+          <match lemma="pocha" tags="n.*"/>
+          <match lemma="chichí" tags="n.*"/>
+          <match lemma="chichina" tags="n.*"/>
+          <match lemma="popon" tags="n.*"/>
+          <match lemma="titeta" tags="n.*"/>
+          <match lemma="titòta" tags="n.*"/>
+          <match lemma="popeton" tags="n.*"/>
+          <match lemma="popetòta" tags="n.*"/>
+          <match lemma="popòta" tags="n.*"/>
+          <match lemma="pepelon" tags="n.*"/>
+          <match lemma="popèl" tags="n.*"/>
+          <match lemma="bèc" tags="n.*"/>
+          <match lemma="mugron" tags="n.*"/>
+          <match lemma="becon" tags="n.*"/>
+          <match lemma="becotin" tags="n.*"/>
+          <match lemma="gotejar" tags="v.*"/>
+          <match lemma="embotelhar" tags="v.*"/>
+          <match lemma="escampar" tags="v.*"/>
+          <match lemma="barrejar" tags="v.*"/>
+          <match lemma="getar" tags="v.*"/>
+          <match lemma="versar" tags="v.*"/>
+          <match lemma="voidar" tags="v.*"/>
+          <match lemma="vojar" tags="v.*"/>
+          <match lemma="mèisser" tags="v.*"/>
+          <match lemma="barrejar" tags="v.*"/>
+          <match lemma="emplenar" tags="v.*"/>
+          <match lemma="emplir" tags="v.*"/>
+          <match lemma="emplear" tags="v.*"/>
+          <match lemma="plear" tags="v.*"/>
+          <match lemma="plenhar" tags="v.*"/>
+          <match lemma="plenar" tags="v.*"/>
+          <match lemma="olhar" tags="v.*"/>
+          <match lemma="asolhar" tags="v.*"/>
+          <match lemma="rajar" tags="v.*"/>
+          <match lemma="colar" tags="v.*"/>
+          <match lemma="escórrer" tags="v.*"/>
+          <match lemma="pishar" tags="v.*"/>
+          <match lemma="gotar" tags="v.*"/>
+          <match lemma="chorrar" tags="v.*"/>
+          <match lemma="chucar" tags="v.*"/>
+          <match lemma="shucar" tags="v.*"/>
+          <match lemma="popar" tags="v.*"/>
+          <match lemma="suçar" tags="v.*"/>
+          <match lemma="sucar" tags="v.*"/>
+          <match lemma="tetar" tags="v.*"/>
+          <match lemma="mamar" tags="v.*"/>
+          <match lemma="titar" tags="v.*"/>
+          <match lemma="pochar" tags="v.*"/>
+          <match lemma="pochinar" tags="v.*"/>
+          <match lemma="laminar" tags="v.*"/>
+          <match lemma="limar" tags="v.*"/>
+          <match lemma="popinar" tags="v.*"/>
+          <match lemma="pintar" tags="v.*"/>
+          <match lemma="beure" tags="v.*"/>
+          <match lemma="béver" tags="v.*"/>
+          <match lemma="búver" tags="v.*"/>
+          <match lemma="agalar" tags="v.*"/>
+          <match lemma="abeurar" tags="v.*"/>
+          <match lemma="agotar" tags="v.*"/>
+          <match lemma="estarir" tags="v.*"/>
+          <match lemma="estincoar" tags="v.*"/>
+          <match lemma="estorrir" tags="v.*"/>
+          <match lemma="estarir" tags="v.*"/>
+          <match lemma="tornejar" tags="v.*"/>
+          <match lemma="guastar" tags="v.*"/>
+          <match lemma="picar" tags="v.*"/>
+          <match lemma="virar" tags="v.*"/>
+          <match lemma="brossar" tags="v.*"/>
+          <match lemma="hromatjar" tags="v.*"/>
+          <match lemma="hormatjar" tags="v.*"/>
+          <match lemma="formatjar" tags="v.*"/>
+          <match lemma="fromatjar" tags="v.*"/>
+          <match lemma="calhar" tags="v.*"/>
+          <match lemma="noirir" tags="v.*"/>
+          <match lemma="neurir" tags="v.*"/>
+          <match lemma="pèisher" tags="v.*"/>
+          <match lemma="pèisser" tags="v.*"/>
+          <match lemma="avitar" tags="v.*"/>
+          <match lemma="alimentar" tags="v.*"/>
+          <match lemma="apitançar" tags="v.*"/>
+          <match lemma="mólzer" tags="v.*"/>
+          <match lemma="mólher" tags="v.*"/>
+          <match lemma="tirar" tags="v.*"/>
+          <match lemma="mousir" tags="v.*"/>
+          <match lemma="ahrontar" tags="v.*"/>
+          <match lemma="apoperar" tags="v.*"/>
+          <match lemma="espopar" tags="v.*"/>
+          <match lemma="despopar" tags="v.*"/>
+          <match lemma="empopinar" tags="v.*"/>
+          <match lemma="estitar" tags="v.*"/>
+          <match lemma="entitar" tags="v.*"/>
+          <match lemma="apopar" tags="v.*"/>
+          <match lemma="apoperar" tags="v.*"/>
+          <match lemma="apoparir" tags="v.*"/>
+          <match lemma="popinar" tags="v.*"/>
+          <match lemma="esburriar" tags="vblex.*"/>
+          <match lemma="esboderar" tags="vblex.*"/>
+          <match lemma="escrestar" tags="vblex.*"/>
+          <match lemma="desburrar" tags="vblex.*"/>
+          <match lemma="esburriar" tags="vblex.*"/>
+          <match lemma="espintar" tags="vblex.*"/>
+          <match lemma="espintrar" tags="vblex.*"/>
+          <match lemma="descrostar" tags="vblex.*"/>
+          <match lemma="escremar" tags="vblex.*"/>
+          <match lemma="descremar" tags="vblex.*"/>
+        </or>
+        <repeat from="0" upto="3">
+          <or>
+            <match tags="*"/>
+            <match tags=""/>
+          </or>
+        </repeat>
+      <match lemma="lèit" tags="n.*"><select lemma="lait"/></match>
+    </rule>
+
     <!-- lana >> laine, lande -->
     <rule weight="0.8">
-        <match lemma="lana" tags="n.*"><select lemma="laine"/></match>
+      <match lemma="lana" tags="n.*"><select lemma="laine"/></match>
     </rule>
     <rule weight="1.0">
-        <or>
-            <seq n="pr_lieu"/>
-            <match lemma="traversar" tags="vblex.*"/>
-        </or>
-        <match tags="det.def.*"/>
+      <or>
+          <seq n="pr_lieu"/>
+          <match lemma="traversar" tags="vblex.*"/>
+      </or>
+      <match tags="det.def.*"/>
       <repeat from="0" upto="3">
-          <or>
-            <match tags="adv"/>
-            <match tags="preadv"/>
-            <match tags="adj.*"/>
-          </or>
-      </repeat>
-        <match lemma="lana" tags="n.*"><select lemma="lande"/></match>
-    </rule>
-    <rule weight="1.0">
-        <match lemma="lana" tags="n.f.pl"><select lemma="lande"/></match>
-    </rule>
-    <rule weight="1.0">
-        <match lemma="lana" tags="n.*"><select lemma="lande"/></match>
-        <match lemma="de" tags="pr"/>
         <or>
-              <match tags="np.*"/>
-              <match tags=""/>
+          <match tags="adv"/>
+          <match tags="preadv"/>
+          <match tags="adj.*"/>
         </or>
+      </repeat>
+      <match lemma="lana" tags="n.*"><select lemma="lande"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="lana" tags="n.f.pl"><select lemma="lande"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="lana" tags="n.*"><select lemma="lande"/></match>
+      <match lemma="de" tags="pr"/>
+      <or>
+        <match tags="np.*"/>
+        <match tags=""/>
+      </or>
     </rule>
 
     <!-- lira >> lire, lyre -->
     <rule weight="0.8">
-        <match lemma="lira" tags="n.*"><select lemma="lire"/></match>
+      <match lemma="lira" tags="n.*"><select lemma="lire"/></match>
     </rule>
 
     <!-- ostaleria >> hôtel, hôtellerie -->
     <rule weight="0.8">
-        <match lemma="ostaleria" tags="n.*"><select lemma="hôtel"/></match>
+      <match lemma="ostaleria" tags="n.*"><select lemma="hôtel"/></match>
     </rule>
     <rule weight="1.0">
+      <or>
+        <match lemma="domeni" tags="n.*"/>
+        <match lemma="sector" tags="n.*"/>
+        <match lemma="maine" tags="n.*"/>
+        <match lemma="bac" tags="n.*"/>
+        <match lemma="BTS" tags="n.*"/>
+        <match lemma="diplòme" tags="n.*"/>
+        <match lemma="estudi" tags="n.*"/>
+        <match lemma="mestièr" tags="n.*"/>
+        <match lemma="tribalh" tags="n.*"/>
+        <match lemma="trabalh" tags="n.*"/>
+        <match lemma="empleg" tags="n.*"/>
+        <match lemma="trabalhar" tags="n.*"/>
+        <match lemma="tribalhar" tags="n.*"/>
+        <match lemma="restauracion" tags="n.*"/>
+        <match lemma="activitat" tags="n.*"/>
+        <match lemma="licéncia" tags="n.*"/>
+      </or>
+      <repeat from="0" upto="3">
         <or>
-            <match lemma="domeni" tags="n.*"/>
-            <match lemma="sector" tags="n.*"/>
-            <match lemma="maine" tags="n.*"/>
-            <match lemma="bac" tags="n.*"/>
-            <match lemma="BTS" tags="n.*"/>
-            <match lemma="diplòme" tags="n.*"/>
-            <match lemma="estudi" tags="n.*"/>
-            <match lemma="mestièr" tags="n.*"/>
-            <match lemma="tribalh" tags="n.*"/>
-            <match lemma="trabalh" tags="n.*"/>
-            <match lemma="empleg" tags="n.*"/>
-            <match lemma="trabalhar" tags="n.*"/>
-            <match lemma="tribalhar" tags="n.*"/>
-            <match lemma="restauracion" tags="n.*"/>
-            <match lemma="activitat" tags="n.*"/>
-            <match lemma="licéncia" tags="n.*"/>
+          <match tags=""/>
+          <match tags="*"/>
         </or>
-        <repeat from="0" upto="3">
-            <or>
-              <match tags=""/>
-              <match tags="*"/>
-            </or>
-        </repeat>
-        <match lemma="ostaleria" tags="n.*"><select lemma="hôtellerie"/></match>
+      </repeat>
+      <match lemma="ostaleria" tags="n.*"><select lemma="hôtellerie"/></match>
     </rule>
 
     <!-- rondalejaire >> randonneur, rôdeur -->
