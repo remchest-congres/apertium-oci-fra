@@ -1335,48 +1335,6 @@
       <match lemma="quichua" tags="n.*"/>
     </or></def-seq>
 
-    <def-seq n="parent"><or>
-      <match lemma="parent" tags="n.*"/>
-      <match lemma="enfant" tags="n.*"/>
-      <match lemma="père" tags="n.*"/>
-      <match lemma="mère" tags="n.*"/>
-      <match lemma="papa" tags="n.*"/>
-      <match lemma="maman" tags="n.*"/>
-      <match lemma="grand-père" tags="n.*"/>
-      <match lemma="grands-parents" tags="n.*"/>
-      <match lemma="aïeul" tags="n.*"/>
-      <match lemma="mamie" tags="n.*"/>
-      <match lemma="mamé" tags="n.*"/>
-      <match lemma="mammy" tags="n.*"/>
-      <match lemma="mémé" tags="n.*"/>
-      <match lemma="mémère" tags="n.*"/>
-      <match lemma="papé" tags="n.*"/>
-      <match lemma="papie" tags="n.*"/>
-      <match lemma="papy" tags="n.*"/>
-      <match lemma="pépé" tags="n.*"/>
-      <match lemma="pépère" tags="n.*"/>
-      <match lemma="yayo" tags="n.*"/>
-      <match lemma="fils" tags="n.*"/>
-      <match lemma="fille" tags="n.*"/>
-      <match lemma="petit-fils" tags="n.*"/>
-      <match lemma="petits-enfants" tags="n.*"/>
-      <match lemma="frère" tags="n.*"/>
-      <match lemma="sœur" tags="n.*"/>
-      <match lemma="cousin" tags="n.*"/>
-      <match lemma="oncle" tags="n.*"/>
-      <match lemma="tante" tags="n.*"/>
-      <match lemma="neveu" tags="n.*"/>
-      <match lemma="nièce" tags="n.*"/>
-      <match lemma="cousin" tags="n.*"/>
-      <match lemma="beau-père" tags="n.*"/>
-      <match lemma="belle-mère" tags="n.*"/>
-      <match lemma="beaux-parents" tags="n.*"/>
-      <match lemma="beau-fils" tags="n.*"/>
-      <match lemma="belle-fille" tags="n.*"/>
-      <match lemma="beau-frère" tags="n.*"/>
-      <match lemma="belle-sœur" tags="n.*"/>
-    </or></def-seq>
-
     <def-seq n="betail"><or>
       <match lemma="poulet" tags="n.*"/>
       <match lemma="poussin" tags="n.*"/>
@@ -1397,43 +1355,6 @@
       <match lemma="poulain" tags="n.*"/>
       <match lemma="âne" tags="n.*"/>
       <match lemma="bétail" tags="n.*"/>
-    </or></def-seq>
-
-    <def-seq n="temps"><or>
-      <match lemma="seconde" tags="n.*"/>
-      <match lemma="minute" tags="n.*"/>
-      <match lemma="heure" tags="n.*"/>
-      <match lemma="jour" tags="n.*"/>
-      <match lemma="journée" tags="n.*"/>
-      <match lemma="weekend" tags="n.*"/>
-      <match lemma="week-end" tags="n.*"/>
-      <match lemma="semaine" tags="n.*"/>
-      <match lemma="mois" tags="n.*"/>
-      <match lemma="trimestre" tags="n.*"/>
-      <match lemma="semestre" tags="n.*"/>
-      <match lemma="an" tags="n.*"/>
-      <match lemma="année" tags="n.*"/>
-      <match lemma="lustre" tags="n.*"/>
-      <match lemma="quinquennat" tags="n.*"/>
-      <match lemma="septennat" tags="n.*"/>
-      <match lemma="décennie" tags="n.*"/>
-      <match lemma="siècle" tags="n.*"/>
-      <match lemma="millénaire" tags="n.*"/>
-    </or></def-seq>
-
-    <def-seq n="mois"><or>
-      <match lemma="janvier" tags="n.*"/>
-      <match lemma="février" tags="n.*"/>
-      <match lemma="mars" tags="n.*"/>
-      <match lemma="avril" tags="n.*"/>
-      <match lemma="mai" tags="n.*"/>
-      <match lemma="juin" tags="n.*"/>
-      <match lemma="juillet" tags="n.*"/>
-      <match lemma="août" tags="n.*"/>
-      <match lemma="septembre" tags="n.*"/>
-      <match lemma="octobre" tags="n.*"/>
-      <match lemma="novembre" tags="n.*"/>
-      <match lemma="décembre" tags="n.*"/>
     </or></def-seq>
 
     <def-seq n="vetement"><or>
@@ -1509,7 +1430,7 @@
   <rules>
     <!-- **************** VBLEX **************** -->
 
-    <!-- piocher >> fotjar/hotjar, pescar -->
+    <!-- piocher >> hotjar, pescar -->
     <rule weight="0.8">
       <match lemma="piocher" tags="vblex.*"><select lemma="hotjar"/></match>
     </rule>
@@ -1567,11 +1488,10 @@
       <match lemma="piocher" tags="vblex.*"><select lemma="pescar"/></match>
     </rule>
 
-    <!-- enfiler >> enfilar/en·hilar, engulhar, (se) cargar/(se) passar, prene/engulhar -->
+    <!-- enfiler >> en·hilar, engulhar, (se) passar, engulhar -->
     <rule weight="0.8">
       <match lemma="enfiler" tags="vblex.*"><select lemma="en·hilar"/></match>
     </rule>
-
     <rule weight="1.0">
       <match lemma="enfiler" tags="vblex.*"><select lemma="engulhar"/></match>
       <repeat from="0" upto="2">
@@ -1591,7 +1511,6 @@
         <match lemma="aiguille" tags="n.*"/>
       </or>
     </rule>
-
     <rule weight="1.0">
       <match lemma="enfiler" tags="vblex.*"><select lemma="passar"/></match>
       <repeat from="0" upto="2">
@@ -1630,7 +1549,6 @@
         <seq n="vetement"/>
       </or>
     </rule>
-
     <rule weight="1.0">
       <match lemma="enfiler" tags="vblex.*"><select lemma="engulhar"/></match>
       <repeat from="0" upto="2">
@@ -1676,7 +1594,7 @@
       </or>
     </rule>
 
-    <!-- poindre >> ponchar/pónher, puntejar -->
+    <!-- poindre >> pónher, puntejar -->
     <rule weight="0.8">
       <match lemma="poindre" tags="vblex.*"><select lemma="pónher"/></match>
     </rule>
@@ -1696,7 +1614,7 @@
       </or>
     </rule>
 
-    <!-- produire >> produire/produsir, mostrar/amushar -->
+    <!-- produire >> produsir, amuishar -->
     <rule weight="0.8">
       <match lemma="produire" tags="vblex.*"><select lemma="produsir"/></match>
     </rule>
@@ -1821,7 +1739,7 @@
       <match lemma="produire" tags="vblex.*"><select lemma="amuishar"/></match>
     </rule>
 
-    <!-- essuyer >> eissugar/eishugar, patir -->
+    <!-- essuyer >> eishugar, patir -->
     <rule weight="0.8">
       <match lemma="essuyer" tags="vblex.*"><select lemma="eishugar"/></match>
     </rule>
@@ -1851,7 +1769,7 @@
       </or>
     </rule>
 
-    <!-- épingler >> espillar/esplingar, prene/gahar -->
+    <!-- épingler >> esplingar, gahar -->
     <rule weight="0.8">
       <match lemma="épingler" tags="vblex.*"><select lemma="esplingar"/></match>
     </rule>
@@ -1914,100 +1832,7 @@
       </or>
     </rule>
 
-    <!-- apprendre >> aprene/apréner, assabentar, ensenhar -->
-    <rule weight="0.8">
-      <match lemma="apprendre" tags="vblex.*"><select lemma="apréner"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="apprendre" tags="vblex.*"><select lemma="assabentar"/></match>
-      <match lemma="à" tags="pr"/>
-      <or>
-        <match tags="np.ant.*"/>
-        <match tags="np.cog.*"/>
-        <match tags="" case="Aa"/>
-      </or>
-      <match lemma="que" tags="cnjsub"/>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="apprendre" tags="vblex.*"><select lemma="assabentar"/></match>
-      <match lemma="à" tags="pr"/>
-      <match tags="det.*"/>
-      <or>
-        <seq n="personne"/>
-        <match lemma="famille" tags="n.*"/>
-      </or>
-      <match lemma="que" tags="cnjsub"/>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="apprendre" tags="vblex.*"><select lemma="ensenhar"/></match>
-      <match lemma="à" tags="pr"/>
-      <or>
-        <match tags="np.ant.*"/>
-        <match tags="np.cog.*"/>
-        <match tags="" case="Aa"/>
-      </or>
-      <match lemma="à" tags="pr"/>
-      <repeat from="0" upto="3">
-        <or>
-          <match tags="adv"/>
-          <match tags="prn.pro.*"/>
-        </or>
-      </repeat>
-      <match tags="*.inf"/>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="apprendre" tags="vblex.*"><select lemma="ensenhar"/></match>
-      <match lemma="à" tags="pr"/>
-      <match tags="det.*"/>
-      <or>
-        <seq n="personne"/>
-        <match lemma="famille" tags="n.*"/>
-      </or>
-      <match lemma="à" tags="pr"/>
-      <repeat from="0" upto="3">
-        <or>
-          <match tags="adv"/>
-          <match tags="prn.pro.*"/>
-        </or>
-      </repeat>
-      <match tags="*.inf"/>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="apprendre" tags="vblex.*"><select lemma="ensenhar"/></match>
-      <match lemma="à" tags="pr"/>
-      <repeat from="0" upto="3">
-        <or>
-          <match tags="adv"/>
-          <match tags="prn.pro.*"/>
-        </or>
-      </repeat>
-      <match tags="*.inf"/>
-      <match lemma="à" tags="pr"/>
-      <or>
-        <match tags="np.ant.*"/>
-        <match tags="np.cog.*"/>
-        <match tags="" case="Aa"/>
-      </or>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="apprendre" tags="vblex.*"><select lemma="ensenhar"/></match>
-      <match lemma="à" tags="pr"/>
-      <repeat from="0" upto="3">
-        <or>
-          <match tags="adv"/>
-          <match tags="prn.pro.*"/>
-        </or>
-      </repeat>
-      <match tags="*.inf"/>
-      <match lemma="à" tags="pr"/>
-      <match tags="det.*"/>
-      <or>
-        <seq n="personne"/>
-        <match lemma="famille" tags="n.*"/>
-      </or>
-    </rule>
-
-    <!-- relever >> relevar/relhevar, dependre/depénder, remetre/remétre -->
+    <!-- relever >> relhevar, depénder, remétre -->
     <rule weight="0.8">
       <match lemma="relever" tags="vblex.*"><select lemma="relhevar"/></match>
     </rule>
@@ -2040,7 +1865,7 @@
       </or>
     </rule>
 
-    <!-- refouler >> alunhar/recussar, reténer/retiéner -->
+    <!-- refouler >> recussar, retiéner -->
     <rule weight="0.8">
       <match lemma="refouler" tags="vblex.*"><select lemma="recussar"/></match>
     </rule>
@@ -2067,7 +1892,7 @@
       </or>
     </rule>
 
-    <!-- ravir >> encantar, raubar/arpar -->
+    <!-- ravir >> encantar, arpar -->
     <rule weight="0.8">
       <match lemma="ravir" tags="vblex.*"><select lemma="encantar"/></match>
     </rule>
@@ -2111,7 +1936,7 @@
       <match lemma="ravir" tags="vblex.pp.*"><select lemma="encantar"/></match>
     </rule>
 
-    <!-- tendre >> tibar, parar, armar/tiéner, preparar -->
+    <!-- tendre >> tibar, parar, tiéner, preparar -->
     <rule weight="0.8">
       <match lemma="tendre" tags="vblex.*"><select lemma="tibar"/></match>
     </rule>
@@ -2192,7 +2017,7 @@
       <match lemma="embuscade" tags="n.*"/>
     </rule>
 
-    <!-- cribler >> crivelar/crierar, cargar -->
+    <!-- cribler >> crierar, cargar -->
     <rule weight="0.8">
       <match lemma="cribler" tags="vblex.*"><select lemma="crierar"/></match>
     </rule>
@@ -2204,14 +2029,13 @@
     <!-- avérer -> averar, confirmar -->
     <macro n="verb_nopron_pron"><with-param v="avérer"/><with-param v="averar"/><with-param v="confirmar"/></macro>
 
-    <!-- creuser -> cavar, aprigondir/apregondir -->
+    <!-- creuser -> cavar, apregondir -->
     <macro n="verb_nopron_pron"><with-param v="creuser"/><with-param v="cavar"/><with-param v="apregondir"/></macro>
 
     <!-- mourir >> morir, morir pron -->
-    <!-- débrouiller -> desembolhar/desmesclar, despatolhar -->
+    <!-- débrouiller -> desmesclar, despatolhar -->
     <macro n="verb_nopron_pron"><with-param v="débrouiller"/><with-param v="desmesclar"/><with-param v="despatolhar"/></macro>
 
-    <!-- enjamber >> enforcar, encambar -->
     <!-- enjamber >> en·horcar, encamar -->
     <rule weight="0.8">
       <match lemma="enjamber" tags="vblex.*"><select lemma="en·horcar"/></match>
@@ -2229,7 +2053,7 @@
       </or>
     </rule>
 
-    <!-- mettre >> metre/méter, (se) cargar/passar, hicar -->
+    <!-- mettre >> méter, (se) passar, hicar -->
     <rule weight="0.8">
       <match lemma="mettre" tags="vblex.*"><select lemma="méter"/></match>
     </rule>
@@ -2280,20 +2104,15 @@
     <!-- être# une poudrière >> estar# ahuecadís, estar# ahuecadissa, etc. -->
     <macro n="verb_adjmsg_adjfsg_adjmpl_adjfpl"><with-param v="être# une poudrière"/><with-param v="èsser# ahuecadís"/><with-param v="èsser# ahuecadissa"/><with-param v="èsser# ahuecadís"/><with-param v="èsser# ahuecadissas"/></macro>
 
-    <!-- être# en proie à >> èsser# pres de, èsser# presa de, etc. -->
     <!-- être# en proie à >> estar# secutat per, estar# secutada per, etc. -->
     <macro n="verb_adjmsg_adjfsg_adjmpl_adjfpl"><with-param v="être# en proie à"/><with-param v="èsser# secutat per"/><with-param v="èsser# secutada per"/><with-param v="èsser# secutats per"/><with-param v="èsser# secutadas per"/></macro>
 
     <!-- être# en solde >> estar# rebaishat, estar# rebaishada, etc. -->
     <macro n="verb_adjmsg_adjfsg_adjmpl_adjfpl"><with-param v="être# en solde"/><with-param v="èsser# rebaishat"/><with-param v="èsser# rebaishada"/><with-param v="èsser# rebaishats"/><with-param v="èsser# rebaishadas"/></macro>
 
-    <!-- être# bidon >> èsser# fals, èsser# falsa, etc. -->
     <!-- être# bidon >> estar# faus, estar# faussa, etc. -->
     <rule weight="0.8">
       <match lemma="être# bidon" tags="vblex.*"><select lemma="èsser# faus"/></match>
-    </rule>
-    <rule weight="1.0" v="oci">
-      <match lemma="être# bidon" tags="vblex.*.pl"><select lemma="èsser# falses"/></match>
     </rule>
     <rule weight="1.0">
       <or>
@@ -2323,13 +2142,6 @@
         </or>
       </repeat>
       <match lemma="être# bidon" tags="vblex.*.pl"><select lemma="èsser# faussas"/></match>
-    </rule>
-    <rule weight="1.0" v="oci">
-      <match tags="vbhaver.*.pl"/>
-      <repeat from="0" upto="2">
-        <match tags="adv"/>
-      </repeat>
-      <match lemma="être# bidon" tags="vblex.pp.*"><select lemma="èsser# falses"/></match>
     </rule>
     <rule weight="1.2">
       <or>
@@ -2369,7 +2181,6 @@
       <match lemma="être# bidon" tags="vblex.pp.*"><select lemma="èsser# faussas"/></match>
     </rule>
 
-    <!-- raffoler >> èsser# fòl, èsser# fòls, etc., desirar -->
     <!-- raffoler >> èsser# hòu, èsser# hòus, etc., desirar -->
     <rule weight="0.8">
       <match lemma="raffoler" tags="vblex.*"><select lemma="èsser# hòu"/></match>
@@ -2411,7 +2222,7 @@
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
-      <match lemma="raffoler" tags="vblex.pp.*"><select lemma="estar# hòus"/></match>
+      <match lemma="raffoler" tags="vblex.pp.*"><select lemma="èsser# hòus"/></match>
     </rule>
     <rule weight="1.2">
       <or>
@@ -2465,7 +2276,6 @@
       <match lemma="raffoler" tags="vblex.pp.*"><select lemma="desirar"/></match>
     </rule>
 
-    <!-- écrouler >> abausonar, espatarrar -->
     <!-- écrouler >> aclapar, espatarrar -->
     <rule weight="0.8">
       <match lemma="écrouler" tags="vblex.*"><select lemma="aclapar"/></match>
@@ -2519,11 +2329,6 @@
       </repeat>
       <match tags="prn.pro.*"/>
       <match lemma="écrouler" tags="vblex.inf"><select lemma="espatarrar"/></match>
-    </rule>
-
-    <!-- apparaître >> aparéisser/paréisher, paréisser/paréisher -->
-    <rule weight="0.8">
-      <match lemma="apparaître" tags="vblex.*"><select lemma="aparéisser"/></match>
     </rule>
 
     <!-- jouer >> jogar, har -->
@@ -2580,7 +2385,7 @@
       <match lemma="réussir" tags="vblex.pp.*"><select lemma="escàser"/></match>
     </rule>
 
-    <!-- élever >> auçar/lhevar, abalir/neurir, elevar/neurir, ensenhar -->
+    <!-- élever >> lhevar, neurir, neurir, ensenhar -->
     <rule weight="0.8">
       <match lemma="élever" tags="vblex.*"><select lemma="lhevar"/></match>
     </rule>
@@ -2693,8 +2498,7 @@
     <!-- bidonner -> farlabicar, escarcanhar# de ríder -->
     <macro n="verb_nopron_pron"><with-param v="bidonner"/><with-param v="farlabicar"/><with-param v="escarcanhar# de ríder"/></macro>
 
-    <!-- buter -> trabucar/trebucar, obstinar, butar, tuar -->
-    <macro n="verb_nopron_pron"><with-param v="buter"/><with-param v="trabucar"/><with-param v="obstinar"/></macro>
+    <!-- buter -> trebucar, obstinar, butar, tuar -->
     <macro n="verb_nopron_pron"><with-param v="buter"/><with-param v="trebucar"/><with-param v="obstinar"/></macro>
     <rule weight="0.9">
       <match lemma="buter" tags="vblex.*"><select lemma="butar"/></match>
@@ -2732,10 +2536,10 @@
       </or>
     </rule>
 
-    <!-- terrer -> cauçar/terrar, amagar -->
+    <!-- terrer -> terrar, amagar -->
     <macro n="verb_nopron_pron"><with-param v="terrer"/><with-param v="terrar"/><with-param v="amagar"/></macro>
 
-    <!-- brouiller -> mesclar, embolhar/trebolar, desavenir/desaviéner trebolar/embrumar -->
+    <!-- brouiller -> mesclar, trebolar, desaviéner, embrumar -->
     <macro n="verb_nopron_pron"><with-param v="brouiller"/><with-param v="mesclar"/><with-param v="desaviéner"/></macro>
     <rule weight="0.9">
       <match lemma="brouiller" tags="vblex.*"><select lemma="trebolar"/></match>
@@ -2796,12 +2600,7 @@
       <match lemma="brouiller" tags="vblex.*"><select lemma="embrumar"/></match>
     </rule>
 
-    <!-- démettre >> desmetre/desméter, deslogar -->
-    <rule weight="0.8">
-      <match lemma="démettre" tags="vblex.*"><select lemma="desméter"/></match>
-    </rule>
-
-    <!-- entendre >> ausir/audir, entendre/enténer -->
+    <!-- entendre >> audir, entendre/enténer -->
     <macro n="verb_nopron_pron"><with-param v="entendre"/><with-param v="audir"/><with-param v="enténder"/></macro>
     <rule weight="1.2">
       <match lemma="entendre" tags="vblex.*"><select lemma="enténder"/></match>
@@ -2831,13 +2630,13 @@
       <match lemma="raison" tags="n.*"/>
     </rule>
 
-    <!-- figer -> callar, palficar/pauhicar -->
+    <!-- figer -> callar, pauhicar -->
     <macro n="verb_nopron_pron"><with-param v="figer"/><with-param v="callar"/><with-param v="pauhicar"/></macro>
 
-    <!-- lover -> rodar, agrumelar/arromerar -->
+    <!-- lover -> rodar, arromerar -->
     <macro n="verb_nopron_pron"><with-param v="lover"/><with-param v="rodar"/><with-param v="arromerar"/></macro>
 
-    <!-- pourvoir -> provesir/provedir, recórrer -->
+    <!-- pourvoir -> provedir, recórrer -->
     <macro n="verb_nopron_pron"><with-param v="pourvoir"/><with-param v="provedir"/><with-param v="recórrer"/></macro>
     <rule weight="1.2">
       <match tags="vbser.*"/>
@@ -2851,7 +2650,7 @@
       <match lemma="de" tags="pr"/>
     </rule>
 
-    <!-- rouler -> rotlar, voludar/esbrohir, engarçar -->
+    <!-- rouler -> rotlar, esbrohir, engarçar -->
     <macro n="verb_nopron_pron"><with-param v="rouler"/><with-param v="rotlar"/><with-param v="esbrohir"/></macro>
     <rule weight="1.2">
       <match lemma="rouler" tags="vblex.*"><select lemma="engarçar"/></match>
@@ -2909,7 +2708,6 @@
       </repeat>
       <match lemma="rouler" tags="vblex.inf"><select lemma="engarçar"/></match>
     </rule>
-
     <rule weight="2.0">
       <match tags="prn.pro.p1.*.sg"/>
       <match tags="vbser.*.p1.sg"/>
@@ -2981,15 +2779,19 @@
       <match lemma="œil" tags="n.*"/>
     </rule>
 
-    <!-- ruer -> petnar/reguitnar, ronçar -->
+    <!-- ruer -> reguitnar, ronçar -->
     <macro n="verb_nopron_pron"><with-param v="ruer"/><with-param v="reguitnar"/><with-param v="ronçar"/></macro>
 
-    <!-- dessaisir -> despossedir, desprene/despréner -->
+    <!-- dessaisir -> despossedir, despréner -->
     <macro n="verb_nopron_pron"><with-param v="dessaisir"/><with-param v="despossedir"/><with-param v="despréner"/></macro>
 
-    <!-- engouffrer -> engolir/englotir, entraucar -->
+    <!-- engouffrer -> englotir, entraucar -->
     <macro n="verb_nopron_pron"><with-param v="engouffrer"/><with-param v="englotir"/><with-param v="entraucar"/></macro>
 
+    <!-- décrocher >> descrocar, desgahar, despenjar -->
+    <rule weight="0.8">
+      <match lemma="décrocher" tags="vblex.*"><select lemma="despenjar"/></match>
+    </rule>
     <rule weight="1.0">
       <match lemma="décrocher" tags="vblex.*"><select lemma="desgahar"/></match>
       <match tags="det.*"/>
@@ -3010,7 +2812,7 @@
     <!-- mettre# en panne -> hicar# en pana, immobilizar -->
     <macro n="verb_nopron_pron"><with-param v="mettre# en panne"/><with-param v="hicar# en pana"/><with-param v="immobilizar"/></macro>
 
-    <!-- éblouir >> esbleugir/enlusernar, embalausir/esmiraglar -->
+    <!-- éblouir >> enlusernar, esmiraglar -->
     <rule weight="0.8">
       <match lemma="éblouir" tags="vblex.*"><select lemma="enlusernar"/></match>
     </rule>
@@ -3018,7 +2820,7 @@
       <match lemma="éblouir" tags="vblex.*.p2.*"><select lemma="esmiraglar"/></match>
     </rule>
 
-    <!-- embrasser >> abraçar, poto(n)ar -->
+    <!-- embrasser >> abraçar, potoar -->
     <rule weight="0.8">
       <match lemma="embrasser" tags="vblex.*"><select lemma="potoar"/></match>
     </rule>
@@ -3027,7 +2829,7 @@
       <match lemma="embrasser" tags="vblex.*"><select lemma="abraçar"/></match>
     </rule>
 
-    <!-- ficher >> ficar/hicar, fichar -->
+    <!-- ficher >> hicar, fichar -->
     <macro n="verb_nopron_pron"><with-param v="ficher"/><with-param v="fichar"/><with-param v="hicar"/></macro>
 
     <rule weight="2.0">
@@ -3060,38 +2862,9 @@
       <match lemma="de" tags="pr"/>
     </rule>
 
-
-    <!-- filer >> filar/hilar, partir, córrer, escapar, passar/pèisher -->
+    <!-- filer >> hilar, partir, córrer, escapar, pèisher -->
     <rule weight="0.8">
       <match lemma="filer" tags="vblex.*"><select lemma="hilar"/></match>
-    </rule>
-    <rule weight="1.0" v="oci">
-      <match lemma="filer" tags="vblex.*"><select lemma="partir"/></match>
-    </rule>
-    <rule weight="1.2" v="oci">
-      <match lemma="filer" tags="vblex.*"><select lemma="córrer"/></match>
-      <repeat from="0" upto="2">
-        <match tags="adv"/>
-      </repeat>
-      <or>
-        <match lemma="vers" tags="pr"/>
-        <match lemma="hors" tags="pr"/>
-        <match lemma="pour" tags="pr"/>
-      </or>
-    </rule>
-    <rule weight="1.2" v="oci">
-      <match lemma="filer" tags="vblex.*"><select lemma="córrer"/></match>
-      <repeat from="0" upto="2">
-        <match tags="adv"/>
-      </repeat>
-      <match lemma="â" tags="pr"/>
-      <repeat from="0" upto="1">
-        <match tags="det.def.*"/>
-      </repeat>
-      <or>
-        <match tags="np.top.*"/>
-        <match tags="" case="Aa"/>
-      </or>
     </rule>
     <rule weight="1.2">
       <match lemma="laisser" tags="vblex.*"/>
@@ -3109,18 +2882,6 @@
       <match tags="det.def.*"/>
       <match lemma="doigt" tags="n.m.pl"/>
     </rule>
-    <rule weight="1.4" v="oci">
-      <match lemma="filer" tags="vblex.*"><select lemma="filar"/></match>
-      <repeat from="0" upto="4">
-        <or>
-          <match tags="*"/>
-          <match tags=""/>
-        </or>
-      </repeat>
-      <or>
-        <match lemma="laine" tags="n.*"/>
-      </or>
-    </rule>
     <rule weight="2.0">
       <or>
         <seq n="prn_ci"/>
@@ -3172,7 +2933,7 @@
       <match tags="det.def.mf.pl"/>
     </rule>
 
-    <!-- ranger >> recaptar, rengar/arrengar -->
+    <!-- ranger >> recaptar, arrengar -->
     <macro n="verb_nopron_pron"><with-param v="ranger"/><with-param v="recaptar"/><with-param v="arrengar"/></macro>
 
     <!-- rappeler >> rampelar/raperar, remembrar -->
@@ -3181,22 +2942,20 @@
     <!-- refléter >> rebatre/rebàter, miralhar -->
     <macro n="verb_nopron_pron"><with-param v="refléter"/><with-param v="rebàter"/><with-param v="miralhar"/></macro>
 
-    <!-- suspendre >> penjar, suspendre/suspéner -->
+    <!-- traduire >> tradúser, revirar -->
     <rule weight="0.8">
-      <match lemma="suspendre" tags="vblex.*"><select lemma="suspénder"/></match>
+      <match lemma="traduire" tags="vblex.*"><select lemma="tradúser"/></match>
     </rule>
 
-    <!-- truquer >> falsar/faussar, trucar... -->
+    <!-- truquer >> faussar, trucar... -->
     <rule weight="0.8">
       <match lemma="truquer" tags="vblex.*"><select lemma="faussar"/></match>
     </rule>
 
-    <!-- accroître >> acréisser, créisser -->
-
     <!-- aggraver >> agravar, guastar -->
     <macro n="verb_nopron_pron"><with-param v="aggraver"/><with-param v="agravar"/><with-param v="guastar"/></macro>
 
-    <!-- appeler >> apelar, sonar, cridar... -->
+    <!-- appeler >> aperar, sonar, cridar... -->
     <macro n="verb_nopron_pron"><with-param v="appeler"/><with-param v="cridar"/><with-param v="aperar"/></macro>
     <rule weight="1.4">
       <or>
@@ -3226,11 +2985,9 @@
       </or>
     </rule>
 
-    <!-- accoucher >> ajaire, levar -->
     <!-- accoucher >> amainadar, har# amainadar -->
     <macro n="verb_intrans_trans"><with-param v="accoucher"/><with-param v="amainadar"/><with-param v="har# amainadar"/></macro>
 
-    <!-- enrager >> s'enrabiar, enrabiar -->
     <!-- enrager >> estar emmalit/ida/its/idas, embriscar -->
     <macro n="verb_adjmsg_adjfsg_adjmpl_adjfpl"><with-param v="enrager"/><with-param v="èsser# emmalit"/><with-param v="èsser# emmalida"/><with-param v="èsser# emmalits"/><with-param v="èsser# emmalidas"/></macro>
     <rule weight="2.0">
@@ -3287,114 +3044,114 @@
     <!-- virer >> virar, botar# dehòra -->
     <macro n="verb_intrans_trans"><with-param v="virer"/><with-param v="virar"/><with-param v="botar# dehòra"/></macro>
 
-    <!-- mêler >> mesclar, mainar/aucupar -->
+    <!-- mêler >> mesclar, aucupar -->
     <macro n="verb_nopron_pron_prep"><with-param v="mêler"/><with-param v="mesclar"/><with-param v="aucupar"/><with-param v="de"/></macro>
 
-    <!-- échouer >> mal escaire/(s'i) mauescàder, encalar/encalhar -->
+    <!-- échouer >> mal escaire/(s'i) mauescàder, encalhar -->
     <macro n="verb_nopron_pron"><with-param v="échouer"/><with-param v="i mauescàser"/><with-param v="encalhar"/></macro>
     <rule weight="0.9">
       <match lemma="échouer" tags="vblex.pp.*"><select lemma="mauescàser"/></match>
     </rule>
 
-    <!-- ébranler >> brandir, abranlir / susmàver, trebolar -->
+    <!-- ébranler >> abranlir, susmòver -->
     <rule weight="0.8">
-        <match lemma="ébranler" tags="vblex.*"><select lemma="abranlir"/></match>
+      <match lemma="ébranler" tags="vblex.*"><select lemma="abranlir"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="ébranler" tags="vblex.*"><select lemma="susmòver"/></match>
       <repeat from="0" upto="3">
         <or>
-        <match tags="det.*"/>
-        <match tags="num.*"/>
-        <match tags="num"/>
-        <match tags="adv"/>
-        <match tags="preadv"/>
-        <match tags="adj.*"/>
+          <match tags="det.*"/>
+          <match tags="num.*"/>
+          <match tags="num"/>
+          <match tags="adv"/>
+          <match tags="preadv"/>
+          <match tags="adj.*"/>
         </or>
       </repeat>
       <or>
-          <match lemma="opinion" tags="n.*"/>
-          <match lemma="volontat" tags="n.*"/>
-          <match lemma="determinacion" tags="n.*"/>
-          <match lemma="coratge" tags="n.*"/>
-          <match lemma="fisança" tags="n.*"/>
-          <match lemma="hidança" tags="n.*"/>
-          <match lemma="confisança" tags="n.*"/>
-          <match lemma="hida" tags="n.*"/>
-          <match lemma="ahida" tags="n.*"/>
-          <match lemma="hisança" tags="n.*"/>
-          <match lemma="certitud" tags="n.*"/>
-          <match lemma="certesa" tags="n.*"/>
-          <match lemma="credença" tags="n.*"/>
-          <match lemma="cresença" tags="n.*"/>
-          <match lemma="créser" tags="n.*"/>
-          <match lemma="créder" tags="n.*"/>
-          <match lemma="fe" tags="n.*"/>
-          <match lemma="he" tags="n.*"/>
-          <match lemma="prejutjat" tags="n.*"/>
-          <match lemma="esperit" tags="n.*"/>
-          <match lemma="pensada" tags="n.*"/>
-          <match lemma="conviccion" tags="n.*"/>
-          <match lemma="créser" tags="n.*"/>
-          <match lemma="cregénça" tags="n.*"/>
-          <match lemma="òrdre" tags="n.*"/>
-          <match lemma="òrdi" tags="n.*"/>
-          <match lemma="societat" tags="n.*"/>
-          <match lemma="ordi" tags="n.*"/>
-          <match lemma="òrde" tags="n.*"/>
-          <match lemma="poder" tags="n.*"/>
-          <match lemma="constància" tags="n.*"/>
-          <match lemma="principi" tags="n.*"/>
+        <match lemma="opinion" tags="n.*"/>
+        <match lemma="volontat" tags="n.*"/>
+        <match lemma="determinacion" tags="n.*"/>
+        <match lemma="coratge" tags="n.*"/>
+        <match lemma="fisança" tags="n.*"/>
+        <match lemma="hidança" tags="n.*"/>
+        <match lemma="confisança" tags="n.*"/>
+        <match lemma="hida" tags="n.*"/>
+        <match lemma="ahida" tags="n.*"/>
+        <match lemma="hisança" tags="n.*"/>
+        <match lemma="certitud" tags="n.*"/>
+        <match lemma="certesa" tags="n.*"/>
+        <match lemma="credença" tags="n.*"/>
+        <match lemma="cresença" tags="n.*"/>
+        <match lemma="créser" tags="n.*"/>
+        <match lemma="créder" tags="n.*"/>
+        <match lemma="fe" tags="n.*"/>
+        <match lemma="he" tags="n.*"/>
+        <match lemma="prejutjat" tags="n.*"/>
+        <match lemma="esperit" tags="n.*"/>
+        <match lemma="pensada" tags="n.*"/>
+        <match lemma="conviccion" tags="n.*"/>
+        <match lemma="créser" tags="n.*"/>
+        <match lemma="cregénça" tags="n.*"/>
+        <match lemma="òrdre" tags="n.*"/>
+        <match lemma="òrdi" tags="n.*"/>
+        <match lemma="societat" tags="n.*"/>
+        <match lemma="ordi" tags="n.*"/>
+        <match lemma="òrde" tags="n.*"/>
+        <match lemma="poder" tags="n.*"/>
+        <match lemma="constància" tags="n.*"/>
+        <match lemma="principi" tags="n.*"/>
       </or>
     </rule>
 
-    <!-- rendre >> tornar, aller, far venir/har vàder, venir/vàder -->
+    <!-- rendre >> tornar, aller, har vàder, vàder -->
     <rule weight="0.8">
-        <match lemma="rendre" tags="vblex.*"><select lemma="tornar"/></match>
+      <match lemma="rendre" tags="vblex.*"><select lemma="tornar"/></match>
     </rule>
     <rule weight="1.0">
       <or>
-          <match lemma="me" tags="prn.pro.*"/>
-          <match lemma="te" tags="prn.pro.*"/>
-          <match lemma="se" tags="prn.pro.*"/>
-          <match lemma="nos" tags="prn.pro.*"/>
-          <match lemma="vos" tags="prn.pro.*"/>
+        <match lemma="me" tags="prn.pro.*"/>
+        <match lemma="te" tags="prn.pro.*"/>
+        <match lemma="se" tags="prn.pro.*"/>
+        <match lemma="nos" tags="prn.pro.*"/>
+        <match lemma="vos" tags="prn.pro.*"/>
       </or>
       <repeat from="0" upto="3">
         <or>
-        <match tags="vbser.*"/>
-        <match tags="adv"/>
+          <match tags="vbser.*"/>
+          <match tags="adv"/>
         </or>
       </repeat>
       <match lemma="rendre" tags="vblex.*"><select lemma="anar"/></match>
       <repeat from="0" upto="2">
-      <match tags="adv"/>
+        <match tags="adv"/>
       </repeat>
       <or>
-          <match lemma="à" tags="pr"/>
-          <match lemma="sur" tags="pr"/>
-          <match lemma="vers" tags="pr"/>
-          <match lemma="chez" tags="pr"/>
-          <match lemma="dans" tags="pr"/>
-          <match lemma="chez moi" tags="adv"/>
-          <match lemma="chez toi" tags="adv"/>
-          <match lemma="chez lui" tags="adv"/>
-          <match lemma="chez elle" tags="adv"/>
-          <match lemma="chez nous" tags="adv"/>
-          <match lemma="chez vous" tags="adv"/>
-          <match lemma="chez eux" tags="adv"/>
-          <match lemma="chez elles" tags="adv"/>
-          <match lemma="chez soi" tags="adv"/>
-          <match lemma="à la maison" tags="adv"/>
+        <match lemma="à" tags="pr"/>
+        <match lemma="sur" tags="pr"/>
+        <match lemma="vers" tags="pr"/>
+        <match lemma="chez" tags="pr"/>
+        <match lemma="dans" tags="pr"/>
+        <match lemma="chez moi" tags="adv"/>
+        <match lemma="chez toi" tags="adv"/>
+        <match lemma="chez lui" tags="adv"/>
+        <match lemma="chez elle" tags="adv"/>
+        <match lemma="chez nous" tags="adv"/>
+        <match lemma="chez vous" tags="adv"/>
+        <match lemma="chez eux" tags="adv"/>
+        <match lemma="chez elles" tags="adv"/>
+        <match lemma="chez soi" tags="adv"/>
+        <match lemma="à la maison" tags="adv"/>
       </or>
     </rule>
     <rule weight="1.0">
       <or>
-          <match lemma="me" tags="prn.pro.*"/>
-          <match lemma="te" tags="prn.pro.*"/>
-          <match lemma="se" tags="prn.pro.*"/>
-          <match lemma="nos" tags="prn.pro.*"/>
-          <match lemma="vos" tags="prn.pro.*"/>
+        <match lemma="me" tags="prn.pro.*"/>
+        <match lemma="te" tags="prn.pro.*"/>
+        <match lemma="se" tags="prn.pro.*"/>
+        <match lemma="nos" tags="prn.pro.*"/>
+        <match lemma="vos" tags="prn.pro.*"/>
       </or>
       <repeat from="0" upto="3">
         <or>
@@ -3405,11 +3162,10 @@
       <match lemma="rendre" tags="vblex.*"><select lemma="anar"/></match>
       <match lemma="en" tags="pr"/>
       <or>
-          <match tags="np.top.*"/>
-          <match tags="" case="Aa"/>
+        <match tags="np.top.*"/>
+        <match tags="" case="Aa"/>
       </or>
     </rule>
-
     <rule weight="1.2">
       <match lemma="rendre" tags="vblex.*"><select lemma="har"/></match>
       <repeat from="0" upto="2">
@@ -3425,7 +3181,6 @@
           <match tags="adj.*"/>
       </or>
     </rule>
-
     <rule weight="1.0">
       <match tags="prn.pro.*"/>
       <match lemma="rendre" tags="vblex.*"><select lemma="vàser"/></match>
@@ -3437,26 +3192,25 @@
         </or>
       </repeat>
       <or>
-          <match lemma="maître" tags="n.*"/>
+        <match lemma="maître" tags="n.*"/>
       </or>
     </rule>
 
-    <!-- rendre# compte >> rendre# compte, mainar -->
     <!-- rendre# compte >> rénder# compte, avisar -->
     <macro n="verb_nopron_pron"><with-param v="rendre# compte"/><with-param v="rénder# compte"/><with-param v="avisar"/></macro>
 
     <!-- dépêcher, se dépêcher -->
     <macro n="verb_nopron_pron"><with-param v="dépêcher"/><with-param v="despachar"/><with-param v="amanejar"/></macro>
 
-    <!-- traîner >> longanhejar/longuejar, tirassar/arossegar, pron rebalar/arossegar -->
+    <!-- traîner >> longuejar, arossegar, arossegar -->
     <macro n="verb_intrans_trans_pron"><with-param v="traîner"/><with-param v="longuejar"/><with-param v="arossegar"/><with-param v="arossegar"/></macro>
 
-    <!-- divaguer >> landrar/arrondejar, desparlar/chabraquejar -->
+    <!-- divaguer >> chabraquejar -->
     <rule weight="0.8">
-        <match lemma="divaguer" tags="vblex.*"><select lemma="chabraquejar"/></match>
+      <match lemma="divaguer" tags="vblex.*"><select lemma="chabraquejar"/></match>
     </rule>
 
-    <!-- gronder ->  cridar, bronzir/bronir-->
+    <!-- gronder ->  cridar, bronir-->
     <rule weight="0.8">
       <match lemma="gronder" tags="vblex.*"><select lemma="bronir"/></match>
     </rule>
@@ -3473,11 +3227,10 @@
       <match tags="np.*"/>
     </rule>
 
-
-    <!-- fouler >> caucar/traupir, tòrcer/virar -->
+    <!-- fouler >> traupir, virar -->
     <macro n="verb_nopron_pron"><with-param v="fouler"/><with-param v="traupir"/><with-param v="virar"/></macro>
 
-    <!-- replier >> tornar plegar, replegar/aplegar -->
+    <!-- replier >> tornar plegar, aplegar -->
     <macro n="verb_nopron_pron"><with-param v="replier"/><with-param v="tornar# plegar"/><with-param v="aplegar"/></macro>
   </rules>
 </lrx>
