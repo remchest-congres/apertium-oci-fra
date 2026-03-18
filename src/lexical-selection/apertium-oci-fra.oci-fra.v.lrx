@@ -428,42 +428,42 @@
       <match lemma="deceme" tags="n.*"/>
     </or></def-seq>
 
-	  <def-seq n="sasons"><or>
-      <match lemma="prima" tags="n.*"/>
-      <match lemma="primtemps" tags="n.*"/>
-      <match lemma="primavèra" tags="n.*"/>
-      <match lemma="estiu" tags="n.*"/>
-      <match lemma="auton" tags="n.*"/>
-      <match lemma="abòr" tags="n.*"/>
-      <match lemma="davalada" tags="n.*"/>
-      <match lemma="tardor" tags="n.*"/>
-      <match lemma="agòr" tags="n.*"/>
-      <match lemma="gòrra" tags="n.*"/>
-      <match lemma="ivèrn" tags="n.*"/>
-	  </or></def-seq>
+    <def-seq n="sasons"><or>
+        <match lemma="prima" tags="n.*"/>
+        <match lemma="primtemps" tags="n.*"/>
+        <match lemma="primavèra" tags="n.*"/>
+        <match lemma="estiu" tags="n.*"/>
+        <match lemma="auton" tags="n.*"/>
+        <match lemma="abòr" tags="n.*"/>
+        <match lemma="davalada" tags="n.*"/>
+        <match lemma="tardor" tags="n.*"/>
+        <match lemma="agòr" tags="n.*"/>
+        <match lemma="gòrra" tags="n.*"/>
+        <match lemma="ivèrn" tags="n.*"/>
+    </or></def-seq>
 
-	  <def-seq n="parts_jorn"><or>
-      <match lemma="matin" tags="n.*"/>
-      <match lemma="maitin" tags="n.*"/>
-      <match lemma="matinada" tags="n.*"/>
-      <match lemma="matiada" tags="n.*"/>
-      <match lemma="aprèp-miègjorn" tags="n.*"/>
-      <match lemma="aprèp-dinnada" tags="n.*"/>
-      <match lemma="après-miègjorn" tags="n.*"/>
-      <match lemma="après-dinnada" tags="n.*"/>
-      <match lemma="vèspre" tags="n.*"/>
-      <match lemma="vrèspe" tags="n.*"/>
-      <match lemma="vesprada" tags="n.*"/>
-      <match lemma="ser" tags="n.*"/>
-      <match lemma="sera" tags="n.*"/>
-      <match lemma="nuèch" tags="n.*"/>
-      <match lemma="nuech" tags="n.*"/>
-      <match lemma="nuòch" tags="n.*"/>
-      <match lemma="nueit" tags="n.*"/>
-      <match lemma="nuèit" tags="n.*"/>
-      <match lemma="neit" tags="n.*"/>
-      <match lemma="net" tags="n.*"/>
-	  </or></def-seq>
+    <def-seq n="parts_jorn"><or>
+        <match lemma="matin" tags="n.*"/>
+        <match lemma="maitin" tags="n.*"/>
+        <match lemma="matinada" tags="n.*"/>
+        <match lemma="matiada" tags="n.*"/>
+        <match lemma="aprèp-miègjorn" tags="n.*"/>
+        <match lemma="aprèp-dinnada" tags="n.*"/>
+        <match lemma="après-miègjorn" tags="n.*"/>
+        <match lemma="après-dinnada" tags="n.*"/>
+        <match lemma="vèspre" tags="n.*"/>
+        <match lemma="vrèspe" tags="n.*"/>
+        <match lemma="vesprada" tags="n.*"/>
+        <match lemma="ser" tags="n.*"/>
+        <match lemma="sera" tags="n.*"/>
+        <match lemma="nuèch" tags="n.*"/>
+        <match lemma="nuech" tags="n.*"/>
+        <match lemma="nuòch" tags="n.*"/>
+        <match lemma="nueit" tags="n.*"/>
+        <match lemma="nuèit" tags="n.*"/>
+        <match lemma="neit" tags="n.*"/>
+        <match lemma="net" tags="n.*"/>
+    </or></def-seq>
 
     <def-seq n="prn_ref"><or>
       <match lemma="me" tags="prn.pro.*"/>
@@ -528,17 +528,17 @@
       <match lemma="paisan" tags="n.*"/>
       <match lemma="pagés" tags="n.*"/>
       <match lemma="pacan" tags="n.*"/>
-        <match lemma="politic" tags="n.*"/>
-        <match lemma="politician" tags="n.*"/>
-        <match lemma="politicaire" tags="n.*"/>
-        <match lemma="representant" tags="n.*"/>
-        <match lemma="parlamentari" tags="n.*"/>
-        <match lemma="deputat" tags="n.*"/>
-        <match lemma="eurodeputat" tags="n.*"/>
-        <match lemma="senator" tags="n.*"/>
-        <match lemma="senador" tags="n.*"/>
-        <match lemma="elegit" tags="n.*"/>
-        <match lemma="elejut" tags="n.*"/>
+      <match lemma="politic" tags="n.*"/>
+      <match lemma="politician" tags="n.*"/>
+      <match lemma="politicaire" tags="n.*"/>
+      <match lemma="representant" tags="n.*"/>
+      <match lemma="parlamentari" tags="n.*"/>
+      <match lemma="deputat" tags="n.*"/>
+      <match lemma="eurodeputat" tags="n.*"/>
+      <match lemma="senator" tags="n.*"/>
+      <match lemma="senador" tags="n.*"/>
+      <match lemma="elegit" tags="n.*"/>
+      <match lemma="elejut" tags="n.*"/>
 
       <match lemma="cantaire" tags="n.*"/>
       <match lemma="compositor" tags="n.*"/>
@@ -697,7 +697,7 @@
       <match lemma="caporal" tags="n.*"/>
       <match lemma="sordat" tags="n.*"/>
       <match lemma="soldat" tags="n.*"/>
-        <match lemma="crosat" tags="n.*"/>
+      <match lemma="crosat" tags="n.*"/>
       <match lemma="marin" tags="n.*"/>
       <match lemma="marinèr" tags="n.*"/>
       <match lemma="marinièr" tags="n.*"/>
@@ -2333,27 +2333,27 @@
       <match lemma="comedia" tags="n.*"/>
     </rule>
 
-    <!-- jogar >> jouer, jouer# de -->
+    <!-- jogar >> jouer -->
     <rule weight="0.8">
       <match lemma="jogar" tags="vblex.*"><select lemma="jouer"/></match>
     </rule>
 
-    <!-- tocar >> toucher, jouer# de -->
+    <!-- tocar >> toucher -->
     <rule weight="0.8">
       <match lemma="tocar" tags="vblex.*"><select lemma="toucher"/></match>
     </rule>
 
-    <!-- soar >> sonner, jouer# de -->
+    <!-- soar >> sonner -->
     <rule weight="0.8">
       <match lemma="soar" tags="vblex.*"><select lemma="sonner"/></match>
     </rule>
 
-    <!-- tutar >> klaxonner, jouer# de -->
+    <!-- tutar >> klaxonner -->
     <rule weight="0.8">
       <match lemma="tutar" tags="vblex.*"><select lemma="klaxonner"/></match>
     </rule>
 
-    <!-- desbocar >> déboucher, déboucher# sur, vomir -->
+    <!-- desbocar >> déboucher, -->
     <rule weight="0.8">
       <match lemma="desbocar" tags="vblex.*"><select lemma="déboucher"/></match>
     </rule>
@@ -2500,6 +2500,9 @@
     </rule>
 
     <!-- mancar >> manquer, rater, faillir, brouiller, falloir -->
+    <rule weight="0.8">
+      <match lemma="mancar" tags="vblex.*"><select lemma="manquer"/></match>
+    </rule>
     <rule weight="2.0">
       <match lemma="mancar" tags="vblex.*"><select lemma="rater"/></match>
       <repeat from="0" upto="2">
@@ -2670,13 +2673,12 @@
       <match lemma="tirar" tags="vblex.*"><select lemma="tirer"/></match>
     </rule>
 
-    <!-- menar/miar >> mener, conduire, amener -->
+    <!-- menar >> mener, conduire, amener -->
     <rule weight="0.8">
       <or>
         <match lemma="menar" tags="vblex.*"><select lemma="mener"/></match>
       </or>
     </rule>
-
     <rule weight="1.0">
       <or>
         <match lemma="menar" tags="vblex.*"><select lemma="amener"/></match>
@@ -3264,6 +3266,7 @@
     <!-- negar >> noyer, nier -->
     <macro n="verb_nopron_pron"><with-param v="negar"/><with-param v="nier"/><with-param v="noyer"/></macro>
 
+    <!-- parcar >> garer, parquer -->
     <rule weight="1.0">
       <match lemma="parcar" tags="vblex.*"><select lemma="garer"/></match>
       <repeat from="0" upto="3">
