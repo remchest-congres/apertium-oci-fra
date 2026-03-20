@@ -286,6 +286,8 @@
     <e r="LR"><p><l>1r<s n="adj"/></l> <r>1er<s n="adj"/></r></p></e>
     <e a="hector" r="RL"><p><l>20<b/>minutes<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>20<b/>minutes<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="hector"><p><l>20<b/>minutos<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>20<b/>minutos<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+
+
     <e><p><l>2au<s n="adj"/></l> <r>2nd<s n="adj"/></r></p><par n="d:gascon"/></e>
     <e a="hector"><p><l>2G<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>2G<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>2nd<s n="adj"/></l> <r>2nd<s n="adj"/></r></p><par n="d:aranes"/><par n="d:lengadocian"/></e>
@@ -308,6 +310,262 @@
     <e><p><l>8en<s n="adj"/></l> <r>8ème<s n="adj"/></r></p><par n="GD_mf"/><par n="d:aranes"/><par n="d:lengadocian"/></e>
     <e><p><l>9au<s n="adj"/></l> <r>9ème<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
     <e><p><l>9en<s n="adj"/></l> <r>9ème<s n="adj"/></r></p><par n="GD_mf"/><par n="d:aranes"/><par n="d:lengadocian"/></e>
+
+
+    <e a="wiktionnaire"><p><l>dusau<s n="adj"/></l><r>deuxième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire"><p><l>dusau<s n="n"/></l><r>deuxième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="RL"><p><l>segond<s n="adj"/></l><r>deuxième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="RL"><p><l>segond<s n="n"/></l><r>deuxième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="hector" r="LR"><p><l>dusau<s n="adj"/></l><r>deuxième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>dusau<s n="n"/></l><r>deuxième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="wiktionnaire"><p><l>tresau<s n="adj"/></l><r>troisième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire"><p><l>tresen<s n="adj"/></l><r>troisième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="Congrès"><p><l>tresen<s n="n"/></l><r>troisième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="Congrès"><p><l>tresau<s n="n"/></l><r>troisième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>tresau<s n="adj"/></l><r>troisième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>tresen<s n="adj"/></l><r>troisième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="wiktionnaire"><p><l>quatau<s n="adj"/></l><r>quatrième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>quatau<s n="adj"/></l><r>quatrième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>quatren<s n="adj"/></l><r>quatrième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>quatren<s n="adj"/></l><r>quatrième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>quatren<s n="n"/></l><r>quatrième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>quatren<s n="n"/></l><r>quatrième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès"><p><l>quatau<s n="n"/></l><r>quatrième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    
+    <e a="wiktionnaire"><p><l>cinquau<s n="adj"/></l><r>cinquième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>cinquau<s n="adj"/></l><r>cinquième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>cinquau<s n="n"/></l><r>cinquième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>cinquau<s n="n"/></l><r>cinquième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>cinquen<s n="adj"/></l><r>cinquième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>cinquen<s n="adj"/></l><r>cinquième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>cinquen<s n="n"/></l><r>cinquième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>cinquen<s n="n"/></l><r>cinquième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="wiktionnaire"><p><l>seisen<s n="adj"/></l><r>sixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>seisen<s n="adj"/></l><r>sixième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>seisen<s n="n"/></l><r>sixième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>sheisau<s n="adj"/></l><r>sixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>sheisau<s n="adj"/></l><r>sixième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>sheisau<s n="n"/></l><r>sixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>sheisau<s n="n"/></l><r>sixième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès" r="RL"><p><l>seisen<s n="n"/></l><r>sixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    
+    <e a="wiktionnaire"><p><l>setau<s n="adj"/></l><r>septième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>setau<s n="adj"/></l><r>septième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>setau<s n="n"/></l><r>septième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>setau<s n="n"/></l><r>septième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>seten<s n="adj"/></l><r>septième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>seten<s n="adj"/></l><r>septième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>seten<s n="n"/></l><r>septième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>seten<s n="n"/></l><r>septième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="wiktionnaire"><p><l>ochen<s n="adj"/></l><r>huitième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>ochen<s n="adj"/></l><r>huitième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>ochen<s n="n"/></l><r>huitième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>ochen<s n="n"/></l><r>huitième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>uechen<s n="adj"/></l><r>huitième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>uechen<s n="n"/></l><r>huitième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>ueitau<s n="adj"/></l><r>huitième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>ueitau<s n="adj"/></l><r>huitième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>ueitau<s n="n"/></l><r>huitième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>ueitau<s n="n"/></l><r>huitième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="hector"><p><l>navau<s n="adj"/></l><r>neuvième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="hector"><p><l>navau<s n="n"/></l><r>neuvième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire"><p><l>noven<s n="adj"/></l><r>neuvième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:aranes"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>noven<s n="adj"/></l><r>neuvième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>noven<s n="n"/></l><r>neuvième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    
+    <e a="wiktionnaire"><p><l>desen<s n="adj"/></l><r>dixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>desen<s n="adj"/></l><r>dixième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>desen<s n="n"/></l><r>dixième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>detzau<s n="adj"/></l><r>dixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>detzau<s n="adj"/></l><r>dixième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>detzau<s n="n"/></l><r>dixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>detzau<s n="n"/></l><r>dixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="Congrès" r="RL"><p><l>desen<s n="n"/></l><r>dixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    
+    <e a="wiktionnaire"><p><l>onzau<s n="adj"/></l><r>onzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>onzau<s n="adj"/></l><r>onzième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>onzen<s n="adj"/></l><r>onzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>onzen<s n="adj"/></l><r>onzième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>onzen<s n="n"/></l><r>onzième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>onzen<s n="n"/></l><r>onzième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès"><p><l>onzau<s n="n"/></l><r>onzième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    
+    <e a="wiktionnaire"><p><l>dotzau<s n="adj"/></l><r>douzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>dotzau<s n="adj"/></l><r>douzième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>dotzau<s n="n"/></l><r>douzième<s n="n"/></r></p><par n="GD_mf"/><par n="d:aranes"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>dotzau<s n="n"/></l><r>douzième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire"><p><l>dotzen<s n="adj"/></l><r>douzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>dotzen<s n="adj"/></l><r>douzième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>dotzen<s n="n"/></l><r>douzième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="wiktionnaire"><p><l>tretzau<s n="adj"/></l><r>treizième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>tretzau<s n="adj"/></l><r>treizième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>tretzen<s n="adj"/></l><r>treizième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>tretzen<s n="adj"/></l><r>treizième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès"><p><l>tretzen<s n="n"/></l><r>treizième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="Congrès"><p><l>tretzau<s n="n"/></l><r>treizième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    
+    <e a="Congrès"><p><l>catorzau<s n="adj"/></l><r>quatorzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="Congrès" r="LR"><p><l>catorzau<s n="adj"/></l><r>quatorzième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>catorzen<s n="adj"/></l><r>quatorzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>catorzen<s n="adj"/></l><r>quatorzième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>catorzen<s n="n"/></l><r>quatorzième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>catorzen<s n="n"/></l><r>quatorzième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>quatorzau<s n="adj"/></l><r>quatorzième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès"><p><l>catorzau<s n="n"/></l><r>quatorzième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    
+    <e a="wiktionnaire"><p><l>quinzau<s n="adj"/></l><r>quinzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>quinzau<s n="adj"/></l><r>quinzième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>quinzen<s n="adj"/></l><r>quinzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>quinzen<s n="adj"/></l><r>quinzième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>quinzen<s n="n"/></l><r>quinzième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>quinzen<s n="n"/></l><r>quinzième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès"><p><l>quinzau<s n="n"/></l><r>quinzième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    
+    <e a="wiktionnaire"><p><l>setzau<s n="adj"/></l><r>seizième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>setzau<s n="adj"/></l><r>seizième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>setzau<s n="n"/></l><r>seizième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>setzau<s n="n"/></l><r>seizième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>setzen<s n="adj"/></l><r>seizième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>setzen<s n="adj"/></l><r>seizième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>setzen<s n="n"/></l><r>seizième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>setzen<s n="n"/></l><r>seizième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="wiktionnaire"><p><l>dètz<b/>e<b/>seten<s n="adj"/></l><r>dix-septième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="Congrès"><p><l>dètz-e-setau<s n="adj"/></l><r>dix-septième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    
+    <e a="hector"><p><l>dètz<b/>e<b/>ochen<s n="adj"/></l><r>dix-huitième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="hector" r="LR"><p><l>dètz<b/>e<b/>ochen<s n="adj"/></l><r>dix-huitième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="hector"><p><l>dètz<b/>e<b/>ochen<s n="n"/></l><r>dix-huitième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="hector" r="LR"><p><l>dètz<b/>e<b/>ochen<s n="n"/></l><r>dix-huitième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="hector" r="LR"><p><l>dètz<b/>e<b/>uechen<s n="adj"/></l><r>dix-huitième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="hector" r="LR"><p><l>dètz<b/>e<b/>uechen<s n="n"/></l><r>dix-huitième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="hector"><p><l>dètz<b/>e<b/>ueitau<s n="adj"/></l><r>dix-huitième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="hector" r="LR"><p><l>dètz<b/>e<b/>ueitau<s n="adj"/></l><r>dix-huitième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="hector"><p><l>dètz<b/>e<b/>ueitau<s n="n"/></l><r>dix-huitième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="hector" r="LR"><p><l>dètz<b/>e<b/>ueitau<s n="n"/></l><r>dix-huitième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="wiktionnaire"><p><l>dètz<b/>e<b/>navau<s n="adj"/></l><r>dix-neuvième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="hector"><p><l>dètz<b/>e<b/>navau<s n="n"/></l><r>dix-neuvième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire"><p><l>dètz<b/>e<b/>noven<s n="adj"/></l><r>dix-neuvième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:aranes"/><par n="d:lengadocian"/></e>
+    <e a="hector"><p><l>dètz<b/>e<b/>noven<s n="n"/></l><r>dix-neuvième<s n="n"/></r></p><par n="GD_mf"/><par n="d:aranes"/><par n="d:lengadocian"/></e>
+    
+    <e a="wiktionnaire"><p><l>vintau<s n="adj"/></l><r>vingtième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>vintau<s n="adj"/></l><r>vingtième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>vintau<s n="n"/></l><r>vingtième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>vintau<s n="n"/></l><r>vingtième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>vinten<s n="adj"/></l><r>vingtième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>vinten<s n="adj"/></l><r>vingtième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>vinten<s n="n"/></l><r>vingtième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>vinten<s n="n"/></l><r>vingtième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="hector" r="RL"><p><l>vint<b/>e<b/>uau<s n="adj"/></l><r>vingt-et-unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="hector" r="RL"><p><l>vint<b/>e<b/>unen<s n="adj"/></l><r>vingt-et-unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    
+    <e a="wiktionnaire"><p><l>trentau<s n="adj"/></l><r>trentième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>trentau<s n="adj"/></l><r>trentième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>trenten<s n="adj"/></l><r>trentième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>trenten<s n="adj"/></l><r>trentième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès"><p><l>trenten<s n="n"/></l><r>trentième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="Congrès"><p><l>trentau<s n="n"/></l><r>trentième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    
+    <e a="wiktionnaire"><p><l>quarantau<s n="adj"/></l><r>quarantième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="capsot" r="LR"><p><l>quarantau<s n="adj"/></l><r>quarantième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>quaranten<s n="adj"/></l><r>quarantième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>quaranten<s n="adj"/></l><r>quarantième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>quaranten<s n="n"/></l><r>quarantième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>quaranten<s n="n"/></l><r>quarantième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès"><p><l>quarantau<s n="n"/></l><r>quarantième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    
+    <e a="wiktionnaire"><p><l>cinquantau<s n="adj"/></l><r>cinquantième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>cinquantau<s n="adj"/></l><r>cinquantième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>cinquantau<s n="n"/></l><r>cinquantième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e r="LR"><p><l>cinquantau<s n="n"/></l><r>cinquantième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire"><p><l>cinquanten<s n="adj"/></l><r>cinquantième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>cinquanten<s n="adj"/></l><r>cinquantième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>cinquanten<s n="n"/></l><r>cinquantième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>cinquanten<s n="n"/></l><r>cinquantième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="wiktionnaire"><p><l>seishantau<s n="adj"/></l><r>soixantième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>seishantau<s n="adj"/></l><r>soixantième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>seishantau<s n="n"/></l><r>soixantième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>seishantau<s n="n"/></l><r>soixantième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>seissanten<s n="adj"/></l><r>soixantième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>seissanten<s n="adj"/></l><r>soixantième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>seissanten<s n="n"/></l><r>soixantième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>seissanten<s n="n"/></l><r>soixantième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="hector"><p><l>setantau<s n="adj"/></l><r>soixante-dixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="hector" r="LR"><p><l>setantau<s n="adj"/></l><r>soixante-dixième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="hector"><p><l>setantau<s n="n"/></l><r>soixante-dixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="hector" r="LR"><p><l>setantau<s n="n"/></l><r>soixante-dixième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="hector"><p><l>setanten<s n="adj"/></l><r>soixante-dixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="hector" r="LR"><p><l>setanten<s n="adj"/></l><r>soixante-dixième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="hector"><p><l>setanten<s n="n"/></l><r>soixante-dixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="hector" r="LR"><p><l>setanten<s n="n"/></l> <r>soixante-dixième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="hector"><p><l>ochanten<s n="adj"/></l><r>quatre-vingtième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="hector" r="LR"><p><l>ochanten<s n="adj"/></l><r>quatre-vingtième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="hector"><p><l>ochanten<s n="n"/></l><r>quatre-vingtième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="hector" r="LR"><p><l>ochanten<s n="n"/></l> <r>quatre-vingtième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="hector"><p><l>ueitantau<s n="adj"/></l><r>quatre-vingtième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e r="LR"><p><l>ueitantau<s n="adj"/></l><r>quatre-vingtième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="hector"><p><l>ueitantau<s n="n"/></l><r>quatre-vingtième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="hector" r="LR"><p><l>ueitanten<s n="adj"/></l><r>quatre-vingtième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="hector" r="LR"><p><l>ueitanten<s n="n"/></l><r>quatre-vingtième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="hector" r="LR"><p><l>uèitanten<s n="adj"/></l><r>quatre-vingtième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="hector" r="LR"><p><l>uèitanten<s n="n"/></l><r>quatre-vingtième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="Congrès"><p><l>navantau<s n="adj"/></l><r>quatre-vingt-dixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="Congrès" r="LR"><p><l>navantau<s n="adj"/></l><r>quatre-vingt-dixième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="hector"><p><l>navantau<s n="n"/></l><r>quatre-vingt-dixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="hector" r="LR"><p><l>navantau<s n="n"/></l><r>quatre-vingt-dixième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès"><p><l>nonanten<s n="adj"/></l><r>quatre-vingt-dixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="Congrès" r="LR"><p><l>nonanten<s n="adj"/></l><r>quatre-vingt-dixième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès"><p><l>nonanten<s n="n"/></l><r>quatre-vingt-dixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="Congrès" r="LR"><p><l>nonanten<s n="n"/></l><r>quatre-vingt-dixième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="wiktionnaire"><p><l>centau<s n="adj"/></l><r>centième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire"><p><l>centau<s n="n"/></l><r>centième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e r="LR"><p><l>centau<s n="n"/></l><r>centième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="Congrès" r="LR"><p><l>centau<s n="n"/></l><r>centième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire"><p><l>centen<s n="adj"/></l><r>centième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>centen<s n="adj"/></l><r>centième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès"><p><l>centen<s n="n"/></l><r>centième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>centen<s n="n"/></l><r>centième<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès" r="LR"><p><l>centen<s n="n"/></l> <r>centième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="Congrès"><p><l>milau<s n="adj"/></l><r>millième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="hector"><p><l>milau<s n="n"/></l><r>millième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="wiktionnaire"><p><l>milen<s n="adj"/></l><r>millième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>milen<s n="adj"/></l><r>millième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>milen<s n="n"/></l><r>millième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>milen<s n="n"/></l><r>millième<s n="n"/></r></p><par n="GD_mf"/></e>
+    
+    <e a="wiktionnaire"><p><l>miliarden<s n="adj"/></l><r>milliardième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>miliarden<s n="adj"/></l><r>milliardième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="hector"><p><l>milionau<s n="adj"/></l><r>millionième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="hector" r="LR"><p><l>milionau<s n="adj"/></l><r>millionième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="wiktionnaire"><p><l>milionen<s n="adj"/></l><r>millionième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="wiktionnaire" r="LR"><p><l>milionen<s n="adj"/></l><r>millionième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès"><p><l>miliardau<s n="adj"/></l><r>milliardième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    
+    <e a="hector"><p><l>ennau<s n="adj"/></l><r>énième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="hector"><p><l>ennau<s n="n"/></l><r>énième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="Congrès"><p><l>ennen<s n="adj"/></l><r>énième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="Congrès"><p><l>ennen<s n="n"/></l><r>énième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    
+    <e a="Congrès" r="LR"><p><l>unau<s n="adj"/></l><r>unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e a="Congrès"><p><l>unen<s n="adj"/></l><r>unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="Congrès" r="LR"><p><l>unen<s n="adj"/></l> <r>unième<s n="adj"/></r></p><par n="GD_mf"/></e>
+    <e a="Congrès" r="RL"><p><l>unau<s n="adj"/></l><r>unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+
+
     <e a="hector"><p><l>@teneu<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>@teneu<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="hector"><p><l>A<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>A<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
     <e> <p><l>a<s n="pr"/></l> <r>à<s n="pr"/></r></p><par n="d:gascon"/><par n="d:lengadocian"/></e>
@@ -4320,6 +4578,8 @@
     <e a="capsot" r="RL"><p><l>almens<s n="adv"/></l><r>du<b/>moins<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector" r="RL"><p><l>almens<s n="adv"/></l><r>pour<b/>le<b/>moins<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector" r="RL"><p><l>almens<s n="adv"/></l><r>tout<b/>au<b/>moins<s n="adv"/></r></p><par n="d:lengadocian"/></e>
+    <e a="Congrès" r="RL"><p><l>autant<s n="adv"/></l><r>tout<b/>autant<s n="adv"/></r></p><par n="d:gascon"/></e>
+    <e a="Congrès" r="RL"><p><l>aitant<s n="adv"/></l><r>tout<b/>autant<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e> <p><l>Alméras<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Alméras<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector"><p><l>Almerge<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Almerge<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e> <p><l>Almería<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Almería<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -6414,8 +6674,6 @@
     <e><p><l>apeishoat<s n="adj"/></l><r>poissonneux<s n="adj"/></r></p><par n="anglés_anglais"/><par n="d:gascon"/></e>
     <e><p><l>apèl<s n="n"/><s n="m"/></l> <r>appel<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
     <e a="topoc"><p><l>Apèla<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Appelle<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>apelar<s n="vblex"/></l> <r>appeler<s n="vblex"/></r></p><par n="d:lengadocian"/></e>
-    <e r="LR"><p><l>apelar<s n="vblex"/></l> <r>appeler<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>apelar<s n="vblex"/></l><r>appeler<g><b/>en<b/>appel</g><s n="vblex"/></r></p><par n="d:lengadocian"/></e>
     <e r="RL"><p><l>apelar<s n="vblex"/></l> <r>contester<g><b/>en<b/>appel</g><s n="vblex"/></r></p></e>
     <e a="hector" r="LR"><p><l>apelhadís<s n="n"/><s n="m"/></l><r>garde-robe<s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
@@ -6436,8 +6694,6 @@
     <e><p><l>aperaquí<s n="adv"/></l> <r>auprès<s n="adv"/></r></p><par n="d:aranes"/></e>
     <e r="LR"><p><l>aperaquí<s n="adv"/></l><r>à<b/>côté<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e a="wiktionnaire" r="LR"><p><l>aperaquí<s n="adv"/></l><r>environ<s n="adv"/></r></p><par n="d:lengadocian"/></e>
-    <e a="capsot"><p><l>aperar<s n="vblex"/></l><r>appeler<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:gascon"/></e>
-    <e a="capsot" r="LR"><p><l>aperar<s n="vblex"/></l><r>appeler<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:lengadocian"/></e>
     <e r="RL"><p><l>aperar<s n="vblex"/></l><r>appeler<g><b/>en<b/>appel</g><s n="vblex"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès"><p><l>apercéber<s n="vblex"/></l><r>apercevoir<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:lengadocian"/><par n="d:gascon"/></e>
     <e a="capsot" r="LR"><p><l>apercéber<s n="vblex"/></l><r>apercevoir<s n="vblex"/></r></p><par n="v-v_tv"/></e>
@@ -16549,7 +16805,6 @@
     <e a="Congrès" r="RL"><p><l>caduc<s n="adj"/></l> <r>caduc<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>caducèu<s n="n"/><s n="m"/></l><r>caducée<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/><par n="d:gascon"/></e>
     <e a="wiktionnaire"><p><l>caducitat<s n="n"/><s n="f"/></l><r>caducité<s n="n"/><s n="f"/></r></p></e>
-    <e a="Congrès"><p><l>caduda<s n="n"/><s n="f"/></l><r>chute<s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
     <e> <p><l>cadun<s n="prn"/></l> <r>chacun<s n="prn"/></r></p></e>
     <e a="Congrès"><p><l>cadun<b/>son<b/>torn<s n="adv"/></l><r>chacun<b/>son<b/>tour<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e a="Congrès"><p><l>cadun<b/>lor<b/>torn<s n="adv"/></l><r>chacun<b/>leur<b/>tour<s n="adv"/></r></p><par n="d:lengadocian"/></e>
@@ -17800,6 +18055,7 @@
     <e a="capsot" r="RL"><p><l>cap<s n="n"/><s n="m"/></l><r>cap<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>cap<s n="n"/><s n="mf"/></l> <r>chef<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cap<s n="prn"/><s n="tn"/></l> <r>aucun<s n="prn"/><s n="tn"/></r></p><par n="mf_GD"/><par n="sg_sg"/><par n="pas_neg"/><par n="d:lengadocian"/></e>
+    <e><p><l>nat<s n="prn"/><s n="tn"/></l><r>aucun<s n="prn"/><s n="tn"/></r></p><par n="mf_mf"/><par n="sg_sg"/><par n="pas_neg"/><par n="d:gascon"/></e>
     <e r="LR"><p><l>cap<s n="prn"/><s n="tn"/></l> <r>aucun<s n="prn"/><s n="tn"/></r></p><par n="mf_GD"/><par n="sg_sg"/><par n="pas_neg"/></e>
     <e> <p><l>cap<b/>a<s n="pr"/></l> <r>vers<s n="pr"/></r></p><par n="d:gascon"/><par n="d:lengadocian"/><par n="d:aranes"/></e>
     <e r="RL"><p><l>cap<b/>a<s n="pr"/></l><r>par<b/>rapport<b/>à<s n="pr"/></r></p><par n="d:gascon"/></e>
@@ -18094,7 +18350,7 @@
     <e a="topoc"><p><l>Capsiuts<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Captieux<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="capsot"><p><l>capsula<s n="n"/><s n="f"/></l><r>capsule<s n="n"/><s n="f"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>capsús<s n="n"/><s n="m"/></l><r>amont<s n="n"/><s n="m"/></r></p><par n="sp_ND"/><par n="d:lengadocian"/></e>
-    <e a="hector"><p><l>capsús<s n="n"/><s n="m"/></l><r>amont<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
+    <e a="hector"><p><l>capsús<s n="n"/><s n="m"/></l><r>amont<s n="n"/><s n="m"/></r></p><par n="sp_ND"/><par n="d:gascon"/></e>
     <e a="capsot"><p><l>captacion<s n="n"/><s n="f"/></l><r>captation<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>captader<s n="n"/><s n="m"/></l><r>capteur<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
     <e a="capsot"><p><l>captador<s n="n"/><s n="m"/></l><r>capteur<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
@@ -19365,7 +19621,8 @@
     <e r="RL"><p><l>castron<s n="n"/><s n="m"/></l><r>stalle<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>Casu<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Casu<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="wiktionnaire"><p><l>casubla<s n="n"/><s n="f"/></l><r>chasuble<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>casuda<s n="n"/><s n="f"/></l> <r>chute<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
+    <e a="Congrès"><p><l>casuda<s n="n"/><s n="f"/></l> <r>chute<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
+    <e a="Congrès"><p><l>caduda<s n="n"/><s n="f"/></l><r>chute<s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
     <e r="LR"><p><l>casuda<s n="n"/><s n="f"/></l> <r>chute<s n="n"/><s n="f"/></r></p></e>
     <e a="hector"><p><l>Casula<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Casula<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e> <p><l>Casulleras<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Casulleras<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -19513,15 +19770,9 @@
     <e a="topoc"><p><l>Catonvièla<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Catonvielle<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>catorar<s n="vblex"/></l><r>mendier<s n="vblex"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès"><p><l>catòrba<s n="n"/><s n="f"/></l><r>colin-maillard<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
-    <e a="Congrès"><p><l>catorzau<s n="adj"/></l><r>quatorzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="Congrès" r="LR"><p><l>catorzau<s n="adj"/></l><r>quatorzième<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e><p><l>catorze<s n="num"/></l> <r>quatorze<s n="num"/></r></p><par n="d:aranes"/></e>
     <e r="LR"><p><l>catorze<s n="num"/></l> <r>quatorze<s n="num"/></r></p></e>
     <e><p><l>catòrze<s n="num"/></l> <r>quatorze<s n="num"/></r></p><par n="d:lengadocian"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire"><p><l>catorzen<s n="adj"/></l><r>quatorzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>catorzen<s n="adj"/></l><r>quatorzième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>catorzen<s n="n"/></l><r>quatorzième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>catorzen<s n="n"/></l><r>quatorzième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>Catral<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Catral<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e> <p><l>Cattaneo<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Cattaneo<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector"><p><l>Cattani<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Cattani<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -20033,20 +20284,11 @@
     <e r="RL"><p><l>cent<s n="num"/><s n="mf"/><s n="sp"/></l><r>cent<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
     <e a="hector"><p><l>Centa<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Centa<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector"><p><l>Centaro<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Centaro<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e a="wiktionnaire"><p><l>centau<s n="adj"/></l><r>centième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire"><p><l>centau<s n="n"/></l><r>centième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e r="LR"><p><l>centau<s n="n"/></l> <r>centième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="Congrès" r="LR"><p><l>centau<s n="n"/></l><r>centième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
     <e a="hector"><p><l>centaure<s n="n"/><s n="m"/></l><r>centaure<s n="n"/><s n="m"/></r></p></e>
     <e> <p><l>Centellas<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Centellas<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e> <p><l>Centelles<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Centelles<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector"><p><l>Centelles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Centelles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="hector"><p><l>Centemero<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Centemero<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e a="wiktionnaire"><p><l>centen<s n="adj"/></l><r>centième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>centen<s n="adj"/></l><r>centième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="Congrès"><p><l>centen<s n="n"/></l><r>centième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>centen<s n="n"/></l><r>centième<s n="n"/></r></p><par n="GD_mf"/></e>
-    <e a="Congrès" r="LR"><p><l>centen<s n="n"/></l> <r>centième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="wiktionnaire"><p><l>centena<s n="n"/><s n="f"/></l><r>centaine<s n="n"/><s n="f"/></r></p></e>
     <e a="wiktionnaire"><p><l>centenari<s n="adj"/></l><r>centenaire<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e a="capsot" i="yes"><p><l>centenari<s n="n"/><s n="m"/></l><r>centenaire<s n="n"/><s n="m"/></r></p></e>
@@ -21377,27 +21619,11 @@
     <e r="LR"><p><l>cinquanta-uèit<s n="num"/></l> <r>cinquante-huit<s n="num"/></r></p></e>
     <e r="LR"><p><l>cinquanta-un<s n="num"/></l> <r>cinquante-et-un<s n="num"/></r></p></e>
     <e r="LR"><p><l>cinquanta-uòch<s n="num"/></l> <r>cinquante-huit<s n="num"/></r></p></e>
-    <e a="wiktionnaire"><p><l>cinquantau<s n="adj"/></l><r>cinquantième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>cinquantau<s n="adj"/></l><r>cinquantième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>cinquantau<s n="n"/></l><r>cinquantième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e r="LR"><p><l>cinquantau<s n="n"/></l><r>cinquantième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire"><p><l>cinquanten<s n="adj"/></l><r>cinquantième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>cinquanten<s n="adj"/></l><r>cinquantième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>cinquanten<s n="n"/></l><r>cinquantième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>cinquanten<s n="n"/></l><r>cinquantième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e> <p><l>cinquantena<s n="n"/><s n="f"/></l><r>cinquantaine<s n="n"/><s n="f"/></r></p></e>
     <e a="hector"><p><l>cinquantenari<s n="adj"/></l> <r>cinquantenaire<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>cinquantenari<s n="n"/></l> <r>cinquantenaire<s n="n"/></r></p><par n="GD_mf"/></e>
     <e r="LR"><p><l>cinquantenat<s n="n"/><s n="m"/></l><r>cinquantaine<s n="n"/><s n="f"/></r></p></e>
-    <e a="wiktionnaire"><p><l>cinquau<s n="adj"/></l><r>cinquième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>cinquau<s n="adj"/></l><r>cinquième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>cinquau<s n="n"/></l><r>cinquième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>cinquau<s n="n"/></l><r>cinquième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>cinquaument<s n="adv"/></l><r>cinquièmement<s n="adv"/></r></p><par n="d:gascon"/></e>
-    <e a="wiktionnaire"><p><l>cinquen<s n="adj"/></l><r>cinquième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>cinquen<s n="adj"/></l><r>cinquième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>cinquen<s n="n"/></l><r>cinquième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>cinquen<s n="n"/></l><r>cinquième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>cinquenament<s n="adv"/></l><r>cinquièmement<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e a="Congrès" r="LR"><p><l>cinsar<s n="vblex"/></l><r>priser<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>Cinta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Cinta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
@@ -25555,7 +25781,6 @@
     <e a="wiktionnaire"><p><l>cridada<s n="n"/><s n="f"/></l><r>criée<s n="n"/><s n="f"/></r></p></e>
     <e a="hector"><p><l>cridaire<s n="n"/></l><r>crieur<s n="n"/></r></p><par n="d:lengadocian"/><par n="d:gascon"/></e>
     <e a="Congrès" r="LR"><p><l>cridal<s n="n"/><s n="m"/></l><r>cri<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
-    <e><p><l>cridar<s n="vblex"/></l> <r>appeler<s n="vblex"/></r></p><par n="d:lengadocian"/></e>
     <e> <p><l>cridar<s n="vblex"/></l> <r>crier<s n="vblex"/></r></p></e>
     <e a="Congrès" r="RL"><p><l>cridar<s n="vblex"/></l><r>gronder<s n="vblex"/></r></p><par n="d:lengadocian"/><par n="d:gascon"/></e>
     <e r="RL"><p><l>cridar<s n="vblex"/></l> <r>héler<s n="vblex"/></r></p></e>
@@ -29130,9 +29355,6 @@
     <e r="LR"><p><l>desempuish<s n="pr"/></l> <r>depuis<s n="pr"/></r></p></e>
     <e><p><l>desempuish<b/>que<s n="cnjadv"/></l><r>depuis<b/>que<s n="cnjadv"/></r></p><par n="d:gascon"/></e>
     <e r="LR"><p><l>desempuish<b/>que<s n="cnjadv"/></l><r>depuis<b/>que<s n="cnjadv"/></r></p></e>
-    <e a="wiktionnaire"><p><l>desen<s n="adj"/></l><r>dixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>desen<s n="adj"/></l><r>dixième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>desen<s n="n"/></l><r>dixième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e><p><l>desena<s n="n"/><s n="f"/></l><r>dizaine<s n="n"/><s n="f"/></r></p><par n="d:aranes"/></e>
     <e r="LR"><p><l>desena<s n="n"/><s n="f"/></l> <r>dizaine<s n="n"/><s n="f"/></r></p></e>
     <e a="capsot" r="LR"><p><l>desenant<s n="adv"/></l><r>désormais<s n="adv"/></r></p></e>
@@ -30196,26 +30418,11 @@
     <e a="hector"><p><l>Dettori<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Dettori<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e> <p><l>dètz<s n="num"/></l> <r>dix<s n="num"/></r></p></e>
     <e><p><l>dètz<b/>e<b/>nau<s n="num"/></l><r>dix-neuf<s n="num"/></r></p><par n="d:gascon"/></e>
-    <e a="wiktionnaire"><p><l>dètz<b/>e<b/>navau<s n="adj"/></l><r>dix-neuvième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector"><p><l>dètz<b/>e<b/>navau<s n="n"/></l><r>dix-neuvième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
     <e><p><l>dètz<b/>e<b/>nòu<s n="num"/></l><r>dix-neuf<s n="num"/></r></p><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire"><p><l>dètz<b/>e<b/>noven<s n="adj"/></l><r>dix-neuvième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:aranes"/><par n="d:lengadocian"/></e>
-    <e a="hector"><p><l>dètz<b/>e<b/>noven<s n="n"/></l><r>dix-neuvième<s n="n"/></r></p><par n="GD_mf"/><par n="d:aranes"/><par n="d:lengadocian"/></e>
-    <e a="hector"><p><l>dètz<b/>e<b/>ochen<s n="adj"/></l><r>dix-huitième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="hector" r="LR"><p><l>dètz<b/>e<b/>ochen<s n="adj"/></l><r>dix-huitième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="hector"><p><l>dètz<b/>e<b/>ochen<s n="n"/></l><r>dix-huitième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="hector" r="LR"><p><l>dètz<b/>e<b/>ochen<s n="n"/></l><r>dix-huitième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e> <p><l>dètz<b/>e<b/>sèt<s n="num"/></l> <r>dix-sept<s n="num"/></r></p></e>
-    <e a="wiktionnaire"><p><l>dètz<b/>e<b/>seten<s n="adj"/></l><r>dix-septième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
     <e><p><l>dètz<b/>e<b/>uèch<s n="num"/></l><r>dix-huit<s n="num"/></r></p><par n="d:lengadocian"/></e>
-    <e a="hector" r="LR"><p><l>dètz<b/>e<b/>uechen<s n="adj"/></l><r>dix-huitième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="hector" r="LR"><p><l>dètz<b/>e<b/>uechen<s n="n"/></l><r>dix-huitième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e><p><l>dètz<b/>e<b/>ueit<s n="num"/></l><r>dix-huit<s n="num"/></r></p><par n="d:gascon"/></e>
     <e r="LR"><p><l>dètz<b/>e<b/>uèit<s n="num"/></l><r>dix-huit<s n="num"/></r></p><par n="d:lengadocian"/></e>
-    <e a="hector"><p><l>dètz<b/>e<b/>ueitau<s n="adj"/></l><r>dix-huitième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector" r="LR"><p><l>dètz<b/>e<b/>ueitau<s n="adj"/></l><r>dix-huitième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="hector"><p><l>dètz<b/>e<b/>ueitau<s n="n"/></l><r>dix-huitième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector" r="LR"><p><l>dètz<b/>e<b/>ueitau<s n="n"/></l><r>dix-huitième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e r="LR"><p><l>dètz<b/>e<b/>uòch<s n="num"/></l><r>dix-huit<s n="num"/></r></p><par n="d:lengadocian"/></e>
     <e r="LR"><p><l>dètz-e-nau<s n="num"/></l><r>dix-neuf<s n="num"/></r></p><par n="d:gascon"/></e>
     <e r="LR"><p><l>dètz-e-nòu<s n="num"/></l><r>dix-neuf<s n="num"/></r></p><par n="d:lengadocian"/></e>
@@ -30224,10 +30431,6 @@
     <e r="LR"><p><l>dètz-e-ueit<s n="num"/></l><r>dix-huit<s n="num"/></r></p><par n="d:gascon"/></e>
     <e r="LR"><p><l>dètz-e-uèit<s n="num"/></l><r>dix-huit<s n="num"/></r></p><par n="d:lengadocian"/></e>
     <e r="LR"><p><l>dètz-e-uòch<s n="num"/></l><r>dix-huit<s n="num"/></r></p><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire"><p><l>detzau<s n="adj"/></l><r>dixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>detzau<s n="adj"/></l><r>dixième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>detzau<s n="n"/></l><r>dixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>detzau<s n="n"/></l><r>dixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>detzaument<s n="adv"/></l><r>dixièmement<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e> <p><l>Deu<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Deu<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector" r="RL"><p><l>deu<b/>gas<s n="adj"/></l><r>gazier<s n="adj"/></r></p><par n="mf_GD"/><par n="sp_ND"/><par n="d:gascon"/></e>
@@ -30262,8 +30465,6 @@
     <e> <p><l>Deulofeu<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Deulofeu<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e> <p><l>Deuloféu<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Deuloféu<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="wiktionnaire" r="LR"><p><l>deure<s n="n"/><s n="m"/></l><r>devoir<s n="n"/><s n="m"/></r></p></e>
-    <e a="capsot"><p><l>déver<s n="vblex"/></l><r>devoir<s n="vblex"/></r></p><par n="d:lengadocian"/></e>
-    <e r="LR"><p><l>déver<s n="vbmod"/></l> <r>devoir<s n="vbmod"/></r></p></e>
     <e a="hector"><p><l>Deus<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Deus<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e> <p><l>Deusdad<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Deusdad<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e> <p><l>Deusto<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Deusto<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -30865,7 +31066,12 @@
     <e a="Congrès"><p><l>dire<s n="n"/><s n="m"/></l><r>dire<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector" r="LR"><p><l>dire<s n="n"/><s n="m"/></l><r>dire<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>díser<s n="vblex"/></l> <r>dire<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:lengadocian"/></e>
+    <e><p><l>cridar<s n="vblex"/></l> <r>appeler<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:lengadocian"/></e>
+    <e><p><l>apelar<s n="vblex"/></l> <r>appeler<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:lengadocian"/></e>
+    <e a="capsot"><p><l>aperar<s n="vblex"/></l><r>appeler<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:gascon"/></e>
+    <e a="capsot" r="LR"><p><l>aperar<s n="vblex"/></l><r>appeler<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:lengadocian"/></e>
     <e r="LR"><p><l>díser<s n="vblex"/></l> <r>appeler<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>apelar<s n="vblex"/></l> <r>appeler<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>díser<s n="vblex"/></l> <r>dire<s n="vblex"/></r></p><par n="v-v_tv"/></e>
     <e> <p><l>direccion<s n="n"/><s n="f"/></l> <r>direction<s n="n"/><s n="f"/></r></p></e>
     <e> <p><l>direccional<s n="adj"/></l> <r>directionnel<s n="adj"/></r></p></e>
@@ -31663,14 +31869,7 @@
     <e a="hector"><p><l>Doté<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Doté<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector"><p><l>Dotti<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Dotti<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>dotz<s n="n"/><s n="f"/></l><r>source<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire"><p><l>dotzau<s n="adj"/></l><r>douzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>dotzau<s n="adj"/></l><r>douzième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>dotzau<s n="n"/></l><r>douzième<s n="n"/></r></p><par n="GD_mf"/><par n="d:aranes"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>dotzau<s n="n"/></l><r>douzième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
     <e> <p><l>dotze<s n="num"/></l> <r>douze<s n="num"/></r></p></e>
-    <e a="wiktionnaire"><p><l>dotzen<s n="adj"/></l><r>douzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>dotzen<s n="adj"/></l><r>douzième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>dotzen<s n="n"/></l><r>douzième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e> <p><l>dotzena<s n="n"/><s n="f"/></l> <r>douzaine<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>dotzenat<s n="n"/><s n="m"/></l> <r>douzaine<s n="n"/><s n="f"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>dòu<s n="n"/><s n="m"/></l><r>deuil<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
@@ -32189,10 +32388,6 @@
     <e r="LR"><p><l>dus<b/>cents<s n="num"/></l><r>deux<b/>cent<s n="num"/></r></p><par n="GD_mf"/><par n="sp_ND"/><par n="d:gascon"/></e>
     <e r="RL"><p><l>dus<b/>cents<s n="num"/></l><r>deux-cent<s n="num"/></r></p><par n="GD_mf"/><par n="sp_ND"/><par n="d:gascon"/></e>
     <e> <p><l>Dusablon<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Dusablon<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e a="wiktionnaire"><p><l>dusau<s n="adj"/></l><r>deuxième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector" r="LR"><p><l>dusau<s n="adj"/></l> <r>deuxième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>dusau<s n="n"/></l><r>deuxième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>dusau<s n="n"/></l><r>deuxième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="Congrès"><p><l>dusaument<s n="adv"/></l><r>deuxièmement<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e r="LR"><p><l>dusca<s n="pr"/></l> <r>jusqu'à<s n="pr"/></r></p></e>
     <e r="LR"><p><l>dusca<s n="pr"/></l> <r>jusque<s n="pr"/></r></p></e>
@@ -34695,8 +34890,6 @@
     <e a="Congrès"><p><l>enmalir<s n="vblex"/></l><r>fâcher<s n="vblex"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès" r="LR"><p><l>enmalit<s n="adj"/></l><r>furieux<s n="adj"/></r></p><par n="anglés_anglais"/><par n="d:gascon"/></e>
     <e a="hector" r="LR"><p><l>enmanhotar<s n="vblex"/></l><r>menotter<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:gascon"/></e>
-    <e a="hector"><p><l>ennau<s n="adj"/></l><r>énième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector"><p><l>ennau<s n="n"/></l><r>énième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
     <e a="hector"><p><l>ennaut<s n="adv"/></l><r>en<b/>haut<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e r="LR"><p><l>ennautar<s n="vblex"/></l> <r>lever<s n="vblex"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>ennegar<s n="vblex"/></l><r>immerger<s n="vblex"/></r></p><par n="d:gascon"/></e>
@@ -37445,7 +37638,7 @@
     <e a="hector"><p><l>Essence<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Essence<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e> <p><l>esséncia<s n="n"/><s n="f"/></l> <r>essence<s n="n"/><s n="f"/></r></p></e>
     <e a="wiktionnaire"><p><l>essencial<s n="adj"/></l><r>essentiel<s n="adj"/></r></p></e>
-    <e a="Congrès"><p><l>essencial<s n="n"/><s n="m"/></l><r>essentiel<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
+    <e a="Congrès"><p><l>essencial<s n="n"/><s n="m"/></l><r>essentiel<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/><par n="d:gascon"/></e>
     <e> <p><l>essencialament<s n="adv"/></l> <r>essentiellement<s n="adv"/></r></p></e>
     <e a="hector"><p><l>essencialisme<s n="n"/><s n="m"/></l><r>essentialisme<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/><par n="d:gascon"/></e>
     <e a="hector"><p><l>essencialista<s n="adj"/></l><r>essentialiste<s n="adj"/></r></p><par n="d:lengadocian"/><par n="d:gascon"/></e>
@@ -40161,7 +40354,10 @@
     <e> <p><l>feminizacion<s n="n"/><s n="f"/></l><r>féminisation<s n="n"/><s n="f"/></r></p></e>
     <e a="hector"><p><l>feminizar<s n="vblex"/></l><r>féminiser<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:lengadocian"/><par n="d:gascon"/></e>
     <e><p><l>femna<s n="n"/><s n="f"/></l> <r>femme<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
+    <e a="capsot"><p><l>hemna<s n="n"/><s n="f"/></l><r>femme<s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
+    <e a="wiktionnaire"><p><l>molhèr<s n="n"/><s n="f"/></l><r>femme<s n="n"/><s n="f"/></r></p><par n="d:gascon"/><par n="d:lengadocian"/><par n="d:aranes"/></e>
     <e r="LR"><p><l>femna<s n="n"/><s n="f"/></l> <r>femme<s n="n"/><s n="f"/></r></p></e>
+    <e a="capsot" r="LR"><p><l>hemna<s n="n"/><s n="f"/></l><r>femme<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector" r="LR"><p><l>femna<g><b/>d'ostal</g><s n="n"/><s n="f"/></l><r>femme<g><b/>de<b/>ménage</g><s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>femna<g><b/>de<b/>servici</g><s n="n"/><s n="f"/></l><r>femme<g><b/>de<b/>ménage</g><s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector" r="RL"><p><l>femnassièr<s n="n"/></l><r>coureur<g><b/>de<b/>jupons</g><s n="n"/></r></p><par n="d:lengadocian"/></e>
@@ -41567,9 +41763,6 @@
     <e a="hector" r="RL"><p><l>forbir<s n="vblex"/></l><r>fourbir<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:lengadocian"/></e>
     <e a="Congrès" r="LR"><p><l>forc<s n="n"/><s n="m"/></l><r>embranchement<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
     <e r="RL"><p><l>fòrça<s n="det"/><s n="ind"/></l><r>moult<s n="det"/><s n="ind"/></r></p><par n="mf_GD"/><par n="sp_ND"/><par n="d:lengadocian"/></e>
-    <e a="hector" r="LR"><p><l>fòrça<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l><r>beaucoup<b/>de<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>fòrça<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></l><r>beaucoup<b/>de<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p><par n="d:lengadocian"/></e>
-    <e r="LR"><p><l>fòrça<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></l><r>beaucoup<b/>de<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector"><p><l>Força<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Força<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>forca<s n="n"/><s n="f"/></l> <r>fourche<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
     <e r="LR"><p><l>forca<s n="n"/><s n="f"/></l> <r>fourche<s n="n"/><s n="f"/></r></p></e>
@@ -41585,7 +41778,6 @@
     <e r="RL"><p><l>fòrça<s n="preadv"/></l><r>fort<s n="preadv"/></r></p><par n="d:lengadocian"/></e>
     <e><p><l>fòrça<s n="prn"/><s n="tn"/></l><r>beaucoup<s n="prn"/><s n="tn"/></r></p><par n="d:lengadocian"/></e>
     <e a="Congrès" r="LR"><p><l>fòrça<b/>còps<s n="adv"/></l><r>fréquemment<s n="adv"/></r></p><par n="d:lengadocian"/></e>
-    <e r="LR"><p><l>fòrça<b/>de<s n="det"/><s n="ind"/></l><r>beaucoup<b/>de<s n="det"/><s n="ind"/></r></p><par n="d:lengadocian"/></e>
     <e a="capsot"><p><l>fòrça<b/>mai<s n="adv"/></l><r>beaucoup<b/>plus<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e a="capsot" r="RL"><p><l>fòrça<b/>mai<s n="adv"/></l><r>bien<b/>plus<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>fòrça<b/>mens<s n="adv"/></l><r>beaucoup<b/>moins<s n="adv"/></r></p><par n="d:lengadocian"/></e>
@@ -43971,7 +44163,6 @@
     <e a="hector"><p><l>Gaviano<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Gaviano<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>gavidaire<s n="adj"/></l><r>dirigeant<s n="adj"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès" r="LR"><p><l>gavidaire<s n="n"/></l><r>meneur<s n="n"/></r></p><par n="d:gascon"/></e>
-    <e a="hector" r="RL"><p><l>gavidaire<s n="n"/></l><r>chef<g><b/>de<b/>file</g><s n="n"/></r></p><par n="mf_mf"/><par n="d:gascon"/></e>
     <e a="Congrès" r="LR"><p><l>gavidar<s n="vblex"/></l><r>guider<s n="vblex"/></r></p><par n="d:gascon"/></e>
     <e a="capsot" r="LR"><p><l>gavieta<s n="n"/><s n="f"/></l><r>mouette<s n="n"/><s n="f"/></r></p></e>
     <e> <p><l>Gavilán<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Gavilán<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -47436,8 +47627,6 @@
     <e a="hector"><p><l>Hemilce<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Hemilce<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e> <p><l>Hemingway<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Hemingway<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e> <p><l>Hemmings<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Hemmings<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e a="capsot"><p><l>hemna<s n="n"/><s n="f"/></l><r>femme<s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
-    <e a="capsot" r="LR"><p><l>hemna<s n="n"/><s n="f"/></l><r>femme<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector" r="LR"><p><l>hemna<g><b/>de<b/>jornada</g><s n="n"/><s n="f"/></l><r>femme<g><b/>de<b/>ménage</g><s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
     <e a="hector" r="LR"><p><l>hemna<g><b/>de<b/>larèr</g><s n="n"/><s n="f"/></l><r>femme<g><b/>au<b/>foyer</g><s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
     <e a="hector"><p><l>hemna<g><b/>de<b/>servici</g><s n="n"/><s n="f"/></l><r>femme<g><b/>de<b/>ménage</g><s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
@@ -47572,14 +47761,18 @@
     <e r="RL"><p><l>hèra<s n="adv"/></l><r>extrêmement<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e r="RL"><p><l>hèra<s n="adv"/></l><r>fortement<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e r="RL"><p><l>hèra<s n="adv"/></l><r>vachement<s n="adv"/></r></p><par n="d:gascon"/></e>
-    <e><p><l>hèra<s n="det"/><s n="ind"/></l><r>beaucoup<b/>de<s n="det"/><s n="ind"/></r></p><par n="d:gascon"/></e>
+    <e><p><l>fòrça<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></l><r>beaucoup<b/>de<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p><par n="d:lengadocian"/></e>
+    <e><p><l>hèra<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></l><r>beaucoup<b/>de<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p><par n="d:gascon"/></e>
+    <e a="hector" r="LR"><p><l>fòrça<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l><r>beaucoup<b/>de<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>fòrça<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></l><r>beaucoup<b/>de<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>fòrça<b/>de<s n="det"/><s n="ind"/></l><r>beaucoup<b/>de<s n="det"/><s n="ind"/></r></p><par n="d:lengadocian"/></e>
+    <e r="LR"><p><l>hèra<b/>de<s n="det"/><s n="ind"/></l><r>beaucoup<b/>de<s n="det"/><s n="ind"/></r></p><par n="d:lengadocian"/></e>
     <e r="RL"><p><l>hèra<s n="det"/><s n="ind"/></l><r>moult<s n="det"/><s n="ind"/></r></p><par n="mf_GD"/><par n="sp_ND"/><par n="d:gascon"/></e>
     <e r="LR"><p><l>hèra<s n="preadv"/></l><r>très<s n="preadv"/></r></p><par n="d:gascon"/></e>
     <e r="LR"><p><l>hèra<s n="preadv"/></l> <r>très<s n="preadv"/></r></p><par n="d:lengadocian"/></e>
     <e r="RL"><p><l>hèra<s n="preadv"/></l><r>bien<s n="preadv"/></r></p><par n="d:gascon"/></e>
     <e r="RL"><p><l>hèra<s n="preadv"/></l><r>fort<s n="preadv"/></r></p><par n="d:gascon"/></e>
     <e><p><l>hèra<s n="prn"/><s n="tn"/></l><r>beaucoup<s n="prn"/><s n="tn"/></r></p><par n="d:gascon"/></e>
-    <e r="LR"><p><l>hèra<b/>de<s n="det"/><s n="ind"/></l><r>beaucoup<b/>de<s n="det"/><s n="ind"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>hèra<b/>mei<s n="adv"/></l><r>beaucoup<b/>plus<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e a="hector"><p><l>hèra<b/>mensh<s n="adv"/></l><r>beaucoup<b/>moins<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès"><p><l>hèra<b/>plan<s n="adv"/></l><r>très<b/>bien<s n="adv"/></r></p><par n="d:gascon"/></e>
@@ -52198,6 +52391,7 @@
     <e r="LR"><p><l>jos<b/>l'efècte<b/>de<s n="pr"/></l><r>sous<b/>l'effet<b/>de<s n="pr"/></r></p></e>
     <e><p><l>jos<b/>l'efièch<b/>de<s n="pr"/></l><r>sous<b/>l'effet<b/>de<s n="pr"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>jos<b/>l'egida<b/>de<s n="pr"/></l><r>sous<b/>l'égide<b/>de<s n="pr"/></r></p><par n="d:lengadocian"/></e>
+    <e a="Congrès"><p><l>devath<b/>l'egidi<b/>de<s n="pr"/></l><r>sous<b/>l'égide<b/>de<s n="pr"/></r></p><par n="d:gascon"/></e>
     <e r="LR"><p><l>jos<b/>l'empara<b/>de<s n="pr"/></l><r>sous<b/>la<b/>protection<b/>de<s n="pr"/></r></p></e>
     <e><p><l>jos<b/>la<b/>direccion<b/>de<s n="pr"/></l><r>sous<b/>la<b/>direction<b/>de<s n="pr"/></r></p><par n="d:aranes"/><par n="d:lengadocian"/></e>
     <e r="RL"><p><l>jos<b/>la<b/>direccion<b/>de<s n="pr"/></l><r>sous<b/>la<b/>houlette<b/>de<s n="pr"/></r></p><par n="d:aranes"/><par n="d:lengadocian"/></e>
@@ -58507,8 +58701,7 @@
     <e a="hector" r="LR"><p><l>mal<s n="adj"/></l> <r>mauvais<s n="adj"/></r></p><par n="anglés_anglais"/></e>
     <e> <p><l>mal<s n="adv"/></l> <r>mal<s n="adv"/></r></p></e>
     <e a="capsot"><p><l>mal<s n="n"/><s n="m"/></l><r>mal<s n="n"/><s n="m"/></r></p></e>
-    <e> <p><l>mal<s n="preadv"/></l> <r>mal<s n="preadv"/></r></p><par n="d:lengadocian"/></e>
-    <e r="LR"><p><l>mal<s n="preadv"/></l> <r>mal<s n="preadv"/></r></p></e>
+    <e> <p><l>mal<s n="preadv"/></l> <r>mal<s n="preadv"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>mal<b/>a<b/>d'aise<s n="adj"/></l><r>mal<b/>à<b/>l'aise<s n="adj"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>mal<b/>a<b/>l'aise<s n="adj"/></l><r>mal<b/>à<b/>l'aise<s n="adj"/></r></p></e>
     <e a="hector"><p><l>mal<g><b/>d'esquia</g><s n="n"/><s n="m"/></l><r>mal<g><b/>au<b/>dos</g><s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
@@ -60669,8 +60862,6 @@
     <e> <p><l>Matviichok<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Matviïtchouk<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector"><p><l>Matzneff<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Matzneff<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector" r="LR"><p><l>mau<s n="adj"/></l> <r>mauvais<s n="adj"/></r></p><par n="anglés_anglais"/></e>
-    <e><p><l>mau<s n="preadv"/></l> <r>mal<s n="preadv"/></r></p><par n="d:aranes"/><par n="d:gascon"/></e>
-    <e r="LR"><p><l>mau<s n="preadv"/></l> <r>mal<s n="preadv"/></r></p></e>
     <e a="topoc"><p><l>Mau<b/>Còrn<b/>Baish<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bas-Mauco<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="topoc"><p><l>Mau<b/>Còrn<b/>Haut<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Haut-Mauco<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="Congrès"><p><l>mau-som<s n="n"/><s n="m"/></l><r>cauchemar<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
@@ -61488,6 +61679,7 @@
     <e a="hector"><p><l>Menahem<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Menahem<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>menaire<s n="n"/></l> <r>conducteur<s n="n"/></r></p></e>
     <e a="capsot" r="RL"><p><l>menaire<s n="n"/></l><r>leader<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+    <e a="hector" r="RL"><p><l>gavidaire<s n="n"/></l><r>leader<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
     <e a="hector" r="RL"><p><l>menaire<s n="n"/></l><r>meneur<s n="n"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>Menapace<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Menapace<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>menar<s n="vblex"/></l> <r>amener<s n="vblex"/></r></p><par n="v-v_tv"/><par n="d:lengadocian"/></e>
@@ -62234,7 +62426,6 @@
     <e> <p><l>Miah<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Miah<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>miaire<s n="adj"/></l><r>conducteur<s n="adj"/></r></p><par n="d:gascon"/></e>
     <e a="hector"><p><l>miaire<s n="n"/></l><r>meneur<s n="n"/></r></p><par n="d:gascon"/></e>
-    <e a="hector" r="RL"><p><l>miaire<s n="n"/></l><r>leader<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
     <e a="topoc"><p><l>Mialòs<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Mialos<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="capsot"><p><l>Miami<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Miami<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="hector"><p><l>Miana<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Miana<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -62593,17 +62784,11 @@
     <e> <p><l>Milano<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Milano<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>milanta<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l><r>un<b/>grand<b/>nombre<b/>de<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p><par n="d:lengadocian"/></e>
     <e r="LR"><p><l>milantas<b/>de<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l><r>un<b/>grand<b/>nombre<b/>de<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p><par n="d:lengadocian"/></e>
-    <e a="Congrès"><p><l>milau<s n="adj"/></l><r>millième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector"><p><l>milau<s n="n"/></l><r>millième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
     <e a="Congrès"><p><l>mildió<s n="n"/><s n="m"/></l><r>mildiou<s n="n"/><s n="m"/></r></p></e>
     <e a="capsot"><p><l>Mildred<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mildred<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e> <p><l>Mile<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Mile<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector"><p><l>Milei<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Milei<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector"><p><l>Milella<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Milella<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e a="wiktionnaire"><p><l>milen<s n="adj"/></l><r>millième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>milen<s n="adj"/></l><r>millième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>milen<s n="n"/></l><r>millième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>milen<s n="n"/></l><r>millième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>Milena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Milena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e a="hector"><p><l>Milèna<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Milèna<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e a="Congrès"><p><l>milèr<s n="n"/><s n="m"/></l><r>millier<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
@@ -62652,8 +62837,6 @@
     <e a="wiktionnaire"><p><l>miliard<s n="n"/><s n="m"/></l><r>milliard<s n="n"/><s n="m"/></r></p></e>
     <e a="hector"><p><l>miliardari<s n="adj"/></l><r>milliardaire<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/><par n="d:gascon"/></e>
     <e a="hector"><p><l>miliardari<s n="n"/></l><r>milliardaire<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire"><p><l>miliarden<s n="adj"/></l><r>milliardième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>miliarden<s n="adj"/></l><r>milliardième<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e> <p><l>milícia<s n="n"/><s n="f"/></l> <r>milice<s n="n"/><s n="f"/></r></p></e>
     <e a="capsot"><p><l>milician<s n="n"/></l> <r>milicien<s n="n"/></r></p></e>
     <e a="wiktionnaire"><p><l>milièr<s n="n"/><s n="m"/></l><r>millier<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
@@ -62661,10 +62844,6 @@
     <e a="hector"><p><l>Milio<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Milio<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e> <p><l>milion<s n="n"/><s n="m"/></l> <r>million<s n="n"/><s n="m"/></r></p></e>
     <e a="capsot"><p><l>milionari<s n="n"/></l> <r>millionnaire<s n="n"/></r></p><par n="GD_mf"/></e>
-    <e a="hector"><p><l>milionau<s n="adj"/></l><r>millionième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector" r="LR"><p><l>milionau<s n="adj"/></l><r>millionième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>milionen<s n="adj"/></l><r>millionième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>milionen<s n="adj"/></l><r>millionième<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>Milioto<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Milioto<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="capsot"><p><l>militància<s n="n"/><s n="f"/></l><r>militance<s n="n"/><s n="f"/></r></p></e>
     <e a="capsot"><p><l>militant<s n="adj"/></l> <r>militant<s n="adj"/></r></p></e>
@@ -63439,7 +63618,6 @@
     <e a="Congrès"><p><l>molhedera<s n="n"/><s n="f"/></l><r>trayeur<s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès" r="LR"><p><l>molhedor<s n="n"/><s n="f"/></l><r>trayeur<s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès"><p><l>molhedor<s n="n"/><s n="m"/></l><r>trayeur<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
-    <e a="wiktionnaire"><p><l>molhèr<s n="n"/><s n="f"/></l><r>femme<s n="n"/><s n="f"/></r></p><par n="d:gascon"/><par n="d:lengadocian"/><par n="d:aranes"/></e>
     <e a="Congrès" r="LR"><p><l>mólher<s n="n"/><s n="m"/></l><r>traite<s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès"><p><l>mólher<s n="vblex"/></l><r>traire<s n="vblex"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès" r="LR"><p><l>molhós<s n="adj"/></l><r>humide<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
@@ -65495,7 +65673,6 @@
     <e r="RL"><p><l>nat<s n="det"/><s n="ind"/></l><r>nul<s n="det"/><s n="ind"/></r></p><par n="mf_mf"/><par n="sp_sp"/><par n="d:gascon"/></e>
     <e><p><l>nat<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>aucun<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p><par n="d:gascon"/></e>
     <e><p><l>nat<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l><r>aucun<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p><par n="d:gascon"/></e>
-    <e><p><l>nat<s n="prn"/><s n="tn"/></l><r>aucun<s n="prn"/><s n="tn"/></r></p><par n="pas_neg"/><par n="d:gascon"/></e>
     <e r="LR"><p><l>pas<b/>nat<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l><r>aucun<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p><par n="d:gascon"/></e>
     <e r="LR"><p><l>pas<b/>nat<s n="prn"/><s n="tn"/></l><r>aucun<s n="prn"/><s n="tn"/></r></p><par n="pas_neg"/><par n="d:gascon"/></e>
     <e a="Congrès" r="LR"><p><l>nata<s n="n"/><s n="f"/></l><r>natte<s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
@@ -65743,10 +65920,6 @@
     <e r="LR"><p><l>navanta-uèit<s n="num"/></l> <r>quatre-vingt-dix-huit<s n="num"/></r></p></e>
     <e r="LR"><p><l>navanta-un<s n="num"/></l> <r>quatre-vingt-onze<s n="num"/></r></p><par n="GD_mf"/></e>
     <e r="LR"><p><l>navanta-uòch<s n="num"/></l> <r>quatre-vingt-dix-huit<s n="num"/></r></p></e>
-    <e a="Congrès"><p><l>navantau<s n="adj"/></l><r>quatre-vingt-dixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="Congrès" r="LR"><p><l>navantau<s n="adj"/></l><r>quatre-vingt-dixième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="hector"><p><l>navantau<s n="n"/></l><r>quatre-vingt-dixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector" r="LR"><p><l>navantau<s n="n"/></l> <r>quatre-vingt-dixième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e> <p><l>Navaratnam<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Navaratnam<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector"><p><l>Navarcles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Navarcles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e> <p><l>Navarlaz<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Navarlaz<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -65768,8 +65941,6 @@
     <e a="hector"><p><l>Navàs<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Navàs<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e> <p><l>Navás<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Navás<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector"><p><l>Navata<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Navata<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e a="hector"><p><l>navau<s n="adj"/></l><r>neuvième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector"><p><l>navau<s n="n"/></l><r>neuvième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
     <e a="hector"><p><l>navaument<s n="adv"/></l><r>neuvièmement<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e a="wiktionnaire" r="LR"><p><l>navecha<s n="n"/><s n="f"/></l><r>vanneau<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>navegabilitat<s n="n"/><s n="f"/></l><r>navigabilité<s n="n"/><s n="f"/></r></p><par n="d:aranes"/></e>
@@ -66916,10 +67087,6 @@
     <e r="LR"><p><l>nonanta-uèit<s n="num"/></l> <r>quatre-vingt-dix-huit<s n="num"/></r></p></e>
     <e r="LR"><p><l>nonanta-un<s n="num"/></l> <r>quatre-vingt-onze<s n="num"/></r></p><par n="GD_mf"/></e>
     <e r="LR"><p><l>nonanta-uòch<s n="num"/></l> <r>quatre-vingt-dix-huit<s n="num"/></r></p></e>
-    <e a="Congrès"><p><l>nonanten<s n="adj"/></l><r>quatre-vingt-dixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="Congrès" r="LR"><p><l>nonanten<s n="adj"/></l><r>quatre-vingt-dixième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="Congrès"><p><l>nonanten<s n="n"/></l><r>quatre-vingt-dixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="Congrès" r="LR"><p><l>nonanten<s n="n"/></l><r>quatre-vingt-dixième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="Congrès" r="LR"><p><l>nonarren<s n="n"/><s n="m"/></l><r>néant<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
     <e> <p><l>Nonell<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Nonell<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e> <p><l>Nonique-Desvergnes<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Nonique-Desvergnes<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -67218,9 +67385,6 @@
     <e c="pro forma per las règlas de transfèrt" r="RL"><p><l>noveme<s n="adv"/></l><r>mi-novembre<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e a="capsot"><p><l>noveme<s n="n"/><s n="m"/></l><r>novembre<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
     <e a="capsot" r="LR"><p><l>noveme<s n="n"/><s n="m"/></l><r>novembre<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire"><p><l>noven<s n="adj"/></l><r>neuvième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:aranes"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>noven<s n="adj"/></l><r>neuvième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>noven<s n="n"/></l><r>neuvième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>novenament<s n="adv"/></l><r>neuvièmement<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>Noventa<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Noventa<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>novetat<s n="n"/><s n="f"/></l><r>nouveauté<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
@@ -67739,14 +67903,6 @@
     <e r="LR"><p><l>ochanta-uèit<s n="num"/></l> <r>quatre-vingt-huit<s n="num"/></r></p></e>
     <e r="LR"><p><l>ochanta-un<s n="num"/></l> <r>quatre-vingt-un<s n="num"/></r></p></e>
     <e r="LR"><p><l>ochanta-uòch<s n="num"/></l> <r>quatre-vingt-huit<s n="num"/></r></p></e>
-    <e a="hector"><p><l>ochanten<s n="adj"/></l><r>quatre-vingtième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="hector" r="LR"><p><l>ochanten<s n="adj"/></l><r>quatre-vingtième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="hector"><p><l>ochanten<s n="n"/></l><r>quatre-vingtième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="hector" r="LR"><p><l>ochanten<s n="n"/></l> <r>quatre-vingtième<s n="n"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>ochen<s n="adj"/></l><r>huitième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>ochen<s n="adj"/></l><r>huitième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>ochen<s n="n"/></l><r>huitième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>ochen<s n="n"/></l><r>huitième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>ochenament<s n="adv"/></l><r>huitièmement<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e> <p><l>Ochoa<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Ochoa<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="Congrès"><p><l>ociós<s n="adj"/></l><r>oisif<s n="adj"/></r></p><par n="d:lengadocian"/></e>
@@ -68437,13 +68593,7 @@
     <e a="hector" r="LR"><p><l>ÒNU<s n="n"/><s n="acr"/><s n="f"/></l><r>ONU<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
     <e a="hector"><p><l>onusian<s n="adj"/></l><r>onusien<s n="adj"/></r></p><par n="d:lengadocian"/><par n="d:gascon"/></e>
     <e a="hector"><p><l>Onyar<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Onyar<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-    <e a="wiktionnaire"><p><l>onzau<s n="adj"/></l><r>onzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>onzau<s n="adj"/></l><r>onzième<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e> <p><l>onze<s n="num"/></l> <r>onze<s n="num"/></r></p></e>
-    <e a="wiktionnaire"><p><l>onzen<s n="adj"/></l><r>onzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>onzen<s n="adj"/></l><r>onzième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>onzen<s n="n"/></l><r>onzième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>onzen<s n="n"/></l><r>onzième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e> <p><l>Oort<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Oort<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="hector"><p><l>OP<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>OP<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="capsot"><p><l>opac<s n="adj"/></l> <r>opaque<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -69446,7 +69596,6 @@
     <e a="origina"><p><l>mossen<s n="n"/><s n="m"/></l><r>père<s n="n"/><s n="m"/></r></p><par n="d:aranes"/></e>
     <e a="Congrès"><p><l>pair<s n="n"/><s n="m"/></l><r>père<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès"><p><l>paire<s n="n"/><s n="m"/></l> <r>père<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
-    <e r="LR"><p><l>paire<s n="n"/><s n="m"/></l> <r>père<s n="n"/><s n="m"/></r></p></e>
     <e a="capsot"><p><l>Paire<b/>Nadal<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Père<b/>Noël<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector" r="LR"><p><l>pairegrand<s n="n"/><s n="m"/></l><r>grand-père<s n="n"/><s n="m"/></r></p></e>
     <e a="topoc"><p><l>Pairin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Payrin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -77325,12 +77474,6 @@
     <e r="LR"><p><l>quaranta-uèit<s n="num"/></l> <r>quarante-huit<s n="num"/></r></p></e>
     <e r="LR"><p><l>quaranta-un<s n="num"/></l> <r>quarante-et-un<s n="num"/></r></p></e>
     <e r="LR"><p><l>quaranta-uòch<s n="num"/></l> <r>quarante-huit<s n="num"/></r></p></e>
-    <e a="wiktionnaire"><p><l>quarantau<s n="adj"/></l><r>quarantième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="capsot" r="LR"><p><l>quarantau<s n="adj"/></l><r>quarantième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>quaranten<s n="adj"/></l><r>quarantième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>quaranten<s n="adj"/></l><r>quarantième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>quaranten<s n="n"/></l><r>quarantième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>quaranten<s n="n"/></l><r>quarantième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e> <p><l>quaranten<s n="n"/><s n="f"/></l> <r>quarantaine<s n="n"/><s n="f"/></r></p></e>
     <e a="hector"><p><l>quarantenari<s n="adj"/></l> <r>quarantenaire<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>quarantenari<s n="n"/></l> <r>quarantenaire<s n="n"/></r></p><par n="GD_mf"/></e>
@@ -77365,8 +77508,6 @@
     <e a="capsot" r="RL"><p><l>quasi<s n="preadv"/></l><r>quasi<s n="preadv"/></r></p></e>
     <e r="LR"><p><l>quasiben<s n="adv"/></l> <r>presque<s n="adv"/></r></p></e>
     <e r="LR"><p><l>quasiment<s n="adv"/></l> <r>quasiment<s n="adv"/></r></p></e>
-    <e a="wiktionnaire"><p><l>quatau<s n="adj"/></l><r>quatrième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>quatau<s n="adj"/></l><r>quatrième<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>quataument<s n="adv"/></l><r>quatrièmement<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e><p><l>quate<s n="num"/></l> <r>quatre<s n="num"/></r></p><par n="d:gascon"/></e>
     <e><p><l>quate<b/>cents<s n="num"/></l><r>quatre<b/>cent<s n="num"/></r></p><par n="GD_mf"/><par n="sp_ND"/><par n="d:gascon"/></e>
@@ -77384,7 +77525,6 @@
     <e r="LR"><p><l>quate-vints-dètz<s n="num"/></l><r>quatre-vingt-dix<s n="num"/></r></p><par n="d:lengadocian"/></e>
     <e> <p><l>Quatennens<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Quatennens<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="capsot"><p><l>qüaternari<s n="adj"/></l> <r>quaternaire<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>quatorzau<s n="adj"/></l><r>quatorzième<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e r="LR"><p><l>quatorze<s n="num"/></l> <r>quatorze<s n="num"/></r></p></e>
     <e r="LR"><p><l>quatòrze<s n="num"/></l> <r>quatorze<s n="num"/></r></p></e>
     <e a="Congrès"><p><l>quatorzena<s n="n"/><s n="f"/></l><r>quatorzaine<s n="n"/><s n="f"/></r></p></e>
@@ -77546,10 +77686,6 @@
     <e r="LR"><p><l>quatre-vint-uòch<s n="num"/></l> <r>quatre-vingt-huit<s n="num"/></r></p></e>
     <e r="LR"><p><l>quatre-vints-dètz<s n="num"/></l><r>quatre-vingt-dix<s n="num"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>Quatremer<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Quatremer<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e a="wiktionnaire"><p><l>quatren<s n="adj"/></l><r>quatrième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>quatren<s n="adj"/></l><r>quatrième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>quatren<s n="n"/></l><r>quatrième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>quatren<s n="n"/></l><r>quatrième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>quatrenament<s n="adv"/></l><r>quatrièmement<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>Quatretonda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Quatretonda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e a="hector"><p><l>Quatretondeta<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Quatretondeta<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -77562,7 +77698,7 @@
     <e r="LR"><p><l>quau<s n="prn"/><s n="itg"/></l> <r>quel<s n="prn"/><s n="itg"/></r></p><par n="mf_GD"/><par n="sp_sp"/></e>
     <e r="RL"><p><l>quau<s n="prn"/><s n="itg"/></l><r>quel<s n="prn"/><s n="itg"/></r></p><par n="mf_GD"/><par n="d:gascon"/></e>
     <e r="LR"><p><l>quau<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></l><r>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p><par n="d:gascon"/></e>
-    <e><p><l>quau<b/>que<b/>sia<s n="adj"/></l><r>quelconque<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
+    <e><p><l>quau<b/>que<b/>sia<s n="adj"/></l><r>quelconque<s n="adj"/></r></p><par n="2gen_2gen"/><par n="d:gascon"/></e>
     <e><p><l>quau<b/>que<b/>sia<s n="det"/><s n="ind"/></l><r>n'importe<b/>quel<s n="det"/><s n="ind"/></r></p><par n="mf_GD"/><par n="d:gascon"/></e>
     <e><p><l>quau<b/>que<b/>sia<s n="predet"/></l><r>quel<b/>que<b/>soit<s n="predet"/></r></p><par n="mf_GD"/><par n="d:gascon"/></e>
     <e><p><l>quau<b/>que<b/>sia<s n="prn"/><s n="tn"/></l><r>quel<b/>que<b/>soit<s n="prn"/><s n="tn"/></r></p><par n="mf_GD"/><par n="d:gascon"/></e>
@@ -77887,14 +78023,8 @@
     <e> <p><l>Quinton<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Quinton<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e> <p><l>Quintrell<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Quintrell<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="capsot"><p><l>quintuple<s n="adj"/></l> <r>quintuple<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>quinzau<s n="adj"/></l><r>quinzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>quinzau<s n="adj"/></l><r>quinzième<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e> <p><l>quinze<s n="num"/></l> <r>quinze<s n="num"/></r></p></e>
     <e a="capsot" r="LR"><p><l>quinzea<s n="n"/><s n="f"/></l><r>quinzaine<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire"><p><l>quinzen<s n="adj"/></l><r>quinzième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>quinzen<s n="adj"/></l><r>quinzième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>quinzen<s n="n"/></l><r>quinzième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>quinzen<s n="n"/></l><r>quinzième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="capsot"><p><l>quinzena<s n="n"/><s n="f"/></l><r>quinzaine<s n="n"/><s n="f"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>quinzenat<s n="n"/><s n="m"/></l><r>quinzaine<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>quiò<s n="adv"/></l> <r>oui<s n="adv"/></r></p><par n="d:gascon"/></e>
@@ -85145,10 +85275,8 @@
     <e> <p><l>segon<b/>que<s n="cnjadv"/></l> <r>selon<b/>que<s n="cnjadv"/></r></p></e>
     <e r="RL"><p><l>segon<b/>que<s n="cnjadv"/></l> <r>suivant<b/>que<s n="cnjadv"/></r></p></e>
     <e a="wiktionnaire"><p><l>segond<s n="adj"/></l> <r>second<s n="adj"/></r></p></e>
-    <e a="wiktionnaire" r="RL"><p><l>segond<s n="adj"/></l><r>deuxième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
     <e r="RL"><p><l>segond<s n="adj"/></l> <r>second<s n="adj"/></r></p></e>
     <e a="wiktionnaire"><p><l>segond<s n="n"/></l> <r>second<s n="n"/></r></p></e>
-    <e a="wiktionnaire" r="RL"><p><l>segond<s n="n"/></l><r>deuxième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
     <e a="wiktionnaire"><p><l>segonda<s n="n"/><s n="m"/></l><r>seconde<s n="n"/><s n="m"/></r></p></e>
     <e a="capsot"><p><l>Segonda<b/>Guèrra<b/>Mondiala<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Seconde<b/>Guerre<b/>mondiale<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p><par n="d:lengadocian"/></e>
     <e a="Congrès"><p><l>segondament<s n="adv"/></l><r>deuxièmement<s n="adv"/></r></p><par n="d:lengadocian"/></e>
@@ -85248,9 +85376,6 @@
     <e r="LR"><p><l>seis<s n="num"/></l> <r>six<s n="num"/></r></p></e>
     <e r="LR"><p><l>seis<b/>cents<s n="num"/></l> <r>six<b/>cent<s n="num"/></r></p><par n="GD_mf"/><par n="sp_ND"/></e>
     <e a="hector"><p><l>Seisdedos<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Seisdedos<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e a="wiktionnaire"><p><l>seisen<s n="adj"/></l><r>sixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>seisen<s n="adj"/></l><r>sixième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>seisen<s n="n"/></l><r>sixième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>seisenament<s n="adv"/></l><r>sixièmement<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e a="topoc"><p><l>Sèish<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Seix<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="topoc" r="RL"><p><l>Sèish<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Seich<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -85347,10 +85472,6 @@
     <e r="LR"><p><l>seishanta-uèit<s n="num"/></l> <r>soixante-huit<s n="num"/></r></p></e>
     <e r="LR"><p><l>seishanta-un<s n="num"/></l> <r>soixante-et-un<s n="num"/></r></p></e>
     <e r="LR"><p><l>seishanta-uòch<s n="num"/></l> <r>soixante-huit<s n="num"/></r></p></e>
-    <e a="wiktionnaire"><p><l>seishantau<s n="adj"/></l><r>soixantième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>seishantau<s n="adj"/></l><r>soixantième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>seishantau<s n="n"/></l><r>soixantième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>seishantau<s n="n"/></l><r>soixantième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="Congrès"><p><l>seishantena<s n="n"/><s n="f"/></l><r>soixantaine<s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
     <e a="topoc"><p><l>Sèishas<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Seyches<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Seishèlas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Seychelles<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p><par n="d:gascon"/></e>
@@ -85442,10 +85563,6 @@
     <e r="LR"><p><l>seissanta-uèit<s n="num"/></l> <r>soixante-huit<s n="num"/></r></p></e>
     <e r="LR"><p><l>seissanta-un<s n="num"/></l> <r>soixante-et-un<s n="num"/></r></p></e>
     <e r="LR"><p><l>seissanta-uòch<s n="num"/></l> <r>soixante-huit<s n="num"/></r></p></e>
-    <e a="wiktionnaire"><p><l>seissanten<s n="adj"/></l><r>soixantième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>seissanten<s n="adj"/></l><r>soixantième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>seissanten<s n="n"/></l><r>soixantième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>seissanten<s n="n"/></l><r>soixantième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="capsot"><p><l>seissantena<s n="n"/><s n="f"/></l><r>soixantaine<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
     <e a="capsot" r="LR"><p><l>seissantena<s n="n"/><s n="f"/></l><r>soixantaine<s n="n"/><s n="f"/></r></p></e>
     <e a="hector"><p><l>Seix<b/>Barral<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Seix<b/>Barral<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
@@ -86833,19 +86950,7 @@
     <e r="LR"><p><l>setanta-uèit<s n="num"/></l> <r>soixante-dix-huit<s n="num"/></r></p></e>
     <e r="LR"><p><l>setanta-un<s n="num"/></l> <r>soixante-et-onze<s n="num"/></r></p><par n="GD_mf"/></e>
     <e r="LR"><p><l>setanta-uòch<s n="num"/></l> <r>soixante-dix-huit<s n="num"/></r></p></e>
-    <e a="hector"><p><l>setantau<s n="adj"/></l><r>soixante-dixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector" r="LR"><p><l>setantau<s n="adj"/></l><r>soixante-dixième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="hector"><p><l>setantau<s n="n"/></l><r>soixante-dixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector" r="LR"><p><l>setantau<s n="n"/></l> <r>soixante-dixième<s n="n"/></r></p><par n="GD_mf"/></e>
-    <e a="hector"><p><l>setanten<s n="adj"/></l><r>soixante-dixième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="hector" r="LR"><p><l>setanten<s n="adj"/></l><r>soixante-dixième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="hector"><p><l>setanten<s n="n"/></l><r>soixante-dixième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="hector" r="LR"><p><l>setanten<s n="n"/></l> <r>soixante-dixième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="Congrès" r="LR"><p><l>setar<s n="vblex"/></l><r>asseoir<s n="vblex"/></r></p><par n="d:gascon"/></e>
-    <e a="wiktionnaire"><p><l>setau<s n="adj"/></l><r>septième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>setau<s n="adj"/></l><r>septième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>setau<s n="n"/></l><r>septième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>setau<s n="n"/></l><r>septième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>setaument<s n="adv"/></l><r>septièmement<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e a="hector"><p><l>Setcases<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Setcases<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e c="pro forma per las règlas de transfèrt" r="RL"><p><l>setembre<s n="adv"/></l><r>mi-septembre<s n="adv"/></r></p><par n="d:lengadocian"/></e>
@@ -86854,10 +86959,6 @@
     <e c="pro forma per las règlas de transfèrt" r="RL"><p><l>seteme<s n="adv"/></l><r>mi-septembre<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e a="capsot"><p><l>seteme<s n="n"/><s n="m"/></l><r>septembre<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
     <e a="capsot" r="LR"><p><l>seteme<s n="n"/><s n="m"/></l><r>septembre<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire"><p><l>seten<s n="adj"/></l><r>septième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>seten<s n="adj"/></l><r>septième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>seten<s n="n"/></l><r>septième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>seten<s n="n"/></l><r>septième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>setenament<s n="adv"/></l><r>septièmement<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e a="hector" r="LR"><p><l>séter<s n="vblex"/></l><r>asseoir<s n="vblex"/></r></p><par n="d:gascon"/></e>
     <e a="topoc"><p><l>Sètfonts<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Septfonds<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -86889,15 +86990,7 @@
     <e a="hector"><p><l>Setúbal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Setúbal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="topoc"><p><l>Sètza<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sedze<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="topoc"><p><l>Sètza-Maubèc<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sedze-Maubecq<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-    <e a="wiktionnaire"><p><l>setzau<s n="adj"/></l><r>seizième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>setzau<s n="adj"/></l><r>seizième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>setzau<s n="n"/></l><r>seizième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>setzau<s n="n"/></l><r>seizième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e> <p><l>setze<s n="num"/></l> <r>seize<s n="num"/></r></p></e>
-    <e a="wiktionnaire"><p><l>setzen<s n="adj"/></l><r>seizième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>setzen<s n="adj"/></l><r>seizième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>setzen<s n="n"/></l><r>seizième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>setzen<s n="n"/></l><r>seizième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="topoc"><p><l>Setzèra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sedzère<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="Congrès"><p><l>seu<s n="n"/><s n="m"/></l><r>suif<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
     <e a="Congrès" r="RL"><p><l>seu<s n="n"/><s n="m"/></l><r>suif<s n="n"/><s n="m"/></r></p><par n="d:gascon"/><par n="d:lengadocian"/><par n="d:aranes"/></e>
@@ -87078,10 +87171,6 @@
     <e><p><l>sheis<b/>cents<s n="num"/></l><r>six<b/>cent<s n="num"/></r></p><par n="GD_mf"/><par n="sp_ND"/><par n="d:gascon"/></e>
     <e r="LR"><p><l>sheis<b/>cents<s n="num"/></l> <r>six<b/>cent<s n="num"/></r></p><par n="GD_mf"/><par n="sp_ND"/></e>
     <e r="RL"><p><l>sheis<b/>cents<s n="num"/></l><r>six-cent<s n="num"/></r></p><par n="GD_mf"/><par n="sp_ND"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire"><p><l>sheisau<s n="adj"/></l><r>sixième<s n="adj"/></r></p><par n="2gen_2gen"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>sheisau<s n="adj"/></l><r>sixième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>sheisau<s n="n"/></l><r>sixième<s n="n"/></r></p><par n="2gen_2gen"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>sheisau<s n="n"/></l><r>sixième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>sheisaument<s n="adv"/></l><r>sixièmement<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e a="topoc"><p><l>Sheishan<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Seissan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>sheissanta<s n="num"/></l> <r>soixante<s n="num"/></r></p></e>
@@ -94198,12 +94287,7 @@
     <e r="LR"><p><l>trenta-un<s n="num"/></l> <r>trente-et-un<s n="num"/></r></p></e>
     <e r="LR"><p><l>trenta-uòch<s n="num"/></l> <r>trente-huit<s n="num"/></r></p></e>
     <e a="hector"><p><l>Trentacoste<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Trentacoste<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e a="wiktionnaire"><p><l>trentau<s n="adj"/></l><r>trentième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>trentau<s n="adj"/></l><r>trentième<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e a="topoc"><p><l>Trentel<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Trentels<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-    <e a="wiktionnaire"><p><l>trenten<s n="adj"/></l><r>trentième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>trenten<s n="adj"/></l><r>trentième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="Congrès"><p><l>trenten<s n="n"/></l><r>trentième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
     <e a="capsot"><p><l>trentena<s n="n"/><s n="f"/></l><r>trentaine<s n="n"/><s n="f"/></r></p><par n="d:aranes"/></e>
     <e a="capsot" r="LR"><p><l>trentena<s n="n"/><s n="f"/></l><r>trentaine<s n="n"/><s n="f"/></r></p></e>
     <e a="hector"><p><l>trentenari<s n="adj"/></l><r>trentenaire<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/><par n="d:gascon"/></e>
@@ -94281,8 +94365,6 @@
     <e r="LR"><p><l>tres-vints-un<s n="num"/></l> <r>soixante-et-un<s n="num"/></r></p></e>
     <e r="LR"><p><l>tres-vints-uòch<s n="num"/></l> <r>soixante-huit<s n="num"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>tresanar<s n="vblex"/></l><r>dépérir<s n="vblex"/></r></p><par n="d:gascon"/></e>
-    <e a="wiktionnaire"><p><l>tresau<s n="adj"/></l><r>troisième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>tresau<s n="adj"/></l><r>troisième<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>tresaument<s n="adv"/></l><r>troisièmement<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e><p><l>tresaur<s n="n"/><s n="m"/></l><r>trésor<s n="n"/><s n="m"/></r></p><par n="d:lengadocian"/></e>
     <e r="LR"><p><l>tresaur<s n="n"/><s n="m"/></l> <r>trésor<s n="n"/><s n="m"/></r></p></e>
@@ -94293,9 +94375,6 @@
     <e a="Congrès" r="LR"><p><l>trescamp<s n="n"/><s n="m"/></l><r>friche<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
     <e a="Congrès"><p><l>trescar<s n="vblex"/></l><r>tresser<s n="vblex"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès" r="LR"><p><l>trescòl<s n="n"/><s n="m"/></l><r>disparition<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire"><p><l>tresen<s n="adj"/></l><r>troisième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>tresen<s n="adj"/></l><r>troisième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="Congrès"><p><l>tresen<s n="n"/></l><r>troisième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>tresenament<s n="adv"/></l><r>troisièmement<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e a="Congrès" r="LR"><p><l>tresfolir<s n="vblex"/></l><r>tressaillir<s n="vblex"/></r></p><par n="d:lengadocian"/></e>
     <e a="Congrès" r="RL"><p><l>tresfolir<s n="vblex"/></l><r>tressaillir<s n="vblex"/></r></p><par n="d:lengadocian"/></e>
@@ -94338,12 +94417,7 @@
     <e a="Congrès" r="LR"><p><l>tresvirat<s n="adj"/></l><r>hagard<s n="adj"/></r></p></e>
     <e a="Congrès" r="RL"><p><l>tresvirat<s n="adj"/></l><r>hagard<s n="adj"/></r></p><par n="d:gascon"/></e>
     <e a="hector"><p><l>Tretter<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Tretter<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e a="wiktionnaire"><p><l>tretzau<s n="adj"/></l><r>treizième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>tretzau<s n="adj"/></l><r>treizième<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e> <p><l>tretze<s n="num"/></l> <r>treize<s n="num"/></r></p></e>
-    <e a="wiktionnaire"><p><l>tretzen<s n="adj"/></l><r>treizième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>tretzen<s n="adj"/></l><r>treizième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="Congrès"><p><l>tretzen<s n="n"/></l><r>treizième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
     <e a="hector"><p><l>Treu<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Treu<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e a="wiktionnaire"><p><l>trèu<s n="n"/><s n="m"/></l><r>fantôme<s n="n"/><s n="m"/></r></p><par n="d:aranes"/></e>
     <e a="wiktionnaire" r="LR"><p><l>trèu<s n="n"/><s n="m"/></l><r>trace<s n="n"/><s n="f"/></r></p></e>
@@ -95245,8 +95319,6 @@
     <e><p><l>uèch<s n="num"/></l> <r>huit<s n="num"/></r></p><par n="d:lengadocian"/></e>
     <e><p><l>uèch<b/>cents<s n="num"/></l> <r>huit<b/>cent<s n="num"/></r></p><par n="GD_mf"/><par n="sp_ND"/><par n="d:lengadocian"/></e>
     <e r="RL"><p><l>uèch<b/>cents<s n="num"/></l><r>huit-cent<s n="num"/></r></p><par n="GD_mf"/><par n="sp_ND"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>uechen<s n="adj"/></l><r>huitième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>uechen<s n="n"/></l><r>huitième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="hector" r="LR"><p><l>uechenament<s n="adv"/></l><r>huitièmement<s n="adv"/></r></p><par n="d:lengadocian"/></e>
     <e a="capsot"><p><l>UEFA<s n="n"/><s n="acr"/><s n="f"/></l><r>UEFA<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
     <e><p><l>uei<s n="adv"/></l> <r>aujourd'hui<s n="adv"/></r></p><par n="d:gascon"/></e>
@@ -95361,17 +95433,6 @@
     <e r="LR"><p><l>ueitanta-uèit<s n="num"/></l> <r>quatre-vingt-huit<s n="num"/></r></p></e>
     <e r="LR"><p><l>ueitanta-un<s n="num"/></l> <r>quatre-vingt-un<s n="num"/></r></p></e>
     <e r="LR"><p><l>ueitanta-uòch<s n="num"/></l> <r>quatre-vingt-huit<s n="num"/></r></p></e>
-    <e a="hector"><p><l>ueitantau<s n="adj"/></l><r>quatre-vingtième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e r="LR"><p><l>ueitantau<s n="adj"/></l> <r>quatre-vingtième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="hector"><p><l>ueitantau<s n="n"/></l><r>quatre-vingtième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector" r="LR"><p><l>ueitanten<s n="adj"/></l><r>quatre-vingtième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="hector" r="LR"><p><l>ueitanten<s n="n"/></l><r>quatre-vingtième<s n="n"/></r></p><par n="GD_mf"/></e>
-    <e a="hector" r="LR"><p><l>uèitanten<s n="adj"/></l><r>quatre-vingtième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="hector" r="LR"><p><l>uèitanten<s n="n"/></l><r>quatre-vingtième<s n="n"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>ueitau<s n="adj"/></l><r>huitième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>ueitau<s n="adj"/></l><r>huitième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>ueitau<s n="n"/></l><r>huitième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>ueitau<s n="n"/></l><r>huitième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e a="hector"><p><l>ueitaument<s n="adv"/></l><r>huitièmement<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e a="Congrès" r="LR"><p><l>uèla<s n="n"/><s n="f"/></l><r>luette<s n="n"/><s n="f"/></r></p><par n="d:lengadocian"/></e>
     <e a="Congrès" r="LR"><p><l>uelèr<s n="n"/><s n="m"/></l><r>coquetier<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
@@ -95657,10 +95718,7 @@
     <e a="capsot"><p><l>unanimament<s n="adv"/></l> <r>unanimement<s n="adv"/></r></p></e>
     <e a="capsot"><p><l>unanime<s n="adj"/></l> <r>unanime<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e> <p><l>unanimitat<s n="n"/><s n="f"/></l><r>unanimité<s n="n"/><s n="f"/></r></p></e>
-    <e a="Congrès" r="LR"><p><l>unau<s n="adj"/></l><r>unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
     <e> <p><l>Underwood<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Underwood<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e a="Congrès"><p><l>unen<s n="adj"/></l><r>unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="Congrès" r="LR"><p><l>unen<s n="adj"/></l> <r>unième<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e a="capsot" r="LR"><p><l>unenc<s n="adj"/></l> <r>unique<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e a="capsot"><p><l>UNESCO<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>UNESCO<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
     <e a="capsot"><p><l>Unesco<s n="n"/><s n="acr"/><s n="f"/></l><r>Unesco<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
@@ -98283,7 +98341,6 @@
     <e> <p><l>vint<b/>e<b/>tres<s n="num"/></l> <r>vingt-trois<s n="num"/></r></p></e>
     <e r="RL"><p><l>vint<b/>e<b/>tres<s n="num"/></l> <r>vingt<b/>trois<s n="num"/></r></p></e>
     <e a="hector"><p><l>vint<b/>e<b/>uau<s n="adj"/></l><r>vingt<b/>et<b/>unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector" r="RL"><p><l>vint<b/>e<b/>uau<s n="adj"/></l><r>vingt-et-unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
     <e><p><l>vint<b/>e<b/>uèch<s n="num"/></l><r>vingt-huit<s n="num"/></r></p><par n="d:lengadocian"/></e>
     <e r="RL"><p><l>vint<b/>e<b/>uèch<s n="num"/></l><r>vingt<b/>huit<s n="num"/></r></p><par n="d:lengadocian"/></e>
     <e><p><l>vint<b/>e<b/>ueit<s n="num"/></l><r>vingt-huit<s n="num"/></r></p><par n="d:gascon"/></e>
@@ -98296,7 +98353,6 @@
     <e a="hector" r="LR"><p><l>vint<b/>e<b/>unau<s n="adj"/></l><r>vingt<b/>et<b/>unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
     <e a="hector"><p><l>vint<b/>e<b/>unen<s n="adj"/></l><r>vingt<b/>et<b/>unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
     <e a="hector" r="LR"><p><l>vint<b/>e<b/>unen<s n="adj"/></l><r>vingt<b/>et<b/>unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="hector" r="RL"><p><l>vint<b/>e<b/>unen<s n="adj"/></l><r>vingt-et-unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
     <e r="LR"><p><l>vint<b/>e<b/>uòch<s n="num"/></l> <r>vingt-huit<s n="num"/></r></p></e>
     <e r="LR"><p><l>vint-e-cinc<s n="num"/></l> <r>vingt-cinq<s n="num"/></r></p></e>
     <e r="LR"><p><l>vint-e-dos<s n="num"/></l> <r>vingt-deux<s n="num"/></r></p><par n="GD_mf"/></e>
@@ -98322,15 +98378,7 @@
     <e a="hector" r="LR"><p><l>vint-e-unau<s n="adj"/></l><r>vingt<b/>et<b/>unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
     <e a="hector" r="LR"><p><l>vint-e-unen<s n="adj"/></l><r>vingt<b/>et<b/>unième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/><par n="d:gascon"/></e>
     <e r="LR"><p><l>vint-e-uòch<s n="num"/></l> <r>vingt-huit<s n="num"/></r></p></e>
-    <e a="wiktionnaire"><p><l>vintau<s n="adj"/></l><r>vingtième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>vintau<s n="adj"/></l><r>vingtième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>vintau<s n="n"/></l><r>vingtième<s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>vintau<s n="n"/></l><r>vingtième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e r="LR"><p><l>vintea<s n="n"/><s n="f"/></l> <r>vingtaine<s n="n"/><s n="f"/></r></p></e>
-    <e a="wiktionnaire"><p><l>vinten<s n="adj"/></l><r>vingtième<s n="adj"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>vinten<s n="adj"/></l><r>vingtième<s n="adj"/></r></p><par n="GD_mf"/></e>
-    <e a="wiktionnaire"><p><l>vinten<s n="n"/></l><r>vingtième<s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
-    <e a="wiktionnaire" r="LR"><p><l>vinten<s n="n"/></l><r>vingtième<s n="n"/></r></p><par n="GD_mf"/></e>
     <e><p><l>vintena<s n="n"/><s n="f"/></l><r>vingtaine<s n="n"/><s n="f"/></r></p><par n="d:aranes"/></e>
     <e r="LR"><p><l>vintena<s n="n"/><s n="f"/></l> <r>vingtaine<s n="n"/><s n="f"/></r></p></e>
     <e a="hector"><p><l>vintenari<s n="adj"/></l> <r>vingtenaire<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -102261,7 +102309,6 @@
 <e a="Congrès"><p><l>desinteressat<s n="adj"/></l><r>désintéressé<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>desprovedit<s n="adj"/></l><r>dépourvu<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>destinatari<s n="adj"/></l><r>destinataire<s n="adj"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>dètz-e-setau<s n="adj"/></l><r>dix-septième<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>devonian<s n="adj"/></l><r>dévonien<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>divertissent<s n="adj"/></l><r>distrayant<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>egalitari<s n="adj"/></l><r>égalitaire<s n="adj"/></r></p><par n="d:gascon"/></e>
@@ -102285,7 +102332,6 @@
 <e a="Congrès" r="RL"><p><l>lusent<s n="adj"/></l><r>luisant<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>mair<s n="adj"/></l><r>mère<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>maishant<s n="adj"/></l><r>méchant<s n="adj"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>miliardau<s n="adj"/></l><r>milliardième<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>muscat<s n="adj"/></l><r>muscat<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>nadaire<s n="adj"/></l><r>nageur<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>neofit<s n="adj"/></l><r>néophyte<s n="adj"/></r></p><par n="d:gascon"/></e>
@@ -102324,7 +102370,6 @@
 <e a="Congrès" r="RL"><p><l>sucrèr<s n="adj"/></l><r>sucrier<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>terçat<s n="adj"/></l><r>tiercé<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>troglodita<s n="adj"/></l><r>troglodyte<s n="adj"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès" r="RL"><p><l>unau<s n="adj"/></l><r>unième<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>usufrutèr<s n="adj"/></l><r>usufruitier<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>usurpaire<s n="adj"/></l><r>usurpateur<s n="adj"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>vector<s n="adj"/></l><r>vecteur<s n="adj"/></r></p><par n="d:gascon"/></e>
@@ -102348,7 +102393,6 @@
 <e a="Congrès"><p><l>divisor<s n="adj"/></l><r>clivant<s n="adj"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>divisor<s n="adj"/></l><r>diviseur<s n="adj"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>emmerdant<s n="adj"/></l><r>emmerdant<s n="adj"/></r></p><par n="d:lengadocian"/></e>
-<e a="Congrès"><p><l>ennen<s n="adj"/></l><r>énième<s n="adj"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>esclapaire<s n="adj"/></l><r>fracassant<s n="adj"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès" r="RL"><p><l>esterlucat<s n="adj"/></l><r>hurluberlu<s n="adj"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>estiloïde<s n="adj"/></l><r>styloïde<s n="adj"/></r></p><par n="d:lengadocian"/></e>
@@ -102683,7 +102727,6 @@
 <e a="Congrès"><p><l>navarrés<s n="n"/></l><r>Navarrais<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>neuricèr<s n="n"/></l><r>nourricier<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>neurosat<s n="n"/></l><r>névrosé<s n="n"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>onzau<s n="n"/></l><r>onzième<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>palòt<s n="n"/></l><r>balourd<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>participant<s n="n"/></l><r>participant<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>paternalista<s n="n"/></l><r>paternaliste<s n="n"/></r></p><par n="d:gascon"/></e>
@@ -102701,10 +102744,6 @@
 <e a="Congrès"><p><l>pretenciós<s n="n"/></l><r>prétentieux<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>provedidor<s n="n"/></l><r>pourvoyeur<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>prudent<s n="n"/></l><r>prudent<s n="n"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>quarantau<s n="n"/></l><r>quarantième<s n="n"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>quatau<s n="n"/></l><r>quatrième<s n="n"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>catorzau<s n="n"/></l><r>quatorzième<s n="n"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>quinzau<s n="n"/></l><r>quinzième<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>repepiaire<s n="n"/></l><r>gâteux<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>ridolent<s n="n"/></l><r>rieur<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>romantic<s n="n"/></l><r>romantique<s n="n"/></r></p><par n="d:gascon"/></e>
@@ -102717,9 +102756,6 @@
 <e a="Congrès"><p><l>seriós<s n="n"/></l><r>sérieux<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>sinistrat<s n="n"/></l><r>sinistré<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>susmautat<s n="n"/></l><r>mutin<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>trentau<s n="n"/></l><r>trentième<s n="n"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>tresau<s n="n"/></l><r>troisième<s n="n"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>tretzau<s n="n"/></l><r>treizième<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>violent<s n="n"/></l><r>violent<s n="n"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>badaire<s n="n"/></l><r>mêle-tout<s n="n"/><s n="mf"/><s n="sp"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès" r="RL"><p><l>badaire<s n="n"/></l><r>mêletout<s n="n"/><s n="mf"/></r></p><par n="d:lengadocian"/></e>
@@ -102731,10 +102767,8 @@
 <e a="Congrès"><p><l>contramèstre<s n="n"/></l><r>contre-maître<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>contramèstre<s n="n"/></l><r>contremaître<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>darrièr<b/>nascut<s n="n"/></l><r>dernier-né<s n="n"/></r></p><par n="d:lengadocian"/></e>
-<e a="Congrès" r="RL"><p><l>desen<s n="n"/></l><r>dixième<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>emmerdaire<s n="n"/></l><r>emmerdeur<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>empoisonaire<s n="n"/></l><r>empoisonneur<s n="n"/></r></p><par n="d:lengadocian"/></e>
-<e a="Congrès"><p><l>ennen<s n="n"/></l><r>énième<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>enviat<s n="n"/></l><r>envoyé<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>fendeire<s n="n"/></l><r>fendeur<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>financièr<s n="n"/></l><r>financier<s n="n"/></r></p><par n="d:lengadocian"/></e>
@@ -102745,6 +102779,7 @@
 <e a="Congrès"><p><l>matinièr<s n="n"/></l><r>lève-tôt<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>matracaire<s n="n"/></l><r>matraqueur<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès" r="RL"><p><l>menaire<s n="n"/></l><r>chef<g><b/>de<b/>file</g><s n="n"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
+<e a="hector" r="RL"><p><l>gavidaire<s n="n"/></l><r>chef<g><b/>de<b/>file</g><s n="n"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>meteire<s n="n"/></l><r>metteur<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>pauruc<s n="n"/></l><r>peureux<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès" r="RL"><p><l>pèc<s n="n"/></l><r>benêt<s n="n"/></r></p><par n="d:lengadocian"/></e>
@@ -102755,7 +102790,6 @@
 <e a="Congrès"><p><l>rendièr<s n="n"/></l><r>rentier<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>rondinaire<s n="n"/></l><r>grognon<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>sadomasoquista<s n="n"/></l><r>sado-masochiste<s n="n"/></r></p><par n="d:lengadocian"/></e>
-<e a="Congrès" r="RL"><p><l>seisen<s n="n"/></l><r>sixième<s n="n"/></r></p><par n="mf_mf"/><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>tardieràs<s n="n"/></l><r>lève-tard<s n="n"/><s n="mf"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>trigossaire<s n="n"/></l><r>zonard<s n="n"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>ahuecadís<s n="n"/><s n="m"/></l><r>poudrière<s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
@@ -102897,7 +102931,7 @@
 <e a="Congrès" r="RL"><p><l>bordèu<s n="n"/><s n="m"/></l><r>bordel<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>bròc<b/>blanc<s n="n"/><s n="m"/></l><r>aubépine<s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>brot<s n="n"/><s n="m"/></l><r>brout<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>calma<s n="n"/><s n="m"/></l><r>calme<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
+<e a="Congrès"><p><l>calma<s n="n"/><s n="f"/></l><r>calme<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>camp<g>de<b/>césers</g><s n="n"/><s n="m"/></l><r>champ<g><b/>de<b/>pois</g><s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>caud<s n="n"/><s n="m"/></l><r>chaud<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>centrifugader<s n="n"/><s n="m"/></l><r>centrifugeur<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
@@ -102927,7 +102961,6 @@
 <e a="Congrès"><p><l>eslorit<s n="n"/><s n="m"/></l><r>moisi<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>especific<s n="n"/><s n="m"/></l><r>spécifique<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>esponcet<s n="n"/><s n="m"/></l><r>époussette<s n="n"/><s n="f"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>essenciau<s n="n"/><s n="m"/></l><r>essentiel<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>extraordinari<s n="n"/><s n="m"/></l><r>extraordinaire<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>fantastic<s n="n"/></l><r>fantastique<s n="n"/><s n="mf"/></r></p></e>
 <e a="Congrès"><p><l>femenin<s n="n"/><s n="m"/></l><r>féminin<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
@@ -102966,7 +102999,7 @@
 <e a="Congrès"><p><l>polivalent<s n="n"/><s n="m"/></l><r>polyvalent<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>possessiu<s n="n"/><s n="m"/></l><r>possessif<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>postish<s n="n"/><s n="m"/></l><r>postiche<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>prunèu<s n="n"/><s n="m"/></l><r>pruneau<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
+<e a="Congrès"><p><l>prunèl<s n="n"/><s n="m"/></l><r>pruneau<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>rance<s n="n"/><s n="m"/></l><r>rance<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>refolader<s n="n"/><s n="m"/></l><r>refouloir<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>revelator<s n="n"/><s n="m"/></l><r>révélateur<s n="n"/><s n="m"/></r></p><par n="d:gascon"/></e>
@@ -103137,7 +103170,6 @@
 <e a="Congrès"><p><l>a<b/>portada<b/>de<s n="pr"/></l><r>à<b/>portée<b/>de<s n="pr"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>dab<b/>lo<b/>pretèxte<b/>de<s n="pr"/></l><r>sous<b/>prétexte<b/>de<s n="pr"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>devath<b/>lo<b/>cobèrt<b/>de<s n="pr"/></l><r>sous<b/>le<b/>couvert<b/>de<s n="pr"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>jos<b/>l'egidi<b/>de<s n="pr"/></l><r>sous<b/>l'égide<b/>de<s n="pr"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>per<b/>delà<s n="pr"/></l><r>par-delà<s n="pr"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>a<b/>la<b/>suspresa<b/>de<s n="pr"/></l><r>à<b/>la<b/>surprise<b/>de<s n="pr"/></r></p><par n="d:lengadocian"/></e>
 <e a="Congrès"><p><l>al<b/>fil<b/>de<s n="pr"/></l><r>au<b/>fil<b/>de<s n="pr"/></r></p><par n="d:lengadocian"/></e>
@@ -103154,7 +103186,6 @@
 <e a="Congrès"><p><l>desconvidar<s n="vblex"/></l><r>désinviter<s n="vblex"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>desenquadrar<s n="vblex"/></l><r>désencadrer<s n="vblex"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>desmerdar<s n="vblex"/></l><r>démerder<s n="vblex"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès"><p><l>dever<s n="vblex"/></l><r>devoir<s n="vblex"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>dindolejar<s n="vblex"/></l><r>dandiner<s n="vblex"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>eishalancar<s n="vblex"/></l><r>déhancher<s n="vblex"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>en·hariar<s n="vblex"/></l><r>enfariner<s n="vblex"/></r></p><par n="d:gascon"/></e>
@@ -103172,7 +103203,7 @@
 <e a="Congrès" r="RL"><p><l>har<g><b/>encapir</g><s n="vblex"/></l><r>mettre<g><b/>en<b/>tête</g><s n="vblex"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>har<g><b/>mauescàder</g><s n="vblex"/></l><r>mettre<g><b/>en<b/>défaut</g><s n="vblex"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>har<g><b/>partida</g><s n="vblex"/></l><r>faire<g><b/>partie</g><s n="vblex"/></r></p><par n="d:gascon"/></e>
-<e a="Congrès" r="RL"><p><l>har<g><b/>vàder</g><s n="vblex"/></l><r>faire<g><b/>venir</g><s n="vblex"/></r></p><par n="d:gascon"/></e>
+<e a="Congrès" r="RL"><p><l>har<g><b/>viéner</g><s n="vblex"/></l><r>faire<g><b/>venir</g><s n="vblex"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès"><p><l>henelhar<s n="vblex"/></l><r>fendiller<s n="vblex"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>hòraviar<s n="vblex"/></l><r>fourvoyer<s n="vblex"/></r></p><par n="d:gascon"/></e>
 <e a="Congrès" r="RL"><p><l>mancar<g><b/>de</g><s n="vblex"/></l><r>être<g><b/>à<b/>court<b/>de</g><s n="vblex"/></r></p><par n="d:gascon"/></e>

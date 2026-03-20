@@ -3702,6 +3702,26 @@
     <rule weight="1.0">
       <match lemma="performance" tags="n.f.pl"><select lemma="resultat"/></match>
     </rule>
+
+
+    <!-- chute >> casuda, cascada -->
+    <rule weight="0.8">
+      <match lemma="chute" tags="n.*"><select lemma="casuda"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="chute" tags="n.f.pl"><select lemma="cascada"/></match>
+      <match lemma="de" tags="pr"/>
+      <repeat from="0" upto="1">
+        <match tags="det.def.*"/>
+      </repeat>
+      <or>
+        <match tags="np.top.*"/>
+        <match tags="" case="Aa"/>
+      </or>
+    </rule>
+
+
+
   </rules>
 </lrx>
 

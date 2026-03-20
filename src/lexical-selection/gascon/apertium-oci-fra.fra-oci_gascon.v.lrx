@@ -2956,7 +2956,6 @@
     <macro n="verb_nopron_pron"><with-param v="aggraver"/><with-param v="agravar"/><with-param v="guastar"/></macro>
 
     <!-- appeler >> aperar, sonar, cridar... -->
-    <macro n="verb_nopron_pron"><with-param v="appeler"/><with-param v="cridar"/><with-param v="aperar"/></macro>
     <rule weight="1.4">
       <or>
         <match tags="np.*"/>
