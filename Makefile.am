@@ -52,6 +52,7 @@ TARGETS_COMMON =		\
 	bin/$(PREFIX2L).autosep2.bin \
 	bin/$(PREFIX1).autogen.bin	\
 	bin/$(PREFIX1).autopgen.bin	\
+	bin/$(PREFIX1).variety.t1x.bin \
 	bin/$(PREFIX1).t1x.bin	\
 	build/$(PREFIX1).t1x			\
 	bin/$(PREFIX1G).t1x.bin	\
@@ -434,6 +435,9 @@ bin/$(PREFIX2L).other.autolex.bin: .deps/$(PREFIX2L).other.lrx
 ## Structural transfer rules
 ###############################################################################
 
+bin/$(PREFIX1).variety.t1x.bin: src/transfer/chunkers/$(BASENAME).$(PREFIX1).variety.t1x
+	apertium-preprocess-transfer $< $@
+
 build/$(PREFIX1).t1x: src/transfer/chunkers/$(BASENAME).$(PREFIX1).t1x
 	apertium-filter-rules oci src/transfer/chunkers/$(BASENAME).$(PREFIX1).t1x >$@
 
@@ -695,6 +699,7 @@ EXTRA_DIST=					\
 		src/lexical-selection/$(BASENAME).$(PREFIX2).v.lrx	\
 		src/lexical-selection/gascon/$(BASENAME).$(PREFIX2G).v.lrx	\
 		src/lexical-selection/lengadocian/$(BASENAME).$(PREFIX2L).v.lrx	\
+		src/transfer/chunkers/$(BASENAME).$(PREFIX1).variety.t1x \
 		src/transfer/chunkers/$(BASENAME).$(PREFIX1).t1x	\
 		src/transfer/chunkers/$(BASENAME).$(PREFIX1G).t1x	\
 		src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2x_temps	\
@@ -742,6 +747,7 @@ apertium_oci_fradir=$(prefix)/share/apertium/$(BASENAME)/
 # Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
 apertium_oci_fra_DATA=	\
 	$(TARGETS_COMMON)				\
+	src/transfer/chunkers/$(BASENAME).$(PREFIX1).variety.t1x \
 	src/transfer/chunkers/$(BASENAME).$(PREFIX1).t1x			\
 	src/transfer/chunkers/$(BASENAME).$(PREFIX1G).t1x			\
 	src/transfer/interchunks/$(BASENAME).$(PREFIX1).t2x_temps			\

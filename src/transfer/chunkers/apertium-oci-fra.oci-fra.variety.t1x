@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transfer>
+  <section-def-cats>
+    <def-cat n="any">
+      <cat-item tags="*"/>
+    </def-cat>
+    <def-cat n="unknown">
+      <cat-item lemma="*" tags=""/>
+    </def-cat>
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="exclude_variety_tags">
+      <attr-item tags="nd:gascon"/>
+      <attr-item tags="nd:lengadocian"/>
+      <attr-item tags="nd:aranes"/>
+    </def-attr>
+  </section-def-attrs>
+
+  <section-rules>
+    <rule c="variant cleanup">
+      <pattern>
+        <pattern-item n="any"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="exclude_variety_tags"/><lit v=""/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="sl" part="whole"/>
+            <lit v="/"/>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule c="unknown words">
+      <pattern>
+        <pattern-item n="unknown"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="sl" part="whole"/>
+            <lit v="/"/>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+  </section-rules>
+</transfer>
