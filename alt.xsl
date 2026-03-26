@@ -107,7 +107,7 @@
             <xsl:if test="not(local-name(.)=string('group'))"> 
               <xsl:value-of select="string('&gt;')"/>
             </xsl:if>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="node()[not(self::par[@n[starts-with(., 'nd:')]])]"/>
             <xsl:if test="not(local-name(.)=string('group'))">           
               <xsl:value-of select="string('&lt;/')"/>
               <xsl:value-of select="local-name(.)"/>
