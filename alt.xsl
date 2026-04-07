@@ -58,7 +58,7 @@
               <xsl:if test="not(local-name($parent)=string('group'))"> 
                 <xsl:value-of select="string('&gt;')"/>
               </xsl:if>
-              <xsl:apply-templates select="../node()[not(self::par[@n[starts-with(., 'd:')]]) and not(self::par[@n[starts-with(., 'nd:')]])]"/>
+              <xsl:apply-templates select="../node()[not(self::par[@n[starts-with(., 'd:')]])]"/>
 
               <xsl:value-of select="string('&lt;')"/>
               <xsl:value-of select="local-name(.)"/>
@@ -107,7 +107,7 @@
             <xsl:if test="not(local-name(.)=string('group'))"> 
               <xsl:value-of select="string('&gt;')"/>
             </xsl:if>
-            <xsl:apply-templates select="node()[not(self::par[@n[starts-with(., 'nd:')]])]"/>
+            <xsl:apply-templates/>
             <xsl:if test="not(local-name(.)=string('group'))">           
               <xsl:value-of select="string('&lt;/')"/>
               <xsl:value-of select="local-name(.)"/>

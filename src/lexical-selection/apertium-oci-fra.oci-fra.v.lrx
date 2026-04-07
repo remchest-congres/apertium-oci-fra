@@ -3267,6 +3267,10 @@
     <macro n="verb_nopron_pron"><with-param v="negar"/><with-param v="nier"/><with-param v="noyer"/></macro>
 
     <!-- parcar >> garer, parquer -->
+    <macro n="verb_nopron_pron"><with-param v="parcar"/><with-param v="parquer"/><with-param v="garer"/></macro>
+    <rule weight="0.8">
+      <match lemma="parcar" tags="vblex.*"><select lemma="parquer"/></match>
+    </rule>
     <rule weight="1.0">
       <match lemma="parcar" tags="vblex.*"><select lemma="garer"/></match>
       <repeat from="0" upto="3">

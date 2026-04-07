@@ -2666,62 +2666,6 @@
     <!-- tesicar >> taquiner, inquiéter -->
     <macro n="verb_nopron_pron"><with-param v="tesicar"/><with-param v="taquiner"/><with-param v="inquiéter"/></macro>
 
-    <!-- parcar >> garer, parquer -->
-    <macro n="verb_nopron_pron"><with-param v="parcar"/><with-param v="parquer"/><with-param v="garer"/></macro>
-    <rule weight="0.8">
-      <match lemma="parcar" tags="vblex.*"><select lemma="parquer"/></match>
-    </rule>
-    <rule weight="1.0">
-      <match lemma="parcar" tags="vblex.*"><select lemma="garer"/></match>
-      <repeat from="0" upto="3">
-        <or>
-        <match tags="det.*"/>
-        <match tags="num.*"/>
-        <match tags="num"/>
-        <match tags="adv"/>
-        <match tags="preadv"/>
-        <match tags="adj.*"/>
-        </or>
-      </repeat>
-      <or>
-        <match lemma="veitura" tags="n.*"/>
-        <match lemma="auto" tags="n.*"/>
-        <match lemma="autò" tags="n.*"/>
-        <match lemma="automobila" tags="n.*"/>
-        <match lemma="veïcul" tags="n.*"/>
-        <match lemma="carri" tags="n.*"/>
-        <match lemma="carreton" tags="n.*"/>
-        <match lemma="bicicleta" tags="n.*"/>
-        <match lemma="velo" tags="n.*"/>
-        <match lemma="velò" tags="n.*"/>
-        <match lemma="VTT" tags="n.*"/>
-        <match lemma="BTT" tags="n.*"/>
-        <match lemma="V.T.T." tags="n.*"/>
-        <match lemma="B.T.T." tags="n.*"/>
-        <match lemma="V.T.C." tags="n.*"/>
-        <match lemma="B.T.C." tags="n.*"/>
-        <match lemma="VTC" tags="n.*"/>
-        <match lemma="BTC" tags="n.*"/>
-        <match lemma="bici" tags="n.*"/>
-        <match lemma="petarèl" tags="n.*"/>
-        <match lemma="petafum" tags="n.*"/>
-        <match lemma="petahum" tags="n.*"/>
-        <match lemma="petarreta" tags="n.*"/>
-        <match lemma="velomotor" tags="n.*"/>
-        <match lemma="escotèr" tags="n.*"/>
-        <match lemma="scooter" tags="n.*"/>
-        <match lemma="landaire" tags="n.*"/>
-        <match lemma="vèspa" tags="n.*"/>
-        <match lemma="mòto" tags="n.*"/>
-        <match lemma="motò" tags="n.*"/>
-        <match lemma="moto" tags="n.*"/>
-        <match lemma="motocicleta" tags="n.*"/>
-        <match lemma="ciclomotor" tags="n.*"/>
-        <match lemma="mobileta" tags="n.*"/>
-        <match tags="np.*"/>
-        <match tags=""/>
-      </or>
-    </rule>
 
     <!-- sarrar >> serrer, reserrer rapprocher -->
     <rule weight="0.8">
