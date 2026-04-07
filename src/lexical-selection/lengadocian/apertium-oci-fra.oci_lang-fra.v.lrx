@@ -2885,11 +2885,6 @@
     <rule weight="0.8">
       <match lemma="rajar" tags="vblex.*"><select lemma="couler"/></match>
     </rule>
-
-    <!-- acampar >> amasser -->
-    <rule weight="0.8">
-      <match lemma="acampar" tags="vblex.*"><select lemma="amasser"/></match>
-    </rule>
   </rules>
 </lrx>
 
