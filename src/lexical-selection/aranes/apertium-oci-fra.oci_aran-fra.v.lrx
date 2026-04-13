@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lrx>
+  <rules>
+  <!-- Règlas per evitar la traduccion d'un mot dempuèi una autra varietat -->
+<rule weight="0.8">
+ <match lemma="abaishar" tags="vblex.*"><select lemma="descendre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="abarrejar" tags="vblex.*"><select lemma="répandre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="abocar" tags="vblex.*"><select lemma="verser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="acertar" tags="vblex.*"><select lemma="deviner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="aisinar" tags="vblex.*"><select lemma="faciliter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="aisir" tags="vblex.*"><select lemma="mettre à l'aise"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="armar" tags="vblex.*"><select lemma="armer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="avalar" tags="vblex.*"><select lemma="avaliser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="condicionar" tags="vblex.*"><select lemma="aménager"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="contractar" tags="vblex.*"><select lemma="embaucher"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cordar" tags="vblex.*"><select lemma="boutonner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="engenhar" tags="vblex.*"><select lemma="machiner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="esborrar" tags="vblex.*"><select lemma="effacer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="espatlar" tags="vblex.*"><select lemma="abîmer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="fomentar" tags="vblex.*"><select lemma="promouvoir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="gastar" tags="vblex.*"><select lemma="dépenser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="mascarar" tags="vblex.*"><select lemma="masquer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="menar" tags="vblex.*"><select lemma="emmener"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="mutar" tags="vblex.*"><select lemma="muter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="sorgentar" tags="vblex.*"><select lemma="feuiller"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="soviéner" tags="vblex.*"><select lemma="souvenir"/></match>
+</rule>
+
+
+
+  </rules>
+</lrx>
+
+<!--
+Resources:
+    https://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    https://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    https://wiki.apertium.org/wiki/Lexical_selection
+    https://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
+-->

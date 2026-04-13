@@ -3161,6 +3161,576 @@
       </repeat>
       <match tags="vblex.inf"/>
     </rule>
+
+
+  <!-- Règlas per evitar la traduccion d'un mot dempuèi una autra varietat -->
+<rule weight="0.8">
+ <match lemma="abaishar" tags="vblex.*"><select lemma="abaisser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="abarrejar" tags="vblex.*"><select lemma="répandre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="abocar" tags="vblex.*"><select lemma="déboucher sur"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="abonar" tags="vblex.*"><select lemma="abonner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="abonir" tags="vblex.*"><select lemma="rapporter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="aborrir" tags="vblex.*"><select lemma="détester"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="abracar" tags="vblex.*"><select lemma="abréger"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="absòlver" tags="vblex.*"><select lemma="absoudre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="acampar" tags="vblex.*"><select lemma="rassembler"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="acertar" tags="vblex.*"><select lemma="certifier"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="acorsar" tags="vblex.*"><select lemma="traquer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="adjudicar" tags="vblex.*"><select lemma="adjuger"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="adusir" tags="vblex.*"><select lemma="apporter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="afanar" tags="vblex.*"><select lemma="empresser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="afortir" tags="vblex.*"><select lemma="renforcer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="afustar" tags="vblex.*"><select lemma="pointer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="aganchar" tags="vblex.*"><select lemma="prendre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="agarrar" tags="vblex.*"><select lemma="saisir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="agotar" tags="vblex.*"><select lemma="écoper"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="agropar" tags="vblex.*"><select lemma="accoler"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="aisinar" tags="vblex.*"><select lemma="faciliter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="aisir" tags="vblex.*"><select lemma="mettre à l'aise"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="alogar" tags="vblex.*"><select lemma="remettre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="amarar" tags="vblex.*"><select lemma="amerrir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="animar" tags="vblex.*"><select lemma="animer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="aprigondir" tags="vblex.*"><select lemma="approfondir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="armar" tags="vblex.*"><select lemma="armer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="arrancar" tags="vblex.*"><select lemma="arracher"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="arroïnar" tags="vblex.*"><select lemma="dévaster"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="aumplir" tags="vblex.*"><select lemma="remplir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="avalar" tags="vblex.*"><select lemma="avaler"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="aviéner" tags="vblex.*"><select lemma="entendre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="avivar" tags="vblex.*"><select lemma="raviver"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="badar" tags="vblex.*"><select lemma="admirer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="baralhar" tags="vblex.*"><select lemma="bouleverser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="barar" tags="vblex.*"><select lemma="fonctionner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="barbolhar" tags="vblex.*"><select lemma="balbutier"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="barbotar" tags="vblex.*"><select lemma="barboter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="batanar" tags="vblex.*"><select lemma="palpiter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="bofar" tags="vblex.*"><select lemma="bouffer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="bordejar" tags="vblex.*"><select lemma="border"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="borrar" tags="vblex.*"><select lemma="tromper"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="bracar" tags="vblex.*"><select lemma="braquer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="brandir" tags="vblex.*"><select lemma="brandir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="brigalhar" tags="vblex.*"><select lemma="concasser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="bronzir" tags="vblex.*"><select lemma="vrombir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="brotar" tags="vblex.*"><select lemma="bourgeonner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="butar" tags="vblex.*"><select lemma="choquer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="calinar" tags="vblex.*"><select lemma="câliner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="campar" tags="vblex.*"><select lemma="camper"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cancelar" tags="vblex.*"><select lemma="résilier"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="canerar" tags="vblex.*"><select lemma="drainer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cargar" tags="vblex.*"><select lemma="charger"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="charpar" tags="vblex.*"><select lemma="griffer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="charrar" tags="vblex.*"><select lemma="converser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="chicanar" tags="vblex.*"><select lemma="tricher"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="coitar" tags="vblex.*"><select lemma="empresser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="condicionar" tags="vblex.*"><select lemma="conditionner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="confónder" tags="vblex.*"><select lemma="confondre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="contractar" tags="vblex.*"><select lemma="contracter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cordar" tags="vblex.*"><select lemma="corder"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cridar" tags="vblex.*"><select lemma="crier"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="dauarar" tags="vblex.*"><select lemma="descendre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="denegar" tags="vblex.*"><select lemma="nier"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="desacadiar" tags="vblex.*"><select lemma="déchaîner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="desalogar" tags="vblex.*"><select lemma="luxer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="desaviar" tags="vblex.*"><select lemma="divaguer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="desborrar" tags="vblex.*"><select lemma="débourrer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="descabestrar" tags="vblex.*"><select lemma="déchaîner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="descarar" tags="vblex.*"><select lemma="dévisager"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="descargar" tags="vblex.*"><select lemma="décharger"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="desconsolar" tags="vblex.*"><select lemma="affliger"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="desondrar" tags="vblex.*"><select lemma="déshonorer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="desraubar" tags="vblex.*"><select lemma="voler"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="desrocar" tags="vblex.*"><select lemma="renverser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="destacar" tags="vblex.*"><select lemma="détacher"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="destornar" tags="vblex.*"><select lemma="renverser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="desvolopar" tags="vblex.*"><select lemma="développer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="difónder" tags="vblex.*"><select lemma="diffuser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="discutir" tags="vblex.*"><select lemma="discuter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="docejar" tags="vblex.*"><select lemma="radoucir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="dondar" tags="vblex.*"><select lemma="secouer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="dormir" tags="vblex.*"><select lemma="dormir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="duplicar" tags="vblex.*"><select lemma="dupliquer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="elegir" tags="vblex.*"><select lemma="élire"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="embocar" tags="vblex.*"><select lemma="emboîter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="emboçar" tags="vblex.*"><select lemma="embouteiller"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="empaurir" tags="vblex.*"><select lemma="apeurer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="empegar" tags="vblex.*"><select lemma="empêtrer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="enairar" tags="vblex.*"><select lemma="élever"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="enartar" tags="vblex.*"><select lemma="échafauder"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="encapar" tags="vblex.*"><select lemma="commencer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="encolar" tags="vblex.*"><select lemma="enduire"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="enfadar" tags="vblex.*"><select lemma="fâcher"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="engenhar" tags="vblex.*"><select lemma="machiner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="engravar" tags="vblex.*"><select lemma="aggraver"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="enlusernar" tags="vblex.*"><select lemma="éblouir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="enténder" tags="vblex.*"><select lemma="entendre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="enverinar" tags="vblex.*"><select lemma="envenimer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="esbalausir" tags="vblex.*"><select lemma="abasourdir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="esbocinar" tags="vblex.*"><select lemma="découper"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="esborrar" tags="vblex.*"><select lemma="peigner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="escalabrar" tags="vblex.*"><select lemma="ravager"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="escandilhar" tags="vblex.*"><select lemma="échantillonner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="escapolar" tags="vblex.*"><select lemma="ébaucher"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="escarnir" tags="vblex.*"><select lemma="bafouer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="escuélher" tags="vblex.*"><select lemma="choisir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="espatlar" tags="vblex.*"><select lemma="épauler"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="esperbolir" tags="vblex.*"><select lemma="blanchir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="esporgar" tags="vblex.*"><select lemma="désherber"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="estiflar" tags="vblex.*"><select lemma="gifler"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="estraçar" tags="vblex.*"><select lemma="tomber en lambeaux"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="estremar" tags="vblex.*"><select lemma="écarter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="experimentar" tags="vblex.*"><select lemma="expérimenter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="flotejar" tags="vblex.*"><select lemma="flotter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="fomentar" tags="vblex.*"><select lemma="fomenter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="fracassar" tags="vblex.*"><select lemma="fracasser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="gastar" tags="vblex.*"><select lemma="gâter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="gitar" tags="vblex.*"><select lemma="gîter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="gospar" tags="vblex.*"><select lemma="humecter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="grauar" tags="vblex.*"><select lemma="graver"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="gravar" tags="vblex.*"><select lemma="graver"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="groar" tags="vblex.*"><select lemma="stagner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="guastar" tags="vblex.*"><select lemma="gâter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="guinhar" tags="vblex.*"><select lemma="épier"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="immergir" tags="vblex.*"><select lemma="immerger"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="incrementar" tags="vblex.*"><select lemma="incrémenter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="iniciar" tags="vblex.*"><select lemma="initier"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="invertir" tags="vblex.*"><select lemma="inverser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="investigar" tags="vblex.*"><select lemma="investiguer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="jàser" tags="vblex.*"><select lemma="coucher"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="lampejar" tags="vblex.*"><select lemma="clignoter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="liurar" tags="vblex.*"><select lemma="livrer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="losar" tags="vblex.*"><select lemma="daller"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="marchar" tags="vblex.*"><select lemma="marcher"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="mascanhar" tags="vblex.*"><select lemma="abîmer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="mascarar" tags="vblex.*"><select lemma="barbouiller"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="matrassar" tags="vblex.*"><select lemma="matraquer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="menar" tags="vblex.*"><select lemma="emmener"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="monar" tags="vblex.*"><select lemma="bouder"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="morgar" tags="vblex.*"><select lemma="amorcer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="mutar" tags="vblex.*"><select lemma="muter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="obrejar" tags="vblex.*"><select lemma="couper"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="originar" tags="vblex.*"><select lemma="occasionner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="paliuar" tags="vblex.*"><select lemma="essayer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pausar" tags="vblex.*"><select lemma="poser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="petejar" tags="vblex.*"><select lemma="pétarader"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="placardar" tags="vblex.*"><select lemma="afficher"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pónder" tags="vblex.*"><select lemma="pondre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pónher" tags="vblex.*"><select lemma="poindre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="posar" tags="vblex.*"><select lemma="puiser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="possar" tags="vblex.*"><select lemma="pousser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="preténer" tags="vblex.*"><select lemma="prétendre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="provar" tags="vblex.*"><select lemma="prouver"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="provedir" tags="vblex.*"><select lemma="pourvoir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="quèir" tags="vblex.*"><select lemma="tomber"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="quitar" tags="vblex.*"><select lemma="quitter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="ramplir" tags="vblex.*"><select lemma="ravaler"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="recaptar" tags="vblex.*"><select lemma="ranger"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="recórrer" tags="vblex.*"><select lemma="recourir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="redactar" tags="vblex.*"><select lemma="rédiger"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="reflexionar" tags="vblex.*"><select lemma="réflexionner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="regalar" tags="vblex.*"><select lemma="régaler"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="reguitnar" tags="vblex.*"><select lemma="ruer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="rejónher" tags="vblex.*"><select lemma="rejoindre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="relacionar" tags="vblex.*"><select lemma="relationner"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="repassar" tags="vblex.*"><select lemma="repasser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="restar" tags="vblex.*"><select lemma="rester"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="retalhar" tags="vblex.*"><select lemma="recouper"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="retrocedir" tags="vblex.*"><select lemma="rétrocéder"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="revirar" tags="vblex.*"><select lemma="traduire"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="sacar" tags="vblex.*"><select lemma="chasser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="senhalar" tags="vblex.*"><select lemma="signaler"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="sèser" tags="vblex.*"><select lemma="asseoir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="somar" tags="vblex.*"><select lemma="sommer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="succedir" tags="vblex.*"><select lemma="succéder"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="sumir" tags="vblex.*"><select lemma="suinter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="talhar" tags="vblex.*"><select lemma="tailler"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="tractar" tags="vblex.*"><select lemma="traiter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="traspassar" tags="vblex.*"><select lemma="surmonter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="trempar" tags="vblex.*"><select lemma="plonger"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="truquejar" tags="vblex.*"><select lemma="tapoter"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="udolar" tags="vblex.*"><select lemma="hululer"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="untar" tags="vblex.*"><select lemma="graisser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="usclar" tags="vblex.*"><select lemma="flamber"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="valorar" tags="vblex.*"><select lemma="valoriser"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="volastrejar" tags="vblex.*"><select lemma="voltiger"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="volatejar" tags="vblex.*"><select lemma="voltiger"/></match>
+</rule>
+
+
+
   </rules>
 </lrx>
 

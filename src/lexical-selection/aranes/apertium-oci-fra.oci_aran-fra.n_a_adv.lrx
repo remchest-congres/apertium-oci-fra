@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lrx>
+  <def-seqs>
+  </def-seqs>
+
+  <rules>
+
+  <!-- Règlas per evitar la traduccion d'un mot dempuèi una autra varietat -->
+<rule weight="0.8">
+ <match lemma="auriòl" tags="adj.*"><select lemma="jaune"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="espandit" tags="adj.*"><select lemma="répandu"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="a la debuta de julh" tags="adv.*"><select lemma="début juin"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="a la fin de julh" tags="adv.*"><select lemma="fin juin"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="a ser" tags="adv.*"><select lemma="ce soir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="aperaquí" tags="adv.*"><select lemma="auprès"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="arpa" tags="n.f.*"><select lemma="griffe"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cauquilha" tags="n.f.*"><select lemma="coquille"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="competéncia" tags="n.f.*"><select lemma="concurrence"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="convivéncia" tags="n.f.*"><select lemma="cohabitation"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="anet" tags="n.m.*"><select lemma="aneth"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="artefacte" tags="n.m.*"><select lemma="engin"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="espandiment" tags="n.m.*"><select lemma="expansion"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="gaitader" tags="n.m.*"><select lemma="belvédère"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="manament" tags="n.m.*"><select lemma="mandat"/></match>
+</rule>
+
+
+  </rules>
+
+
+
+
+</lrx>
+
+<!--
+Resources:
+    https://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    https://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    https://wiki.apertium.org/wiki/Lexical_selection
+    https://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
+-->

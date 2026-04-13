@@ -2754,6 +2754,714 @@
         <match lemma="som" tags="n.*"/>
         <match lemma="som" tags="n.*"><select lemma="sommeil"/></match>
     </rule>
+
+
+  <!-- Règlas per evitar la traduccion d'un mot dempuèi una autra varietat -->
+ <rule weight="0.8">
+ <match lemma="aganit" tags="adj.*"><select lemma="avare"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="alurat" tags="adj.*"><select lemma="chic"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="auriòl" tags="adj.*"><select lemma="niais"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="brivent" tags="adj.*"><select lemma="rapide"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cavalièr" tags="adj.*"><select lemma="cavalier"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cavalin" tags="adj.*"><select lemma="chevalin"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="coladís" tags="adj.*"><select lemma="fluide"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="destimborlat" tags="adj.*"><select lemma="loufoque"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="divisor" tags="adj.*"><select lemma="diviseur"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="dolent" tags="adj.*"><select lemma="douloureux"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="enjaurit" tags="adj.*"><select lemma="enjoué"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="espandit" tags="adj.*"><select lemma="répandu"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="espatarrant" tags="adj.*"><select lemma="faramineux"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="espaurugant" tags="adj.*"><select lemma="intimidant"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="graniu" tags="adj.*"><select lemma="fertile"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="limós" tags="adj.*"><select lemma="visqueux"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="lusent" tags="adj.*"><select lemma="brillant"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="messorguièr" tags="adj.*"><select lemma="mensonger"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="miei" tags="adj.*"><select lemma="demi"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="sadol" tags="adj.*"><select lemma="soûl"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="sostenible" tags="adj.*"><select lemma="soutenable"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="ultime" tags="adj.*"><select lemma="ultime"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="a la debuta de julh" tags="adv.*"><select lemma="début juin"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="a la fin de julh" tags="adv.*"><select lemma="fin juin"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="a ser" tags="adv.*"><select lemma="ce soir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="còp sec" tags="adv.*"><select lemma="tout de suite"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="còp-sec" tags="adv.*"><select lemma="tout de suite"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="còpsec" tags="adv.*"><select lemma="tout de suite"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="de longa" tags="adv.*"><select lemma="depuis longtemps"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="de tira" tags="adv.*"><select lemma="tout de suite"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="puish" tags="adv.*"><select lemma="puis"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="tot còp" tags="adv.*"><select lemma="chaque fois"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="coarro" tags="n.*"><select lemma="benjamin"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="corredís" tags="n.*"><select lemma="vagabond"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="demandant" tags="n.*"><select lemma="demandeur"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="fat" tags="n.*"><select lemma="fat"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="ortalan" tags="n.*"><select lemma="maraîcher"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="abitacion" tags="n.f.*"><select lemma="habitation"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="alandada" tags="n.f.*"><select lemma="étendue"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="antiquitat" tags="n.f.*"><select lemma="antiquité"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="arena" tags="n.f.*"><select lemma="arène"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="arpa" tags="n.f.*"><select lemma="griffe"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="asta" tags="n.f.*"><select lemma="broche"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="aurada" tags="n.f.*"><select lemma="daurade"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="barda" tags="n.f.*"><select lemma="vase"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="bodonha" tags="n.f.*"><select lemma="grosseur"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="borda" tags="n.f.*"><select lemma="varicelle"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="borra" tags="n.f.*"><select lemma="bourre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="bota" tags="n.f.*"><select lemma="gourde"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="bronzida" tags="n.f.*"><select lemma="bruissement"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cabòça" tags="n.f.*"><select lemma="cabosse"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="caçòla" tags="n.f.*"><select lemma="terrine"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cajaròca" tags="n.f.*"><select lemma="cahute"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cala" tags="n.f.*"><select lemma="cale"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="carnsalada" tags="n.f.*"><select lemma="charcuterie"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cauç" tags="n.f.*"><select lemma="base"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cauquilha" tags="n.f.*"><select lemma="coquille"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cinta" tags="n.f.*"><select lemma="ceinture"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="ciutat" tags="n.f.*"><select lemma="cité"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="colèra" tags="n.f.*"><select lemma="colère"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="competéncia" tags="n.f.*"><select lemma="compétence"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="contrada" tags="n.f.*"><select lemma="contrée"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="contunha" tags="n.f.*"><select lemma="continuité"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="convivéncia" tags="n.f.*"><select lemma="convivialité"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="coscolha" tags="n.f.*"><select lemma="coquillage"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cosina" tags="n.f.*"><select lemma="cuisine"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cosineta" tags="n.f.*"><select lemma="dînette"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="crampa" tags="n.f.*"><select lemma="chambre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cremada" tags="n.f.*"><select lemma="incendie"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="crosada" tags="n.f.*"><select lemma="croisement"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cuca" tags="n.f.*"><select lemma="blatte"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="davalada" tags="n.f.*"><select lemma="descente"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="desgelada" tags="n.f.*"><select lemma="dégel"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="doèla" tags="n.f.*"><select lemma="douve"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="drilhança" tags="n.f.*"><select lemma="allégresse"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="empresa" tags="n.f.*"><select lemma="emprise"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="endòrta" tags="n.f.*"><select lemma="anse"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="entòrta" tags="n.f.*"><select lemma="entorse"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="entrevista" tags="n.f.*"><select lemma="entrevue"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="espotida" tags="n.f.*"><select lemma="écrasement"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="estacion" tags="n.f.*"><select lemma="station"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="estirada" tags="n.f.*"><select lemma="claquage"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="estrada" tags="n.f.*"><select lemma="estrade"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="firma" tags="n.f.*"><select lemma="firme"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="gabiòla" tags="n.f.*"><select lemma="geôle"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="grana" tags="n.f.*"><select lemma="grand"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="grapa" tags="n.f.*"><select lemma="grappin"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="henerècla" tags="n.f.*"><select lemma="crevasse"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="investigacion" tags="n.f.*"><select lemma="investigation"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="jòga" tags="n.f.*"><select lemma="jeu"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="jubilacion" tags="n.f.*"><select lemma="jubilation"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="lecaria" tags="n.f.*"><select lemma="friandise"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="lèit" tags="n.f.*"><select lemma="lait"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="licitacion" tags="n.f.*"><select lemma="licitation"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="longitud" tags="n.f.*"><select lemma="longitude"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="lòsa" tags="n.f.*"><select lemma="lauze"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="lusida" tags="n.f.*"><select lemma="rémission"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="maganha" tags="n.f.*"><select lemma="défaut"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="mandibula" tags="n.f.*"><select lemma="mandibule"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="matriculacion" tags="n.f.*"><select lemma="immatriculation"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="mica" tags="n.f.*"><select lemma="mica"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="mona" tags="n.f.*"><select lemma="guenon"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="mòta" tags="n.f.*"><select lemma="botte"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="notícia" tags="n.f.*"><select lemma="notice"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="ombrina" tags="n.f.*"><select lemma="ombre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pauta" tags="n.f.*"><select lemma="patte"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="peirada" tags="n.f.*"><select lemma="grêle"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pellicula" tags="n.f.*"><select lemma="pellicule"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="persecucion" tags="n.f.*"><select lemma="persécution"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pèsta" tags="n.f.*"><select lemma="peste"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="petega" tags="n.f.*"><select lemma="souci"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="peticion" tags="n.f.*"><select lemma="pétition"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="picalha" tags="n.f.*"><select lemma="nourriture"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pintada" tags="n.f.*"><select lemma="pintade"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pipa" tags="n.f.*"><select lemma="pipe"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="piqueta" tags="n.f.*"><select lemma="binette"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="plancha" tags="n.f.*"><select lemma="planche"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="poja" tags="n.f.*"><select lemma="montée"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="possa" tags="n.f.*"><select lemma="pousse"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pretemporada" tags="n.f.*"><select lemma="présaison"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="proïbicion" tags="n.f.*"><select lemma="prohibition"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pròva" tags="n.f.*"><select lemma="preuve"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="quincalha" tags="n.f.*"><select lemma="babiole"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="rajada" tags="n.f.*"><select lemma="rature"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="repassada" tags="n.f.*"><select lemma="refonte"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="repotegada" tags="n.f.*"><select lemma="grogne"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="sisa" tags="n.f.*"><select lemma="séance"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="soma" tags="n.f.*"><select lemma="somme"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="tintèina" tags="n.f.*"><select lemma="caprice"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="tira" tags="n.f.*"><select lemma="rejet"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="valoracion" tags="n.f.*"><select lemma="valorisation"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="vigilància" tags="n.f.*"><select lemma="vigilance"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="vòlta" tags="n.f.*"><select lemma="volte"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cluca" tags="n.f.*"><select lemma="lunette"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="abric" tags="n.m.*"><select lemma="abri"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="alen" tags="n.m.*"><select lemma="haleine"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="ampliament" tags="n.m.*"><select lemma="acroissement"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="anet" tags="n.m.*"><select lemma="aneth"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="aparament" tags="n.m.*"><select lemma="défense"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="aram" tags="n.m.*"><select lemma="épidémie"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="arpin" tags="n.m.*"><select lemma="morpion"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="artefacte" tags="n.m.*"><select lemma="artefact"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="babau" tags="n.m.*"><select lemma="bestiole"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="bard" tags="n.m.*"><select lemma="vase"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="batent" tags="n.m.*"><select lemma="volet"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="becat" tags="n.m.*"><select lemma="pioche"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="bilhòt" tags="n.m.*"><select lemma="entrave"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="bròc" tags="n.m.*"><select lemma="épine"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="bruc" tags="n.m.*"><select lemma="ruche"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="brusc" tags="n.m.*"><select lemma="marc"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cabal" tags="n.m.*"><select lemma="cheptel"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="calam" tags="n.m.*"><select lemma="plume"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cartèl" tags="n.m.*"><select lemma="cartel"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="casal" tags="n.m.*"><select lemma="jardin"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="chuquet" tags="n.m.*"><select lemma="tétine"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="clesc" tags="n.m.*"><select lemma="coque"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="copet" tags="n.m.*"><select lemma="nuque"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="crespèl" tags="n.m.*"><select lemma="beignet"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="croquet" tags="n.m.*"><select lemma="croquet"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cròs" tags="n.m.*"><select lemma="cavité"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="cuberton" tags="n.m.*"><select lemma="couvercle"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="devís" tags="n.m.*"><select lemma="discours"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="districte" tags="n.m.*"><select lemma="district"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="duèl" tags="n.m.*"><select lemma="duel"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="emborratge" tags="n.m.*"><select lemma="rembourage"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="ermàs" tags="n.m.*"><select lemma="désert"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="escalfament" tags="n.m.*"><select lemma="échauffement"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="escenari" tags="n.m.*"><select lemma="scénario"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="espandiment" tags="n.m.*"><select lemma="expansion"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="esparron" tags="n.m.*"><select lemma="échelon"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="estèc" tags="n.m.*"><select lemma="coup de main"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="expedient" tags="n.m.*"><select lemma="expédient"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="fil" tags="n.m.*"><select lemma="fief"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="gaitader" tags="n.m.*"><select lemma="belvédère"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="gèni" tags="n.m.*"><select lemma="génie"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="glasi" tags="n.m.*"><select lemma="spectre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="gojat" tags="n.m.*"><select lemma="garçon"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="guidon" tags="n.m.*"><select lemma="guidon"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="hilat" tags="n.m.*"><select lemma="filet"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="increment" tags="n.m.*"><select lemma="accroissement"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="inquet" tags="n.m.*"><select lemma="crochet"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="julh" tags="n.m.*"><select lemma="juin"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="lagast" tags="n.m.*"><select lemma="poulpe"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="lanç" tags="n.m.*"><select lemma="jet"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="lapàs" tags="n.m.*"><select lemma="tique"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="maine" tags="n.m.*"><select lemma="domaine"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="malh" tags="n.m.*"><select lemma="hanche"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="manament" tags="n.m.*"><select lemma="ordre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="mandre" tags="n.m.*"><select lemma="merlan"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="marc" tags="n.m.*"><select lemma="marc"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="mauve" tags="n.m.*"><select lemma="mauve"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="morre" tags="n.m.*"><select lemma="museau"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="nud" tags="n.m.*"><select lemma="nu"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="ofici" tags="n.m.*"><select lemma="office"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="palhet" tags="n.m.*"><select lemma="rosé"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="panèl" tags="n.m.*"><select lemma="panel"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="partit" tags="n.m.*"><select lemma="parti"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pedaç" tags="n.m.*"><select lemma="lambeau"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pelon" tags="n.m.*"><select lemma="peton"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="penon" tags="n.m.*"><select lemma="pignon"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pesquèr" tags="n.m.*"><select lemma="mare"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pet" tags="n.m.*"><select lemma="explosion"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="petin" tags="n.m.*"><select lemma="peton"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pichèr" tags="n.m.*"><select lemma="pichet"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="piulet" tags="n.m.*"><select lemma="cri"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="planheròt" tags="n.m.*"><select lemma="palier"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="plantatge" tags="n.m.*"><select lemma="plantage"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="plumalh" tags="n.m.*"><select lemma="flocon"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="plumon" tags="n.m.*"><select lemma="duvet"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="pòr" tags="n.m.*"><select lemma="poireau"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="postat" tags="n.m.*"><select lemma="cloison"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="prestatge" tags="n.m.*"><select lemma="prêt"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="rabàs" tags="n.m.*"><select lemma="blaireau"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="regrelh" tags="n.m.*"><select lemma="renouveau"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="remplec" tags="n.m.*"><select lemma="ourlet"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="retalh" tags="n.m.*"><select lemma="rognure"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="rodatge" tags="n.m.*"><select lemma="rouage"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="roncament" tags="n.m.*"><select lemma="grondement"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="ronhon" tags="n.m.*"><select lemma="rognon"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="saile" tags="n.m.*"><select lemma="cache-misère"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="sap" tags="n.m.*"><select lemma="sève"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="scenari" tags="n.m.*"><select lemma="scénario"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="solèr" tags="n.m.*"><select lemma="niveau"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="sòrt" tags="n.m.*"><select lemma="sort"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="terràs" tags="n.m.*"><select lemma="cruche"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="tesic" tags="n.m.*"><select lemma="inquiétude"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="tiret" tags="n.m.*"><select lemma="tiroir"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="tiron" tags="n.m.*"><select lemma="tertre"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="toalhon" tags="n.m.*"><select lemma="napperon"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="torrom" tags="n.m.*"><select lemma="touron"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="tram" tags="n.m.*"><select lemma="tramway"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="trèu" tags="n.m.*"><select lemma="trace"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="vam" tags="n.m.*"><select lemma="entrain"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="expòrt" tags="n.m.*"><select lemma="export"/></match>
+</rule>
+
+
+
   </rules>
 </lrx>
 

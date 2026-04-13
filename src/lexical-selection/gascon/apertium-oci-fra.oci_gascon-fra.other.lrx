@@ -5604,6 +5604,30 @@
     <macro n="gen_lo_que_qui"><with-param v="eras e eths que"/><with-param v="celles et ceux que"/><with-param v="celles et ceux qui"/></macro>
     <macro n="gen_lo_que_qui"><with-param v="aqueth que"/><with-param v="celui que"/><with-param v="celui qui"/></macro>
     <macro n="gen_lo_que_qui"><with-param v="aqueth qui"/><with-param v="celui que"/><with-param v="celui qui"/></macro>
+
+
+  <!-- Règlas per evitar la traduccion d'un mot dempuèi una autra varietat -->
+<rule weight="0.8">
+	<match lemma="mentre" tags="cnjadv.*"><select lemma="pendant que"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="a despiet de" tags="pr.*"><select lemma="en dépit de"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="au ras de" tags="pr.*"><select lemma="à côté de"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="per delà" tags="pr.*"><select lemma="par-delà"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="per'mor de" tags="pr.*"><select lemma="à cause de"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="segons" tags="pr.*"><select lemma="selon"/></match>
+</rule>
+
+
+
   </rules>
 </lrx>
 

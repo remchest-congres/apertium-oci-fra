@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lrx>
+  <rules>
+  <!-- Règlas per evitar la traduccion d'un mot dempuèi una autra varietat -->
+<rule weight="0.8">
+ <match lemma="lo" tags="prn.*"><select lemma="le"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="lo" tags="prn.*"><select lemma="le"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="lo" tags="prn.*"><select lemma="le"/></match>
+</rule>
+
+
+
+
+  </rules>
+</lrx>
+
+<!--
+Resources:
+    https://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    https://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    https://wiki.apertium.org/wiki/Lexical_selection
+    https://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
+-->
