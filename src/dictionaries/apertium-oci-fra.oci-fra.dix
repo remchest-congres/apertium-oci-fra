@@ -98,9 +98,6 @@
     <sdef n="d:gascon" c="mot del dialècte Gascon"/>
     <sdef n="d:lengadocian" c="mot del dialècte Lengadocian"/>
     <sdef n="d:aranes" c="mot del dialècte Aranés"/>
-    <sdef n="nd:gascon" c="traduccion d'ignorar pel dialècte Gascon"/>
-    <sdef n="nd:lengadocian" c="traduccion d'ignorar pel dialècte Lengadocian"/>
-    <sdef n="nd:aranes" c="traduccion d'ignorar pel dialècte Aranés"/>
   </sdefs>
 
   <pardefs>
@@ -117,21 +114,6 @@
     <pardef n="d:aranes">
       <e r="LR"><p><l></l><r></r></p></e>
       <e r="RL"><p><l><s n="d:aranes"/></l><r></r></p></e>
-    </pardef>
-
-    <pardef n="nd:gascon">
-      <e r="LR"><p><l><s n="d:gascon"/></l><r></r></p></e>
-      <e r="RL"><p><l></l><r></r></p></e>
-    </pardef>
-
-    <pardef n="nd:lengadocian">
-      <e r="LR"><p><l><s n="d:lengadocian"/></l><r></r></p></e>
-      <e r="RL"><p><l></l><r></r></p></e>
-    </pardef>
-
-    <pardef n="nd:aranes">
-      <e r="LR"><p><l><s n="d:aranes"/></l><r></r></p></e>
-      <e r="RL"><p><l></l><r></r></p></e>
     </pardef>
 
     <pardef n="sp_ND">
