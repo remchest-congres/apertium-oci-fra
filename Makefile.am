@@ -27,6 +27,7 @@ TARGETS_COMMON =		\
 	bin/$(PREFIX1).rlx.bin	\
 	bin/$(PREFIX1G).rlx.bin	\
 	bin/$(PREFIX1L).rlx.bin	\
+	bin/$(PREFIX1).cleantags.rlx.bin	\
 	bin/$(PREFIX1).autobil.bin	\
 	bin/$(PREFIX1).n_a_adv.autolex.bin	\
 	bin/$(PREFIX1G).n_a_adv.autolex.bin	\
@@ -233,6 +234,9 @@ bin/$(PREFIX1G).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1G).rlx
 	cg-comp $< $@
 
 bin/$(PREFIX1L).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1L).rlx
+	cg-comp $< $@
+
+bin/$(PREFIX1).cleantags.rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).cleantags.rlx
 	cg-comp $< $@
 
 bin/$(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx

@@ -284,6 +284,9 @@
       <program name="cg-proc -w" debug-suff="disamb">
         <file name="bin/oci-fra.rlx.bin"/>
       </program>
+      <program name="cg-proc -w" debug-suff="cleantags">
+        <file name="bin/oci-fra.cleantags.rlx.bin"/>
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="bin/oci-fra.prob"/>
       </program>
@@ -419,6 +422,9 @@
       <program name="cg-proc -w" debug-suff="disamb">
         <file name="bin/oci-fra.rlx.bin"/>
       </program>
+      <program name="cg-proc -w" debug-suff="cleantags">
+        <file name="bin/oci-fra.cleantags.rlx.bin"/>
+      </program>
       <program name="apertium-tagger -u 2 -g $2">
         <file name="bin/oci_leng.unigram.prob"/>
       </program>
@@ -541,6 +547,9 @@
       <program name="cg-proc -w" debug-suff="disamb">
         <file name="bin/oci-fra.rlx.bin"/>
       </program>
+      <program name="cg-proc -w" debug-suff="cleantags">
+        <file name="bin/oci-fra.cleantags.rlx.bin"/>
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="bin/oci-fra.prob"/>
       </program>
@@ -574,7 +583,8 @@
       </program>
       <program name="lrx-proc -m" debug-suff="lex_gascon">
         <file name="bin/oci_gascon-fra.other.autolex.bin"/>
-      </program><program name="apertium-transfer -b" debug-suff="varclean">
+      </program>
+      <program name="apertium-transfer -b" debug-suff="varclean">
         <file name="src/transfer/chunkers/apertium-oci-fra.oci-fra.variety.t1x"/>
         <file name="bin/oci-fra.variety.t1x.bin"/>
       </program>
@@ -674,6 +684,9 @@
       </program>
       <program name="cg-proc -w" debug-suff="disamb">
         <file name="bin/oci-fra.rlx.bin"/>
+      </program>
+      <program name="cg-proc -w" debug-suff="cleantags">
+        <file name="bin/oci-fra.cleantags.rlx.bin"/>
       </program>
       <program name="apertium-tagger -u 2 -g $2">
         <file name="bin/oci_leng.unigram.prob"/>
