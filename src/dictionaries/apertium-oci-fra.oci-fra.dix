@@ -39738,9 +39738,10 @@
     <e r="LR"><p><l>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></l><r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="GD"/><s n="pl"/></l><r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>eth<b/>medish<s n="prn"/><s n="tn"/><s n="p3"/></l><r>lui-même<s n="prn"/><s n="tn"/><s n="p3"/></r></p><par n="d:gascon"/></e>
-    <e><p><l>lo<b/>mieu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></l><r>mon<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>lo<b/>mieu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></l><r>mon<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>lo<b/>mieu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></l><r>mon<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>lo<b/>mieu<s n="det"/><s n="pos"/><s n="GD"/><s n="pl"/></l><r>mon<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>lo<b/>mieu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l><r>mon<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>lo<b/>mieu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></l><r>mon<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>lo<b/>mieu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></l><r>mon<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>lo<b/>mieu<s n="prn"/></l> <r>le<b/>mien<s n="prn"/></r></p></e>
     <e><p><l>lo<b/>nòstre<s n="det"/><s n="pos"/></l><r>notre<s n="det"/><s n="pos"/></r></p><par n="GD_mf"/></e>
@@ -39751,14 +39752,16 @@
     <e a="topoc"><p><l>Eth<b/>Sarrat<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sarrat<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="topoc"><p><l>Eth<b/>Saut<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Etsaut<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="topoc"><p><l>Eth<b/>Savartés<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Savarthès<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>lo<b/>sieu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></l><r>son<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>lo<b/>sieu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></l><r>son<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>lo<b/>sieu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l><r>son<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>lo<b/>sieu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></l><r>son<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>lo<b/>sieu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></l><r>son<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>lo<b/>sieu<s n="det"/><s n="pos"/><s n="GD"/><s n="pl"/></l><r>son<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>lo<b/>sieu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></l><r>son<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>lo<b/>tieu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></l><r>ton<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>lo<b/>tieu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></l><r>ton<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>lo<b/>tieu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l><r>ton<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>lo<b/>tieu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></l><r>ton<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>lo<b/>tieu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></l><r>ton<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>lo<b/>tieu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></l><r>ton<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>lo<b/>tieu<s n="det"/><s n="pos"/><s n="GD"/><s n="pl"/></l><r>ton<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>lo<b/>vòstre<s n="det"/><s n="pos"/></l><r>votre<s n="det"/><s n="pos"/></r></p><par n="GD_mf"/></e>
     <e a="Congrès" r="RL"><p><l>eth<s n="adv"/></l><r>quant<b/>à<b/>lui<s n="adv"/></r></p><par n="d:gascon"/></e>
     <e r="LR"><p><l>eth<s n="det"/><s n="def"/></l> <r>le<s n="det"/><s n="def"/></r></p></e>
