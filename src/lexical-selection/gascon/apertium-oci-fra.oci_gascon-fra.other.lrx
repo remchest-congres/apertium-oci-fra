@@ -2075,6 +2075,9 @@
           <match lemma="dehòra" tags="adv"/>
           <match lemma="endehòra" tags="adv"/>
           <match lemma="dehòra" tags="n.*"/>
+          <match lemma="defòra" tags="adv"/>
+          <match lemma="endefòra" tags="adv"/>
+          <match lemma="defòra" tags="n.*"/>
           <match lemma="dens" tags="adv"/>
           <match lemma="deguens" tags="adv"/>
           <match lemma="dehens" tags="n.*"/>
@@ -2419,7 +2422,6 @@
       <match lemma="milician" tags="n.*"/>
       <match lemma="partisan" tags="n.*"/>
       <match lemma="mercenari" tags="n.*"/>
-
       <match lemma="ambaissador" tags="n.*"/>
       <match lemma="ambaishador" tags="n.*"/>
       <match lemma="cònsol" tags="n.*"/>
@@ -2475,6 +2477,7 @@
       <match lemma="hilh" tags="n.*"/>
       <match lemma="fraire" tags="n.*"/>
       <match lemma="hrair" tags="n.*"/>
+      <match lemma="frair" tags="n.*"/>
       <match lemma="sòr" tags="n.*"/>
       <match lemma="sòrre" tags="n.*"/>
       <match lemma="seror" tags="n.*"/>
@@ -2490,6 +2493,7 @@
       <match lemma="cosia" tags="n.*"/>
       <match lemma="bigal" tags="n.*"/>
       <match lemma="moissau" tags="n.*"/>
+      <match lemma="moissal" tags="n.*"/>
       <match lemma="grand" tags="n.*"/>
       <match lemma="gran-pair" tags="n.*"/>
       <match lemma="gran-mair" tags="n.*"/>
@@ -2543,6 +2547,7 @@
       <match lemma="bordièr" tags="n.*"/>
       <match lemma="bordèr" tags="n.*"/>
       <match lemma="bordalèr" tags="n.*"/>
+      <match lemma="bordalièr" tags="n.*"/>
       <match lemma="boriaire" tags="n.*"/>
       <match lemma="arquitècte" tags="n.*"/>
       <match lemma="engenhaire" tags="n.*"/>
@@ -2558,6 +2563,7 @@
       <match lemma="ragàs" tags="n.*"/>
       <match lemma="cosinièr" tags="n.*"/>
       <match lemma="cosinèr" tags="n.*"/>
+      <match lemma="codinièr" tags="n.*"/>
       <match lemma="codinèr" tags="n.*"/>
       <match lemma="costurièr" tags="n.*"/>
       <match lemma="costurèr" tags="n.*"/>
@@ -3049,6 +3055,7 @@
       <match lemma="pacifista" tags="n.*"/>
       <match lemma="païsagista" tags="n.*"/>
       <match lemma="païsatgista" tags="n.*"/>
+      <match lemma="paisatgista" tags="n.*"/>
       <match lemma="paleobotanista" tags="n.*"/>
       <match lemma="paleontologista" tags="n.*"/>
       <match lemma="palmista" tags="n.*"/>
@@ -3071,6 +3078,7 @@
       <match lemma="patologista" tags="n.*"/>
       <match lemma="paulista" tags="n.*"/>
       <match lemma="paumonista" tags="n.*"/>
+      <match lemma="palmonista" tags="n.*"/>
       <match lemma="penalista" tags="n.*"/>
       <match lemma="pensionista" tags="n.*"/>
       <match lemma="pentacostista" tags="n.*"/>
@@ -3996,8 +4004,10 @@
        <match lemma="petar# de paur" tags="vblex.*"/>
        <match lemma="petejar" tags="vblex.*"/>
        <match lemma="pèthmudar" tags="vblex.*"/>
+       <match lemma="pèlmudar" tags="vblex.*"/>
        <match lemma="petilhar" tags="vblex.*"/>
        <match lemma="peumudar" tags="vblex.*"/>
+       <match lemma="pelmudar" tags="vblex.*"/>
        <match lemma="piular" tags="vblex.*"/>
        <match lemma="plaire" tags="vblex.*"/>
        <match lemma="plàser" tags="vblex.*"/>
@@ -4320,6 +4330,7 @@
        <match lemma="cahinclar" tags="vblex.*"/>
        <match lemma="cainar" tags="vblex.*"/>
        <match lemma="horrar" tags="vblex.*"/>
+       <match lemma="forrar" tags="vblex.*"/>
        <match lemma="nhaulotar" tags="vblex.*"/>
        <match lemma="nhaulotejar" tags="vblex.*"/>
        <match lemma="nhauicar" tags="vblex.*"/>
@@ -4333,8 +4344,8 @@
        <match lemma="japar" tags="vblex.*"/>
        <match lemma="nhaulotar" tags="vblex.*"/>
        <match lemma="nhaulotejar" tags="vblex.*"/>
-       <match lemma="nhauicar" tags="vblex.*"/>
-       <match lemma="nhauiquejar" tags="vblex.*"/>
+       <match lemma="nhavicar" tags="vblex.*"/>
+       <match lemma="nhaviquejar" tags="vblex.*"/>
        <match lemma="lairotar" tags="vblex.*"/>
        <match lemma="lairotejar" tags="vblex.*"/>
        <match lemma="liupar" tags="vblex.*"/>
@@ -5529,6 +5540,30 @@
       </or>
     </rule>
 
+    <rule weight="0.8">
+      <match lemma="aquel" tags="prn.*"><select lemma="celui-là"/></match>
+    </rule>
+
+    <rule weight="0.8">
+      <match lemma="aquel" tags="prn.*"><select lemma="celui"/></match>
+      <or>
+          <match tags="rel.*"/>
+          <match tags="rel"/>
+          <match tags="pr"/>
+          <match lemma="mai" tags="adv"/>
+          <match lemma="mei" tags="adv"/>
+          <match lemma="mas" tags="adv"/>
+          <match lemma="mes" tags="adv"/>
+          <match lemma="pus" tags="adv"/>
+          <match lemma="mens" tags="adv"/>
+          <match lemma="mensh" tags="adv"/>
+          <match lemma="tan" tags="adv"/>
+          <match lemma="tant" tags="adv"/>
+          <match lemma="autan" tags="adv"/>
+          <match lemma="autant" tags="adv"/>
+      </or>
+    </rule>
+
     <!-- **************** PREP **************** -->
 
     <!-- entà >> à, pour, vers, de, [remove] -->
@@ -5615,6 +5650,9 @@
 </rule>
 <rule weight="0.8">
  <match lemma="au ras de" tags="pr.*"><select lemma="à côté de"/></match>
+</rule>
+<rule weight="0.8">
+ <match lemma="al ras de" tags="pr.*"><select lemma="à côté de"/></match>
 </rule>
 <rule weight="0.8">
  <match lemma="per delà" tags="pr.*"><select lemma="par-delà"/></match>

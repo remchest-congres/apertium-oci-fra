@@ -762,6 +762,7 @@
       <match lemma="hilh" tags="n.*"/>
       <match lemma="fraire" tags="n.*"/>
       <match lemma="hrair" tags="n.*"/>
+      <match lemma="frair" tags="n.*"/>
       <match lemma="sòr" tags="n.*"/>
       <match lemma="sòrre" tags="n.*"/>
       <match lemma="seror" tags="n.*"/>
@@ -777,6 +778,7 @@
       <match lemma="cosia" tags="n.*"/>
       <match lemma="bigal" tags="n.*"/>
       <match lemma="moissau" tags="n.*"/>
+      <match lemma="moissal" tags="n.*"/>
       <match lemma="grand" tags="n.*"/>
       <match lemma="gran-pair" tags="n.*"/>
       <match lemma="gran-mair" tags="n.*"/>
@@ -803,6 +805,7 @@
       <match lemma="rèire-felen" tags="n.*"/>
       <match lemma="rèirefelen" tags="n.*"/>
       <match lemma="arrèr-arrèrhilh" tags="n.*"/>
+      <match lemma="arrèr-arrèrfilh" tags="n.*"/>
       <match lemma="rèiregrand" tags="n.*"/>
       <match lemma="reiregrand" tags="n.*"/>
       <match lemma="rèirepepin" tags="n.*"/>
@@ -830,6 +833,7 @@
       <match lemma="bordièr" tags="n.*"/>
       <match lemma="bordèr" tags="n.*"/>
       <match lemma="bordalèr" tags="n.*"/>
+      <match lemma="bordalièr" tags="n.*"/>
       <match lemma="boriaire" tags="n.*"/>
       <match lemma="arquitècte" tags="n.*"/>
       <match lemma="engenhaire" tags="n.*"/>
@@ -846,6 +850,7 @@
       <match lemma="cosinièr" tags="n.*"/>
       <match lemma="cosinèr" tags="n.*"/>
       <match lemma="codinèr" tags="n.*"/>
+      <match lemma="codinièr" tags="n.*"/>
       <match lemma="costurièr" tags="n.*"/>
       <match lemma="costurèr" tags="n.*"/>
       <match lemma="pastissièr" tags="n.*"/>
@@ -864,6 +869,7 @@
       <match lemma="servidor" tags="n.*"/>
       <match lemma="femna# de servici" tags="n.*"/>
       <match lemma="femna# d'ostal" tags="n.*"/>
+      <match lemma="femna# de jornada" tags="n.*"/>
       <match lemma="hemna# de servici" tags="n.*"/>
       <match lemma="hemna# de jornada" tags="n.*"/>
 
@@ -1336,6 +1342,7 @@
       <match lemma="pacifista" tags="n.*"/>
       <match lemma="païsagista" tags="n.*"/>
       <match lemma="païsatgista" tags="n.*"/>
+      <match lemma="paisatgista" tags="n.*"/>
       <match lemma="paleobotanista" tags="n.*"/>
       <match lemma="paleontologista" tags="n.*"/>
       <match lemma="palmista" tags="n.*"/>
@@ -1358,6 +1365,7 @@
       <match lemma="patologista" tags="n.*"/>
       <match lemma="paulista" tags="n.*"/>
       <match lemma="paumonista" tags="n.*"/>
+      <match lemma="palmonista" tags="n.*"/>
       <match lemma="penalista" tags="n.*"/>
       <match lemma="pensionista" tags="n.*"/>
       <match lemma="pentacostista" tags="n.*"/>
@@ -2333,6 +2341,44 @@
       <match lemma="comedia" tags="n.*"/>
     </rule>
 
+    <!-- har >> faire, jouer -->
+    <rule weight="0.8">
+      <match lemma="far" tags="vblex.*"><select lemma="faire"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="far" tags="vblex.*"><select lemma="jouer"/></match>
+      <repeat from="0" upto="2">
+        <match tags="adv"/>
+      </repeat>
+      <match lemma="a" tags="pr"/>
+      <repeat from="0" upto="1">
+        <match tags="det.*"/>
+      </repeat>
+      <or>
+        <match lemma="carta" tags="n.*"/>
+        <match lemma="poker" tags="n.*"/>
+        <match lemma="escacs" tags="n.*"/>
+        <match lemma="dama" tags="n.*"/>
+        <match lemma="go" tags="n.*"/>
+        <match lemma="dat" tags="n.*"/>
+        <match lemma="petanca" tags="n.*"/>
+        <match lemma="bola" tags="n.*"/>
+        <match lemma="bòla" tags="n.*"/>
+        <match lemma="jòc" tags="n.*"/>
+        <match lemma="juec" tags="n.*"/>
+        <match lemma="jòga" tags="n.*"/>
+        <match lemma="ping-pong" tags="n.*"/>
+      </or>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="far" tags="vblex.*"><select lemma="jouer"/></match>
+      <repeat from="0" upto="2">
+        <match tags="adv"/>
+      </repeat>
+      <match tags="det.def.f.sg"/>
+      <match lemma="comedia" tags="n.*"/>
+    </rule>
+
     <!-- jogar >> jouer -->
     <rule weight="0.8">
       <match lemma="jogar" tags="vblex.*"><select lemma="jouer"/></match>
@@ -3220,6 +3266,7 @@
         <match lemma="companhiá" tags="n.*"/>
         <match lemma="companhia" tags="n.*"/>
         <match lemma="arramat" tags="n.*"/>
+        <match lemma="ramat" tags="n.*"/>
         <match tags="np.top.*"/>
       </or>
     </rule>
@@ -3706,6 +3753,7 @@
         <match lemma="mesadièr" tags="n.*"/>
         <match lemma="quotidian" tags="n.*"/>
         <match lemma="jornalèr" tags="n.*"/>
+        <match lemma="jornalièr" tags="n.*"/>
         <match lemma="mensual" tags="n.*"/>
         <match lemma="bimensual" tags="n.*"/>
         <match lemma="intervencion" tags="n.*"/>
@@ -3834,6 +3882,7 @@
         <match lemma="mesadièr" tags="n.*"/>
         <match lemma="quotidian" tags="n.*"/>
         <match lemma="jornalèr" tags="n.*"/>
+        <match lemma="jornalièr" tags="n.*"/>
         <match lemma="mensual" tags="n.*"/>
         <match lemma="bimensual" tags="n.*"/>
         <match lemma="intervencion" tags="n.*"/>

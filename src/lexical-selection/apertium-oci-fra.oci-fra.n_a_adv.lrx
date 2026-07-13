@@ -257,6 +257,7 @@
 	   <match lemma="clavier" tags="n.*"/>
 	   <match lemma="clavèir" tags="n.*"/>
 	   <match lemma="bateria" tags="n.*"/>
+	   <match lemma="batariá" tags="n.*"/>
 	   <match lemma="bodega" tags="n.*"/>
 	   <match lemma="boha" tags="n.*"/>
 	   <match lemma="pifre" tags="n.*"/>
@@ -353,18 +354,21 @@
 
 	  <def-seq n="ordinals"><or>
       <match lemma="purmèr" tags="adj.*"/>
+      <match lemma="purmièr" tags="adj.*"/>
       <match lemma="prumèr" tags="adj.*"/>
       <match lemma="primèr" tags="adj.*"/>
       <match lemma="primièr" tags="adj.*"/>
       <match lemma="premièr" tags="adj.*"/>
       <match lemma="prumièr" tags="adj.*"/>
       <match lemma="premèr" tags="adj.*"/>
+      <match lemma="premièr" tags="adj.*"/>
       <match lemma="dusau" tags="adj.*"/>
       <match lemma="segond" tags="adj.*"/>
       <match lemma="tresaju" tags="adj.*"/>
       <match lemma="tresen" tags="adj.*"/>
       <match lemma="quatau" tags="adj.*"/>
       <match lemma="quatren" tags="adj.*"/>
+      <match lemma="qüatren" tags="adj.*"/>
       <match lemma="cincau" tags="adj.*"/>
       <match lemma="cinquen" tags="adj.*"/>
       <match lemma="sheisau" tags="adj.*"/>
@@ -372,8 +376,11 @@
       <match lemma="setau" tags="adj.*"/>
       <match lemma="seten" tags="adj.*"/>
       <match lemma="ueitau" tags="adj.*"/>
+      <match lemma="uechau" tags="adj.*"/>
       <match lemma="ueiten" tags="adj.*"/>
+      <match lemma="uechen" tags="adj.*"/>
       <match lemma="oiten" tags="adj.*"/>
+      <match lemma="ochen" tags="adj.*"/>
       <match lemma="navau" tags="adj.*"/>
       <match lemma="noven" tags="adj.*"/>
       <match lemma="detzau" tags="adj.*"/>
@@ -388,6 +395,7 @@
       <match lemma="quatorzau" tags="adj.*"/>
       <match lemma="catorzau" tags="adj.*"/>
       <match lemma="quatorzen" tags="adj.*"/>
+      <match lemma="qüatorzen" tags="adj.*"/>
       <match lemma="catorzen" tags="adj.*"/>
       <match lemma="quinzau" tags="adj.*"/>
       <match lemma="quinzen" tags="adj.*"/>
@@ -630,6 +638,7 @@
       <match lemma="emilian" tags="adj.*"/>
       <match lemma="emirati" tags="adj.*"/>
       <match lemma="equatoguinean" tags="adj.*"/>
+      <match lemma="eqüatoguinean" tags="adj.*"/>
       <match lemma="eqüatorian" tags="adj.*"/>
       <match lemma="eritrèu" tags="adj.*"/>
       <match lemma="escocés" tags="adj.*"/>
@@ -962,6 +971,7 @@
       <match lemma="tongian" tags="adj.*"/>
       <match lemma="tongosic" tags="adj.*"/>
       <match lemma="toquelauenc" tags="adj.*"/>
+      <match lemma="toquelavenc" tags="adj.*"/>
       <match lemma="toscan" tags="adj.*"/>
       <match lemma="tovinian" tags="adj.*"/>
       <match lemma="traci" tags="adj.*"/>
@@ -1324,7 +1334,7 @@
       <match lemma="mercenari" tags="n.*"/>
 
       <match lemma="ambaissador" tags="n.*"/>
-      <match lemma="ambaishador" tags="n.*"/>
+      <match lemma="ambaissador" tags="n.*"/>
       <match lemma="cònsol" tags="n.*"/>
       <match lemma="plenipotenciari" tags="n.*"/>
       <match lemma="representant" tags="n.*"/>
@@ -1378,6 +1388,7 @@
       <match lemma="hilh" tags="n.*"/>
       <match lemma="fraire" tags="n.*"/>
       <match lemma="hrair" tags="n.*"/>
+      <match lemma="frair" tags="n.*"/>
       <match lemma="sòr" tags="n.*"/>
       <match lemma="sòrre" tags="n.*"/>
       <match lemma="seror" tags="n.*"/>
@@ -1393,6 +1404,7 @@
       <match lemma="cosia" tags="n.*"/>
       <match lemma="bigal" tags="n.*"/>
       <match lemma="moissau" tags="n.*"/>
+      <match lemma="moissal" tags="n.*"/>
       <match lemma="grand" tags="n.*"/>
       <match lemma="gran-pair" tags="n.*"/>
       <match lemma="gran-mair" tags="n.*"/>
@@ -1446,6 +1458,7 @@
       <match lemma="bordièr" tags="n.*"/>
       <match lemma="bordèr" tags="n.*"/>
       <match lemma="bordalèr" tags="n.*"/>
+      <match lemma="bordalièr" tags="n.*"/>
       <match lemma="boriaire" tags="n.*"/>
       <match lemma="arquitècte" tags="n.*"/>
       <match lemma="engenhaire" tags="n.*"/>
@@ -1462,10 +1475,13 @@
       <match lemma="cosinièr" tags="n.*"/>
       <match lemma="cosinèr" tags="n.*"/>
       <match lemma="codinèr" tags="n.*"/>
+      <match lemma="codinièr" tags="n.*"/>
       <match lemma="costurièr" tags="n.*"/>
       <match lemma="costurèr" tags="n.*"/>
+      <match lemma="costurièr" tags="n.*"/>
       <match lemma="pastissièr" tags="n.*"/>
       <match lemma="pastissèr" tags="n.*"/>
+      <match lemma="pastissièr" tags="n.*"/>
       <match lemma="musician" tags="n.*"/>
       <match lemma="pintre" tags="n.*"/>
       <match lemma="pintor" tags="n.*"/>
@@ -1952,6 +1968,7 @@
       <match lemma="pacifista" tags="n.*"/>
       <match lemma="païsagista" tags="n.*"/>
       <match lemma="païsatgista" tags="n.*"/>
+      <match lemma="paisatgista" tags="n.*"/>
       <match lemma="paleobotanista" tags="n.*"/>
       <match lemma="paleontologista" tags="n.*"/>
       <match lemma="palmista" tags="n.*"/>
@@ -1974,6 +1991,7 @@
       <match lemma="patologista" tags="n.*"/>
       <match lemma="paulista" tags="n.*"/>
       <match lemma="paumonista" tags="n.*"/>
+      <match lemma="palmonista" tags="n.*"/>
       <match lemma="penalista" tags="n.*"/>
       <match lemma="pensionista" tags="n.*"/>
       <match lemma="pentacostista" tags="n.*"/>
@@ -2591,6 +2609,7 @@
         <match lemma="esglasi" tags="n.*"/>
         <match lemma="esglari" tags="n.*"/>
         <match lemma="heror" tags="n.*"/>
+        <match lemma="feror" tags="n.*"/>
         <match lemma="heressa" tags="n.*"/>
         <match lemma="englag" tags="n.*"/>
         <match lemma="engèrd" tags="n.*"/>
@@ -2660,6 +2679,7 @@
         <match lemma="arrevirat" tags="n.*"/>
         <match lemma="responsa" tags="n.*"/>
         <match lemma="hasti" tags="n.*"/>
+        <match lemma="fasti" tags="n.*"/>
         <match lemma="repugnància" tags="n.*"/>
         <match lemma="desgost" tags="n.*"/>
         <match lemma="fàstic" tags="n.*"/>
@@ -3798,9 +3818,16 @@
     <rule weight="0.8">
       <match lemma="mei" tags="adv"><select lemma="plus" tags="adv"/></match>
     </rule>
+    <rule weight="0.8">
+      <match lemma="mai" tags="adv"><select lemma="plus" tags="adv"/></match>
+    </rule>
     <rule weight="1.0">
       <match lemma="pas" tags="adv"/>
       <match lemma="mei" tags="adv"><select lemma="plus" tags="adv.pas_neg"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="pas" tags="adv"/>
+      <match lemma="mai" tags="adv"><select lemma="plus" tags="adv.pas_neg"/></match>
     </rule>
     <rule weight="1.0">
       <or>
@@ -3813,6 +3840,18 @@
       </repeat>
       <or><match tags="vblex.*"/><match tags="vbser.*"/><match tags="vbhaver.*"/><match tags="vbmod.*"/></or>
       <match lemma="mei" tags="adv"><select lemma="plus" tags="adv.pas_neg"/></match>
+    </rule>
+    <rule weight="1.0">
+      <or>
+        <match lemma="ne" tags="adv"/>
+        <match lemma="ne" tags="adv.enon"/>
+        <match lemma="non" tags="adv"/>
+      </or>
+      <repeat from="0" upto="2">
+        <match tags="prn.pro.*"/>
+      </repeat>
+      <or><match tags="vblex.*"/><match tags="vbser.*"/><match tags="vbhaver.*"/><match tags="vbmod.*"/></or>
+      <match lemma="mai" tags="adv"><select lemma="plus" tags="adv.pas_neg"/></match>
     </rule>
 
     <!-- pus >> plus (adv), plus (adv.pas_neg) -->
@@ -4304,6 +4343,7 @@
         <match lemma="espleitacion" tags="n.*"/>
         <match lemma="expleitacion" tags="n.*"/>
         <match lemma="espleita" tags="n.*"/>
+        <match lemma="esplecha" tags="n.*"/>
         <match lemma="espleitada" tags="n.*"/>
         <match lemma="explotacion" tags="n.*"/>
         <match lemma="extraccion" tags="n.*"/>
@@ -4628,6 +4668,7 @@
         <match lemma="fraga" tags="n.*"/>
         <match lemma="ahraga" tags="n.*"/>
         <match lemma="badau" tags="n.*"/>
+        <match lemma="badal" tags="n.*"/>
         <match lemma="batena" tags="n.*"/>
         <match lemma="fresa" tags="n.*"/>
         <match lemma="majofa" tags="n.*"/>
@@ -4640,6 +4681,7 @@
         <match lemma="fraga" tags="n.*"/>
         <match lemma="ahraga" tags="n.*"/>
         <match lemma="badau" tags="n.*"/>
+        <match lemma="badal" tags="n.*"/>
         <match lemma="batena" tags="n.*"/>
         <match lemma="fresa" tags="n.*"/>
         <match lemma="majofa" tags="n.*"/>
@@ -4828,6 +4870,22 @@
     </rule>
     <rule weight="1.0">
       <match lemma="paishèra" tags="n.*"><select lemma="barrage"/></match>
+      <match lemma="de" tags="pr"/>
+      <repeat from="0" upto="1">
+        <match tags="det.def.*"/>
+      </repeat>
+      <or>
+        <match tags="np.top.*"/>
+        <match tags="" case="Aa"/>
+      </or>
+    </rule>
+
+    <!-- paissèra >> digue, barrage -->
+    <rule weight="0.8">
+      <match lemma="paissèra" tags="n.*"><select lemma="digue"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="paissèra" tags="n.*"><select lemma="barrage"/></match>
       <match lemma="de" tags="pr"/>
       <repeat from="0" upto="1">
         <match tags="det.def.*"/>
@@ -5584,6 +5642,7 @@
         <match lemma="claufit" tags="adj.*"/>
         <match lemma="comol" tags="adj.*"/>
         <match lemma="hart" tags="adj.*"/>
+        <match lemma="fart" tags="adj.*"/>
         <match lemma="artista" tags="n.*"/>
         <match lemma="cantaire" tags="n.*"/>
         <match lemma="cantador" tags="n.*"/>
@@ -5978,6 +6037,7 @@
         <match lemma="cadena" tags="n.*"/>
         <match lemma="cadea" tags="n.*"/>
         <match lemma="bohet" tags="n.*"/>
+        <match lemma="bofet" tags="n.*"/>
         <match lemma="capèl" tags="n.*"/>
         <match lemma="chapèu" tags="n.*"/>
         <match lemma="berret" tags="n.*"/>
@@ -6288,6 +6348,7 @@
         <match lemma="seguent" tags="adj.*"/>
         <match lemma="precedent" tags="adj.*"/>
         <match lemma="darrèr" tags="adj.*"/>
+        <match lemma="darrièr" tags="adj.*"/>
         <match lemma="venent" tags="adj.*"/>
       </or>
     </rule>
@@ -6486,8 +6547,11 @@
         <or>
           <match lemma="primièr" tags="adj.*"/>
           <match lemma="prumèr" tags="adj.*"/>
+          <match lemma="prumièr" tags="adj.*"/>
           <match lemma="permèr" tags="adj.*"/>
+          <match lemma="permièr" tags="adj.*"/>
           <match lemma="premèr" tags="adj.*"/>
+          <match lemma="premièr" tags="adj.*"/>
           <match lemma="principal" tags="adj.*"/>
           <match lemma="màger" tags="adj.*"/>
           <match lemma="accidental" tags="adj.*"/>
@@ -6584,6 +6648,8 @@
         <match lemma="meteis" tags="adj.*"/>
         <match lemma="madeish" tags="adj.*"/>
         <match lemma="medeish" tags="adj.*"/>
+        <match lemma="madeis" tags="adj.*"/>
+        <match lemma="medeis" tags="adj.*"/>
       </or>
       <match lemma="causa" tags="n.*"><select lemma="chose"/></match>
     </rule>
@@ -6692,6 +6758,7 @@
           <match lemma="arriu" tags="n.*"/>
           <match lemma="arribèra" tags="n.*"/>
           <match lemma="ribèra" tags="n.*"/>
+          <match lemma="ribièra" tags="n.*"/>
           <match lemma="arrivèira" tags="n.*"/>
           <match lemma="ribièira" tags="n.*"/>
           <match lemma="aiga" tags="n.*"/>
@@ -6939,6 +7006,7 @@
         <match lemma="parent" tags="n.*"/>
         <match lemma="fraire" tags="n.*"/>
         <match lemma="hrair" tags="n.*"/>
+        <match lemma="frair" tags="n.*"/>
         <match lemma="sòrre" tags="n.*"/>
         <match lemma="sòr" tags="n.*"/>
         <match lemma="cosin" tags="n.*"/>
@@ -7023,6 +7091,7 @@
         <match lemma="parent" tags="n.*"/>
         <match lemma="fraire" tags="n.*"/>
         <match lemma="hrair" tags="n.*"/>
+        <match lemma="frair" tags="n.*"/>
         <match lemma="sòrre" tags="n.*"/>
         <match lemma="sòr" tags="n.*"/>
         <match lemma="cosin" tags="n.*"/>
@@ -7203,10 +7272,13 @@
     <rule weight="1.0" >
       <or>
             <match lemma="permèr" tags="adj.*"/>
+            <match lemma="permièr" tags="adj.*"/>
             <match lemma="premièr" tags="adj.*"/>
             <match lemma="primièr" tags="adj.*"/>
             <match lemma="prumèr" tags="adj.*"/>
+            <match lemma="prumièr" tags="adj.*"/>
             <match lemma="purmèr" tags="adj.*"/>
+            <match lemma="purmièr" tags="adj.*"/>
             <match lemma="primèr" tags="adj.*"/>
       </or>
       <match lemma="cosina" tags="n.*"><select lemma="cousin"/></match>
@@ -7215,10 +7287,13 @@
       <match lemma="cosina" tags="n.*"><select lemma="cousin"/></match>
     <or>
           <match lemma="permèr" tags="adj.*"/>
+          <match lemma="permièr" tags="adj.*"/>
           <match lemma="premièr" tags="adj.*"/>
           <match lemma="primièr" tags="adj.*"/>
           <match lemma="prumèr" tags="adj.*"/>
+          <match lemma="prumièr" tags="adj.*"/>
           <match lemma="purmèr" tags="adj.*"/>
+          <match lemma="purmièr" tags="adj.*"/>
           <match lemma="primèr" tags="adj.*"/>
           <match lemma="pròpi" tags="adj.*"/>
           <match lemma="pròpri" tags="adj.*"/>
@@ -7242,6 +7317,7 @@
             <match lemma="parent" tags="n.*"/>
             <match lemma="fraire" tags="n.*"/>
             <match lemma="hrair" tags="n.*"/>
+            <match lemma="frair" tags="n.*"/>
             <match lemma="sòrre" tags="n.*"/>
             <match lemma="sòr" tags="n.*"/>
             <match lemma="cosin" tags="n.*"/>
@@ -7388,6 +7464,7 @@
           <match lemma="crabon" tags="n.*"/>
           <match lemma="crapon" tags="n.*"/>
           <match lemma="arquèr" tags="n.*"/>
+          <match lemma="arquièr" tags="n.*"/>
           <match lemma="diable" tags="n.*"/>
     </or>
     </rule>
@@ -7437,6 +7514,7 @@
         <match lemma="fil" tags="n.*"/>
         <match lemma="fial" tags="n.*"/>
         <match lemma="hiu" tags="n.*"/>
+        <match lemma="hieu" tags="n.*"/>
         <match lemma="hieu" tags="n.*"/>
         <match lemma="aram" tags="n.*"/>
         <match lemma="fuèlha" tags="n.*"/>
@@ -7581,14 +7659,19 @@
         <match lemma="boscassièr" tags="n.*"/>
         <match lemma="boscatièr" tags="n.*"/>
         <match lemma="boscassèr" tags="n.*"/>
+        <match lemma="boscassièr" tags="n.*"/>
         <match lemma="lenhassèr" tags="n.*"/>
+        <match lemma="lenhassièr" tags="n.*"/>
         <match lemma="soquejaire" tags="n.*"/>
         <match lemma="lenhador" tags="n.*"/>
         <match lemma="escaçolaire" tags="n.*"/>
         <match lemma="heishotèr" tags="n.*"/>
+        <match lemma="heishotièr" tags="n.*"/>
         <match lemma="engarraire" tags="n.*"/>
         <match lemma="boscalhèr" tags="n.*"/>
+        <match lemma="boscalhièr" tags="n.*"/>
         <match lemma="bosquèr" tags="n.*"/>
+        <match lemma="bosquièr" tags="n.*"/>
         <match lemma="matabòsc" tags="n.*"/>
         <match lemma="picaire" tags="n.*"/>
         <match lemma="gitano" tags="n.*"/>
@@ -7735,6 +7818,7 @@
         <match lemma="aida" tags="n.*"/>
         <match lemma="fuòc" tags="n.*"/>
         <match lemma="huèc" tags="n.*"/>
+        <match lemma="fuèc" tags="n.*"/>
         <match lemma="fòc" tags="n.*"/>
         <match lemma="hòc" tags="n.*"/>
         <match lemma="halha" tags="n.*"/>
@@ -7751,6 +7835,8 @@
         <match lemma="mèma" tags="adj.*"/>
         <match lemma="madeish" tags="adj.*"/>
         <match lemma="medeish" tags="adj.*"/>
+        <match lemma="madeis" tags="adj.*"/>
+        <match lemma="medeis" tags="adj.*"/>
         <match lemma="autre" tags="adj.*"/>
         <match lemma="aute" tags="adj.*"/>
       </or>
@@ -7863,6 +7949,7 @@
           <match lemma="pinhat" tags="adj.*"/>
           <match lemma="blat" tags="n.*"/>
           <match lemma="hroment" tags="n.*"/>
+          <match lemma="froment" tags="n.*"/>
           <match lemma="sarrasin" tags="n.*"/>
           <match lemma="froment" tags="n.*"/>
           <match lemma="milh" tags="n.*"/>
@@ -7947,8 +8034,10 @@
           <match lemma="raca" tags="n.*"/>
           <match lemma="shòc" tags="n.*"/>
           <match lemma="eishòc" tags="n.*"/>
+          <match lemma="eissòc" tags="n.*"/>
           <match lemma="shinglon" tags="n.*"/>
           <match lemma="eishinglon" tags="n.*"/>
+          <match lemma="eissinglon" tags="n.*"/>
           <match lemma="embriaga" tags="n.*"/>
           <match lemma="iraga" tags="n.*"/>
           <match lemma="juèlh" tags="n.*"/>
@@ -8146,8 +8235,10 @@
           <match lemma="raca" tags="n.*"/>
           <match lemma="shòc" tags="n.*"/>
           <match lemma="eishòc" tags="n.*"/>
+          <match lemma="eissòc" tags="n.*"/>
           <match lemma="shinglon" tags="n.*"/>
           <match lemma="eishinglon" tags="n.*"/>
+          <match lemma="eissinglon" tags="n.*"/>
           <match lemma="embriaga" tags="n.*"/>
           <match lemma="iraga" tags="n.*"/>
           <match lemma="juèlh" tags="n.*"/>

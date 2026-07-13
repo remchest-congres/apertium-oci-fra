@@ -979,7 +979,7 @@
       <match lemma="aussi" tags="preadv"><select lemma="tant"/></match>
     </rule>
     <rule weight="1.0">
-      <match lemma="aussi" tags="adv"><select lemma="per mei"/></match>
+      <match lemma="aussi" tags="adv"><select lemma="per mai"/></match>
       <match tags="adj.*"/>
       <match lemma="que"/>
       <repeat from="0" upto="6">
@@ -1004,7 +1004,7 @@
       </or>
     </rule>
     <rule weight="1.0">
-      <match lemma="aussi" tags="adv"><select lemma="per mei"/></match>
+      <match lemma="aussi" tags="adv"><select lemma="per mai"/></match>
       <match tags="adj.*"/>
       <or>
         <match tags="vbser.prs.*"/>
@@ -1059,7 +1059,7 @@
       <match lemma="mieux" tags="adv"><select lemma="miélher"/></match>
     </rule>
     <rule weight="1.0">
-      <match lemma="mieux" tags="adv"><select lemma="mei plan"/></match>
+      <match lemma="mieux" tags="adv"><select lemma="mai plan"/></match>
       <or>
         <match tags="adj.*"/>
         <match tags="vblex.pp.*"/>
@@ -1086,7 +1086,7 @@
 
     <!-- criard >> cridassèr, qui tira los uèlhs -->
     <rule weight="0.8">
-      <match lemma="criard" tags="adj.*"><select lemma="cridassèr"/></match>
+      <match lemma="criard" tags="adj.*"><select lemma="cridassièr"/></match>
     </rule>
     <rule weight="1.0">
       <or>
@@ -1128,7 +1128,7 @@
 
     <!-- dernier >> darrèr, passat -->
     <rule weight="0.8">
-      <match lemma="dernier" tags="adj.*"><select lemma="darrèr"/></match>
+      <match lemma="dernier" tags="adj.*"><select lemma="darrièr"/></match>
     </rule>
     <rule weight="1.0">
       <or>
@@ -1226,7 +1226,7 @@
 
     <!-- mauvais >> mau, etc. -->
     <rule weight="0.8">
-      <match lemma="mauvais" tags="adj.*"><select lemma="mau"/></match>
+      <match lemma="mauvais" tags="adj.*"><select lemma="mal"/></match>
     </rule>
 
     <!-- propre >> pròpi/net -->
@@ -1279,7 +1279,7 @@
 
     <!-- échec >> mauescaduda, escac -->
     <rule weight="0.8">
-      <match lemma="échec" tags="n.*"><select lemma="mauescaduda"/></match>
+      <match lemma="échec" tags="n.*"><select lemma="malescaduda"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="échec" tags="n.*"><select lemma="escac"/></match>
@@ -1381,7 +1381,7 @@
 
     <!-- connaissance >> coneishença, coneishut, coneishuda -->
     <rule weight="0.8">
-      <match lemma="connaissance" tags="n.*"><select lemma="coneishença"/></match>
+      <match lemma="connaissance" tags="n.*"><select lemma="coneissença"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="connaissance" tags="n.*"><select lemma="coneishut" tags="n.m.*"/></match>
@@ -1444,6 +1444,73 @@
         </or>
       </repeat>
       <match lemma="connaissance" tags="n.*"><select lemma="coneishut" tags="n.f.*"/></match>
+    </rule>
+
+    <!-- connaissance >> coneishença, coneishut, coneishuda -->
+    <rule weight="0.8">
+      <match lemma="connaissance" tags="n.*"><select lemma="coneissença"/></match>
+    </rule>
+    <rule weight="1.0">
+      <match lemma="connaissance" tags="n.*"><select lemma="coneissut" tags="n.m.*"/></match>
+      <or>
+        <match lemma="commun" tags="adj.*"/>
+        <match lemma="mutuel" tags="adj.*"/>
+      </or>
+    </rule>
+    <rule weight="1.0">
+      <match tags="vbser.*"/>
+      <repeat from="0" upto="2">
+        <match tags="adv"/>
+      </repeat>
+      <match lemma="un" tags="det.ind.*"/>
+      <repeat from="0" upto="2">
+        <or>
+          <match tags="preadv"/>
+          <match tags="adj.*"/>
+        </or>
+      </repeat>
+      <match lemma="connaissance" tags="n.*"><select lemma="coneissut" tags="n.m.*"/></match>
+    </rule>
+    <rule weight="1.2">
+      <match lemma="il" tags="prn.tn.p3.f.*"/>
+      <match tags="vbser.*"/>
+      <repeat from="0" upto="2">
+        <match tags="adv"/>
+      </repeat>
+      <match lemma="un" tags="det.ind.*"/>
+      <repeat from="0" upto="2">
+        <or>
+          <match tags="preadv"/>
+          <match tags="adj.*"/>
+        </or>
+      </repeat>
+      <match lemma="connaissance" tags="n.*"><select lemma="coneissut" tags="n.f.*"/></match>
+    </rule>
+    <rule weight="1.2">
+      <or>
+        <match tags="np.ant.f.sg"/>
+        <match lemma="madame" tags="n.*"/>
+        <match lemma="mademoiselle" tags="n.*"/>
+      </or>
+      <repeat from="0" upto="2">
+        <or>
+          <match tags="np.ant.f.sg"/>
+          <match tags="np.cog.*"/>
+          <match tags="" case="Aa"/>
+        </or>
+      </repeat>
+      <match tags="vbser.*"/>
+      <repeat from="0" upto="2">
+        <match tags="adv"/>
+      </repeat>
+      <match lemma="un" tags="det.ind.*"/>
+      <repeat from="0" upto="2">
+        <or>
+          <match tags="preadv"/>
+          <match tags="adj.*"/>
+        </or>
+      </repeat>
+      <match lemma="connaissance" tags="n.*"><select lemma="coneissut" tags="n.f.*"/></match>
     </rule>
 
     <!-- cavale >> hueita, cavala -->
@@ -1823,7 +1890,7 @@
 
     <!-- grenadier >> granadèr, miugranèr -->
     <rule weight="0.8">
-      <match lemma="grenadier" tags="n.*"><select lemma="granadèr"/></match>
+      <match lemma="grenadier" tags="n.*"><select lemma="granadièr"/></match>
     </rule>
     <rule weight="1.0">
       <or>
@@ -1838,10 +1905,10 @@
           <match lemma="de" tags="pr"/>
         </or>
       </repeat>
-      <match lemma="grenadier" tags="n.*"><select lemma="miugranèr"/></match>
+      <match lemma="grenadier" tags="n.*"><select lemma="milgranièr"/></match>
     </rule>
     <rule weight="1.0">
-      <match lemma="grenadier" tags="n.*"><select lemma="miugranèr"/></match>
+      <match lemma="grenadier" tags="n.*"><select lemma="milgranièr"/></match>
       <repeat from="0" upto="8">
         <or>
           <match tags="*"/>
@@ -1864,12 +1931,12 @@
           <match tags=""/>
         </or>
       </repeat>
-      <match lemma="grenadier" tags="n.*"><select lemma="miugranèr"/></match>
+      <match lemma="grenadier" tags="n.*"><select lemma="milgranièr"/></match>
     </rule>
 
     <!-- hôtel >> ostaleria, ostal -->
     <rule weight="0.8">
-      <match lemma="hôtel" tags="n.*"><select lemma="ostaleria"/></match>
+      <match lemma="hôtel" tags="n.*"><select lemma="ostalariá"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="hôtel" tags="n.*"><select lemma="ostal"/></match>
@@ -1890,7 +1957,7 @@
       <match lemma="Évreux" tags="np.top.*"/>
     </rule>
     <rule weight="1.2">
-      <match lemma="hôtel" tags="n.*"><select lemma="ostaleria"/></match>
+      <match lemma="hôtel" tags="n.*"><select lemma="ostalariá"/></match>
       <or>
         <match lemma="Ritz" tags="np.cog.*"/>
         <match lemma="Clemenceau" tags="np.cog.*"/>
@@ -1956,10 +2023,10 @@
         <match lemma="de" tags="pr"/>
       </repeat>
       <match tags="det.*"/>
-      <match lemma="économie" tags="n.*"><select lemma="estauvi"/></match>
+      <match lemma="économie" tags="n.*"><select lemma="estalvi"/></match>
     </rule>
     <rule weight="1.0">
-      <match lemma="économie" tags="n.*"><select lemma="estauvi"/></match>
+      <match lemma="économie" tags="n.*"><select lemma="estalvi"/></match>
       <or>
         <match lemma="de" tags="pr"/>
         <match lemma="en" tags="pr"/>
@@ -1982,7 +2049,7 @@
       </or>
     </rule>
     <rule weight="1.0">
-      <match lemma="économie" tags="n.*"><select lemma="estauvi"/></match>
+      <match lemma="économie" tags="n.*"><select lemma="estalvi"/></match>
       <or>
         <match lemma="énergétique" tags="adj.*"/>
         <match lemma="annuel" tags="adj.*"/>
@@ -1997,10 +2064,10 @@
         <match lemma="campagne" tags="n.*"/>
       </or>
       <match lemma="de" tags="pr"/>
-      <match lemma="économie" tags="n.*"><select lemma="estauvi"/></match>
+      <match lemma="économie" tags="n.*"><select lemma="estalvi"/></match>
     </rule>
     <rule weight="1.0">
-      <match lemma="économie" tags="n.*"><select lemma="estauvi"/></match>
+      <match lemma="économie" tags="n.*"><select lemma="estalvi"/></match>
       <match lemma="de" tags="pr"/>
       <repeat from="0" upto="1">
         <or>
@@ -2018,7 +2085,7 @@
       </or>
     </rule>
     <rule weight="1.0">
-      <match lemma="économie" tags="n.*"><select lemma="estauvi"/></match>
+      <match lemma="économie" tags="n.*"><select lemma="estalvi"/></match>
       <match lemma="de" tags="pr"/>
       <match tags="det.*"/>
       <or>
@@ -2080,7 +2147,7 @@
 
     <!-- maître >> mèste, mestrèssa -->
     <rule weight="0.8">
-      <match lemma="maître" tags="n.*"><select lemma="mèste"/></match>
+      <match lemma="maître" tags="n.*"><select lemma="mèstre"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="maître" tags="n.f.*"><select lemma="mestrèssa"/></match>
@@ -2150,14 +2217,14 @@
           <match lemma="de" tags="pr"/>
         </or>
       </repeat>
-      <match lemma="but" tags="n.*"><select lemma="punt"/></match>
+      <match lemma="but" tags="n.*"><select lemma="ponch"/></match>
     </rule>
     <rule weight="1.0">
       <or>
         <match tags="num.*"/>
         <match tags="num"/>
       </or>
-      <match lemma="but" tags="n.*"><select lemma="punt"/></match>
+      <match lemma="but" tags="n.*"><select lemma="ponch"/></match>
     </rule>
     <rule weight="1.2">
       <match lemma="se" tags="prn.*"/>
@@ -2274,11 +2341,11 @@
       <match lemma="croissant" tags="n.*"><select lemma="còrn"/></match>
     </rule>
     <rule weight="1.0">
-      <match lemma="croissant" tags="n.*"><select lemma="creishent"/></match>
+      <match lemma="croissant" tags="n.*"><select lemma="creissent"/></match>
       <match lemma="rouge" tags="adj.*"/>
     </rule>
     <rule weight="1.0">
-      <match lemma="croissant" tags="n.*"><select lemma="creishent"/></match>
+      <match lemma="croissant" tags="n.*"><select lemma="creissent"/></match>
       <repeat from="0" upto="6">
         <or>
           <match tags="*"/>
@@ -2303,13 +2370,13 @@
           <match tags=""/>
         </or>
       </repeat>
-      <match lemma="croissant" tags="n.*"><select lemma="creishent"/></match>
+      <match lemma="croissant" tags="n.*"><select lemma="creissent"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="parler" tags="n.*"/>
       <match lemma="de" tags="pr"/>
       <match lemma="le" tags="det.*"/>
-      <match lemma="croissant" tags="n.*"><select lemma="creishent"/></match>
+      <match lemma="croissant" tags="n.*"><select lemma="creissent"/></match>
     </rule>
 
     <!-- police >> polícia, polissa -->
@@ -2444,10 +2511,10 @@
 
     <!-- fille >> dròlle, hilh -->
     <rule weight="0.8">
-      <match lemma="fille" tags="n.*"><select lemma="dròlle"/></match>
+      <match lemma="fille" tags="n.*"><select lemma="gojat"/></match>
     </rule>
     <rule weight="1.2">
-      <match lemma="fille" tags="n.*"><select lemma="hilh"/></match>
+      <match lemma="fille" tags="n.*"><select lemma="filh"/></match>
       <or>
         <match lemma="aîné" tags="adj.*"/>
         <match lemma="cadet" tags="adj.*"/>
@@ -2455,20 +2522,20 @@
     </rule>
     <rule weight="1.0">
       <match tags="det.pos.*"/>
-      <match lemma="fille" tags="n.*"><select lemma="hilh"/></match>
+      <match lemma="fille" tags="n.*"><select lemma="filh"/></match>
     </rule>
     <rule weight="1.0">
       <match tags="det.pos.*"/>
       <or><match tags="num.*"/><match tags="num"/></or>
-      <match lemma="fille" tags="n.*"><select lemma="hilh"/></match>
+      <match lemma="fille" tags="n.*"><select lemma="filh"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="avoir"/>
       <or><match tags="det.*"/><match tags="num.*"/><match tags="num"/></or>
-      <match lemma="fille" tags="n.*"><select lemma="hilh"/></match>
+      <match lemma="fille" tags="n.*"><select lemma="filh"/></match>
     </rule>
     <rule weight="1.2">
-      <match lemma="fille" tags="n.*"><select lemma="hilh"/></match>
+      <match lemma="fille" tags="n.*"><select lemma="filh"/></match>
       <repeat from="0" upto="2">
         <or>
           <match tags="preadv"/>
@@ -2485,7 +2552,7 @@
       </or>
     </rule>
     <rule weight="1.2">
-      <match lemma="fille" tags="n.*"><select lemma="hilh"/></match>
+      <match lemma="fille" tags="n.*"><select lemma="filh"/></match>
       <repeat from="0" upto="1">
         <match tags="adj.*"/>
       </repeat>
@@ -2494,7 +2561,7 @@
       <match tags="n.*"/>
     </rule>
     <rule weight="1.2">
-      <match lemma="fille" tags="n.*"><select lemma="hilh"/></match>
+      <match lemma="fille" tags="n.*"><select lemma="filh"/></match>
       <repeat from="0" upto="1">
         <match tags="adj.*"/>
       </repeat>
@@ -2511,7 +2578,7 @@
 
     <!-- bulle >> bulla, boishòrla -->
     <rule weight="0.8">
-      <match lemma="bulle" tags="n.*"><select lemma="boishòrla"/></match>
+      <match lemma="bulle" tags="n.*"><select lemma="boissòrla"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="bulle" tags="n.*"><select lemma="ast"/></match>
@@ -2544,7 +2611,7 @@
       <match lemma="barrage" tags="n.*"><select lemma="barratge"/></match>
     </rule>
     <rule weight="1.0">
-      <match lemma="barrage" tags="n.*"><select lemma="paishèra"/></match>
+      <match lemma="barrage" tags="n.*"><select lemma="paissièra"/></match>
       <match lemma="de" tags="pr"/>
       <repeat from="0" upto="1">
         <match tags="det.def.*"/>
@@ -2557,7 +2624,7 @@
 
     <!-- bois >> husta, lenha, bòsc, arram -->
     <rule weight="0.8">
-      <match lemma="bois" tags="n.*"><select lemma="husta"/></match>
+      <match lemma="bois" tags="n.*"><select lemma="fusta"/></match>
     </rule>
     <rule weight="1.0">
       <or>
@@ -2717,7 +2784,7 @@
       <match lemma="bois" tags="n.*"><select lemma="bòsc"/></match>
     </rule>
     <rule weight="1.3">
-      <match lemma="bois" tags="n.*"><select lemma="arram"/></match>
+      <match lemma="bois" tags="n.*"><select lemma="ram"/></match>
       <repeat from="0" upto="3">
         <or>
           <match tags="preadv"/>
@@ -2743,7 +2810,7 @@
     </rule>
     <rule weight="1.4">
       <match lemma="en" tags="pr"/>
-      <match lemma="bois" tags="n.*"><select lemma="husta"/></match>
+      <match lemma="bois" tags="n.*"><select lemma="fusta"/></match>
     </rule>
     <rule weight="1.4">
       <or>
@@ -2756,7 +2823,7 @@
         <match lemma="jouet" tags="n.*"/>
       </or>
       <match lemma="de" tags="pr"/>
-      <match lemma="bois" tags="n.*"><select lemma="husta"/></match>
+      <match lemma="bois" tags="n.*"><select lemma="fusta"/></match>
     </rule>
     <rule weight="1.4">
       <match lemma="charbon" tags="n.*"/>
@@ -2773,7 +2840,7 @@
         <match lemma="faire" tags="vblex.*"/>
       </or>
       <match lemma="de" tags="pr"/>
-      <match lemma="bois" tags="n.*"><select lemma="husta"/></match>
+      <match lemma="bois" tags="n.*"><select lemma="fusta"/></match>
     </rule>
     <rule weight="1.4">
       <or>
@@ -2786,7 +2853,7 @@
         <match tags="adv"/>
       </repeat>
       <match tags="det.def.*"/>
-      <match lemma="bois" tags="n.*"><select lemma="husta"/></match>
+      <match lemma="bois" tags="n.*"><select lemma="fusta"/></match>
     </rule>
     <rule weight="2.0">
       <match lemma="Bois" tags="n.*"><select lemma="bòsc"/></match>
@@ -2812,7 +2879,7 @@
 
     <!-- fils >> hilhs, hius -->
     <rule weight="0.8">
-      <match lemma="fils" tags="n.*"><select lemma="hilh"/></match>
+      <match lemma="fils" tags="n.*"><select lemma="filh"/></match>
     </rule>
 
     <!-- appât >> esca, atrèit -->
@@ -2905,7 +2972,7 @@
       <match lemma="rayon" tags="n.*"><select lemma="rai"/></match>
     </rule>
     <rule weight="1.0">
-      <match lemma="rayon" tags="n.*"><select lemma="taulèr"/></match>
+      <match lemma="rayon" tags="n.*"><select lemma="taulièr"/></match>
       <or>
         <match lemma="frais" tags="adj.*"/>
         <match lemma="surgelé" tags="adj.*"/>
@@ -2991,7 +3058,7 @@
       </or>
     </rule>
     <rule weight="1.0">
-      <match lemma="rayon" tags="n.*"><select lemma="taulèr"/></match>
+      <match lemma="rayon" tags="n.*"><select lemma="taulièr"/></match>
       <match lemma="de" tags="pr"/>
       <match lemma="le" tags="det.*"/>
       <or>
@@ -3074,7 +3141,7 @@
       </or>
     </rule>
     <rule weight="1.0">
-      <match lemma="rayon" tags="n.*"><select lemma="taulèr"/></match>
+      <match lemma="rayon" tags="n.*"><select lemma="taulièr"/></match>
       <or>
         <match lemma="gros" tags="adj.*"/>
         <match lemma="petit" tags="adj.*"/>
@@ -3082,7 +3149,7 @@
       <match lemma="électroménager" tags="n.*"/>
     </rule>
     <rule weight="1.0">
-      <match lemma="rayon" tags="n.*"><select lemma="taulèr"/></match>
+      <match lemma="rayon" tags="n.*"><select lemma="taulièr"/></match>
       <match lemma="de" tags="pr"/>
       <match lemma="le" tags="det.*"/>
       <or>

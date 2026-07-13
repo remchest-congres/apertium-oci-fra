@@ -1741,7 +1741,7 @@
 
     <!-- essuyer >> eishugar, patir -->
     <rule weight="0.8">
-      <match lemma="essuyer" tags="vblex.*"><select lemma="eishugar"/></match>
+      <match lemma="essuyer" tags="vblex.*"><select lemma="eissugar"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="essuyer" tags="vblex.*"><select lemma="patir"/></match>
@@ -2059,7 +2059,7 @@
     </rule>
     <rule weight="1.0">
       <match tags="prn.pro.*"/>
-      <match lemma="mettre" tags="vblex.*"><select lemma="hicar"/></match>
+      <match lemma="mettre" tags="vblex.*"><select lemma="ficar"/></match>
       <match lemma="à l'aise" tags="adv"/>
     </rule>
     <rule weight="1.0">
@@ -2336,14 +2336,14 @@
       <match lemma="jouer" tags="vblex.*"><select lemma="jogar"/></match>
     </rule>
     <rule weight="1.0">
-      <match lemma="jouer" tags="vblex.*"><select lemma="har"/></match>
+      <match lemma="jouer" tags="vblex.*"><select lemma="far"/></match>
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
       <match lemma="à" tags="pr"/>
     </rule>
     <rule weight="1.0">
-      <match lemma="jouer" tags="vblex.*"><select lemma="har"/></match>
+      <match lemma="jouer" tags="vblex.*"><select lemma="far"/></match>
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
@@ -2354,7 +2354,7 @@
       </or>
     </rule>
     <rule weight="1.0">
-      <match lemma="jouer" tags="vblex.*"><select lemma="har"/></match>
+      <match lemma="jouer" tags="vblex.*"><select lemma="far"/></match>
       <repeat from="0" upto="2">
         <match tags="adv"/>
       </repeat>
@@ -2810,7 +2810,7 @@
     </rule>
 
     <!-- mettre# en panne -> hicar# en pana, immobilizar -->
-    <macro n="verb_nopron_pron"><with-param v="mettre# en panne"/><with-param v="hicar# en pana"/><with-param v="immobilizar"/></macro>
+    <macro n="verb_nopron_pron"><with-param v="mettre# en panne"/><with-param v="ficar# en pana"/><with-param v="immobilizar"/></macro>
 
     <!-- éblouir >> enlusernar, esmiraglar -->
     <rule weight="0.8">
@@ -2830,7 +2830,7 @@
     </rule>
 
     <!-- ficher >> hicar, fichar -->
-    <macro n="verb_nopron_pron"><with-param v="ficher"/><with-param v="fichar"/><with-param v="hicar"/></macro>
+    <macro n="verb_nopron_pron"><with-param v="ficher"/><with-param v="fichar"/><with-param v="ficar"/></macro>
 
     <rule weight="2.0">
       <or>
@@ -2864,7 +2864,7 @@
 
     <!-- filer >> hilar, partir, córrer, escapar, pèisher -->
     <rule weight="0.8">
-      <match lemma="filer" tags="vblex.*"><select lemma="hilar"/></match>
+      <match lemma="filer" tags="vblex.*"><select lemma="filar"/></match>
     </rule>
     <rule weight="1.2">
       <match lemma="laisser" tags="vblex.*"/>
@@ -3166,7 +3166,7 @@
       </or>
     </rule>
     <rule weight="1.2">
-      <match lemma="rendre" tags="vblex.*"><select lemma="har"/></match>
+      <match lemma="rendre" tags="vblex.*"><select lemma="far"/></match>
       <repeat from="0" upto="2">
         <or>
           <match lemma="plus" tags="adv"/>

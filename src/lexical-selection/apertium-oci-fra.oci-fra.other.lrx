@@ -2144,6 +2144,7 @@
        <match lemma="espart" tags="n.*.sg"/>
        <match lemma="fil" tags="n.*.sg"/>
        <match lemma="hiu" tags="n.*.sg"/>
+       <match lemma="hieu" tags="n.*.sg"/>
        <match lemma="papièr" tags="n.*.sg"/>
        <match lemma="papèr" tags="n.*.sg"/>
        <match lemma="lençòl" tags="n.*.sg"/>
@@ -2203,6 +2204,7 @@
        <match lemma="pin" tags="n.*.sg"/>
        <match lemma="bèç" tags="n.*.sg"/>
        <match lemma="bedoth" tags="n.*.sg"/>
+       <match lemma="bedol" tags="n.*.sg"/>
        <match lemma="castanhièr" tags="n.*.sg"/>
        <match lemma="castanhèr" tags="n.*.sg"/>
        <match lemma="noguièr" tags="n.*.sg"/>
@@ -2559,6 +2561,7 @@
       <match lemma="hilh" tags="n.*"/>
       <match lemma="fraire" tags="n.*"/>
       <match lemma="hrair" tags="n.*"/>
+      <match lemma="frair" tags="n.*"/>
       <match lemma="sòr" tags="n.*"/>
       <match lemma="sòrre" tags="n.*"/>
       <match lemma="seror" tags="n.*"/>
@@ -2574,6 +2577,7 @@
       <match lemma="cosia" tags="n.*"/>
       <match lemma="bigal" tags="n.*"/>
       <match lemma="moissau" tags="n.*"/>
+      <match lemma="moissal" tags="n.*"/>
       <match lemma="grand" tags="n.*"/>
       <match lemma="gran-pair" tags="n.*"/>
       <match lemma="gran-mair" tags="n.*"/>
@@ -2627,6 +2631,7 @@
       <match lemma="bordièr" tags="n.*"/>
       <match lemma="bordèr" tags="n.*"/>
       <match lemma="bordalèr" tags="n.*"/>
+      <match lemma="bordalièr" tags="n.*"/>
       <match lemma="boriaire" tags="n.*"/>
       <match lemma="arquitècte" tags="n.*"/>
       <match lemma="engenhaire" tags="n.*"/>
@@ -2643,6 +2648,7 @@
       <match lemma="cosinièr" tags="n.*"/>
       <match lemma="cosinèr" tags="n.*"/>
       <match lemma="codinèr" tags="n.*"/>
+      <match lemma="codinièr" tags="n.*"/>
       <match lemma="costurièr" tags="n.*"/>
       <match lemma="costurèr" tags="n.*"/>
       <match lemma="pastissièr" tags="n.*"/>
@@ -3133,6 +3139,7 @@
       <match lemma="pacifista" tags="n.*"/>
       <match lemma="païsagista" tags="n.*"/>
       <match lemma="païsatgista" tags="n.*"/>
+      <match lemma="paisatgista" tags="n.*"/>
       <match lemma="paleobotanista" tags="n.*"/>
       <match lemma="paleontologista" tags="n.*"/>
       <match lemma="palmista" tags="n.*"/>
@@ -3155,6 +3162,7 @@
       <match lemma="patologista" tags="n.*"/>
       <match lemma="paulista" tags="n.*"/>
       <match lemma="paumonista" tags="n.*"/>
+      <match lemma="palmonista" tags="n.*"/>
       <match lemma="penalista" tags="n.*"/>
       <match lemma="pensionista" tags="n.*"/>
       <match lemma="pentacostista" tags="n.*"/>
@@ -3461,6 +3469,7 @@
     <def-seq n="locucion_ini_a"><or>
       <match lemma="a la mitat de genièr" tags="adv"/>
       <match lemma="a la mieitat de genèr" tags="adv"/>
+      <match lemma="a la mieitat de genièr" tags="adv"/>
       <match lemma="a la mitat de febrièr" tags="adv"/>
       <match lemma="a la mieitat de heurèr" tags="adv"/>
       <match lemma="a la mitat de març" tags="adv"/>
@@ -3835,6 +3844,7 @@
        <match lemma="dar# un còp d'uèlh" tags="vblex.*"/>
        <match lemma="dar# un uelhat" tags="vblex.*"/>
        <match lemma="dauarar" tags="vblex.*"/>
+       <match lemma="davarar" tags="vblex.*"/>
        <match lemma="davalar" tags="vblex.*"/>
        <match lemma="davarar" tags="vblex.*"/>
        <match lemma="décoller" tags="vblex.*"/>
@@ -4098,8 +4108,10 @@
        <match lemma="petar# de paur" tags="vblex.*"/>
        <match lemma="petejar" tags="vblex.*"/>
        <match lemma="pèthmudar" tags="vblex.*"/>
+       <match lemma="pèlmudar" tags="vblex.*"/>
        <match lemma="petilhar" tags="vblex.*"/>
        <match lemma="peumudar" tags="vblex.*"/>
+       <match lemma="pelmudar" tags="vblex.*"/>
        <match lemma="piular" tags="vblex.*"/>
        <match lemma="plaire" tags="vblex.*"/>
        <match lemma="plàser" tags="vblex.*"/>
@@ -4422,6 +4434,7 @@
        <match lemma="cahinclar" tags="vblex.*"/>
        <match lemma="cainar" tags="vblex.*"/>
        <match lemma="horrar" tags="vblex.*"/>
+       <match lemma="forrar" tags="vblex.*"/>
        <match lemma="nhaulotar" tags="vblex.*"/>
        <match lemma="nhaulotejar" tags="vblex.*"/>
        <match lemma="nhauicar" tags="vblex.*"/>
@@ -4435,7 +4448,7 @@
        <match lemma="japar" tags="vblex.*"/>
        <match lemma="nhaulotar" tags="vblex.*"/>
        <match lemma="nhaulotejar" tags="vblex.*"/>
-       <match lemma="nhauicar" tags="vblex.*"/>
+       <match lemma="nhavicar" tags="vblex.*"/>
        <match lemma="nhauiquejar" tags="vblex.*"/>
        <match lemma="lairotar" tags="vblex.*"/>
        <match lemma="lairotejar" tags="vblex.*"/>
@@ -4496,6 +4509,9 @@
     <!-- quau prn.itg >> quel, qui -->
     <rule weight="0.8">
       <match lemma="quau" tags="prn.itg.*"><select lemma="quel"/></match>
+    </rule>
+    <rule weight="0.8">
+      <match lemma="qual" tags="prn.itg.*"><select lemma="quel"/></match>
     </rule>
 
     <!-- se prn.pro >> se prn.pro, on, [remove] -->
@@ -4968,6 +4984,7 @@
           <match lemma="a despièit de" tags="pr"/>
           <match lemma="al despièch de" tags="pr"/>
           <match lemma="a maugrat de" tags="pr"/>
+          <match lemma="a malgrat de" tags="pr"/>
           <match lemma="maugrat" tags="pr"/>
           <match lemma="malgrat" tags="pr"/>
           <match lemma="maldespièch" tags="pr"/>
@@ -5544,6 +5561,7 @@
         <match lemma="vedèl" tags="n.*"/>
         <match lemma="vedèth" tags="n.*"/>
         <match lemma="vetèth" tags="n.*"/>
+        <match lemma="vetèl" tags="n.*"/>
         <match lemma="aus" tags="n.*"/>
         <match lemma="lanada" tags="n.*"/>
         <match lemma="libre" tags="n.*"/>
@@ -5608,6 +5626,7 @@
       <or>
         <match lemma="dificile" tags="adj.*"/>
         <match lemma="mauaisit" tags="adj.*"/>
+        <match lemma="malaisit" tags="adj.*"/>
         <match lemma="polit" tags="adj.*"/>
       </or>
       <match lemma="de" tags="pr"><select lemma="à"/></match>

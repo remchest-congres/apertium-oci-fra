@@ -177,7 +177,7 @@
 
     <!-- vis-à-vis de >> au respècte de -->
     <rule weight="0.6">
-      <match lemma="vis-a-vis de" tags="pr"><select lemma="au respècte de"/></match>
+      <match lemma="vis-a-vis de" tags="pr"><select lemma="al respècte de"/></match>
     </rule>
 
     <!-- dans >> dens, en -->
