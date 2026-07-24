@@ -531,7 +531,7 @@
 
     <!-- lui prn.pro >> lo prn.pro.p3.m.sg, lo prn.pro.p3.f.sg, ac (Gascon) -->
     <rule weight="0.8">
-      <match lemma="lui" tags="prn.pro.*"><select lemma="lo" tags="prn.pro.p3.m.sg"/></match>
+      <match lemma="lui" tags="prn.pro.*"><select lemma="li" tags="prn.pro.p3.m.sg"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="le" tags="prn.pro.*"/>
@@ -540,7 +540,7 @@
 
     <!-- leur prn.pro >> lo prn.pro.p3.mf.pl, prn.pro.p3.f, ac (Gascon) -->
     <rule weight="0.8">
-      <match lemma="leur" tags="prn.pro.*"><select lemma="lo" tags="prn.pro.*"/></match>
+      <match lemma="leur" tags="prn.pro.*"><select lemma="li" tags="prn.pro.*"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="le" tags="prn.pro.*"/>
@@ -549,7 +549,7 @@
 
     <!-- lui prn.enc >> lo prn.enc.p3.m.sg, lo prn.enc.p3.f.sg, ac prn.enc (Gascon) -->
     <rule weight="0.8">
-      <match lemma="lui" tags="prn.enc.*"><select lemma="lo" tags="prn.enc.p3.m.sg"/></match>
+      <match lemma="lui" tags="prn.enc.*"><select lemma="li" tags="prn.enc.p3.m.sg"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="le" tags="prn.enc.*"/>
@@ -558,7 +558,7 @@
 
     <!-- leur prn.enc >> lo prn.enc.p3.m, lo prn.enc.p3.f (Gascon) -->
     <rule weight="0.8">
-      <match lemma="leur" tags="prn.enc.*"><select lemma="lo" tags="prn.enc.*"/></match>
+      <match lemma="leur" tags="prn.enc.*"><select lemma="li" tags="prn.enc.*"/></match>
     </rule>
     <rule weight="1.0">
       <match lemma="le" tags="prn.enc.*"/>
