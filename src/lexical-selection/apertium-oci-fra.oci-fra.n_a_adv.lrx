@@ -4537,7 +4537,7 @@
     </rule>
     <rule weight="1.0">
       <or>
-        <match lemma="bo" tags="adj.*"/>
+        <match lemma="bon" tags="adj.*"/>
         <match lemma="mal" tags="adj.*"/>
       </or>
       <match lemma="cara" tags="n.*"><select lemma="mine"/></match>
