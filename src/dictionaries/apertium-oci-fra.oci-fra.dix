@@ -328,9 +328,9 @@
     <e r="RL"><p><l>el<s n="prn"/><s n="tn"/><s n="p3"/></l><r>lui<b/>il<s n="prn"/><s n="tn"/><s n="p3"/></r></p><par n="GD_GD"/><par n="ND_ND"/><par n="d:gascon"/><par n="d:lengadocian"/></e>
 
     <e> <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-    <e> <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e> <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e> <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-    <e> <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e> <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e> <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     <e> <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     <e> <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -359,8 +359,10 @@
 
     <!-- P3 réfléchi -->
 
+
     <e r="LR"><p><l>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r/></p></e>
     <e r="LR"><p><l>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r/></p></e>
+    <e><p><l>se<s n="prn"/><s n="enc"/></l><r>se<s n="prn"/><s n="enc"/></r></p></e>
 
     <e> <p><l>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -453,7 +455,6 @@
     <e><p><l>vosautres<b/>meteisses<s n="prn"/><s n="tn"/><s n="p2"/></l><r>vous-mêmes<s n="prn"/><s n="tn"/><s n="p2"/></r></p><par n="GD_mf"/><par n="d:lengadocian"/></e>
     <e><p><l>vosauts<b/>medishs<s n="prn"/><s n="tn"/><s n="p2"/></l><r>vous-mêmes<s n="prn"/><s n="tn"/><s n="p2"/></r></p><par n="GD_mf"/><par n="d:gascon"/></e>
     
-
 
 
 
@@ -85368,9 +85369,6 @@
     <e r="LR"><p><l>totòm<s n="prn"/></l><r>tout<b/>le<b/>monde<s n="prn"/></r></p></e>
     <e><p><l>un<s n="prn"/></l><r>un<s n="prn"/></r></p></e>
 
-
-    <!-- ******************* prn enc ******************* -->
-    <e><p><l>se<s n="prn"/><s n="enc"/></l><r>se<s n="prn"/><s n="enc"/></r></p></e>
 
 
     <!-- ******************* prn itg ******************* -->

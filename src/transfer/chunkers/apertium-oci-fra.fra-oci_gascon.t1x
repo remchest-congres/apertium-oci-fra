@@ -22824,7 +22824,7 @@
 
     <!-- AUTRAS RÈGLAS VERBALAS -->
 
-    <rule comment="RÈGLA: IMP PRNENC">
+   <!--<rule comment="RÈGLA: IMP PRNENC">
        <pattern>
          <pattern-item n="verb"/>
          <pattern-item n="prnenc"/>
@@ -22907,8 +22907,8 @@
           <with-param pos="1"/>
          </call-macro>
 
-         <!-- quasi còpia de la macro escriure_prnpro_prnpro (v=gascon) -->
-         <!-- cas 'le/la/les + lui/leur' : on inverse CD et CI -->
+         --><!-- quasi còpia de la macro escriure_prnpro_prnpro (v=gascon) --><!--
+         --><!-- cas 'le/la/les + lui/leur' : on inverse CD et CI --><!--
          <choose>
            <when>
              <test>
@@ -22945,12 +22945,12 @@
            <when>
              <test>
                <or>
-                 <and> <!-- lo: prioritat 1 -->
+                 <and> --><!-- lo: prioritat 1 --><!--
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="lo"/></equal>
                    <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></equal>
                    <equal><clip pos="3" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
                  </and>
-                 <and> <!-- la: prioritat 2 -->
+                 <and> --><!-- la: prioritat 2 --><!--
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="lo"/></equal>
                    <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="f"/></equal>
                    <equal><clip pos="3" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
@@ -22962,7 +22962,7 @@
                      </and>
                    </not>
                  </and>
-                 <and> <!-- los: prioritat 3 -->
+                 <and> --><!-- los: prioritat 3 --><!--
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="lo"/></equal>
                    <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></equal>
                    <equal><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
@@ -22973,7 +22973,7 @@
                      </and>
                    </not>
                  </and>
-                 <and> <!-- las: prioritat 4 -->
+                 <and> --><!-- las: prioritat 4 --><!--
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="lo"/></equal>
                    <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="f"/></equal>
                    <equal><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
@@ -22981,13 +22981,13 @@
                      <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="lo"/></equal>
                    </not>
                  </and>
-                 <and> <!-- se: prioritat 5 -->
+                 <and> --><!-- se: prioritat 5 --><!--
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="se"/></equal>
                    <not>
                      <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="lo"/></equal>
                    </not>
                  </and>
-                 <and> <!-- te: prioritat 6 -->
+                 <and> --><!-- te: prioritat 6 --><!--
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="te"/></equal>
                    <not>
                      <or>
@@ -22996,7 +22996,7 @@
                      </or>
                    </not>
                  </and>
-                 <and> <!-- vos: prioritat 7 -->
+                 <and> --><!-- vos: prioritat 7 --><!--
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="vos"/></equal>
                    <not>
                      <or>
@@ -23006,7 +23006,7 @@
                      </or>
                    </not>
                  </and>
-                 <and> <!-- me: prioritat 8 -->
+                 <and> --><!-- me: prioritat 8 --><!--
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="me"/></equal>
                    <not>
                      <or>
@@ -23017,7 +23017,7 @@
                      </or>
                    </not>
                  </and>
-                 <and> <!-- nos: prioritat 9 -->
+                 <and> --><!-- nos: prioritat 9 --><!--
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="ne"/></equal>
                    <not>
                      <or>
@@ -23029,7 +23029,7 @@
                      </or>
                    </not>
                  </and>
-                 <and> <!-- ne: prioritat 10 -->
+                 <and>--><!-- ne: prioritat 10 --><!--
                    <or>
                      <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="ne"/></equal>
                      <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="en"/></equal>
@@ -23039,7 +23039,7 @@
                      <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="i"/></equal>
                    </or>
                  </and>
-                 <and> <!-- ac: prioritat 11 -->
+                 <and> --><!-- ac: prioritat 11 --><!--
                    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="ac"/></equal>
                    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="i"/></equal>
                  </and>
@@ -23106,7 +23106,7 @@
            </otherwise>
          </choose>
        </action>
-    </rule>
+    </rule>-->
 
     <rule comment="RÈGLA: TOUT EN VBGER > EN VBGER (tout en décollant > en s'enlairant)">
        <pattern>

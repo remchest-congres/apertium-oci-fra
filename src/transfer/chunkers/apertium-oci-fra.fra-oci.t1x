@@ -22919,7 +22919,7 @@
 
     <!-- AUTRAS RÈGLAS VERBALAS -->
 
-    <rule comment="RÈGLA: IMP PRNENC">
+    <!-- <rule comment="RÈGLA: IMP PRNENC">
        <pattern>
          <pattern-item n="verb"/>
          <pattern-item n="prnenc"/>
@@ -23076,7 +23076,7 @@
            </otherwise>
          </choose>
        </action>
-    </rule>
+    </rule>-->
 
     <rule comment="RÈGLA: TOUT EN VBGER > EN VBGER (tout en décollant > en s'enlairant)">
        <pattern>
