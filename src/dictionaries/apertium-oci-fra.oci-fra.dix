@@ -362,7 +362,7 @@
 
     <e r="LR"><p><l>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r/></p></e>
     <e r="LR"><p><l>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r/></p></e>
-    <e><p><l>se<s n="prn"/><s n="enc"/></l><r>se<s n="prn"/><s n="enc"/></r></p></e>
+    <e><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e> <p><l>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -11648,6 +11648,8 @@
     <e><p><l>davant<s n="adv"/></l><r>devant<s n="adv"/></r></p><par n="d:lengadocian"/><par n="d:gascon"/><par n="d:aranes"/></e>
     <e a="hector" r="LR"><p><l>davantgèir<s n="adv"/></l><r>avant-hier<s n="adv"/></r></p></e>
     <e a="hector" r="LR"><p><l>davath<s n="adv"/></l><r>dessous<s n="adv"/></r></p></e>
+    <e a="Congrès" r="LR"><p><l>de'n<b/>pertot<s n="adv"/></l><r>partout<s n="adv"/></r></p></e>
+    <e a="Congrès" r="LR"><p><l>d'en<b/>pertot<s n="adv"/></l><r>partout<s n="adv"/></r></p></e>
     <e a="Congrès" r="LR"><p><l>de<b/>bada<s n="adv"/></l><r>en<b/>vain<s n="adv"/></r></p></e>
     <e><p><l>de<b/>badas<s n="adv"/></l><r>en<b/>vain<s n="adv"/></r></p></e>
     <e><p><l>de<b/>bat<b/>en<b/>bat<s n="adv"/></l><r>de<b/>part<b/>en<b/>part<s n="adv"/></r></p><par n="d:lengadocian"/></e>

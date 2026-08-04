@@ -20407,6 +20407,7 @@
                   <clip pos="1" side="tl" part="temps"/>
                   <clip pos="1" side="tl" part="lemq"/>
                 </lu>
+                <b/>
               </chunk>
             </out>
           </when>
@@ -20424,6 +20425,7 @@
                   <lit-tag v="prn.pro"/>
                   <clip pos="2" side="tl" part="tipoenc_pro"/>
                 </lu>
+                <b/>
                 <b/>
                 <lu>
                   <clip pos="1" side="tl" part="lemh"/>
@@ -20476,6 +20478,7 @@
                     <clip pos="3" side="tl" part="tipoenc_pro"/>
                   </lu>
                   <b/>
+                  <b/>
                   <lu>
                     <clip pos="1" side="tl" part="lemh"/>
                     <clip pos="1" side="tl" part="a_verb"/>
@@ -20505,6 +20508,7 @@
                     <lit-tag v="prn.pro"/>
                     <clip pos="2" side="tl" part="tipoenc_pro"/>
                   </lu>
+                  <b/>
                   <b/>
                   <lu>
                     <clip pos="1" side="tl" part="lemh"/>
@@ -20561,6 +20565,7 @@
                     <clip pos="3" side="tl" part="tipoenc_pro"/>
                   </lu>
                   <b/>
+                  <b/>
                   <lu>
                     <clip pos="2" side="tl" part="lem"/>
                     <lit-tag v="prn.pro"/>
@@ -20590,6 +20595,7 @@
                     <lit-tag v="prn.pro"/>
                     <clip pos="2" side="tl" part="tipoenc_pro"/>
                   </lu>
+                  <b/>
                   <b/>
                   <lu>
                     <clip pos="3" side="tl" part="lem"/>
@@ -20830,6 +20836,7 @@
                   <clip pos="3" side="tl" part="tipoenc_pro"/>
                 </lu>
                 <b/>
+                <b/>
                 <lu>
                   <clip pos="4" side="tl" part="lem"/>
                   <lit-tag v="prn.pro"/>
@@ -20860,6 +20867,7 @@
                   <lit-tag v="prn.pro"/>
                   <clip pos="3" side="tl" part="tipoenc_pro"/>
                 </lu>
+                <b/>
                 <b/>
                 <lu>
                   <clip pos="4" side="tl" part="lem"/>
@@ -21039,6 +21047,7 @@
                   <clip pos="5" side="tl" part="tipoenc_pro"/>
                 </lu>
                 <b/>
+                <b/>
                 <lu>
                   <clip pos="4" side="tl" part="lem"/>
                   <lit-tag v="prn.pro"/>
@@ -21069,6 +21078,7 @@
                   <lit-tag v="prn.pro"/>
                   <clip pos="4" side="tl" part="tipoenc_pro"/>
                 </lu>
+                <b/>
                 <b/>
                 <lu>
                   <clip pos="5" side="tl" part="lem"/>
