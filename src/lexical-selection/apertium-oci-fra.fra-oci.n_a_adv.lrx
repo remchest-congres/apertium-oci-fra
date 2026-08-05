@@ -2299,6 +2299,11 @@
       <match lemma="vol" tags="n.*"><select lemma="vòl"/></match>
     </rule>
 
+    <!-- chasse >> caça, chorrada/sèrva d'aiga -->
+    <rule weight="0.8">
+      <match lemma="chasse" tags="n.*"><select lemma="caça"/></match>
+    </rule>
+
     <!-- vague >> èrsa, ondada -->
     <rule weight="0.8">
       <match lemma="vague" tags="n.*"><select lemma="èrsa"/></match>
