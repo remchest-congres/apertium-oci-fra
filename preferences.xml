@@ -1,0 +1,2591 @@
+<preferences>
+  <preference id="ch_it">
+    <description lang="fra">réalisation de ch/it</description>
+    <description lang="oci">realizacion de ch/it</description>
+    <keywords>
+      <keyword>ach</keyword>
+      <keyword>ait</keyword>
+      <keyword>ch</keyword>
+      <keyword>it</keyword>
+      <keyword>èit</keyword>
+      <keyword>fach</keyword>
+      <keyword>fait</keyword>
+      <keyword>hèit</keyword>
+      <keyword>dich</keyword>
+      <keyword>dit</keyword>
+      <keyword>drech</keyword>
+      <keyword>dret</keyword>
+      <keyword>dreit</keyword>
+      <keyword>nuèit</keyword>
+      <keyword>nuèch</keyword>
+      <keyword>nuech</keyword>
+      <keyword>ct</keyword>
+      <keyword>palatalisation</keyword>
+      <keyword>palatalizacion</keyword>
+      <keyword>palatalisacion</keyword>
+    </keywords>
+    <options>
+      <option id="ch_it:ch">
+        <description lang="fra">réalisation de ch/it en -ch-</description>
+        <description lang="oci">realizacion de ch/it en -ch-</description>
+        <example>fach, drech, dich</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="ch_it:it">
+        <description lang="fra">réalisation de ch/it en -it-</description>
+        <description lang="oci">realizacion de ch/it en -it-</description>
+        <example>fait, dre(i)t, dit</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="l_u">
+    <description lang="fra">vocalisation du -l final</description>
+    <description lang="oci">vocalizacion del -l final</description>
+    <keywords>
+      <keyword>au</keyword>
+      <keyword>al</keyword>
+      <keyword>l</keyword>
+      <keyword>u</keyword>
+      <keyword>èu</keyword>
+      <keyword>èl</keyword>
+      <keyword>òu</keyword>
+      <keyword>òl</keyword>
+      <keyword>alis</keyword>
+      <keyword>suffixe</keyword>
+      <keyword>vocalisation</keyword>
+      <keyword>sufixe</keyword>
+      <keyword>sufix</keyword>
+      <keyword>vocalizacion</keyword>
+    </keywords>
+    <options>
+      <option id="l_u:l">
+        <description lang="fra">pas de vocalisation du -l final</description>
+        <description lang="oci">pas de vocalizacion del -l final</description>
+        <example>canal</example>
+        <relevantFor/>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="l_u:u">
+        <description lang="fra">vocalisation du -l final en -u</description>
+        <description lang="oci">vocalizacion del -l final en -u</description>
+        <example>canau</example>
+        <relevantFor/>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="ala_au">
+    <description lang="fra">féminin des mots en -au</description>
+    <description lang="oci">feminin dels mots en -au</description>
+    <keywords>
+      <keyword>au</keyword>
+      <keyword>al</keyword>
+      <keyword>l</keyword>
+      <keyword>u</keyword>
+      <keyword>ament</keyword>
+      <keyword>aments</keyword>
+      <keyword>alaments</keyword>
+      <keyword>auments</keyword>
+      <keyword>alament</keyword>
+      <keyword>aument</keyword>
+      <keyword>ala</keyword>
+      <keyword>au</keyword>
+      <keyword>féminin</keyword>
+      <keyword>adverbial</keyword>
+      <keyword>suffixe</keyword>
+      <keyword>dérivation</keyword>
+      <keyword>adverbiale</keyword>
+      <keyword>feminin</keyword>
+      <keyword>adverbiau</keyword>
+      <keyword>sufixe</keyword>
+      <keyword>sufix</keyword>
+      <keyword>derivacion</keyword>
+      <keyword>adverbiala</keyword>
+    </keywords>
+    <options>
+      <option id="ala_au:ala">
+        <description lang="fra">féminin des mots en -au : -ala</description>
+        <description lang="oci">feminin dels mots en -au : -ala</description>
+        <example>costuma normala</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="ala_au:au">
+        <description lang="fra">féminin des mots en -au : -au</description>
+        <description lang="oci">feminin dels mots en -au : -au</description>
+        <example>costuma normau</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="l_th_u">
+    <description lang="fra">finale -l/-th/-u</description>
+    <description lang="oci">finala -l/-th/-u</description>
+    <keywords>
+      <keyword>l</keyword>
+      <keyword>u</keyword>
+      <keyword>th</keyword>
+      <keyword>al</keyword>
+      <keyword>au</keyword>
+      <keyword>ath</keyword>
+      <keyword>eth</keyword>
+      <keyword>èl</keyword>
+      <keyword>ll</keyword>
+    </keywords>
+    <options>
+      <option id="l_th_u:l">
+        <description lang="fra">finale -l/-th/-u en -l</description>
+        <description lang="oci">finala -l/-th/-u en -l</description>
+        <example>val</example>
+        <relevantFor/>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="l_th_u:u">
+        <description lang="fra">finale -l/-th/-u en -u</description>
+        <description lang="oci">finala -l/-th/-u en -u</description>
+        <example>vau</example>
+        <relevantFor/>
+        <defaultFor/>
+      </option>
+      <option id="l_th_u:th">
+        <description lang="fra">finale -l/-th/-u en -th</description>
+        <description lang="oci">finala -l/-th/-u en -th</description>
+        <example>vath</example>
+        <relevantFor/>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="ment_ments">
+    <description lang="fra">suffixe adverbial</description>
+    <description lang="oci">sufixe adverbial</description>
+    <keywords>
+      <keyword>ament</keyword>
+      <keyword>aments</keyword>
+      <keyword>finale</keyword>
+      <keyword>terminaison</keyword>
+      <keyword>adverbiale</keyword>
+      <keyword>ment</keyword>
+      <keyword>ments</keyword>
+      <keyword>suffixe</keyword>
+      <keyword>adverbial</keyword>
+      <keyword>ablatif</keyword>
+      <keyword>mente</keyword>
+      <keyword>finala</keyword>
+      <keyword>finau</keyword>
+      <keyword>terminason</keyword>
+      <keyword>adverbiala</keyword>
+      <keyword>adverbiau</keyword>
+      <keyword>sufixe</keyword>
+      <keyword>sufix</keyword>
+      <keyword>ablatiu</keyword>
+    </keywords>
+    <options>
+      <option id="ment_ments:ment">
+        <description lang="fra">suffixe adverbial en -ment</description>
+        <description lang="oci">sufixe adverbial en -ment</description>
+        <example>aimablament</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="ment_ments:ments">
+        <description lang="fra">suffixe adverbial en -ments</description>
+        <description lang="oci">sufixe adverbial en -ments</description>
+        <example>aimablaments</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="á_a">
+    <description lang="fra">impératif de « être »</description>
+    <description lang="oci">imperatiu de « èstre/estar/èster/èsser »</description>
+    <keywords>
+      <keyword>a</keyword>
+      <keyword>á</keyword>
+      <keyword>sia</keyword>
+      <keyword>siá</keyword>
+      <keyword>impératif</keyword>
+      <keyword>être</keyword>
+      <keyword>estar</keyword>
+      <keyword>èstre</keyword>
+      <keyword>èsser</keyword>
+      <keyword>èster</keyword>
+      <keyword>imperatiu</keyword>
+    </keywords>
+    <options>
+      <option id="á_a:á">
+        <description lang="fra">impératif de « être » en « siá »</description>
+        <description lang="oci">imperatiu de « èstre/estar/èster/èsser » en « siá »</description>
+        <example>siá</example>
+        <relevantFor/>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="á_a:a">
+        <description lang="fra">impératif de « être » en « sia »</description>
+        <description lang="oci">imperatiu de « èstre/estar/èster/èsser » en « sia »</description>
+        <example>sia</example>
+        <relevantFor/>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="n_intervoc">
+    <description lang="fra">-n- intervocalique</description>
+    <description lang="oci">-n- intervocalica</description>
+    <keywords>
+      <keyword>n</keyword>
+      <keyword>intervocalique</keyword>
+      <keyword>ua</keyword>
+      <keyword>una</keyword>
+      <keyword>ea</keyword>
+      <keyword>ena</keyword>
+      <keyword>oa</keyword>
+      <keyword>ona</keyword>
+      <keyword>oar</keyword>
+      <keyword>onar</keyword>
+      <keyword>amuïssement</keyword>
+      <keyword>chute</keyword>
+      <keyword>voyelles</keyword>
+      <keyword>entre</keyword>
+      <keyword>intervocalica</keyword>
+      <keyword>intervocalic</keyword>
+      <keyword>amudiment</keyword>
+      <keyword>caduda</keyword>
+      <keyword>casuda</keyword>
+      <keyword>vocalas</keyword>
+      <keyword>enter</keyword>
+    </keywords>
+    <options>
+      <option id="n_intervoc:n">
+        <description lang="fra">présence du -n- intervocalique</description>
+        <description lang="oci">preséncia de la -n- intervocalica</description>
+        <example>luna</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="n_intervoc:X">
+        <description lang="fra">absence du -n- intervocalique</description>
+        <description lang="oci">abséncia de la -n- intervocalica</description>
+        <example>lua</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="ièr_èr_èir">
+    <description lang="fra">suffixe -ièr/-èr/-èir</description>
+    <description lang="oci">sufixe -ièr/-èr/-èir</description>
+    <keywords>
+      <keyword>ièr</keyword>
+      <keyword>èr</keyword>
+      <keyword>èir</keyword>
+      <keyword>suffixe</keyword>
+      <keyword>métier</keyword>
+      <keyword>arbre</keyword>
+      <keyword>lieu</keyword>
+      <keyword>agent</keyword>
+      <keyword>profession</keyword>
+      <keyword>récipient</keyword>
+      <keyword>nom</keyword>
+      <keyword>adjectif</keyword>
+      <keyword>collectif</keyword>
+      <keyword>ariu</keyword>
+      <keyword>masculin</keyword>
+      <keyword>sufixe</keyword>
+      <keyword>sufix</keyword>
+      <keyword>mestièr</keyword>
+      <keyword>arbo</keyword>
+      <keyword>luòc</keyword>
+      <keyword>lòc</keyword>
+      <keyword>recipient</keyword>
+      <keyword>nom</keyword>
+      <keyword>adjectiu</keyword>
+      <keyword>collectiu</keyword>
+    </keywords>
+    <options>
+      <option id="ièr_èr_èir:ièr">
+        <description lang="fra">suffixe -ièr/-èr/-èir en -ièr</description>
+        <description lang="oci">sufixe -ièr/-èr/-èir en -ièr</description>
+        <example>molinièr</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="ièr_èr_èir:èr">
+        <description lang="fra">suffixe -ièr/-èr/-èir en -èr</description>
+        <description lang="oci">sufixe -ièr/-èr/-èir en -èr</description>
+        <example>molinèr</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+      <option id="ièr_èr_èir:èir">
+        <description lang="fra">suffixe -ièr/-èr/-èir en -èir</description>
+        <description lang="oci">sufixe -ièr/-èr/-èir en -èir</description>
+        <example>molinèir</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="ièra_ièira">
+    <description lang="fra">féminin du suffixe -ièr</description>
+    <description lang="oci">feminin del sufixe -ièr</description>
+    <keywords>
+      <keyword>féminin</keyword>
+      <keyword>ièr</keyword>
+      <keyword>ièra</keyword>
+      <keyword>ièira</keyword>
+      <keyword>i</keyword>
+      <keyword>métier</keyword>
+      <keyword>profession</keyword>
+      <keyword>agent</keyword>
+      <keyword>plante</keyword>
+      <keyword>arbre</keyword>
+      <keyword>plantation</keyword>
+      <keyword>lieu</keyword>
+      <keyword>récipient</keyword>
+      <keyword>collectif</keyword>
+      <keyword>suffixe</keyword>
+      <keyword>feminin</keyword>
+      <keyword>mestièr</keyword>
+      <keyword>planta</keyword>
+      <keyword>arbo</keyword>
+      <keyword>plantacion</keyword>
+      <keyword>luòc</keyword>
+      <keyword>lòc</keyword>
+      <keyword>recipient</keyword>
+      <keyword>collectiu</keyword>
+      <keyword>sufixe</keyword>
+      <keyword>sufix</keyword>
+    </keywords>
+    <options>
+      <option id="ièra_ièira:ièra">
+        <description lang="fra">féminin du suffixe -ièr en -ièra</description>
+        <description lang="oci">feminin del sufixe -ièr en -ièra</description>
+        <example>primièra</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="ièra_ièira:ièira">
+        <description lang="fra">féminin du suffixe -ièr en -ièira</description>
+        <description lang="oci">feminin del sufixe -ièr en -ièira</description>
+        <example>primièira</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="ariá_aria_eria">
+    <description lang="fra">évolution du suffixe latin -aria</description>
+    <description lang="oci">evolucion del sufixe latin -aria</description>
+    <keywords>
+      <keyword>ariá</keyword>
+      <keyword>aria</keyword>
+      <keyword>eria</keyword>
+      <keyword>boutique</keyword>
+      <keyword>magasin</keyword>
+      <keyword>suffixe</keyword>
+      <keyword>usine</keyword>
+      <keyword>commerce</keyword>
+      <keyword>industrie</keyword>
+      <keyword>caractéristique</keyword>
+      <keyword>qualité</keyword>
+      <keyword>défaut</keyword>
+      <keyword>botiga</keyword>
+      <keyword>sufixe</keyword>
+      <keyword>sufix</keyword>
+      <keyword>usina</keyword>
+      <keyword>comèrci</keyword>
+      <keyword>comèrce</keyword>
+      <keyword>industria</keyword>
+      <keyword>caracteristica</keyword>
+      <keyword>qualitat</keyword>
+      <keyword>defaut</keyword>
+    </keywords>
+    <options>
+      <option id="ariá_aria_eria:ariá">
+        <description lang="fra">évolution du suffixe latin -aria en -ariá</description>
+        <description lang="oci">evolucion del sufixe latin -aria en -ariá</description>
+        <example>librariá</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="ariá_aria_eria:aria">
+        <description lang="fra">évolution du suffixe latin -aria en -aria</description>
+        <description lang="oci">evolucion del sufixe latin -aria en -aria</description>
+        <example>libraria</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="ariá_aria_eria:eria">
+        <description lang="fra">évolution du suffixe latin -aria en -eria</description>
+        <description lang="oci">evolucion del sufixe latin -aria en -eria</description>
+        <example>libreria</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="f_h">
+    <description lang="fra">évolution du f- en h-</description>
+    <description lang="oci">evolucion de la f- en h-</description>
+    <keywords>
+      <keyword>f</keyword>
+      <keyword>h</keyword>
+      <keyword>aspiré</keyword>
+      <keyword>initiale</keyword>
+      <keyword>initial</keyword>
+      <keyword>aspirat</keyword>
+      <keyword>iniciala</keyword>
+      <keyword>inicial</keyword>
+      <keyword>iniciau</keyword>
+    </keywords>
+    <options>
+      <option id="f_h:f">
+        <description lang="fra">pas d'évolution du f- en h-</description>
+        <description lang="oci">pas d'evolucion de la f- en h-</description>
+        <example>femna</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="f_h:h">
+        <description lang="fra">évolution du f- en h-</description>
+        <description lang="oci">evolucion de la f- en h-</description>
+        <example>hemna</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="r_arr">
+    <description lang="fra">ar- prosthétique</description>
+    <description lang="oci">ar- prostetic</description>
+    <keywords>
+      <keyword>préfixe</keyword>
+      <keyword>r</keyword>
+      <keyword>arr</keyword>
+      <keyword>ar</keyword>
+      <keyword>a</keyword>
+      <keyword>prosthétique</keyword>
+      <keyword>syllabe</keyword>
+      <keyword>initiale</keyword>
+      <keyword>début</keyword>
+      <keyword>préfixe</keyword>
+      <keyword>prostetic</keyword>
+      <keyword>sillaba</keyword>
+      <keyword>iniciala</keyword>
+      <keyword>iniciau</keyword>
+      <keyword>debuta</keyword>
+      <keyword>debut</keyword>
+      <keyword>començar</keyword>
+      <keyword>prefixe</keyword>
+      <keyword>prefix</keyword>
+    </keywords>
+    <options>
+      <option id="r_arr:r">
+        <description lang="fra">absence de ar- prosthétique</description>
+        <description lang="oci">abséncia del ar- prostetic</description>
+        <example>rasim</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="r_arr:arr">
+        <description lang="fra">présence du ar- prosthétique</description>
+        <description lang="oci">preséncia del ar- prostetic</description>
+        <example>arrasim</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="esosten">
+    <description lang="fra">-e de soutien</description>
+    <description lang="oci">-e de sosten</description>
+    <keywords>
+      <keyword>e</keyword>
+      <keyword>soutien</keyword>
+      <keyword>final</keyword>
+      <keyword>finale</keyword>
+      <keyword>sosten</keyword>
+      <keyword>sostien</keyword>
+      <keyword>finala</keyword>
+      <keyword>finau</keyword>
+    </keywords>
+    <options>
+      <option id="esosten:e">
+        <description lang="fra">présence du -e de soutien</description>
+        <description lang="oci">preséncia de la -e de sosten</description>
+        <example>abile</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="esosten:X">
+        <description lang="fra">absence de -e de soutien</description>
+        <description lang="oci">abséncia de la -e de sosten</description>
+        <example>abil</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="plursens">
+    <description lang="fra">pluriel sensible</description>
+    <description lang="oci">plural sensible</description>
+    <keywords>
+      <keyword>pluriel</keyword>
+      <keyword>sensible</keyword>
+      <keyword>es</keyword>
+      <keyword>s</keyword>
+      <keyword>e</keyword>
+      <keyword>terminaison</keyword>
+      <keyword>long</keyword>
+      <keyword>invariable</keyword>
+      <keyword>plural</keyword>
+      <keyword>plurau</keyword>
+      <keyword>terminason</keyword>
+    </keywords>
+    <options>
+      <option id="plursens:es">
+        <description lang="fra">pluriel sensible (terminaison -es)</description>
+        <description lang="oci">plural sensible (terminason -es)</description>
+        <example>divèrses</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="plursens:s">
+        <description lang="fra">pas de pluriel sensible (terminaison -s)</description>
+        <description lang="oci">pas de plural sensible (terminason -s)</description>
+        <example>divèrs</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="o_au">
+    <description lang="fra">diphtongaison de o- en au-</description>
+    <description lang="oci">diftongason de o- en au-</description>
+    <keywords>
+      <keyword>o</keyword>
+      <keyword>au</keyword>
+      <keyword>initial</keyword>
+      <keyword>initiale</keyword>
+      <keyword>diphtongue</keyword>
+      <keyword>diphtongaison</keyword>
+      <keyword>inicial</keyword>
+      <keyword>iniciau</keyword>
+      <keyword>iniciala</keyword>
+      <keyword>diftòng</keyword>
+      <keyword>diftongason</keyword>
+    </keywords>
+    <options>
+      <option id="o_au:o">
+        <description lang="fra">pas de diphtongaison de o- en au-</description>
+        <description lang="oci">pas de diftongason de o- en au-</description>
+        <example>onor</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="o_au:au">
+        <description lang="fra">diphtongaison de o- en au-</description>
+        <description lang="oci">diftongason de o- en au-</description>
+        <example>aunor</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="lo_le_eth">
+    <description lang="fra">article défini masculin singulier</description>
+    <description lang="oci">article definit masculin singular</description>
+    <keywords>
+      <keyword>article</keyword>
+      <keyword>défini</keyword>
+      <keyword>le</keyword>
+      <keyword>lo</keyword>
+      <keyword>eth</keyword>
+      <keyword>déterminant</keyword>
+      <keyword>masculin</keyword>
+      <keyword>singulier</keyword>
+      <keyword>er</keyword>
+      <keyword>voyelle</keyword>
+      <keyword>contraction</keyword>
+      <keyword>devant</keyword>
+      <keyword>pyrénéen</keyword>
+      <keyword>definit</keyword>
+      <keyword>determinant</keyword>
+      <keyword>singular</keyword>
+      <keyword>vocala</keyword>
+      <keyword>contraccion</keyword>
+      <keyword>davant</keyword>
+      <keyword>pirenenc</keyword>
+    </keywords>
+    <options>
+      <option id="lo_le_eth:lo">
+        <description lang="fra">article défini masculin singulier : lo</description>
+        <description lang="oci">article definit masculin singular : lo</description>
+        <example>lo nombre, l'òme</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="lo_le_eth:le">
+        <description lang="fra">article défini masculin singulier : le</description>
+        <description lang="oci">article definit masculin singular : le</description>
+        <example>le nombre, l'òme</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="lo_le_eth:eth">
+        <description lang="fra">article défini masculin singulier : eth</description>
+        <description lang="oci">article definit masculin singular : eth</description>
+        <example>eth nombre, er òme</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="lo_le_eth:er">
+        <description lang="fra">article défini masculin singulier : eth/er</description>
+        <description lang="oci">article definit masculin singular : eth/er</description>
+        <example>eth nombre, eth òme</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="pron_lo_le">
+    <description lang="fra">pronom personnel COD</description>
+    <description lang="oci">pronom personal COD</description>
+    <keywords>
+      <keyword>pronom</keyword>
+      <keyword>3e</keyword>
+      <keyword>troisième</keyword>
+      <keyword>personne</keyword>
+      <keyword>singulier</keyword>
+      <keyword>lo</keyword>
+      <keyword>le</keyword>
+      <keyword>COI</keyword>
+      <keyword>COD</keyword>
+      <keyword>personnel</keyword>
+      <keyword>conjoint</keyword>
+      <keyword>disjoint</keyword>
+      <keyword>l'</keyword>
+      <keyword>masculin</keyword>
+      <keyword>enclitique</keyword>
+      <keyword>proclitique</keyword>
+      <keyword>complément</keyword>
+      <keyword>personnel</keyword>
+      <keyword>3ena</keyword>
+      <keyword>3na</keyword>
+      <keyword>3au</keyword>
+      <keyword>tresena</keyword>
+      <keyword>tresau</keyword>
+      <keyword>persona</keyword>
+      <keyword>singular</keyword>
+      <keyword>personal</keyword>
+      <keyword>conjunt</keyword>
+      <keyword>conjonch</keyword>
+      <keyword>disjonch</keyword>
+      <keyword>enclitic</keyword>
+      <keyword>proclitic</keyword>
+      <keyword>complement</keyword>
+      <keyword>personal</keyword>
+      <keyword>personau</keyword>
+    </keywords>
+    <options>
+      <option id="pron_lo_le:lo">
+        <description lang="fra">pronom personnel COD : lo</description>
+        <description lang="oci">pronom personal COD : lo</description>
+        <example>lo presentam</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+      <option id="pron_lo_le:le">
+        <description lang="fra">pronom personnel COD : le</description>
+        <description lang="oci">pronom personal COD : le</description>
+        <example>le presentam</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="entà_tà_ende">
+    <description lang="fra">traduction de la préposition « pour »</description>
+    <description lang="oci">traduccion de la preposicion « pour »</description>
+    <keywords>
+      <keyword>préposition</keyword>
+      <keyword>pour</keyword>
+      <keyword>but</keyword>
+      <keyword>traduction</keyword>
+      <keyword>entà</keyword>
+      <keyword>tà</keyword>
+      <keyword>ende</keyword>
+      <keyword>preposicion</keyword>
+      <keyword>traduccion</keyword>
+    </keywords>
+    <options>
+      <option id="entà_tà_ende:entà">
+        <description lang="fra">traduction de la préposition « pour » : entà</description>
+        <description lang="oci">traduccion de la preposicion « pour » : entà</description>
+        <example>entà tu</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="entà_tà_ende:tà">
+        <description lang="fra">traduction de la préposition « pour » : tà</description>
+        <description lang="oci">traduccion de la preposicion « pour » : tà</description>
+        <example>tà tu</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="entà_tà_ende:ende">
+        <description lang="fra">traduction de la préposition « pour » : ende</description>
+        <description lang="oci">traduccion de la preposicion « pour » : ende</description>
+        <example>ende tu</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="amb">
+    <description lang="fra">traduction de la préposition « avec »</description>
+    <description lang="oci">traduccion de la preposicion « avec »</description>
+    <keywords>
+      <keyword>préposition</keyword>
+      <keyword>avec</keyword>
+      <keyword>traduction</keyword>
+      <keyword>amb</keyword>
+      <keyword>ambe</keyword>
+      <keyword>damb</keyword>
+      <keyword>dambe</keyword>
+      <keyword>dab</keyword>
+      <keyword>tamb</keyword>
+      <keyword>embe</keyword>
+      <keyword>emb</keyword>
+      <keyword>preposicion</keyword>
+      <keyword>traduccion</keyword>
+    </keywords>
+    <options>
+      <option id="amb:amb">
+        <description lang="fra">traduction de la préposition « avec » : amb</description>
+        <description lang="oci">traduccion de la preposicion « avec » : amb</description>
+        <example>amb tu</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="amb:dab">
+        <description lang="fra">traduction de la préposition « avec » : dab</description>
+        <description lang="oci">traduccion de la preposicion « avec » : dab</description>
+        <example>dab tu</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+      <option id="amb:damb">
+        <description lang="fra">traduction de la préposition « avec » : damb</description>
+        <description lang="oci">traduccion de la preposicion « avec » : damb</description>
+        <example>damb tu</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+      <option id="amb:ambe">
+        <description lang="fra">traduction de la préposition « avec » : ambe</description>
+        <description lang="oci">traduccion de la preposicion « avec » : ambe</description>
+        <example>ambe tu</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="amb:emb">
+        <description lang="fra">traduction de la préposition « avec » : emb</description>
+        <description lang="oci">traduccion de la preposicion « avec » : emb</description>
+        <example>emb tu</example>
+        <relevantFor/>
+        <defaultFor/>
+      </option>
+      <option id="amb:embe">
+        <description lang="fra">traduction de la préposition « avec » : embe</description>
+        <description lang="oci">traduccion de la preposicion « avec » : embe</description>
+        <example>embe tu</example>
+        <relevantFor/>
+        <defaultFor/>
+      </option>
+      <option id="amb:dambe">
+        <description lang="fra">traduction de la préposition « avec » : dambe</description>
+        <description lang="oci">traduccion de la preposicion « avec » : dambe</description>
+        <example>dambe tu</example>
+        <relevantFor/>
+        <defaultFor/>
+      </option>
+      <option id="amb:tamb">
+        <description lang="fra">traduction de la préposition « avec » : tamb</description>
+        <description lang="oci">traduccion de la preposicion « avec » : tamb</description>
+        <example>tamb tu</example>
+        <relevantFor/>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="v_u">
+    <description lang="fra">-u-/-v- intervocalique</description>
+    <description lang="oci">-u-/-v- intervocalica</description>
+    <keywords>
+      <keyword>u</keyword>
+      <keyword>v</keyword>
+      <keyword>intervocalique</keyword>
+      <keyword>voyelle</keyword>
+      <keyword>entre</keyword>
+      <keyword>intervocalic</keyword>
+      <keyword>intervocalica</keyword>
+      <keyword>vocala</keyword>
+      <keyword>vocau</keyword>
+      <keyword>enter</keyword>
+    </keywords>
+    <options>
+      <option id="v_u:v">
+        <description lang="fra">-u-/-v- intervocalique : -u-</description>
+        <description lang="oci">-u-/-v- intervocalica : -u-</description>
+        <example>auer</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+      <option id="v_u:u">
+        <description lang="fra">-u-/-v- intervocalique : -v-</description>
+        <description lang="oci">-u-/-v- intervocalica : -v-</description>
+        <example>aver</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="r_X">
+    <description lang="fra">simplification de -tr- en -t-</description>
+    <description lang="oci">simplificacion de -tr- en -t-</description>
+    <keywords>
+      <keyword>réduction</keyword>
+      <keyword>absence</keyword>
+      <keyword>simplification</keyword>
+      <keyword>te</keyword>
+      <keyword>tre</keyword>
+      <keyword>tr</keyword>
+      <keyword>finale</keyword>
+      <keyword>reduccion</keyword>
+      <keyword>abséncia</keyword>
+      <keyword>simplificacion</keyword>
+      <keyword>finala</keyword>
+      <keyword>finau</keyword>
+    </keywords>
+    <options>
+      <option id="r_X:r">
+        <description lang="fra">simplification de -tr- en -t-</description>
+        <description lang="oci">simplificacion de -tr- en -t-</description>
+        <example>autre</example>
+        <relevantFor/>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+      <option id="r_X:X">
+        <description lang="fra">pas de simplification de -tr- en -t-</description>
+        <description lang="oci">pas de simplificacion de -tr- en -t-</description>
+        <example>aute</example>
+        <relevantFor/>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="ora_ritz">
+    <description lang="fra">féminin du suffixe -tor</description>
+    <description lang="oci">feminin del sufixe -tor</description>
+    <keywords>
+      <keyword>féminin</keyword>
+      <keyword>or</keyword>
+      <keyword>tor</keyword>
+      <keyword>tritz</keyword>
+      <keyword>tora</keyword>
+      <keyword>féminisation</keyword>
+      <keyword>-teur</keyword>
+      <keyword>-trice</keyword>
+      <keyword>suffixe</keyword>
+      <keyword>feminizacion</keyword>
+      <keyword>feminin</keyword>
+      <keyword>sufixe</keyword>
+      <keyword>sufix</keyword>
+    </keywords>
+    <options>
+      <option id="ora_ritz:ora">
+        <description lang="fra">féminin du suffixe -tor en -tora</description>
+        <description lang="oci">feminin del sufixe -tor en -tora</description>
+        <example>migratora</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+      <option id="ora_ritz:ritz">
+        <description lang="fra">féminin du suffixe -tor en -tritz</description>
+        <description lang="oci">feminin del sufixe -tor en -tritz</description>
+        <example>migratritz</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="qui_que">
+    <description lang="fra">pronoms relatifs</description>
+    <description lang="oci">pronoms relatius</description>
+    <keywords>
+      <keyword>relatif</keyword>
+      <keyword>pronom</keyword>
+      <keyword>qui</keyword>
+      <keyword>que</keyword>
+      <keyword>antécédent</keyword>
+      <keyword>relatiu</keyword>
+      <keyword>antecedent</keyword>
+    </keywords>
+    <options>
+      <option id="qui_que:qui">
+        <description lang="fra">pronoms relatifs « qui » et « que »</description>
+        <description lang="oci">pronoms relatius « qui » e « que »</description>
+        <example>lo qui va</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+      <option id="qui_que:que">
+        <description lang="fra">pronom relatif « que » seul</description>
+        <description lang="oci">pronom relatiu « que » sol</description>
+        <example>lo que va</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="mai_mei_mes_mès">
+    <description lang="fra">traduction de « plus » et « jamais »</description>
+    <description lang="oci">traduccion de « plus » e « jamais »</description>
+    <keywords>
+      <keyword>plus</keyword>
+      <keyword>jamais</keyword>
+      <keyword>mai</keyword>
+      <keyword>mèi</keyword>
+      <keyword>mès</keyword>
+      <keyword>mes</keyword>
+      <keyword>adverbe</keyword>
+      <keyword>advèrbi</keyword>
+    </keywords>
+    <options>
+      <option id="mai_mei_mes_mès:mai">
+        <description lang="fra">traduction de « plus » et « jamais » en -mai</description>
+        <description lang="oci">traduccion de « plus » e « jamais » en -mai</description>
+        <example>jamai mai gròs</example>
+        <relevantFor/>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="mai_mei_mes_mès:mei">
+        <description lang="fra">traduction de « plus » et « jamais » en -mei</description>
+        <description lang="oci">traduccion de « plus » e « jamais » en -mei</description>
+        <example>jamei mei gròs</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+      <option id="mai_mei_mes_mès:mes">
+        <description lang="fra">traduction de « plus » et « jamais » en -mes</description>
+        <description lang="oci">traduccion de « plus » e « jamais » en -mes</description>
+        <example>james mes gròs</example>
+        <relevantFor/>
+        <defaultFor/>
+      </option>
+      <option id="mai_mei_mes_mès:mès">
+        <description lang="fra">traduction de « plus » et « jamais » en -mes/-mès</description>
+        <description lang="oci">traduccion de « plus » e « jamais » en -mes/-mès</description>
+        <example>jamès mes gròs</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="fem_aire">
+    <description lang="fra">féminin du suffixe -aire</description>
+    <description lang="oci">feminin del sufixe -aire</description>
+    <keywords>
+      <keyword>féminin</keyword>
+      <keyword>aire</keyword>
+      <keyword>aira</keyword>
+      <keyword>airitz</keyword>
+      <keyword>arèla</keyword>
+      <keyword>suffixe</keyword>
+      <keyword>féminisation</keyword>
+      <keyword>feminin</keyword>
+      <keyword>sufixe</keyword>
+      <keyword>sufix</keyword>
+      <keyword>feminizacion</keyword>
+    </keywords>
+    <options>
+      <option id="fem_aire:aira">
+        <description lang="fra">féminin du suffixe -aire en -aira</description>
+        <description lang="oci">feminin del sufixe -aire en -aira</description>
+        <example>cantaira</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="fem_aire:airitz">
+        <description lang="fra">féminin du suffixe -aire en -airitz</description>
+        <description lang="oci">feminin del sufixe -aire en -airitz</description>
+        <example>cantairitz</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="fem_aire:arèla">
+        <description lang="fra">féminin du suffixe -aire en -arèla</description>
+        <description lang="oci">feminin del sufixe -aire en -arèla</description>
+        <example>cantarèla</example>
+        <relevantFor/>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="detposs">
+    <description lang="fra">déterminants possessifs</description>
+    <description lang="oci">determinants possessius</description>
+    <keywords>
+      <keyword>déterminant</keyword>
+      <keyword>possessif</keyword>
+      <keyword>simple</keyword>
+      <keyword>composé</keyword>
+      <keyword>mon</keyword>
+      <keyword>ton</keyword>
+      <keyword>son</keyword>
+      <keyword>notre</keyword>
+      <keyword>votre</keyword>
+      <keyword>leur</keyword>
+      <keyword>tonique</keyword>
+      <keyword>adjectif</keyword>
+      <keyword>atone</keyword>
+      <keyword>articulé</keyword>
+      <keyword>determinant</keyword>
+      <keyword>possessiu</keyword>
+      <keyword>simple</keyword>
+      <keyword>compausat</keyword>
+      <keyword>tonic</keyword>
+      <keyword>adjectiu</keyword>
+      <keyword>atòne</keyword>
+      <keyword>articulat</keyword>
+    </keywords>
+    <options>
+      <option id="detposs:simple">
+        <description lang="fra">déterminants possessifs : forme simple</description>
+        <description lang="oci">determinants possessius : forma simpla</description>
+        <example>mon, ma, mos, mas...</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="detposs:compausat">
+        <description lang="fra">déterminants possessifs : forme composée</description>
+        <description lang="oci">determinants possessius : forma compausada</description>
+        <example>lo men, la mea, los mens, las meas...</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="poss_sg">
+    <description lang="fra">possessifs singuliers</description>
+    <description lang="oci">possessius singulars</description>
+    <keywords>
+      <keyword>possessif</keyword>
+      <keyword>possessifs</keyword>
+      <keyword>pronom</keyword>
+      <keyword>déterminant</keyword>
+      <keyword>adjectif</keyword>
+      <keyword>singulier</keyword>
+      <keyword>mien</keyword>
+      <keyword>tien</keyword>
+      <keyword>sien</keyword>
+      <keyword>mon</keyword>
+      <keyword>ton</keyword>
+      <keyword>son</keyword>
+      <keyword>ma</keyword>
+      <keyword>ta</keyword>
+      <keyword>sa</keyword>
+      <keyword>mes</keyword>
+      <keyword>tes</keyword>
+      <keyword>ses</keyword>
+      <keyword>pyrénéen</keyword>
+      <keyword>possessiu</keyword>
+      <keyword>pronom</keyword>
+      <keyword>determinant</keyword>
+      <keyword>adjectiu</keyword>
+      <keyword>singular</keyword>
+      <keyword>pirenenc</keyword>
+      <keyword>possessius</keyword>
+      <keyword>men</keyword>
+      <keyword>mèn</keyword>
+      <keyword>mieu</keyword>
+      <keyword>miu</keyword>
+      <keyword>meu</keyword>
+      <keyword>mié</keyword>
+      <keyword>mea</keyword>
+      <keyword>mia</keyword>
+      <keyword>mieuna</keyword>
+      <keyword>meuna</keyword>
+      <keyword>ton</keyword>
+      <keyword>tué</keyword>
+      <keyword>tòn</keyword>
+      <keyword>tieu</keyword>
+      <keyword>teu</keyword>
+      <keyword>tiu</keyword>
+      <keyword>son</keyword>
+      <keyword>sué</keyword>
+      <keyword>sòn</keyword>
+      <keyword>sieu</keyword>
+      <keyword>seu</keyword>
+      <keyword>siu</keyword>
+      <keyword>toa</keyword>
+      <keyword>tua</keyword>
+      <keyword>tieuna</keyword>
+      <keyword>teuna</keyword>
+      <keyword>soa</keyword>
+      <keyword>sua</keyword>
+      <keyword>sieuna</keyword>
+      <keyword>seuna</keyword>
+    </keywords>
+    <options>
+      <option id="poss_sg:men_mea_ton_toa">
+        <description lang="fra">possessifs singuliers : men, mea ; ton, toa…</description>
+        <description lang="oci">possessius singulars : men, mea ; ton, toa…</description>
+        <example>men, mea ; ton, toa ; son, soa</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+      <option id="poss_sg:men_mia_ton_toa">
+        <description lang="fra">possessifs singuliers : men, mia ; ton, toa…</description>
+        <description lang="oci">possessius singulars : men, mia ; ton, toa…</description>
+        <example>men, mia ; ton, toa ; son, soa</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="poss_sg:men_mia_ton_tua">
+        <description lang="fra">possessifs singuliers : men, mia ; ton, tua…</description>
+        <description lang="oci">possessius singulars : men, mia ; ton, tua…</description>
+        <example>men, mia ; ton, tua ; son, sua</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="poss_sg:mié_mia_tué_tua">
+        <description lang="fra">possessifs singuliers : mié, mia ; tué, tua…</description>
+        <description lang="oci">possessius singulars : mié, mia ; tué, tua…</description>
+        <example>mié, mia ; tué, tua ; sué, sua</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="poss_sg:mèn_mia_tòn_tua">
+        <description lang="fra">possessifs singuliers : mèn, mia ; tòn, tua…</description>
+        <description lang="oci">possessius singulars : mèn, mia ; tòn, tua…</description>
+        <example>mèn, mia ; tòn, tua ; sòn, sua</example>
+        <relevantFor/>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+      <option id="poss_sg:mieu_mieuna_tieu_tieuna">
+        <description lang="fra">possessifs singuliers : mieu, mieuna ; tieu, tieuna…</description>
+        <description lang="oci">possessius singulars : mieu, mieuna ; tieu, tieuna…</description>
+        <example>mieu, mieuna ; tieu, tieuna ; sieu, sieuna</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="poss_sg:meu_meuna_teu_teuna">
+        <description lang="fra">possessifs singuliers : meu, meuna ; teu, teuna…</description>
+        <description lang="oci">possessius singulars : meu, meuna ; teu, teuna…</description>
+        <example>meu, meuna ; teu, teuna ; seu, seuna</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="poss_sg:mieu_mia_tieu_tia">
+        <description lang="fra">possessifs singuliers : mieu, mia ; tieu, tia...</description>
+        <description lang="oci">possessius singulars : mieu, mia ; tieu, tia...</description>
+        <example>mieu, mia ; tieu, tia ; sieu, sia</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="poss_3pl">
+    <description lang="fra">possessif 3e pers. pluriel</description>
+    <description lang="oci">possessiu 3na pers. plural</description>
+    <keywords>
+      <keyword>possessif</keyword>
+      <keyword>pronom</keyword>
+      <keyword>déterminant</keyword>
+      <keyword>adjectif</keyword>
+      <keyword>pluriel</keyword>
+      <keyword>leur</keyword>
+      <keyword>3e</keyword>
+      <keyword>personne</keyword>
+      <keyword>troisième</keyword>
+      <keyword>épicène</keyword>
+      <keyword>variable</keyword>
+      <keyword>genre</keyword>
+      <keyword>possessiu</keyword>
+      <keyword>determinant</keyword>
+      <keyword>adjectiu</keyword>
+      <keyword>plural</keyword>
+      <keyword>lor</keyword>
+      <keyword>loa</keyword>
+      <keyword>loé</keyword>
+      <keyword>3ena</keyword>
+      <keyword>3na</keyword>
+      <keyword>3au</keyword>
+      <keyword>persona</keyword>
+      <keyword>tresena</keyword>
+      <keyword>tresau</keyword>
+      <keyword>epicène</keyword>
+      <keyword>epicèna</keyword>
+      <keyword>variabla</keyword>
+    </keywords>
+    <options>
+      <option id="poss_3pl:lor_lor">
+        <description lang="fra">possessif 3e pers. pluriel : lor, lor</description>
+        <description lang="oci">possessiu 3na pers. plural : lor, lor</description>
+        <example>lor, lor, lors, lors</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="poss_3pl:lor_loa">
+        <description lang="fra">possessif 3e pers. pluriel : lor, loa</description>
+        <description lang="oci">possessiu 3na pers. plural : lor, loa</description>
+        <example>lor, loa, lors, loas</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="poss_3pl:loé_loa">
+        <description lang="fra">possessif 3e pers. pluriel : loé, loa</description>
+        <description lang="oci">possessiu 3na pers. plural : loé, loa</description>
+        <example>loé, loa, loés, loas</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="poss_3plsg">
+    <description lang="fra">possessifs 3e pers. pluriel identiques au singulier</description>
+    <description lang="oci">possessius 3na pers. plural identics al singular</description>
+    <keywords>
+      <keyword>possessif</keyword>
+      <keyword>pronom</keyword>
+      <keyword>déterminant</keyword>
+      <keyword>adjectif</keyword>
+      <keyword>pluriel</keyword>
+      <keyword>leur</keyword>
+      <keyword>son</keyword>
+      <keyword>sien</keyword>
+      <keyword>3e</keyword>
+      <keyword>personne</keyword>
+      <keyword>troisième</keyword>
+      <keyword>singulier</keyword>
+      <keyword>possessiu</keyword>
+      <keyword>determinant</keyword>
+      <keyword>adjectiu</keyword>
+      <keyword>plural</keyword>
+      <keyword>lor</keyword>
+      <keyword>loa</keyword>
+      <keyword>loé</keyword>
+      <keyword>sué</keyword>
+      <keyword>sòn</keyword>
+      <keyword>sieu</keyword>
+      <keyword>seu</keyword>
+      <keyword>siu</keyword>
+      <keyword>3ena</keyword>
+      <keyword>3na</keyword>
+      <keyword>3au</keyword>
+      <keyword>persona</keyword>
+      <keyword>tresena</keyword>
+      <keyword>tresau</keyword>
+      <keyword>singular</keyword>
+    </keywords>
+    <options>
+      <option id="poss_3plsg:3pl_3sg">
+        <description lang="fra">possessifs 3e pers. pluriel identiques au singulier</description>
+        <description lang="oci">possessius 3na pers. plural identics al singular</description>
+        <example>son escòla (als enfants)</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+      <option id="poss_3plsg:3pl_3pl">
+        <description lang="fra">possessifs 3e pers. pluriel différents sing.lier</description>
+        <description lang="oci">possessius 3na pers. plural diferents del singular</description>
+        <example>lor escòla (als enfants)</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="poss_1pl">
+    <description lang="fra">possessifs pluriels</description>
+    <description lang="oci">possessius plurals</description>
+    <keywords>
+      <keyword>possessif</keyword>
+      <keyword>pronom</keyword>
+      <keyword>déterminant</keyword>
+      <keyword>adjectif</keyword>
+      <keyword>pluriel</keyword>
+      <keyword>2e</keyword>
+      <keyword>deuxième</keyword>
+      <keyword>personne</keyword>
+      <keyword>1e</keyword>
+      <keyword>première</keyword>
+      <keyword>notre</keyword>
+      <keyword>votre</keyword>
+      <keyword>nôtre</keyword>
+      <keyword>vôtre</keyword>
+      <keyword>possessiu</keyword>
+      <keyword>determinant</keyword>
+      <keyword>adjectiu</keyword>
+      <keyword>plural</keyword>
+      <keyword>2nda</keyword>
+      <keyword>2da</keyword>
+      <keyword>2au</keyword>
+      <keyword>segonda</keyword>
+      <keyword>dusau</keyword>
+      <keyword>persona</keyword>
+      <keyword>1ra</keyword>
+      <keyword>1èra</keyword>
+      <keyword>primièra</keyword>
+      <keyword>prumièra</keyword>
+      <keyword>premièra</keyword>
+      <keyword>primèra</keyword>
+      <keyword>prumèra</keyword>
+      <keyword>purmèra</keyword>
+      <keyword>permèra</keyword>
+      <keyword>nòstre</keyword>
+      <keyword>vòstre</keyword>
+      <keyword>nòste</keyword>
+      <keyword>vòste</keyword>
+      <keyword>noste</keyword>
+    </keywords>
+    <options>
+      <option id="poss_1pl:noste_voste">
+        <description lang="fra">possessifs pluriels : noste, nosta ; voste, vosta</description>
+        <description lang="oci">possessius plurals : noste, nosta ; voste, vosta</description>
+        <example>noste, nosta ; voste, vosta</example>
+        <relevantFor/>
+        <defaultFor/>
+      </option>
+      <option id="poss_1pl:nòste_vòste">
+        <description lang="fra">possessifs pluriels : nòste, nòsta ; vòste, vòsta</description>
+        <description lang="oci">possessius plurals : nòste, nòsta ; vòste, vòsta</description>
+        <example>nòste, nòsta ; vòste, vòsta</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+      <option id="poss_1pl:noste_vòste">
+        <description lang="fra">possessifs pluriels : noste, nosta ; vòste, vòsta</description>
+        <description lang="oci">possessius plurals : noste, nosta ; vòste, vòsta</description>
+        <example>noste, nosta ; vòste, vòsta</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+      <option id="poss_1pl:nòstre_vòstre">
+        <description lang="fra">possessifs pluriels : nòstre, nòstra ; vòstre, vòstra</description>
+        <description lang="oci">possessius plurals : nòstre, nòstra ; vòstre, vòstra</description>
+        <example>nòstre, nòstra ; vòstre, vòstra</example>
+        <relevantFor/>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="p3s_esser">
+    <description lang="fra">3e pers. sing. de « estar »</description>
+    <description lang="oci">3na pers. sing. de « estar »</description>
+    <keywords>
+      <keyword>être</keyword>
+      <keyword>3e</keyword>
+      <keyword>troisième</keyword>
+      <keyword>personne</keyword>
+      <keyword>singulier</keyword>
+      <keyword>présent</keyword>
+      <keyword>indicatif</keyword>
+      <keyword>estar</keyword>
+      <keyword>3ena</keyword>
+      <keyword>3na</keyword>
+      <keyword>3au</keyword>
+      <keyword>persona</keyword>
+      <keyword>tresena</keyword>
+      <keyword>tresau</keyword>
+      <keyword>singular</keyword>
+      <keyword>present</keyword>
+      <keyword>indicatiu</keyword>
+    </keywords>
+    <options>
+      <option id="p3s_esser:es">
+        <description lang="fra">3e pers. sing. de « estar » : es</description>
+        <description lang="oci">3na pers. sing. de « estar » : es</description>
+        <example>la plaça dont es partit</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="p3s_esser:ei">
+        <description lang="fra">3e pers. sing. de « estar » : ei</description>
+        <description lang="oci">3na pers. sing. de « estar » : ei</description>
+        <example>la plaça dont ei partit</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="p1s_esser">
+    <description lang="fra">1e pers. sing. de « estar »</description>
+    <description lang="oci">1ra pers. sing. de « estar »</description>
+    <keywords>
+      <keyword>être</keyword>
+      <keyword>1e</keyword>
+      <keyword>première</keyword>
+      <keyword>personne</keyword>
+      <keyword>singulier</keyword>
+      <keyword>présent</keyword>
+      <keyword>indicatif</keyword>
+      <keyword>estar</keyword>
+      <keyword>1ra</keyword>
+      <keyword>1èra</keyword>
+      <keyword>primièra</keyword>
+      <keyword>prumièra</keyword>
+      <keyword>premièra</keyword>
+      <keyword>primèra</keyword>
+      <keyword>prumèra</keyword>
+      <keyword>purmèra</keyword>
+      <keyword>permèra</keyword>
+      <keyword>persona</keyword>
+      <keyword>singular</keyword>
+      <keyword>present</keyword>
+      <keyword>indicatiu</keyword>
+    </keywords>
+    <options>
+      <option id="p1s_esser:soi">
+        <description lang="fra">1e pers. sing. de « estar » : soi</description>
+        <description lang="oci">1ra pers. sing. de « estar » : soi</description>
+        <example>soi partit</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="p1s_esser:sui">
+        <description lang="fra">1e pers. sing. de « estar » : sui</description>
+        <description lang="oci">1ra pers. sing. de « estar » : sui</description>
+        <example>sui partit</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="p12p_aver">
+    <description lang="fra">1e et 2e pers. plur. de « aver »</description>
+    <description lang="oci">1ra e 2da pers. plur. de « aver »</description>
+    <keywords>
+      <keyword>avoir</keyword>
+      <keyword>1e</keyword>
+      <keyword>2e</keyword>
+      <keyword>première</keyword>
+      <keyword>deuxième</keyword>
+      <keyword>personne</keyword>
+      <keyword>pluriel</keyword>
+      <keyword>présent</keyword>
+      <keyword>indicatif</keyword>
+      <keyword>abrégé</keyword>
+      <keyword>monosyllabique</keyword>
+      <keyword>classique</keyword>
+      <keyword>aver</keyword>
+      <keyword>auer</keyword>
+      <keyword>1ra</keyword>
+      <keyword>1èra</keyword>
+      <keyword>primièra</keyword>
+      <keyword>prumièra</keyword>
+      <keyword>premièra</keyword>
+      <keyword>primèra</keyword>
+      <keyword>prumèra</keyword>
+      <keyword>purmèra</keyword>
+      <keyword>permèra</keyword>
+      <keyword>2nda</keyword>
+      <keyword>2da</keyword>
+      <keyword>2au</keyword>
+      <keyword>segonda</keyword>
+      <keyword>dusau</keyword>
+      <keyword>persona</keyword>
+      <keyword>plural</keyword>
+      <keyword>present</keyword>
+      <keyword>indicatiu</keyword>
+      <keyword>abracat</keyword>
+      <keyword>abreujat</keyword>
+      <keyword>monosyllabic</keyword>
+      <keyword>monosyllabica</keyword>
+      <keyword>classic</keyword>
+      <keyword>classica</keyword>
+    </keywords>
+    <options>
+      <option id="p12p_aver:avem">
+        <description lang="fra">1e et 2e pers. plur. de « aver » : avem, avetz</description>
+        <description lang="oci">1ra e 2da pers. plur. de « aver » : avem, avetz</description>
+        <example>avem, avetz</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="p12p_aver:am">
+        <description lang="fra">1e et 2e pers. plur. de « aver » : am, atz</description>
+        <description lang="oci">1ra e 2da pers. plur. de « aver » : am, atz</description>
+        <example>am, atz</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="har_hèr_faire">
+    <description lang="fra">traduction de « faire »</description>
+    <description lang="oci">traduccion de « faire »</description>
+    <keywords>
+      <keyword>faire</keyword>
+      <keyword>infinitif</keyword>
+      <keyword>infinitiu</keyword>
+      <keyword>far</keyword>
+      <keyword>har</keyword>
+      <keyword>hèr</keyword>
+      <keyword>faire</keyword>
+    </keywords>
+    <options>
+      <option id="har_hèr_faire:har">
+        <description lang="fra">traduction de « faire » : far/har</description>
+        <description lang="oci">traduccion de « faire » : far/har</description>
+        <example>har/far bon</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="har_hèr_faire:hèr">
+        <description lang="fra">traduction de « faire » : hèr</description>
+        <description lang="oci">traduccion de « faire » : hèr</description>
+        <example>hèr bon</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+      <option id="har_hèr_faire:faire">
+        <description lang="fra">traduction de « faire » : faire</description>
+        <description lang="oci">traduccion de « faire » : faire</description>
+        <example>faire bon</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="tenir">
+    <description lang="fra">traduction de « tenir »</description>
+    <description lang="oci">traduccion de « tenir »</description>
+    <keywords>
+      <keyword>tenir</keyword>
+      <keyword>infinitif</keyword>
+      <keyword>conjugaison</keyword>
+      <keyword>g</keyword>
+      <keyword>tiéner</keyword>
+      <keyword>téner</keyword>
+      <keyword>ténguer</keyword>
+      <keyword>infinitiu</keyword>
+      <keyword>conjugason</keyword>
+    </keywords>
+    <options>
+      <option id="tenir:tiéner">
+        <description lang="fra">traduction de « tenir » : tiéner</description>
+        <description lang="oci">traduccion de « tenir » : tiéner</description>
+        <example>tiéner</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+      <option id="tenir:ténguer">
+        <description lang="fra">traduction de « tenir » : ténguer</description>
+        <description lang="oci">traduccion de « tenir » : ténguer</description>
+        <example>ténguer</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="vbser">
+    <description lang="fra">traduction de « être »</description>
+    <description lang="oci">traduccion de « être »</description>
+    <keywords>
+      <keyword>être</keyword>
+      <keyword>infinitif</keyword>
+      <keyword>auxiliaire</keyword>
+      <keyword>èstre</keyword>
+      <keyword>èsser</keyword>
+      <keyword>estar</keyword>
+      <keyword>infinitiu</keyword>
+      <keyword>auxiliar</keyword>
+    </keywords>
+    <options>
+      <option id="vbser:èsser">
+        <description lang="fra">traduction de « être » : èsser</description>
+        <description lang="oci">traduccion de « être » : èsser</description>
+        <example>èsser</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="vbser:èstre">
+        <description lang="fra">traduction de « être » : èstre</description>
+        <description lang="oci">traduccion de « être » : èstre</description>
+        <example>èstre</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="prendre">
+    <description lang="fra">traduction de « prendre »</description>
+    <description lang="oci">traduccion de « prendre »</description>
+    <keywords>
+      <keyword>prendre</keyword>
+      <keyword>infinitif</keyword>
+      <keyword>préner</keyword>
+      <keyword>prene</keyword>
+      <keyword>infinitiu</keyword>
+    </keywords>
+    <options>
+      <option id="prendre:prendre">
+        <description lang="fra">traduction de « prendre » : prendre</description>
+        <description lang="oci">traduccion de « prendre » : prendre</description>
+        <example>prendre</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="prendre:prene">
+        <description lang="fra">traduction de « prendre » : prene</description>
+        <description lang="oci">traduccion de « prendre » : prene</description>
+        <example>prene</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="ger_r_nt">
+    <description lang="fra">formation du gérondif</description>
+    <description lang="oci">formacion del gerondiu</description>
+    <keywords>
+      <keyword>gérondif</keyword>
+      <keyword>participe</keyword>
+      <keyword>présent</keyword>
+      <keyword>infinitif</keyword>
+      <keyword>r</keyword>
+      <keyword>nt</keyword>
+      <keyword>ar</keyword>
+      <keyword>er</keyword>
+      <keyword>ir</keyword>
+      <keyword>ant</keyword>
+      <keyword>ent</keyword>
+      <keyword>int</keyword>
+      <keyword>issent</keyword>
+      <keyword>en</keyword>
+      <keyword>gerondiu</keyword>
+      <keyword>participi</keyword>
+      <keyword>present</keyword>
+      <keyword>infinitiu</keyword>
+    </keywords>
+    <options>
+      <option id="ger_r_nt:r">
+        <description lang="fra">gérondif avec « en » + participe présent</description>
+        <description lang="oci">gerondiu amb « en » + participi present</description>
+        <example>en parlar</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="ger_r_nt:nt">
+        <description lang="fra">gérondif avec « en » + infinitif</description>
+        <description lang="oci">gerondiu amb « en » + infinitiu</description>
+        <example>en parlant</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+    </options>
+  </preference>
+  <preference id="subj">
+    <description lang="fra">terminaisons du subjonctif</description>
+    <description lang="oci">terminasons del subjonctiu</description>
+    <keywords>
+      <keyword>subjonctif</keyword>
+      <keyword>i</keyword>
+      <keyword>classique</keyword>
+      <keyword>présent</keyword>
+      <keyword>imparfait</keyword>
+      <keyword>subjonctiu</keyword>
+      <keyword>classic</keyword>
+      <keyword>present</keyword>
+      <keyword>imperfait</keyword>
+      <keyword>imperfach</keyword>
+      <keyword>imperfèit</keyword>
+    </keywords>
+    <options>
+      <option id="subj:classic">
+        <description lang="fra">subjonctif classique</description>
+        <description lang="oci">subjonctiu classic</description>
+        <example>parles, parlèsses...</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="subj:i">
+        <description lang="fra">subjonctif en -i</description>
+        <description lang="oci">subjonctiu en -i</description>
+        <example>parlis, parlèssis...</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="indimp">
+    <description lang="fra">indicatif imparfait du 3e groupe</description>
+    <description lang="oci">indicatiu imperfach del 3en grop</description>
+    <keywords>
+      <keyword>imparfait</keyword>
+      <keyword>indicatif</keyword>
+      <keyword>troisième</keyword>
+      <keyword>3e</keyword>
+      <keyword>groupe</keyword>
+      <keyword>infixe</keyword>
+      <keyword>indicatiu</keyword>
+      <keyword>3en</keyword>
+      <keyword>3au</keyword>
+      <keyword>tresen</keyword>
+      <keyword>tresau</keyword>
+      <keyword>imperfait</keyword>
+      <keyword>imperfach</keyword>
+      <keyword>imperfèit</keyword>
+      <keyword>grop</keyword>
+      <keyword>infix</keyword>
+      <keyword>ev</keyword>
+      <keyword>èvi</keyword>
+      <keyword>í</keyword>
+      <keyword>èvas</keyword>
+      <keyword>ès</keyword>
+      <keyword>èva</keyword>
+      <keyword>è</keyword>
+      <keyword>èvam</keyword>
+      <keyword>èm</keyword>
+      <keyword>èvatz</keyword>
+      <keyword>ètz</keyword>
+      <keyword>èvan</keyword>
+      <keyword>èn</keyword>
+    </keywords>
+    <options>
+      <option id="indimp:í">
+        <description lang="fra">indicatif imparfait du 3e groupe : í, ès...</description>
+        <description lang="oci">indicatiu imperfach del 3en grop : í, ès...</description>
+        <example>batí, batès...</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+      <option id="indimp:evi">
+        <description lang="fra">indicatif imparfait du 3e groupe : èvi, èvas...</description>
+        <description lang="oci">indicatiu imperfach del 3en grop : èvi, èvas...</description>
+        <example>batèvi, batèvas...</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="preterit">
+    <description lang="fra">infixe au prétérit</description>
+    <description lang="oci">infixe al preterit</description>
+    <keywords>
+      <keyword>prétérit</keyword>
+      <keyword>èri</keyword>
+      <keyword>iri</keyword>
+      <keyword>ori</keyword>
+      <keyword>uri</keyword>
+      <keyword>èi</keyword>
+      <keyword>ii</keyword>
+      <keyword>oi</keyword>
+      <keyword>isosyllabique</keyword>
+      <keyword>infixe</keyword>
+      <keyword>preterit</keyword>
+      <keyword>isosillabic</keyword>
+      <keyword>infix</keyword>
+    </keywords>
+    <options>
+      <option id="preterit:èi_ii_oi">
+        <description lang="fra">prétérit sans infixe</description>
+        <description lang="oci">preterit sens infixe</description>
+        <example>cantèi, sentii, batoi</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="preterit:èri_iri_ori">
+        <description lang="fra">prétérit avec infixe -r-, 3e groupe en -o-</description>
+        <description lang="oci">preterit amb infixe -r-, 3en grop en -o-</description>
+        <example>cantèri, sentiri, batori</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="preterit:èri_iri_uri">
+        <description lang="fra">prétérit avec infixe -r-, 3e groupe en -u-</description>
+        <description lang="oci">preterit amb infixe -r-, 3en grop en -u-</description>
+        <example>cantèri, sentiri, baturi</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="p3s_pret">
+    <description lang="fra">3e pers. sing. du prétérit</description>
+    <description lang="oci">3na pers. sing. del preterit</description>
+    <keywords>
+      <keyword>prétérit</keyword>
+      <keyword>3e</keyword>
+      <keyword>troisième</keyword>
+      <keyword>personne</keyword>
+      <keyword>singulier</keyword>
+      <keyword>c</keyword>
+      <keyword>èc</keyword>
+      <keyword>ic</keyword>
+      <keyword>oc</keyword>
+      <keyword>iscoc</keyword>
+      <keyword>preterit</keyword>
+      <keyword>3ena</keyword>
+      <keyword>3na</keyword>
+      <keyword>3au</keyword>
+      <keyword>tresena</keyword>
+      <keyword>tresau</keyword>
+      <keyword>persona</keyword>
+      <keyword>singular</keyword>
+    </keywords>
+    <options>
+      <option id="p3s_pret:X">
+        <description lang="fra">3e pers. sing. du prétérit en -è</description>
+        <description lang="oci">3na pers. sing. del preterit en -è</description>
+        <example>cantè</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+      <option id="p3s_pret:c">
+        <description lang="fra">3e pers. sing. du prétérit en -èc</description>
+        <description lang="oci">3na pers. sing. del preterit en -èc</description>
+        <example>cantèc</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="futur">
+    <description lang="fra">radical du futur et du conditionnel</description>
+    <description lang="oci">radical del futur e del condicional</description>
+    <keywords>
+      <keyword>futur</keyword>
+      <keyword>conditionnel</keyword>
+      <keyword>plein</keyword>
+      <keyword>contracté</keyword>
+      <keyword>indicatif</keyword>
+      <keyword>terminaison</keyword>
+      <keyword>infinitif</keyword>
+      <keyword>modification</keyword>
+      <keyword>radical</keyword>
+      <keyword>condicional</keyword>
+      <keyword>plen</keyword>
+      <keyword>contractat</keyword>
+      <keyword>indicatiu</keyword>
+      <keyword>terminason</keyword>
+      <keyword>infinitiu</keyword>
+      <keyword>modificacion</keyword>
+      <keyword>radicau</keyword>
+    </keywords>
+    <options>
+      <option id="futur:plen">
+        <description lang="fra">futur et conditionnel basés sur l'infinitif</description>
+        <description lang="oci">futur e condicional basats sus l'infinitiu</description>
+        <example>poderèi, crederèi, beverèi, viverèi...</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+      <option id="futur:contractat">
+        <description lang="fra">futur et conditionnels avec radical modifié</description>
+        <description lang="oci">futur e condicional amb radical modificat</description>
+        <example>poirèi, creirèi, beurèi, viurèi...</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="conéisser">
+    <description lang="fra">traduction de « connaître »</description>
+    <description lang="oci">traduccion de « connaître »</description>
+    <keywords>
+      <keyword>connaître</keyword>
+      <keyword>infinitif</keyword>
+      <keyword>e</keyword>
+      <keyword>o</keyword>
+      <keyword>é</keyword>
+      <keyword>ó</keyword>
+      <keyword>suffixe</keyword>
+      <keyword>éisser</keyword>
+      <keyword>óisser</keyword>
+      <keyword>conéisser</keyword>
+      <keyword>conóisser</keyword>
+      <keyword>infinitiu</keyword>
+      <keyword>sufixe</keyword>
+      <keyword>sufix</keyword>
+    </keywords>
+    <options>
+      <option id="conéisser:e">
+        <description lang="fra">traduction de « connaître » : conéisser</description>
+        <description lang="oci">traduccion de « connaître » : conéisser</description>
+        <example>conéisser</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="conéisser:o">
+        <description lang="fra">traduction de « connaître » : conóisser</description>
+        <description lang="oci">traduccion de « connaître » : conóisser</description>
+        <example>conóisser</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="p3s_subimp">
+    <description lang="fra">3e pers. sing. de l'imparfait du subjonctif</description>
+    <description lang="oci">3na pers. sing. de l'imperfach del subjonctiu</description>
+    <keywords>
+      <keyword>subjonctif</keyword>
+      <keyword>imparfait</keyword>
+      <keyword>3e</keyword>
+      <keyword>troisième</keyword>
+      <keyword>personne</keyword>
+      <keyword>singulier</keyword>
+      <keyword>èsse</keyword>
+      <keyword>ès</keyword>
+      <keyword>subjonctiu</keyword>
+      <keyword>imperfach</keyword>
+      <keyword>imperfait</keyword>
+      <keyword>imperfèit</keyword>
+      <keyword>3ena</keyword>
+      <keyword>3na</keyword>
+      <keyword>3au</keyword>
+      <keyword>tresena</keyword>
+      <keyword>tresau</keyword>
+      <keyword>persona</keyword>
+      <keyword>singular</keyword>
+    </keywords>
+    <options>
+      <option id="p3s_subimp:èsse">
+        <description lang="fra">3e pers. sing. de l'imparfait du subjonctif en -èsse</description>
+        <description lang="oci">3na pers. sing. de l'imperfach del subjonctiu en -èsse</description>
+        <example>cantèsse</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="p3s_subimp:ès">
+        <description lang="fra">3e pers. sing. de l'imparfait du subjonctif en -ès</description>
+        <description lang="oci">3na pers. sing. de l'imperfach del subjonctiu en -ès</description>
+        <example>cantès</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="incoativitat">
+    <description lang="fra">interfixe d'inchoativité</description>
+    <description lang="oci">interfixe d'incoativitat</description>
+    <keywords>
+      <keyword>suffixe</keyword>
+      <keyword>inchoativité</keyword>
+      <keyword>iss</keyword>
+      <keyword>eish</keyword>
+      <keyword>ish</keyword>
+      <keyword>interfixe</keyword>
+      <keyword>inchoatif</keyword>
+      <keyword>sufixe</keyword>
+      <keyword>sufix</keyword>
+      <keyword>incoativitat</keyword>
+      <keyword>interfix</keyword>
+      <keyword>incoatiu</keyword>
+    </keywords>
+    <options>
+      <option id="incoativitat:iss">
+        <description lang="fra">inchoativité en -iss-</description>
+        <description lang="oci">incoativitat en -iss-</description>
+        <example>sentissi</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+      <option id="incoativitat:eish">
+        <description lang="fra">inchoativité en -eish-</description>
+        <description lang="oci">incoativitat en -eish-</description>
+        <example>senteishi</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+        </defaultFor>
+      </option>
+      <option id="incoativitat:ish">
+        <description lang="fra">inchoativité en -ish-</description>
+        <description lang="oci">incoativitat en -ish-</description>
+        <example>sentishi</example>
+        <relevantFor>
+          <variety id="oci_gascon">gascon</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="p12s_ind">
+    <description lang="fra">3e pers. sing. présent et imparfait</description>
+    <description lang="oci">3na pers. sing. present e imperfach</description>
+    <keywords>
+      <keyword>indicatif</keyword>
+      <keyword>1e</keyword>
+      <keyword>première</keyword>
+      <keyword>2e</keyword>
+      <keyword>deuxième</keyword>
+      <keyword>personne</keyword>
+      <keyword>singulier</keyword>
+      <keyword>présent</keyword>
+      <keyword>imparfait</keyword>
+      <keyword>i</keyword>
+      <keyword>avi</keyword>
+      <keyword>avas</keyword>
+      <keyword>e</keyword>
+      <keyword>ave</keyword>
+      <keyword>aves</keyword>
+      <keyword>v</keyword>
+      <keyword>indicatiu</keyword>
+      <keyword>1ra</keyword>
+      <keyword>1èra</keyword>
+      <keyword>primièra</keyword>
+      <keyword>prumièra</keyword>
+      <keyword>premièra</keyword>
+      <keyword>primèra</keyword>
+      <keyword>prumèra</keyword>
+      <keyword>purmèra</keyword>
+      <keyword>permèra</keyword>
+      <keyword>2nda</keyword>
+      <keyword>2da</keyword>
+      <keyword>2au</keyword>
+      <keyword>segonda</keyword>
+      <keyword>dusau</keyword>
+      <keyword>persona</keyword>
+      <keyword>singular</keyword>
+      <keyword>present</keyword>
+      <keyword>imperfait</keyword>
+      <keyword>imperfach</keyword>
+      <keyword>imperfèit</keyword>
+    </keywords>
+    <options>
+      <option id="p12s_ind:i">
+        <description lang="fra">3e pers. sing. présent et imparfait en -i</description>
+        <description lang="oci">3na pers. sing. present e imperfach en -i</description>
+        <example>parli, parlavi, parlavas</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_gascon">gascon</variety>
+          <variety id="oci">lengadocian</variety>
+        </defaultFor>
+      </option>
+      <option id="p12s_ind:e">
+        <description lang="fra">3e pers. sing. présent et imparfait en -e</description>
+        <description lang="oci">3na pers. sing. present e imperfach en -e</description>
+        <example>parle, parlave, parlaves</example>
+        <relevantFor>
+          <variety id="oci">lengadocian</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="imp_a_v">
+    <description lang="fra">-v- intervocalique à l'indicatif imparfait</description>
+    <description lang="oci">-v- intervocalica a l'indicatiu imperfach</description>
+    <keywords>
+      <keyword>imparfait</keyword>
+      <keyword>ia</keyword>
+      <keyword>ie</keyword>
+      <keyword>eva</keyword>
+      <keyword>eve</keyword>
+      <keyword>iva</keyword>
+      <keyword>ive</keyword>
+      <keyword>indicatif</keyword>
+      <keyword>indicatiu</keyword>
+      <keyword>imperfait</keyword>
+      <keyword>imperfach</keyword>
+      <keyword>imperfèit</keyword>
+    </keywords>
+    <options>
+      <option id="imp_a_v:a">
+        <description lang="fra">indicatif imparfait sans -v- intervocalique</description>
+        <description lang="oci">indicatiu imperfach sens -v- intervocalica</description>
+        <example>partia, parties, partie... vedia, vedie, vedie</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+      <option id="imp_a_v:v">
+        <description lang="fra">indicatif imparfait avec -v- intervocalique</description>
+        <description lang="oci">indicatiu imperfach amb -v- intervocalica</description>
+        <example>partiva, partives, partive... vedeva, vedeves, vedeve</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+  <preference id="p2s_pret">
+    <description lang="fra">3e pers. sing. du prétérit</description>
+    <description lang="oci">3na pers. sing. del preterit</description>
+    <keywords>
+      <keyword>prétérit</keyword>
+      <keyword>2e</keyword>
+      <keyword>deuxième</keyword>
+      <keyword>personne</keyword>
+      <keyword>singulier</keyword>
+      <keyword>indicatif</keyword>
+      <keyword>ères</keyword>
+      <keyword>ès</keyword>
+      <keyword>eres</keyword>
+      <keyword>ís</keyword>
+      <keyword>ires</keyword>
+      <keyword>preterit</keyword>
+      <keyword>2nda</keyword>
+      <keyword>2da</keyword>
+      <keyword>2au</keyword>
+      <keyword>segonda</keyword>
+      <keyword>dusau</keyword>
+      <keyword>persona</keyword>
+      <keyword>singular</keyword>
+      <keyword>indicatiu</keyword>
+    </keywords>
+    <options>
+      <option id="p2s_pret:ères">
+        <description lang="fra">3e pers. sing. du prétérit avec infixe -er-</description>
+        <description lang="oci">3na pers. sing. del preterit amb infixe -er-</description>
+        <example>anères, saberes, digueres, partires...</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor>
+          <variety id="oci_aran">aranes</variety>
+        </defaultFor>
+      </option>
+      <option id="p2s_pret:ès">
+        <description lang="fra">3e pers. sing. du prétérit sans infixe -er-</description>
+        <description lang="oci">3na pers. sing. del preterit sens infixe -er-</description>
+        <example>anès, sabís, diguís, partís</example>
+        <relevantFor>
+          <variety id="oci_aran">aranes</variety>
+        </relevantFor>
+        <defaultFor/>
+      </option>
+    </options>
+  </preference>
+</preferences>
+
