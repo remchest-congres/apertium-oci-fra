@@ -104,136 +104,111 @@ Nuit lit farine feuilles
 
 ```
 .
-├─ .deps/          -> Temporary build files
-├─ bin/            -> Binary files
-├─ build/          -> Files built by `apertium-filter-rules`
-├─ modes.xml       -> Translation modes
-└─ src/
-    ├─ dictionaries/
-    │   └─ apertium-oci-fra.oci-fra.dix            -> Bilingual dictionary
-    │
-    ├─ lexical-selection/
-    │   ├─ aranes/
-    │   │   ├─ apertium-oci-fra.fra-oci_aran.n_a_adv.lrx        -> Lexical selection rules for noun and adverbs
-    │   │   │                                                       translation into Occitan
-    │   │   └─ apertium-oci-fra.fra-oci_aran.v.lrx              -> Lexical selection rules for verbs translation
-    │   │                                                           into Occitan
-    │   │
-    │   ├─ gascon/
-    │   │   ├─ apertium-oci-fra.fra-oci_gascon.n_a_adv.lrx      -> Lexical selection rules for noun and adverbs
-    │   │   │                                                       translation into Occitan
-    │   │   ├─ apertium-oci-fra.fra-oci_gascon.np.lrx           -> Lexical selection rules for proper noun
-    │   │   │                                                       translation into Occitan
-    │   │   ├─ apertium-oci-fra.fra-oci_gascon.other.lrx        -> Lexical selection rules translating into Occitan
-    │   │   ├─ apertium-oci-fra.fra-oci_gascon.v.lrx            -> Lexical selection rules for verbs translation 
-    │   │   │                                                       into Occitan
-    │   │   ├─ apertium-oci-fra.oci_gascon-fra.n_a_adv.lrx      -> Lexical selection rules for noun and adverbs
-    │   │   │                                                       translation into French
-    │   |   ├─ apertium-oci-fra.oci_gascon-fra.v.lrx            -> Lexical selection rules for verbs translation into French
-    │   │   └─ apertium-oci-fra.oci_gascon-fra.other.lrx        -> Lexical selection rules translating into French
-    │   │
-    │   ├─ lengadocian/
-    │   │   ├─ apertium-oci-fra.fra-oci_lang.n_a_adv.lrx        -> Lexical selection rules for noun and adverbs
-    │   │   │                                                       translation into Occitan
-    │   │   ├─ apertium-oci-fra.fra-oci_lang.np.lrx             -> Lexical selection rules for proper noun
-    │   │   │                                                       translation into Occitan
-    │   │   ├─ apertium-oci-fra.fra-oci_lang.other.lrx          -> Lexical selection rules translating into Occitan
-    │   │   ├─ apertium-oci-fra.fra-oci_lang.v.lrx              -> Lexical selection rules for verbs translation 
-    │   │   │                                                       into Occitan
-    │   │   ├─ apertium-oci-fra.oci_lang-fra.n_a_adv.lrx        -> Lexical selection rules for noun and adverbs
-    │   │   │                                                       translation into French
-    │   |   ├─ apertium-oci-fra.oci_lang-fra.v.lrx              -> Lexical selection rules for verbs translation into French
-    │   │   └─ apertium-oci-fra.oci_lang-fra.other.lrx          -> Lexical selection rules translating into French
-    │   │
-    │   ├─ apertium-oci-fra.fra-oci.n_a_adv.lrx    -> Lexical selection rules for noun and adverbs
-    │   │                                              translation into Occitan
-    │   ├─ apertium-oci-fra.fra-oci.np.lrx         -> Lexical selection rules for proper noun translation into Occitan
-    │   ├─ apertium-oci-fra.fra-oci.v.lrx          -> Lexical selection rules for verbs translation into Occitan
-    │   ├─ apertium-oci-fra.fra-oci.other.lrx      -> Lexical selection rules translating into Occitan
-    │   ├─ apertium-oci-fra.oci-fra.n_a_adv.lrx    -> Lexical selection rules for noun and adverbs
-    │   │                                              translation into French
-    │   ├─ apertium-oci-fra.oci-fra.np.lrx         -> Lexical selection rules for proper noun translation into French
-    │   ├─ apertium-oci-fra.oci-fra.v.lrx          -> Lexical selection rules for verbs translation into French
-    │   └─ apertium-oci-fra.oci-fra.other.lrx      -> Lexical selection rules translating into French
-    │
-    ├─ multiwords/
-    │   ├─ apertium-oci-fra.oci_gascon-fra.l1x     -> Rules for recognising expressions with discontiguous
-    │   │                                              words for translating into French, specific to the Gascon variant
-    │   ├─ apertium-oci-fra.oci_lang-fra.l1x       -> Rules for recognising expressions with discontiguous
-    │   │                                              words for translating into French, specific to the Lengadocian variant
-    │   ├─ apertium-oci-fra.oci-fra.l1x            -> Rules for recognising expressions with discontiguous
-    │   │                                              words for translating into French, common rule for all variants
-    │   ├─ apertium-oci-fra.oci_gascon-fra.l2x     -> Rules for reordering words in discontiguous
-    │   │                                              expressions for translating into French, specific to the Gascon variant
-    │   ├─ apertium-oci-fra.oci_lang-fra.l2x       -> Rules for reordering words in discontiguous
-    │   │                                              expressions for translating into French, specific to the Lengadocian variant
-    │   ├─ apertium-oci-fra.oci-fra.l2x            -> Rules for reordering words in discontiguous
-    │   │                                              expressions for translating into French, common rule for all variants
-    │   ├─ apertium-oci-fra.fra-oci_gascon.l1x     -> Rules for recognising expressions with discontiguous
-    │   │                                              words for translating into Occitan, specific to the Gascon variant
-    │   ├─ apertium-oci-fra.fra-oci_lang.l1x       -> Rules for recognising expressions with discontiguous words for
-    │   │                                              translating into Occitan, specific to the Lengadocian variant
-    │   ├─ apertium-oci-fra.fra-oci.l1x            -> Rules for recognising expressions with discontiguous words for
-    │   │                                              translating into Occitan, common rule for all variants
-    │   ├─ apertium-oci-fra.fra-oci_gascon.l2x     -> Rules for reordering words in discontiguous expressions for
-    │   │                                              words for translating into Occitan, specific to the Gascon variant
-    │   ├─ apertium-oci-fra.fra-oci_lang.l2x       -> Rules for reordering words in discontiguous expressions for
-    │   │                                              translating into Occitan, specific to the Lengadocian variant
-    │   └─ apertium-oci-fra.fra-oci.l2x            -> Rules for reordering words in discontiguous expressions for
-    │                                                  translating into Occitan, common rule for all variants
-    │
-    ├─ preferences/
-    │   ├─ apertium-oci-fra.fra-oci_gascon.biprefs.rlx   -> Disambiguation rules for the Gascon variant
-    │   └─ apertium-oci-fra.fra-oci.biprefs.rlx          -> Disambiguation rules for the Lengadocian variant
-    │
-    └─ transfer/
-        ├─ chunkers/
-        │   ├─ apertium-oci-fra.oci_gascon-fra.t1x        -> Chunking rules for translating Occitan Gascon into French
-        │   ├─ apertium-oci-fra.oci-fra.t1x        -> Chunking rules for translating Occitan Lengadocian into French
-        │   ├─ apertium-oci-fra.fra-oci_gascon.t1x        -> Chunking rules for translating into Occitan Gascon
-        │   └─ apertium-oci-fra.fra-oci.t1x        -> Chunking rules for translating into Occitan Lengadocian
-        │
-        ├─ final-rules/
-        │   ├─ apertium-oci-fra.oci-fra.t4x        -> Final transfer rules for translating into French
-        │   └─ apertium-oci-fra.fra-oci.t4x        -> Final transfer rules for translating into Occitan
-        │
-        ├─ interchunks/
-        │   ├─ apertium-oci-fra.oci-fra.t2x_temps      -> Interchunk rules for translating into Occitan dealing with
-        │   │                                              changing verbal tenses (step 1)
-        │   ├─ apertium-oci-fra.oci-fra.t2ax           -> Interchunk gloabl rules for translating into French (steps 2)
-        │   ├─ apertium-oci-fra.oci_gascon-fra.t2ax    -> Interchunk rules for translating Gascon into French (steps 2)
-        │   ├─ apertium-oci-fra.oci_lang-fra.t2ax      -> Interchunk rules for translating Lengadocian into French (steps 2)
-        │   ├─ apertium-oci-fra.oci-fra.t2ax2          -> Interchunk gloabl rules for translating into French (steps 3)
-        │   ├─ apertium-oci-fra.oci_gascon-fra.t2ax2   -> Interchunk rules for translating Gascon into French (steps 3)
-        │   ├─ apertium-oci-fra.oci_lang-fra.t2ax2     -> Interchunk rules for translating Lengadocian into French (steps 3)
-        │   ├─ apertium-oci-fra.oci-fra.t2bx           -> Interchunk global rules for translating into French (step 4)
-        │   ├─ apertium-oci-fra.oci_gascon-fra.t2bx    -> Interchunk rules for translating Gascon into French (step 4)
-        │   ├─ apertium-oci-fra.oci_lang-fra.t2bx      -> Interchunk rules for translating Lengadocian into French (step 4)
-        │   ├─ apertium-oci-fra.oci-fra.t2cx           -> Interchunk global rules for translating into French (step 5)
-        │   ├─ apertium-oci-fra.oci_gascon-fra.t2cx    -> Interchunk rules for translating Gascon into French (step 5)
-        │   ├─ apertium-oci-fra.oci_lang-fra.t2cx      -> Interchunk rules for translating Lengadocian into French (step 5)
-        │   ├─ apertium-oci-fra.oci-fra.t2dx           -> Interchunk rules for translating into French (step 6)
-        │   ├─ apertium-oci-fra.oci-fra.t2ex           -> Interchunk rules for translating into French (step 7)
-        │   ├─ apertium-oci-fra.fra-oci.t2x_ini        -> Interchunk rules for translating into Occitan dealing with
-        │   │                                              subject-verb agreement (step 1)
-        │   ├─ apertium-oci-fra.fra-oci.t2x            -> Interchunk global rules for translating into Occitan (step 2)
-        │   ├─ apertium-oci-fra.fra-oci_gascon.t2x     -> Interchunk rules for translating into Occitan Gascon (step 2)
-        │   ├─ apertium-oci-fra.fra-oci_lang.t2x       -> Interchunk rules for translating into Occitan Lengadocian (step 2)
-        │   ├─ apertium-oci-fra.fra-oci.t2x_bis        -> Interchunk global rules for translating into Occitan (step 3)
-        │   ├─ apertium-oci-fra.fra-oci_gascon.t2x_bis -> Interchunk rules for translating into Occitan Gascon (step 3)
-        │   ├─ apertium-oci-fra.fra-oci_lang.t2x_bis   -> Interchunk rules for translating into Occitan Lengadocian (step 3)
-        │   ├─ apertium-oci-fra.fra-oci.t2x_pas        -> Interchunk rules for translating into Occitan dealing with
-        │   │                                              verbal negative forms (step 4)
-        │   ├─ apertium-oci-fra.fra-oci.t2x_pro        -> Interchunk rules for translating into Occitan dealing with
-        │   │                                              the order of proclitic pronouns (step 5)
-        │   ├─ apertium-oci-fra.fra-oci.t2x_supersn    -> Interchunk rules for translating into Occitan dealing with
-        │   │                                              the grouping of noun phrases (step 6)
-        │   └─ apertium-oci-fra.fra-oci.t2x_enon       -> Interchunk rules for translating into Occitan dealing with
-        │                                                  Gascon enonciatives (step 7)
-        │
-        └─ postchunks/
-            ├─ apertium-oci-fra.oci-fra.t3x        -> Postchunk rules for translating into French
-            └─ apertium-oci-fra.fra-oci.t3x        -> Postchunk rules for translating into Occitan
+├─ .deps/                                           -> Temporary build files
+├─ modes.xml                                        -> Translation modes
+├─ apertium-oci-fra.oci-fra.dix                     -> Bilingual dictionary
+├─ apertium-oci-fra.fra-oci_aran.n_a_adv.lrx        -> Lexical selection rules for noun and adverbs
+│                                                       translation into Occitan
+├─ apertium-oci-fra.fra-oci_aran.v.lrx              -> Lexical selection rules for verbs translation
+│                                                           into Occitan
+├─ apertium-oci-fra.fra-oci_gascon.n_a_adv.lrx      -> Lexical selection rules for noun and adverbs
+│                                                       translation into Occitan
+├─ apertium-oci-fra.fra-oci_gascon.np.lrx           -> Lexical selection rules for proper noun
+│                                                       translation into Occitan
+├─ apertium-oci-fra.fra-oci_gascon.other.lrx        -> Lexical selection rules translating into Occitan
+├─ apertium-oci-fra.fra-oci_gascon.v.lrx            -> Lexical selection rules for verbs translation
+│                                                       into Occitan
+├─ apertium-oci-fra.oci_gascon-fra.n_a_adv.lrx      -> Lexical selection rules for noun and adverbs
+│                                                       translation into French
+├─ apertium-oci-fra.oci_gascon-fra.v.lrx            -> Lexical selection rules for verbs translation into French
+├─ apertium-oci-fra.oci_gascon-fra.other.lrx        -> Lexical selection rules translating into French
+├─ apertium-oci-fra.fra-oci_lang.n_a_adv.lrx        -> Lexical selection rules for noun and adverbs
+│                                                       translation into Occitan
+├─ apertium-oci-fra.fra-oci_lang.np.lrx             -> Lexical selection rules for proper noun
+│                                                       translation into Occitan
+├─ apertium-oci-fra.fra-oci_lang.other.lrx          -> Lexical selection rules translating into Occitan
+├─ apertium-oci-fra.fra-oci_lang.v.lrx              -> Lexical selection rules for verbs translation
+│                                                       into Occitan
+├─ apertium-oci-fra.oci_lang-fra.n_a_adv.lrx        -> Lexical selection rules for noun and adverbs
+│                                                       translation into French
+├─ apertium-oci-fra.oci_lang-fra.v.lrx              -> Lexical selection rules for verbs translation into French
+├─ apertium-oci-fra.oci_lang-fra.other.lrx          -> Lexical selection rules translating into French
+├─ apertium-oci-fra.fra-oci.n_a_adv.lrx             -> Lexical selection rules for noun and adverbs
+│                                                       translation into Occitan
+├─ apertium-oci-fra.fra-oci.np.lrx                  -> Lexical selection rules for proper noun translation into Occitan
+├─ apertium-oci-fra.fra-oci.v.lrx                   -> Lexical selection rules for verbs translation into Occitan
+├─ apertium-oci-fra.fra-oci.other.lrx               -> Lexical selection rules translating into Occitan
+├─ apertium-oci-fra.oci-fra.n_a_adv.lrx             -> Lexical selection rules for noun and adverbs
+│                                                       translation into French
+├─ apertium-oci-fra.oci-fra.np.lrx                  -> Lexical selection rules for proper noun translation into French
+├─ apertium-oci-fra.oci-fra.v.lrx                   -> Lexical selection rules for verbs translation into French
+├─ apertium-oci-fra.oci-fra.other.lrx               -> Lexical selection rules translating into French
+├─ apertium-oci-fra.oci_gascon-fra.l1x              -> Rules for recognising expressions with discontiguous
+│                                                       words for translating into French, specific to the Gascon variant
+├─ apertium-oci-fra.oci_lang-fra.l1x                -> Rules for recognising expressions with discontiguous
+│                                                       words for translating into French, specific to the Lengadocian variant
+├─ apertium-oci-fra.oci-fra.l1x                     -> Rules for recognising expressions with discontiguous
+│                                                       words for translating into French, common rule for all variants
+├─ apertium-oci-fra.oci_gascon-fra.l2x              -> Rules for reordering words in discontiguous
+│                                                       expressions for translating into French, specific to the Gascon variant
+├─ apertium-oci-fra.oci_lang-fra.l2x                -> Rules for reordering words in discontiguous
+│                                                       expressions for translating into French, specific to the Lengadocian variant
+├─ apertium-oci-fra.oci-fra.l2x                     -> Rules for reordering words in discontiguous
+│                                                       expressions for translating into French, common rule for all variants
+├─ apertium-oci-fra.fra-oci_gascon.l1x              -> Rules for recognising expressions with discontiguous
+│                                                       words for translating into Occitan, specific to the Gascon variant
+├─ apertium-oci-fra.fra-oci_lang.l1x                -> Rules for recognising expressions with discontiguous words for
+│                                                       translating into Occitan, specific to the Lengadocian variant
+├─ apertium-oci-fra.fra-oci.l1x                     -> Rules for recognising expressions with discontiguous words for
+│                                                       translating into Occitan, common rule for all variants
+├─ apertium-oci-fra.fra-oci_gascon.l2x              -> Rules for reordering words in discontiguous expressions for
+│                                                       words for translating into Occitan, specific to the Gascon variant
+├─ apertium-oci-fra.fra-oci_lang.l2x                -> Rules for reordering words in discontiguous expressions for
+│                                                       translating into Occitan, specific to the Lengadocian variant
+├─ apertium-oci-fra.fra-oci.l2x                     -> Rules for reordering words in discontiguous expressions for
+|                                                       translating into Occitan, common rule for all variants
+├─ apertium-oci-fra.fra-oci_gascon.biprefs.rlx      -> Disambiguation rules for the Gascon variant
+├─ apertium-oci-fra.fra-oci.biprefs.rlx             -> Disambiguation rules for the Lengadocian variant
+├─ apertium-oci-fra.oci_gascon-fra.t1x              -> Chunking rules for translating Occitan Gascon into French
+├─ apertium-oci-fra.oci-fra.t1x                     -> Chunking rules for translating Occitan Lengadocian into French
+├─ apertium-oci-fra.fra-oci_gascon.t1x              -> Chunking rules for translating into Occitan Gascon
+├─ apertium-oci-fra.fra-oci.t1x                     -> Chunking rules for translating into Occitan Lengadocian
+├─ apertium-oci-fra.oci-fra.t4x                     -> Final transfer rules for translating into French
+├─ apertium-oci-fra.fra-oci.t4x                     -> Final transfer rules for translating into Occitan
+├─ apertium-oci-fra.oci-fra.t2x_temps               -> Interchunk rules for translating into Occitan dealing with
+│                                                       changing verbal tenses (step 1)
+├─ apertium-oci-fra.oci-fra.t2ax                    -> Interchunk gloabl rules for translating into French (steps 2)
+├─ apertium-oci-fra.oci_gascon-fra.t2ax             -> Interchunk rules for translating Gascon into French (steps 2)
+├─ apertium-oci-fra.oci_lang-fra.t2ax               -> Interchunk rules for translating Lengadocian into French (steps 2)
+├─ apertium-oci-fra.oci-fra.t2ax2                   -> Interchunk gloabl rules for translating into French (steps 3)
+├─ apertium-oci-fra.oci_gascon-fra.t2ax2            -> Interchunk rules for translating Gascon into French (steps 3)
+├─ apertium-oci-fra.oci_lang-fra.t2ax2              -> Interchunk rules for translating Lengadocian into French (steps 3)
+├─ apertium-oci-fra.oci-fra.t2bx                    -> Interchunk global rules for translating into French (step 4)
+├─ apertium-oci-fra.oci_gascon-fra.t2bx             -> Interchunk rules for translating Gascon into French (step 4)
+├─ apertium-oci-fra.oci_lang-fra.t2bx               -> Interchunk rules for translating Lengadocian into French (step 4)
+├─ apertium-oci-fra.oci-fra.t2cx                    -> Interchunk global rules for translating into French (step 5)
+├─ apertium-oci-fra.oci_gascon-fra.t2cx             -> Interchunk rules for translating Gascon into French (step 5)
+├─ apertium-oci-fra.oci_lang-fra.t2cx               -> Interchunk rules for translating Lengadocian into French (step 5)
+├─ apertium-oci-fra.oci-fra.t2dx                    -> Interchunk rules for translating into French (step 6)
+├─ apertium-oci-fra.oci-fra.t2ex                    -> Interchunk rules for translating into French (step 7)
+├─ apertium-oci-fra.fra-oci.t2x_ini                 -> Interchunk rules for translating into Occitan dealing with
+│                                                       subject-verb agreement (step 1)
+├─ apertium-oci-fra.fra-oci.t2x                     -> Interchunk global rules for translating into Occitan (step 2)
+├─ apertium-oci-fra.fra-oci_gascon.t2x              -> Interchunk rules for translating into Occitan Gascon (step 2)
+├─ apertium-oci-fra.fra-oci_lang.t2x                -> Interchunk rules for translating into Occitan Lengadocian (step 2)
+├─ apertium-oci-fra.fra-oci.t2x_bis                 -> Interchunk global rules for translating into Occitan (step 3)
+├─ apertium-oci-fra.fra-oci_gascon.t2x_bis          -> Interchunk rules for translating into Occitan Gascon (step 3)
+├─ apertium-oci-fra.fra-oci_lang.t2x_bis            -> Interchunk rules for translating into Occitan Lengadocian (step 3)
+├─ apertium-oci-fra.fra-oci.t2x_pas                 -> Interchunk rules for translating into Occitan dealing with
+│                                                       verbal negative forms (step 4)
+├─ apertium-oci-fra.fra-oci.t2x_pro                 -> Interchunk rules for translating into Occitan dealing with
+│                                                       the order of proclitic pronouns (step 5)
+├─ apertium-oci-fra.fra-oci.t2x_supersn             -> Interchunk rules for translating into Occitan dealing with
+│                                                       the grouping of noun phrases (step 6)
+├─ apertium-oci-fra.fra-oci.t2x_enon                -> Interchunk rules for translating into Occitan dealing with
+|                                                       Gascon enonciatives (step 7)
+├─ apertium-oci-fra.oci-fra.t3x                     -> Postchunk rules for translating into French
+└─ apertium-oci-fra.fra-oci.t3x                     -> Postchunk rules for translating into Occitan
 ```
 
 # For more information
