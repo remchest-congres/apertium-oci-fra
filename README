@@ -20,11 +20,11 @@ information" below
 
 You will need the following software installed:
 
-- lttoolbox (>= 3.3.0)
-- apertium (>= 3.3.0)
-- vislcg3 (>= 0.9.9.10297)
-- apertium-oci
-- apertium-fra
+- lttoolbox (>= 3.5.0)
+- apertium (>= 3.6.0)
+- vislcg3 (>= 1.3.0)
+- apertium-oci (>= 2.0.0)
+- apertium-fra (>= 1.12.0)
 
 If this does not make any sense, we recommend you look at: apertium.org
 
